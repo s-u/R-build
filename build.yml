@@ -1,9 +1,7 @@
 name: Build R
 
 on:
-  push:
-    branches: [ "devel", "release" ]
-  workflow_dispatch:
+  push
 
 jobs:
   build:
