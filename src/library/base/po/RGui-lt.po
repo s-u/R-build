@@ -1,0 +1,1211 @@
+# Lithuanian translations for R package.
+# Copyright (C) 2020 The R Core Team
+# This file is distributed under the same license as the R package.
+# <r.zakauskas@gmail.com;gabriele.dauksaite@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 4.1.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2023-11-30 16:47+0100\n"
+"PO-Revision-Date: 2020-12-08 12:02+0200\n"
+"Last-Translator: r.zakauskas@gmail.com;gabriele.dauksaite@gmail.com\n"
+"Language-Team: Lithuanian\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CP1257\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: src/gnuwin32/console.c:1200 src/gnuwin32/console.c:1242
+msgid "Not enough memory"
+msgstr "Nepakanka atminties"
+
+#: src/gnuwin32/console.c:1289 src/gnuwin32/console.c:1293
+msgid "Insufficient memory: text not copied to the clipboard"
+msgstr "Nepakanka atminties: tekstas nenukopijuotas á iðkarpinæ"
+
+#: src/gnuwin32/console.c:1331 src/extra/graphapp/clipboard.c:53
+#: src/extra/graphapp/clipboard.c:79
+msgid "Unable to open the clipboard"
+msgstr "Neámanoma atidaryti iðkarpinës"
+
+#: src/gnuwin32/console.c:1977
+msgid "Insufficient memory. Please close the console"
+msgstr "Nepakanka atminties. Uþdarykite konsolæ"
+
+#: src/gnuwin32/console.c:2033 src/gnuwin32/console.c:2087
+#: src/gnuwin32/preferences.c:342
+#, c-format
+msgid ""
+"Font %s-%d-%d  not found.\n"
+"Using system fixed font"
+msgstr ""
+"Ðriftas %s-%d-%d nerastas.\n"
+"Fiksuoto sistemos ðrifto naudojimas"
+
+#: src/gnuwin32/console.c:2192
+msgid "Save selection to"
+msgstr "Áraðyti pasirinkimà á"
+
+#: src/gnuwin32/console.c:2194
+msgid "Save console contents to"
+msgstr "Áraðyti konsolës turiná á"
+
+#: src/gnuwin32/console.c:2301
+msgid "Scrolling.\n"
+msgstr "Slinkimas.\n"
+
+#: src/gnuwin32/console.c:2302
+msgid "  Keyboard: PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
+msgstr "  Klaviatûra: PgUp, PgDown, Ctrl+rodyklës, Ctrl+Home, Ctrl+End,\n"
+
+#: src/gnuwin32/console.c:2303
+msgid ""
+"  Mouse: use the scrollbar(s).\n"
+"\n"
+msgstr ""
+"  Pelë: naudokite slinkties juostà (-as).\n"
+"\n"
+
+#: src/gnuwin32/console.c:2304
+msgid "Editing.\n"
+msgstr "Redagavimas.\n"
+
+#: src/gnuwin32/console.c:2305
+msgid "  Moving the cursor: \n"
+msgstr "  Þymeklio perkëlimas: \n"
+
+#: src/gnuwin32/console.c:2306
+msgid "     Left arrow or Ctrl+B: move backward one character;\n"
+msgstr "     Rodyklë kairën arba Ctrl+B: judëti atgal per vienà simbolá;\n"
+
+#: src/gnuwin32/console.c:2307
+msgid "     Right arrow or Ctrl+F: move forward one character;\n"
+msgstr "     Rodyklë deðinën arba Ctrl+F: judëti á prieká per vienà simbolá;\n"
+
+#: src/gnuwin32/console.c:2308
+msgid "     Home or Ctrl+A: go to beginning of line;\n"
+msgstr "     Home arba Ctrl+A: eiti á eilutës pradþià;\n"
+
+#: src/gnuwin32/console.c:2309
+msgid "     End or Ctrl+E: go to end of line;\n"
+msgstr "     End arba Ctrl+E: eiti á eilutës pabaigà;\n"
+
+#: src/gnuwin32/console.c:2310
+msgid "  History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
+msgstr "  Istorija: rodyklës aukðtyn ir þemyn, Ctrl+P, Ctrl+N\n"
+
+#: src/gnuwin32/console.c:2311
+msgid "  Deleting:\n"
+msgstr "  Ðalinimas:\n"
+
+#: src/gnuwin32/console.c:2312
+msgid "     Del or Ctrl+D: delete current character or selection;\n"
+msgstr "     Del arba Ctrl+D: naikinti dabartiná simbolá arba pasirinkimà;\n"
+
+#: src/gnuwin32/console.c:2313
+msgid "     Backspace: delete preceding character;\n"
+msgstr "     Backspace: iðtrinti ankstesná simbolá;\n"
+
+#: src/gnuwin32/console.c:2314
+msgid "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
+msgstr "     Ctrl+Del arba Ctrl+K: ðalinti tekstà nuo dabartinio simbolio iki eilutës pabaigos.\n"
+
+#: src/gnuwin32/console.c:2315
+msgid "     Ctrl+U: delete all text from current line.\n"
+msgstr "     Ctrl+U: iðtrinti visà tekstà ið dabartinës eilutës.\n"
+
+#: src/gnuwin32/console.c:2316
+msgid "  Copy and paste.\n"
+msgstr "  Kopijuoti ir áklijuoti.\n"
+
+#: src/gnuwin32/console.c:2317
+msgid "     Use the mouse (with the left button held down) to mark (select) text.\n"
+msgstr "     Norëdami paþymëti tekstà naudokite pelæ (laikyti kairájá mygtukà).\n"
+
+#: src/gnuwin32/console.c:2318
+msgid "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
+msgstr "     Naudoti Shift+Del (arba Ctrl+C) nukipijuoti paþymëtà tekstà á iðkarpinæ ir\n"
+
+#: src/gnuwin32/console.c:2319
+msgid "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
+msgstr "     Shift+Ins (arba Ctrl+V arba Ctrl+Y) áklijuoti iðkarpinës turiná (jei yra)  \n"
+
+#: src/gnuwin32/console.c:2320
+msgid "     to the console, Ctrl+X first copy then paste\n"
+msgstr "     á konsolæ, Ctrl+X pirmiausia nukopijuokite tada áklijuokite\n"
+
+#: src/gnuwin32/console.c:2321
+msgid "  Misc:\n"
+msgstr "  Kita:\n"
+
+#: src/gnuwin32/console.c:2322
+msgid "     Ctrl+L: Clear the console.\n"
+msgstr "     Ctrl+L: iðvalyti konsolæ.\n"
+
+#: src/gnuwin32/console.c:2323
+msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
+msgstr "     Ctrl+O arba INS: perjungti perraðymo reþimà: ið pradþiø iðjungta.\n"
+
+#: src/gnuwin32/console.c:2324
+msgid "     Ctrl+T: Interchange current char with one to the left.\n"
+msgstr "     Ctrl+T: apsikeisti dabartiná simbolá su vienu á kairæ.\n"
+
+#: src/gnuwin32/console.c:2325
+msgid ""
+"\n"
+"Note: Console is updated only when some input is required.\n"
+msgstr ""
+"\n"
+"Pastaba: konsolë atnaujinama tik tada, kai reikia ávesties.\n"
+
+#: src/gnuwin32/console.c:2326
+msgid ""
+"  Use Ctrl+W to toggle this feature off/on.\n"
+"\n"
+msgstr ""
+"  Naudokite Ctrl+W, kad perjungtumëte ðios funkcijos bûsenà.\n"
+"\n"
+
+#: src/gnuwin32/console.c:2327
+msgid ""
+"Use ESC to stop the interpreter.\n"
+"\n"
+msgstr ""
+"Norëdami sustabdyti interpretatoriø, naudokite ESC.\n"
+"\n"
+
+#: src/gnuwin32/console.c:2328
+msgid ""
+"TAB starts completion of the current word.\n"
+"\n"
+msgstr ""
+"TAB pradeda uþbaigti dabartiná þodá.\n"
+"\n"
+
+#: src/gnuwin32/console.c:2329
+msgid "Standard Windows hotkeys can be used to switch to the\n"
+msgstr "Standartiniai Windows spartieji klaviðai gali bûti naudojami norint perjungti\n"
+
+#: src/gnuwin32/console.c:2330
+msgid "graphics device (Ctrl+Tab or Ctrl+F6 in MDI, Alt+Tab in SDI)"
+msgstr "grafikos árenginys (Ctrl+Tab arba Ctrl+F6 (MDI), Alt+Tab (SDI))"
+
+#: src/gnuwin32/editor.c:89 src/gnuwin32/editor.c:91
+msgid "R Editor"
+msgstr "R rengyklë"
+
+#: src/gnuwin32/editor.c:162
+#, c-format
+msgid "unable to open file %s for reading"
+msgstr "neámanoma atidaryti failo %s skaitymui"
+
+#: src/gnuwin32/editor.c:187
+#, c-format
+msgid "Could not read from file '%s'"
+msgstr "Nepavyko perskaityti ið failo '%s'"
+
+#: src/gnuwin32/editor.c:220
+#, c-format
+msgid "Could not save file '%s'"
+msgstr "Nepavyko áraðyti failo '%s'"
+
+#: src/gnuwin32/editor.c:240
+msgid "Save script as"
+msgstr "Áraðyti scenarijø kaip"
+
+#: src/gnuwin32/editor.c:439 src/gnuwin32/editor.c:765 src/gnuwin32/pager.c:441
+#: src/gnuwin32/rui.c:1164
+msgid "Open script"
+msgstr "Atverti scenarijø"
+
+#: src/gnuwin32/editor.c:571 src/gnuwin32/pager.c:195 src/gnuwin32/pager.c:215
+msgid "No RGui console to paste to"
+msgstr "Nëra RGui konsolës,kurià áklijuoti á"
+
+#: src/gnuwin32/editor.c:673
+msgid "R EDITOR\n"
+msgstr "R RENGYKLË\n"
+
+#: src/gnuwin32/editor.c:675
+msgid "A standard text editor for editing and running R code.\n"
+msgstr "Standartinë teksto rengyklë, skirta R kodui redaguoti ir paleisti.\n"
+
+#: src/gnuwin32/editor.c:677
+msgid "RUNNING COMMANDS\n"
+msgstr "VYKDOMOS KOMANDOS\n"
+
+#: src/gnuwin32/editor.c:678
+msgid "To run a line or section of R code, select the code and either\n"
+msgstr "Norëdami vykdyti R kodo eilutæ arba sekcijà, pasirinkite kodà ir arba\n"
+
+#: src/gnuwin32/editor.c:679
+msgid "     Press Ctrl-R\n"
+msgstr "     Spausti Ctrl-R\n"
+
+#: src/gnuwin32/editor.c:680
+msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
+msgstr "     Ið meniu „Redaguoti“ pasirinkite „Vykdyti eilutæ arba pasirinkimà“\n"
+
+#: src/gnuwin32/editor.c:681
+msgid "     Press the \"Run line or selection\" icon on the toolbar\n"
+msgstr "     Árankiø juostoje paspauskite piktogramà „Vykdyti eilutæ arba pasirinkimà“\n"
+
+#: src/gnuwin32/editor.c:682
+msgid "This will copy the selected commands to the console and evaluate them.\n"
+msgstr "Tai nukopijuos pasirinktas komandas á konsolæ ir ávertins jas.\n"
+
+#: src/gnuwin32/editor.c:683
+msgid "If there is no selection, this will just run the current line and advance\n"
+msgstr "Jei pasirinkimo nëra, tai tiesiog paleis dabartinæ eilutæ ið anksto\n"
+
+#: src/gnuwin32/editor.c:684
+msgid "the cursor by one line.\n"
+msgstr "þymeklis vienoje eilutëje.\n"
+
+#: src/gnuwin32/editor.c:696 src/gnuwin32/editor.c:773
+#: src/gnuwin32/editor.c:831
+msgid "Run line or selection"
+msgstr "Vykdyti eilutæ arba pasirinkimà"
+
+#: src/gnuwin32/editor.c:698 src/gnuwin32/editor.c:816
+msgid "Undo"
+msgstr "Atðaukti"
+
+#: src/gnuwin32/editor.c:700 src/gnuwin32/editor.c:819
+msgid "Cut"
+msgstr "Iðkirpti"
+
+#: src/gnuwin32/editor.c:701 src/gnuwin32/editor.c:821 src/gnuwin32/pager.c:315
+#: src/gnuwin32/pager.c:488 src/gnuwin32/rui.c:936 src/gnuwin32/rui.c:1176
+#: src/gnuwin32/rui.c:1232
+msgid "Copy"
+msgstr "Kopijuoti"
+
+#: src/gnuwin32/editor.c:702 src/gnuwin32/editor.c:823 src/gnuwin32/rui.c:937
+#: src/gnuwin32/rui.c:1180 src/gnuwin32/rui.c:1233
+msgid "Paste"
+msgstr "Áklijuoti"
+
+#: src/gnuwin32/editor.c:703 src/gnuwin32/editor.c:825
+msgid "Delete"
+msgstr "Paðalinti"
+
+#: src/gnuwin32/editor.c:705 src/gnuwin32/editor.c:827 src/gnuwin32/pager.c:318
+#: src/gnuwin32/pager.c:494 src/gnuwin32/rui.c:943 src/gnuwin32/rui.c:1237
+msgid "Select all"
+msgstr "Pasirinkti visus"
+
+#: src/gnuwin32/editor.c:769
+msgid "Save script"
+msgstr "Áraðyti scenarijø"
+
+#: src/gnuwin32/editor.c:777 src/gnuwin32/pager.c:461
+#: src/library/grDevices/src/devWindows.c:1607
+msgid "Return focus to Console"
+msgstr "Gràþinti fokusà á konsolæ"
+
+#: src/gnuwin32/editor.c:780
+msgid "Print script"
+msgstr "Spausdinti scenarijø"
+
+#: src/gnuwin32/editor.c:782 src/gnuwin32/pager.c:456 src/gnuwin32/rui.c:1192
+#: src/library/grDevices/src/devWindows.c:1601
+msgid "Print"
+msgstr "Spausdinti"
+
+#: src/gnuwin32/editor.c:800 src/gnuwin32/pager.c:477 src/gnuwin32/rui.c:1210
+#: src/library/utils/src/windows/dataentry.c:1835
+#: src/library/grDevices/src/devWindows.c:1639
+msgid "File"
+msgstr "Failas"
+
+#: src/gnuwin32/editor.c:801 src/gnuwin32/pager.c:478 src/gnuwin32/rui.c:1212
+msgid "New script"
+msgstr "Naujas scenarijus"
+
+#: src/gnuwin32/editor.c:803 src/gnuwin32/pager.c:479 src/gnuwin32/rui.c:1213
+msgid "Open script..."
+msgstr "Atverti scenarijø..."
+
+#: src/gnuwin32/editor.c:805
+msgid "Save"
+msgstr "Áraðyti"
+
+#: src/gnuwin32/editor.c:807
+msgid "Save as..."
+msgstr "Áraðyti kaip..."
+
+#: src/gnuwin32/editor.c:810 src/gnuwin32/pager.c:480 src/gnuwin32/rui.c:1226
+#: src/library/grDevices/src/devWindows.c:1660
+#: src/library/grDevices/src/devWindows.c:1702
+msgid "Print..."
+msgstr "Spausdinti..."
+
+#: src/gnuwin32/editor.c:813
+msgid "Close script"
+msgstr "Uþverti scenarijø"
+
+#: src/gnuwin32/editor.c:815 src/gnuwin32/pager.c:487 src/gnuwin32/rui.c:1231
+#: src/library/utils/src/windows/dataentry.c:1841
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: src/gnuwin32/editor.c:829 src/gnuwin32/rui.c:1238
+msgid "Clear console"
+msgstr "Iðvalyti konsolæ"
+
+#: src/gnuwin32/editor.c:833
+msgid "Run all"
+msgstr "Vykdyti viskà"
+
+#: src/gnuwin32/editor.c:836
+msgid "Find..."
+msgstr "Ieðkoti..."
+
+#: src/gnuwin32/editor.c:838
+msgid "Replace..."
+msgstr "Pakeisti..."
+
+#: src/gnuwin32/editor.c:841 src/gnuwin32/rui.c:1242
+msgid "GUI preferences..."
+msgstr "GUI nuostatos..."
+
+#: src/gnuwin32/editor.c:851 src/gnuwin32/rui.c:1274
+#: src/library/utils/src/windows/dataentry.c:1742
+#: src/library/utils/src/windows/dataentry.c:1852
+msgid "Help"
+msgstr "Pagalba"
+
+#: src/gnuwin32/editor.c:852
+msgid "Editor"
+msgstr "Rengyklë"
+
+#: src/gnuwin32/editor.c:911
+msgid "Maximum number of editors reached"
+msgstr "Pasiektas maksimalus rengykliø skaièius"
+
+#: src/gnuwin32/editor.c:916
+msgid "Unable to create editor window"
+msgstr "Neámanoma sukurti rengyklës lango"
+
+#: src/gnuwin32/editor.c:924
+msgid "Untitled"
+msgstr "Be pavadinimo"
+
+#: src/gnuwin32/extra.c:1052
+msgid "Select file"
+msgstr "Pasirinkti failà"
+
+#: src/gnuwin32/pager.c:83 src/gnuwin32/pager.c:99
+msgid "Error opening file"
+msgstr "Klaida atveriant failà"
+
+#: src/gnuwin32/pager.c:88 src/gnuwin32/pager.c:106
+msgid "Insufficient memory to display file in internal pager"
+msgstr "Nepakanka atminties, kad bûtø galima rodyti failà vidiniame ieðkiklyje"
+
+#: src/gnuwin32/pager.c:187 src/gnuwin32/pager.c:199 src/gnuwin32/pager.c:219
+#: src/gnuwin32/rui.c:306 src/gnuwin32/rui.c:333
+msgid "No selection"
+msgstr "Nëra pasirinkimo"
+
+#: src/gnuwin32/pager.c:316 src/gnuwin32/pager.c:446 src/gnuwin32/pager.c:490
+msgid "Paste to console"
+msgstr "Áklijuoti á konsolæ"
+
+#: src/gnuwin32/pager.c:317 src/gnuwin32/pager.c:451 src/gnuwin32/pager.c:492
+msgid "Paste commands to console"
+msgstr "Áklijuoti komandas á konsolæ"
+
+#: src/gnuwin32/pager.c:320 src/gnuwin32/rui.c:946
+#: src/library/utils/src/windows/dataentry.c:1748
+#: src/library/grDevices/src/devWindows.c:1699
+msgid "Stay on top"
+msgstr "Likite virðuje"
+
+#: src/gnuwin32/pager.c:322 src/gnuwin32/pager.c:485
+#: src/library/utils/src/windows/dataentry.c:1750
+#: src/library/utils/src/windows/dataentry.c:1837
+msgid "Close"
+msgstr "Uþverti"
+
+#: src/gnuwin32/pager.c:482 src/gnuwin32/rui.c:1227
+msgid "Save to File..."
+msgstr "Áraðyti á failà..."
+
+#: src/gnuwin32/pager.c:497 src/gnuwin32/rui.c:1244
+msgid "View"
+msgstr "Perþiûrëti"
+
+#: src/gnuwin32/pager.c:529
+msgid "Unable to create pager window"
+msgstr "Neámanoma sukurti ieðkiklio lango"
+
+#: src/gnuwin32/preferences.c:307
+msgid ""
+"The overall console properties cannot be changed\n"
+"on a running console.\n"
+"\n"
+"Save the preferences and restart Rgui to apply them.\n"
+msgstr ""
+"Bendros konsolës ypatybiø keisti negalima\n"
+"veikianèioje konsolëje.\n"
+"\n"
+"Áraðykite nuostatas ir ið naujo paleiskite Rgui, kad jas pritaikytumëte.\n"
+
+#: src/gnuwin32/preferences.c:311
+msgid ""
+"The language for menus cannot be changed on a\n"
+" running console.\n"
+"\n"
+"Save the preferences and restart Rgui to apply to menus.\n"
+msgstr ""
+"Meniu kalbos negalima keisti\n"
+" veikianèioje konsolëje.\n"
+"\n"
+"Áraðykite nuostatas ir ið naujo paleiskite Rgui, kad jis bûtø taikomas meniu.\n"
+
+#: src/gnuwin32/preferences.c:380
+msgid "Changes in pager size will not apply to any open pagers"
+msgstr "Dydþio pakeitimai ieðkiklyje nebus taikomi jokiems atviriems ieðkikliams"
+
+#: src/gnuwin32/preferences.c:386
+msgid ""
+"Do not change pager type if any pager is open\n"
+"Proceed?"
+msgstr ""
+"Nekeiskite ieðkiklio tipo, jei atidarytas kuris nors ieðkiklis\n"
+"Tæsti?"
+
+#: src/gnuwin32/preferences.c:420
+msgid "Select directory for file 'Rconsole'"
+msgstr "Pasirinkite katalogà failui 'Rconsole'"
+
+#: src/gnuwin32/preferences.c:515
+msgid "Select 'Rconsole' file"
+msgstr "Pasirinkti 'Rconsole' failà"
+
+#: src/gnuwin32/preferences.c:703
+#, c-format
+msgid "Ignored '%s' at line %d of file %s"
+msgstr "Nepaisytas '%s' (eilutëje %d) failo %s"
+
+#: src/gnuwin32/preferences.c:804
+msgid "Rgui Configuration Editor"
+msgstr "Rgui konfigûravimo rengyklë"
+
+#: src/gnuwin32/rui.c:215
+msgid "Select file to source"
+msgstr "Pasirinkti failà á ðaltiná"
+
+#: src/gnuwin32/rui.c:233
+msgid "Select image to load"
+msgstr "Pasirinkite norimà ákelti vaizdà"
+
+#: src/gnuwin32/rui.c:245
+msgid "Save image in"
+msgstr "Áraðyti vaizdà á"
+
+#: src/gnuwin32/rui.c:259
+msgid "Load history from"
+msgstr "Ákelti istorijà ið"
+
+#: src/gnuwin32/rui.c:268
+msgid "Save history in"
+msgstr "Áraðyti istorijà"
+
+#: src/gnuwin32/rui.c:315 src/gnuwin32/rui.c:324
+msgid "No text available"
+msgstr "Nëra teksto"
+
+#: src/gnuwin32/rui.c:373
+msgid "Name of data frame or matrix"
+msgstr "Duomenø struktûros arba matricos pavadinimas"
+
+#: src/gnuwin32/rui.c:380
+#, c-format
+msgid "'%s' cannot be found"
+msgstr "Nepavyko rasti '%s'"
+
+#: src/gnuwin32/rui.c:524
+msgid "Are you sure?"
+msgstr "Ar esate tikri?"
+
+#: src/gnuwin32/rui.c:619
+msgid "Help on"
+msgstr "Pagalba"
+
+#: src/gnuwin32/rui.c:675
+msgid "Search help"
+msgstr "Ieðkoti þinyno"
+
+#: src/gnuwin32/rui.c:690
+msgid "Search for words in help list archives and documentation"
+msgstr "Ieðkokite þodþiø pagalbiniuose archyvuose ir dokumentuose"
+
+#: src/gnuwin32/rui.c:705
+msgid "Apropos"
+msgstr "Savalaikis"
+
+#: src/gnuwin32/rui.c:932
+msgid "Can only drag-and-drop .R, .RData and .rda files"
+msgstr "Galima tik nutempti .R, .RData ir .rda failai"
+
+#: src/gnuwin32/rui.c:938 src/gnuwin32/rui.c:1234
+msgid "Paste commands only"
+msgstr "Áklijuoti tik komandas"
+
+#: src/gnuwin32/rui.c:939 src/gnuwin32/rui.c:1184
+msgid "Copy and paste"
+msgstr "Kopijuoti ir áklijuoti"
+
+#: src/gnuwin32/rui.c:941
+msgid "Clear window"
+msgstr "Iðvalyti langà"
+
+#: src/gnuwin32/rui.c:945 src/gnuwin32/rui.c:1257
+msgid "Buffered output"
+msgstr "Kaupiamasis iðvedimas"
+
+#: src/gnuwin32/rui.c:985
+msgid "Packages"
+msgstr "Paketai"
+
+#: src/gnuwin32/rui.c:986
+msgid "Load package..."
+msgstr "Ákelti paketà..."
+
+#: src/gnuwin32/rui.c:988
+msgid "Set CRAN mirror..."
+msgstr "Nustatyti CRAN veidrodá..."
+
+#: src/gnuwin32/rui.c:990
+msgid "Select repositories..."
+msgstr "Pasirinkti saugyklas..."
+
+#: src/gnuwin32/rui.c:992
+msgid "Install package(s)..."
+msgstr "Diegti paketà (-us)..."
+
+#: src/gnuwin32/rui.c:994
+msgid "Update packages..."
+msgstr "Naujinti paketus..."
+
+#: src/gnuwin32/rui.c:997
+msgid "Install package(s) from local files..."
+msgstr "Ádiekite paketà (-us) ið vietiniø failø..."
+
+#: src/gnuwin32/rui.c:1021
+msgid "FAQ on R"
+msgstr "DUK apie R"
+
+#: src/gnuwin32/rui.c:1023
+msgid "FAQ on R for &Windows"
+msgstr "DUK apie R, skirtas Windows"
+
+#: src/gnuwin32/rui.c:1029 src/gnuwin32/rui.c:1032
+msgid "Manuals (in PDF)"
+msgstr "Þinynai (PDF formatu)"
+
+#: src/gnuwin32/rui.c:1062
+msgid "R functions (text)..."
+msgstr "R funkcijos (tekstas)..."
+
+#: src/gnuwin32/rui.c:1064
+msgid "Html help"
+msgstr "HTML þinynas"
+
+#: src/gnuwin32/rui.c:1066
+msgid "Search help..."
+msgstr "Ieðkoti þinyno..."
+
+#: src/gnuwin32/rui.c:1071
+msgid "Apropos..."
+msgstr "Savalaikis..."
+
+#: src/gnuwin32/rui.c:1073
+msgid "R Project home page"
+msgstr "R Projekto pagrindinis puslapis"
+
+#: src/gnuwin32/rui.c:1074
+msgid "CRAN home page"
+msgstr "CRAN pagrindinis puslapis"
+
+#: src/gnuwin32/rui.c:1076
+msgid "About"
+msgstr "Apie"
+
+#: src/gnuwin32/rui.c:1085 src/extra/graphapp/gmenus.c:52
+msgid "Windows"
+msgstr "Windows"
+
+#: src/gnuwin32/rui.c:1086 src/extra/graphapp/gmenus.c:53
+msgid "Cascade"
+msgstr "Pakopa"
+
+#: src/gnuwin32/rui.c:1087 src/extra/graphapp/gmenus.c:54
+msgid "Tile &Horizontally"
+msgstr "Iðkloti &Horizontaliai"
+
+#: src/gnuwin32/rui.c:1088 src/extra/graphapp/gmenus.c:55
+msgid "Tile &Vertically"
+msgstr "Iðkloti &Vertikaliai"
+
+#: src/gnuwin32/rui.c:1089
+msgid "Minimize group"
+msgstr "Minimizuoti grupæ"
+
+#: src/gnuwin32/rui.c:1090
+msgid "Restore group"
+msgstr "Atstatyti grupæ"
+
+#: src/gnuwin32/rui.c:1168
+msgid "Load workspace"
+msgstr "Ákelti darbo sritá"
+
+#: src/gnuwin32/rui.c:1172
+msgid "Save workspace"
+msgstr "Áraðyti darbo sritá"
+
+#: src/gnuwin32/rui.c:1188
+msgid "Stop current computation"
+msgstr "Stabdyti dabartiná skaièiavimà"
+
+#: src/gnuwin32/rui.c:1211
+msgid "Source R code..."
+msgstr "Ðaltinio R kodas..."
+
+#: src/gnuwin32/rui.c:1214
+msgid "Display file(s)..."
+msgstr "Rodyti failà (-us)..."
+
+#: src/gnuwin32/rui.c:1216
+msgid "Load Workspace..."
+msgstr "Ákelti darbo sritá..."
+
+#: src/gnuwin32/rui.c:1217
+msgid "Save Workspace..."
+msgstr "Áraðyti darbo sritá..."
+
+#: src/gnuwin32/rui.c:1219
+msgid "Load History..."
+msgstr "Ákelti Istorijà..."
+
+#: src/gnuwin32/rui.c:1221
+msgid "Save History..."
+msgstr "Áraðyti Istorijà..."
+
+#: src/gnuwin32/rui.c:1224
+msgid "Change dir..."
+msgstr "Keisti dir..."
+
+#: src/gnuwin32/rui.c:1229
+msgid "Exit"
+msgstr "Iðeiti"
+
+#: src/gnuwin32/rui.c:1236
+msgid "Copy and Paste"
+msgstr "Kopijuoti ir áklijuoti"
+
+#: src/gnuwin32/rui.c:1240
+msgid "Data editor..."
+msgstr "Duomenø rengyklë..."
+
+#: src/gnuwin32/rui.c:1245
+msgid "Toolbar"
+msgstr "Árankiø juosta"
+
+#: src/gnuwin32/rui.c:1246
+msgid "Statusbar"
+msgstr "Bûsenos juosta"
+
+#: src/gnuwin32/rui.c:1250
+msgid "Misc"
+msgstr "Kita"
+
+#: src/gnuwin32/rui.c:1251
+msgid "Stop current computation           \tESC"
+msgstr "Stabdyti dabartiná skaièiavimà            \tESC"
+
+#: src/gnuwin32/rui.c:1253
+msgid "Stop all computations"
+msgstr "Stabdyti visus skaièiavimus"
+
+#: src/gnuwin32/rui.c:1255
+msgid "Break to debugger"
+msgstr "Pertrauka derinimo programoje"
+
+#: src/gnuwin32/rui.c:1258
+msgid "Word completion"
+msgstr "Þodþio uþbaigimas"
+
+#: src/gnuwin32/rui.c:1260
+msgid "Filename completion"
+msgstr "Filename uþbaigimas"
+
+#: src/gnuwin32/rui.c:1267
+msgid "List objects"
+msgstr "Objektø sàraðas"
+
+#: src/gnuwin32/rui.c:1268
+msgid "Remove all objects"
+msgstr "Paðalinti visus objektus"
+
+#: src/gnuwin32/rui.c:1269
+msgid "List search &path"
+msgstr "Sàraðo paieðka ir kelias"
+
+#: src/gnuwin32/rui.c:1275
+msgid "Console"
+msgstr "Konsolë"
+
+#: src/gnuwin32/rui.c:1336
+msgid "'mname' is limited to 1000 bytes"
+msgstr "'mname' ribojimas iki 1000 baitø"
+
+#: src/gnuwin32/rui.c:1381
+#, c-format
+msgid "menu %s does not exist"
+msgstr "meniu %s nerastas"
+
+#: src/gnuwin32/rui.c:1434
+msgid "'menu' is limited to 500 bytes"
+msgstr "'menu' ribojimas iki 500 baitø"
+
+#: src/gnuwin32/rui.c:1444
+msgid "base menu does not exist"
+msgstr "pagrindinio meniu nëra"
+
+#: src/gnuwin32/rui.c:1459
+msgid "failed to allocate menu"
+msgstr "nepavyko priskirti meniu"
+
+#: src/gnuwin32/rui.c:1476 src/gnuwin32/rui.c:1600
+msgid "menu + item is limited to 1000 bytes"
+msgstr "meniu + elementas ribojamas iki 1000 baitø"
+
+#: src/gnuwin32/rui.c:1484 src/gnuwin32/rui.c:1567
+msgid "menu does not exist"
+msgstr "meniu nerastas"
+
+#: src/gnuwin32/rui.c:1502 src/gnuwin32/rui.c:1525 src/gnuwin32/rui.c:1530
+msgid "failed to allocate char storage"
+msgstr "nepavyko priskirti simboliø saugyklos"
+
+#: src/gnuwin32/rui.c:1538
+msgid "failed to allocate menuitem"
+msgstr "nepavyko priskirti menuitem"
+
+#: src/gnuwin32/rui.c:1590
+msgid "menu not found"
+msgstr "meniu nerastas"
+
+#: src/gnuwin32/rui.c:1608
+msgid "menu or item does not exist"
+msgstr "meniu arba elemento nëra"
+
+#: src/gnuwin32/system.c:565
+msgid "Save workspace image?"
+msgstr "Áraðyti darbo srities vaizdà?"
+
+#: src/extra/graphapp/clipboard.c:69 src/extra/graphapp/clipboard.c:73
+msgid "Insufficient memory: cell not copied to the clipboard"
+msgstr "Nepakanka atminties: langelis nenukopijuotas á iðkarpinæ"
+
+#: src/extra/graphapp/dialogs.c:144 src/extra/graphapp/dialogs.c:161
+#: src/extra/graphapp/dialogs.c:178
+msgid "Question"
+msgstr "Klausimas"
+
+#: src/extra/graphapp/dialogs.c:249
+msgid " Change working directory to:"
+msgstr " Keisti darbiná katalogà á:"
+
+#: src/extra/graphapp/dialogs.c:251
+#, c-format
+msgid "Unable to set '%s' as working directory"
+msgstr "Neámanoma nustatyti '%s' kaip darbinio katalogo"
+
+#: src/extra/graphapp/dialogs.c:705 src/extra/graphapp/dialogs.c:723
+#: src/extra/graphapp/dialogs.c:729 src/extra/graphapp/dialogs.c:839
+#: src/extra/graphapp/dialogs.c:853 src/extra/graphapp/dialogs.c:859
+#: src/library/utils/src/windows/widgets.c:127
+msgid "Cancel"
+msgstr "Atðaukti"
+
+#: src/extra/graphapp/dialogs.c:725 src/extra/graphapp/dialogs.c:855
+#: src/library/utils/src/windows/widgets.c:126
+msgid "OK"
+msgstr "Gerai"
+
+#: src/extra/graphapp/dialogs.c:847
+msgid "User"
+msgstr "Vartotojas"
+
+#: src/extra/graphapp/dialogs.c:848
+msgid "Password"
+msgstr "Slaptaþodis"
+
+#: src/extra/graphapp/dialogs.c:1034 src/extra/graphapp/dialogs.c:1040
+#, c-format
+msgid "\"%s\" not found"
+msgstr "\"%s\" nerastas"
+
+#: src/extra/graphapp/gmenus.c:56
+msgid "Arrange Icons"
+msgstr "Piktogramø iðdëstymas"
+
+#: src/extra/graphapp/metafile.c:55
+#, fuzzy
+msgid "Unable to save metafile to the clipboard"
+msgstr "Neámanoma atidaryti iðkarpinës"
+
+#: src/extra/graphapp/metafile.c:117
+#, fuzzy
+msgid "Unable to create metafile"
+msgstr "Neámanoma sukurti rengyklës lango"
+
+#: src/extra/graphapp/metafile.c:122
+#, fuzzy
+msgid "Insufficient memory to create metafile"
+msgstr "Nepakanka atminties. Uþdarykite konsolæ"
+
+#: src/extra/graphapp/printer.c:111
+#, fuzzy
+msgid "Unable to choose printer"
+msgstr "Neámanoma sukurti ieðkiklio lango"
+
+#: src/extra/graphapp/printer.c:139
+#, fuzzy
+msgid "Insufficient memory for new printer"
+msgstr "Nepakanka atminties, kad bûtø galima rodyti failà vidiniame ieðkiklyje"
+
+#: src/extra/graphapp/printer.c:175
+#, fuzzy
+msgid "Unable to start the print job"
+msgstr "Neámanoma sukurti ieðkiklio lango"
+
+#: src/library/utils/src/windows/dataentry.c:251
+#: src/library/utils/src/windows/dataentry.c:1896
+#: src/library/utils/src/windows/dataentry.c:1899
+#: src/library/utils/src/windows/dataentry.c:1930
+msgid "invalid argument"
+msgstr "neteisingas argumentas"
+
+#: src/library/utils/src/windows/dataentry.c:298
+msgid "invalid type for value"
+msgstr "neleistinas reikðmës tipas"
+
+#: src/library/utils/src/windows/dataentry.c:309
+msgid "Data Editor"
+msgstr "Duomenø rengyklë"
+
+#: src/library/utils/src/windows/dataentry.c:359
+#: src/library/utils/src/windows/dataentry.c:1889
+msgid "dataentry: internal memory problem"
+msgstr "dataentry: vidinës atminties problema"
+
+#: src/library/utils/src/windows/dataentry.c:662
+#: src/library/utils/src/windows/dataentry.c:1263
+msgid "dataentry: internal memory error"
+msgstr "dataentry: vidinës atminties klaida"
+
+#: src/library/utils/src/windows/dataentry.c:785
+#: src/library/utils/src/windows/dataentry.c:798
+msgid "internal type error in dataentry"
+msgstr "vidinio tipo klaida esanti dataentry"
+
+#: src/library/utils/src/windows/dataentry.c:893
+msgid "dataentry: parse error on string"
+msgstr "dataentry: analizavimo klaida eilutëje"
+
+#: src/library/utils/src/windows/dataentry.c:1037
+msgid "dataentry: expression too long"
+msgstr "dataentry: iðraiðka per ilga"
+
+#: src/library/utils/src/windows/dataentry.c:1516
+msgid "column names cannot be blank"
+msgstr "stulpeliø pavadinimai negali bûti tuðti"
+
+#: src/library/utils/src/windows/dataentry.c:1562
+msgid "Variable editor"
+msgstr "Kintamojo rengyklë"
+
+#: src/library/utils/src/windows/dataentry.c:1567
+msgid "variable name"
+msgstr "kintamojo pavadinimas"
+
+#: src/library/utils/src/windows/dataentry.c:1569
+msgid "type"
+msgstr "tipas"
+
+#: src/library/utils/src/windows/dataentry.c:1684
+msgid "Cell width(s)"
+msgstr "Langelio plotis (-èiai)"
+
+#: src/library/utils/src/windows/dataentry.c:1690
+msgid "Cell width"
+msgstr "Langelio plotis"
+
+#: src/library/utils/src/windows/dataentry.c:1693
+msgid "variable"
+msgstr "kintamasis"
+
+#: src/library/utils/src/windows/dataentry.c:1736
+msgid ""
+"Navigation.\n"
+"  Keyboard: cursor keys move selection\n"
+"\tTab move right, Shift+Tab moves left\n"
+"\tPgDn or Ctrl+F: move down one screenful\n"
+"\tPgUp or Ctrl+B: move up one screenful\n"
+"\tHome: move to (1,1) cell\n"
+"\tEnd: show last rows of last column.\n"
+"   Mouse: left-click in a cell, use the scrollbar(s).\n"
+"\n"
+"Editing.\n"
+"  Type in the currently hightlighted cell\n"
+"  Double-click in a cell for an editable field\n"
+"\n"
+"Misc.\n"
+"  Ctrl-L redraws the screen, auto-resizing the columns\n"
+"  Ctrl-C copies selected cell\n"
+"  Ctrl-V pastes to selected cell\n"
+"  Right-click menu for copy, paste, autosize currently selected column\n"
+"\n"
+msgstr ""
+"Navigacija.\n"
+"  Klaviatûra: þymeklio klaviðai perkelia pasirinkimà\n"
+"\tTab perkelia á deðinæ, Shift+Tab perkelia á kairæ\n"
+"\tPgDn arba Ctrl+F: perkelia þemyn vienu ekranu\n"
+"\tPgUp arba Ctrl+B: perkelia vienu ekranu aukðtyn\n"
+"\tHome: perkelia á (1,1) langelá\n"
+"\tEnd: rodo paskutines paskutinio stulpelio eilutes.\n"
+"   Pelë: kairiuoju pelës mygtuku spustelëkite langelá, naudokite slinkties juostà (-as).\n"
+"\n"
+"Redagavimas.\n"
+"  Áveskite á ðiuo metu paryðkintà langelá\n"
+"  Dukart spustelëkite langelyje, kad galëtumëte redaguoti laukà\n"
+"\n"
+"Kita.\n"
+"  Ctrl-L perbraiþo ekranà, pakeisdamas stulpeliø dydá\n"
+"  Ctrl-C kopijuoja paþymëtà langelá\n"
+"  Ctrl-V áklijuoja á pasirinktà langelá\n"
+"  Deðiniuoju pelës mygtuku spustelëkite meniu, norëdami nukopijuoti, áklijuoti, automatiðkai pakeisti pasirinktà stulpelá\n"
+"\n"
+
+#: src/library/utils/src/windows/dataentry.c:1744
+msgid "Copy selected cell"
+msgstr "Kopijuoti paþymëtà langelá"
+
+#: src/library/utils/src/windows/dataentry.c:1745
+msgid "Paste to selected cell"
+msgstr "Áklijuoti á pasirinktà langelá"
+
+#: src/library/utils/src/windows/dataentry.c:1746
+msgid "Autosize column"
+msgstr "Automatinis stulpelio dydþio keitimas"
+
+#: src/library/utils/src/windows/dataentry.c:1842
+msgid "Copy  \tCTRL+C"
+msgstr "Kopijuoti  \tCTRL+C"
+
+#: src/library/utils/src/windows/dataentry.c:1844
+msgid "Paste \tCTRL+V"
+msgstr "Áklijuoti \tCTRL+V"
+
+#: src/library/utils/src/windows/dataentry.c:1846
+msgid "Delete\tDEL"
+msgstr "Ðalinti\tDEL"
+
+#: src/library/utils/src/windows/dataentry.c:1849
+msgid "Cell widths ..."
+msgstr "Langelio ploèiai ..."
+
+#: src/library/utils/src/windows/dataentry.c:1853
+msgid "Data editor"
+msgstr "Duomenø rengyklë"
+
+#: src/library/grDevices/src/devWindows.c:943
+msgid "Portable network graphics file"
+msgstr "Neðiojamasis tinklo grafikos failas"
+
+#: src/library/grDevices/src/devWindows.c:946
+msgid "Windows bitmap file"
+msgstr "Windows rastro failas"
+
+#: src/library/grDevices/src/devWindows.c:949
+msgid "TIFF file"
+msgstr "TIFF failas"
+
+#: src/library/grDevices/src/devWindows.c:952
+msgid "Jpeg file"
+msgstr "JPEG failas"
+
+#: src/library/grDevices/src/devWindows.c:974
+msgid "Postscript file"
+msgstr "Postskriptinis failas"
+
+#: src/library/grDevices/src/devWindows.c:986
+msgid "PDF file"
+msgstr "PDF failas"
+
+#: src/library/grDevices/src/devWindows.c:998
+msgid "Enhanced metafiles"
+msgstr "Iðplëstiniai metafailai"
+
+#: src/library/grDevices/src/devWindows.c:1001
+#: src/library/grDevices/src/devWindows.c:3557
+msgid "file path selected is too long: only 512 bytes are allowed"
+msgstr "pasirinktas failo kelias per ilgas: leidþiama naudoti tik 512 baitø"
+
+#: src/library/grDevices/src/devWindows.c:1212
+msgid "No plot to replace!"
+msgstr "Nëra brëþinio, kurá pakeisti!"
+
+#: src/library/grDevices/src/devWindows.c:1262
+msgid "Variable name"
+msgstr "Kintamojo pavadinimas"
+
+#: src/library/grDevices/src/devWindows.c:1271
+msgid "Variable doesn't contain any plots!"
+msgstr "Kintamajame nëra jokiø brëþiniø!"
+
+#: src/library/grDevices/src/devWindows.c:1286
+msgid "Name of variable to save to"
+msgstr "Kintamojo pavadinimas, kurá norite áraðyti á"
+
+#: src/library/grDevices/src/devWindows.c:1595
+msgid "Copy to the clipboard as a metafile"
+msgstr "Kopijuoti á iðkarpinæ kaip metafailà"
+
+#: src/library/grDevices/src/devWindows.c:1613
+#: src/library/grDevices/src/devWindows.c:1624
+msgid "Stop locator"
+msgstr "Stabdyti ieðkiklá"
+
+#: src/library/grDevices/src/devWindows.c:1623
+#: src/library/grDevices/src/devWindows.c:1627
+msgid "Stop"
+msgstr "Stabdyti"
+
+#: src/library/grDevices/src/devWindows.c:1629
+msgid "Continue"
+msgstr "Tæsti"
+
+#: src/library/grDevices/src/devWindows.c:1633
+msgid "Next"
+msgstr "Sekantis"
+
+#: src/library/grDevices/src/devWindows.c:1634
+msgid "Next plot"
+msgstr "Kitas brëþinys"
+
+#: src/library/grDevices/src/devWindows.c:1640
+msgid "Save as"
+msgstr "Áraðyti kaip"
+
+#: src/library/grDevices/src/devWindows.c:1649
+#: src/library/grDevices/src/devWindows.c:1651
+#: src/library/grDevices/src/devWindows.c:1653
+#, c-format
+msgid "%s quality..."
+msgstr "%s kokybë..."
+
+#: src/library/grDevices/src/devWindows.c:1655
+msgid "Copy to the clipboard"
+msgstr "Kopijuoti á iðkarpinæ"
+
+#: src/library/grDevices/src/devWindows.c:1656
+msgid "as a Bitmap\tCTRL+C"
+msgstr "kaip rastras\tCTRL+C"
+
+#: src/library/grDevices/src/devWindows.c:1657
+msgid "as a Metafile\tCTRL+W"
+msgstr "kaip metafailas\tCTRL+W"
+
+#: src/library/grDevices/src/devWindows.c:1662
+msgid "close Device"
+msgstr "uþverti árenginá"
+
+#: src/library/grDevices/src/devWindows.c:1663
+msgid "History"
+msgstr "Istorija"
+
+#: src/library/grDevices/src/devWindows.c:1664
+msgid "Recording"
+msgstr "Áraðymas"
+
+#: src/library/grDevices/src/devWindows.c:1667
+msgid "Add\tINS"
+msgstr "Átraukti\tINS"
+
+#: src/library/grDevices/src/devWindows.c:1668
+msgid "Replace"
+msgstr "Pakeisti"
+
+#: src/library/grDevices/src/devWindows.c:1670
+msgid "Previous\tPgUp"
+msgstr "Ankstesnis\tPgUp"
+
+#: src/library/grDevices/src/devWindows.c:1671
+msgid "Next\tPgDown"
+msgstr "Sekantis\tPgDown"
+
+#: src/library/grDevices/src/devWindows.c:1673
+msgid "Save to variable..."
+msgstr "Áraðyti á kintamàjá..."
+
+#: src/library/grDevices/src/devWindows.c:1674
+msgid "Get from variable..."
+msgstr "Gauti ið kintamojo..."
+
+#: src/library/grDevices/src/devWindows.c:1676
+msgid "Clear history"
+msgstr "Valyti istorijà"
+
+#: src/library/grDevices/src/devWindows.c:1677
+msgid "Resize"
+msgstr "Keisti dydá"
+
+#: src/library/grDevices/src/devWindows.c:1678
+msgid "R mode"
+msgstr "R reþimas"
+
+#: src/library/grDevices/src/devWindows.c:1680
+msgid "Fit to window"
+msgstr "Talpinti á langà"
+
+#: src/library/grDevices/src/devWindows.c:1682
+msgid "Fixed size"
+msgstr "Fiksuotas dydis"
+
+#: src/library/grDevices/src/devWindows.c:1689
+msgid "Copy as metafile"
+msgstr "Kopijuoti kaip metafailà"
+
+#: src/library/grDevices/src/devWindows.c:1691
+msgid "Copy as bitmap"
+msgstr "Kopijuoti kaip rastrà"
+
+#: src/library/grDevices/src/devWindows.c:1694
+msgid "Save as metafile..."
+msgstr "Áraðyti kaip metafailà..."
+
+#: src/library/grDevices/src/devWindows.c:1696
+msgid "Save as postscript..."
+msgstr "Áraðyti kaip postskriptà..."
+
+#: src/library/grDevices/src/devWindows.c:3214
+msgid "Locator is active"
+msgstr "Ieðkiklis aktyvus"
+
+#: src/library/grDevices/src/devWindows.c:3884
+msgid "Waiting to confirm page change..."
+msgstr "Laukiama, kol bus patvirtintas puslapio keitimas..."
+
+#: src/library/grDevices/src/devWindows.c:3896
+msgid "Click or hit ENTER for next page"
+msgstr "Spustelëkite ENTER kitam puslapiui"
