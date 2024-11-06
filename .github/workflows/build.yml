@@ -1,0 +1,82 @@
+name: Build R
+
+on:
+  push
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+
+    name: ${{ matrix.os }} R
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-20.04, ubuntu-22.04, ubuntu-24.04 ]
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: R
+
+      - uses: s-u/R-actions/tinytex@v1
+
+      - name: Build
+        run: |
+          ## Build R
+          echo '::group::Install system dependencies'
+          sudo apt-get -q update
+          sudo apt-get install -y libreadline-dev libcairo-dev libxt-dev libjpeg-dev libicu-dev libtiff-dev libpcre2-dev liblzma-dev libbz2-dev libcurl4-openssl-dev tk-dev xvfb curl
+          echo '::endgroup::'
+          BRANCH="${GITHUB_REF_NAME}"
+          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
+          echo "::group::Configure R-$BRANCH"
+          mkdir build
+          cd build
+          ../R/configure 'CFLAGS=-g -O2 -Wall -Wstrict-prototypes' \
+            'CXXFLAGS=-g -O2 -Wall' --enable-R-shlib --prefix=/opt/R
+          echo '::endgroup::'
+          echo "::group::Build R-$BRANCH"
+          make -j6
+          echo '::endgroup::'
+          
+      - name: Check
+        run: |
+          ## Check R
+          echo "::group::Check R-$BRANCH"
+          cd build
+          xvfb-run --auto-servernum make check-all
+          echo '::endgroup::'
+          
+      - name: Package and Install
+        run: |
+          ## Install R
+          echo "Note: R.home is /opt/R/$BRANCH"
+          echo "      prefix is /opt/R"
+          echo "      Symlinks in /usr/local/bin"
+          echo "::group::Install"
+          cd build
+          make install rhome=/opt/R/$BRANCH DESTDIR=`pwd`/../dst
+          cd ../dst
+          mkdir -p usr/local/bin
+          ln -s /opt/R/bin/R usr/local/bin/R
+          ln -s /opt/R/bin/Rscript usr/local/bin/Rscript
+          tar fcz ../R-${BRANCH}-${{ matrix.os }}.tar.gz *
+          cd ..
+          sudo tar fxz R-${BRANCH}-${{ matrix.os }}.tar.gz -C /
+          echo '::endgroup::'
+          R --version
+          echo "::group::Create R-${BRANCH}-${{ matrix.os }}.tar.xz"
+          ## tag the release we'll update
+          (cd R && git tag ${BRANCH}-build && git push -f origin ${BRANCH}-build)
+          ## re-compress
+          echo Recompressing tar ball ..
+          gzip -dc R-${BRANCH}-${{ matrix.os }}.tar.gz | xz -c9 > R-${BRANCH}-${{ matrix.os }}.tar.xz
+          echo '::endgroup::'
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: R-${{ env.BRANCH }}-${{ matrix.os }}.tar.xz
+          name: ${{ env.BRANCH }}-build
+          tag_name: ${{ env.BRANCH }}-build
