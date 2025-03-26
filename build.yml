@@ -19,7 +19,7 @@ jobs:
         with:
           path: R
 
-      - uses: s-u/R-actions/tinytex@v1
+      - uses: s-u/R-actions/tinytex@master
 
       - name: Build
         run: |
