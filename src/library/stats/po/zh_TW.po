@@ -1,0 +1,781 @@
+# Traditional Chinese translations for R package.
+# Copyright (C) 2006 The R Foundation
+# This file is distributed under the same license as the R package.
+# 陈斐 <feic@normipaiva.com>, 2005, 07.
+# Wei-Lun Chao <bluebat@member.fsf.org>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 3.5.1\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-07-08 08:22-0700\n"
+"PO-Revision-Date: 2018-09-16 23:38+0800\n"
+"Last-Translator: Wei-Lun Chao <bluebat@member.fsf.org>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "bandwidth/span of running medians is larger than n"
+msgstr "移動中位數的帶寬/跨距的值不能大於 n"
+
+#, c-format
+msgid "runmed(x, .., na.action=\"na.fail\"): have NAs starting at x[%lld]"
+msgstr ""
+
+msgid "runmed(): invalid 'na.action'"
+msgstr ""
+
+#, c-format
+msgid "na_action logic error (%d), please report!"
+msgstr ""
+
+msgid "probabilities outside [0,1] in qansari()"
+msgstr "qansari() 裡的概率值在[0,1]範圍外"
+
+msgid "approx(): invalid f value"
+msgstr "approx(): f 值無效"
+
+msgid "approx(): invalid interpolation method"
+msgstr "approx(): 內插方法無效"
+
+msgid "approx(): attempted to interpolate NA values"
+msgstr "approx(): 不能內插 NA 值"
+
+msgid "approx(x,y, .., na.rm=FALSE): NA values in x are not allowed"
+msgstr ""
+
+msgid "invalid argument type"
+msgstr "引數種類無效"
+
+msgid "can only transform 100 pars in arima0"
+msgstr "arima0 裡只能轉換 100 個參數"
+
+msgid "maximum supported lag is 350"
+msgstr "滯後不能大於 350"
+
+#, c-format
+msgid "non-finite x[%d] in bandwidth calculation"
+msgstr "非有限值 x[%d] 出現於帶寬計算"
+
+#, fuzzy
+msgid "data are constant in bandwidth calculation"
+msgstr "非有限值 x[%d] 出現於帶寬計算"
+
+#, c-format
+msgid "invalid 'type' (%s) of argument"
+msgstr "'type'(%s)引數無效"
+
+msgid "no input has determined the number of cases"
+msgstr "不可使用輸入來確定個案數目"
+
+msgid "not all arguments have the same length"
+msgstr "不是所有的引數都一樣長"
+
+msgid "missing observations in cov/cor"
+msgstr "cov/cor 中有缺值"
+
+msgid "'x' is NULL"
+msgstr "'x' 為 NULL"
+
+msgid "incompatible dimensions"
+msgstr "不相容的量度"
+
+msgid "no complete element pairs"
+msgstr "不存在完的一對"
+
+msgid "invalid 'use' (computational method)"
+msgstr "'use' 不對(計算方法)"
+
+msgid "'x' is empty"
+msgstr "'x' 是空的"
+
+msgid "the standard deviation is zero"
+msgstr "標準差為零"
+
+msgid "invalid form in unary minus check"
+msgstr "檢查一元減號時發現形式無效"
+
+#, c-format
+msgid "Function '%s' is not in the derivatives table"
+msgstr "微分表裡無此函式 '%s'"
+
+#, c-format
+msgid "expression must not be type '%s'"
+msgstr "運算式必須為 '%s' 類型"
+
+msgid "variable must be a character string"
+msgstr "變數必須是字串"
+
+msgid "only the first element is used as variable name"
+msgstr "只用了第一個元素做為變數名稱"
+
+#, c-format
+msgid "invalid expression in '%s'"
+msgstr "'%s' 的運算式無效"
+
+#, fuzzy
+msgid "too many variables"
+msgstr "沒有因子"
+
+msgid "invalid variable names"
+msgstr "變數名稱無效"
+
+msgid "invalid tag"
+msgstr "標籤無效"
+
+msgid "treating non-finite values as NA"
+msgstr "所有無限值都做為 NA 來處理"
+
+msgid "distance(): invalid p"
+msgstr "distance(): p 值無效"
+
+msgid "distance(): invalid distance"
+msgstr "distance()：距離值無效"
+
+msgid "NaNs produced"
+msgstr "產生了 NaNs"
+
+msgid "Non-numeric argument to mathematical function"
+msgstr "數學函式中用了非數值引數"
+
+#, c-format
+msgid "Value %g out of range (0, 1)"
+msgstr "%g 值出界在(0，1)外"
+
+#, c-format
+msgid "Argument %s must be a nonempty numeric vector"
+msgstr "引數 %s 必須為非空數字向量"
+
+#, c-format
+msgid "argument %s must be a numeric vector of length 1 or length %d"
+msgstr "引數 %s 必須為長度為一或長度為 %d 的數字向量"
+
+#, c-format
+msgid "integer overflow would happen in 'mult * ldkey' = %g"
+msgstr "整數溢位可能會發生於 'mult * ldkey' = %g"
+
+#, c-format
+msgid ""
+"FEXACT error 6.  LDKEY=%d is too small for this problem,\n"
+"  (ii := key2[itp=%d] = %d, ldstp=%d)\n"
+"Try increasing the size of the workspace and possibly 'mult'"
+msgstr ""
+"FEXACT 錯誤碼 6.  LDKEY=%d 對此問題而言太小，\n"
+"  (ii := key2[itp=%d] = %d, ldstp=%d)\n"
+"嘗試增加工作空間的大小並盡可能 'mult'"
+
+#, c-format
+msgid ""
+"FEXACT[f3xact()] error: hash key %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
+"Rather set 'simulate.p.value=TRUE'\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"FEXACT error 30.  Stack length exceeded in f3xact,\n"
+"  (ldst=%d, key=%d, ipn=%d, itp=%d, ist[ii=%d]=%d).\n"
+"Increase workspace or consider using 'simulate.p.value=TRUE'"
+msgstr ""
+"FEXACT 錯誤碼 30.  堆疊長度於 f3xact 超出，\n"
+"  (ldst=%d, key=%d, ipn=%d, itp=%d, ist[ii=%d]=%d).\n"
+"請增加工作空間或考慮使用 'simulate.p.value=TRUE'"
+
+#, c-format
+msgid ""
+"FEXACT error 6 (f5xact).  LDKEY=%d is too small for this problem: kval=%d.\n"
+"Try increasing the size of the workspace."
+msgstr ""
+"FEXACT 錯誤碼 6 (f5xact).  LDKEY=%d 對此問題而言太小：kval=%d。\n"
+"嘗試增加工作空間的大小。"
+
+#, c-format
+msgid ""
+"FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
+"  (kval=%d, itop-ldstp=%d).\n"
+"Increase workspace or consider using 'simulate.p.value=TRUE'."
+msgstr ""
+"FEXACT 錯誤碼 7(%s). LDSTP=%d 對此問題而言太小，\n"
+"  (kval=%d, itop-ldstp=%d).\n"
+"請增加工作空間或考慮使用 'simulate.p.value=TRUE'。"
+
+#, c-format
+msgid ""
+"FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
+"  (pastp=%g, ipn_0:=ipoin[itp=%d]=%d, stp[ipn_0]=%g).\n"
+"Increase workspace or consider using 'simulate.p.value=TRUE'"
+msgstr ""
+"FEXACT 錯誤碼 7(%s). LDSTP=%d 對此問題而言太小，\n"
+"  (pastp=%g, ipn_0:=ipoin[itp=%d]=%d, stp[ipn_0]=%g).\n"
+"請增加工作空間或考慮使用 'simulate.p.value=TRUE'"
+
+msgid "non-numeric argument"
+msgstr "非數值引數"
+
+msgid "fft factorization error"
+msgstr "fft 因子分解錯誤"
+
+msgid "vector-valued (multivariate) series required"
+msgstr "需要向量值系列(多變數)"
+
+#, c-format
+msgid "nextn() found no solution < %d = INT_MAX (the maximal integer); pass '0+ n' instead of 'n'"
+msgstr ""
+
+#, c-format
+msgid "nextn<64>() found no solution < %llu = UINT64_MAX (the maximal integer)"
+msgstr ""
+
+msgid "no factors"
+msgstr "沒有因子"
+
+#, fuzzy
+msgid "too many factors"
+msgstr "沒有因子"
+
+msgid "invalid factors"
+msgstr "因子無效"
+
+msgid "'n' must have typeof(.) \"integer\" or \"double\""
+msgstr ""
+
+#, c-format
+msgid "nextn() = %<PRIu64> > 2^53 may not be exactly representable in R (as \"double\")"
+msgstr ""
+
+#, c-format
+msgid "'%s' must be of length one"
+msgstr "'%s' 的長度必須是一"
+
+#, c-format
+msgid "non-finite sum(y) == %g is not allowed"
+msgstr ""
+
+msgid "only 2500 rows are allowed for sm.method=\"spline\""
+msgstr "sm.method=\"spline\"最多只能算 2500 行"
+
+msgid "'x' is not a matrix"
+msgstr "'x' 不是矩陣"
+
+#, fuzzy, c-format
+msgid "dimensions of 'x' (%d,%d) and 'y' (%lld) do not match"
+msgstr "'x' (%d,%d) 和 'y' (%lld) 的維度不相符"
+
+#, c-format
+msgid "NA/NaN/Inf in '%s'"
+msgstr "NA/NaN/Inf 出現於 '%s'"
+
+msgid "span is too small"
+msgstr "跨距太小"
+
+#, c-format
+msgid "workspace required (%.0f) is too large%s."
+msgstr ""
+
+msgid " probably because of setting 'se = TRUE'"
+msgstr ""
+
+msgid "this should not happen"
+msgstr "這不應該發生"
+
+msgid "algorithm did not converge"
+msgstr "演算法沒有收斂"
+
+msgid "incorrect specification of 'table' or 'start'"
+msgstr "'table' 或 'start' 的設定無效"
+
+msgid "'f' must be finite and > 0"
+msgstr "'f' 必須是正數"
+
+msgid "'iter' must be finite and >= 0"
+msgstr "'iter' 必須是正數"
+
+msgid "'delta' must be finite and > 0"
+msgstr "'delta' 必須是正數"
+
+msgid "assert failed in src/library/ts/src/carray.c"
+msgstr ""
+
+msgid "Singular matrix in qr_solve"
+msgstr "gr_solve 裡出現了奇異矩陣"
+
+msgid "Singular matrix in ldet"
+msgstr "ldet 裡出現了奇異矩陣"
+
+msgid "Invalid vmethod"
+msgstr "vmethod 無效"
+
+msgid "Burg's algorithm failed to find partial correlation"
+msgstr "Burg 的演算法沒有能夠找到偏相關數"
+
+msgid "invalid variables"
+msgstr "變數無效"
+
+msgid "number of variables != number of variable names"
+msgstr "變數數目不等於變數名稱數目"
+
+msgid "invalid extra variables"
+msgstr "額外變數無效"
+
+msgid "invalid extra variable names"
+msgstr "額外變數名稱無效"
+
+#, c-format
+msgid "overlong names in '%s'"
+msgstr "'%s' 裡的名稱太長"
+
+#, c-format
+msgid "invalid type (%s) for variable '%s'"
+msgstr "變數 '%2$s' 的種類(%1$s)無效"
+
+#, c-format
+msgid "variable lengths differ (found for '%s')"
+msgstr "變數的長度不一樣('%s')"
+
+msgid "invalid result from na.action"
+msgstr "na.action 的結果不正確"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "'%s' 引數無效"
+
+msgid "invalid model frame"
+msgstr "模型框無效"
+
+msgid "do not know how many cases"
+msgstr "案例數目不清"
+
+#, c-format
+msgid "variable lengths differ (found for variable %d)"
+msgstr "變數的長度不一樣(變數 %d)"
+
+#, c-format
+msgid "variable %d has no levels"
+msgstr "變數 %d 沒有因子層"
+
+msgid "the response appeared on the right-hand side and was dropped"
+msgstr "在公式右手的反應忽略不用"
+
+#, c-format
+msgid "term %d would require %.0g columns"
+msgstr "%d 項需要 %.0g 個列"
+
+#, c-format
+msgid "matrix would require %.0g columns"
+msgstr "矩陣需要 %.0g 個列"
+
+#, c-format
+msgid "problem with term %d in model.matrix: no columns are assigned"
+msgstr "模型矩陣的 %d 項有問題: 沒有指定的列"
+
+msgid "term names will be truncated"
+msgstr "項名稱太長，被縮短了"
+
+msgid "complex variables are not currently allowed in model matrices"
+msgstr "模型矩陣裡目前不能有複數"
+
+#, c-format
+msgid "variables of type '%s' are not allowed in model matrices"
+msgstr "模型矩陣裡不能有種類為 '%s' 的變數"
+
+msgid "invalid formula in 'update'"
+msgstr "'update' 裡的公式無效"
+
+msgid "formula expected"
+msgstr "需要公式"
+
+msgid "invalid term in model formula"
+msgstr "模型公式裡有錯誤的項"
+
+msgid "invalid model formula"
+msgstr "模型公式無效"
+
+msgid "invalid power in formula"
+msgstr "公式裡的冪無效"
+
+msgid "invalid model formula in ExtractVars"
+msgstr "ExtractVars 裡的模型公式無效"
+
+#, c-format
+msgid "duplicated name '%s' in data frame using '.'"
+msgstr "在資料框裡用 '.' 時不能有重複的名稱 '%s'"
+
+msgid "invalid model formula in EncodeVars"
+msgstr "EncodeVars 中的模型公式無效"
+
+msgid "argument is not a valid model"
+msgstr "引數不是正確的模型"
+
+msgid "'specials' must be NULL or a character vector"
+msgstr "'specials' 的值要麼是 NULL 要麼是字元向量"
+
+msgid "'data' argument is of the wrong type"
+msgstr "'data' 引數種類不正確"
+
+#, c-format
+msgid "'varlist' has changed (from nvar=%d) to new %d after EncodeVars() -- should no longer happen!"
+msgstr ""
+
+msgid "'.' in formula and no 'data' argument"
+msgstr "公式裡有 '.'，而沒有 'data' 此一引數"
+
+msgid "n must be at least two"
+msgstr "n 至少需要是二"
+
+msgid "Argument m must be numeric"
+msgstr "引數 m 必須為數值"
+
+msgid "length(m) must be at least two"
+msgstr "length(m)的值必須為二"
+
+msgid "Argument Sx must be numeric vector one shorter than m[]"
+msgstr "引數 Sx 必須是長度比 m[]小一的數值向量"
+
+msgid "'control' must be a list"
+msgstr "'control' 的值必須為串列"
+
+msgid "'m' must be a list"
+msgstr "'m' 的值必須是串列"
+
+#, c-format
+msgid "'%s' absent"
+msgstr "需要設定 '%s'"
+
+msgid "singular gradient"
+msgstr "奇異梯度"
+
+#, c-format
+msgid "step factor %g reduced below 'minFactor' of %g"
+msgstr "演算法的步因子 %g 的大小被減少到小於 %g 的 'minFactor' 值"
+
+#, c-format
+msgid "number of iterations exceeded maximum of %d"
+msgstr "循環次數超過了 %d 這個最大值"
+
+msgid "converged"
+msgstr "收斂了"
+
+msgid "'theta' should be of type character"
+msgstr "'theta' 的種類必須是字元"
+
+msgid "use of NULL environment is defunct"
+msgstr "NULL 環境不再有用了"
+
+msgid "'rho' should be an environment"
+msgstr "'rho' 必須為環境"
+
+msgid "'dir' is not a numeric vector of the correct length"
+msgstr "'dir' 這個數字向量的長度無效"
+
+msgid "'central' is NA, but must be TRUE or FALSE"
+msgstr ""
+
+msgid "Missing value or an infinity produced when evaluating the model"
+msgstr "在計算模型的時候產生了預設值或無限值"
+
+#, c-format
+msgid "variable '%s' is integer, not numeric"
+msgstr "變數 '%s' 應該為整數，不能是數值"
+
+#, c-format
+msgid "variable '%s' is not numeric"
+msgstr "變數 '%s' 不是數值"
+
+msgid "non-finite value supplied by optim"
+msgstr "optim 回覆了無限值"
+
+#, c-format
+msgid "objective function in optim evaluates to length %d not 1"
+msgstr "optim 內的目標函式長度被評估為 %d，而不是一"
+
+#, c-format
+msgid "gradient in optim evaluated to length %d not %d"
+msgstr "optim 梯度長度被評估為 %d，而不是 %d"
+
+#, c-format
+msgid "non-finite finite-difference value [%d]"
+msgstr ""
+
+msgid "'fn' is not a function"
+msgstr "'fn' 不是函式"
+
+msgid "'parscale' is of the wrong length"
+msgstr "'parscale' 的長度無效"
+
+msgid "'maxit' is not an integer"
+msgstr "'maxit' 不是整數"
+
+msgid "'tmax' is not a positive integer"
+msgstr "'tmax' 不是正整數"
+
+msgid "'gr' is not a function"
+msgstr "'gr' 不是函式"
+
+msgid "'ndeps' is of the wrong length"
+msgstr "'ndeps' 長度無效"
+
+msgid "unknown 'method'"
+msgstr "不明的 'method'"
+
+msgid "NA replaced by maximum positive value"
+msgstr "NA 被換成最大的正值"
+
+msgid "-Inf replaced by maximally negative value"
+msgstr "-Inf 被換成最大的負值"
+
+#, fuzzy, c-format
+msgid "%s replaced by maximum positive value"
+msgstr "NA 被換成最大的正值"
+
+msgid "invalid function value in 'optimize'"
+msgstr "'optimize' 裡的函式值無效"
+
+msgid "attempt to minimize non-function"
+msgstr "不能將非函式最小化"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "'%s' 值無效"
+
+msgid "'xmin' not less than 'xmax'"
+msgstr "'xmin' 不能小於 xmax"
+
+msgid "invalid function value in 'zeroin'"
+msgstr "'zeroin' 函式值無效"
+
+#, c-format
+msgid "NA value for '%s' is not allowed"
+msgstr "'%s' 裡不可有 NA 值"
+
+msgid "'maxiter' must be positive"
+msgstr "'maxiter' 必須是正數"
+
+msgid "non-finite value supplied by 'nlm'"
+msgstr "'nlm' 回覆了無限值"
+
+msgid "invalid function value in 'nlm' optimizer"
+msgstr "'nlm' 最佳化器裡的函式值無效"
+
+msgid "function value caching for optimization is seriously confused"
+msgstr "最佳化時函式值暫存器出了問題"
+
+msgid "numeric parameter expected"
+msgstr "需要數值參數"
+
+msgid "conflicting parameter lengths"
+msgstr "參數的長度自相矛盾"
+
+msgid "invalid parameter length"
+msgstr "參數長度無效"
+
+msgid "missing value in parameter"
+msgstr "參數裡不能有缺值"
+
+msgid "invalid parameter type"
+msgstr "參數種類無效"
+
+msgid "non-positive number of parameters in nlm"
+msgstr "nlm 參數不能是負的"
+
+msgid "nlm is inefficient for 1-d problems"
+msgstr "用 nlm 來解決一維問題效率不高"
+
+msgid "invalid gradient tolerance in nlm"
+msgstr "nlm 裡的梯度容錯無效"
+
+msgid "invalid iteration limit in nlm"
+msgstr "nlm 裡的迭代極值無效"
+
+msgid "minimization function has no good digits in nlm"
+msgstr "nlm 最小化函式找不到可適用的數字"
+
+msgid "no analytic gradient to check in nlm!"
+msgstr "nlm 裡沒有可查的分析梯度！"
+
+msgid "no analytic Hessian to check in nlm!"
+msgstr "nlm 裡沒有可查的分析海森！"
+
+msgid "probable coding error in analytic gradient"
+msgstr "分析梯度的程式碼很有可能發生錯誤"
+
+msgid "probable coding error in analytic Hessian"
+msgstr "分析海森的程式碼很有可能發生錯誤"
+
+#, c-format
+msgid ""
+"*** unknown error message (msg = %d) in nlm()\n"
+"*** should not happen!"
+msgstr "*** nlm()產生了不明的錯誤資訊(msg = %d) 。這不應該發生！"
+
+msgid "Relative gradient close to zero.\n"
+msgstr "相對梯度離零太近.\n"
+
+msgid "Current iterate is probably solution.\n"
+msgstr "目前的重複值很可能就已經是答案了.\n"
+
+msgid "Successive iterates within tolerance.\n"
+msgstr "在容錯範圍內連續迭代.\n"
+
+msgid "Last global step failed to locate a point lower than x.\n"
+msgstr "最後一步的整體最佳化沒有能找到比 x 值要小的一個點.\n"
+
+msgid ""
+"Either x is an approximate local minimum of the function,\n"
+"the function is too non-linear for this algorithm,\n"
+"or steptol is too large.\n"
+msgstr "要麼 x 已經是函式的本地最小值，要麼這個函式非線性太強，要麼 steptol 設得太大。\n"
+
+msgid "Iteration limit exceeded.  Algorithm failed.\n"
+msgstr "超過了迭代極值。演算法失敗.\n"
+
+msgid ""
+"Maximum step size exceeded 5 consecutive times.\n"
+"Either the function is unbounded below,\n"
+"becomes asymptotic to a finite value\n"
+"from above in some direction,\n"
+"or stepmx is too small.\n"
+msgstr ""
+"最大步驟超過了 5 次。\n"
+"這個函式要麼沒有下邊界 ,\n"
+"從上邊界達到了漸近有限值\n"
+"要麼是 stepmx 設得太小。\n"
+
+msgid "invalid NA value in parameter"
+msgstr "參數裡的 NA 值無效"
+
+msgid "hessian supplied is of the wrong length or mode, so ignored"
+msgstr "海森的長度不對或其狀態不對，因此忽略不用"
+
+msgid "gradient supplied is of the wrong length or mode, so ignored"
+msgstr "梯度的長度或其狀態不對，因此忽略不用"
+
+msgid "bad Starma struct"
+msgstr "Starma 結構無效"
+
+#, c-format
+msgid "starma error code %d"
+msgstr "starma 發生錯誤編號 %d"
+
+#, c-format
+msgid "forkal error code %d"
+msgstr "forkal 發生錯誤編號 %d"
+
+msgid "invalid value of lag.max"
+msgstr "lag.max 的值無效"
+
+#, c-format
+msgid "Rf_divset: alg = %d must be 1, 2, 3, or 4"
+msgstr "Rf_divset: alg = %d 其值應該是 1，2，3，或 4"
+
+msgid "port algorithms 3 or higher are not supported"
+msgstr "不支援埠號演算法 3 或更高"
+
+#, c-format
+msgid "gradient function must return a numeric vector of length %d"
+msgstr "梯度函式必須回覆長度為 %d 的數字向量"
+
+#, c-format
+msgid "Hessian function must return a square numeric matrix of order %d"
+msgstr "Hessian 函式必須回覆一個度數為 %d 的正方形數值矩陣"
+
+msgid "'rho' must be an environment"
+msgstr "'rho' 必須是環境"
+
+#, fuzzy
+msgid "'d' must be a nonempty numeric (double) vector"
+msgstr "'d' 必須是非空數字向量"
+
+msgid "When Hessian defined must also have gradient defined"
+msgstr "如果 Hessian 有定義的話梯度也必須有定義"
+
+#, fuzzy, c-format
+msgid "environment 'rho' must contain a numeric (double) vector '.par' of length %d"
+msgstr "'rho' 環境必包含長度為 %d 的數字向量 '.par'"
+
+#, fuzzy
+msgid "'lower' and 'upper' must be numeric (double) vectors"
+msgstr "'lower' 和 'upper' 必須為數字向量"
+
+msgid "'getElement' applies only to named lists"
+msgstr "'getElement' 只適用於帶名稱串列"
+
+#, c-format
+msgid "%s$%s() not found"
+msgstr "%s$%s()不存在"
+
+#, c-format
+msgid "'gradient' must be a numeric matrix of dimension (%d,%d)"
+msgstr "'gradient' 必須是一個維數為(%d,%d)的數值矩陣"
+
+#, c-format
+msgid "fcn produced mode %d, length %d - wanted mode %d, length %d"
+msgstr "fcn 執行結果的模式為 %d ，長度為 %d - 但正確的模式應該是 %d，長度為 %d"
+
+msgid "invalid type for eval_check_store"
+msgstr "eval_check_store 的種類無效"
+
+msgid "m must be a list"
+msgstr "m 必須為串列"
+
+msgid "'lowerb' and 'upperb' must be numeric vectors"
+msgstr "'lowerb' 和 'upperb' 必須為數字向量"
+
+msgid "invalid sample size 'n' in C routine prho(n,s,*)"
+msgstr ""
+
+msgid "inconsistent degrees of freedom and dimension"
+msgstr "自由度和維度不相符"
+
+msgid "'scal' must be a square, real matrix"
+msgstr "'scal' 必須是標準形的實數矩陣"
+
+msgid "'scal' matrix is not positive-definite"
+msgstr "'scal' 不是正定矩陣"
+
+msgid "NAs produced"
+msgstr "產生了 NA"
+
+msgid "invalid arguments"
+msgstr "引數無效"
+
+msgid "NA in probability vector"
+msgstr "NA 出現於機率向量"
+
+msgid "negative probability"
+msgstr "負值機率"
+
+msgid "no positive probabilities"
+msgstr "沒有正值機率"
+
+msgid "invalid first argument 'n'"
+msgstr "第一引數 'n' 無效"
+
+msgid "invalid second argument 'size'"
+msgstr "第二引數 'size' 無效"
+
+#, c-format
+msgid "rcont2 [%d,%d]: exp underflow to 0; algorithm failure"
+msgstr "rcont2 [%d,%d]: exp 下益到 0； 演算法失敗"
+
+#, c-format
+msgid "invalid end-rule for running median of 3: %d"
+msgstr "三移動中位數的結尾規則發生錯誤: %d"
+
+#, c-format
+msgid "missing value in last %d observations"
+msgstr "最後 %d 個觀測值裡出現了預設值"
+
+#~ msgid "NA/Inf replaced by maximum positive value"
+#~ msgstr "NA/Inf 被換成最大的正值"
+
+#, c-format
+#~ msgid "Bug in fexact3, it[i=%d]=%d: negative key %d (kyy=%d)\n"
+#~ msgstr "程式錯誤出現於 fexact3, it[i=%d]=%d: negative key %d (kyy=%d)\n"
+
+#~ msgid "'x' is a factor"
+#~ msgstr "'x' 是個因子"
+
+#~ msgid "'y' is a factor"
+#~ msgstr "'y' 是個因子"

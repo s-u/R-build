@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The R Core Team
+# This file is distributed under the same license as the R package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 4.2.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-04-25 10:48-0700\n"
+"PO-Revision-Date: 2024-03-23 12:08+0000\n"
+"Last-Translator: Worood Alswaji <woroodalswaji@gmail.com>\n"
+"Language-Team: none\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 4.16.4\n"
+
+#, c-format
+msgid "unable to terminate child process: %s"
+msgstr "غير قادر على إنهاء العملية الفرعية: %s"
+
+#, c-format
+msgid "unable to terminate child: %s"
+msgstr "غير قادر على إنهاء العملية الفرعية: %s"
+
+msgid "memory allocation error"
+msgstr "خطأ في تخصيص الذاكرة"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "الوسيطة '%s' غير صالحة"
+
+msgid "Error while shutting down parallel: unable to terminate some child processes\n"
+msgstr "خطأ أثناء إيقاف التشغيل بالتوازي: غير قادر على إنهاء بعض العمليات الفرعية\n"
+
+msgid "unable to create a pipe"
+msgstr "غير قادر على إنشاء أنبوب"
+
+#, c-format
+msgid "unable to fork, possible reason: %s"
+msgstr "غير قادر على الشوكة ، السبب المحتمل: %s"
+
+msgid "only children can send data to the master process"
+msgstr "يمكن للأطفال فقط إرسال البيانات إلى العملية الرئيسية"
+
+msgid "there is no pipe to the master process"
+msgstr "لا يوجد أنبوب للعملية الرئيسية"
+
+msgid "content to send must be RAW, use serialize() if needed"
+msgstr "يجب أن يكون المحتوى المراد إرساله RAW ، استخدم serialize () إذا لزم الأمر"
+
+msgid "write error, closing pipe to the master"
+msgstr "خطأ في الكتابة ، إغلاق الأنبوب للسيد"
+
+msgid "only the master process can send data to a child process"
+msgstr "يمكن للعملية الرئيسية فقط إرسال البيانات إلى عملية فرعية"
+
+#, c-format
+msgid "child %d does not exist"
+msgstr ""
+
+msgid "write error"
+msgstr "خطأ في الكتابة"
+
+#, c-format
+msgid "cannot wait for child %d as it does not exist"
+msgstr ""
+
+#, c-format
+msgid "error '%s' in select"
+msgstr "خطأ \"%s\" في التحديد"
+
+msgid "'mckill' failed"
+msgstr ""
+
+msgid "'mcexit' can only be used in a child process"
+msgstr "لا يمكن استخدام \"mcexit\" إلا في عملية فرعية"
+
+msgid "'mcexit' failed"
+msgstr ""
+
+msgid "invalid CPU affinity specification"
+msgstr "مواصفات تقارب وحدة المعالجة المركزية غير صالحة"
+
+msgid "requested CPU set is too large for this system"
+msgstr "مجموعة وحدة المعالجة المركزية المطلوبة كبيرة جدا لهذا النظام"
+
+msgid "retrieving CPU affinity set failed"
+msgstr "فشل استرداد مجموعة تقارب وحدة المعالجة المركزية"

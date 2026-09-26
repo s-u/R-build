@@ -1,0 +1,451 @@
+# Lithuanian translations for graphics package.
+# Copyright (C) 2020 THE graphics'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the graphics package.
+# <r.zakauskas@gmail.com;gabriele.dauksaite@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: graphics 4.1.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-04-25 10:48-0700\n"
+"PO-Revision-Date: 2020-12-09 13:20+0200\n"
+"Last-Translator: r.zakauskas@gmail.com;gabriele.dauksaite@gmail.com\n"
+"Language-Team: Lithuanian\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.1\n"
+
+msgid "no base graphics system is registered"
+msgstr "nėra registruota jokia pagrindinė grafikos sistema"
+
+msgid "Incompatible graphics state"
+msgstr "Neleistina grafikos būsena"
+
+msgid "the base graphics system is not registered"
+msgstr "pagrindinė grafikos sistema neužregistruota"
+
+#, c-format
+msgid "bad units specified in '%s'"
+msgstr "blogi vienetai, kurie nurodyti '%s'"
+
+msgid "attempt to plot on null device"
+msgstr "bandymas nubraižyti neveikiančiame įrenginyje"
+
+msgid "outer margins too large (figure region too small)"
+msgstr "išorinės paraštės per didelės (paveikslo sritis per maža)"
+
+msgid "figure region too large"
+msgstr "paveikslo sritis per didelė"
+
+msgid "figure margins too large"
+msgstr "paveikslo paraštės per didelės"
+
+msgid "plot region too large"
+msgstr "brėžinio sritis per didelė"
+
+#, fuzzy, c-format
+msgid "nonfinite axis=%d limits [GScale(%g,%g,..); log=%s] -- corrected now"
+msgstr "nebaigtinės ašies ribos [GScale(%g,%g,%d, .); log=%d]"
+
+#, c-format
+msgid "axis style \"%c\" unimplemented"
+msgstr "ašies stilius \"%c\" neįgyvendintas"
+
+msgid "no graphics device is active"
+msgstr "joks grafinis įrenginys nėra aktyvus"
+
+msgid "plot.new has not been called yet"
+msgstr "plot.new dar nebuvo iškviesta"
+
+msgid "invalid graphics state"
+msgstr "neleistina grafikos būsena"
+
+msgid "graphics device closed during call to locator or identify"
+msgstr "grafinis įrenginys uždarytas iškvietimo į ieškiklį arba identifikavimą metu"
+
+msgid "No graphics device is active"
+msgstr "Joks grafinis įrenginys nėra aktyvus"
+
+msgid "zero-length arrow is of indeterminate angle and so skipped"
+msgstr "nulinio ilgio rodyklė yra neapibrėžto kampo ir todėl praleista"
+
+#, c-format
+msgid "invalid par(\"bty\") = '%c'; no box() drawn"
+msgstr "neteisingas par(\"bty\") = ‘%c’; nėra nupiešto box()"
+
+msgid "invalid argument to GBox"
+msgstr "netinkamas argumentas į GBox"
+
+msgid "metric information not available for this device"
+msgstr "šio įrenginio metrikos informacija negalima"
+
+msgid "graphical parameter 'family' has a maximum length of 200 bytes"
+msgstr "grafinis parametras 'family' turi ne ilgesnį kaip 200 baitų ilgį"
+
+#, c-format
+msgid "invalid value specified for graphical parameter \"%s\""
+msgstr "nurodyta neleistina grafinio parametro \"%s\" reikšmė"
+
+#, c-format
+msgid "graphical parameter \"%s\" has the wrong length"
+msgstr "grafinis parametras \"%s\" turi neteisingą ilgį"
+
+#, c-format
+msgid "graphical parameter \"%s\" cannot be set"
+msgstr "negalima nustatyti grafinio parametro \"%s\""
+
+msgid "parameter \"mfg\" has the wrong length"
+msgstr "parametras \"mfg\" turi neteisingą ilgį"
+
+msgid "parameter \"i\" in \"mfg\" is out of range"
+msgstr "parametras \"i\", esantis \"mfg\", nepatenka į intervalą"
+
+msgid "parameter \"j\" in \"mfg\" is out of range"
+msgstr "parametras \"j\", esantis \"mfg\", nepatenka į intervalą"
+
+msgid "value of 'nr' in \"mfg\" is wrong and will be ignored"
+msgstr "'nr' reikšmė, esanti \"mfg\", yra neteisinga ir bus ignoruojama"
+
+msgid "value of 'nc' in \"mfg\" is wrong and will be ignored"
+msgstr "'nc' reikšmė, esanti \"mfg\", yra neteisinga ir bus ignoruojama"
+
+msgid "calling par(new=TRUE) with no plot"
+msgstr "iškviečiamas par(new=TRUE) be brėžinio"
+
+#, c-format
+msgid "graphical parameter \"%s\" is obsolete"
+msgstr "grafinis parametras \"%s\" yra nebenaudojamas"
+
+#, c-format
+msgid "\"%s\" is not a graphical parameter"
+msgstr "\"%s\" nėra grafinis parametras"
+
+#, fuzzy, c-format
+msgid "argument %d does not name a graphical parameter"
+msgstr "\"%s\" nėra grafinis parametras"
+
+msgid "invalid argument passed to par()"
+msgstr "netinkamas argumentas perduotas į par()"
+
+#, c-format
+msgid "too many rows in layout, limit %d"
+msgstr "per daug eilučių išdėstyme, riba %d"
+
+#, c-format
+msgid "too many columns in layout, limit %d"
+msgstr "per daug stulpelių išdėstyme, riba %d"
+
+#, c-format
+msgid "too many cells in layout, limit %d"
+msgstr "per daug langelių išdėstyme, riba %d"
+
+msgid "invalid color specification"
+msgstr "netinkama spalvų specifikacija"
+
+msgid "only NA allowed in logical plotting symbol"
+msgstr "tik NA leidžiamas loginiame braižymo simbolyje"
+
+msgid "invalid plotting symbol"
+msgstr "neleistinas braižymo simbolis"
+
+msgid "invalid font specification"
+msgstr "netinkama šrifto specifikacija"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "neteisinga '%s' reikšmė"
+
+#, c-format
+msgid "invalid 'vfont' value [typeface %d]"
+msgstr "neleistina 'vfont' reikšmė [šriftas %d]"
+
+#, c-format
+msgid "invalid 'vfont' value [typeface = %d, fontindex = %d]"
+msgstr "neleistina 'vfont' reikšmė [šriftas %d, šrifto indeksas = %d]"
+
+msgid "invalid graphics parameter"
+msgstr "neleistinas grafikos parametras"
+
+msgid "at least 3 arguments required"
+msgstr "reikalingi bent 3 argumentai"
+
+msgid "\"log=\" specification must be character"
+msgstr "\"log=\" specifikacija turi būti ženklas"
+
+#, c-format
+msgid "invalid \"log=%s\" specification"
+msgstr "netinkama \"log=%s\" specifikacija"
+
+msgid "NAs not allowed in 'xlim'"
+msgstr "'xlim' neleidžiama naudoti NA"
+
+msgid "need finite 'xlim' values"
+msgstr "reikia baigtinių 'xlim' reikšmių"
+
+msgid "NAs not allowed in 'ylim'"
+msgstr "'ylim' neleidžiama naudoti NA"
+
+msgid "need finite 'ylim' values"
+msgstr "reikia baigtinių 'ylim' reikšmių"
+
+msgid "Logarithmic axis must have positive limits"
+msgstr "Logaritminės ašies ribos turi būti teigiamos"
+
+msgid "invalid type for axis labels"
+msgstr "neleistinas ašies žymenų tipas"
+
+msgid "too few arguments"
+msgstr "per mažai argumentų"
+
+#, c-format
+msgid "invalid axis number %d"
+msgstr "netinkamas ašies numeris %d"
+
+msgid "'hadj' must be of length one"
+msgstr "'hadj' turi būti vieno ilgio"
+
+#, c-format
+msgid "zero-length '%s' specified"
+msgstr "nurodytas nulinis ilgis '%s'"
+
+msgid "'gap.axis' must be of length one"
+msgstr "'gap.axis' turi būti vieno ilgio"
+
+msgid "'gap.axis' must be NA or a finite number"
+msgstr "'gap.axis' turi būti NA arba baigtinis skaičius"
+
+msgid "'labels' is supplied and not 'at'"
+msgstr "'labels' yra pateiktos ir nėra 'at'"
+
+#, c-format
+msgid "'at' and 'labels' lengths differ, %d != %d"
+msgstr "'at' ir 'labels' ilgis skiriasi, %d != %d"
+
+msgid "no locations are finite"
+msgstr "nėra baigtinių vietų"
+
+msgid "invalid plotting structure"
+msgstr "netinkama brėžinio struktūra"
+
+#, c-format
+msgid "'x' and 'y' lengths differ in %s()"
+msgstr "'x' ir 'y' ilgiai skiriasi %s()"
+
+#, c-format
+msgid "invalid plot type '%c'"
+msgstr "netinkamas braižymo tipas '%c'"
+
+msgid "invalid first argument"
+msgstr "neteisingas pirmasis argumentas"
+
+msgid "invalid second argument"
+msgstr "neteisingas antras argumentas"
+
+msgid "invalid third argument"
+msgstr "neteisingas trečias argumentas"
+
+msgid "invalid fourth argument"
+msgstr "neteisingas ketvirtasis argumentas"
+
+msgid "cannot mix zero-length and non-zero-length coordinates"
+msgstr "negalima maišyti nulinio ilgio ir ne nulinio ilgio koordinačių"
+
+msgid "Empty raster"
+msgstr "Tuščias rasteris"
+
+msgid "invalid arrow head length"
+msgstr "netinkamas rodyklės smaigalio ilgis"
+
+msgid "invalid arrow head angle"
+msgstr "netinkamas rodyklės smaigalio kampas"
+
+msgid "invalid arrow head specification"
+msgstr "netinkama rodyklės smaigalio specifikacija"
+
+msgid "no coordinates were supplied"
+msgstr "nebuvo pateikta koordinačių"
+
+msgid "invalid a=, b= specification"
+msgstr "netinkama a=, b= specifikacija"
+
+msgid "'a' and 'b' must be finite"
+msgstr "‘a’ ir ‘b’ turi būti baigtiniai"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "neteisingas argumentas '%s'"
+
+#, c-format
+msgid "invalid number of points in %s"
+msgstr "netinkamas taškų skaičius, esantis %s"
+
+msgid "invalid plot type"
+msgstr "netinkamas brėžinio tipas"
+
+msgid "incorrect argument type"
+msgstr "neteisingas argumento tipas"
+
+msgid "different argument lengths"
+msgstr "skirtingi argumentų ilgiai"
+
+msgid "more 'labels' than points"
+msgstr "daugiau 'labels' nei taškų"
+
+#, c-format
+msgid "warning: no point within %.2f inches\n"
+msgstr "įspėjimas: nėra taško, esančio %.2f colių\n"
+
+msgid "warning: nearest point already identified\n"
+msgstr "įspėjimas: jau nustatytas artimiausias taškas\n"
+
+msgid "invalid units"
+msgstr "neleistini vienetai"
+
+msgid "invalid dendrogram input"
+msgstr "neleistina dendrogramos įvestis"
+
+msgid "invalid symbol parameter vector"
+msgstr "neleistinas simbolio parametro vektorius"
+
+msgid "invalid symbol coordinates"
+msgstr "netinkamos simbolių koordinatės"
+
+msgid "x/y/parameter length mismatch"
+msgstr "x/y/parametro ilgio neatitikimas"
+
+msgid "invalid circles data"
+msgstr "netinkami apskritimų duomenys"
+
+msgid "invalid symbol parameter"
+msgstr "neleistinas simbolio parametras"
+
+msgid "invalid squares data"
+msgstr "neleistini kvadratų duomenys"
+
+msgid "invalid rectangles data (need 2 columns)"
+msgstr "neleistini stačiakampių duomenys (reikia 2 stulpelių)"
+
+msgid "invalid stars data"
+msgstr "netinkami žvaigždžių duomenys"
+
+msgid "invalid thermometers data (need 3 or 4 columns)"
+msgstr "netinkami termometrų duomenys (reikia 3 arba 4 stulpelių)"
+
+#, c-format
+msgid "invalid 'thermometers[, %s]'"
+msgstr "neteisingas ‘thermometers[, %s]’"
+
+#, c-format
+msgid "'thermometers[, %s]' not in [0,1] -- may look funny"
+msgstr "‘thermometers[, %s]’ nėra [0,1] -- gali atrodyti juokinga"
+
+msgid "invalid 'thermometers[, 1:2]'"
+msgstr "neteisingas ‘thermometers[, 1:2]’"
+
+msgid "invalid 'boxplots' data (need 5 columns)"
+msgstr "netinkami 'boxplots' duomenys (reikia 5 stulpelių)"
+
+msgid "'boxplots[, 5]' outside [0,1] -- may look funny"
+msgstr "'boxplots[, 5]' už [0,1] -- gali atrodyti juokinga"
+
+msgid "invalid 'boxplots[, 1:4]'"
+msgstr "neteisingas ‘boxplots[, 1:4]’"
+
+msgid "invalid symbol type"
+msgstr "netinkamas simbolio tipas"
+
+#, c-format
+msgid "incorrect length for '%s' argument"
+msgstr "neteisingas argumento '%s' ilgis"
+
+msgid "insufficient 'x' or 'y' values"
+msgstr "nepakankamos 'x' arba 'y' reikšmės"
+
+msgid "dimension mismatch"
+msgstr "matavimų skaičiaus neatitikimas"
+
+msgid "no contour values"
+msgstr "nėra kontūro reikšmių"
+
+msgid "invalid x / y values or limits"
+msgstr "netinkamos x / y reikšmės arba ribos"
+
+msgid "invalid contour levels: must be strictly increasing"
+msgstr "netinkami kontūro lygiai: turi būti griežtai didėjantys"
+
+msgid "Axis orientation not calculated"
+msgstr "Ašies kryptis neapskaičiuota"
+
+msgid "too few parameters"
+msgstr "per mažai parametrų"
+
+msgid "invalid 'x' limits"
+msgstr "netinkamos 'x' ribos"
+
+msgid "invalid 'y' limits"
+msgstr "netinkamos 'y' ribos"
+
+msgid "invalid 'z' limits"
+msgstr "netinkamos 'z' ribos"
+
+msgid "'xlab' must be a character vector of length 1"
+msgstr "‘xlab’ turi būti 1 ilgio simbolių vektorius"
+
+msgid "'ylab' must be a character vector of length 1"
+msgstr "‘ylab’ turi būti 1 ilgio simbolių vektorius"
+
+msgid "'zlab' must be a character vector of length 1"
+msgstr "‘zlab’ turi būti 1 ilgio simbolių vektorius"
+
+msgid "invalid viewing parameters"
+msgstr "netinkami peržiūros parametrai"
+
+#, c-format
+msgid "invalid '%s' specification"
+msgstr "netinkama '%s' specifikacija"
+
+#, c-format
+msgid "contour(): circular/long seglist -- set %s > %d?"
+msgstr "contour(): circular/long seglist -- nustatyti %s > %d?"
+
+msgid "no 'levels'"
+msgstr "nėra 'levels'"
+
+msgid "missing 'x' values"
+msgstr "trūksta 'x' reikšmių"
+
+msgid "increasing 'x' values expected"
+msgstr "numatomos didėjančios ‘x’ reikšmės"
+
+msgid "missing 'y' values"
+msgstr "trūksta 'y' reikšmių"
+
+msgid "increasing 'y' values expected"
+msgstr "numatomos didėjančios ‘y’ reikšmės"
+
+#, c-format
+msgid "non-finite level values: levels[%d] = %g"
+msgstr "ne baigtinių lygių reikšmės: levels[%d] = %g"
+
+msgid "all z values are equal"
+msgstr "visos z reikšmės yra lygios"
+
+msgid "all z values are NA"
+msgstr "visos z reikšmės yra NA"
+
+#, c-format
+msgid "long vector '%s' is not supported"
+msgstr "ilgas vektorius '%s' nepalaikomas"
+
+#, c-format
+#~ msgid "plot type '%s' will be truncated to first character"
+#~ msgstr "brėžinio tipas '%s' bus sutrumpintas iki pirmojo simbolio"
+
+#~ msgid "invalid NA contour values"
+#~ msgstr "netinkamos NA kontūro reikšmės"
+
+#~ msgid "relative range of values (%4.0f * EPS) is small (axis %d)"
+#~ msgstr "santykinė reikšmių sritis (%4.0f * EPS) yra maža (ašis %d)"

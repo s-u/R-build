@@ -1,0 +1,885 @@
+# Chinese translations for R package
+# Copyright (C) 2006 The R Foundation
+# This file is distributed under the same license as the PACKAGE package.
+# 陈斐 <feic@normipaiva.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 2.4.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-09-02 17:50-0700\n"
+"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"Language-Team: Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.16.4\n"
+
+#, c-format
+msgid "'%s' must be numeric of length %d"
+msgstr "'%s'必需是长度为%d的数值"
+
+msgid "Clipping path ignored (device is appending path)"
+msgstr ""
+
+#, c-format
+msgid "color intensity %s, not in [0,1]"
+msgstr "颜色强度 %s，不在 [0,1] 范围内"
+
+#, c-format
+msgid "color intensity %g, not in [0,1]"
+msgstr "颜色强度%g，不在[0,1]"
+
+#, c-format
+msgid "color intensity %s, not in 0:255"
+msgstr "颜色强度 %s，不是 0:255"
+
+#, c-format
+msgid "color intensity %d, not in 0:255"
+msgstr "颜色强度%d，不在0:255"
+
+#, c-format
+msgid "alpha level %s, not in [0,1]"
+msgstr "Alpha 级别 %s，不在 [0,1] 范围内"
+
+#, c-format
+msgid "alpha level %g, not in [0,1]"
+msgstr "α水平%g，不在[0,1]"
+
+#, c-format
+msgid "alpha level %s, not in 0:255"
+msgstr "Alpha 级别 %s，不在 0:255"
+
+#, c-format
+msgid "alpha level %d, not in 0:255"
+msgstr "α水平%d，不在0:255"
+
+msgid "inputs must be finite"
+msgstr ""
+
+msgid "bad hsv to rgb color conversion"
+msgstr "hsv到rgb颜色转换出错"
+
+msgid "invalid hsv color"
+msgstr "hsv颜色无效"
+
+msgid "invalid hcl color"
+msgstr "hcl颜色无效"
+
+msgid "invalid value of 'maxColorValue'"
+msgstr "“maxColorValue”的值无效"
+
+msgid "invalid 'names' vector"
+msgstr "'names'向量无效"
+
+msgid "invalid gray level, must be in [0,1]."
+msgstr "灰色水平无效，必需在[0,1]。"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "'%s'值无效"
+
+msgid "invalid hex digit in 'color' or 'lty'"
+msgstr "'color'或'lty'里的十六进制数字无效"
+
+msgid "invalid RGB specification"
+msgstr "RGB设置出错"
+
+#, c-format
+msgid "invalid color name '%s'"
+msgstr "'%s'颜色名称无效"
+
+#, c-format
+msgid "invalid color specification \"%s\""
+msgstr "颜色设置出错\"%s\""
+
+msgid "supplied color is neither numeric nor character"
+msgstr "所提供的颜色值既不是数字也不是字符"
+
+#, c-format
+msgid "numerical color values must be >= 0, found %d"
+msgstr "颜色数值必需大于等于零，现在得到的是%d"
+
+msgid "invalid argument type"
+msgstr "参数类型无效"
+
+msgid "unknown palette (need >= 2 colors)"
+msgstr "没有这样的调色板（至少需要两种颜色"
+
+#, c-format
+msgid "maximum number of colors is %d"
+msgstr "最大颜色数是%d"
+
+#, c-format
+msgid "afm file '%s' could not be opened"
+msgstr "无法打开afm文本'%s'"
+
+msgid "unknown AFM entity encountered"
+msgstr "遇到未知AFM值这个错误"
+
+#, c-format
+msgid "invalid string in '%s'"
+msgstr "'%s'里的字符串无效"
+
+#, c-format
+msgid "font width unknown for character 0x%02x in encoding %s"
+msgstr "编码 %2$s 中字符 0x%1$02x 的字体宽度未知"
+
+#, c-format
+msgid "font metrics unknown for Unicode character U+%04X"
+msgstr "Unicode 字符 U+%04X 的字体规格未知"
+
+#, c-format
+msgid "unknown encoding '%s' in 'PostScriptMetricInfo'"
+msgstr "'PostScriptMetricInfo'里没有'%s'编码"
+
+#, c-format
+msgid "Unicode character %lc (U+%04X) cannot be converted"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "font metrics unknown for character 0x%02x in encoding %s"
+msgstr "字符0x%x不带字体度量"
+
+#, fuzzy, c-format
+msgid "invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
+msgstr "传给'PostScriptCIDMetricInfo'的字符(%04x)在单字节場所里, 因此无效"
+
+msgid "invalid character sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
+msgstr "传给'PostScriptCIDMetricInfo'的字符是单字节場所, 因此无效"
+
+msgid "failed to allocate CID font info"
+msgstr "无法分配CID字体信息"
+
+msgid "failed to allocate Type 1 font info"
+msgstr "无法分配一类别字体信息"
+
+msgid "failed to allocate encoding info"
+msgstr "无法分配编码信息"
+
+msgid "failed to allocate CID font family"
+msgstr "无法分配CID字体系列"
+
+msgid "failed to allocate Type 1 font family"
+msgstr "无法分配一类别字体系列"
+
+msgid "failed to allocate font list"
+msgstr "无法分配字体列"
+
+msgid "failed to allocated encoding list"
+msgstr "无法分配编码列"
+
+msgid "truncated string which was too long for copy"
+msgstr "切断的字符串太长，无法拷贝"
+
+#, c-format
+msgid "failed to load encoding file '%s'"
+msgstr "无法载入编码文本'%s'"
+
+msgid "invalid font name or more than one font name"
+msgstr "字体名称无效或太多"
+
+#, c-format
+msgid "font family '%s' not found in PostScript font database"
+msgstr "PostScript字体数据库里找不到'%s'这个字体系列"
+
+#, c-format
+msgid "font encoding for family '%s' not found in font database"
+msgstr "字体数据库里找不到'%s'字体系列的字体编码"
+
+#, c-format
+msgid "font CMap for family '%s' not found in font database"
+msgstr "字体数据库里找不到用于'%s'字体系列的CMap这个字体"
+
+#, c-format
+msgid "cannot load afm file '%s'"
+msgstr "无法载入afm文本'%s'"
+
+msgid "corrupt loaded encodings;  encoding not recorded"
+msgstr "载入的编码损坏了; 没有记录编码"
+
+msgid "failed to record device encoding"
+msgstr "无法记录装置编码"
+
+msgid "object '.ps.prolog' is not a character vector"
+msgstr "对象'.ps.prolog'不是字符向量"
+
+msgid "invalid line end"
+msgstr "行尾出错"
+
+msgid "invalid line join"
+msgstr "行接連處出错"
+
+msgid "invalid line mitre"
+msgstr "行斜接出错"
+
+#, c-format
+msgid "attempt to use invalid font %d replaced by font 1"
+msgstr "不能用%d这个字体，代用一字体"
+
+#, c-format
+msgid "filename too long in %s()"
+msgstr "%s()里的文本名称太长"
+
+#, c-format
+msgid "memory allocation problem in %s()"
+msgstr "%s()内存分配出了问题"
+
+#, c-format
+msgid "encoding path is too long in %s()"
+msgstr "%s()里的编码路径太长"
+
+#, c-format
+msgid "failed to load encoding file in %s()"
+msgstr "%s()中载入编码文本失败了'"
+
+msgid "invalid font type"
+msgstr "字体类别出错"
+
+msgid "failed to initialise default PostScript font"
+msgstr "无法初始化PostScript字体的默认值"
+
+msgid "failed to initialise additional PostScript fonts"
+msgstr "无法初始化外加的PostScript字体"
+
+msgid "invalid foreground/background color (postscript)"
+msgstr "前景/后景颜色无效(postscript)"
+
+msgid "'command' is too long"
+msgstr "'command'太长"
+
+msgid "'postscript(print.it=TRUE)' used with an empty 'print' command"
+msgstr "'postscript(print.it=TRUE)'不能用在空'print'命令里"
+
+#, c-format
+msgid "invalid page type '%s' (postscript)"
+msgstr "页类别'%s'(postscript)无效"
+
+msgid "semi-transparency is not supported on this device: reported only once per page"
+msgstr "此装置不支持半透明：每一页将被报告一次"
+
+#, fuzzy, c-format
+msgid "cannot open 'postscript' pipe to '%s' (reason: %s)"
+msgstr "无法打开'postscript'管道至'%s'"
+
+#, c-format
+msgid "cannot open file '%s'"
+msgstr "无法打开'%s'文件"
+
+#, c-format
+msgid ""
+"error from postscript() in running:\n"
+"    %s"
+msgstr ""
+"postscript()出了错，是在运行这个命令时发生的:\n"
+"    %s"
+
+#, c-format
+msgid "CID family '%s' not included in postscript() device"
+msgstr "postscript()装置里没有CID系列'%s'"
+
+#, c-format
+msgid "family '%s' not included in postscript() device"
+msgstr "postscript()装置里没有'%s'系列"
+
+#, c-format
+msgid "unknown encoding '%s' in 'mbcsToSbcs'"
+msgstr "'mbcsToSbcs'不存在'%s'这样的编码"
+
+#, fuzzy, c-format
+msgid "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
+msgstr "'mbcsToSbcs'里转换'%s'出错：<%02x>代替了dot"
+
+#, c-format
+msgid "conversion failure on '%s' in 'mbcsToSbcs': dot substituted for <%02x>"
+msgstr "'mbcsToSbcs'里转换'%s'出错：<%02x>代替了dot"
+
+#, c-format
+msgid "failed open converter to encoding '%s'"
+msgstr "编码'%s'时文字转换器出了错"
+
+#, c-format
+msgid "failed in text conversion to encoding '%s'"
+msgstr "文字转换到编码'%s'时出了错"
+
+#, fuzzy
+msgid "Failed to allocate PDF definition string"
+msgstr "无法分配字体列"
+
+#, fuzzy
+msgid "failed to increase definition string (shut down PDF device)"
+msgstr "无法增加页数限制: 请关闭pdf装置"
+
+#, fuzzy
+msgid "failed to increase 'maxDefns'"
+msgstr "无法增加’maxRaster’"
+
+msgid "Drawing not appended to path (contains text)"
+msgstr ""
+
+msgid "Compositing operator has no corresponding blend mode; defaulting to Normal"
+msgstr ""
+
+msgid "Failed to write PDF clipping path"
+msgstr ""
+
+msgid "Failed to write PDF stroke"
+msgstr ""
+
+msgid "Failed to write PDF fill"
+msgstr ""
+
+msgid "Failed to write PDF fillStroke"
+msgstr ""
+
+msgid "Glyph ID larger than 0xFFFF; output will be incorrect"
+msgstr ""
+
+msgid "invalid 'alpha' value in PDF"
+msgstr "PDF里的'alpha'值无效"
+
+msgid "failed to increase 'maxRaster'"
+msgstr "无法增加’maxRaster’"
+
+msgid "unable to allocate raster image"
+msgstr "无法分配光栅图像"
+
+msgid "write failed"
+msgstr "写入失败"
+
+msgid "corrupt loaded encodings;  font not added"
+msgstr "载入的编码坏了; 字体没有加入"
+
+msgid "failed to record device encoding; font not added"
+msgstr "无法记录装置编码; 字体没有加入"
+
+msgid "increasing the PDF version to 1.2"
+msgstr "增加PDF版本到1.2"
+
+msgid "failed to load default encoding"
+msgstr "无法载入默认编码"
+
+msgid "failed to initialise default PDF font"
+msgstr "无法初始化PDF默认字体"
+
+msgid "failed to initialise additional PDF fonts"
+msgstr "无法初始化外加的PDF字体"
+
+msgid "failed to allocate rasters"
+msgstr "无法分配栅格"
+
+msgid "failed to allocate masks"
+msgstr "无法分配面具"
+
+#, fuzzy
+msgid "failed to allocate definitions"
+msgstr "无法分配字体列"
+
+#, c-format
+msgid "invalid paper type '%s' (pdf)"
+msgstr "纸张类别'%s'无效(pdf)"
+
+msgid "invalid foreground/background color (pdf)"
+msgstr "前景/后景颜色无效(pdf)"
+
+msgid "increasing the PDF version to 1.4"
+msgstr "增加PDF版本到1.4"
+
+msgid "unknown 'colormodel', using 'srgb'"
+msgstr "没有这种'colormodel'，用'srgb'"
+
+msgid "failed to load sRGB colorspace file"
+msgstr "无法载入sRGB色彩文件"
+
+msgid "corrupt encodings in PDF device"
+msgstr "PDF装置里的编码坏了"
+
+msgid "increasing the PDF version to 1.3"
+msgstr "增加PDF版本到1.3"
+
+#, fuzzy, c-format
+msgid "cannot open 'pdf' pipe to '%s' (reason: %s)"
+msgstr "无法打开通到'%s'的'pdf'管道"
+
+msgid "file = \"|cmd\" implies 'onefile = TRUE'"
+msgstr "file = \"|cmd\"意味着'onefile = TRUE'"
+
+#, c-format
+msgid ""
+"cannot open 'pdf' file argument '%s'\n"
+"  please shut down the PDF device"
+msgstr ""
+"无法打开'pdf'文本参数'%s'\n"
+"  请关闭PDF装置"
+
+#, c-format
+msgid "Cannot open temporary file '%s' for compression (reason: %s); compression has been turned off for this device"
+msgstr ""
+
+msgid "failed to find or load PDF font"
+msgstr "没有能够找到或载入PDF字体"
+
+msgid "Text not added to path containing other drawing"
+msgstr ""
+
+msgid "failed to find or load PDF CID font"
+msgstr "没有能够找到或载入PDF CID字体"
+
+#, fuzzy, c-format
+msgid "invalid 'file' parameter in %s"
+msgstr "%s里的'system'参数无效"
+
+#, c-format
+msgid "invalid 'family' parameter in %s"
+msgstr "%s里的'system'参数无效"
+
+#, c-format
+msgid "invalid 'fonts' parameter in %s"
+msgstr "%s里的'fonts'参数无效"
+
+#, c-format
+msgid "invalid value of '%s'"
+msgstr "'%s'的值无效"
+
+#, c-format
+msgid "unable to start %s() device"
+msgstr "无法启动%s()装置"
+
+msgid "Quartz gradients exhausted (failed to increase maxPatterns)"
+msgstr ""
+
+msgid "Quartz patterns exhausted (failed to increase maxPatterns)"
+msgstr ""
+
+msgid "Attempt to release non-existent pattern"
+msgstr ""
+
+msgid "Quartz patterns exhausted"
+msgstr ""
+
+#, fuzzy
+msgid "Failed to create gradient"
+msgstr "无法增加’maxRaster’"
+
+msgid "Unsupported gradient fill extend type; using 'pad'"
+msgstr ""
+
+#, fuzzy
+msgid "Failed to create pattern"
+msgstr "无法分配栅格"
+
+msgid "Unsupported pattern extend mode;  using \"repeat\""
+msgstr ""
+
+msgid "Quartz clipping paths exhausted (failed to increase maxClipPaths)"
+msgstr ""
+
+msgid "Quartz clipping paths exhausted"
+msgstr ""
+
+#, fuzzy
+msgid "Failed to create clipping path"
+msgstr "无法分配编码列"
+
+msgid "Quartz masks exhausted (failed to increase maxMasks)"
+msgstr ""
+
+msgid "Quartz masks exhausted"
+msgstr ""
+
+#, fuzzy
+msgid "Failed to create Quartz mask"
+msgstr "无法分配面具"
+
+msgid "Quartz groups exhausted (failed to increase maxGroups)"
+msgstr ""
+
+msgid "Attempt to release non-existent group"
+msgstr ""
+
+msgid "Quartz groups exhausted"
+msgstr ""
+
+msgid "Add compositing operator not supported; falling back to over"
+msgstr ""
+
+msgid "Groups exhausted"
+msgstr ""
+
+#, c-format
+msgid "font \"%s\" could not be found for family \"%s\""
+msgstr "字体家族\"%s\"里没有\"%s\"这一字体"
+
+msgid "font family name is too long"
+msgstr "字体家族名称太长"
+
+#, c-format
+msgid "no font could be found for family \"%s\""
+msgstr "字体家族\"%s\"没有字体"
+
+msgid "Attempt to reuse non-existent clipping path"
+msgstr ""
+
+msgid "Attempt to release non-existent clipping path"
+msgstr ""
+
+msgid "Attempt to release non-existent mask"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "Invalid font path: \"%s\""
+msgstr "%s里的'fonts'参数无效"
+
+#, fuzzy
+msgid "Failed to load font"
+msgstr "无法分配字体列"
+
+msgid "invalid 'file' argument"
+msgstr "'file'参数无效"
+
+msgid "invalid quartz() device size"
+msgstr "quartz()装置大小无效"
+
+msgid "unable to create device description"
+msgstr "无法建立设备描述文件"
+
+msgid "unable to create quartz() device target, given type may not be supported"
+msgstr "无法建立quartz()装置，可能不支持所提供的类型"
+
+msgid "Quartz device is not available on this platform"
+msgstr "这个平台上没有石英装置"
+
+msgid "Not enough memory to copy graphics window"
+msgstr "内存不足，无法拷贝图形窗"
+
+msgid "No device available to copy graphics window"
+msgstr "没有装置来拷贝图形窗"
+
+#, c-format
+msgid "'%%' is not allowed in file name"
+msgstr "文件名称中不能有'%%'"
+
+msgid "invalid font specification"
+msgstr "字体设定无效"
+
+msgid "font family not found in Windows font database"
+msgstr "Windows字体数据库里没有这样的字体系列"
+
+msgid "plot history seems corrupted"
+msgstr "绘图历史好象坏了"
+
+msgid "no plot history!"
+msgstr "没有绘图历史!"
+
+#, c-format
+msgid "filename too long in %s() call"
+msgstr "%s()調用里的文本名称太长"
+
+#, c-format
+msgid "'width=%d, height=%d' are unlikely values in pixels"
+msgstr "'width=%d, height=%d'这样的像素值很可能不正确"
+
+msgid "unable to allocate bitmap"
+msgstr "无法分配bitmap"
+
+#, c-format
+msgid "unable to open file '%s' for writing"
+msgstr "无法打开'%s'文本写入"
+
+msgid "filename too long in jpeg() call"
+msgstr "jpeg()调用时文件名称太长"
+
+msgid "filename too long in tiff() call"
+msgstr "tiff()调用时文件名称太长"
+
+msgid "filename too long in win.metafile() call"
+msgstr "win.metafile()調用里的文本名称太长"
+
+#, c-format
+msgid "unable to open metafile '%s' for writing"
+msgstr "无法打开元文本'%s'写入"
+
+msgid "unable to open clipboard to write metafile"
+msgstr "无法打开剪輯板来写入元文本"
+
+msgid "Insufficient memory for resize. Killing device"
+msgstr "内存不足，无法重新修改大小. 关闭装置"
+
+msgid "Insufficient memory for resize. Disabling alpha blending"
+msgstr "内存不足，无法重新修改大小. 关闭alpha混合"
+
+msgid "a clipboard metafile can store only one figure."
+msgstr "剪輯板元文本只能保存一个图片。"
+
+#, c-format
+msgid "metafile '%s' could not be created"
+msgstr "无法建立元文本'%s'"
+
+msgid "R Graphics"
+msgstr "R Graphics"
+
+msgid "attempt to use the locator after dev.hold()"
+msgstr "调用dev.hold()后不能再用定位器"
+
+msgid "graphics device closed during call to locator or identify"
+msgstr "图形设备在调用 locator 或 identify时关闭"
+
+msgid "option 'windowsTimeouts' should be integer"
+msgstr "'windowsTimeouts'选择项必需是整数"
+
+msgid "invalid device number in 'savePlot'"
+msgstr "'savePlot'里的装置数目出了错"
+
+msgid "invalid device in 'savePlot'"
+msgstr "'savePlot'装置出错"
+
+msgid "invalid filename argument in 'savePlot'"
+msgstr "'savePlot'文本名称参数无效"
+
+msgid "invalid type argument in 'savePlot'"
+msgstr "'savePlot'类别参数无效"
+
+msgid "unknown type in savePlot"
+msgstr "savePlot里没有类别"
+
+msgid "processing of the plot ran out of memory"
+msgstr "处理图象时内存用完了"
+
+msgid "Impossible to open "
+msgstr "无法打开 "
+
+msgid "invalid 'width' or 'height'"
+msgstr "'width'或'height'的值无效"
+
+msgid "argument must have positive length"
+msgstr "参数的长度必需是下的"
+
+msgid "invalid argument"
+msgstr "参数无效"
+
+msgid "NA argument is invalid"
+msgstr "NA 参数无效"
+
+msgid "Killing locked device"
+msgstr ""
+
+msgid "Group definition ignored (device is appending path)"
+msgstr ""
+
+msgid "Group use ignored (device is appending path)"
+msgstr ""
+
+msgid "Mask ignored (device is appending path)"
+msgstr ""
+
+#, fuzzy
+msgid "QuartzBitmap_Output - filename is empty!"
+msgstr "QuartzBitmap_Output - 打不开'%s'文件"
+
+#, c-format
+msgid "QuartzBitmap_Output - unable to open file '%s'"
+msgstr "QuartzBitmap_Output - 打不开'%s'文件"
+
+msgid "not a supported scheme, no image data written"
+msgstr "不支持这个规划，因此没有写任何图象数据"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "'%s'参数无效"
+
+#, fuzzy
+msgid "unimplemented cairo-based device"
+msgstr "还没有为这个装置实现%s功能"
+
+#, fuzzy, c-format
+msgid "could not open file '%s'"
+msgstr "无法打开'%s'文件"
+
+#, fuzzy, c-format
+msgid "unable to start device '%s'"
+msgstr "无法启动pdf装置"
+
+msgid "Cairo patterns exhausted (failed to increase maxPatterns)"
+msgstr ""
+
+msgid "Cairo patterns exhausted"
+msgstr ""
+
+msgid "Cairo clipping paths exhausted (failed to increase maxClipPaths)"
+msgstr ""
+
+msgid "Cairo clipping paths exhausted"
+msgstr ""
+
+msgid "Cairo masks exhausted (failed to increase maxMasks)"
+msgstr ""
+
+msgid "Cairo masks exhausted"
+msgstr ""
+
+msgid "Ignored luminance mask (not supported on this device)"
+msgstr ""
+
+msgid "Cairo groups exhausted (failed to increase maxGroups)"
+msgstr ""
+
+msgid "Cairo groups exhausted"
+msgstr ""
+
+#, fuzzy
+msgid "Font variations too long"
+msgstr "字体家族名称太长"
+
+#, fuzzy
+msgid "Failed to apply font variations"
+msgstr "无法分配字体列"
+
+msgid "Variable fonts not supported (requires Cairo >= 1.16.0)"
+msgstr ""
+
+#, fuzzy
+msgid "Font file not found; matching font family and face"
+msgstr "石英字体数据库里找不到字体系列"
+
+#~ msgid "ran out of colors in xfig()"
+#~ msgstr "xfig()里的颜色不足用"
+
+#, c-format
+#~ msgid "unimplemented line texture %08x: using Dash-double-dotted"
+#~ msgstr "没有实现%08x这样的字行结构: 用Dash-double-dotted"
+
+#, c-format
+#~ msgid "unknown postscript font family '%s', using Helvetica"
+#~ msgstr "不存在postscript字体系列'%s', 用Helvetica"
+
+#~ msgid "invalid foreground/background color (xfig)"
+#~ msgstr "前景/后景颜色无效(xfig)"
+
+#~ msgid "only Type 1 fonts supported for XFig"
+#~ msgstr "XFig只支持Type 1字体"
+
+#~ msgid "failed to initialise default XFig font"
+#~ msgstr "无法初始化XFig默认字体"
+
+#, c-format
+#~ msgid "invalid page type '%s' (xfig)"
+#~ msgstr "页类别'%s'出错(xfig)"
+
+#, c-format
+#~ msgid "xfig(%s, onefile=FALSE) will only return the last plot"
+#~ msgstr "xfig(%s, onefile=FALSE)只会返回最后的一张图"
+
+#~ msgid "empty file name"
+#~ msgstr "空文本名称"
+
+#, c-format
+#~ msgid "unable to use encoding '%s'"
+#~ msgstr "无法用编码'%s'"
+
+#~ msgid "Impossible to load Rbitmap.dll"
+#~ msgstr "无法载入Rbitmap.dll"
+
+#~ msgid "Invalid line end"
+#~ msgstr "行尾出错"
+
+#~ msgid "Invalid line join"
+#~ msgstr "行接連處出错"
+
+#~ msgid "Unable to load Rbitmap.dll"
+#~ msgstr "无法载入Rbitmap.dll"
+
+#~ msgid "Unable to load winCairo.dll: was it built?"
+#~ msgstr "无法载入winCairo.dll: 构建了这个动态链接库没有？"
+
+#~ msgid "FontBBox could not be parsed"
+#~ msgstr "无法对字体BBox作句法分析"
+
+#~ msgid "CharInfo could not be parsed"
+#~ msgstr "无法对字符信息作句法分析"
+
+#~ msgid "unable to start NULL device"
+#~ msgstr "无法启动NULL装置"
+
+#~ msgid "printing via file = \"\" is not implemented in this version"
+#~ msgstr "本版本没有实现通过file = \"\" 印刷的这一功能"
+
+#~ msgid "file = \"|cmd\" is not implemented in this version"
+#~ msgstr "本版本没有实现file = \"|cmd\" 这一功能"
+
+#~ msgid "%s not available for this device"
+#~ msgstr "这个装置没有%s这个功能"
+
+#~ msgid "Too many raster images"
+#~ msgstr "光栅图像太多了"
+
+#~ msgid "cannot allocate pd->pos"
+#~ msgstr "无法分配pd->pos"
+
+#~ msgid "cannot allocate pd->pageobj"
+#~ msgstr "无法分配pd->pageobj"
+
+#~ msgid "invalid 'maxRasters' parameter in %s"
+#~ msgstr "%s里的'maxRasters'参数不对"
+
+#~ msgid "only gray colors are allowed in this color model"
+#~ msgstr "这个颜色模型只能用灰色"
+
+#~ msgid "cannot open 'postscript' file argument '%s'"
+#~ msgstr "无法打开'postscript'文本参数'%s'"
+
+#~ msgid "cannot open 'pdf' file argument '%s'"
+#~ msgstr "无法打开'pdf'文本参数'%s'"
+
+#~ msgid "filename too long in postscript"
+#~ msgstr "postscript文本名字太长"
+
+#~ msgid "filename too long in xfig"
+#~ msgstr "xfig文本名字太长"
+
+#~ msgid "filename too long in pdf"
+#~ msgstr "pdf文本名字太长"
+
+#~ msgid "unable to start device PostScript"
+#~ msgstr "无法启动PostScript装置"
+
+#~ msgid "unable to start device xfig"
+#~ msgstr "无法启动xfig装置"
+
+#~ msgid "unable to start device PicTeX"
+#~ msgstr "无法启动PicTeX装置"
+
+#~ msgid "recursive use of getGraphicsEvent not supported"
+#~ msgstr "不支持getGraphicsEvent的遞迴使用"
+
+#~ msgid "re-encoding is not possible on this system"
+#~ msgstr "这个系统不能进行重新编码操作"
+
+#~ msgid "invalid value of 'record' in devWindows"
+#~ msgstr "devWindows的'record'值不对"
+
+#~ msgid "invalid value of 'rescale' in devWindows"
+#~ msgstr "devWindows的'rescale'值不对"
+
+#~ msgid "invalid value of 'canvas' in devWindows"
+#~ msgstr "devWindows的'canvas'值不对"
+
+#~ msgid "invalid value of 'buffered' in devWindows"
+#~ msgstr "devWindows的'buffered'值不对"
+
+#~ msgid "invalid value of 'title' in devWindows"
+#~ msgstr "devWindows的'title'值不对"
+
+#~ msgid "unable to start device devWindows"
+#~ msgstr "无法启动devWindows装置"
+
+#~ msgid "can't find any fonts"
+#~ msgstr "找不到任何字体"
+
+#~ msgid "invalid width or height in quartz"
+#~ msgstr "石英的宽度或长度不对"
+
+#~ msgid "unable to start device Quartz"
+#~ msgstr "无法启动石英装置"

@@ -1,0 +1,6048 @@
+# English translations for R package.
+# Copyright (C) 2005 The R Foundation
+# This file is distributed under the same license as the R package.
+# Prof Brian Ripley <ripley@stats.ox.ac.uk>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 2.1.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-09-02 17:50-0700\n"
+"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"Language-Team: English\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
+
+msgid "non-finite value supplied by 'optim'"
+msgstr "non-finite value supplied by 'optim'"
+
+#, c-format
+msgid "candidate point in 'optim' evaluated to length %d not %d"
+msgstr "candidate point in 'optim' evaluated to length %d not %d"
+
+msgid "REPORT must be > 0 (method = \"BFGS\")"
+msgstr "REPORT must be > 0 (method = \"BFGS\")"
+
+msgid "initial value in 'vmmin' is not finite"
+msgstr "initial value in 'vmmin' is not finite"
+
+msgid "function cannot be evaluated at initial parameters"
+msgstr "function cannot be evaluated at initial parameters"
+
+msgid "unknown type in \"CG\" method of 'optim'"
+msgstr "unknown type in \"CG\" method of 'optim'"
+
+msgid "REPORT must be > 0 (method = \"L-BFGS-B\")"
+msgstr "REPORT must be > 0 (method = \"L-BFGS-B\")"
+
+msgid "L-BFGS-B needs finite values of 'fn'"
+msgstr "L-BFGS-B needs finite values of 'fn'"
+
+msgid "trace, REPORT must be >= 0 (method = \"SANN\")"
+msgstr "trace, REPORT must be >= 0 (method = \"SANN\")"
+
+#, c-format
+msgid "R_pretty(): infinite range; *ndiv=%d, should have ndiv >= 2"
+msgstr "R_pretty(): infinite range; *ndiv=%d, should have ndiv >= 2"
+
+#, fuzzy, c-format
+msgid "R_pretty(): very small range 'cell'=%.3g, increased to %g"
+msgstr "R_pretty(): very small range 'cell'=%g, corrected to %g"
+
+#, fuzzy, c-format
+msgid "R_pretty(): very large range 'cell'=%.3g, decreased to %g"
+msgstr "R_pretty(): very large range 'cell'=%g, corrected to %g"
+
+#, c-format
+msgid "DLL attempted to change FPU control word from %x to %x"
+msgstr "DLL attempted to change FPU control word from %x to %x"
+
+msgid "cannot get working directory"
+msgstr "cannot get working directory"
+
+msgid "R_HOME not set"
+msgstr "R_HOME not set"
+
+#, c-format
+msgid "'%s' not found"
+msgstr "'%s' not found"
+
+#, c-format
+msgid "file association for '%s' not available or invalid"
+msgstr "file association for '%s' not available or invalid"
+
+#, c-format
+msgid "access to '%s' denied"
+msgstr "access to '%s' denied"
+
+#, c-format
+msgid "problem in displaying '%s'"
+msgstr "problem in displaying '%s'"
+
+#, c-format
+msgid "'%ls' not found"
+msgstr "'%ls' not found"
+
+#, c-format
+msgid "file association for '%ls' not available or invalid"
+msgstr "file association for '%ls' not available or invalid"
+
+#, c-format
+msgid "access to '%ls' denied"
+msgstr "access to '%ls' denied"
+
+#, c-format
+msgid "problem in displaying '%ls'"
+msgstr "problem in displaying '%ls'"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "invalid '%s' argument"
+
+msgid "unsupported version of Windows"
+msgstr "unsupported version of Windows"
+
+#, fuzzy, c-format
+msgid "cannot resolve current user or domain: '%s'"
+msgstr "cannot resolve current user or domain: '%s'"
+
+msgid "'path' must be a character vector"
+msgstr "'path' must be a character vector"
+
+msgid "invalid device"
+msgstr "invalid device"
+
+msgid "requires SDI mode"
+msgstr "requires SDI mode"
+
+msgid "invalid graphical device number"
+msgstr "invalid graphical device number"
+
+msgid "bad device"
+msgstr "bad device"
+
+msgid "file choice cancelled"
+msgstr "file choice cancelled"
+
+#, c-format
+msgid "'CreateProcess' failed to run '%s'"
+msgstr "'CreateProcess' failed to run '%s'"
+
+msgid "Child process not responding.  R will terminate it."
+msgstr "Child process not responding.  R will terminate it."
+
+#, c-format
+msgid "Exit code was %d"
+msgstr "Exit code was %d"
+
+msgid "Insufficient memory (rpipeOpen)"
+msgstr "Insufficient memory (rpipeOpen)"
+
+msgid "seek not enabled for this connection"
+msgstr "seek not enabled for this connection"
+
+msgid "truncate not enabled for this connection"
+msgstr "truncate not enabled for this connection"
+
+msgid "printing of extremely long output is truncated"
+msgstr "printing of extremely long output is truncated"
+
+msgid "allocation of pipe connection failed"
+msgstr "allocation of pipe connection failed"
+
+msgid "'names' is not a character vector"
+msgstr "'names' is not a character vector"
+
+#, c-format
+msgid ""
+"expanded path length %llu would be too long for\n"
+"%s\n"
+msgstr ""
+"expanded path length %llu would be too long for\n"
+"%s\n"
+
+msgid "character string expected as first argument"
+msgstr "character string expected as first argument"
+
+msgid "character string expected as third argument"
+msgstr "character string expected as third argument"
+
+#, c-format
+msgid "invalid %s argument"
+msgstr "invalid %s argument"
+
+#, c-format
+msgid "command '%s' timed out after %ds"
+msgstr "command '%s' timed out after %ds"
+
+#, c-format
+msgid "running command '%s' had status %d"
+msgstr "running command '%s' had status %d"
+
+msgid "reached session elapsed time limit"
+msgstr "reached session elapsed time limit"
+
+msgid "reached elapsed time limit"
+msgstr "reached elapsed time limit"
+
+msgid "reached session CPU time limit"
+msgstr "reached session CPU time limit"
+
+msgid "reached CPU time limit"
+msgstr "reached CPU time limit"
+
+#, c-format
+msgid "Fatal error: %s\n"
+msgstr "Fatal error: %s\n"
+
+#, c-format
+msgid "encoding '%s' is not recognised"
+msgstr "encoding '%s' is not recognised"
+
+#, c-format
+msgid "<ERROR: re-encoding failure from encoding '%s'>\n"
+msgstr "<ERROR: re-encoding failure from encoding '%s'>\n"
+
+#, c-format
+msgid "cannot open file '%s': %s"
+msgstr "cannot open file '%s': %s"
+
+#, c-format
+msgid "file.show(): file '%s' does not exist\n"
+msgstr "file.show(): file '%s' does not exist\n"
+
+#, c-format
+msgid "Not enough memory"
+msgstr "Not enough memory"
+
+#, c-format
+msgid "ARGUMENT '%s' __ignored__\n"
+msgstr "ARGUMENT '%s' __ignored__\n"
+
+#, c-format
+msgid "option '%s' requires an argument"
+msgstr "option '%s' requires an argument"
+
+#, c-format
+msgid "option '%s' requires a non-empty argument"
+msgstr "option '%s' requires a non-empty argument"
+
+#, c-format
+msgid "WARNING: '-e %s' omitted as input is too long\n"
+msgstr "WARNING: '-e %s' omitted as input is too long\n"
+
+#, c-format
+msgid "WARNING: unknown option '%s'\n"
+msgstr "WARNING: unknown option '%s'\n"
+
+msgid "cannot use -e with -f or --file"
+msgstr "cannot use -e with -f or --file"
+
+msgid "creation of tmpfile failed -- set TMPDIR suitably?"
+msgstr "creation of tmpfile failed -- set TMPDIR suitably?"
+
+msgid "you must specify '--save', '--no-save' or '--vanilla'"
+msgstr "you must specify '--save', '--no-save' or '--vanilla'"
+
+msgid "impossible to create 'reader thread'; you must free some system resources"
+msgstr "impossible to create 'reader thread'; you must free some system resources"
+
+msgid "subscript out of bounds"
+msgstr "subscript out of bounds"
+
+#, c-format
+msgid "object of type '%s' is not subsettable"
+msgstr "object of type '%s' is not subsettable"
+
+msgid "missing subscript"
+msgstr "missing subscript"
+
+msgid "WARNING: no value given for --encoding"
+msgstr "WARNING: no value given for --encoding"
+
+#, c-format
+msgid "WARNING: option '%s' no longer supported"
+msgstr "WARNING: option '%s' no longer supported"
+
+#, c-format
+msgid "WARNING: no value given for '%s'"
+msgstr "WARNING: no value given for '%s'"
+
+#, c-format
+msgid "WARNING: '%s' value is invalid: ignored"
+msgstr "WARNING: '%s' value is invalid: ignored"
+
+#, c-format
+msgid "WARNING: %s: too large and ignored"
+msgstr "WARNING: %s: too large and ignored"
+
+msgid "WARNING: no value given for '--max-ppsize'"
+msgstr "WARNING: no value given for '--max-ppsize'"
+
+msgid "WARNING: '--max-ppsize' value is negative: ignored"
+msgstr "WARNING: '--max-ppsize' value is negative: ignored"
+
+msgid "WARNING: '--max-ppsize' value is too small: ignored"
+msgstr "WARNING: '--max-ppsize' value is too small: ignored"
+
+msgid "WARNING: '--max-ppsize' value is too large: ignored"
+msgstr "WARNING: '--max-ppsize' value is too large: ignored"
+
+msgid "WARNING: no value given for '--max-connections'"
+msgstr "WARNING: no value given for '--max-connections'"
+
+msgid "WARNING: '--max-connections' value is negative: ignored"
+msgstr "WARNING: '--max-connections' value is negative: ignored"
+
+msgid "WARNING: '--max-connections' value is too small: ignored"
+msgstr "WARNING: '--max-connections' value is too small: ignored"
+
+msgid "WARNING: '--max-connections' value is too large: ignored"
+msgstr "WARNING: '--max-connections' value is too large: ignored"
+
+#, c-format
+msgid "unif_rand: unimplemented RNG kind %d"
+msgstr "unif_rand: unimplemented RNG kind %d"
+
+#, c-format
+msgid "FixupSeeds: unimplemented RNG kind %d"
+msgstr "FixupSeeds: unimplemented RNG kind %d"
+
+msgid "'user_unif_rand' not in load table"
+msgstr "'user_unif_rand' not in load table"
+
+msgid "cannot read seeds unless 'user_unif_nseed' is supplied"
+msgstr "cannot read seeds unless 'user_unif_nseed' is supplied"
+
+msgid "seed length must be in 0...625; ignored"
+msgstr "seed length must be in 0...625; ignored"
+
+#, c-format
+msgid "RNG_Init: unimplemented RNG kind %d"
+msgstr "RNG_Init: unimplemented RNG kind %d"
+
+#, c-format
+msgid "'.Random.seed' is not an integer vector but of type '%s', so ignored"
+msgstr "'.Random.seed' is not an integer vector but of type '%s', so ignored"
+
+msgid "'.Random.seed[1]' is not a valid integer, so ignored"
+msgstr "'.Random.seed[1]' is not a valid integer, so ignored"
+
+#, fuzzy
+msgid "'.Random.seed[1]' is not a valid Normal | Sample | Binom type, so ignored"
+msgstr "'.Random.seed[1]' is not a valid Normal type, so ignored"
+
+#, fuzzy, c-format
+msgid "'.Random.seed[1] %% 100 = 5' but no user-supplied generator, so ignored"
+msgstr "'.Random.seed[1] = 5' but no user-supplied generator, so ignored"
+
+#, fuzzy, c-format
+msgid "'.Random.seed[1] %% 100' is not a valid RNG kind so ignored"
+msgstr "'.Random.seed[1]' is not a valid RNG kind so ignored"
+
+msgid "'.Random.seed' has wrong length"
+msgstr "'.Random.seed' has wrong length"
+
+msgid "RNGkind: Marsaglia-Multicarry has poor statistical properties"
+msgstr "RNGkind: Marsaglia-Multicarry has poor statistical properties"
+
+#, c-format
+msgid "RNGkind: unimplemented RNG kind %d"
+msgstr "RNGkind: unimplemented RNG kind %d"
+
+msgid "RNGkind: severe deviations from normality for Kinderman-Ramage + Marsaglia-Multicarry"
+msgstr "RNGkind: severe deviations from normality for Kinderman-Ramage + Marsaglia-Multicarry"
+
+msgid "RNGkind: deviations from normality for Ahrens-Dieter + Marsaglia-Multicarry"
+msgstr "RNGkind: deviations from normality for Ahrens-Dieter + Marsaglia-Multicarry"
+
+msgid "invalid Normal type in 'RNGkind'"
+msgstr "invalid Normal type in 'RNGkind'"
+
+msgid "'user_norm_rand' not in load table"
+msgstr "'user_norm_rand' not in load table"
+
+msgid "invalid sample type in 'RNGkind'"
+msgstr "invalid sample type in 'RNGkind'"
+
+#, fuzzy
+msgid "invalid binom type in 'RNGkind'"
+msgstr "invalid Normal type in 'RNGkind'"
+
+msgid "supplied seed is not a valid integer"
+msgstr "supplied seed is not a valid integer"
+
+#, c-format
+msgid "R_MAX_NUM_DLLS must be at least %d"
+msgstr "R_MAX_NUM_DLLS must be at least %d"
+
+#, c-format
+msgid "R_MAX_NUM_DLLS cannot be bigger than %d"
+msgstr "R_MAX_NUM_DLLS cannot be bigger than %d"
+
+#, c-format
+msgid "R_MAX_NUM_DLLS cannot be bigger than %d when fd limit is not known"
+msgstr "R_MAX_NUM_DLLS cannot be bigger than %d when fd limit is not known"
+
+msgid "the limit on the number of open files is too low"
+msgstr "the limit on the number of open files is too low"
+
+#, c-format
+msgid "R_MAX_NUM_DLLS bigger than %d may exhaust open files limit"
+msgstr "R_MAX_NUM_DLLS bigger than %d may exhaust open files limit"
+
+msgid "could not allocate space for DLL table"
+msgstr "could not allocate space for DLL table"
+
+msgid "R_RegisterRoutines called with invalid DllInfo object."
+msgstr "R_RegisterRoutines called with invalid DllInfo object."
+
+msgid "Invalid object."
+msgstr "Invalid object."
+
+#, c-format
+msgid "Invalid entry '%s' in native symbol object."
+msgstr "Invalid entry '%s' in native symbol object."
+
+#, c-format
+msgid "Component '%s' missing in symbol object."
+msgstr "Component '%s' missing in symbol object."
+
+msgid "Invalid symbol list."
+msgstr "Invalid symbol list."
+
+#, c-format
+msgid "Symbol at %d does not have registration information."
+msgstr "Symbol at %d does not have registration information."
+
+msgid "Invalid symbol name."
+msgstr "Invalid symbol name."
+
+#, c-format
+msgid "Cannot register already registered native symbol '%s'."
+msgstr "Cannot register already registered native symbol '%s'."
+
+#, c-format
+msgid "Symbol '%s' does not have a valid native address."
+msgstr "Symbol '%s' does not have a valid native address."
+
+#, c-format
+msgid "Symbol '%s' does not have a valid DllInfo reference."
+msgstr "Symbol '%s' does not have a valid DllInfo reference."
+
+#, c-format
+msgid "Symbol '%s' comes from a different shared object."
+msgstr "Symbol '%s' comes from a different shared object."
+
+#, c-format
+msgid "Symbol '%s' is missing parameter specification."
+msgstr "Symbol '%s' is missing parameter specification."
+
+msgid "`maximal number of DLLs reached..."
+msgstr "`maximal number of DLLs reached..."
+
+msgid "could not allocate space for 'path'"
+msgstr "could not allocate space for 'path'"
+
+#, c-format
+msgid "DLLname '%s' is too long"
+msgstr "DLLname '%s' is too long"
+
+msgid "could not allocate space for 'name'"
+msgstr "could not allocate space for 'name'"
+
+msgid "could not allocate space for 'DllInfo'"
+msgstr "could not allocate space for 'DllInfo'"
+
+msgid "path too long"
+msgstr "path too long"
+
+msgid "character argument expected"
+msgstr "character argument expected"
+
+#, c-format
+msgid ""
+"unable to load shared object '%s':\n"
+"  %s"
+msgstr ""
+"unable to load shared object '%s':\n"
+"  %s"
+
+#, c-format
+msgid "shared object '%s' was not loaded"
+msgstr "shared object '%s' was not loaded"
+
+#, c-format
+msgid "cannot allocate memory for registered native symbol (%d byte)"
+msgid_plural "cannot allocate memory for registered native symbol (%d bytes)"
+msgstr[0] "cannot allocate memory for registered native symbol (%d byte)"
+msgstr[1] "cannot allocate memory for registered native symbol (%d bytes)"
+
+msgid "NULL value passed for DllInfo"
+msgstr "NULL value passed for DllInfo"
+
+msgid "must pass package name or DllInfo reference"
+msgstr "must pass package name or DllInfo reference"
+
+#, c-format
+msgid "unimplemented type %d in 'createRSymbolObject'"
+msgstr "unimplemented type %d in 'createRSymbolObject'"
+
+msgid "R_getRegisteredRoutines() expects a DllInfo reference"
+msgstr "R_getRegisteredRoutines() expects a DllInfo reference"
+
+#, c-format
+msgid "function '%s' not provided by package '%s'"
+msgstr "function '%s' not provided by package '%s'"
+
+msgid "table entry must be an external pointer"
+msgstr "table entry must be an external pointer"
+
+#, c-format
+msgid "problem in setting variable '%s' in Renviron"
+msgstr "problem in setting variable '%s' in Renviron"
+
+#, c-format
+msgid "argument '%s' must be a character string"
+msgstr "argument '%s' must be a character string"
+
+#, c-format
+msgid "file '%s' cannot be opened for reading"
+msgstr "file '%s' cannot be opened for reading"
+
+#, c-format
+msgid "use of %s for input is not supported"
+msgstr "use of %s for input is not supported"
+
+msgid "invalid multibyte input string"
+msgstr "invalid multibyte input string"
+
+msgid "input string is too long"
+msgstr "input string is too long"
+
+msgid "invalid multibyte format string"
+msgstr "invalid multibyte format string"
+
+msgid "format string is too long"
+msgstr "format string is too long"
+
+#, c-format
+msgid "argument '%s' has length > 1 and only the first element will be used"
+msgstr "argument '%s' has length > 1 and only the first element will be used"
+
+msgid "'pattern' must be a non-empty character string"
+msgstr "'pattern' must be a non-empty character string"
+
+msgid "regular expression is invalid in this locale"
+msgstr "regular expression is invalid in this locale"
+
+#, c-format
+msgid "regcomp error:  '%s'"
+msgstr "regcomp error:  '%s'"
+
+#, c-format
+msgid "input string %lld is invalid in this locale"
+msgstr "input string %lld is invalid in this locale"
+
+#, c-format
+msgid "argument '%s' will be ignored"
+msgstr "argument '%s' will be ignored"
+
+#, c-format
+msgid "input string x[%d] is invalid in this locale"
+msgstr "input string x[%d] is invalid in this locale"
+
+#, c-format
+msgid "input string y[%d] is invalid in this locale"
+msgstr "input string y[%d] is invalid in this locale"
+
+#, c-format
+msgid "regcomp error: '%s'"
+msgstr "regcomp error: '%s'"
+
+msgid "'FUN.VALUE' must be a vector"
+msgstr "'FUN.VALUE' must be a vector"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "invalid '%s' value"
+
+msgid "invalid length"
+msgstr "invalid length"
+
+msgid "long vectors are not supported for matrix/array results"
+msgstr "long vectors are not supported for matrix/array results"
+
+#, c-format
+msgid "type '%s' is not supported"
+msgstr "type '%s' is not supported"
+
+#, c-format
+msgid ""
+"values must be length %d,\n"
+" but FUN(X[[%lld]]) result is length %d"
+msgstr ""
+"values must be length %d,\n"
+" but FUN(X[[%lld]]) result is length %d"
+
+#, c-format
+msgid ""
+"values must be type '%s',\n"
+" but FUN(X[[%lld]]) result is type '%s'"
+msgstr ""
+"values must be type '%s',\n"
+" but FUN(X[[%lld]]) result is type '%s'"
+
+#, c-format
+msgid "dimnames(<value>) is neither NULL nor list of length %d"
+msgstr "dimnames(<value>) is neither NULL nor list of length %d"
+
+#, c-format
+msgid "'%s' must be a list or expression"
+msgstr "'%s' must be a list or expression"
+
+msgid "NaNs produced"
+msgstr "NaNs produced"
+
+msgid "non-numeric argument to mathematical function"
+msgstr "non-numeric argument to mathematical function"
+
+msgid "probable complete loss of accuracy in modulus"
+msgstr "probable complete loss of accuracy in modulus"
+
+msgid "NAs produced by integer overflow"
+msgstr "NAs produced by integer overflow"
+
+msgid "operator needs one or two arguments"
+msgstr "operator needs one or two arguments"
+
+msgid "non-numeric argument to binary operator"
+msgstr "non-numeric argument to binary operator"
+
+msgid ""
+"Recycling array of length 1 in array-vector arithmetic is deprecated.\n"
+"  Use c() or as.vector() instead."
+msgstr ""
+"Recycling array of length 1 in array-vector arithmetic is deprecated.\n"
+"  Use c() or as.vector() instead."
+
+msgid ""
+"Recycling array of length 1 in vector-array arithmetic is deprecated.\n"
+"  Use c() or as.vector() instead."
+msgstr ""
+"Recycling array of length 1 in vector-array arithmetic is deprecated.\n"
+"  Use c() or as.vector() instead."
+
+msgid "non-conformable arrays"
+msgstr "non-conformable arrays"
+
+msgid "longer object length is not a multiple of shorter object length"
+msgstr "longer object length is not a multiple of shorter object length"
+
+msgid "invalid argument to unary operator"
+msgstr "invalid argument to unary operator"
+
+msgid "invalid unary operator"
+msgstr "invalid unary operator"
+
+msgid "unimplemented real function of 1 argument"
+msgstr "unimplemented real function of 1 argument"
+
+msgid "unimplemented complex function"
+msgstr "unimplemented complex function"
+
+#, c-format
+msgid "unimplemented real function of %d numeric arguments"
+msgstr "unimplemented real function of %d numeric arguments"
+
+msgid "invalid second argument of length 0"
+msgstr "invalid second argument of length 0"
+
+msgid "invalid argument 'base' of length 0"
+msgstr "invalid argument 'base' of length 0"
+
+#, c-format
+msgid "'data' must be of a vector type, was '%s'"
+msgstr "'data' must be of a vector type, was '%s'"
+
+msgid "non-numeric matrix extent"
+msgstr "non-numeric matrix extent"
+
+msgid "invalid 'nrow' value (too large or NA)"
+msgstr "invalid 'nrow' value (too large or NA)"
+
+msgid "invalid 'nrow' value (< 0)"
+msgstr "invalid 'nrow' value (< 0)"
+
+msgid "invalid 'ncol' value (too large or NA)"
+msgstr "invalid 'ncol' value (too large or NA)"
+
+msgid "invalid 'ncol' value (< 0)"
+msgstr "invalid 'ncol' value (< 0)"
+
+#, fuzzy, c-format
+msgid "data length [%lld] is not a sub-multiple or multiple of the number of rows [%d]"
+msgstr "data length [%d] is not a sub-multiple or multiple of the number of rows [%d]"
+
+#, fuzzy, c-format
+msgid "data length [%lld] is not a sub-multiple or multiple of the number of columns [%d]"
+msgstr "data length [%d] is not a sub-multiple or multiple of the number of columns [%d]"
+
+#, c-format
+msgid "data length differs from size of matrix: [%lld != %d x %d]"
+msgstr "data length differs from size of matrix: [%lld != %d x %d]"
+
+msgid "non-empty data for zero-extent matrix"
+msgstr "non-empty data for zero-extent matrix"
+
+msgid "too many elements specified"
+msgstr "too many elements specified"
+
+msgid "negative extents to matrix"
+msgstr "negative extents to matrix"
+
+msgid "allocMatrix: too many elements specified"
+msgstr "allocMatrix: too many elements specified"
+
+msgid "negative extents to 3D array"
+msgstr "negative extents to 3D array"
+
+msgid "'alloc3DArray': too many elements specified"
+msgstr "'alloc3DArray': too many elements specified"
+
+#, fuzzy
+msgid "'dim' cannot be of length 0"
+msgstr "'dims' cannot be of length 0"
+
+msgid "the dims contain missing values"
+msgstr "the dims contain missing values"
+
+msgid "the dims contain negative values"
+msgstr "the dims contain negative values"
+
+msgid "'allocArray': too many elements specified by 'dims'"
+msgstr "'allocArray': too many elements specified by 'dims'"
+
+#, c-format
+msgid "'%s' must be a list or atomic vector"
+msgstr "'%s' must be a list or atomic vector"
+
+#, c-format
+msgid "a matrix-like object is required as argument to '%s'"
+msgstr "a matrix-like object is required as argument to '%s'"
+
+#, c-format
+msgid "%d argument passed to '%s' which requires at least %d"
+msgid_plural "%d arguments passed to '%s' which requires at least %d"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "more than 2 arguments passed to default method of '%s'"
+msgstr ""
+
+msgid "requires numeric/complex matrix/vector arguments"
+msgstr "requires numeric/complex matrix/vector arguments"
+
+msgid "non-conformable arguments"
+msgstr "non-conformable arguments"
+
+msgid "argument is not a matrix"
+msgstr "argument is not a matrix"
+
+#, c-format
+msgid "invalid first argument, must be %s"
+msgstr "invalid first argument, must be %s"
+
+#, c-format
+msgid "'perm' is of wrong length %d (!= %d)"
+msgstr "'perm' is of wrong length %d (!= %d)"
+
+msgid "'a' does not have named dimnames"
+msgstr "'a' does not have named dimnames"
+
+#, c-format
+msgid "'perm[%d]' does not match a dimension name"
+msgstr "'perm[%d]' does not match a dimension name"
+
+msgid "'resize' must be TRUE or FALSE"
+msgstr "'resize' must be TRUE or FALSE"
+
+msgid "value out of range in 'perm'"
+msgstr "value out of range in 'perm'"
+
+#, fuzzy
+msgid "'x' must be numeric or complex"
+msgstr "'x' must be numeric"
+
+msgid "'x' is too short"
+msgstr "'x' is too short"
+
+msgid "'x' must have positive length"
+msgstr "'x' must have positive length"
+
+#, c-format
+msgid "singular matrix in 'backsolve'. First zero in diagonal [%d]"
+msgstr "singular matrix in 'backsolve'. First zero in diagonal [%d]"
+
+msgid "attempt to set an attribute on NULL"
+msgstr "attempt to set an attribute on NULL"
+
+#, c-format
+msgid "row names must be 'character' or 'integer', not '%s'"
+msgstr "row names must be 'character' or 'integer', not '%s'"
+
+#, c-format
+msgid "getAttrib: invalid type (%s) for TAG"
+msgstr "getAttrib: invalid type (%s) for TAG"
+
+#, fuzzy
+msgid "'name' is not a symbol or a scalar string"
+msgstr "'names' is not a character vector"
+
+#, fuzzy, c-format
+msgid "cannot set an attribute on a '%s'"
+msgstr "cannot set attribute on a symbol"
+
+#, c-format
+msgid "invalid type (%s) for 'names': must be vector or NULL"
+msgstr "invalid type (%s) for 'names': must be vector or NULL"
+
+#, fuzzy, c-format
+msgid "'names' attribute [%lld] must be the same length as the vector [%lld]"
+msgstr "'names' attribute [%d] must be the same length as the vector [%d]"
+
+msgid "names() applied to a non-vector"
+msgstr "names() applied to a non-vector"
+
+#, fuzzy, c-format
+msgid "invalid time series parameters specified (%d)"
+msgstr "invalid time series parameters specified"
+
+msgid "'tsp' attribute must be numeric"
+msgstr "'tsp' attribute must be numeric"
+
+msgid "'tsp' attribute must be numeric of length three"
+msgstr "'tsp' attribute must be numeric of length three"
+
+msgid "cannot assign 'tsp' to zero-length vector"
+msgstr "cannot assign 'tsp' to zero-length vector"
+
+msgid "attempt to set invalid 'comment' attribute"
+msgstr "attempt to set invalid 'comment' attribute"
+
+msgid "adding class \"factor\" to an invalid object"
+msgstr "adding class \"factor\" to an invalid object"
+
+msgid "attempt to set invalid 'class' attribute"
+msgstr "attempt to set invalid 'class' attribute"
+
+#, c-format
+msgid "invalid to use names()<- on an S4 object of class '%s'"
+msgstr "invalid to use names()<- on an S4 object of class '%s'"
+
+msgid "incompatible 'names' argument"
+msgstr "incompatible 'names' argument"
+
+#, c-format
+msgid "invalid type (%s) to set 'names' attribute"
+msgstr "invalid type (%s) to set 'names' attribute"
+
+msgid "'dimnames' applied to non-array"
+msgstr "'dimnames' applied to non-array"
+
+#, c-format
+msgid "'%s' must be a list"
+msgstr "'%s' must be a list"
+
+#, c-format
+msgid "length of 'dimnames' [%d] must match that of 'dims' [%d]"
+msgstr "length of 'dimnames' [%d] must match that of 'dims' [%d]"
+
+#, c-format
+msgid "invalid type (%s) for 'dimnames' (must be a vector)"
+msgstr "invalid type (%s) for 'dimnames' (must be a vector)"
+
+#, c-format
+msgid "length of 'dimnames' [%d] not equal to array extent"
+msgstr "length of 'dimnames' [%d] not equal to array extent"
+
+#, c-format
+msgid "invalid second argument, must be %s"
+msgstr "invalid second argument, must be %s"
+
+#, c-format
+msgid "dims [product %lld] do not match the length of object [%lld]"
+msgstr "dims [product %lld] do not match the length of object [%lld]"
+
+#, c-format
+msgid "factor level [%lld] is duplicated"
+msgstr "factor level [%lld] is duplicated"
+
+msgid "attributes must be a list or NULL"
+msgstr "attributes must be a list or NULL"
+
+msgid "attributes must be named"
+msgstr "attributes must be named"
+
+#, c-format
+msgid "all attributes must have names [%d does not]"
+msgstr "all attributes must have names [%d does not]"
+
+msgid "'which' must be of mode character"
+msgstr "'which' must be of mode character"
+
+msgid "exactly one attribute 'which' must be given"
+msgstr "exactly one attribute 'which' must be given"
+
+msgid "invalid slot name length"
+msgstr "invalid slot name length"
+
+#, c-format
+msgid "invalid type '%s' for slot name"
+msgstr "invalid type '%s' for slot name"
+
+msgid "'name' must be non-null character string"
+msgstr "'name' must be non-null character string"
+
+#, fuzzy
+msgid "'name' must be a scalar string"
+msgstr "'%s' must be a character string"
+
+msgid "invalid type or length for slot name"
+msgstr "invalid type or length for slot name"
+
+#, c-format
+msgid "cannot get a slot (\"%s\") from an object of type \"%s\""
+msgstr "cannot get a slot (\"%s\") from an object of type \"%s\""
+
+#, c-format
+msgid "no slot of name \"%s\" for this object of class \"%s\""
+msgstr "no slot of name \"%s\" for this object of class \"%s\""
+
+msgid "attempt to set slot on NULL object"
+msgstr "attempt to set slot on NULL object"
+
+msgid "formal classes cannot be used without the 'methods' package"
+msgstr "formal classes cannot be used without the 'methods' package"
+
+#, c-format
+msgid "no applicable method for `@` applied to an object of class \"%s\""
+msgstr "no applicable method for `@` applied to an object of class \"%s\""
+
+#, fuzzy
+msgid "bad attribute tag"
+msgstr "bad names attribute"
+
+#, c-format
+msgid "resulting vector exceeds vector length limit in '%s'"
+msgstr "resulting vector exceeds vector length limit in '%s'"
+
+#, c-format
+msgid "type '%s' is unimplemented in '%s'"
+msgstr "type '%s' is unimplemented in '%s'"
+
+msgid "repeated formal argument 'recursive'"
+msgstr "repeated formal argument 'recursive'"
+
+msgid "repeated formal argument 'use.names'"
+msgstr "repeated formal argument 'use.names'"
+
+msgid "argument not a list"
+msgstr "argument not a list"
+
+#, c-format
+msgid "class name too long in '%s'"
+msgstr "class name too long in '%s'"
+
+#, c-format
+msgid "cannot create a matrix from type '%s'"
+msgstr "cannot create a matrix from type '%s'"
+
+#, c-format
+msgid "number of rows of matrices must match (see arg %d)"
+msgstr "number of rows of matrices must match (see arg %d)"
+
+#, c-format
+msgid "cannot create a matrix of type '%s'"
+msgstr "cannot create a matrix of type '%s'"
+
+#, c-format
+msgid "number of columns of matrices must match (see arg %d)"
+msgstr "number of columns of matrices must match (see arg %d)"
+
+msgid "vector size cannot be NA"
+msgstr "vector size cannot be NA"
+
+msgid "vector size cannot be NA/NaN"
+msgstr "vector size cannot be NA/NaN"
+
+msgid "vector size cannot be infinite"
+msgstr "vector size cannot be infinite"
+
+msgid "vector size specified is too large"
+msgstr "vector size specified is too large"
+
+msgid "invalid first argument"
+msgstr "invalid first argument"
+
+msgid "use of NULL environment is defunct"
+msgstr "use of NULL environment is defunct"
+
+msgid "argument is not a function"
+msgstr "argument is not a function"
+
+msgid "setting environment(<primitive function>) is not possible and trying it is deprecated"
+msgstr ""
+
+msgid "replacement object is not an environment"
+msgstr "replacement object is not an environment"
+
+msgid "'enclos' must be an environment"
+msgstr "'enclos' must be an environment"
+
+msgid "argument is not an environment"
+msgstr "argument is not an environment"
+
+msgid "the empty environment has no parent"
+msgstr "the empty environment has no parent"
+
+msgid "can not set parent of the empty environment"
+msgstr "can not set parent of the empty environment"
+
+msgid "can not set the parent environment of a namespace"
+msgstr "can not set the parent environment of a namespace"
+
+msgid "can not set the parent environment of package imports"
+msgstr "can not set the parent environment of package imports"
+
+msgid "'parent' is not an environment"
+msgstr "'parent' is not an environment"
+
+msgid "cannot write to this connection"
+msgstr "cannot write to this connection"
+
+#, c-format
+msgid "invalid '%s' specification"
+msgstr "invalid '%s' specification"
+
+msgid "non-positive 'fill' argument will be ignored"
+msgstr "non-positive 'fill' argument will be ignored"
+
+#, c-format
+msgid "argument %d (type '%s') cannot be handled by 'cat'"
+msgstr "argument %d (type '%s') cannot be handled by 'cat'"
+
+#, c-format
+msgid "vector: cannot make a vector of mode '%s'."
+msgstr "vector: cannot make a vector of mode '%s'."
+
+msgid "cannot set length of non-(vector or list)"
+msgstr "cannot set length of non-(vector or list)"
+
+msgid "invalid value"
+msgstr "invalid value"
+
+msgid "length of NULL cannot be changed"
+msgstr "length of NULL cannot be changed"
+
+#, c-format
+msgid "wrong length for '%s' argument"
+msgstr "wrong length for '%s' argument"
+
+msgid "'...' used in an incorrect context"
+msgstr "'...' used in an incorrect context"
+
+#, c-format
+msgid "duplicate 'switch' defaults: '%s' and '%s'"
+msgstr "duplicate 'switch' defaults: '%s' and '%s'"
+
+msgid "'EXPR' is missing"
+msgstr "'EXPR' is missing"
+
+msgid "EXPR must be a length 1 vector"
+msgstr "EXPR must be a length 1 vector"
+
+#, c-format
+msgid ""
+"EXPR is a \"factor\", treated as integer.\n"
+" Consider using '%s' instead."
+msgstr ""
+"EXPR is a \"factor\", treated as integer.\n"
+" Consider using '%s' instead."
+
+msgid "'switch' with no alternatives"
+msgstr "'switch' with no alternatives"
+
+#, c-format
+msgid "%d argument passed to '%s' which requires %d to %d"
+msgid_plural "%d arguments passed to '%s' which requires %d to %d"
+msgstr[0] "%d argument passed to '%s' which requires %d to %d"
+msgstr[1] "%d arguments passed to '%s' which requires %d to %d"
+
+#, c-format
+msgid "'%s' requires a character vector"
+msgstr "'%s' requires a character vector"
+
+#, c-format
+msgid "invalid multibyte string, %s"
+msgstr "invalid multibyte string, %s"
+
+#, c-format
+msgid "number of characters is not computable in \"bytes\" encoding, %s"
+msgstr "number of characters is not computable in \"bytes\" encoding, %s"
+
+#, c-format
+msgid "width is not computable for %s in \"bytes\" encoding"
+msgstr "width is not computable for %s in \"bytes\" encoding"
+
+#, fuzzy, c-format
+msgid "invalid multibyte string, element %lld"
+msgstr "invalid multibyte string, element %ld"
+
+#, fuzzy, c-format
+msgid "number of characters is not computable in \"bytes\" encoding, element %lld"
+msgstr "number of characters is not computable in \"bytes\" encoding, element %ld"
+
+#, fuzzy, c-format
+msgid "width is not computable in \"bytes\" encoding, element %lld"
+msgstr "width is not computable in \"bytes\" encoding, element %ld"
+
+msgid "extracting substrings from a non-character object"
+msgstr "extracting substrings from a non-character object"
+
+msgid "invalid substring arguments"
+msgstr "invalid substring arguments"
+
+msgid "non-character object(s)"
+msgstr "non-character object(s)"
+
+msgid "replacing substrings in a non-character object"
+msgstr "replacing substrings in a non-character object"
+
+msgid "the first argument must be a character vector"
+msgstr "the first argument must be a character vector"
+
+msgid "abbreviate used with non-ASCII chars"
+msgstr "abbreviate used with non-ASCII chars"
+
+msgid "non-character names"
+msgstr "non-character names"
+
+#, c-format
+msgid "invalid multibyte string %lld"
+msgstr "invalid multibyte string %lld"
+
+msgid "non-character argument"
+msgstr "non-character argument"
+
+#, c-format
+msgid "decreasing range specification ('%lc-%lc')"
+msgstr "decreasing range specification ('%lc-%lc')"
+
+#, c-format
+msgid "decreasing range specification ('%c-%c')"
+msgstr "decreasing range specification ('%c-%c')"
+
+msgid "invalid UTF-8 string 'old'"
+msgstr "invalid UTF-8 string 'old'"
+
+msgid "invalid multibyte string 'old'"
+msgstr "invalid multibyte string 'old'"
+
+msgid "invalid UTF-8 string 'new'"
+msgstr "invalid UTF-8 string 'new'"
+
+msgid "invalid multibyte string 'new'"
+msgstr "invalid multibyte string 'new'"
+
+msgid "'old' is longer than 'new'"
+msgstr "'old' is longer than 'new'"
+
+#, c-format
+msgid "invalid input multibyte string %lld"
+msgstr "invalid input multibyte string %lld"
+
+msgid "strtrim() requires a character vector"
+msgstr "strtrim() requires a character vector"
+
+msgid "invalid 'mode' argument"
+msgstr "invalid 'mode' argument"
+
+msgid "applies only to lists and vectors"
+msgstr "applies only to lists and vectors"
+
+msgid "NAs introduced by coercion"
+msgstr "NAs introduced by coercion"
+
+msgid "NAs introduced by coercion to integer range"
+msgstr "NAs introduced by coercion to integer range"
+
+msgid "imaginary parts discarded in coercion"
+msgstr "imaginary parts discarded in coercion"
+
+msgid "out-of-range values treated as 0 in coercion to raw"
+msgstr "out-of-range values treated as 0 in coercion to raw"
+
+#, c-format
+msgid "invalid data of mode '%s' (too short)"
+msgstr "invalid data of mode '%s' (too short)"
+
+#, c-format
+msgid "'%s' object cannot be coerced to type '%s'"
+msgstr "'%s' object cannot be coerced to type '%s'"
+
+msgid "no method for coercing this S4 class to a vector"
+msgstr "no method for coercing this S4 class to a vector"
+
+msgid "environments cannot be coerced to other types"
+msgstr "environments cannot be coerced to other types"
+
+msgid "attempting to coerce non-factor"
+msgstr "attempting to coerce non-factor"
+
+msgid "malformed factor"
+msgstr "malformed factor"
+
+msgid "list argument expected"
+msgstr "list argument expected"
+
+msgid "invalid environment"
+msgstr "invalid environment"
+
+msgid "argument must have length at least 1"
+msgstr "argument must have length at least 1"
+
+msgid "invalid body for function"
+msgstr "invalid body for function"
+
+msgid "argument must be character"
+msgstr "argument must be character"
+
+msgid "argument must be a character string"
+msgstr "argument must be a character string"
+
+#, c-format
+msgid "parsing result not of length one, but %d"
+msgstr "parsing result not of length one, but %d"
+
+msgid "invalid length 0 argument"
+msgstr "invalid length 0 argument"
+
+msgid "as.call(<character>) not feasible; consider str2lang(<char.>)"
+msgstr "as.call(<character>) not feasible; consider str2lang(<char.>)"
+
+msgid "invalid argument list"
+msgstr "invalid argument list"
+
+#, c-format
+msgid "'length = %lld' in coercion to '%s'"
+msgstr "'length = %lld' in coercion to '%s'"
+
+#, fuzzy
+msgid "NA in coercion to boolean"
+msgstr "NAs introduced by coercion to integer range"
+
+msgid "type \"single\" unimplemented in R"
+msgstr "type \"single\" unimplemented in R"
+
+msgid "unimplemented predicate"
+msgstr "unimplemented predicate"
+
+#, c-format
+msgid "%s() applied to non-(list or vector) of type '%s'"
+msgstr "%s() applied to non-(list or vector) of type '%s'"
+
+#, c-format
+msgid "default method not implemented for type '%s'"
+msgstr "default method not implemented for type '%s'"
+
+msgid "'name' is missing"
+msgstr "'name' is missing"
+
+msgid "first argument must be a character string"
+msgstr "first argument must be a character string"
+
+msgid "'what' must be a function or character string"
+msgstr "'what' must be a function or character string"
+
+msgid "'envir' must be an environment"
+msgstr "'envir' must be an environment"
+
+msgid "invalid environment specified"
+msgstr "invalid environment specified"
+
+msgid "Setting class(x) to NULL;   result will no longer be an S4 object"
+msgstr "Setting class(x) to NULL;   result will no longer be an S4 object"
+
+#, c-format
+msgid "Setting class(x) to multiple strings (\"%s\", \"%s\", ...); result will no longer be an S4 object"
+msgstr "Setting class(x) to multiple strings (\"%s\", \"%s\", ...); result will no longer be an S4 object"
+
+#, c-format
+msgid "Setting class(x) to \"%s\" sets attribute to NULL; result will no longer be an S4 object"
+msgstr "Setting class(x) to \"%s\" sets attribute to NULL; result will no longer be an S4 object"
+
+msgid "invalid replacement object to be a class string"
+msgstr "invalid replacement object to be a class string"
+
+#, c-format
+msgid "invalid to set the class to matrix unless the dimension attribute is of length 2 (was %d)"
+msgstr "invalid to set the class to matrix unless the dimension attribute is of length 2 (was %d)"
+
+#, c-format
+msgid "\"%s\" can only be set as the class if the object has this type; found \"%s\""
+msgstr "\"%s\" can only be set as the class if the object has this type; found \"%s\""
+
+msgid "cannot set class to \"array\" unless the dimension attribute has length > 0"
+msgstr "cannot set class to \"array\" unless the dimension attribute has length > 0"
+
+msgid "'value' must be non-null character string"
+msgstr "'value' must be non-null character string"
+
+msgid "invalid to change the storage mode of a factor"
+msgstr "invalid to change the storage mode of a factor"
+
+msgid "invalid complex unary operator"
+msgstr "invalid complex unary operator"
+
+msgid "unimplemented complex operation"
+msgstr "unimplemented complex operation"
+
+msgid "non-numeric argument to function"
+msgstr "non-numeric argument to function"
+
+msgid "invalid polynomial coefficient"
+msgstr "invalid polynomial coefficient"
+
+msgid "root finding code failed"
+msgstr "root finding code failed"
+
+#, c-format
+msgid "all %d connections are in use"
+msgstr "all %d connections are in use"
+
+msgid "connection not found"
+msgstr "connection not found"
+
+msgid "invalid connection"
+msgstr "invalid connection"
+
+#, c-format
+msgid "closing unused connection %d (%s)\n"
+msgstr "closing unused connection %d (%s)\n"
+
+#, c-format
+msgid "unsupported conversion from '%s' to '%s'"
+msgstr "unsupported conversion from '%s' to '%s'"
+
+#, c-format
+msgid "%s not enabled for this connection"
+msgstr "%s not enabled for this connection"
+
+msgid "invalid char string in output conversion"
+msgstr "invalid char string in output conversion"
+
+#, c-format
+msgid "invalid input found on input connection '%s'"
+msgstr "invalid input found on input connection '%s'"
+
+#, c-format
+msgid "cannot open file '%ls': %s"
+msgstr "cannot open file '%ls': %s"
+
+#, c-format
+msgid "cannot open file '%ls': it is a directory"
+msgstr "cannot open file '%ls': it is a directory"
+
+#, c-format
+msgid "cannot open file '%s': it is a directory"
+msgstr "cannot open file '%s': it is a directory"
+
+msgid "connection is not open for reading"
+msgstr "connection is not open for reading"
+
+msgid "connection is not open for writing"
+msgstr "connection is not open for writing"
+
+msgid "can only truncate connections open for writing"
+msgstr "can only truncate connections open for writing"
+
+msgid "file truncation failed"
+msgstr "file truncation failed"
+
+msgid "file truncation unavailable on this platform"
+msgstr "file truncation unavailable on this platform"
+
+msgid "allocation of file connection failed"
+msgstr "allocation of file connection failed"
+
+#, c-format
+msgid "cannot create fifo '%s', reason '%s'"
+msgstr "cannot create fifo '%s', reason '%s'"
+
+#, c-format
+msgid "'%s' exists but is not a fifo"
+msgstr "'%s' exists but is not a fifo"
+
+#, c-format
+msgid "fifo '%s' is not ready"
+msgstr "fifo '%s' is not ready"
+
+#, c-format
+msgid "cannot open fifo '%s'"
+msgstr "cannot open fifo '%s'"
+
+msgid "too large a block specified"
+msgstr "too large a block specified"
+
+msgid "allocation of fifo name failed"
+msgstr "allocation of fifo name failed"
+
+#, c-format
+msgid "cannot open fifo '%s', reason '%s'"
+msgstr "cannot open fifo '%s', reason '%s'"
+
+msgid "allocation of fifo buffer failed"
+msgstr "allocation of fifo buffer failed"
+
+#, c-format
+msgid "cannot write FIFO '%s'"
+msgstr "cannot write FIFO '%s'"
+
+msgid "allocation of fifo connection failed"
+msgstr "allocation of fifo connection failed"
+
+msgid "cannot open the connection"
+msgstr "cannot open the connection"
+
+msgid "only first element of 'description' argument used"
+msgstr "only first element of 'description' argument used"
+
+msgid "fifo(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
+msgstr "fifo(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
+
+msgid "fifo connections are not available on this system"
+msgstr "fifo connections are not available on this system"
+
+#, c-format
+msgid "cannot pipe() cmd '%ls': %s"
+msgstr "cannot pipe() cmd '%ls': %s"
+
+#, c-format
+msgid "cannot open pipe() cmd '%s': %s"
+msgstr "cannot open pipe() cmd '%s': %s"
+
+#, c-format
+msgid "cannot open compressed file '%s', probable reason '%s'"
+msgstr "cannot open compressed file '%s', probable reason '%s'"
+
+msgid "whence = \"end\" is not implemented for gzfile connections"
+msgstr "whence = \"end\" is not implemented for gzfile connections"
+
+msgid "seek on a gzfile connection returned an internal error"
+msgstr "seek on a gzfile connection returned an internal error"
+
+msgid "allocation of gzfile connection failed"
+msgstr "allocation of gzfile connection failed"
+
+#, c-format
+msgid "cannot open bzip2-ed file '%s', probable reason '%s'"
+msgstr "cannot open bzip2-ed file '%s', probable reason '%s'"
+
+#, c-format
+msgid "file '%s' appears not to be compressed by bzip2"
+msgstr "file '%s' appears not to be compressed by bzip2"
+
+#, c-format
+msgid "initializing bzip2 compression for file '%s' failed"
+msgstr "initializing bzip2 compression for file '%s' failed"
+
+msgid "allocation of overflow buffer for bzfile failed"
+msgstr "allocation of overflow buffer for bzfile failed"
+
+#, c-format
+msgid "file '%s' has trailing content that appears not to be compressed by bzip2"
+msgstr "file '%s' has trailing content that appears not to be compressed by bzip2"
+
+msgid "allocation of bzfile connection failed"
+msgstr "allocation of bzfile connection failed"
+
+#, c-format
+msgid "cannot initialize lzma decoder, error %d"
+msgstr "cannot initialize lzma decoder, error %d"
+
+#, c-format
+msgid "cannot initialize lzma encoder, error %d"
+msgstr "cannot initialize lzma encoder, error %d"
+
+msgid "allocation of xzfile connection failed"
+msgstr "allocation of xzfile connection failed"
+
+#, fuzzy
+msgid "cannot initialize zstd decompressor"
+msgstr "cannot initialize lzma decoder, error %d"
+
+#, fuzzy
+msgid "cannot initialize zstd compressor"
+msgstr "cannot initialize lzma decoder, error %d"
+
+#, fuzzy
+msgid "allocation of zstdfile connection failed"
+msgstr "allocation of gzfile connection failed"
+
+#, c-format
+msgid "this is a %s-compressed file which this build of R does not support"
+msgstr "this is a %s-compressed file which this build of R does not support"
+
+msgid "memory allocation to copy clipboard failed"
+msgstr "memory allocation to copy clipboard failed"
+
+msgid "clipboard cannot be opened or contains no text"
+msgstr "clipboard cannot be opened or contains no text"
+
+msgid "memory allocation to open clipboard failed"
+msgstr "memory allocation to open clipboard failed"
+
+msgid "unable to open the clipboard"
+msgstr "unable to open the clipboard"
+
+msgid "unable to write to the clipboard"
+msgstr "unable to write to the clipboard"
+
+msgid "attempt to seek outside the range of the clipboard"
+msgstr "attempt to seek outside the range of the clipboard"
+
+msgid "clipboard connection is open for reading only"
+msgstr "clipboard connection is open for reading only"
+
+msgid "clipboard buffer is full and output lost"
+msgstr "clipboard buffer is full and output lost"
+
+msgid "'mode' for the clipboard must be 'r' or 'w'"
+msgstr "'mode' for the clipboard must be 'r' or 'w'"
+
+msgid "'mode' for the clipboard must be 'r' on Unix"
+msgstr "'mode' for the clipboard must be 'r' on Unix"
+
+msgid "allocation of clipboard connection failed"
+msgstr "allocation of clipboard connection failed"
+
+msgid "allocation of terminal connection failed"
+msgstr "allocation of terminal connection failed"
+
+msgid "attempting to add too many elements to raw vector"
+msgstr "attempting to add too many elements to raw vector"
+
+msgid "attempt to seek outside the range of the raw connection"
+msgstr "attempt to seek outside the range of the raw connection"
+
+msgid "allocation of raw connection failed"
+msgstr "allocation of raw connection failed"
+
+#, c-format
+msgid "'%s' is not a %s"
+msgstr "'%s' is not a %s"
+
+#, c-format
+msgid "internal connection is not a %s"
+msgstr "internal connection is not a %s"
+
+msgid "'con' is not an output rawConnection"
+msgstr "'con' is not an output rawConnection"
+
+msgid "too many characters for text connection"
+msgstr "too many characters for text connection"
+
+msgid "cannot allocate memory for text connection"
+msgstr "cannot allocate memory for text connection"
+
+msgid "seek is not relevant for text connection"
+msgstr "seek is not relevant for text connection"
+
+msgid "allocation of text connection failed"
+msgstr "allocation of text connection failed"
+
+msgid "text connection: appending to a non-existent char vector"
+msgstr "text connection: appending to a non-existent char vector"
+
+msgid "unsupported mode"
+msgstr "unsupported mode"
+
+msgid "'con' is not an output textConnection"
+msgstr "'con' is not an output textConnection"
+
+msgid "'con' is not a connection"
+msgstr "'con' is not a connection"
+
+msgid "cannot open standard connections"
+msgstr "cannot open standard connections"
+
+msgid "connection is already open"
+msgstr "connection is already open"
+
+msgid "unknown 'rw' value"
+msgstr "unknown 'rw' value"
+
+#, c-format
+msgid "Problem closing connection:  %s"
+msgstr "Problem closing connection:  %s"
+
+msgid "Problem closing connection"
+msgstr "Problem closing connection"
+
+msgid "cannot close standard connections"
+msgstr "cannot close standard connections"
+
+msgid "cannot close 'output' sink connection"
+msgstr "cannot close 'output' sink connection"
+
+msgid "cannot close 'message' sink connection"
+msgstr "cannot close 'message' sink connection"
+
+msgid "connection is not open"
+msgstr "connection is not open"
+
+#, c-format
+msgid "line longer than buffer size %lu"
+msgstr "line longer than buffer size %lu"
+
+#, c-format
+msgid "Error writing to connection:  %s"
+msgstr "Error writing to connection:  %s"
+
+msgid "Error writing to connection"
+msgstr "Error writing to connection"
+
+msgid "cannot read from this connection"
+msgstr "cannot read from this connection"
+
+msgid "cannot allocate buffer in readLines"
+msgstr "cannot allocate buffer in readLines"
+
+#, c-format
+msgid "line %lld appears to contain an embedded nul"
+msgstr "line %lld appears to contain an embedded nul"
+
+#, c-format
+msgid "incomplete final line found on '%s'"
+msgstr "incomplete final line found on '%s'"
+
+msgid "too few lines read in readLines"
+msgstr "too few lines read in readLines"
+
+msgid "incomplete string at end of file has been discarded"
+msgstr "incomplete string at end of file has been discarded"
+
+msgid "null terminator not found: breaking string at 10000 bytes"
+msgstr "null terminator not found: breaking string at 10000 bytes"
+
+msgid "can only read from a binary connection"
+msgstr "can only read from a binary connection"
+
+msgid "size changing is not supported for complex vectors"
+msgstr "size changing is not supported for complex vectors"
+
+#, c-format
+msgid "size %d is unknown on this machine"
+msgstr "size %d is unknown on this machine"
+
+msgid "raw is always of size 1"
+msgstr "raw is always of size 1"
+
+msgid "'signed = FALSE' is only valid for integers of sizes 1 and 2"
+msgstr "'signed = FALSE' is only valid for integers of sizes 1 and 2"
+
+msgid "'x' is not an atomic vector type"
+msgstr "'x' is not an atomic vector type"
+
+msgid "can only write to a binary connection"
+msgstr "can only write to a binary connection"
+
+msgid "only 2^31-1 bytes can be written to a raw vector"
+msgstr "only 2^31-1 bytes can be written to a raw vector"
+
+msgid "only 2^31-1 bytes can be written in a single writeBin() call"
+msgstr "only 2^31-1 bytes can be written in a single writeBin() call"
+
+msgid "problem writing to connection"
+msgstr "problem writing to connection"
+
+msgid "size changing is not supported for raw vectors"
+msgstr "size changing is not supported for raw vectors"
+
+msgid "invalid UTF-8 input in readChar()"
+msgstr "invalid UTF-8 input in readChar()"
+
+msgid "truncating string with embedded nuls"
+msgstr "truncating string with embedded nuls"
+
+msgid "can only read in bytes in a non-UTF-8 MBCS locale"
+msgstr "can only read in bytes in a non-UTF-8 MBCS locale"
+
+#, c-format
+msgid "text connection used with %s(), results may be incorrect"
+msgstr "text connection used with %s(), results may be incorrect"
+
+msgid "'object' is too short"
+msgstr "'object' is too short"
+
+msgid "writeChar: more bytes requested than are in the string - will zero-pad"
+msgstr "writeChar: more bytes requested than are in the string - will zero-pad"
+
+msgid "writeChar: more characters requested than are in the string - will zero-pad"
+msgstr "writeChar: more characters requested than are in the string - will zero-pad"
+
+msgid "maximum number of pushback lines exceeded"
+msgstr "maximum number of pushback lines exceeded"
+
+msgid "could not allocate space for pushback"
+msgstr "could not allocate space for pushback"
+
+msgid "can only push back on open readable connections"
+msgstr "can only push back on open readable connections"
+
+msgid "can only push back on text-mode connections"
+msgstr "can only push back on text-mode connections"
+
+msgid "sink stack is full"
+msgstr "sink stack is full"
+
+msgid "cannot switch output to stdin"
+msgstr "cannot switch output to stdin"
+
+msgid "no sink to remove"
+msgstr "no sink to remove"
+
+msgid "there is no connection NA"
+msgstr "there is no connection NA"
+
+#, c-format
+msgid "there is no connection %d"
+msgstr "there is no connection %d"
+
+msgid "method = \"wininet\" is only supported on Windows"
+msgstr "method = \"wininet\" is only supported on Windows"
+
+msgid "the 'internal' method of url() is defunct for http:// and ftp:// URLs"
+msgstr "the 'internal' method of url() is defunct for http:// and ftp:// URLs"
+
+msgid "file(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
+msgstr "file(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
+
+#, c-format
+msgid "using 'raw = TRUE' because '%s' is a fifo or pipe"
+msgstr "using 'raw = TRUE' because '%s' is a fifo or pipe"
+
+#, c-format
+msgid "'raw = FALSE' but '%s' is not a regular file"
+msgstr "'raw = FALSE' but '%s' is not a regular file"
+
+msgid "URL scheme unsupported by this method"
+msgstr "URL scheme unsupported by this method"
+
+msgid "file stream does not have gzip magic number"
+msgstr "file stream does not have gzip magic number"
+
+msgid "file stream does not have valid gzip header"
+msgstr "file stream does not have valid gzip header"
+
+msgid "writing error whilst flushing 'gzcon' connection"
+msgstr "writing error whilst flushing 'gzcon' connection"
+
+#, c-format
+msgid "crc error %lx %lx\n"
+msgstr "crc error %lx %lx\n"
+
+#, fuzzy
+msgid "file stream has trailing content that appears not to be compressed by gzip"
+msgstr "file '%s' has trailing content that appears not to be compressed by bzip2"
+
+msgid "write error on 'gzcon' connection"
+msgstr "write error on 'gzcon' connection"
+
+msgid "'level' must be one of 0 ... 9"
+msgstr "'level' must be one of 0 ... 9"
+
+msgid "'allowNonCompression' must be TRUE or FALSE"
+msgstr "'allowNonCompression' must be TRUE or FALSE"
+
+msgid "'text' must be TRUE or FALSE"
+msgstr "'text' must be TRUE or FALSE"
+
+msgid "this is already a 'gzcon' connection"
+msgstr "this is already a 'gzcon' connection"
+
+msgid "can only use read- or write- binary connections"
+msgstr "can only use read- or write- binary connections"
+
+msgid "using a text-mode 'file' connection may not work correctly"
+msgstr "using a text-mode 'file' connection may not work correctly"
+
+msgid "cannot create a 'gzcon' connection from a writable textConnection; maybe use rawConnection"
+msgstr "cannot create a 'gzcon' connection from a writable textConnection; maybe use rawConnection"
+
+msgid "allocation of 'gzcon' connection failed"
+msgstr "allocation of 'gzcon' connection failed"
+
+msgid "not a list of sockets"
+msgstr "not a list of sockets"
+
+msgid "bad write indicators"
+msgstr "bad write indicators"
+
+msgid "a server socket connection cannot be writeable"
+msgstr "a server socket connection cannot be writeable"
+
+msgid "not a socket connection"
+msgstr "not a socket connection"
+
+#, fuzzy
+msgid "file descriptor is too large for select()"
+msgstr "length %d is too large for hashing"
+
+msgid "too many file descriptors for select()"
+msgstr ""
+
+msgid "unknown compression, assuming none"
+msgstr "unknown compression, assuming none"
+
+#, c-format
+msgid "allocation of %s connection failed"
+msgstr "allocation of %s connection failed"
+
+msgid "no loop for break/next, jumping to top level"
+msgstr "no loop for break/next, jumping to top level"
+
+msgid "no function to return from, jumping to top level"
+msgstr "no function to return from, jumping to top level"
+
+msgid "target context is not on the stack"
+msgstr "target context is not on the stack"
+
+msgid "NA argument is invalid"
+msgstr "NA argument is invalid"
+
+msgid "not that many frames on the stack"
+msgstr "not that many frames on the stack"
+
+msgid "only positive values of 'n' are allowed"
+msgstr "only positive values of 'n' are allowed"
+
+msgid "number of contexts must be positive"
+msgstr "number of contexts must be positive"
+
+msgid "no browser context to query"
+msgstr "no browser context to query"
+
+msgid "not that many calls to browser are active"
+msgstr "not that many calls to browser are active"
+
+msgid "not that many functions on the call stack"
+msgstr "not that many functions on the call stack"
+
+msgid "debug flag in compiled function has no effect"
+msgstr "debug flag in compiled function has no effect"
+
+msgid "debug will apply when function leaves compiled code"
+msgstr "debug will apply when function leaves compiled code"
+
+msgid "internal error in 'do_sys'"
+msgstr "internal error in 'do_sys'"
+
+msgid "integer overflow in 'cumsum'; use 'cumsum(as.numeric(.))'"
+msgstr "integer overflow in 'cumsum'; use 'cumsum(as.numeric(.))'"
+
+msgid "'cummax' not defined for complex numbers"
+msgstr "'cummax' not defined for complex numbers"
+
+msgid "'cummin' not defined for complex numbers"
+msgstr "'cummin' not defined for complex numbers"
+
+#, fuzzy
+msgid "'cumvar' not defined for complex numbers"
+msgstr "'cummax' not defined for complex numbers"
+
+msgid "unknown cumxxx function"
+msgstr "unknown cumxxx function"
+
+msgid "datetimes before 1902 may not be accurate: warns once per session"
+msgstr "datetimes before 1902 may not be accurate: warns once per session"
+
+msgid "problem with unsetting timezone"
+msgstr "problem with unsetting timezone"
+
+msgid "problem with setting timezone"
+msgstr "problem with setting timezone"
+
+msgid "cannot set timezones on this system"
+msgstr "cannot set timezones on this system"
+
+msgid "a valid \"POSIXlt\" object is a list of at least 9 elements"
+msgstr "a valid \"POSIXlt\" object is a list of at least 9 elements"
+
+msgid "a valid \"POSIXlt\" object has names"
+msgstr "a valid \"POSIXlt\" object has names"
+
+#, c-format
+msgid "a valid \"POSIXlt\" object has element %d with name '%s' which should be '%s'"
+msgstr "a valid \"POSIXlt\" object has element %d with name '%s' which should be '%s'"
+
+#, c-format
+msgid "a valid \"POSIXlt\" object has a numeric element %s"
+msgstr "a valid \"POSIXlt\" object has a numeric element %s"
+
+#, c-format
+msgid "a valid \"POSIXlt\" object has a character element %s"
+msgstr "a valid \"POSIXlt\" object has a character element %s"
+
+#, c-format
+msgid "invalid '%s'"
+msgstr "invalid '%s'"
+
+msgid "attr(x, \"tzone\") should have length 1 or 3"
+msgstr "attr(x, \"tzone\") should have length 1 or 3"
+
+#, c-format
+msgid "zero-length component [[%d]] in non-empty \"POSIXlt\" structure"
+msgstr "zero-length component [[%d]] in non-empty \"POSIXlt\" structure"
+
+#, c-format
+msgid "'%s' is not a \"%s\""
+msgstr "'%s' is not a \"%s\""
+
+msgid "could not allocate memory for 'read.dcf'"
+msgstr "could not allocate memory for 'read.dcf'"
+
+#, c-format
+msgid "Found continuation line starting '%s ...' at begin of record."
+msgstr "Found continuation line starting '%s ...' at begin of record."
+
+#, c-format
+msgid "Line starting '%s ...' is malformed!"
+msgstr "Line starting '%s ...' is malformed!"
+
+msgid "argument must be a function"
+msgstr "argument must be a function"
+
+#, c-format
+msgid "Value for '%s' must be TRUE or FALSE"
+msgstr "Value for '%s' must be TRUE or FALSE"
+
+msgid "argument must not be a function"
+msgstr "argument must not be a function"
+
+msgid "cannot trace NULL"
+msgstr "cannot trace NULL"
+
+msgid "'tracemem' is not useful for promise and environment objects"
+msgstr "'tracemem' is not useful for promise and environment objects"
+
+msgid "'tracemem' is not useful for weak reference or external pointer objects"
+msgstr "'tracemem' is not useful for weak reference or external pointer objects"
+
+msgid "R was not compiled with support for memory profiling"
+msgstr "R was not compiled with support for memory profiling"
+
+msgid "invalid 'cutoff' value for 'deparse', using default"
+msgstr "invalid 'cutoff' value for 'deparse', using default"
+
+msgid "deparse may be incomplete"
+msgstr "deparse may be incomplete"
+
+msgid "deparse may be not be source()able in R < 2.7.0"
+msgstr "deparse may be not be source()able in R < 2.7.0"
+
+msgid "'file' must be a character string or connection"
+msgstr "'file' must be a character string or connection"
+
+msgid "wrote too few characters"
+msgstr "wrote too few characters"
+
+msgid "character arguments expected"
+msgstr "character arguments expected"
+
+msgid "zero-length argument"
+msgstr "zero-length argument"
+
+msgid "'opts' should be small non-negative integer"
+msgstr "'opts' should be small non-negative integer"
+
+#, c-format
+msgid "object '%s' not found"
+msgstr "object '%s' not found"
+
+msgid "badly formed function expression"
+msgstr "badly formed function expression"
+
+msgid "no active or default device"
+msgstr "no active or default device"
+
+msgid "no active device and default getOption(\"device\") is invalid"
+msgstr "no active device and default getOption(\"device\") is invalid"
+
+#, fuzzy
+msgid "can't shut down a locked device"
+msgstr "cannot unbind a locked binding"
+
+msgid "too many open devices"
+msgstr "too many open devices"
+
+msgid "not enough memory to allocate device (in GEcreateDevDesc)"
+msgstr "not enough memory to allocate device (in GEcreateDevDesc)"
+
+msgid "Hit <Return> to see next plot: "
+msgstr "Hit <Return> to see next plot: "
+
+msgid "NULL value passed as symbol address"
+msgstr "NULL value passed as symbol address"
+
+#, c-format
+msgid "Unimplemented type %d in createRSymbolObject"
+msgstr "Unimplemented type %d in createRSymbolObject"
+
+#, c-format
+msgid "symbol '%s' is too long"
+msgstr "symbol '%s' is too long"
+
+msgid "first argument must be a string (of length 1) or native symbol reference"
+msgstr "first argument must be a string (of length 1) or native symbol reference"
+
+msgid "too many arguments in foreign function call"
+msgstr "too many arguments in foreign function call"
+
+msgid "PACKAGE = \"\" is invalid"
+msgstr "PACKAGE = \"\" is invalid"
+
+#, c-format
+msgid "\"%s\" not available for %s() for package \"%s\""
+msgstr "\"%s\" not available for %s() for package \"%s\""
+
+#, c-format
+msgid "%s symbol name \"%s\" not in DLL for package \"%s\""
+msgstr "%s symbol name \"%s\" not in DLL for package \"%s\""
+
+#, c-format
+msgid "%s symbol name \"%s\" not in load table"
+msgstr "%s symbol name \"%s\" not in load table"
+
+#, c-format
+msgid "'%s' used more than once"
+msgstr "'%s' used more than once"
+
+msgid "DLL name is too long"
+msgstr "DLL name is too long"
+
+msgid "PACKAGE argument must be a single character string"
+msgstr "PACKAGE argument must be a single character string"
+
+msgid "PACKAGE argument is too long"
+msgstr "PACKAGE argument is too long"
+
+msgid "no arguments supplied"
+msgstr "no arguments supplied"
+
+msgid "too many arguments"
+msgstr "too many arguments"
+
+msgid "'.NAME' is missing"
+msgstr "'.NAME' is missing"
+
+#, c-format
+msgid "Incorrect number of arguments (%d), expecting %d for '%s'"
+msgstr "Incorrect number of arguments (%d), expecting %d for '%s'"
+
+msgid "too many arguments, sorry"
+msgstr "too many arguments, sorry"
+
+msgid "invalid graphics state"
+msgstr "invalid graphics state"
+
+msgid "NULL value for DLLInfoReference when looking for DLL"
+msgstr "NULL value for DLLInfoReference when looking for DLL"
+
+msgid "DLL requires the use of native symbols"
+msgstr "DLL requires the use of native symbols"
+
+#, c-format
+msgid "wrong type for argument %d in call to %s"
+msgstr "wrong type for argument %d in call to %s"
+
+#, c-format
+msgid "long vectors (argument %d) are not supported in %s"
+msgstr "long vectors (argument %d) are not supported in %s"
+
+#, c-format
+msgid "NAs in foreign function call (arg %d)"
+msgstr "NAs in foreign function call (arg %d)"
+
+#, c-format
+msgid "NA/NaN/Inf in foreign function call (arg %d)"
+msgstr "NA/NaN/Inf in foreign function call (arg %d)"
+
+#, c-format
+msgid "complex NA/NaN/Inf in foreign function call (arg %d)"
+msgstr "complex NA/NaN/Inf in foreign function call (arg %d)"
+
+#, c-format
+msgid "invalid mode (%s) to pass to Fortran (arg %d)"
+msgstr "invalid mode (%s) to pass to Fortran (arg %d)"
+
+#, c-format
+msgid "invalid mode (%s) to pass to C or Fortran (arg %d)"
+msgstr "invalid mode (%s) to pass to C or Fortran (arg %d)"
+
+msgid "pairlists are passed as SEXP as from R 2.15.0"
+msgstr "pairlists are passed as SEXP as from R 2.15.0"
+
+#, c-format
+msgid "skipped \"../\" path component(s) in '%s'"
+msgstr ""
+
+#, c-format
+msgid " not overwriting file '%s"
+msgstr " not overwriting file '%s"
+
+#, c-format
+msgid "zip file '%s' cannot be opened"
+msgstr "zip file '%s' cannot be opened"
+
+msgid "invalid zip name argument"
+msgstr "invalid zip name argument"
+
+msgid "zip path is too long"
+msgstr "zip path is too long"
+
+msgid "'exdir' is too long"
+msgstr "'exdir' is too long"
+
+msgid "'exdir' does not exist"
+msgstr "'exdir' does not exist"
+
+msgid "requested file not found in the zip file"
+msgstr "requested file not found in the zip file"
+
+msgid "zip file is corrupt"
+msgstr "zip file is corrupt"
+
+msgid "CRC error in zip file"
+msgstr "CRC error in zip file"
+
+msgid "write error in extracting from zip file"
+msgstr "write error in extracting from zip file"
+
+#, c-format
+msgid "error %d in extracting from zip file"
+msgstr "error %d in extracting from zip file"
+
+msgid "unz connections can only be opened for reading"
+msgstr "unz connections can only be opened for reading"
+
+msgid "invalid description of 'unz' connection"
+msgstr "invalid description of 'unz' connection"
+
+#, c-format
+msgid "cannot open zip file '%s'"
+msgstr "cannot open zip file '%s'"
+
+#, c-format
+msgid "cannot locate file '%s' in zip file '%s'"
+msgstr "cannot locate file '%s' in zip file '%s'"
+
+msgid "printing not enabled for this connection"
+msgstr "printing not enabled for this connection"
+
+msgid "write not enabled for this connection"
+msgstr "write not enabled for this connection"
+
+msgid "allocation of 'unz' connection failed"
+msgstr "allocation of 'unz' connection failed"
+
+msgid "invalid formal arguments for 'function'"
+msgstr "invalid formal arguments for 'function'"
+
+msgid "invalid body argument for 'function'"
+msgstr "invalid body argument for 'function'"
+
+msgid "invalid argument to edit()"
+msgstr "invalid argument to edit()"
+
+msgid "unable to open file"
+msgstr "unable to open file"
+
+msgid "argument 'editor' type not valid"
+msgstr "argument 'editor' type not valid"
+
+msgid "argument 'editor' is not set"
+msgstr "argument 'editor' is not set"
+
+msgid "'title' must be a string"
+msgstr "'title' must be a string"
+
+#, c-format
+msgid "unable to run editor '%s'"
+msgstr "unable to run editor '%s'"
+
+msgid "editor ran but returned error status"
+msgstr "editor ran but returned error status"
+
+#, c-format
+msgid "problem with running editor %s"
+msgstr "problem with running editor %s"
+
+msgid "unable to open file to read"
+msgstr "unable to open file to read"
+
+#, c-format
+msgid ""
+"%s occurred on line %d\n"
+" use a command like\n"
+" x <- edit()\n"
+" to recover"
+msgstr ""
+"%s occurred on line %d\n"
+" use a command like\n"
+" x <- edit()\n"
+" to recover"
+
+msgid "Graphics API version mismatch"
+msgstr "Graphics API version mismatch"
+
+msgid "unable to allocate memory (in GEregister)"
+msgstr "unable to allocate memory (in GEregister)"
+
+msgid "too many graphics systems registered"
+msgstr "too many graphics systems registered"
+
+msgid "no graphics system to unregister"
+msgstr "no graphics system to unregister"
+
+msgid "invalid line end"
+msgstr "invalid line end"
+
+msgid "invalid line join"
+msgstr "invalid line join"
+
+msgid "'lwd' must be non-negative and finite"
+msgstr "'lwd' must be non-negative and finite"
+
+msgid "out of memory while clipping polyline"
+msgstr "out of memory while clipping polyline"
+
+msgid "Clipping polygon that does not need clipping"
+msgstr "Clipping polygon that does not need clipping"
+
+msgid "path rendering is not implemented for this device"
+msgstr "path rendering is not implemented for this device"
+
+msgid "Invalid graphics path"
+msgstr "Invalid graphics path"
+
+msgid "raster rendering is not implemented for this device"
+msgstr "raster rendering is not implemented for this device"
+
+msgid "raster capture is not available for this device"
+msgstr "raster capture is not available for this device"
+
+#, c-format
+msgid "font face %d not supported for font family '%s'"
+msgstr "font face %d not supported for font family '%s'"
+
+msgid "no graphics device is active"
+msgstr "no graphics device is active"
+
+#, c-format
+msgid "pch value '%d' is invalid in this locale"
+msgstr "pch value '%d' is invalid in this locale"
+
+#, c-format
+msgid "unimplemented pch value '%d'"
+msgstr "unimplemented pch value '%d'"
+
+#, c-format
+msgid "invalid axis extents [GEPretty(.,.,n=%d)"
+msgstr "invalid axis extents [GEPretty(.,.,n=%d)"
+
+#, c-format
+msgid "non-finite axis extents [GEPretty(%g,%g, n=%d)]"
+msgstr "non-finite axis extents [GEPretty(%g,%g, n=%d)]"
+
+#, c-format
+msgid " new *lo = %g < %g = x1"
+msgstr " new *lo = %g < %g = x1"
+
+#, c-format
+msgid " new *up = %g > %g = x2"
+msgstr " new *up = %g > %g = x2"
+
+msgid "display list redraw incomplete"
+msgstr "display list redraw incomplete"
+
+msgid "invalid display list"
+msgstr "invalid display list"
+
+#, c-format
+msgid "snapshot recorded with different graphics engine version (pre 11 - this is version %d)"
+msgstr "snapshot recorded with different graphics engine version (pre 11 - this is version %d)"
+
+#, c-format
+msgid "snapshot recorded with different graphics engine version (%d - this is version %d)"
+msgstr "snapshot recorded with different graphics engine version (%d - this is version %d)"
+
+msgid "'expr' argument must be an expression"
+msgstr "'expr' argument must be an expression"
+
+msgid "'list' argument must be a list"
+msgstr "'list' argument must be a list"
+
+msgid "'env' argument must be an environment"
+msgstr "'env' argument must be an environment"
+
+msgid "invalid multibyte char in pch=\"c\""
+msgstr "invalid multibyte char in pch=\"c\""
+
+msgid "invalid hex digit in 'color' or 'lty'"
+msgstr "invalid hex digit in 'color' or 'lty'"
+
+msgid "invalid line type: must be length 2, 4, 6 or 8"
+msgstr "invalid line type: must be length 2, 4, 6 or 8"
+
+msgid "invalid line type: zeroes are not allowed"
+msgstr "invalid line type: zeroes are not allowed"
+
+msgid "invalid line type"
+msgstr "invalid line type"
+
+msgid "Stroke ignored (device is appending path)"
+msgstr "Stroke ignored (device is appending path)"
+
+msgid "Fill ignored (device is appending path)"
+msgstr "Fill ignored (device is appending path)"
+
+msgid "FillStroke ignored (device is appending path)"
+msgstr "FillStroke ignored (device is appending path)"
+
+#, fuzzy
+msgid "Index out of bounds"
+msgstr "index %d outside bounds"
+
+#, c-format
+msgid "cannot change value of locked binding for '%s'"
+msgstr "cannot change value of locked binding for '%s'"
+
+msgid "cannot add bindings to a locked environment"
+msgstr "cannot add bindings to a locked environment"
+
+msgid "cycle detected in promise chain"
+msgstr ""
+
+msgid "not a symbol"
+msgstr "not a symbol"
+
+msgid "not an environment"
+msgstr "not an environment"
+
+msgid "cannot unbind in the base namespace"
+msgstr "cannot unbind in the base namespace"
+
+msgid "unbind in the base environment is unimplemented"
+msgstr "unbind in the base environment is unimplemented"
+
+msgid "cannot remove bindings from a locked environment"
+msgstr "cannot remove bindings from a locked environment"
+
+#, c-format
+msgid "argument to '%s' is not an environment"
+msgstr "argument to '%s' is not an environment"
+
+#, c-format
+msgid "indexing '...' with non-positive index %d"
+msgstr "indexing '...' with non-positive index %d"
+
+#, fuzzy
+msgid "bad ... value"
+msgstr "bad value"
+
+#, c-format
+msgid "the ... list contains fewer than %d element"
+msgid_plural "the ... list contains fewer than %d elements"
+msgstr[0] "the ... list contains fewer than %d element"
+msgstr[1] "the ... list contains fewer than %d elements"
+
+#, c-format
+msgid "..%d used in an incorrect context, no ... to look in"
+msgstr "..%d used in an incorrect context, no ... to look in"
+
+msgid "indexing '...' with an invalid index"
+msgstr "indexing '...' with an invalid index"
+
+msgid "incorrect context: the current call has no '...' to look in"
+msgstr "incorrect context: the current call has no '...' to look in"
+
+msgid "not a delayed ... element"
+msgstr ""
+
+msgid "not a forced ... element"
+msgstr ""
+
+msgid "cannot assign values in the empty environment"
+msgstr "cannot assign values in the empty environment"
+
+msgid "cannot assign variables to this database"
+msgstr "cannot assign variables to this database"
+
+#, c-format
+msgid "cannot add binding of '%s' to the base environment"
+msgstr "cannot add binding of '%s' to the base environment"
+
+msgid "only the first element is used as variable name"
+msgstr "only the first element is used as variable name"
+
+msgid "first argument must be a named list"
+msgstr "first argument must be a named list"
+
+msgid "names(x) must be a character vector of the same length as x"
+msgstr "names(x) must be a character vector of the same length as x"
+
+msgid "'envir' argument must be an environment"
+msgstr "'envir' argument must be an environment"
+
+msgid "cannot remove variables from base namespace"
+msgstr "cannot remove variables from base namespace"
+
+msgid "cannot remove variables from the base environment"
+msgstr "cannot remove variables from the base environment"
+
+msgid "cannot remove variables from the empty environment"
+msgstr "cannot remove variables from the empty environment"
+
+msgid "cannot remove variables from this database"
+msgstr "cannot remove variables from this database"
+
+#, c-format
+msgid "invalid '%s' argument '%s'"
+msgstr "invalid '%s' argument '%s'"
+
+msgid "first argument has length > 1"
+msgstr "first argument has length > 1"
+
+#, c-format
+msgid "invalid name in position %d"
+msgstr "invalid name in position %d"
+
+msgid "second argument must be an environment"
+msgstr "second argument must be an environment"
+
+#, c-format
+msgid "first argument to '%s' must be a symbol"
+msgstr "first argument to '%s' must be a symbol"
+
+#, c-format
+msgid "second argument to '%s' must be an environment"
+msgstr "second argument to '%s' must be an environment"
+
+#, c-format
+msgid "'missing(%s)' did not find an argument"
+msgstr ""
+
+msgid "invalid use of 'missing'"
+msgstr "invalid use of 'missing'"
+
+msgid "'pos' must be an integer"
+msgstr "'pos' must be an integer"
+
+msgid "all elements of a list must be named"
+msgstr "all elements of a list must be named"
+
+msgid "'attach' only works for lists, data frames and environments"
+msgstr "'attach' only works for lists, data frames and environments"
+
+msgid "detaching \"package:base\" is not allowed"
+msgstr "detaching \"package:base\" is not allowed"
+
+msgid "argument must be an environment"
+msgstr "argument must be an environment"
+
+msgid "arguments must be symbolic"
+msgstr "arguments must be symbolic"
+
+msgid "no enclosing environment"
+msgstr "no enclosing environment"
+
+#, c-format
+msgid "no item called \"%s\" on the search list"
+msgstr "no item called \"%s\" on the search list"
+
+msgid "using 'as.environment(NULL)' is defunct"
+msgstr "using 'as.environment(NULL)' is defunct"
+
+msgid "S4 object does not extend class \"environment\""
+msgstr "S4 object does not extend class \"environment\""
+
+msgid "invalid object for 'as.environment'"
+msgstr "invalid object for 'as.environment'"
+
+#, c-format
+msgid "no binding for \"%s\""
+msgstr "no binding for \"%s\""
+
+msgid "not a function"
+msgstr "not a function"
+
+msgid "symbol already has a regular binding"
+msgstr "symbol already has a regular binding"
+
+msgid "cannot change active binding if binding is locked"
+msgstr "cannot change active binding if binding is locked"
+
+#, fuzzy
+msgid "unbound variable"
+msgstr "bad variable name"
+
+#, fuzzy
+msgid "not a delayed or forced binding"
+msgstr "cannot unbind a locked binding"
+
+#, fuzzy
+msgid "not a delayed binding"
+msgstr "cannot unbind a locked binding"
+
+#, fuzzy
+msgid "not a forced binding"
+msgstr "cannot unbind a locked binding"
+
+#, c-format
+msgid "no active binding for \"%s\""
+msgstr "no active binding for \"%s\""
+
+msgid "unknown op"
+msgstr "unknown op"
+
+msgid "cannot unbind a locked binding"
+msgstr "cannot unbind a locked binding"
+
+msgid "cannot unbind an active binding"
+msgstr "cannot unbind an active binding"
+
+msgid "bad namespace name"
+msgstr "bad namespace name"
+
+msgid "namespace already registered"
+msgstr "namespace already registered"
+
+msgid "namespace not registered"
+msgstr "namespace not registered"
+
+msgid "bad variable name"
+msgstr "bad variable name"
+
+msgid "bad namespace"
+msgstr "bad namespace"
+
+#, c-format
+msgid "'%s' is not an exported object from 'namespace:%s'"
+msgstr "'%s' is not an exported object from 'namespace:%s'"
+
+msgid "bad import environment argument"
+msgstr "bad import environment argument"
+
+msgid "bad export environment argument"
+msgstr "bad export environment argument"
+
+msgid "length of import and export names must match"
+msgstr "length of import and export names must match"
+
+#, c-format
+msgid "exported symbol '%s' has no value"
+msgstr "exported symbol '%s' has no value"
+
+#, c-format
+msgid "unknown encoding: %d"
+msgstr "unknown encoding: %d"
+
+#, c-format
+msgid "embedded nul in string: '%s'"
+msgstr "embedded nul in string: '%s'"
+
+msgid "interrupts suspended; signal ignored"
+msgstr "interrupts suspended; signal ignored"
+
+msgid "[... truncated]"
+msgstr "[... truncated]"
+
+msgid "invalid option \"warning.expression\""
+msgstr "invalid option \"warning.expression\""
+
+#, c-format
+msgid "(converted from warning) %s"
+msgstr "(converted from warning) %s"
+
+msgid "Warning:"
+msgstr "Warning:"
+
+#, c-format
+msgid "Warning in %s :"
+msgstr "Warning in %s :"
+
+msgid "Calls:"
+msgstr "Calls:"
+
+msgid "Lost warning messages\n"
+msgstr "Lost warning messages\n"
+
+msgid "Warning message:"
+msgid_plural "Warning messages:"
+msgstr[0] "Warning message:"
+msgstr[1] "Warning messages:"
+
+#, c-format
+msgid "In %s :"
+msgstr "In %s :"
+
+#, c-format
+msgid "There was %d warning (use warnings() to see it)"
+msgid_plural "There were %d warnings (use warnings() to see them)"
+msgstr[0] "There was %d warning (use warnings() to see it)"
+msgstr[1] "There were %d warnings (use warnings() to see them)"
+
+#, c-format
+msgid "There were %d or more warnings (use warnings() to see the first %d)"
+msgstr "There were %d or more warnings (use warnings() to see the first %d)"
+
+msgid "Error during wrapup: "
+msgstr "Error during wrapup: "
+
+msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
+msgstr "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
+
+msgid "Error in "
+msgstr "Error in "
+
+#, c-format
+msgid "Error in %s (from %s) : "
+msgstr "Error in %s (from %s) : "
+
+#, c-format
+msgid "Error in %s : "
+msgstr "Error in %s : "
+
+msgid "Error: "
+msgstr "Error: "
+
+msgid "In addition: "
+msgstr "In addition: "
+
+msgid "invalid option \"error\"\n"
+msgstr "invalid option \"error\"\n"
+
+#, c-format
+msgid "'%s' must be a character string"
+msgstr "'%s' must be a character string"
+
+msgid " [invalid string in stop(.)]"
+msgstr " [invalid string in stop(.)]"
+
+msgid " [invalid string in warning(.)]"
+msgstr " [invalid string in warning(.)]"
+
+#, c-format
+msgid "incorrect number of arguments to \"%s\""
+msgstr "incorrect number of arguments to \"%s\""
+
+#, c-format
+msgid "unimplemented feature in %s"
+msgstr "unimplemented feature in %s"
+
+msgid "invalid number of arguments"
+msgstr "invalid number of arguments"
+
+msgid "invalid argument type"
+msgstr "invalid argument type"
+
+msgid "time-series/vector length mismatch"
+msgstr "time-series/vector length mismatch"
+
+msgid "incompatible arguments"
+msgstr "incompatible arguments"
+
+msgid "unknown error (report this!)"
+msgstr "unknown error (report this!)"
+
+msgid "inaccurate integer conversion in coercion"
+msgstr "inaccurate integer conversion in coercion"
+
+msgid "unknown warning (report this!)"
+msgstr "unknown warning (report this!)"
+
+msgid "bad handler data"
+msgstr "bad handler data"
+
+msgid "error message not a string"
+msgstr "error message not a string"
+
+msgid "handler or restart stack mismatch in old restart"
+msgstr "handler or restart stack mismatch in old restart"
+
+msgid "bad error message"
+msgstr "bad error message"
+
+msgid "bad restart"
+msgstr "bad restart"
+
+msgid "restart not on stack"
+msgstr "restart not on stack"
+
+msgid "not in a try context"
+msgstr "not in a try context"
+
+msgid "error message must be a character string"
+msgstr "error message must be a character string"
+
+msgid "condition object must be a VECSXP of length at least one"
+msgstr "condition object must be a VECSXP of length at least one"
+
+msgid "first element of condition object must be a scalar string"
+msgstr "first element of condition object must be a scalar string"
+
+#, c-format
+msgid "argument \"%s\" is missing, with no default"
+msgstr "argument \"%s\" is missing, with no default"
+
+msgid "argument is missing, with no default"
+msgstr "argument is missing, with no default"
+
+#, c-format
+msgid "object '%s' of mode '%s' was not found"
+msgstr "object '%s' of mode '%s' was not found"
+
+#, c-format
+msgid "could not find function \"%s\""
+msgstr "could not find function \"%s\""
+
+#, c-format
+msgid "partial match of '%s' to '%s'"
+msgstr "partial match of '%s' to '%s'"
+
+#, c-format
+msgid "partial argument match of '%s' to '%s'"
+msgstr "partial argument match of '%s' to '%s'"
+
+msgid "protect(): protection stack overflow"
+msgstr "protect(): protection stack overflow"
+
+msgid "evaluation nested too deeply: infinite recursion / options(expressions=)?"
+msgstr "evaluation nested too deeply: infinite recursion / options(expressions=)?"
+
+msgid "node stack overflow"
+msgstr "node stack overflow"
+
+msgid "samples too large for I/O buffer skipped by Rprof"
+msgstr "samples too large for I/O buffer skipped by Rprof"
+
+#, c-format
+msgid "source files skipped by Rprof; please increase '%s'"
+msgstr "source files skipped by Rprof; please increase '%s'"
+
+#, c-format
+msgid "Rprof: cannot open profile file '%s'"
+msgstr "Rprof: cannot open profile file '%s'"
+
+#, c-format
+msgid "interval too short for this platform, using '%f'"
+msgstr "interval too short for this platform, using '%f'"
+
+#, c-format
+msgid "interval too short, using '%f'"
+msgstr "interval too short, using '%f'"
+
+msgid "R profiling is not available on this system"
+msgstr "R profiling is not available on this system"
+
+msgid "promise already under evaluation: recursive default argument reference or earlier problems?"
+msgstr "promise already under evaluation: recursive default argument reference or earlier problems?"
+
+msgid "restarting interrupted promise evaluation"
+msgstr "restarting interrupted promise evaluation"
+
+msgid "attempt to apply non-function"
+msgstr "attempt to apply non-function"
+
+#, c-format
+msgid "%s at %s#%d: "
+msgstr "%s at %s#%d: "
+
+#, c-format
+msgid "argument %d is empty"
+msgstr "argument %d is empty"
+
+#, c-format
+msgid "could not find symbol \"%s\" in environment of the generic function"
+msgstr "could not find symbol \"%s\" in environment of the generic function"
+
+#, c-format
+msgid "symbol \"%s\" not in environment of method"
+msgstr "symbol \"%s\" not in environment of method"
+
+msgid "the condition has length > 1"
+msgstr "the condition has length > 1"
+
+msgid "missing value where TRUE/FALSE needed"
+msgstr "missing value where TRUE/FALSE needed"
+
+msgid "argument is not interpretable as logical"
+msgstr "argument is not interpretable as logical"
+
+msgid "argument is of length zero"
+msgstr "argument is of length zero"
+
+msgid "non-symbol loop variable"
+msgstr "non-symbol loop variable"
+
+msgid "invalid for() loop sequence"
+msgstr "invalid for() loop sequence"
+
+msgid "multi-argument returns are not permitted"
+msgstr "multi-argument returns are not permitted"
+
+msgid "\"expr\" must be a call expression"
+msgstr ""
+
+msgid "invalid (NULL) left side of assignment"
+msgstr "invalid (NULL) left side of assignment"
+
+msgid "target of assignment expands to non-language object"
+msgstr "target of assignment expands to non-language object"
+
+#, c-format
+msgid "overlong name in '%s'"
+msgstr "overlong name in '%s'"
+
+msgid "cannot do complex assignments in base namespace"
+msgstr "cannot do complex assignments in base namespace"
+
+msgid "cannot do complex assignments in base environment"
+msgstr "cannot do complex assignments in base environment"
+
+msgid "existing `*tmp*` binding is locked"
+msgstr ""
+
+#, fuzzy
+msgid "existing `*tmp*` binding is an active binding"
+msgstr "cannot unbind an active binding"
+
+msgid "invalid function in complex assignment"
+msgstr "invalid function in complex assignment"
+
+msgid "invalid (do_set) left-hand side to assignment"
+msgstr "invalid (do_set) left-hand side to assignment"
+
+#, c-format
+msgid "'%s' is missing"
+msgstr "'%s' is missing"
+
+#, c-format
+msgid "invalid formal argument list for \"%s\""
+msgstr "invalid formal argument list for \"%s\""
+
+#, c-format
+msgid "invalid '%s' argument of type '%s'"
+msgstr "invalid '%s' argument of type '%s'"
+
+msgid "numeric 'envir' arg not of length one"
+msgstr "numeric 'envir' arg not of length one"
+
+msgid "'Recall' called from outside a closure"
+msgstr "'Recall' called from outside a closure"
+
+msgid "value in '...' is not a promise"
+msgstr "value in '...' is not a promise"
+
+#, c-format
+msgid "Incompatible methods (\"%s\", \"%s\") for \"%s\""
+msgstr "Incompatible methods (\"%s\", \"%s\") for \"%s\""
+
+msgid "dispatch error in group dispatch"
+msgstr "dispatch error in group dispatch"
+
+#, c-format
+msgid "\"%s\" is not a %s function"
+msgstr "\"%s\" is not a %s function"
+
+msgid "bad opcode"
+msgstr "bad opcode"
+
+#, c-format
+msgid "invalid %s type in 'x %s y'"
+msgstr "invalid %s type in 'x %s y'"
+
+msgid "byte code version mismatch"
+msgstr "byte code version mismatch"
+
+msgid "invalid sequence argument in for loop"
+msgstr "invalid sequence argument in for loop"
+
+#, c-format
+msgid "there is no .Internal function '%s'"
+msgstr "there is no .Internal function '%s'"
+
+msgid "bad function"
+msgstr "bad function"
+
+msgid "not a BUILTIN function"
+msgstr "not a BUILTIN function"
+
+msgid "bad numeric 'switch' offsets"
+msgstr "bad numeric 'switch' offsets"
+
+msgid "numeric EXPR required for 'switch' without named alternatives"
+msgstr "numeric EXPR required for 'switch' without named alternatives"
+
+msgid "bad character 'switch' offsets"
+msgstr "bad character 'switch' offsets"
+
+msgid "cannot find index for threaded code address"
+msgstr "cannot find index for threaded code address"
+
+msgid "invalid body"
+msgstr "invalid body"
+
+msgid "invalid symbol"
+msgstr "invalid symbol"
+
+msgid "argument is not a byte code object"
+msgstr "argument is not a byte code object"
+
+msgid "constant buffer must be a generic vector"
+msgstr "constant buffer must be a generic vector"
+
+msgid "bad constant count"
+msgstr "bad constant count"
+
+msgid "profile timer in use"
+msgstr "profile timer in use"
+
+msgid "already byte code profiling"
+msgstr "already byte code profiling"
+
+msgid "setting profile timer failed"
+msgstr "setting profile timer failed"
+
+msgid "not byte code profiling"
+msgstr "not byte code profiling"
+
+msgid "byte code profiling is not supported in this build"
+msgstr "byte code profiling is not supported in this build"
+
+#, fuzzy, c-format
+msgid "'%s' is not of type %s"
+msgstr "'%s' is not a %s"
+
+#, c-format
+msgid "'%s' events not supported in this device"
+msgstr "'%s' events not supported in this device"
+
+msgid "internal error"
+msgstr "internal error"
+
+msgid "this graphics device does not support event handling"
+msgstr "this graphics device does not support event handling"
+
+msgid "invalid prompt"
+msgstr "invalid prompt"
+
+msgid "recursive use of 'getGraphicsEvent' not supported"
+msgstr "recursive use of 'getGraphicsEvent' not supported"
+
+msgid "no graphics event handlers set"
+msgstr "no graphics event handlers set"
+
+#, c-format
+msgid "invalid multibyte character in parser (%s:%d:%d)"
+msgstr "invalid multibyte character in parser (%s:%d:%d)"
+
+#, c-format
+msgid "input buffer overflow (%s:%d:%d)"
+msgstr "input buffer overflow (%s:%d:%d)"
+
+#, c-format
+msgid "function '%s' not supported in RHS call of a pipe (%s:%d:%d)"
+msgstr "function '%s' not supported in RHS call of a pipe (%s:%d:%d)"
+
+#, c-format
+msgid "pipe placeholder may only appear once (%s:%d:%d)"
+msgstr "pipe placeholder may only appear once (%s:%d:%d)"
+
+#, c-format
+msgid "The pipe operator requires a function call as RHS (%s:%d:%d)"
+msgstr "The pipe operator requires a function call as RHS (%s:%d:%d)"
+
+#, c-format
+msgid "RHS variable must be a symbol (%s:%d:%d)"
+msgstr "RHS variable must be a symbol (%s:%d:%d)"
+
+#, c-format
+msgid "pipe placeholder cannot be used in the RHS function (%s:%d:%d)"
+msgstr "pipe placeholder cannot be used in the RHS function (%s:%d:%d)"
+
+#, c-format
+msgid "pipe placeholder can only be used as a named argument (%s:%d:%d)"
+msgstr "pipe placeholder can only be used as a named argument (%s:%d:%d)"
+
+#, c-format
+msgid "'=>' is disabled; set '_R_USE_PIPEBIND_' envvar to a true value to enable it (%s:%d:%d)"
+msgstr "'=>' is disabled; set '_R_USE_PIPEBIND_' envvar to a true value to enable it (%s:%d:%d)"
+
+#, c-format
+msgid "incorrect tag type (%s:%d:%d)"
+msgstr "incorrect tag type (%s:%d:%d)"
+
+msgid "allocation of source reference state failed"
+msgstr "allocation of source reference state failed"
+
+#, c-format
+msgid "invalid use of pipe placeholder (%s:%d:%d)"
+msgstr "invalid use of pipe placeholder (%s:%d:%d)"
+
+#, c-format
+msgid "invalid use of pipe bind symbol (%s:%d:%d)"
+msgstr "invalid use of pipe bind symbol (%s:%d:%d)"
+
+msgid "out of memory while parsing"
+msgstr "out of memory while parsing"
+
+#, c-format
+msgid "contextstack overflow (%s:%d:%d)"
+msgstr "contextstack overflow (%s:%d:%d)"
+
+#, c-format
+msgid "unexpected input"
+msgstr "unexpected input"
+
+#, c-format
+msgid "unexpected end of input"
+msgstr "unexpected end of input"
+
+#, c-format
+msgid "unexpected string constant"
+msgstr "unexpected string constant"
+
+#, c-format
+msgid "unexpected numeric constant"
+msgstr "unexpected numeric constant"
+
+#, c-format
+msgid "unexpected symbol"
+msgstr "unexpected symbol"
+
+#, c-format
+msgid "unexpected assignment"
+msgstr "unexpected assignment"
+
+#, c-format
+msgid "unexpected end of line"
+msgstr "unexpected end of line"
+
+#, c-format
+msgid "unexpected %s"
+msgstr "unexpected %s"
+
+#, c-format
+msgid "repeated formal argument '%s' (%s:%d:%d)"
+msgstr "repeated formal argument '%s' (%s:%d:%d)"
+
+#, c-format
+msgid "integer literal %s contains decimal; using numeric value"
+msgstr "integer literal %s contains decimal; using numeric value"
+
+#, c-format
+msgid "non-integer value %s qualified with L; using numeric value"
+msgstr "non-integer value %s qualified with L; using numeric value"
+
+#, c-format
+msgid "integer literal %s contains unnecessary decimal point"
+msgstr "integer literal %s contains unnecessary decimal point"
+
+#, c-format
+msgid "invalid multibyte character (%s:%d:%d)"
+msgstr "invalid multibyte character (%s:%d:%d)"
+
+#, c-format
+msgid "bidi formatting not allowed, use escapes instead (\\u%04x) (%s:%d:%d)"
+msgstr "bidi formatting not allowed, use escapes instead (\\u%04x) (%s:%d:%d)"
+
+#, c-format
+msgid "nul character not allowed (%s:%d:%d)"
+msgstr "nul character not allowed (%s:%d:%d)"
+
+#, c-format
+msgid "\\%o exceeds maximum allowed octal value \\377 (%s:%d:%d)"
+msgstr "\\%o exceeds maximum allowed octal value \\377 (%s:%d:%d)"
+
+#, c-format
+msgid "'\\x' used without hex digits in character string (%s:%d:%d)"
+msgstr "'\\x' used without hex digits in character string (%s:%d:%d)"
+
+#, c-format
+msgid "\\uxxxx sequences not supported inside backticks (%s:%d:%d)"
+msgstr "\\uxxxx sequences not supported inside backticks (%s:%d:%d)"
+
+#, c-format
+msgid "'\\u' used without hex digits in character string (%s:%d:%d)"
+msgstr "'\\u' used without hex digits in character string (%s:%d:%d)"
+
+#, c-format
+msgid "invalid \\u{xxxx} sequence (line %d)"
+msgstr "invalid \\u{xxxx} sequence (line %d)"
+
+#, c-format
+msgid "\\Uxxxxxxxx sequences not supported inside backticks (%s:%d:%d)"
+msgstr "\\Uxxxxxxxx sequences not supported inside backticks (%s:%d:%d)"
+
+#, c-format
+msgid "'\\U' used without hex digits in character string (%s:%d:%d)"
+msgstr "'\\U' used without hex digits in character string (%s:%d:%d)"
+
+#, c-format
+msgid "invalid \\U{xxxxxxxx} sequence (%s:%d:%d)"
+msgstr "invalid \\U{xxxxxxxx} sequence (%s:%d:%d)"
+
+#, c-format
+msgid "invalid \\U{xxxxxxxx} value %6x (%s:%d:%d)"
+msgstr "invalid \\U{xxxxxxxx} value %6x (%s:%d:%d)"
+
+#, c-format
+msgid "invalid \\Uxxxxxxxx value %6x (%s:%d:%d)"
+msgstr "invalid \\Uxxxxxxxx value %6x (%s:%d:%d)"
+
+#, c-format
+msgid "'\\%s' is an unrecognized escape in character string (%s:%d:%d)"
+msgstr "'\\%s' is an unrecognized escape in character string (%s:%d:%d)"
+
+#, c-format
+msgid "mixing Unicode and octal/hex escapes in a string is not allowed (%s:%d:%d)"
+msgstr "mixing Unicode and octal/hex escapes in a string is not allowed (%s:%d:%d)"
+
+#, c-format
+msgid ""
+"string containing Unicode escapes not in this locale\n"
+"is too long (max 10000 chars) (%s:%d:%d)"
+msgstr ""
+"string containing Unicode escapes not in this locale\n"
+"is too long (max 10000 chars) (%s:%d:%d)"
+
+#, c-format
+msgid "malformed raw string literal (%s:%d:%d)"
+msgstr "malformed raw string literal (%s:%d:%d)"
+
+#, c-format
+msgid "internal parser error (%s:%d:%d)"
+msgstr "internal parser error (%s:%d:%d)"
+
+#, c-format
+msgid "axis(%d, *): range of values (%5.2g) is small wrt |M| = %7.2g --> not pretty()"
+msgstr "axis(%d, *): range of values (%5.2g) is small wrt |M| = %7.2g --> not pretty()"
+
+#, c-format
+msgid "TRE pattern compilation error '%s'"
+msgstr "TRE pattern compilation error '%s'"
+
+#, c-format
+msgid "invalid regular expression '%s', reason '%s'"
+msgstr "invalid regular expression '%s', reason '%s'"
+
+#, c-format
+msgid "invalid regular expression, reason '%s'"
+msgstr "invalid regular expression, reason '%s'"
+
+#, c-format
+msgid ""
+"PCRE error\n"
+"\t'%s'\n"
+"\tfor element %d"
+msgstr ""
+"PCRE error\n"
+"\t'%s'\n"
+"\tfor element %d"
+
+#, c-format
+msgid ""
+"PCRE pattern compilation error\n"
+"\t'%s'\n"
+"\tat '%s'\n"
+msgstr ""
+"PCRE pattern compilation error\n"
+"\t'%s'\n"
+"\tat '%s'\n"
+
+#, c-format
+msgid "invalid regular expression '%s'"
+msgstr "invalid regular expression '%s'"
+
+#, c-format
+msgid ""
+"PCRE JIT compilation error\n"
+"\t'%s'"
+msgstr ""
+"PCRE JIT compilation error\n"
+"\t'%s'"
+
+#, c-format
+msgid ""
+"PCRE pattern study error\n"
+"\t'%s'\n"
+msgstr ""
+"PCRE pattern study error\n"
+"\t'%s'\n"
+
+#, c-format
+msgid "input string %lld is invalid UTF-8"
+msgstr "input string %lld is invalid UTF-8"
+
+#, c-format
+msgid "'split' string %lld is invalid UTF-8"
+msgstr "'split' string %lld is invalid UTF-8"
+
+#, c-format
+msgid "'split' string %lld is invalid in this locale"
+msgstr "'split' string %lld is invalid in this locale"
+
+#, c-format
+msgid "'split' string %lld is invalid"
+msgstr "'split' string %lld is invalid"
+
+#, c-format
+msgid "input string %lld is invalid"
+msgstr "input string %lld is invalid"
+
+msgid "regular expression is invalid"
+msgstr "regular expression is invalid"
+
+msgid "regular expression is invalid UTF-8"
+msgstr "regular expression is invalid UTF-8"
+
+msgid "pattern matches an empty string infinitely, returning first match only"
+msgstr "pattern matches an empty string infinitely, returning first match only"
+
+msgid "result string is too long"
+msgstr "result string is too long"
+
+msgid "'pattern' is invalid"
+msgstr "'pattern' is invalid"
+
+msgid "'replacement' is invalid"
+msgstr "'replacement' is invalid"
+
+msgid "'pattern' is invalid UTF-8"
+msgstr "'pattern' is invalid UTF-8"
+
+msgid "'replacement' is invalid UTF-8"
+msgstr "'replacement' is invalid UTF-8"
+
+msgid "'pattern' is invalid in this locale"
+msgstr "'pattern' is invalid in this locale"
+
+msgid "'replacement' is invalid in this locale"
+msgstr "'replacement' is invalid in this locale"
+
+msgid "zero-length pattern"
+msgstr "zero-length pattern"
+
+#, c-format
+msgid "'pcre2_patterninfo' returned '%d' "
+msgstr "'pcre2_patterninfo' returned '%d' "
+
+#, c-format
+msgid "'pcre_fullinfo' returned '%d' "
+msgstr "'pcre_fullinfo' returned '%d' "
+
+msgid "ignoring non-pairlist attributes"
+msgstr "ignoring non-pairlist attributes"
+
+msgid "internet routines cannot be accessed in module"
+msgstr "internet routines cannot be accessed in module"
+
+msgid "internet routines cannot be loaded"
+msgstr "internet routines cannot be loaded"
+
+msgid "socket routines cannot be loaded"
+msgstr "socket routines cannot be loaded"
+
+msgid "maxlen must be non-negative"
+msgstr "maxlen must be non-negative"
+
+msgid "attempt to close invalid socket"
+msgstr "attempt to close invalid socket"
+
+msgid "LAPACK routines cannot be accessed in module"
+msgstr "LAPACK routines cannot be accessed in module"
+
+msgid "LAPACK routines cannot be loaded"
+msgstr "LAPACK routines cannot be loaded"
+
+msgid "operations are possible only for numeric, logical or complex types"
+msgstr "operations are possible only for numeric, logical or complex types"
+
+#, c-format
+msgid "'%s' operator requires 2 arguments"
+msgstr "'%s' operator requires 2 arguments"
+
+#, c-format
+msgid "invalid 'x' type in 'x %s y'"
+msgstr "invalid 'x' type in 'x %s y'"
+
+#, c-format
+msgid "invalid 'y' type in 'x %s y'"
+msgstr "invalid 'y' type in 'x %s y'"
+
+msgid "Unary operator `!' called with two arguments"
+msgstr "Unary operator `!' called with two arguments"
+
+#, c-format
+msgid "coercing argument of type '%s' to logical"
+msgstr "coercing argument of type '%s' to logical"
+
+msgid "dummy - do not translate"
+msgstr "dummy - do not translate"
+
+msgid "error during cleanup\n"
+msgstr "error during cleanup\n"
+
+msgid "Execution halted\n"
+msgstr "Execution halted\n"
+
+msgid "Error: segfault from C stack overflow\n"
+msgstr "Error: segfault from C stack overflow\n"
+
+msgid "unable to open the base package\n"
+msgstr "unable to open the base package\n"
+
+#, c-format
+msgid "unable to restore saved data in %s\n"
+msgstr "unable to restore saved data in %s\n"
+
+msgid "During startup - "
+msgstr "During startup - "
+
+msgid "unable to initialize the JIT\n"
+msgstr "unable to initialize the JIT\n"
+
+msgid "non-interactive browser() -- left over from debugging?"
+msgstr "non-interactive browser() -- left over from debugging?"
+
+msgid "cannot quit from browser"
+msgstr "cannot quit from browser"
+
+msgid "one of \"yes\", \"no\", \"ask\" or \"default\" expected."
+msgstr "one of \"yes\", \"no\", \"ask\" or \"default\" expected."
+
+msgid "save=\"ask\" in non-interactive use: command-line default will be used"
+msgstr "save=\"ask\" in non-interactive use: command-line default will be used"
+
+msgid "unrecognized value of 'save'"
+msgstr "unrecognized value of 'save'"
+
+msgid "invalid 'status', 0 assumed"
+msgstr "invalid 'status', 0 assumed"
+
+msgid "invalid 'runLast', FALSE assumed"
+msgstr "invalid 'runLast', FALSE assumed"
+
+msgid "cannot allocate space for toplevel callback element"
+msgstr "cannot allocate space for toplevel callback element"
+
+msgid "negative index passed to R_removeTaskCallbackByIndex"
+msgstr "negative index passed to R_removeTaskCallbackByIndex"
+
+#, c-format
+msgid "warning messages from top-level task callback '%s'\n"
+msgstr "warning messages from top-level task callback '%s'\n"
+
+msgid "top-level task callback did not return a logical value"
+msgstr "top-level task callback did not return a logical value"
+
+msgid "argument 'MoreArgs' of 'mapply' is not a list or pairlist"
+msgstr "argument 'MoreArgs' of 'mapply' is not a list or pairlist"
+
+msgid "longer argument not a multiple of length of shorter"
+msgstr "longer argument not a multiple of length of shorter"
+
+msgid "invalid partial string match"
+msgstr "invalid partial string match"
+
+#, c-format
+msgid "formal argument \"%s\" matched by multiple actual arguments"
+msgstr "formal argument \"%s\" matched by multiple actual arguments"
+
+#, c-format
+msgid "argument %d matches multiple formal arguments"
+msgstr "argument %d matches multiple formal arguments"
+
+#, c-format
+msgid "unused argument %s"
+msgid_plural "unused arguments %s"
+msgstr[0] "unused argument %s"
+msgstr[1] "unused arguments %s"
+
+msgid "a limit lower than current usage, so ignored"
+msgstr ""
+
+msgid "can only weakly reference/finalize reference objects"
+msgstr "can only weakly reference/finalize reference objects"
+
+msgid "finalizer must be a function or NULL"
+msgstr "finalizer must be a function or NULL"
+
+msgid "not a weak reference"
+msgstr "not a weak reference"
+
+msgid "first argument must be environment or external pointer"
+msgstr "first argument must be environment or external pointer"
+
+msgid "second argument must be a function"
+msgstr "second argument must be a function"
+
+msgid "third argument must be 'TRUE' or 'FALSE'"
+msgstr "third argument must be 'TRUE' or 'FALSE'"
+
+msgid "vector memory exhausted"
+msgstr ""
+
+#, c-format
+msgid "vector memory limit of %0.1f %s reached, see mem.maxVSize()"
+msgstr ""
+
+msgid "cons memory exhausted"
+msgstr ""
+
+#, c-format
+msgid "cons memory limit of %llu nodes reached, see mem.maxNSize()"
+msgstr ""
+
+msgid "memory exhausted"
+msgstr ""
+
+#, c-format
+msgid "cannot allocate memory block of size %0.f %s"
+msgstr "cannot allocate memory block of size %0.f %s"
+
+#, c-format
+msgid "cannot allocate memory block of size %0.1f %s"
+msgstr "cannot allocate memory block of size %0.1f %s"
+
+#, c-format
+msgid "cannot allocate vector of length %lld"
+msgstr "cannot allocate vector of length %lld"
+
+msgid "negative length vectors are not allowed"
+msgstr "negative length vectors are not allowed"
+
+#, c-format
+msgid "invalid type/length (%s/%lld) in vector allocation"
+msgstr ""
+
+#, c-format
+msgid "cannot allocate vector of size %0.1f %s"
+msgstr "cannot allocate vector of size %0.1f %s"
+
+#, c-format
+msgid "cannot allocate vector of size %0.f %s"
+msgstr "cannot allocate vector of size %0.f %s"
+
+#, c-format
+msgid "unprotect(): only %d protected item"
+msgid_plural "unprotect(): only %d protected items"
+msgstr[0] "unprotect(): only %d protected item"
+msgstr[1] "unprotect(): only %d protected items"
+
+msgid "unprotect_ptr: pointer not found"
+msgstr "unprotect_ptr: pointer not found"
+
+#, c-format
+msgid "R_Reprotect: only %d protected item, can't reprotect index %d"
+msgid_plural "R_Reprotect: only %d protected items, can't reprotect index %d"
+msgstr[0] "R_Reprotect: only %d protected item, can't reprotect index %d"
+msgstr[1] "R_Reprotect: only %d protected items, can't reprotect index %d"
+
+#, c-format
+msgid "'R_Calloc' could not allocate memory (%llu of %llu bytes)"
+msgstr ""
+
+#, c-format
+msgid "'R_Realloc' could not re-allocate memory (%llu bytes)"
+msgstr "'R_Realloc' could not re-allocate memory (%llu bytes)"
+
+#, fuzzy, c-format
+msgid "object is too large (%llu bytes)"
+msgstr "vector is too large"
+
+#, c-format
+msgid "%s: argument of type %s is not an external pointer"
+msgstr "%s: argument of type %s is not an external pointer"
+
+#, c-format
+msgid "can't change type from %s to %s"
+msgstr ""
+
+#, c-format
+msgid "can't change the type of an ALTREP object from %s to %s"
+msgstr ""
+
+#, fuzzy
+msgid "can't change the type of a binding cell"
+msgstr "cannot change active binding if binding is locked"
+
+#, c-format
+msgid "SETLENGTH() can only be applied to a standard vector, not a '%s'"
+msgstr "SETLENGTH() can only be applied to a standard vector, not a '%s'"
+
+#, fuzzy, c-format
+msgid "attempt access index %lld/%lld in STRING_ELT"
+msgstr "attempt to set index %lld/%lld in SET_STRING_ELT"
+
+#, fuzzy, c-format
+msgid "attempt access index %lld/%lld in VECTOR_ELT"
+msgstr "attempt to set index %lld/%lld in SET_VECTOR_ELT"
+
+#, c-format
+msgid "attempt to set index %lld/%lld in SET_STRING_ELT"
+msgstr "attempt to set index %lld/%lld in SET_STRING_ELT"
+
+#, c-format
+msgid "attempt to set index %lld/%lld in SET_VECTOR_ELT"
+msgstr "attempt to set index %lld/%lld in SET_VECTOR_ELT"
+
+msgid "bad value"
+msgstr "bad value"
+
+#, c-format
+msgid "%s: argument of type %s is not a closure"
+msgstr "%s: argument of type %s is not a closure"
+
+#, c-format
+msgid "%s: argument of type %s is not a symbol or NULL"
+msgstr ""
+
+#, c-format
+msgid "%s: argument of type %s is not an environment or NULL"
+msgstr "%s: argument of type %s is not an environment or NULL"
+
+#, fuzzy
+msgid "cycles in parent chains are not allowed"
+msgstr "negative length vectors are not allowed"
+
+msgid "memory profiling is not available on this system"
+msgstr "memory profiling is not available on this system"
+
+#, c-format
+msgid "Rprofmem: cannot open output file '%s'"
+msgstr "Rprofmem: cannot open output file '%s'"
+
+#, c-format
+msgid "long vectors not supported yet: %s:%d"
+msgstr "long vectors not supported yet: %s:%d"
+
+#, fuzzy, c-format
+msgid "cannot make a resizable vector of type '%s'"
+msgstr "cannot create a matrix of type '%s'"
+
+msgid "ALTREP objects cannot be made resizable"
+msgstr ""
+
+msgid "cannot make non-vector objects resizable"
+msgstr ""
+
+#, fuzzy
+msgid "invalid negative 'newlen'"
+msgstr "invalid line end"
+
+#, fuzzy
+msgid "not a resizable vector"
+msgstr "not a proper raw vector"
+
+#, fuzzy
+msgid "'newlen' is too large"
+msgstr "vector is too large"
+
+msgid "string argument required"
+msgstr "string argument required"
+
+msgid "no such primitive function"
+msgstr "no such primitive function"
+
+msgid "attempt to use zero-length variable name"
+msgstr "attempt to use zero-length variable name"
+
+#, c-format
+msgid "variable names are limited to %d bytes"
+msgstr "variable names are limited to %d bytes"
+
+msgid "invalid .Internal() argument"
+msgstr "invalid .Internal() argument"
+
+msgid "generic 'function' is not a function"
+msgstr "generic 'function' is not a function"
+
+msgid "bad generic call environment"
+msgstr "bad generic call environment"
+
+msgid "bad generic definition environment"
+msgstr "bad generic definition environment"
+
+msgid "no '.S3MethodsClass' table, cannot use S4 objects with S3 methods ('methods' package not attached?)"
+msgstr "no '.S3MethodsClass' table, cannot use S4 objects with S3 methods ('methods' package not attached?)"
+
+msgid "there must be a 'generic' argument"
+msgstr "there must be a 'generic' argument"
+
+msgid "'generic' argument must be a character string"
+msgstr "'generic' argument must be a character string"
+
+msgid "'UseMethod' used in an inappropriate fashion"
+msgstr "'UseMethod' used in an inappropriate fashion"
+
+#, c-format
+msgid "illegal class of length 0 when using method for '%s'"
+msgstr "illegal class of length 0 when using method for '%s'"
+
+#, c-format
+msgid "no applicable method for '%s' applied to an object of class \"%s\""
+msgstr "no applicable method for '%s' applied to an object of class \"%s\""
+
+msgid "'NextMethod' called from outside a function"
+msgstr "'NextMethod' called from outside a function"
+
+msgid "'NextMethod' called from an anonymous function"
+msgstr "'NextMethod' called from an anonymous function"
+
+msgid "no calling generic was found: was a method called directly?"
+msgstr "no calling generic was found: was a method called directly?"
+
+#, c-format
+msgid "'function' is not a function, but of type %d"
+msgstr "'function' is not a function, but of type %d"
+
+msgid "wrong argument ..."
+msgstr "wrong argument ..."
+
+msgid "object not specified"
+msgstr "object not specified"
+
+msgid "generic function not specified"
+msgstr "generic function not specified"
+
+msgid "invalid generic argument to 'NextMethod'"
+msgstr "invalid generic argument to 'NextMethod'"
+
+msgid "invalid 'group' argument found in 'NextMethod'"
+msgstr "invalid 'group' argument found in 'NextMethod'"
+
+msgid "wrong value for .Method"
+msgstr "wrong value for .Method"
+
+msgid "Incompatible methods ignored"
+msgstr "Incompatible methods ignored"
+
+msgid "no method to invoke"
+msgstr "no method to invoke"
+
+msgid "cannot unclass an environment"
+msgstr "cannot unclass an environment"
+
+msgid "cannot unclass an external pointer"
+msgstr "cannot unclass an external pointer"
+
+msgid "'what' must be a character vector or an object with a nameOfClass() method"
+msgstr "'what' must be a character vector or an object with a nameOfClass() method"
+
+msgid "'which' must be a length 1 logical vector"
+msgstr "'which' must be a length 1 logical vector"
+
+msgid "could not find correct environment; please report!"
+msgstr "could not find correct environment; please report!"
+
+msgid "'onOff' must be TRUE or FALSE"
+msgstr "'onOff' must be TRUE or FALSE"
+
+#, c-format
+msgid "unable to find a non-generic version of function \"%s\""
+msgstr "unable to find a non-generic version of function \"%s\""
+
+msgid "'standardGeneric' called without 'methods' dispatch enabled (will be ignored)"
+msgstr "'standardGeneric' called without 'methods' dispatch enabled (will be ignored)"
+
+msgid "argument to 'standardGeneric' must be a non-empty character string"
+msgstr "argument to 'standardGeneric' must be a non-empty character string"
+
+#, c-format
+msgid "call to standardGeneric(\"%s\") apparently not from the body of that generic function"
+msgstr "call to standardGeneric(\"%s\") apparently not from the body of that generic function"
+
+#, c-format
+msgid "invalid primitive methods code (\"%s\"): should be \"clear\", \"reset\", \"set\", or \"suppress\""
+msgstr "invalid primitive methods code (\"%s\"): should be \"clear\", \"reset\", \"set\", or \"suppress\""
+
+msgid "invalid object: must be a primitive function"
+msgstr "invalid object: must be a primitive function"
+
+#, c-format
+msgid "the formal definition of a primitive generic must be a function object (got type '%s')"
+msgstr "the formal definition of a primitive generic must be a function object (got type '%s')"
+
+#, c-format
+msgid "object returned as generic function \"%s\" does not appear to be one"
+msgstr "object returned as generic function \"%s\" does not appear to be one"
+
+msgid "invalid primitive operation given for dispatch"
+msgstr "invalid primitive operation given for dispatch"
+
+msgid "dispatch error"
+msgstr "dispatch error"
+
+#, c-format
+msgid "primitive function \"%s\" has been set for methods but no generic function supplied"
+msgstr "primitive function \"%s\" has been set for methods but no generic function supplied"
+
+msgid "C level MAKE_CLASS macro called with NULL string pointer"
+msgstr "C level MAKE_CLASS macro called with NULL string pointer"
+
+msgid "'methods' package not yet loaded"
+msgstr "'methods' package not yet loaded"
+
+msgid "R_getClassDef(.) called with NULL string pointer"
+msgstr "R_getClassDef(.) called with NULL string pointer"
+
+msgid "C level NEW macro called with null class definition pointer"
+msgstr "C level NEW macro called with null class definition pointer"
+
+#, c-format
+msgid "trying to generate an object from a virtual class (\"%s\")"
+msgstr "trying to generate an object from a virtual class (\"%s\")"
+
+#, c-format
+msgid "object of class \"%s\" does not correspond to a valid S3 object"
+msgstr "object of class \"%s\" does not correspond to a valid S3 object"
+
+msgid "corrupted options list"
+msgstr "corrupted options list"
+
+#, c-format
+msgid "invalid printing width %d, used 80"
+msgstr "invalid printing width %d, used 80"
+
+msgid "invalid printing width"
+msgstr "invalid printing width"
+
+#, c-format
+msgid "invalid printing digits %d, used 7"
+msgstr "invalid printing digits %d, used 7"
+
+#, c-format
+msgid "invalid printing digits %d"
+msgstr "invalid printing digits %d"
+
+#, fuzzy
+msgid "invalid 'scipen'"
+msgstr "invalid '%s'"
+
+#, fuzzy, c-format
+msgid "setting scipen=%g is out of range"
+msgstr "reference index out of range"
+
+#, fuzzy, c-format
+msgid "invalid 'scipen' %d, used %d"
+msgstr "invalid printing width %d, used 80"
+
+#, fuzzy, c-format
+msgid "invalid 'scipen' %d"
+msgstr "invalid '%s'"
+
+msgid "invalid 'deparse.cutoff', used 60"
+msgstr "invalid 'deparse.cutoff', used 60"
+
+msgid "invalid value for \"device.ask.default\", using FALSE"
+msgstr "invalid value for \"device.ask.default\", using FALSE"
+
+#, c-format
+msgid "invalid value for '%s'"
+msgstr "invalid value for '%s'"
+
+msgid "list argument has no valid names"
+msgstr "list argument has no valid names"
+
+#, c-format
+msgid "option '%s' cannot be deleted"
+msgstr "option '%s' cannot be deleted"
+
+#, c-format
+msgid "invalid '%s' parameter, allowed %d...%d"
+msgstr "invalid '%s' parameter, allowed %d...%d"
+
+#, c-format
+msgid "value for '%s' outside of -1:2 is set to %d\n"
+msgstr "value for '%s' outside of -1:2 is set to %d\n"
+
+msgid "'OutDec' must be a string of one character"
+msgstr "'OutDec' must be a string of one character"
+
+msgid "\"par.ask.default\" has been replaced by \"device.ask.default\""
+msgstr "\"par.ask.default\" has been replaced by \"device.ask.default\""
+
+msgid "OpenMP SIMD is not supported in this build of R"
+msgstr "OpenMP SIMD is not supported in this build of R"
+
+msgid "'PCRE_study' has no effect with PCRE2"
+msgstr "'PCRE_study' has no effect with PCRE2"
+
+#, c-format
+msgid "'%s' is deprecated and will be disabled"
+msgstr "'%s' is deprecated and will be disabled"
+
+msgid "cannot set both options 'quiet' and 'verbose' to TRUE"
+msgstr ""
+
+msgid "invalid argument"
+msgstr "invalid argument"
+
+#, c-format
+msgid "%d argument passed to .Internal(%s) which requires %d"
+msgid_plural "%d arguments passed to .Internal(%s) which requires %d"
+msgstr[0] "%d argument passed to .Internal(%s) which requires %d"
+msgstr[1] "%d arguments passed to .Internal(%s) which requires %d"
+
+msgid "invalid separator"
+msgstr "invalid separator"
+
+#, c-format
+msgid "non-string argument to .Internal(%s)"
+msgstr "non-string argument to .Internal(%s)"
+
+msgid "result would exceed 2^31-1 bytes"
+msgstr "result would exceed 2^31-1 bytes"
+
+msgid "strings with \"bytes\" encoding are not allowed"
+msgstr "strings with \"bytes\" encoding are not allowed"
+
+msgid "first argument must be atomic or environment"
+msgstr "first argument must be atomic or environment"
+
+#, c-format
+msgid "invalid value %d for '%s' argument"
+msgstr "invalid value %d for '%s' argument"
+
+msgid "'decimal.mark' must be a string of one character"
+msgstr "'decimal.mark' must be a string of one character"
+
+msgid "Impossible mode ( x )"
+msgstr "Impossible mode ( x )"
+
+msgid "atomic vector arguments only"
+msgstr "atomic vector arguments only"
+
+msgid "pattern is not a linear gradient"
+msgstr "pattern is not a linear gradient"
+
+msgid "pattern is not a radial gradient"
+msgstr "pattern is not a radial gradient"
+
+msgid "pattern is not a tiling pattern"
+msgstr "pattern is not a tiling pattern"
+
+msgid "invalid filename specification"
+msgstr "invalid filename specification"
+
+msgid "write error during file append"
+msgstr "write error during file append"
+
+msgid "nothing to append to"
+msgstr "nothing to append to"
+
+msgid "invalid filename argument"
+msgstr "invalid filename argument"
+
+#, c-format
+msgid "cannot create file '%s', reason '%s'"
+msgstr "cannot create file '%s', reason '%s'"
+
+msgid "invalid first filename"
+msgstr "invalid first filename"
+
+#, c-format
+msgid "cannot remove file '%s', reason '%s'"
+msgstr "cannot remove file '%s', reason '%s'"
+
+msgid "invalid second filename"
+msgstr "invalid second filename"
+
+msgid "nothing to link"
+msgstr "nothing to link"
+
+#, c-format
+msgid "cannot symlink '%ls' to '%ls', reason '%s'"
+msgstr "cannot symlink '%ls' to '%ls', reason '%s'"
+
+#, c-format
+msgid "cannot symlink '%s' to '%s', reason '%s'"
+msgstr "cannot symlink '%s' to '%s', reason '%s'"
+
+msgid "symbolic links are not supported on this platform"
+msgstr "symbolic links are not supported on this platform"
+
+#, c-format
+msgid "cannot link '%ls' to '%ls', reason '%s'"
+msgstr "cannot link '%ls' to '%ls', reason '%s'"
+
+#, c-format
+msgid "cannot link '%s' to '%s', reason '%s'"
+msgstr "cannot link '%s' to '%s', reason '%s'"
+
+msgid "(hard) links are not supported on this platform"
+msgstr "(hard) links are not supported on this platform"
+
+#, c-format
+msgid "'%s' and '%s' are of different lengths"
+msgstr "'%s' and '%s' are of different lengths"
+
+#, c-format
+msgid "cannot rename file '%ls' to '%ls', reason '%s'"
+msgstr "cannot rename file '%ls' to '%ls', reason '%s'"
+
+msgid "expanded 'from' name too long"
+msgstr "expanded 'from' name too long"
+
+msgid "expanded 'to' name too long"
+msgstr "expanded 'to' name too long"
+
+#, c-format
+msgid "cannot rename file '%s' to '%s', reason '%s'"
+msgstr "cannot rename file '%s' to '%s', reason '%s'"
+
+#, fuzzy, c-format
+msgid "cannot resolve owner of file '%ls': %s"
+msgstr "cannot open file '%ls': %s"
+
+#, c-format
+msgid "error while listing a directory: '%s'"
+msgstr ""
+
+msgid "over-long path"
+msgstr "over-long path"
+
+msgid "invalid 'pattern' regular expression"
+msgstr "invalid 'pattern' regular expression"
+
+msgid "unable to determine R home location"
+msgstr "unable to determine R home location"
+
+msgid "file name too long"
+msgstr "file name too long"
+
+msgid "internal out-of-memory condition"
+msgstr "internal out-of-memory condition"
+
+#, c-format
+msgid "read error on '%s'"
+msgstr "read error on '%s'"
+
+msgid "setting 'LC_NUMERIC' may cause R to function strangely"
+msgstr "setting 'LC_NUMERIC' may cause R to function strangely"
+
+#, c-format
+msgid "%s does not exist on Windows"
+msgstr "%s does not exist on Windows"
+
+#, c-format
+msgid "OS reports request to set locale to \"%s\" cannot be honored"
+msgstr "OS reports request to set locale to \"%s\" cannot be honoured"
+
+#, c-format
+msgid "using locale code page other than %d%s may cause problems"
+msgstr "using locale code page other than %d%s may cause problems"
+
+#, fuzzy
+msgid "zero-length 'path' argument"
+msgstr "zero-length argument"
+
+#, c-format
+msgid "'%s' already exists"
+msgstr "'%s' already exists"
+
+#, c-format
+msgid "cannot create dir '%s', reason '%s'"
+msgstr "cannot create dir '%s', reason '%s'"
+
+#, c-format
+msgid "'%ls' already exists"
+msgstr "'%ls' already exists"
+
+#, c-format
+msgid "cannot create dir '%ls', reason '%s'"
+msgstr "cannot create dir '%ls', reason '%s'"
+
+msgid "too deep nesting"
+msgstr "too deep nesting"
+
+#, c-format
+msgid "cannot overwrite non-directory %ls with directory %ls"
+msgstr "cannot overwrite non-directory %ls with directory %ls"
+
+#, c-format
+msgid "problem creating directory %ls: %s"
+msgstr "problem creating directory %ls: %s"
+
+#, c-format
+msgid "problem reading directory %ls: %s"
+msgstr "problem reading directory %ls: %s"
+
+#, c-format
+msgid "problem copying %ls to %ls: %s"
+msgstr "problem copying %ls to %ls: %s"
+
+#, c-format
+msgid "cannot overwrite non-directory %s with directory %s"
+msgstr "cannot overwrite non-directory %s with directory %s"
+
+#, c-format
+msgid "problem creating directory %s: %s"
+msgstr "problem creating directory %s: %s"
+
+#, c-format
+msgid "problem reading directory %s: %s"
+msgstr "problem reading directory %s: %s"
+
+#, c-format
+msgid "problem copying %s to %s: %s"
+msgstr "problem copying %s to %s: %s"
+
+msgid "'mode' must be of length at least one"
+msgstr "'mode' must be of length at least one"
+
+msgid "insufficient OS support on this platform"
+msgstr "insufficient OS support on this platform"
+
+#, c-format
+msgid "'%s' must be of length at least one"
+msgstr "'%s' must be of length at least one"
+
+#, c-format
+msgid "contour(): circular/long seglist -- set %s > %d?"
+msgstr "contour(): circular/long seglist -- set %s > %d?"
+
+msgid "all z values are equal"
+msgstr "all z values are equal"
+
+msgid "all z values are NA"
+msgstr "all z values are NA"
+
+msgid "invalid math style encountered"
+msgstr "invalid math style encountered"
+
+msgid "invalid mathematical annotation"
+msgstr "invalid mathematical annotation"
+
+msgid "invalid accent"
+msgstr "invalid accent"
+
+msgid "invalid group delimiter"
+msgstr "invalid group delimiter"
+
+msgid "invalid group specification"
+msgstr "invalid group specification"
+
+msgid "group is incomplete"
+msgstr "group is incomplete"
+
+msgid "Metric information not available for this family/device"
+msgstr "Metric information not available for this family/device"
+
+msgid "invalid 'na.print' specification"
+msgstr "invalid 'na.print' specification"
+
+msgid "invalid row labels"
+msgstr "invalid row labels"
+
+msgid "invalid column labels"
+msgstr "invalid column labels"
+
+msgid "'gap' must be non-negative integer"
+msgstr "'gap' must be non-negative integer"
+
+#, c-format
+msgid "'print.gap' must be less than %d"
+msgstr "'print.gap' must be less than %d"
+
+msgid "print buffer overflow"
+msgstr "print buffer overflow"
+
+msgid "invalid character length in 'dblepr'"
+msgstr "invalid character length in 'dblepr'"
+
+msgid "invalid character length in 'intpr'"
+msgstr "invalid character length in 'intpr'"
+
+msgid "invalid character length in 'realpr'"
+msgstr "invalid character length in 'realpr'"
+
+msgid "memory allocation error in 'realpr'"
+msgstr "memory allocation error in 'realpr'"
+
+#, c-format
+msgid "BLAS/LAPACK routine '%6s' gave error code %d"
+msgstr "BLAS/LAPACK routine '%6s' gave error code %d"
+
+msgid "too few row labels"
+msgstr "too few row labels"
+
+msgid "too few column labels"
+msgstr "too few column labels"
+
+#, c-format
+msgid " %d row"
+msgid_plural " %d rows"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid " and"
+msgstr ""
+
+#, c-format
+msgid " %d column"
+msgid_plural " %d columns"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid " %d slice"
+msgid_plural " %d slices"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "the decimal mark is %s than one character wide; this will become an error"
+msgstr ""
+
+#, c-format
+msgid "too large string (nchar=%d) => 5*nchar + 8 > SIZE_MAX"
+msgstr "too large string (nchar=%d) => 5*nchar + 8 > SIZE_MAX"
+
+msgid "it is not known that wchar_t is Unicode on this platform"
+msgstr "it is not known that wchar_t is Unicode on this platform"
+
+msgid "argument is not a numeric vector"
+msgstr "argument is not a numeric vector"
+
+msgid "Character encoding must be UTF-8, Latin-1 or bytes"
+msgstr "Character encoding must be UTF-8, Latin-1 or bytes"
+
+#, c-format
+msgid "argument %d is not a vector"
+msgstr "argument %d is not a vector"
+
+msgid "argument lengths differ"
+msgstr "argument lengths differ"
+
+msgid "length(decreasing) must match the number of order arguments"
+msgstr "length(decreasing) must match the number of order arguments"
+
+msgid "'decreasing' elements must be TRUE or FALSE"
+msgstr "'decreasing' elements must be TRUE or FALSE"
+
+msgid "long vectors not supported"
+msgstr "long vectors not supported"
+
+msgid "invalid arguments"
+msgstr "invalid arguments"
+
+msgid "NAs produced"
+msgstr "NAs produced"
+
+msgid "NA in probability vector"
+msgstr "NA in probability vector"
+
+msgid "negative probability"
+msgstr "negative probability"
+
+msgid "too few positive probabilities"
+msgstr "too few positive probabilities"
+
+msgid "cannot take a sample larger than the population when 'replace = FALSE'"
+msgstr "cannot take a sample larger than the population when 'replace = FALSE'"
+
+msgid "incorrect number of probabilities"
+msgstr "incorrect number of probabilities"
+
+msgid "n >= 2^31, replace = FALSE is only supported on 64-bit platforms"
+msgstr "n >= 2^31, replace = FALSE is only supported on 64-bit platforms"
+
+msgid "argument must be a character vector of length 1"
+msgstr "argument must be a character vector of length 1"
+
+msgid ""
+"argument should be a character vector of length 1\n"
+"all but the first element will be ignored"
+msgstr ""
+"argument should be a character vector of length 1\n"
+"all but the first element will be ignored"
+
+msgid "argument 'x' must be a raw vector"
+msgstr "argument 'x' must be a raw vector"
+
+msgid "argument 'multiple' must be TRUE or FALSE"
+msgstr "argument 'multiple' must be TRUE or FALSE"
+
+msgid "argument 'n' must be a small integer"
+msgstr "argument 'n' must be a small integer"
+
+msgid "argument 'x' must be an integer vector"
+msgstr "argument 'x' must be an integer vector"
+
+msgid "argument 'x' must be raw, integer or logical"
+msgstr "argument 'x' must be raw, integer or logical"
+
+#, c-format
+msgid "argument 'x' must be a multiple of %d long"
+msgstr "argument 'x' must be a multiple of %d long"
+
+msgid "argument 'x' must not contain NAs"
+msgstr "argument 'x' must not contain NAs"
+
+msgid "invalid UTF-8 string"
+msgstr "invalid UTF-8 string"
+
+msgid "argument 'allow_surrogate_pairs' must be TRUE or FALSE"
+msgstr "argument 'allow_surrogate_pairs' must be TRUE or FALSE"
+
+#, fuzzy, c-format
+msgid "comparison (%s) is not possible for language types"
+msgstr "comparison (%s) is possible only for atomic and list types"
+
+#, fuzzy
+msgid "comparing this symbol and string pair is not supported"
+msgstr "comparison of these types is not implemented"
+
+#, fuzzy
+msgid "comparison of call objects is not supported"
+msgstr "comparison of these types is not implemented"
+
+#, fuzzy
+msgid "comparison of language objects is not supported"
+msgstr "comparison of these types is not implemented"
+
+#, c-format
+msgid "comparison (%s) is possible only for atomic and list types"
+msgstr "comparison (%s) is possible only for atomic and list types"
+
+msgid "comparison is not allowed for expressions"
+msgstr "comparison is not allowed for expressions"
+
+msgid "comparison of these types is not implemented"
+msgstr "comparison of these types is not implemented"
+
+msgid "invalid comparison with complex values"
+msgstr "invalid comparison with complex values"
+
+msgid "'a' and 'b' must have the same type"
+msgstr "'a' and 'b' must have the same type"
+
+msgid "read error"
+msgstr "read error"
+
+msgid "a I read error occurred"
+msgstr "an I read error occurred"
+
+msgid "a R read error occurred"
+msgstr "an R read error occurred"
+
+msgid "a C read error occurred"
+msgstr "a C read error occurred"
+
+msgid "a S read error occurred"
+msgstr "an S read error occurred"
+
+msgid "a read error occurred"
+msgstr "a read error occurred"
+
+msgid "unresolved node during restore"
+msgstr "unresolved node during restore"
+
+#, c-format
+msgid "restore compatibility error - no version %d compatibility"
+msgstr "restore compatibility error - no version %d compatibility"
+
+msgid "bad SEXP type in data file"
+msgstr "bad SEXP type in data file"
+
+msgid "mismatch on types"
+msgstr "mismatch on types"
+
+#, c-format
+msgid "unrecognized internal function name \"%s\""
+msgstr "unrecognized internal function name \"%s\""
+
+msgid "cannot save file position while restoring data"
+msgstr "cannot save file position while restoring data"
+
+msgid "cannot restore file position while restoring data"
+msgstr "cannot restore file position while restoring data"
+
+msgid "base namespace is not preserved in version 1 workspaces"
+msgstr "base namespace is not preserved in version 1 workspaces"
+
+msgid "cannot save namespace in version 1 workspaces"
+msgstr "cannot save namespace in version 1 workspaces"
+
+msgid "cannot save environment with locked/active bindings in version 1 workspaces"
+msgstr "cannot save environment with locked/active bindings in version 1 workspaces"
+
+msgid "cannot save weak references in version 1 workspaces"
+msgstr "cannot save weak references in version 1 workspaces"
+
+msgid "NewWriteVec called with non-vector type"
+msgstr "NewWriteVec called with non-vector type"
+
+msgid "cannot save byte code objects in version 1 workspaces"
+msgstr "cannot save byte code objects in version 1 workspaces"
+
+#, c-format
+msgid "NewWriteItem: unknown type %i"
+msgstr "NewWriteItem: unknown type %i"
+
+msgid "NewReadVec called with non-vector type"
+msgstr "NewReadVec called with non-vector type"
+
+msgid "cannot read byte code objects from version 1 workspaces"
+msgstr "cannot read byte code objects from version 1 workspaces"
+
+#, c-format
+msgid "NewReadItem: unknown type %i"
+msgstr "NewReadItem: unknown type %i"
+
+msgid "out of memory reading ascii string"
+msgstr "out of memory reading ascii string"
+
+msgid "a binary read error occurred"
+msgstr "a binary read error occurred"
+
+msgid "out of memory reading binary string"
+msgstr "out of memory reading binary string"
+
+msgid "a binary string read error occurred"
+msgstr "a binary string read error occurred"
+
+msgid "an xdr integer data write error occurred"
+msgstr "an xdr integer data write error occurred"
+
+msgid "an xdr integer data read error occurred"
+msgstr "an xdr integer data read error occurred"
+
+msgid "an xdr string data write error occurred"
+msgstr "an xdr string data write error occurred"
+
+msgid "an xdr real data write error occurred"
+msgstr "an xdr real data write error occurred"
+
+msgid "an xdr real data read error occurred"
+msgstr "an xdr real data read error occurred"
+
+msgid "an xdr complex data write error occurred"
+msgstr "an xdr complex data write error occurred"
+
+msgid "an xdr complex data read error occurred"
+msgstr "an xdr complex data read error occurred"
+
+msgid "write failed"
+msgstr "write failed"
+
+msgid "restore file may be empty -- no data loaded"
+msgstr "restore file may be empty -- no data loaded"
+
+msgid "restore file may be from a newer version of R -- no data loaded"
+msgstr "restore file may be from a newer version of R -- no data loaded"
+
+msgid "bad restore file magic number (file may be corrupted) -- no data loaded"
+msgstr "bad restore file magic number (file may be corrupted) -- no data loaded"
+
+msgid "bad file name"
+msgstr "bad file name"
+
+msgid "unable to open 'file'"
+msgstr "unable to open 'file'"
+
+msgid "'file' must be non-empty string"
+msgstr "'file' must be non-empty string"
+
+msgid "'ascii' must be logical"
+msgstr "'ascii' must be logical"
+
+msgid "first argument must be a character vector"
+msgstr "first argument must be a character vector"
+
+msgid "not a valid named list"
+msgstr "not a valid named list"
+
+#, c-format
+msgid "'%s' looks like a pre-2.4.0 S4 object: please recreate it"
+msgstr "'%s' looks like a pre-2.4.0 S4 object: please recreate it"
+
+msgid "loaded data is not in pair list form"
+msgstr "loaded data is not in pair list form"
+
+msgid "first argument must be a file name"
+msgstr "first argument must be a file name"
+
+msgid "XDR write failed"
+msgstr "XDR write failed"
+
+msgid "XDR read failed"
+msgstr "XDR read failed"
+
+#, c-format
+msgid "cannot save data -- unable to open '%s': %s"
+msgstr "cannot save data -- unable to open '%s': %s"
+
+#, c-format
+msgid "cannot save to connections in version %d format"
+msgstr "cannot save to connections in version %d format"
+
+msgid "connection not open for writing"
+msgstr "connection not open for writing"
+
+msgid "cannot save XDR format to a text-mode connection"
+msgstr "cannot save XDR format to a text-mode connection"
+
+msgid "error writing to connection"
+msgstr "error writing to connection"
+
+msgid "connection not open for reading"
+msgstr "connection not open for reading"
+
+msgid "can only load() from a binary connection"
+msgstr "can only load() from a binary connection"
+
+msgid "no input is available"
+msgstr "no input is available"
+
+msgid "the input does not start with a magic number compatible with loading from a connection"
+msgstr "the input does not start with a magic number compatible with loading from a connection"
+
+msgid "EOF within quoted string"
+msgstr "EOF within quoted string"
+
+#, c-format
+msgid "scan() expected '%s', got '%s'"
+msgstr "scan() expected '%s', got '%s'"
+
+msgid "too many items"
+msgstr "too many items"
+
+msgid "empty 'what' specified"
+msgstr "empty 'what' specified"
+
+#, c-format
+msgid "line %lld did not have %lld elements"
+msgstr "line %lld did not have %lld elements"
+
+msgid "number of items read is not a multiple of the number of columns"
+msgstr "number of items read is not a multiple of the number of columns"
+
+msgid "invalid 'strip.white' length"
+msgstr "invalid 'strip.white' length"
+
+msgid "invalid 'sep' value: must be one byte"
+msgstr "invalid 'sep' value: must be one byte"
+
+msgid "invalid decimal separator: must be one byte"
+msgstr "invalid decimal separator: must be one byte"
+
+msgid "invalid decimal separator"
+msgstr "invalid decimal separator"
+
+msgid "invalid quote symbol set"
+msgstr "invalid quote symbol set"
+
+msgid "embedded nul(s) found in input"
+msgstr "embedded nul(s) found in input"
+
+msgid "unequal factor lengths"
+msgstr "unequal factor lengths"
+
+msgid "result would be too long a vector"
+msgstr "result would be too long a vector"
+
+msgid "argument of length 0"
+msgstr "argument of length 0"
+
+msgid "numerical expression has length > 1"
+msgstr "numerical expression has length > 1"
+
+#, c-format
+msgid "numerical expression has %d elements: only the first used"
+msgstr "numerical expression has %d elements: only the first used"
+
+msgid "NA/NaN argument"
+msgstr "NA/NaN argument"
+
+#, c-format
+msgid "invalid type (%s) for '%s' (must be a vector)"
+msgstr "invalid type (%s) for '%s' (must be a vector)"
+
+#, c-format
+msgid "attempt to replicate an object of type '%s'"
+msgstr "attempt to replicate an object of type '%s'"
+
+msgid "attempt to replicate non-vector"
+msgstr "attempt to replicate non-vector"
+
+msgid "cannot replicate NULL to a non-zero length"
+msgstr "cannot replicate NULL to a non-zero length"
+
+#, c-format
+msgid "first element used of '%s' argument"
+msgstr "first element used of '%s' argument"
+
+#, fuzzy, c-format
+msgid "length(x) * '%s' * '%s' is too large"
+msgstr "length %d is too large for hashing"
+
+#, fuzzy, c-format
+msgid "invalid '%s' argument, given the value of '%s'"
+msgstr "invalid '%s' argument of type '%s'"
+
+#, c-format
+msgid "'%s' must be a finite number"
+msgstr "'%s' must be a finite number"
+
+msgid "'length.out' must be a non-negative number"
+msgstr "'length.out' must be a non-negative number"
+
+#, c-format
+msgid "'%s' must be of length 1"
+msgstr "'%s' must be of length 1"
+
+msgid "invalid '(to - from)/by'"
+msgstr "invalid '(to - from)/by'"
+
+msgid "'by' argument is much too small"
+msgstr "'by' argument is much too small"
+
+msgid "wrong sign in 'by' argument"
+msgstr "wrong sign in 'by' argument"
+
+msgid "argument must be coercible to non-negative integer"
+msgstr "argument must be coercible to non-negative integer"
+
+#, fuzzy
+msgid "'nvec' is not of mode integer"
+msgstr "'by' is not of mode integer"
+
+msgid "'from' is not of mode integer"
+msgstr "'from' is not of mode integer"
+
+msgid "'by' is not of mode integer"
+msgstr "'by' is not of mode integer"
+
+#, c-format
+msgid "'%s' has length 0, but not 'nvec'; 'recycle = TRUE' returns empty here"
+msgstr ""
+
+#, c-format
+msgid "%s -- future R's default 'recycle = TRUE' will recycle 'nvec'"
+msgstr ""
+
+#, fuzzy
+msgid "'nvec' must be a vector of non-negative integers"
+msgstr "'lengths' must be a vector of non-negative integers"
+
+msgid "'from' contains NAs"
+msgstr "'from' contains NAs"
+
+msgid "'by' contains NAs"
+msgstr "'by' contains NAs"
+
+msgid "unknown or inappropriate output format"
+msgstr "unknown or inappropriate output format"
+
+msgid "must specify ascii, binary, or xdr format"
+msgstr "must specify ascii, binary, or xdr format"
+
+msgid "unknown output format"
+msgstr "unknown output format"
+
+msgid "unknown input format"
+msgstr "unknown input format"
+
+msgid "input format does not match specified format"
+msgstr "input format does not match specified format"
+
+msgid "no restore method available"
+msgstr "no restore method available"
+
+msgid "names in persistent strings are currently ignored"
+msgstr "names in persistent strings are currently ignored"
+
+#, c-format
+msgid "'%s' may not be available when loading"
+msgstr "'%s' may not be available when loading"
+
+msgid "namespaces may not be available when loading"
+msgstr "namespaces may not be available when loading"
+
+#, c-format
+msgid "WriteItem: unknown type %i"
+msgstr "WriteItem: unknown type %i"
+
+#, c-format
+msgid "version %d not supported"
+msgstr "version %d not supported"
+
+msgid "reference index out of range"
+msgstr "reference index out of range"
+
+msgid "names in persistent strings are not supported yet"
+msgstr "names in persistent strings are not supported yet"
+
+#, c-format
+msgid "input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8"
+msgstr "input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8"
+
+#, c-format
+msgid "input string '%s' cannot be translated to UTF-8, is it valid in '%s'?"
+msgstr "input string '%s' cannot be translated to UTF-8, is it valid in '%s'?"
+
+#, c-format
+msgid "deserializing invalid UTF-8 string '%s'"
+msgstr "deserialising invalid UTF-8 string '%s'"
+
+msgid "strings not representable in native encoding will not be translated"
+msgstr "strings not representable in native encoding will not be translated"
+
+msgid "strings not representable in native encoding will be translated to UTF-8"
+msgstr "strings not representable in native encoding will be translated to UTF-8"
+
+msgid "negative serialized length for vector"
+msgstr "negative serialised length for vector"
+
+msgid "invalid upper part of serialized vector length"
+msgstr "invalid upper part of serialised vector length"
+
+msgid ""
+"negative serialized vector length:\n"
+"perhaps long vector from 64-bit version of R?"
+msgstr ""
+"negative serialised vector length:\n"
+"perhaps long vector from 64-bit version of R?"
+
+msgid "this version of R cannot read class references"
+msgstr "this version of R cannot read class references"
+
+msgid "this version of R cannot read generic function references"
+msgstr "this version of R cannot read generic function references"
+
+#, c-format
+msgid "ReadItem: unknown type %i, perhaps written by later version of R"
+msgstr "ReadItem: unknown type %i, perhaps written by later version of R"
+
+msgid "invalid length of encoding name"
+msgstr "invalid length of encoding name"
+
+#, c-format
+msgid "cannot read unreleased workspace version %d written by experimental R %d.%d.%d"
+msgstr "cannot read unreleased workspace version %d written by experimental R %d.%d.%d"
+
+#, c-format
+msgid "cannot read workspace version %d written by R %d.%d.%d; need R %d.%d.%d or newer"
+msgstr "cannot read workspace version %d written by R %d.%d.%d; need R %d.%d.%d or newer"
+
+msgid "read failed"
+msgstr "read failed"
+
+msgid "error reading from ascii connection"
+msgstr "error reading from ascii connection"
+
+#, fuzzy, c-format
+msgid "unexpected format in ascii connection '%s'"
+msgstr "unexpected format in ascii connection"
+
+#, fuzzy, c-format
+msgid "error reading from connection '%s'"
+msgstr "error reading from connection"
+
+msgid "only ascii format can be written to text mode connections"
+msgstr "only ascii format can be written to text mode connections"
+
+msgid "only ascii format can be read from text mode connections"
+msgstr "only ascii format can be read from text mode connections"
+
+msgid "bad version value"
+msgstr "bad version value"
+
+#, fuzzy
+msgid "binary-mode connection required for ascii=false"
+msgstr "binary-mode connection required for ascii=FALSE"
+
+msgid "cannot return a promise (PROMSXP) object"
+msgstr ""
+
+msgid "serialization is too large to store in a raw vector"
+msgstr "serialisation is too large to store in a raw vector"
+
+msgid "cannot allocate buffer"
+msgstr "cannot allocate buffer"
+
+msgid "not a proper file name"
+msgstr "not a proper file name"
+
+msgid "not a proper raw vector"
+msgstr "not a proper raw vector"
+
+#, c-format
+msgid "seek failed on %s"
+msgstr "seek failed on %s"
+
+msgid "could not determine file position"
+msgstr "could not determine file position"
+
+msgid "bad offset/length argument"
+msgstr "bad offset/length argument"
+
+#, c-format
+msgid "read failed on %s"
+msgstr "read failed on %s"
+
+msgid "bad environment"
+msgstr "bad environment"
+
+msgid "bad variable names"
+msgstr "bad variable names"
+
+msgid "only atomic vectors can be tested to be sorted"
+msgstr "only atomic vectors can be tested to be sorted"
+
+msgid "'decreasing' must be TRUE or FALSE"
+msgstr "'decreasing' must be TRUE or FALSE"
+
+msgid "only atomic vectors can be sorted"
+msgstr "only atomic vectors can be sorted"
+
+msgid "raw vectors cannot be sorted"
+msgstr "raw vectors cannot be sorted"
+
+msgid "NA or infinite index"
+msgstr "NA or infinite index"
+
+#, fuzzy, c-format
+msgid "'partial' index %lld outside bounds"
+msgstr "index %d outside bounds"
+
+msgid "NA index"
+msgstr "NA index"
+
+#, fuzzy, c-format
+msgid "'partial' index %d outside bounds"
+msgstr "index %d outside bounds"
+
+msgid "invalid ties.method for rank() [should never happen]"
+msgstr "invalid ties.method for rank() [should never happen]"
+
+#, c-format
+msgid "%s in \"%s\""
+msgstr "%s in \"%s\""
+
+#, c-format
+msgid ""
+"%s in:\n"
+"\"%s\n"
+"%s\""
+msgstr ""
+"%s in:\n"
+"\"%s\n"
+"%s\""
+
+msgid "coercion of 'text' to character was unsuccessful"
+msgstr "coercion of 'text' to character was unsuccessful"
+
+msgid "argument encoding=\"latin1\" is ignored in MBCS locales"
+msgstr "argument encoding=\"latin1\" is ignored in MBCS locales"
+
+msgid "argument encoding=\"UTF-8\" is ignored in MBCS locales"
+msgstr "argument encoding=\"UTF-8\" is ignored in MBCS locales"
+
+#, c-format
+msgid "argument '%s = \"%s\"' will be ignored"
+msgstr "argument '%s = \"%s\"' will be ignored"
+
+msgid "factor has bad level"
+msgstr "factor has bad level"
+
+msgid "first argument must be a vector"
+msgstr "first argument must be a vector"
+
+msgid "second argument must be a factor"
+msgstr "second argument must be a factor"
+
+msgid "group length is 0 but data length > 0"
+msgstr "group length is 0 but data length > 0"
+
+msgid "data length is not a multiple of split variable"
+msgstr "data length is not a multiple of split variable"
+
+#, c-format
+msgid "required resulting string length %d is greater than maximal %d"
+msgstr "required resulting string length %d is greater than maximal %d"
+
+msgid "'fmt' is not a character vector"
+msgstr "'fmt' is not a character vector"
+
+#, c-format
+msgid "only %d arguments are allowed"
+msgstr "only %d arguments are allowed"
+
+#, c-format
+msgid "invalid type of argument[%d]: '%s'"
+msgstr "invalid type of argument[%d]: '%s'"
+
+msgid "arguments cannot be recycled to the same length"
+msgstr "arguments cannot be recycled to the same length"
+
+#, c-format
+msgid "'fmt' length exceeds maximal format length %d"
+msgstr "'fmt' length exceeds maximal format length %d"
+
+#, c-format
+msgid "unrecognised format specification '%s'"
+msgstr "unrecognised format specification '%s'"
+
+#, c-format
+msgid "reference to non-existent argument %d"
+msgstr "reference to non-existent argument %d"
+
+msgid "too few arguments"
+msgstr "too few arguments"
+
+msgid "at most one asterisk '*' is supported in each conversion specification"
+msgstr "at most one asterisk '*' is supported in each conversion specification"
+
+msgid "argument for '*' conversion specification must be a number"
+msgstr "argument for '*' conversion specification must be a number"
+
+msgid "coercion has changed vector length to 0"
+msgstr "coercion has changed vector length to 0"
+
+#, c-format
+msgid "invalid format '%s'; %s"
+msgstr "invalid format '%s'; %s"
+
+#, c-format
+msgid "use format %d or %i for logical objects"
+msgstr "use format %d or %i for logical objects"
+
+#, c-format
+msgid "use format %d, %i, %o, %x or %X for integer objects"
+msgstr "use format %d, %i, %o, %x or %X for integer objects"
+
+#, c-format
+msgid "use format %f, %e, %g or %a for numeric objects"
+msgstr "use format %f, %e, %g or %a for numeric objects"
+
+#, c-format
+msgid "use format %s for character objects"
+msgstr "use format %s for character objects"
+
+#, c-format
+msgid "likely truncation of character string to %d characters"
+msgstr "likely truncation of character string to %d characters"
+
+msgid "unsupported type"
+msgstr "unsupported type"
+
+#, c-format
+msgid "one argument not used by format '%s'"
+msgstr "one argument not used by format '%s'"
+
+#, c-format
+msgid "%d arguments not used by format '%s'"
+msgstr "%d arguments not used by format '%s'"
+
+msgid "one argument not used by format"
+msgstr "one argument not used by format"
+
+#, c-format
+msgid "%d arguments not used by format"
+msgstr "%d arguments not used by format"
+
+msgid "R_LibraryFileName: buffer too small"
+msgstr "R_LibraryFileName: buffer too small"
+
+msgid "attempt to enlarge non-vector"
+msgstr "attempt to enlarge non-vector"
+
+#, c-format
+msgid "assignment outside vector/list limits (extending from %lld to %lld)"
+msgstr ""
+
+msgid "bad names attribute"
+msgstr "bad names attribute"
+
+#, c-format
+msgid "incompatible types (from %s to %s) in subassignment type fix"
+msgstr "incompatible types (from %s to %s) in subassignment type fix"
+
+msgid "NAs are not allowed in subscripted assignments"
+msgstr "NAs are not allowed in subscripted assignments"
+
+msgid "replacement has length zero"
+msgstr "replacement has length zero"
+
+msgid "number of items to replace is not a multiple of replacement length"
+msgstr "number of items to replace is not a multiple of replacement length"
+
+msgid "incorrect number of subscripts on matrix"
+msgstr "incorrect number of subscripts on matrix"
+
+#, c-format
+msgid "incompatible types (from %s to %s) in matrix subset assignment"
+msgstr "incompatible types (from %s to %s) in matrix subset assignment"
+
+msgid "incorrect number of subscripts"
+msgstr "incorrect number of subscripts"
+
+#, c-format
+msgid "incompatible types (from %s to %s) in array subset assignment"
+msgstr "incompatible types (from %s to %s) in array subset assignment"
+
+msgid "invalid subscript in list assign"
+msgstr "invalid subscript in list assign"
+
+msgid "invalid number of subscripts to list assign"
+msgstr "invalid number of subscripts to list assign"
+
+msgid "SubAssignArgs: invalid number of arguments"
+msgstr "SubAssignArgs: invalid number of arguments"
+
+msgid "result is zero-length and so cannot be a language object"
+msgstr "result is zero-length and so cannot be a language object"
+
+msgid "[[<- defined for objects of type \"S4\" only for subclasses of environment"
+msgstr "[[<- defined for objects of type \"S4\" only for subclasses of environment"
+
+msgid "improper dimensions"
+msgstr "improper dimensions"
+
+msgid "wrong args for environment subassignment"
+msgstr "wrong args for environment subassignment"
+
+msgid "more elements supplied than there are to replace"
+msgstr "more elements supplied than there are to replace"
+
+msgid "[[ ]] improper number of subscripts"
+msgstr "[[ ]] improper number of subscripts"
+
+#, c-format
+msgid "incompatible types (from %s to %s) in [[ assignment"
+msgstr "incompatible types (from %s to %s) in [[ assignment"
+
+msgid "no method for assigning subsets of this S4 class"
+msgstr "no method for assigning subsets of this S4 class"
+
+msgid "Coercing LHS to a list"
+msgstr "Coercing LHS to a list"
+
+#, c-format
+msgid "attempt to select less than one element in %s"
+msgstr "attempt to select less than one element in %s"
+
+#, c-format
+msgid "attempt to select more than one element in %s"
+msgstr "attempt to select more than one element in %s"
+
+#, c-format
+msgid "invalid subscript type '%s'"
+msgstr "invalid subscript type '%s'"
+
+msgid "internal error in use of recursive indexing"
+msgstr "internal error in use of recursive indexing"
+
+#, c-format
+msgid "invalid negative subscript in %s"
+msgstr "invalid negative subscript in %s"
+
+#, c-format
+msgid "further partial match of '%s' to '%s'"
+msgstr "further partial match of '%s' to '%s'"
+
+#, c-format
+msgid "recursive indexing failed at level %d\n"
+msgstr "recursive indexing failed at level %d\n"
+
+#, c-format
+msgid "no such index at level %d\n"
+msgstr "no such index at level %d\n"
+
+msgid "incorrect number of columns in matrix subscript"
+msgstr "incorrect number of columns in matrix subscript"
+
+msgid "negative values are not allowed in a matrix subscript"
+msgstr "negative values are not allowed in a matrix subscript"
+
+msgid "no 'dimnames' attribute for array"
+msgstr "no 'dimnames' attribute for array"
+
+#, c-format
+msgid "%d x %d character matrix subscript illegal for NULL dimnames"
+msgstr "%d x %d character matrix subscript illegal for NULL dimnames"
+
+#, c-format
+msgid "subscripting by character matrix of %d columns does not match length(dimnames(x)) == %d"
+msgstr "subscripting by character matrix of %d columns does not match length(dimnames(x)) == %d"
+
+msgid "(subscript) logical subscript too long"
+msgstr "(subscript) logical subscript too long"
+
+msgid "only 0's may be mixed with negative subscripts"
+msgstr "only 0's may be mixed with negative subscripts"
+
+msgid "subscript too large for 32-bit R"
+msgstr "subscript too large for 32-bit R"
+
+msgid "subscripting on non-vector"
+msgstr "subscripting on non-vector"
+
+msgid "dimensions would exceed maximum size of array"
+msgstr "dimensions would exceed maximum size of array"
+
+msgid "matrix subscripting not handled for this type"
+msgstr "matrix subscripting not handled for this type"
+
+msgid "array subscripting not handled for this type"
+msgstr "array subscripting not handled for this type"
+
+msgid "incorrect number of dimensions"
+msgstr "incorrect number of dimensions"
+
+msgid "no index specified"
+msgstr "no index specified"
+
+#, c-format
+msgid "this %s class is not subsettable"
+msgstr "this %s class is not subsettable"
+
+msgid "wrong arguments for subsetting an environment"
+msgstr "wrong arguments for subsetting an environment"
+
+msgid "invalid subscript length"
+msgstr "invalid subscript length"
+
+#, c-format
+msgid "invalid 'type' (%s) of argument"
+msgstr "invalid 'type' (%s) of argument"
+
+msgid "integer overflow - use sum(as.numeric(.))"
+msgstr "integer overflow - use sum(as.numeric(.))"
+
+#, c-format
+msgid "internal error ('op = %d' in do_summary).\t Call a Guru"
+msgstr "internal error ('op = %d' in do_summary).\t Call a Guru"
+
+msgid "Integer overflow - use sum(as.numeric(.))"
+msgstr "Integer overflow - use sum(as.numeric(.))"
+
+msgid "no non-missing arguments, returning NA"
+msgstr "no non-missing arguments, returning NA"
+
+msgid "no non-missing arguments to min; returning Inf"
+msgstr "no non-missing arguments to min; returning Inf"
+
+msgid "no non-missing arguments to max; returning -Inf"
+msgstr "no non-missing arguments to max; returning -Inf"
+
+msgid "argument to 'which' is not logical"
+msgstr "argument to 'which' is not logical"
+
+msgid "no arguments"
+msgstr "no arguments"
+
+msgid "invalid input type"
+msgstr "invalid input type"
+
+msgid "an argument will be fractionally recycled"
+msgstr "an argument will be fractionally recycled"
+
+#, c-format
+msgid "cannot determine file modification time of '%s'"
+msgstr "cannot determine file modification time of '%s'"
+
+msgid "encoding of a filename cannot be 'bytes'"
+msgstr "encoding of a filename cannot be 'bytes'"
+
+#, c-format
+msgid "unsupported conversion from '%s' in codepage %d"
+msgstr "unsupported conversion from '%s' in codepage %d"
+
+msgid "file name conversion problem -- name too long?"
+msgstr "file name conversion problem -- name too long?"
+
+msgid "file name conversion problem"
+msgstr "file name conversion problem"
+
+msgid "invalid filename pattern"
+msgstr "invalid filename pattern"
+
+msgid "invalid file extension"
+msgstr "invalid file extension"
+
+msgid "no 'pattern'"
+msgstr "no 'pattern'"
+
+msgid "no 'tempdir'"
+msgstr "no 'tempdir'"
+
+msgid "no 'fileext'"
+msgstr "no 'fileext'"
+
+#, c-format
+msgid "system call failed: %s"
+msgstr "system call failed: %s"
+
+msgid "wrong type for argument"
+msgstr "wrong type for argument"
+
+msgid "'Sys.setenv' is not available on this system"
+msgstr "'Sys.setenv' is not available on this system"
+
+msgid "this system cannot unset environment variables: setting to \"\""
+msgstr "this system cannot unset environment variables: setting to \"\""
+
+msgid "'Sys.unsetenv' is not available on this system"
+msgstr "'Sys.unsetenv' is not available on this system"
+
+msgid "'x' must be a character vector"
+msgstr "'x' must be a character vector"
+
+msgid "'x' must be a character vector or a list of NULL or raw vectors"
+msgstr "'x' must be a character vector or a list of NULL or raw vectors"
+
+#, c-format
+msgid "unsupported conversion from '%s' to '%s' in codepage %d"
+msgstr "unsupported conversion from '%s' to '%s' in codepage %d"
+
+#, c-format
+msgid "'%s' must be called on a CHARSXP, but got '%s'"
+msgstr "'%s' must be called on a CHARSXP, but got '%s'"
+
+msgid "translating strings with \"bytes\" encoding is not allowed"
+msgstr "translating strings with \"bytes\" encoding is not allowed"
+
+msgid "internal error: no translation needed"
+msgstr "internal error: no translation needed"
+
+#, c-format
+msgid "unable to translate '%s' to native encoding"
+msgstr "unable to translate '%s' to native encoding"
+
+#, c-format
+msgid "unable to translate '%s' to UTF-8"
+msgstr "unable to translate '%s' to UTF-8"
+
+#, c-format
+msgid "unsupported conversion to '%s' from codepage %d"
+msgstr "unsupported conversion to '%s' from codepage %d"
+
+#, c-format
+msgid "unable to translate '%s' to a wide string"
+msgstr "unable to translate '%s' to a wide string"
+
+#, c-format
+msgid "invalid Unicode point %u"
+msgstr "invalid Unicode point %u"
+
+msgid "'R_USER' not set"
+msgstr "'R_USER' not set"
+
+msgid "cannot allocate 'R_TempDir'"
+msgstr "cannot allocate 'R_TempDir'"
+
+msgid "'R_TempDir' contains space"
+msgstr "'R_TempDir' contains space"
+
+msgid "cannot create 'R_TempDir'"
+msgstr "cannot create 'R_TempDir'"
+
+msgid "unable to set R_SESSION_TMPDIR"
+msgstr "unable to set R_SESSION_TMPDIR"
+
+msgid "temporary name too long"
+msgstr "temporary name too long"
+
+msgid "allocation failed in R_tmpnam2"
+msgstr "allocation failed in R_tmpnam2"
+
+msgid "cannot find unused tempfile name"
+msgstr "cannot find unused tempfile name"
+
+msgid "'dirmark = TRUE' is not supported on this platform"
+msgstr "'dirmark = TRUE' is not supported on this platform"
+
+#, c-format
+msgid "length %lld is too large for hashing"
+msgstr ""
+
+#, c-format
+msgid "length %d is too large for hashing"
+msgstr "length %d is too large for hashing"
+
+msgid "'duplicated' applies only to vectors"
+msgstr "'duplicated' applies only to vectors"
+
+msgid "any_duplicated3(., <0-length incomp>)"
+msgstr "any_duplicated3(., <0-length incomp>)"
+
+msgid "'fromLast' must be length 1"
+msgstr "'fromLast' must be length 1"
+
+msgid "'fromLast' must be TRUE or FALSE"
+msgstr "'fromLast' must be TRUE or FALSE"
+
+#, c-format
+msgid "%s() applies only to vectors"
+msgstr "%s() applies only to vectors"
+
+msgid "'nmax' must be positive"
+msgstr "'nmax' must be positive"
+
+msgid "'match' requires vector arguments"
+msgstr "'match' requires vector arguments"
+
+msgid "argument is not of mode character"
+msgstr "argument is not of mode character"
+
+msgid "... used in a situation where it does not exist"
+msgstr "... used in a situation where it does not exist"
+
+msgid "... is not a pairlist"
+msgstr "... is not a pairlist"
+
+msgid "non-numeric data frame in rowsum"
+msgstr "non-numeric data frame in rowsum"
+
+msgid "this cannot happen"
+msgstr "this cannot happen"
+
+msgid "'names' must be a character vector"
+msgstr "'names' must be a character vector"
+
+msgid "object is not a matrix"
+msgstr "object is not a matrix"
+
+#, c-format
+msgid "type %d is unimplemented in '%s'"
+msgstr "type %d is unimplemented in '%s'"
+
+#, c-format
+msgid "unimplemented type '%s' in '%s'\n"
+msgstr "unimplemented type '%s' in '%s'\n"
+
+#, c-format
+msgid "unimplemented type (%d) in '%s'\n"
+msgstr "unimplemented type (%d) in '%s'\n"
+
+msgid "invalid tag in name extraction"
+msgstr "invalid tag in name extraction"
+
+#, c-format
+msgid "%d argument passed to '%s' which requires %d"
+msgid_plural "%d arguments passed to '%s' which requires %d"
+msgstr[0] "%d argument passed to '%s' which requires %d"
+msgstr[1] "%d arguments passed to '%s' which requires %d"
+
+#, c-format
+msgid "supplied argument name '%s' does not match '%s'"
+msgstr "supplied argument name '%s' does not match '%s'"
+
+#, c-format
+msgid "'nthcdr' list shorter than %d"
+msgstr "'nthcdr' list shorter than %d"
+
+msgid "'nthcdr' needs a list to CDR down"
+msgstr "'nthcdr' needs a list to CDR down"
+
+msgid "'all.x' must be TRUE or FALSE"
+msgstr "'all.x' must be TRUE or FALSE"
+
+msgid "'all.y' must be TRUE or FALSE"
+msgstr "'all.y' must be TRUE or FALSE"
+
+msgid "number of rows in the result exceeds maximum vector length"
+msgstr "number of rows in the result exceeds maximum vector length"
+
+msgid "missing value is invalid"
+msgstr "missing value is invalid"
+
+msgid "cannot change working directory"
+msgstr "cannot change working directory"
+
+msgid "a character vector argument expected"
+msgstr "a character vector argument expected"
+
+msgid "only the first character of 'quote' will be used"
+msgstr "only the first character of 'quote' will be used"
+
+msgid "a character vector 'value' expected"
+msgstr "a character vector 'value' expected"
+
+msgid "'value' must be of positive length"
+msgstr "'value' must be of positive length"
+
+#, c-format
+msgid "invalid input '%s' in 'utf8towcs'"
+msgstr "invalid input '%s' in 'utf8towcs'"
+
+#, c-format
+msgid "invalid input '%s' in 'utf8towcs32'"
+msgstr "invalid input '%s' in 'utf8towcs32'"
+
+#, c-format
+msgid "invalid multibyte string at '%s'"
+msgstr "invalid multibyte string at '%s'"
+
+msgid "error message truncated to 255 chars"
+msgstr "error message truncated to 255 chars"
+
+msgid "warning message truncated to 255 chars"
+msgstr "warning message truncated to 255 chars"
+
+msgid "Conversion failed"
+msgstr "Conversion failed"
+
+#, c-format
+msgid "accuracy loss in conversion from \"%s\" to numeric"
+msgstr "accuracy loss in conversion from \"%s\" to numeric"
+
+msgid "all arguments must be named"
+msgstr "all arguments must be named"
+
+msgid "ICU is not supported on this build"
+msgstr "ICU is not supported on this build"
+
+msgid "'breaks' is not sorted"
+msgstr "'breaks' is not sorted"
+
+#, c-format
+msgid "long vector '%s' is not supported"
+msgstr "long vector '%s' is not supported"
+
+msgid "'eps.correct' must be 0, 1, or 2"
+msgstr "'eps.correct' must be 0, 1, or 2"
+
+msgid "'bounds' must be TRUE or FALSE"
+msgstr "'bounds' must be TRUE or FALSE"
+
+msgid "'x' must be a vector"
+msgstr "'x' must be a vector"
+
+msgid ""
+"R is free software and comes with ABSOLUTELY NO WARRANTY.\n"
+"You are welcome to redistribute it under certain conditions.\n"
+"Type 'license()' or 'licence()' for distribution details.\n"
+"\n"
+msgstr ""
+"R is free software and comes with ABSOLUTELY NO WARRANTY.\n"
+"You are welcome to redistribute it under certain conditions.\n"
+"Type 'license()' or 'licence()' for distribution details.\n"
+"\n"
+
+msgid ""
+"R is a collaborative project with many contributors.\n"
+"Type 'contributors()' for more information and\n"
+"'citation()' on how to cite R or R packages in publications.\n"
+"\n"
+msgstr ""
+"R is a collaborative project with many contributors.\n"
+"Type 'contributors()' for more information and\n"
+"'citation()' on how to cite R or R packages in publications.\n"
+"\n"
+
+msgid ""
+"Type 'demo()' for some demos, 'help()' for on-line help, or\n"
+"'help.start()' for an HTML browser interface to help.\n"
+"Type 'q()' to quit R.\n"
+"\n"
+msgstr ""
+"Type 'demo()' for some demos, 'help()' for on-line help, or\n"
+"'help.start()' for an HTML browser interface to help.\n"
+"Type 'q()' to quit R.\n"
+"\n"
+
+#, c-format
+msgid "add_point - reached MAXNUMPTS (%d)"
+msgstr "add_point - reached MAXNUMPTS (%d)"
+
+msgid "insufficient memory to allocate point array"
+msgstr "insufficient memory to allocate point array"
+
+msgid "there must be at least two control points"
+msgstr "there must be at least two control points"
+
+msgid "there must be at least four control points"
+msgstr "there must be at least four control points"
+
+msgid "There must be at least three control points"
+msgstr "There must be at least three control points"
+
+#, c-format
+msgid "X11 protocol error: %s"
+msgstr "X11 protocol error: %s"
+
+msgid "cannot set grayscale: reverting to monochrome"
+msgstr "cannot set greyscale: reverting to monochrome"
+
+msgid ""
+"X11 driver unable to obtain color cube\n"
+"  reverting to monochrome"
+msgstr ""
+"X11 driver unable to obtain colour cube\n"
+"  reverting to monochrome"
+
+msgid ""
+"Error: X11 cannot allocate additional graphics colors.\n"
+"Consider using X11 with colortype=\"pseudo.cube\" or \"gray\"."
+msgstr ""
+"Error: X11 cannot allocate additional graphics colours.\n"
+"Consider using X11 with colortype=\"pseudo.cube\" or \"gray\"."
+
+msgid ""
+"could not find any X11 fonts\n"
+"Check that the Font Path is correct."
+msgstr ""
+"could not find any X11 fonts\n"
+"Check that the Font Path is correct."
+
+#, c-format
+msgid "X11 used font size %d when %d was requested"
+msgstr "X11 used font size %d when %d was requested"
+
+#, c-format
+msgid "X11 font %s, face %d at size %d could not be loaded"
+msgstr "X11 font %s, face %d at size %d could not be loaded"
+
+msgid "semi-transparency is not supported on this device: reported only once per page"
+msgstr "semi-transparency is not supported on this device: reported only once per page"
+
+#, c-format
+msgid "X11 I/O error while opening X11 connection to '%s'"
+msgstr "X11 I/O error while opening X11 connection to '%s'"
+
+msgid "X11 fatal IO error: please save work and shut down R"
+msgstr "X11 fatal IO error: please save work and shut down R"
+
+msgid "locale not supported by Xlib: some X ops will operate in C locale"
+msgstr "locale not supported by Xlib: some X ops will operate in C locale"
+
+msgid "X cannot set locale modifiers"
+msgstr "X cannot set locale modifiers"
+
+msgid "no png support in this version of R"
+msgstr "no png support in this version of R"
+
+msgid "filename too long in png() call"
+msgstr "filename too long in png() call"
+
+#, c-format
+msgid "could not open PNG file '%s'"
+msgstr "could not open PNG file '%s'"
+
+msgid "no jpeg support in this version of R"
+msgstr "no jpeg support in this version of R"
+
+msgid "filename too long in jpeg() call"
+msgstr "filename too long in jpeg() call"
+
+#, c-format
+msgid "could not open JPEG file '%s'"
+msgstr "could not open JPEG file '%s'"
+
+msgid "no tiff support in this version of R"
+msgstr "no tiff support in this version of R"
+
+msgid "filename too long in tiff() call"
+msgstr "filename too long in tiff() call"
+
+msgid "filename too long in bmp() call"
+msgstr "filename too long in bmp() call"
+
+#, c-format
+msgid "could not open BMP file '%s'"
+msgstr "could not open BMP file '%s'"
+
+#, c-format
+msgid "unable to open connection to X11 display '%s'"
+msgstr "unable to open connection to X11 display '%s'"
+
+msgid "ignoring 'display' argument as an X11 device is already open"
+msgstr "ignoring 'display' argument as an X11 device is already open"
+
+msgid "cairo-based types may only work correctly on TrueColor visuals"
+msgstr "cairo-based types may only work correctly on TrueColor visuals"
+
+msgid "jpeg() does not support transparency: using white bg"
+msgstr "jpeg() does not support transparency: using white bg"
+
+#, c-format
+msgid "unable to obtain information on display '%s'"
+msgstr "unable to obtain information on display '%s'"
+
+msgid "unable to create X11 window"
+msgstr "unable to create X11 window"
+
+#, c-format
+msgid "'width=%d, height=%d' are unlikely values in pixels"
+msgstr "'width=%d, height=%d' are unlikely values in pixels"
+
+msgid "unable to create pixmap"
+msgstr "unable to create pixmap"
+
+msgid "invalid font specification"
+msgstr "invalid font specification"
+
+msgid "font family not found in X11 font database"
+msgstr "font family not found in X11 font database"
+
+#, c-format
+msgid "invalid use of %d < 0 in '%s'"
+msgstr "invalid use of %d < 0 in '%s'"
+
+#, c-format
+msgid "could not open file '%s'"
+msgstr "could not open file '%s'"
+
+#, c-format
+msgid "%s not available for this device"
+msgstr "%s not available for this device"
+
+msgid "Unable to create XImage"
+msgstr "Unable to create XImage"
+
+msgid "attempt to use the locator after dev.hold()"
+msgstr "attempt to use the locator after dev.hold()"
+
+#, c-format
+msgid "unable to start device %s"
+msgstr "unable to start device %s"
+
+msgid "invalid 'width' or 'height'"
+msgstr "invalid 'width' or 'height'"
+
+msgid "invalid colortype passed to X11 driver"
+msgstr "invalid 'colortype' passed to X11 driver"
+
+msgid "unknown X11 color/colour model -- using monochrome"
+msgstr "unknown X11 colour model -- using monochrome"
+
+msgid "no plot on device to save"
+msgstr "no plot on device to save"
+
+msgid "not an open X11cairo device"
+msgstr "not an open X11cairo device"
+
+#, c-format
+msgid "cannot open file '%s'"
+msgstr "cannot open file '%s'"
+
+msgid "savePlot() is not supported on this build"
+msgstr "savePlot() is not supported on this build"
+
+msgid "unable to contact X11 display"
+msgstr "unable to contact X11 display"
+
+#, c-format
+msgid "clipboard cannot be read (error code %d)"
+msgstr "clipboard cannot be read (error code %d)"
+
+msgid "cannot allocate memory for X11Routines structure"
+msgstr "cannot allocate memory for X11Routines structure"
+
+msgid "the 'wininet' method of url() is deprecated for http:// and https:// URLs"
+msgstr "the 'wininet' method of url() is deprecated for http:// and https:// URLs"
+
+msgid "the 'wininet' method of url() is deprecated for ftp:// URLs"
+msgstr "the 'wininet' method of url() is deprecated for ftp:// URLs"
+
+#, c-format
+msgid "scheme not supported in URL '%s'"
+msgstr "scheme not supported in URL '%s'"
+
+msgid "allocation of url connection failed"
+msgstr "allocation of url connection failed"
+
+msgid "only first element of 'url' argument used"
+msgstr "only first element of 'url' argument used"
+
+msgid "only first element of 'destfile' argument used"
+msgstr "only first element of 'destfile' argument used"
+
+msgid "Download progress"
+msgstr "Download progress"
+
+#, c-format
+msgid "cannot open URL '%s', reason '%s'"
+msgstr "cannot open URL '%s', reason '%s'"
+
+#, c-format
+msgid "cannot open destfile '%s', reason '%s'"
+msgstr "cannot open destfile '%s', reason '%s'"
+
+msgid "the 'internal' method for http:// URLs is defunct"
+msgstr "the 'internal' method for http:// URLs is defunct"
+
+msgid "the 'wininet' method is deprecated for http:// and https:// URLs"
+msgstr "the 'wininet' method is deprecated for http:// and https:// URLs"
+
+#, c-format
+msgid "trying URL '%s'\n"
+msgstr "trying URL '%s'\n"
+
+#, c-format
+msgid "downloaded length %0.f != reported length %0.f"
+msgstr "downloaded length %0.f != reported length %0.f"
+
+#, c-format
+msgid "cannot open URL '%s'"
+msgstr "cannot open URL '%s'"
+
+msgid "the 'wininet' method for ftp:// URLs is defunct"
+msgstr "the 'wininet' method for ftp:// URLs is defunct"
+
+msgid "the 'internal' method for ftp:// URLs is defunct"
+msgstr "the 'internal' method for ftp:// URLs is defunct"
+
+#, c-format
+msgid "InternetOpenUrl failed: '%s'"
+msgstr "InternetOpenUrl failed: '%s'"
+
+#, c-format
+msgid "cannot open URL '%s': %s status was '%lu %s'"
+msgstr ""
+
+#, c-format
+msgid "cannot open URL '%s': %s status was '%ld %s'"
+msgstr ""
+
+#, c-format
+msgid "URL '%s': Timeout of %d seconds was reached"
+msgstr "URL '%s': Timeout of %d seconds was reached"
+
+#, c-format
+msgid "URL '%s': status was '%s'"
+msgstr "URL '%s': status was '%s'"
+
+msgid "curlGetHeaders is not supported on this platform"
+msgstr "curlGetHeaders is not supported on this platform"
+
+#, fuzzy
+msgid "could not create curl handle"
+msgstr "could not allocate space for DLL table"
+
+#, c-format
+msgid ""
+"libcurl error code %d:\n"
+"\t%s\n"
+msgstr ""
+"libcurl error code %d:\n"
+"\t%s\n"
+
+#, c-format
+msgid "URL %s: cannot open destfile '%s', reason '%s'"
+msgstr "URL %s: cannot open destfile '%s', reason '%s'"
+
+msgid "download.file(method = \"libcurl\") is not supported on this platform"
+msgstr "download.file(method = \"libcurl\") is not supported on this platform"
+
+msgid "lengths of 'url' and 'destfile' must match"
+msgstr "lengths of 'url' and 'destfile' must match"
+
+msgid "out of memory"
+msgstr "out of memory"
+
+msgid "cannot download any files"
+msgstr "cannot download any files"
+
+msgid "some files were not downloaded"
+msgstr "some files were not downloaded"
+
+#, c-format
+msgid "download from '%s' failed"
+msgstr "download from '%s' failed"
+
+msgid "cannot read from connection"
+msgstr "cannot read from connection"
+
+#, c-format
+msgid "cannot open the connection to '%s'"
+msgstr "cannot open the connection to '%s'"
+
+msgid "url(method = \"libcurl\") is not supported on this platform"
+msgstr "url(method = \"libcurl\") is not supported on this platform"
+
+msgid "allocation of socket connection failed"
+msgstr "allocation of socket connection failed"
+
+msgid "allocation of server socket connection failed"
+msgstr "allocation of server socket connection failed"
+
+#, c-format
+msgid "creation of server socket failed: port %d cannot be opened"
+msgstr "creation of server socket failed: port %d cannot be opened"
+
+#, c-format
+msgid "argument type[1]='%s' must be a character string of string length 1"
+msgstr "argument type[1]='%s' must be a character string of string length 1"
+
+#, c-format
+msgid "argument type[1]='%s' must be one of 'M','1','O','I','F' or 'E'"
+msgstr "argument type[1]='%s' must be one of 'M','1','O','I','F' or 'E'"
+
+#, c-format
+msgid "argument type[1]='%s' must be one of '1','O', or 'I'"
+msgstr "argument type[1]='%s' must be one of '1','O', or 'I'"
+
+#, c-format
+msgid "argument type[1]='%s' must be 'U' or 'L'"
+msgstr ""
+
+#, c-format
+msgid "error code %d from Lapack routine '%s'"
+msgstr "error code %d from Lapack routine '%s'"
+
+msgid "'x' must be a square numeric matrix"
+msgstr "'x' must be a square numeric matrix"
+
+#, c-format
+msgid "'%s' must be a numeric matrix"
+msgstr "'%s' must be a numeric matrix"
+
+#, c-format
+msgid "exact singularity: U[%d,%d] = 0 in LU-decomposition {Lapack 'dgetrf()'}"
+msgstr "exact singularity: U[%d,%d] = 0 in LU-decomposition {Lapack 'dgetrf()'}"
+
+msgid "'A' must be a *square* matrix"
+msgstr "'A' must be a *square* matrix"
+
+#, c-format
+msgid "error [%d] from Lapack 'dtrcon()'"
+msgstr ""
+
+#, c-format
+msgid "'%s' must be a complex matrix"
+msgstr "'%s' must be a complex matrix"
+
+msgid "Fortran complex functions are not available on this platform"
+msgstr "Fortran complex functions are not available on this platform"
+
+#, c-format
+msgid "error [%d] from Lapack 'ztrcon()'"
+msgstr ""
+
+msgid "'a' is 0-diml"
+msgstr "'a' is 0-diml"
+
+#, c-format
+msgid "'a' (%d x %d) must be square"
+msgstr "'a' (%d x %d) must be square"
+
+msgid "no right-hand side in 'b'"
+msgstr "no right-hand side in 'b'"
+
+#, c-format
+msgid "'b' (%d x %d) must be compatible with 'a' (%d x %d)"
+msgstr "'b' (%d x %d) must be compatible with 'a' (%d x %d)"
+
+#, c-format
+msgid "argument %d of Lapack routine %s had invalid value"
+msgstr "argument %d of Lapack routine %s had invalid value"
+
+#, c-format
+msgid "Lapack routine %s: system is exactly singular: U[%d,%d] = 0"
+msgstr "Lapack routine %s: system is exactly singular: U[%d,%d] = 0"
+
+#, c-format
+msgid "system is computationally singular: reciprocal condition number = %g"
+msgstr "system is computationally singular: reciprocal condition number = %g"
+
+#, c-format
+msgid "right-hand side should have %d not %d rows"
+msgstr "right-hand side should have %d not %d rows"
+
+msgid "matrices of 2^31 or more elements are not supported"
+msgstr "matrices of 2^31 or more elements are not supported"
+
+msgid "'x' must be a square complex matrix"
+msgstr "'x' must be a square complex matrix"
+
+msgid "'a' must be a square matrix"
+msgstr "'a' must be a square matrix"
+
+msgid "'a' must have dims > 0"
+msgstr "'a' must have dims > 0"
+
+#, c-format
+msgid "the leading minor of order %d is not positive"
+msgstr "the leading minor of order %d is not positive"
+
+msgid "the matrix is either rank-deficient or not positive definite"
+msgstr "the matrix is either rank-deficient or not positive definite"
+
+msgid "'size' argument must be a positive integer"
+msgstr "'size' argument must be a positive integer"
+
+#, c-format
+msgid "'size' cannot exceed ncol(x) = %d"
+msgstr "'size' cannot exceed ncol(x) = %d"
+
+#, c-format
+msgid "'size' cannot exceed nrow(x) = %d"
+msgstr "'size' cannot exceed nrow(x) = %d"
+
+#, c-format
+msgid "element (%d, %d) is zero, so the inverse cannot be computed"
+msgstr "element (%d, %d) is zero, so the inverse cannot be computed"
+
+msgid "argument 'logarithm' must be logical"
+msgstr "argument 'logarithm' must be logical"
+
+msgid "bessel_i allocation error"
+msgstr "bessel_i allocation error"
+
+#, c-format
+msgid "bessel_i(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+msgstr "bessel_i(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+
+#, c-format
+msgid "bessel_i(%g,nu=%g): precision lost in result\n"
+msgstr "bessel_i(%g,nu=%g): precision lost in result\n"
+
+#, c-format
+msgid "besselJ(x, nu): nu=%g too large for bessel_j() algorithm"
+msgstr "besselJ(x, nu): nu=%g too large for bessel_j() algorithm"
+
+msgid "bessel_j allocation error"
+msgstr "bessel_j allocation error"
+
+#, c-format
+msgid "bessel_j(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+msgstr "bessel_j(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+
+#, c-format
+msgid "bessel_j(%g,nu=%g): precision lost in result\n"
+msgstr "bessel_j(%g,nu=%g): precision lost in result\n"
+
+#, fuzzy, c-format
+msgid "besselJ(x, nu): nu=%g > 1e7; too large for bessel_j() algorithm"
+msgstr "besselJ(x, nu): nu=%g too large for bessel_j() algorithm"
+
+msgid "bessel_k allocation error"
+msgstr "bessel_k allocation error"
+
+#, c-format
+msgid "bessel_k(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+msgstr "bessel_k(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+
+#, c-format
+msgid "bessel_k(%g,nu=%g): precision lost in result\n"
+msgstr "bessel_k(%g,nu=%g): precision lost in result\n"
+
+#, c-format
+msgid "besselY(x, nu): nu=%g too large for bessel_y() algorithm"
+msgstr "besselY(x, nu): nu=%g too large for bessel_y() algorithm"
+
+msgid "bessel_y allocation error"
+msgstr "bessel_y allocation error"
+
+#, c-format
+msgid "bessel_y(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+msgstr "bessel_y(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+
+#, c-format
+msgid "bessel_y(%g,nu=%g): precision lost in result\n"
+msgstr "bessel_y(%g,nu=%g): precision lost in result\n"
+
+#, c-format
+msgid "'k' (%.2f) must be integer, rounded to %.0f"
+msgstr "'k' (%.2f) must be integer, rounded to %.0f"
+
+#, c-format
+msgid "non-integer x = %f"
+msgstr "non-integer x = %f"
+
+#, c-format
+msgid "argument out of domain in '%s'\n"
+msgstr "argument out of domain in '%s'\n"
+
+#, c-format
+msgid "value out of range in '%s'\n"
+msgstr "value out of range in '%s'\n"
+
+#, c-format
+msgid "convergence failed in '%s'\n"
+msgstr "convergence failed in '%s'\n"
+
+#, c-format
+msgid "full precision may not have been achieved in '%s'\n"
+msgstr "full precision may not have been achieved in '%s'\n"
+
+#, c-format
+msgid "underflow occurred in '%s'\n"
+msgstr "underflow occurred in '%s'\n"
+
+#, c-format
+msgid "pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() gave error code %d"
+msgstr "pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() gave error code %d"
+
+#, c-format
+msgid "non-integer n = %f"
+msgstr "non-integer n = %f"
+
+#, c-format
+msgid "pnbinom_mu() -> bratio() gave error code %d"
+msgstr "pnbinom_mu() -> bratio() gave error code %d"
+
+#, c-format
+msgid "pnchisq(x=%g, f=%g, theta=%g, ..): not converged in %d iter."
+msgstr "pnchisq(x=%g, f=%g, theta=%g, ..): not converged in %d iter."
+
+#, c-format
+msgid "deriv = %d > %d (= n_max)\n"
+msgstr "deriv = %d > %d (= n_max)\n"
+
+#, c-format
+msgid "rbinom: probability sum should be 1, but is %g"
+msgstr "rbinom: probability sum should be 1, but is %g"
+
+msgid "signrank allocation error"
+msgstr "signrank allocation error"
+
+#, c-format
+msgid "norm_rand(): invalid N01_kind: %d\n"
+msgstr "norm_rand(): invalid N01_kind: %d\n"
+
+#, c-format
+msgid "wilcox allocation error %d"
+msgstr "wilcox allocation error %d"
+
+msgid "X11 module is not available under this GUI"
+msgstr "X11 module is not available under this GUI"
+
+msgid "X11 routines cannot be accessed in module"
+msgstr "X11 routines cannot be accessed in module"
+
+msgid "X11 module cannot be loaded"
+msgstr "X11 module cannot be loaded"
+
+msgid "X11 is not available"
+msgstr "X11 is not available"
+
+msgid "Explicit local dynamic loading not supported on this platform. Using default."
+msgstr "Explicit local dynamic loading not supported on this platform. Using default."
+
+msgid "Explicit global dynamic loading not supported on this platform. Using default."
+msgstr "Explicit global dynamic loading not supported on this platform. Using default."
+
+msgid "Explicit non-lazy dynamic loading not supported on this platform. Using default."
+msgstr "Explicit non-lazy dynamic loading not supported on this platform. Using default."
+
+msgid "Explicit lazy dynamic loading not supported on this platform. Using default."
+msgstr "Explicit lazy dynamic loading not supported on this platform. Using default."
+
+msgid "cannot get working directory!"
+msgstr "cannot get working directory!"
+
+#, c-format
+msgid ""
+"expanded path length %lld would be too long for\n"
+"%s\n"
+msgstr ""
+
+msgid "An unusual circumstance has arisen in the nesting of readline input. Please report using bug.report()"
+msgstr "An unusual circumstance has arisen in the nesting of readline input. Please report using bug.report()"
+
+#, c-format
+msgid "problem in saving the history file '%s'"
+msgstr "problem in saving the history file '%s'"
+
+#, c-format
+msgid ""
+"Cannot open file '%s': %s\n"
+"\n"
+msgstr ""
+"Cannot open file '%s': %s\n"
+"\n"
+
+msgid "error in running command"
+msgstr "error in running command"
+
+msgid "'file' argument is too long"
+msgstr "'file' argument is too long"
+
+msgid "no history mechanism available"
+msgstr "no history mechanism available"
+
+msgid "problem in truncating the history file"
+msgstr "problem in truncating the history file"
+
+msgid "no history available to save"
+msgstr "no history available to save"
+
+msgid "invalid timestamp"
+msgstr "invalid timestamp"
+
+#, c-format
+msgid "running command '%s' had status %d and error message '%s'"
+msgstr "running command '%s' had status %d and error message '%s'"
+
+msgid "non-empty character argument expected"
+msgstr "non-empty character argument expected"
+
+msgid "'intern' must be logical and not NA"
+msgstr "'intern' must be logical and not NA"
+
+msgid "'receive.console.signals' must be logical and not NA"
+msgstr "'receive.console.signals' must be logical and not NA"
+
+#, c-format
+msgid "cannot popen '%s', probable reason '%s'"
+msgstr "cannot popen '%s', probable reason '%s'"
+
+#, c-format
+msgid "line %d may be truncated in call to system(, intern = TRUE)"
+msgstr "line %d may be truncated in call to system(, intern = TRUE)"
+
+#, c-format
+msgid "error in running command: '%s'"
+msgstr "error in running command: '%s'"
+
+msgid "Sys.info() is not implemented on this system"
+msgstr "Sys.info() is not implemented on this system"
+
+#, c-format
+msgid "WARNING: --gui or -g without value ignored"
+msgstr "WARNING: --gui or -g without value ignored"
+
+#, c-format
+msgid "WARNING: unknown gui '%s', using X11\n"
+msgstr "WARNING: unknown gui '%s', using X11\n"
+
+#, c-format
+msgid "WARNING: unknown gui '%s', using none\n"
+msgstr "WARNING: unknown gui '%s', using none\n"
+
+#, c-format
+msgid "path given in -f/--file is too long"
+msgstr "path given in -f/--file is too long"
+
+msgid "creating temporary file for '-e' failed"
+msgstr "creating temporary file for '-e' failed"
+
+msgid "WARNING: Only editing the first in the list of files"
+msgstr "WARNING: Only editing the first in the list of files"

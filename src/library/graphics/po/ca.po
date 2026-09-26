@@ -1,0 +1,441 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The R Core Team
+# This file is distributed under the same license as the R package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 4.4.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-04-25 10:48-0700\n"
+"PO-Revision-Date: 2024-03-18 06:08+0000\n"
+"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"Language-Team: none\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
+
+msgid "no base graphics system is registered"
+msgstr "no hi ha cap sistema gràfic base registrat"
+
+msgid "Incompatible graphics state"
+msgstr "Estat dels gràfics incompatible"
+
+msgid "the base graphics system is not registered"
+msgstr "el sistema de gràfics base no està registrat"
+
+#, c-format
+msgid "bad units specified in '%s'"
+msgstr "unitats incorrectes especificades a «%s»"
+
+msgid "attempt to plot on null device"
+msgstr "s'ha intentat dibuixar en un dispositiu nul"
+
+msgid "outer margins too large (figure region too small)"
+msgstr "marges exteriors massa grans (regió de la figura massa petita)"
+
+msgid "figure region too large"
+msgstr "la regió de la figura és massa gran"
+
+msgid "figure margins too large"
+msgstr "marges de la figura massa grans"
+
+msgid "plot region too large"
+msgstr "la regió del gràfic és massa gran"
+
+#, c-format
+msgid "nonfinite axis=%d limits [GScale(%g,%g,..); log=%s] -- corrected now"
+msgstr "límits no finits de l'eix=%d [GScale(%g,%g,..); log=%s] -- corregit ara"
+
+#, c-format
+msgid "axis style \"%c\" unimplemented"
+msgstr "l'estil d'eix «%c» no està implementat"
+
+msgid "no graphics device is active"
+msgstr "no hi ha cap dispositiu gràfic actiu"
+
+msgid "plot.new has not been called yet"
+msgstr "«plot.new» encara no s'ha cridat"
+
+msgid "invalid graphics state"
+msgstr "l'estat dels gràfics no és vàlid"
+
+msgid "graphics device closed during call to locator or identify"
+msgstr "dispositiu gràfic tancat durant la crida al localitzador o a identificador"
+
+msgid "No graphics device is active"
+msgstr "No hi ha cap dispositiu gràfic actiu"
+
+msgid "zero-length arrow is of indeterminate angle and so skipped"
+msgstr "la fletxa de longitud zero és d'angle indeterminat i per això s'omet"
+
+#, c-format
+msgid "invalid par(\"bty\") = '%c'; no box() drawn"
+msgstr "par(\"bty\") = «%c» no vàlid; no s'ha dibuixat cap «box()»"
+
+msgid "invalid argument to GBox"
+msgstr "argument no vàlid per a GBox"
+
+msgid "metric information not available for this device"
+msgstr "la informació mètrica no està disponible per a aquest dispositiu"
+
+msgid "graphical parameter 'family' has a maximum length of 200 bytes"
+msgstr "l'argument gràfic «family» té una longitud màxima de 200 bytes"
+
+#, c-format
+msgid "invalid value specified for graphical parameter \"%s\""
+msgstr "s'ha especificat un valor no vàlid per a l'argument gràfic «%s»"
+
+#, c-format
+msgid "graphical parameter \"%s\" has the wrong length"
+msgstr "l'argument gràfic «%s» té una longitud incorrecta"
+
+#, c-format
+msgid "graphical parameter \"%s\" cannot be set"
+msgstr "no es pot establir l'argument gràfic «%s»"
+
+msgid "parameter \"mfg\" has the wrong length"
+msgstr "l'argument «mfg» té una longitud incorrecta"
+
+msgid "parameter \"i\" in \"mfg\" is out of range"
+msgstr "l'argument «i» a «mfg» està fora de rang"
+
+msgid "parameter \"j\" in \"mfg\" is out of range"
+msgstr "l'argument «j» a «mfg» està fora de rang"
+
+msgid "value of 'nr' in \"mfg\" is wrong and will be ignored"
+msgstr "el valor de «nr» a «mfg» és incorrecte i s'ignorarà"
+
+msgid "value of 'nc' in \"mfg\" is wrong and will be ignored"
+msgstr "el valor de «nc» a «mfg» és incorrecte i s'ignorarà"
+
+msgid "calling par(new=TRUE) with no plot"
+msgstr "cridant par(new=TRUE) sense cap gràfic"
+
+#, c-format
+msgid "graphical parameter \"%s\" is obsolete"
+msgstr "l'argument gràfic «%s» és obsolet"
+
+#, c-format
+msgid "\"%s\" is not a graphical parameter"
+msgstr "«%s» no és un argument gràfic"
+
+#, c-format
+msgid "argument %d does not name a graphical parameter"
+msgstr "l'argument %d no anomena un paràmetre gràfic"
+
+msgid "invalid argument passed to par()"
+msgstr "s'ha passat un argument no vàlid a par()"
+
+#, c-format
+msgid "too many rows in layout, limit %d"
+msgstr "hi ha massa files a la disposició, límit %d"
+
+#, c-format
+msgid "too many columns in layout, limit %d"
+msgstr "hi ha massa columnes a la disposició, límit %d"
+
+#, c-format
+msgid "too many cells in layout, limit %d"
+msgstr "hi ha massa cel·les a la disposició, límit %d"
+
+msgid "invalid color specification"
+msgstr "especificació de color no vàlida"
+
+msgid "only NA allowed in logical plotting symbol"
+msgstr "només el NA està permès en un símbol gràfic de tipus lògic"
+
+msgid "invalid plotting symbol"
+msgstr "el símbol gràfic no és vàlid"
+
+msgid "invalid font specification"
+msgstr "especificació de tipus de lletra no vàlida"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "el valor «%s» no és vàlid"
+
+#, c-format
+msgid "invalid 'vfont' value [typeface %d]"
+msgstr "el valor «vfont» no és vàlid [typeface %d]"
+
+#, c-format
+msgid "invalid 'vfont' value [typeface = %d, fontindex = %d]"
+msgstr "el valor «vfont» no és vàlid [typeface = %d, fontindex = %d]"
+
+msgid "invalid graphics parameter"
+msgstr "argument gràfic no vàlid"
+
+msgid "at least 3 arguments required"
+msgstr "es requereixen almenys 3 arguments"
+
+msgid "\"log=\" specification must be character"
+msgstr "l'especificació «log=» ha de ser de tipus caràcter"
+
+#, c-format
+msgid "invalid \"log=%s\" specification"
+msgstr "especificació «log=%s» no vàlida"
+
+msgid "NAs not allowed in 'xlim'"
+msgstr "No es permeten els NAs a «xlim»"
+
+msgid "need finite 'xlim' values"
+msgstr "es necessiten valors «xlim» finits"
+
+msgid "NAs not allowed in 'ylim'"
+msgstr "els NAs no estan permesos a «ylim»"
+
+msgid "need finite 'ylim' values"
+msgstr "es necessiten valors «ylim» finits"
+
+msgid "Logarithmic axis must have positive limits"
+msgstr "L'eix logarítmic ha de tenir límits positius"
+
+msgid "invalid type for axis labels"
+msgstr "tipus no vàlid per a les etiquetes dels eixos"
+
+msgid "too few arguments"
+msgstr "massa pocs arguments"
+
+#, c-format
+msgid "invalid axis number %d"
+msgstr "el número d'eix %d no és vàlid"
+
+msgid "'hadj' must be of length one"
+msgstr "«hadj» ha de ser de longitud 1"
+
+#, c-format
+msgid "zero-length '%s' specified"
+msgstr "s'ha especificat «%s» de longitud zero"
+
+msgid "'gap.axis' must be of length one"
+msgstr "«gap.axis» ha de ser de longitud 1"
+
+msgid "'gap.axis' must be NA or a finite number"
+msgstr "'gap.axis' ha de ser NA o un nombre finit"
+
+msgid "'labels' is supplied and not 'at'"
+msgstr "s'ha proporcionat «labels» i no «at»"
+
+#, c-format
+msgid "'at' and 'labels' lengths differ, %d != %d"
+msgstr "les longituds d'«at» i de «labels» difereixen, %d != %d"
+
+msgid "no locations are finite"
+msgstr "cap ubicació és finita"
+
+msgid "invalid plotting structure"
+msgstr "estructura de gràfic no vàlida"
+
+#, c-format
+msgid "'x' and 'y' lengths differ in %s()"
+msgstr "les longituds d'«x» i d'«y» difereixen en %s()"
+
+#, c-format
+msgid "invalid plot type '%c'"
+msgstr "el tipus de gràfic «%c» no és vàlid"
+
+msgid "invalid first argument"
+msgstr "el primer argument no és vàlid"
+
+msgid "invalid second argument"
+msgstr "segon argument no vàlid"
+
+msgid "invalid third argument"
+msgstr "tercer argument no vàlid"
+
+msgid "invalid fourth argument"
+msgstr "quart argument no vàlid"
+
+msgid "cannot mix zero-length and non-zero-length coordinates"
+msgstr "no es poden barrejar coordenades de longitud zero i de longitud diferent de zero"
+
+msgid "Empty raster"
+msgstr "Ràster buit"
+
+msgid "invalid arrow head length"
+msgstr "la longitud del cap de la fletxa no és vàlida"
+
+msgid "invalid arrow head angle"
+msgstr "l'angle del cap de fletxa no és vàlid"
+
+msgid "invalid arrow head specification"
+msgstr "especificació del cap de la fletxa no vàlida"
+
+msgid "no coordinates were supplied"
+msgstr "no s'han proporcionat coordenades"
+
+msgid "invalid a=, b= specification"
+msgstr "especificació a=, b= no vàlida"
+
+msgid "'a' and 'b' must be finite"
+msgstr "«a» i «b» han de ser finits"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "argument «%s» no vàlid"
+
+#, c-format
+msgid "invalid number of points in %s"
+msgstr "el nombre de punts a %s no és vàlid"
+
+msgid "invalid plot type"
+msgstr "tipus de gràfic no vàlid"
+
+msgid "incorrect argument type"
+msgstr "tipus d'argument incorrecte"
+
+msgid "different argument lengths"
+msgstr "longituds d'arguments diferents"
+
+msgid "more 'labels' than points"
+msgstr "més «labels» que punts"
+
+#, c-format
+msgid "warning: no point within %.2f inches\n"
+msgstr "avís: no hi ha cap punt dins de %.2f polzades\n"
+
+msgid "warning: nearest point already identified\n"
+msgstr "avís: el punt més proper ja s'ha identificat\n"
+
+msgid "invalid units"
+msgstr "unitats no vàlides"
+
+msgid "invalid dendrogram input"
+msgstr "l'entrada del dendrogram no és vàlida"
+
+msgid "invalid symbol parameter vector"
+msgstr "el vector d'arguments de símbol no és vàlid"
+
+msgid "invalid symbol coordinates"
+msgstr "coordenades de símbol no vàlides"
+
+msgid "x/y/parameter length mismatch"
+msgstr "la longitud d'x/y/argument no coincideix"
+
+msgid "invalid circles data"
+msgstr "dades no vàlides per als cercles"
+
+msgid "invalid symbol parameter"
+msgstr "argument de símbol no vàlid"
+
+msgid "invalid squares data"
+msgstr "dades no vàlides per als quadrats"
+
+msgid "invalid rectangles data (need 2 columns)"
+msgstr "dades no vàlides per als rectangles (calen 2 columnes)"
+
+msgid "invalid stars data"
+msgstr "dades no vàlides per les estrelles"
+
+msgid "invalid thermometers data (need 3 or 4 columns)"
+msgstr "dades no vàlides per als termòmetres (calen 3 o 4 columnes)"
+
+#, c-format
+msgid "invalid 'thermometers[, %s]'"
+msgstr "«thermometers[, %s]» no vàlid"
+
+#, c-format
+msgid "'thermometers[, %s]' not in [0,1] -- may look funny"
+msgstr "'thermometers[, %s]' no és entre [0,1] -- pot semblar divertit"
+
+msgid "invalid 'thermometers[, 1:2]'"
+msgstr "«thermometers[, 1:2]» no vàlid"
+
+msgid "invalid 'boxplots' data (need 5 columns)"
+msgstr "dades «boxplots» no vàlides (es necessiten 5 columnes)"
+
+msgid "'boxplots[, 5]' outside [0,1] -- may look funny"
+msgstr "«boxplots[, 5]» fora de [0,1] -- pot semblar divertit"
+
+msgid "invalid 'boxplots[, 1:4]'"
+msgstr "«boxplots[, 1:4]» no vàlid"
+
+msgid "invalid symbol type"
+msgstr "tipus de símbol no vàlid"
+
+#, c-format
+msgid "incorrect length for '%s' argument"
+msgstr "longitud incorrecta per a l'argument «%s»"
+
+msgid "insufficient 'x' or 'y' values"
+msgstr "valors «x» o «y» insuficients"
+
+msgid "dimension mismatch"
+msgstr "les dimension no coincideixen"
+
+msgid "no contour values"
+msgstr "sense valors de contorn"
+
+msgid "invalid x / y values or limits"
+msgstr "valors o límits x / y no vàlids"
+
+msgid "invalid contour levels: must be strictly increasing"
+msgstr "nivells de contorn no vàlids: han de ser estrictament creixents"
+
+msgid "Axis orientation not calculated"
+msgstr "Orientació dels eixos no calculada"
+
+msgid "too few parameters"
+msgstr "massa pocs arguments"
+
+msgid "invalid 'x' limits"
+msgstr "límits d'«x» no vàlids"
+
+msgid "invalid 'y' limits"
+msgstr "límits d'«y» no vàlids"
+
+msgid "invalid 'z' limits"
+msgstr "límits de «z» no vàlids"
+
+msgid "'xlab' must be a character vector of length 1"
+msgstr "«xlab» ha de ser un vector de caràcters de longitud 1"
+
+msgid "'ylab' must be a character vector of length 1"
+msgstr "«ylab» ha de ser un vector de caràcters de longitud 1"
+
+msgid "'zlab' must be a character vector of length 1"
+msgstr "«zlab» ha de ser un vector de caràcters de longitud 1"
+
+msgid "invalid viewing parameters"
+msgstr "arguments de visualització no vàlids"
+
+#, c-format
+msgid "invalid '%s' specification"
+msgstr "especificació «%s» no vàlida"
+
+#, c-format
+msgid "contour(): circular/long seglist -- set %s > %d?"
+msgstr "contour(): circular/long seglist -- establiu %s > %d?"
+
+msgid "no 'levels'"
+msgstr "sense «levels»"
+
+msgid "missing 'x' values"
+msgstr "manquen valors d'«x»"
+
+msgid "increasing 'x' values expected"
+msgstr "s'esperen valors «x» creixents"
+
+msgid "missing 'y' values"
+msgstr "manquen els valors d'«y»"
+
+msgid "increasing 'y' values expected"
+msgstr "s'esperaven valors d'«y» creixents"
+
+#, c-format
+msgid "non-finite level values: levels[%d] = %g"
+msgstr "valors de nivell no finits: levels[%d] = %g"
+
+msgid "all z values are equal"
+msgstr "tots els valors z són iguals"
+
+msgid "all z values are NA"
+msgstr "tots els valors z són NA"
+
+#, c-format
+msgid "long vector '%s' is not supported"
+msgstr "el vector llarg «%s» no està suportat"

@@ -1,0 +1,443 @@
+# Spanish translations for R package.
+# Copyright (C) 2007-2023 The R Foundation
+# This file is distributed under the same license as the R package.
+# Pablo E. Verde <pabloemilio.verde@uni-duesseldorf.de>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 4.4.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-04-25 10:48-0700\n"
+"PO-Revision-Date: 2023-04-22 22:09+0200\n"
+"Last-Translator: Patricia loto <patricia.andrea.loto@gmail.com>\n"
+"Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 4.13.1\n"
+"X-Poedit-Language: Spanish\n"
+
+msgid "no base graphics system is registered"
+msgstr "no hay ningún sistema gráfico base registrado"
+
+msgid "Incompatible graphics state"
+msgstr "estado de gráficos incompatibles"
+
+msgid "the base graphics system is not registered"
+msgstr "no hay ningún sistema gráfico base registrado"
+
+#, c-format
+msgid "bad units specified in '%s'"
+msgstr "unidades no válidas especificadas en '%s'"
+
+msgid "attempt to plot on null device"
+msgstr "tentativa de gráficar en un dispositivo nulo"
+
+msgid "outer margins too large (figure region too small)"
+msgstr "márgenes externos demasiado grandes (región de la figura demasiado pequeña)"
+
+msgid "figure region too large"
+msgstr "región para figura muy grande"
+
+msgid "figure margins too large"
+msgstr "márgenes de figura muy grandes"
+
+msgid "plot region too large"
+msgstr "región del gráfico muy grande"
+
+#, c-format
+msgid "nonfinite axis=%d limits [GScale(%g,%g,..); log=%s] -- corrected now"
+msgstr "límites de ejes=%d no finitos [GScale(%g,%g,..); log=%s] -- corregido ahora"
+
+#, c-format
+msgid "axis style \"%c\" unimplemented"
+msgstr "estilo de ejes \"%c\" ignorado"
+
+msgid "no graphics device is active"
+msgstr "Ningún dispositivo gráfico está activo"
+
+msgid "plot.new has not been called yet"
+msgstr "plot.new no ha sido llamado aún"
+
+msgid "invalid graphics state"
+msgstr "estado gráfico no válido"
+
+msgid "graphics device closed during call to locator or identify"
+msgstr "gráfico cerrado durante la llamada al localizador o identificador"
+
+msgid "No graphics device is active"
+msgstr "Ningún dispositivo gráfico está activo"
+
+msgid "zero-length arrow is of indeterminate angle and so skipped"
+msgstr "vector de argumento cero tiene un ángulo indeterminado y se saltea"
+
+#, c-format
+msgid "invalid par(\"bty\") = '%c'; no box() drawn"
+msgstr "parámetro no válido par(\"bty\") = '%c'; no box() desechado"
+
+msgid "invalid argument to GBox"
+msgstr "argumento no válido para GBox"
+
+msgid "metric information not available for this device"
+msgstr "Información de métrica no disponible para este dispositivo"
+
+msgid "graphical parameter 'family' has a maximum length of 200 bytes"
+msgstr "la familia de parámetros gráficos tiene un tamaño máximo de 200 bytes"
+
+#, c-format
+msgid "invalid value specified for graphical parameter \"%s\""
+msgstr "el valor especificado para el parámetro del gráfico \"%s\" no es válido"
+
+#, c-format
+msgid "graphical parameter \"%s\" has the wrong length"
+msgstr "el parámetro del gráfico \"%s\" tiene longitud incorrecta"
+
+#, c-format
+msgid "graphical parameter \"%s\" cannot be set"
+msgstr "no se puede establecer el parámetro gráfico \"%s\""
+
+msgid "parameter \"mfg\" has the wrong length"
+msgstr "el parámetro \"mfg\" tiene longitud incorrecta"
+
+msgid "parameter \"i\" in \"mfg\" is out of range"
+msgstr "el parámetro \"i\" en \"mfg\" está fuera de rango"
+
+msgid "parameter \"j\" in \"mfg\" is out of range"
+msgstr "el parámetro \"j\" en \"mfg\" está fuera de rango"
+
+msgid "value of 'nr' in \"mfg\" is wrong and will be ignored"
+msgstr "el valor de 'nr' en \"mfg\" es incorrecto y será ignorado"
+
+msgid "value of 'nc' in \"mfg\" is wrong and will be ignored"
+msgstr "el valor de 'nc' en \"mfg\" es incorrecto y será ignorado"
+
+msgid "calling par(new=TRUE) with no plot"
+msgstr "llamada par(new=TRUE) sin gráfico"
+
+#, c-format
+msgid "graphical parameter \"%s\" is obsolete"
+msgstr "el parámetro gráfico \"%s\" es obsoleto"
+
+#, c-format
+msgid "\"%s\" is not a graphical parameter"
+msgstr "\"%s\" es un parámetro gráfico no válido"
+
+#, c-format
+msgid "argument %d does not name a graphical parameter"
+msgstr "argumento %d no nombra a un parámetro gráfico"
+
+msgid "invalid argument passed to par()"
+msgstr "el parámetro pasado a par() no es válido"
+
+#, c-format
+msgid "too many rows in layout, limit %d"
+msgstr "muchas filas en la disposición de salida, el límite es %d"
+
+#, c-format
+msgid "too many columns in layout, limit %d"
+msgstr "muchas columnas en la disposición de salida, límite %d"
+
+#, c-format
+msgid "too many cells in layout, limit %d"
+msgstr "muchas celdas en la disposición de salida, límite %d"
+
+msgid "invalid color specification"
+msgstr "Especificación de color no válida"
+
+msgid "only NA allowed in logical plotting symbol"
+msgstr "solamente NA pertimido como símbolo de gráfico lógico"
+
+msgid "invalid plotting symbol"
+msgstr "símbolo de gráfico no válido"
+
+msgid "invalid font specification"
+msgstr "especificación de fuente no válida"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "valor de '%s' no válido"
+
+#, c-format
+msgid "invalid 'vfont' value [typeface %d]"
+msgstr "valor de 'vfont' no válido [typeface %d]]"
+
+#, c-format
+msgid "invalid 'vfont' value [typeface = %d, fontindex = %d]"
+msgstr "valor de 'vfont' no válido [typeface = %d, fontindex = %d]"
+
+msgid "invalid graphics parameter"
+msgstr "parámetro gráfico no válido"
+
+msgid "at least 3 arguments required"
+msgstr "se necesitan al menos tres argumentos"
+
+msgid "\"log=\" specification must be character"
+msgstr "especificación de \"log=\" debe ser un carácter"
+
+#, c-format
+msgid "invalid \"log=%s\" specification"
+msgstr "especificación de \"log=%s\" no válida"
+
+msgid "NAs not allowed in 'xlim'"
+msgstr "NAs no permitidos en 'xlim'"
+
+msgid "need finite 'xlim' values"
+msgstr "se necesitan valores finitos de 'xlim'"
+
+msgid "NAs not allowed in 'ylim'"
+msgstr "NAs no permitidos en 'ylim'"
+
+msgid "need finite 'ylim' values"
+msgstr "se necesitan valores finitos de 'ylim'"
+
+msgid "Logarithmic axis must have positive limits"
+msgstr "Ejes logarítmicos deben tener limites positivos"
+
+msgid "invalid type for axis labels"
+msgstr "tipo no válido para rótulos de ejes"
+
+msgid "too few arguments"
+msgstr "muy pocos argumentos"
+
+#, c-format
+msgid "invalid axis number %d"
+msgstr "número de ejes no válido %d"
+
+msgid "'hadj' must be of length one"
+msgstr "'hadj' debe tener longitud 1"
+
+#, c-format
+msgid "zero-length '%s' specified"
+msgstr "el ' '%s' de longitud cero fue especificado"
+
+msgid "'gap.axis' must be of length one"
+msgstr "'gap.axis' debe tener longitud 1"
+
+msgid "'gap.axis' must be NA or a finite number"
+msgstr "'gap.axis' debe ser un NA o un número finito"
+
+msgid "'labels' is supplied and not 'at'"
+msgstr "se da 'labels' y no se especifica en 'at'"
+
+#, c-format
+msgid "'at' and 'labels' lengths differ, %d != %d"
+msgstr "longitud de 'at' y 'labels' difieren, %d != %d"
+
+msgid "no locations are finite"
+msgstr "ninguna localización es finita"
+
+msgid "invalid plotting structure"
+msgstr "estructura de gráfico no válida"
+
+#, c-format
+msgid "'x' and 'y' lengths differ in %s()"
+msgstr "longitudes de 'x' e 'y' difieren en %s()"
+
+#, c-format
+msgid "invalid plot type '%c'"
+msgstr "tipo de gráfico no válido '%c'"
+
+msgid "invalid first argument"
+msgstr "primer argumento no válido"
+
+msgid "invalid second argument"
+msgstr "segundo argumento no válido"
+
+msgid "invalid third argument"
+msgstr "tercer argumento no válido"
+
+msgid "invalid fourth argument"
+msgstr "cuarto argumento no válido"
+
+msgid "cannot mix zero-length and non-zero-length coordinates"
+msgstr "no se pueden mezclar coordenadas de longitud cero con otras"
+
+msgid "Empty raster"
+msgstr "ráster vacío"
+
+msgid "invalid arrow head length"
+msgstr "longitud de flecha no válido"
+
+msgid "invalid arrow head angle"
+msgstr "ángulo de flecha no válido"
+
+msgid "invalid arrow head specification"
+msgstr "punta de flecha no válida"
+
+msgid "no coordinates were supplied"
+msgstr "no se especificó ninguna coordenada"
+
+msgid "invalid a=, b= specification"
+msgstr "especificación a=, b= no válida"
+
+msgid "'a' and 'b' must be finite"
+msgstr "'a' y 'b' deben ser finitos"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "argumento '%s' no válido"
+
+#, c-format
+msgid "invalid number of points in %s"
+msgstr "número de puntos no válido en %s"
+
+msgid "invalid plot type"
+msgstr "tipo de gráfico no válido"
+
+msgid "incorrect argument type"
+msgstr "tipo de argumento incorrecto"
+
+msgid "different argument lengths"
+msgstr "argumentos de longitudes diferentes"
+
+msgid "more 'labels' than points"
+msgstr "más 'labels' que puntos"
+
+#, c-format
+msgid "warning: no point within %.2f inches\n"
+msgstr "aviso: no hay ningún punto dentro de %.2f pulgadas\n"
+
+msgid "warning: nearest point already identified\n"
+msgstr "aviso: punto más próximo ya identificado\n"
+
+msgid "invalid units"
+msgstr "unidades no válidas"
+
+msgid "invalid dendrogram input"
+msgstr "entrada del dendograma no válida"
+
+msgid "invalid symbol parameter vector"
+msgstr "vector de parámetros de símbolos no válido"
+
+msgid "invalid symbol coordinates"
+msgstr "coordenadas de símbolos no válidas"
+
+msgid "x/y/parameter length mismatch"
+msgstr "longitud de los parámetros x/y no compatíbles"
+
+msgid "invalid circles data"
+msgstr "datos circulares no válidos"
+
+msgid "invalid symbol parameter"
+msgstr "parámetro de símbolo no válido"
+
+msgid "invalid squares data"
+msgstr "datos cuadrados no válidos"
+
+msgid "invalid rectangles data (need 2 columns)"
+msgstr "datos rectangulares no válidos (son necesarias 2 columnas)"
+
+msgid "invalid stars data"
+msgstr "datos de estrella no válidos"
+
+msgid "invalid thermometers data (need 3 or 4 columns)"
+msgstr "datos de termómetros no válidos (son necesarias 3 o 4 columnas)"
+
+#, c-format
+msgid "invalid 'thermometers[, %s]'"
+msgstr "'thermometers[, %s]' no válidos"
+
+#, c-format
+msgid "'thermometers[, %s]' not in [0,1] -- may look funny"
+msgstr "'termómetros[,%s]' no están en el intervalo [0,1] - quizás este error puede parecer gracioso"
+
+msgid "invalid 'thermometers[, 1:2]'"
+msgstr "'termómetros[,1:2]' no válidos"
+
+msgid "invalid 'boxplots' data (need 5 columns)"
+msgstr "datos de 'boxplots' no válidos (se necesitan 5 columnas)"
+
+msgid "'boxplots[, 5]' outside [0,1] -- may look funny"
+msgstr "'boxplots[,5]' fuera del intervalo [0,1] - quizás este error puede resultar gracioso"
+
+msgid "invalid 'boxplots[, 1:4]'"
+msgstr "'boxplots[, 1:4]' no válidos"
+
+msgid "invalid symbol type"
+msgstr "tipo de símbolo no válido"
+
+#, c-format
+msgid "incorrect length for '%s' argument"
+msgstr "longitud incorrecta para el argumento '%s'"
+
+msgid "insufficient 'x' or 'y' values"
+msgstr "valores insuficientes de 'x' o 'y'"
+
+msgid "dimension mismatch"
+msgstr "dimensión no compatible"
+
+msgid "no contour values"
+msgstr "no hay valores de contorno"
+
+msgid "invalid x / y values or limits"
+msgstr "valores o límites de x / y no válidos"
+
+msgid "invalid contour levels: must be strictly increasing"
+msgstr "valores de contorno no válidos: deben ser estrictamente crecientes"
+
+msgid "Axis orientation not calculated"
+msgstr "Orientación de ejes no calculada"
+
+msgid "too few parameters"
+msgstr "muy pocos parámetros"
+
+msgid "invalid 'x' limits"
+msgstr "límites de 'x' no válidos"
+
+msgid "invalid 'y' limits"
+msgstr "límites de 'y' no válidos"
+
+msgid "invalid 'z' limits"
+msgstr "límites de 'z' no válidos"
+
+msgid "'xlab' must be a character vector of length 1"
+msgstr "'xlab' debe ser un vector de caracteres de longitud 1"
+
+msgid "'ylab' must be a character vector of length 1"
+msgstr "'ylab' debe ser un vector de caracteres de longitud 1"
+
+msgid "'zlab' must be a character vector of length 1"
+msgstr "'zlab' debe ser un vector de caracteres de longitud 1"
+
+msgid "invalid viewing parameters"
+msgstr "parámetros de visualización no válidos"
+
+#, c-format
+msgid "invalid '%s' specification"
+msgstr "especificación '%s' no válida"
+
+# Parece raro pero... por favor fijate
+#, c-format
+msgid "contour(): circular/long seglist -- set %s > %d?"
+msgstr "contour(): tipo circular/largo -- set %s > %d?"
+
+msgid "no 'levels'"
+msgstr "sin 'niveles'"
+
+msgid "missing 'x' values"
+msgstr "valores de 'x' perdidos"
+
+msgid "increasing 'x' values expected"
+msgstr "se esperan valores de 'x' crecientes"
+
+msgid "missing 'y' values"
+msgstr "valores de 'y' perdidos"
+
+msgid "increasing 'y' values expected"
+msgstr "se esperan valores de 'y' crecientes"
+
+#, c-format
+msgid "non-finite level values: levels[%d] = %g"
+msgstr "valores de nivel infinitos: niveles[%d] = %g"
+
+msgid "all z values are equal"
+msgstr "todos los valores de z son iguales"
+
+msgid "all z values are NA"
+msgstr "todos los valore de z son NA"
+
+#, c-format
+msgid "long vector '%s' is not supported"
+msgstr "el vector largo '%s' no es compatible"

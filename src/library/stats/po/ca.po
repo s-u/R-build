@@ -1,0 +1,920 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The R Core Team
+# This file is distributed under the same license as the R package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 4.4.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-07-08 08:22-0700\n"
+"PO-Revision-Date: 2024-03-20 03:05+0000\n"
+"Last-Translator: Lluís <lluis.revilla+weblate@gmail.com>\n"
+"Language-Team: none\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
+
+msgid "bandwidth/span of running medians is larger than n"
+msgstr "l'amplada de banda/envergadura de les medianes mòbils és més gran que n"
+
+#, fuzzy, c-format
+msgid "runmed(x, .., na.action=\"na.fail\"): have NAs starting at x[%lld]"
+msgstr "runmed(x, .., na.action=\"na.fail\"): té els NA començant a x[%ld]"
+
+#, fuzzy
+msgid "runmed(): invalid 'na.action'"
+msgstr "runmed(): «na.action» no és vàlid"
+
+#, fuzzy, c-format
+msgid "na_action logic error (%d), please report!"
+msgstr "error de lògica de naaction (%d), si us plau, informeu!"
+
+#, fuzzy
+msgid "probabilities outside [0,1] in qansari()"
+msgstr "probabilitats fora de [0,1] en qansari()"
+
+#, fuzzy
+msgid "approx(): invalid f value"
+msgstr "approx(): el valor f no és vàlid"
+
+#, fuzzy
+msgid "approx(): invalid interpolation method"
+msgstr "approx(): el mètode d'interpolació no és vàlid"
+
+#, fuzzy
+msgid "approx(): attempted to interpolate NA values"
+msgstr "approx(): s'ha intentat interpolar els valors NA"
+
+#, fuzzy
+msgid "approx(x,y, .., na.rm=FALSE): NA values in x are not allowed"
+msgstr "approx(x,y, .., na.rm=FALSE): no es permeten els valors NA a x"
+
+#, fuzzy
+msgid "invalid argument type"
+msgstr "tipus d'argument no vàlid"
+
+#, fuzzy
+msgid "can only transform 100 pars in arima0"
+msgstr "només es poden transformar 100 pars a arima0"
+
+#, fuzzy
+msgid "maximum supported lag is 350"
+msgstr "el retard suportat màxim és 350"
+
+#, fuzzy, c-format
+msgid "non-finite x[%d] in bandwidth calculation"
+msgstr "x[%d] no definit en el càlcul de l'amplada de banda"
+
+#, fuzzy
+msgid "data are constant in bandwidth calculation"
+msgstr "x[%d] no definit en el càlcul de l'amplada de banda"
+
+#, fuzzy, c-format
+msgid "invalid 'type' (%s) of argument"
+msgstr "'type' (%s) de l'argument no és vàlid"
+
+#, fuzzy
+msgid "no input has determined the number of cases"
+msgstr "cap entrada ha determinat el nombre de casos"
+
+#, fuzzy
+msgid "not all arguments have the same length"
+msgstr "no tots els arguments tenen la mateixa longitud"
+
+#, fuzzy
+msgid "missing observations in cov/cor"
+msgstr "manca observacions a la cov/cor"
+
+#, fuzzy
+msgid "'x' is NULL"
+msgstr "«x» és NULL"
+
+#, fuzzy
+msgid "incompatible dimensions"
+msgstr "dimensions incompatibles"
+
+#, fuzzy
+msgid "no complete element pairs"
+msgstr "no hi ha cap parell d'elements complets"
+
+#, fuzzy
+msgid "invalid 'use' (computational method)"
+msgstr "«use» no vàlid (mètode computacional)"
+
+#, fuzzy
+msgid "'x' is empty"
+msgstr "«x» és buit"
+
+#, fuzzy
+msgid "the standard deviation is zero"
+msgstr "la desviació estàndard és zero"
+
+#, fuzzy
+msgid "invalid form in unary minus check"
+msgstr "formulari no vàlid a la comprovació unary menys"
+
+#, fuzzy, c-format
+msgid "Function '%s' is not in the derivatives table"
+msgstr "La funció «%s» no és a la taula de derivades"
+
+#, fuzzy, c-format
+msgid "expression must not be type '%s'"
+msgstr "l'expressió no pot ser del tipus «%s»"
+
+#, fuzzy
+msgid "variable must be a character string"
+msgstr "la variable ha de ser una cadena de caràcters"
+
+#, fuzzy
+msgid "only the first element is used as variable name"
+msgstr "només s'utilitza el primer element com a nom de variable"
+
+#, fuzzy, c-format
+msgid "invalid expression in '%s'"
+msgstr "expressió no vàlida a «%s»"
+
+#, fuzzy
+msgid "too many variables"
+msgstr "massa variables"
+
+#, fuzzy
+msgid "invalid variable names"
+msgstr "noms de variables no vàlids"
+
+#, fuzzy
+msgid "invalid tag"
+msgstr "etiqueta no vàlida"
+
+#, fuzzy
+msgid "treating non-finite values as NA"
+msgstr "tractant els valors no-finits com a NA"
+
+#, fuzzy
+msgid "distance(): invalid p"
+msgstr "distance(): p no vàlida"
+
+#, fuzzy
+msgid "distance(): invalid distance"
+msgstr "distance(): la distància no és vàlida"
+
+msgid "NaNs produced"
+msgstr "s'han produït NaNs"
+
+#, fuzzy
+msgid "Non-numeric argument to mathematical function"
+msgstr "Argument no numèric per a la funció matemàtica"
+
+#, fuzzy, c-format
+msgid "Value %g out of range (0, 1)"
+msgstr "El valor %g és fora de rang (0, 1)"
+
+#, fuzzy, c-format
+msgid "Argument %s must be a nonempty numeric vector"
+msgstr "L'argument %s ha de ser un vector numèric no buit"
+
+#, fuzzy, c-format
+msgid "argument %s must be a numeric vector of length 1 or length %d"
+msgstr "l'argument %s ha de ser un vector numèric de longitud 1 o longitud %d"
+
+#, fuzzy, c-format
+msgid "integer overflow would happen in 'mult * ldkey' = %g"
+msgstr "el desbordament d'enters ocorreria a 'mult * ldkey' = %g"
+
+#, fuzzy, c-format
+msgid ""
+"FEXACT error 6.  LDKEY=%d is too small for this problem,\n"
+"  (ii := key2[itp=%d] = %d, ldstp=%d)\n"
+"Try increasing the size of the workspace and possibly 'mult'"
+msgstr ""
+"Error exacte 6.  LDKEY=%d és massa petit per a aquest problema,\n"
+"  (ii := clau2[itp=%d] = %d, ldstp=%d)\n"
+"Proveu d'augmentar la mida de l'espai de treball i possiblement «mult»"
+
+#, fuzzy, c-format
+msgid ""
+"FEXACT[f3xact()] error: hash key %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
+"Rather set 'simulate.p.value=TRUE'\n"
+msgstr ""
+"FEXACT[f3xact()] error: clau hash %.0g . INTMAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
+"Més aviat defineix 'simulate.p.value=TRUE'\n"
+
+#, fuzzy, c-format
+msgid ""
+"FEXACT error 30.  Stack length exceeded in f3xact,\n"
+"  (ldst=%d, key=%d, ipn=%d, itp=%d, ist[ii=%d]=%d).\n"
+"Increase workspace or consider using 'simulate.p.value=TRUE'"
+msgstr ""
+"Error exacte 30.  S'ha excedit la longitud de la pila en f3xact,\n"
+"  (ldst=%d, clau=%d, ipn=%d, itp=%d, ist[ii=%d]=%d).\n"
+"Augmenta l'espai de treball o considereu utilitzar «simulate.p.value=TRUE»"
+
+#, fuzzy, c-format
+msgid ""
+"FEXACT error 6 (f5xact).  LDKEY=%d is too small for this problem: kval=%d.\n"
+"Try increasing the size of the workspace."
+msgstr ""
+"Error exacte 6 (f5xact).  LDKEY=%d és massa petit per a aquest problema: kval=%d.\n"
+"Proveu d'augmentar la mida de l'espai de treball."
+
+#, fuzzy, c-format
+msgid ""
+"FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
+"  (kval=%d, itop-ldstp=%d).\n"
+"Increase workspace or consider using 'simulate.p.value=TRUE'."
+msgstr ""
+"Error de FEXACT 7(%s). LDSTP=%d és massa petit per a aquest problema,\n"
+"  (kval=%d, itop-ldstp=%d).\n"
+"Incrementeu l'espai de treball o considereu utilitzar «simulate.p.value=TRUE»."
+
+#, fuzzy, c-format
+msgid ""
+"FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
+"  (pastp=%g, ipn_0:=ipoin[itp=%d]=%d, stp[ipn_0]=%g).\n"
+"Increase workspace or consider using 'simulate.p.value=TRUE'"
+msgstr ""
+"Error de FEXACT 7(%s). LDSTP=%d és massa petit per a aquest problema,\n"
+"  (pastp=%g, ipn0:=ipoin[itp=%d]=%d, stp[ipn0]=%g).\n"
+"Augmenta l'espai de treball o considereu utilitzar «simulate.p.value=TRUE»"
+
+#, fuzzy
+msgid "non-numeric argument"
+msgstr "argument no numèric"
+
+#, fuzzy
+msgid "fft factorization error"
+msgstr "error de factorització fft"
+
+#, fuzzy
+msgid "vector-valued (multivariate) series required"
+msgstr "es requereix una sèrie vectorial (multivariada)"
+
+#, fuzzy, c-format
+msgid "nextn() found no solution < %d = INT_MAX (the maximal integer); pass '0+ n' instead of 'n'"
+msgstr "nextn() no ha trobat cap solució ); %d = INTMAX (l'enter màxim); pass '0+ n' en comptes de 'n'"
+
+#, fuzzy, c-format
+msgid "nextn<64>() found no solution < %llu = UINT64_MAX (the maximal integer)"
+msgstr "nextn<64>() no s'ha trobat cap solució ) %ld = UINT64MAX (l'enter màxim)"
+
+#, fuzzy
+msgid "no factors"
+msgstr "sense factors"
+
+#, fuzzy
+msgid "too many factors"
+msgstr "hi ha massa factors"
+
+#, fuzzy
+msgid "invalid factors"
+msgstr "factors no vàlids"
+
+#, fuzzy
+msgid "'n' must have typeof(.) \"integer\" or \"double\""
+msgstr "«n» ha de tenir tipus(.) \"enter\" o \"doble\""
+
+#, fuzzy, c-format
+msgid "nextn() = %<PRIu64> > 2^53 may not be exactly representable in R (as \"double\")"
+msgstr "nextn() = %<PRIu64> \") 2^53 pot no ser exactament representable a R (com a «doble»)"
+
+#, fuzzy, c-format
+msgid "'%s' must be of length one"
+msgstr "«%s» ha de ser d'una longitud"
+
+#, c-format
+msgid "non-finite sum(y) == %g is not allowed"
+msgstr ""
+
+#, fuzzy
+msgid "only 2500 rows are allowed for sm.method=\"spline\""
+msgstr "només es permeten 2.500 files per sm.method=\"spline\""
+
+#, fuzzy
+msgid "'x' is not a matrix"
+msgstr "«x» no és una matriu"
+
+#, fuzzy, c-format
+msgid "dimensions of 'x' (%d,%d) and 'y' (%lld) do not match"
+msgstr "les dimensions de «x» (%d,%d) i «y» (%d) no coincideixen"
+
+#, fuzzy, c-format
+msgid "NA/NaN/Inf in '%s'"
+msgstr "NA/NaN/Inf a «%s»"
+
+#, fuzzy
+msgid "span is too small"
+msgstr "l'envergadura és massa petita"
+
+#, fuzzy, c-format
+msgid "workspace required (%.0f) is too large%s."
+msgstr "l'espai de treball necessari (%.0f) és massa gran%s."
+
+#, fuzzy
+msgid " probably because of setting 'se = TRUE'"
+msgstr " probablement a causa de la configuració «se = TRUE»"
+
+#, fuzzy
+msgid "this should not happen"
+msgstr "això no hauria de passar"
+
+#, fuzzy
+msgid "algorithm did not converge"
+msgstr "l'algoritme no ha convergeixit"
+
+#, fuzzy
+msgid "incorrect specification of 'table' or 'start'"
+msgstr "especificació incorrecta de «table» o «start»"
+
+msgid "'f' must be finite and > 0"
+msgstr "«f» ha de ser finit i > 0"
+
+msgid "'iter' must be finite and >= 0"
+msgstr "«iter» ha de ser finit i >= 0"
+
+msgid "'delta' must be finite and > 0"
+msgstr "«delta» ha de ser finit i > 0"
+
+#, fuzzy
+msgid "assert failed in src/library/ts/src/carray.c"
+msgstr "ha fallat l'asserció a src/library/ts/src/carray.c"
+
+#, fuzzy
+msgid "Singular matrix in qr_solve"
+msgstr "Matriu singular en qrsolve"
+
+#, fuzzy
+msgid "Singular matrix in ldet"
+msgstr "Matriu singular en ldet"
+
+#, fuzzy
+msgid "Invalid vmethod"
+msgstr "Vmethod no vàlid"
+
+#, fuzzy
+msgid "Burg's algorithm failed to find partial correlation"
+msgstr "L'algoritme de Burg no ha pogut trobar la correlació parcial"
+
+#, fuzzy
+msgid "invalid variables"
+msgstr "variables no vàlides"
+
+#, fuzzy
+msgid "number of variables != number of variable names"
+msgstr "nombre de variables != nombre de noms de variables"
+
+#, fuzzy
+msgid "invalid extra variables"
+msgstr "variables addicionals no vàlides"
+
+#, fuzzy
+msgid "invalid extra variable names"
+msgstr "noms de variables addicionals no vàlids"
+
+#, fuzzy, c-format
+msgid "overlong names in '%s'"
+msgstr "noms massa llargs a «%s»"
+
+#, fuzzy, c-format
+msgid "invalid type (%s) for variable '%s'"
+msgstr "tipus no vàlid (%s) per a la variable «%s»"
+
+#, fuzzy, c-format
+msgid "variable lengths differ (found for '%s')"
+msgstr "les longituds de les variables difereixen (es troben per a «%s»)"
+
+#, fuzzy
+msgid "invalid result from na.action"
+msgstr "resultat no vàlid de na.action"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "argument «%s» no vàlid"
+
+#, fuzzy
+msgid "invalid model frame"
+msgstr "el marc del model no és vàlid"
+
+#, fuzzy
+msgid "do not know how many cases"
+msgstr "no sé quants casos"
+
+#, fuzzy, c-format
+msgid "variable lengths differ (found for variable %d)"
+msgstr "les longituds de les variables difereixen (es troben per a la variable %d)"
+
+#, fuzzy, c-format
+msgid "variable %d has no levels"
+msgstr "la variable %d no té nivells"
+
+#, fuzzy
+msgid "the response appeared on the right-hand side and was dropped"
+msgstr "la resposta va aparèixer a la part dreta i es va deixar caure"
+
+#, fuzzy, c-format
+msgid "term %d would require %.0g columns"
+msgstr "el terme %d requeriria %.0g columnes"
+
+#, fuzzy, c-format
+msgid "matrix would require %.0g columns"
+msgstr "la matriu requeriria %.0g columnes"
+
+#, fuzzy, c-format
+msgid "problem with term %d in model.matrix: no columns are assigned"
+msgstr "problema amb el terme %d a model.matrix: no s'assigna cap columna"
+
+#, fuzzy
+msgid "term names will be truncated"
+msgstr "els noms dels termes es truncaran"
+
+#, fuzzy
+msgid "complex variables are not currently allowed in model matrices"
+msgstr "actualment no es permeten variables complexes en matrius de models"
+
+#, fuzzy, c-format
+msgid "variables of type '%s' are not allowed in model matrices"
+msgstr "les variables de tipus «%s» no estan permeses a les matrius del model"
+
+#, fuzzy
+msgid "invalid formula in 'update'"
+msgstr "fórmula no vàlida a «update»"
+
+#, fuzzy
+msgid "formula expected"
+msgstr "s'esperava una fórmula"
+
+#, fuzzy
+msgid "invalid term in model formula"
+msgstr "terme no vàlid a la fórmula del model"
+
+#, fuzzy
+msgid "invalid model formula"
+msgstr "fórmula de model no vàlida"
+
+#, fuzzy
+msgid "invalid power in formula"
+msgstr "potència no vàlida a la fórmula"
+
+#, fuzzy
+msgid "invalid model formula in ExtractVars"
+msgstr "fórmula de model no vàlida a ExtractVars"
+
+#, fuzzy, c-format
+msgid "duplicated name '%s' in data frame using '.'"
+msgstr "nom duplicat «%s» en el marc de dades usant «.»"
+
+#, fuzzy
+msgid "invalid model formula in EncodeVars"
+msgstr "fórmula de model no vàlida a EncodeVars"
+
+#, fuzzy
+msgid "argument is not a valid model"
+msgstr "l'argument no és un model vàlid"
+
+#, fuzzy
+msgid "'specials' must be NULL or a character vector"
+msgstr "'especials' ha de ser NULL o un vector de caràcters"
+
+#, fuzzy
+msgid "'data' argument is of the wrong type"
+msgstr "l'argument «data» és d'un tipus incorrecte"
+
+#, fuzzy, c-format
+msgid "'varlist' has changed (from nvar=%d) to new %d after EncodeVars() -- should no longer happen!"
+msgstr "'varlist' ha canviat (des de nvar=%d) a un nou %d després de EncodeVars() -- no hauria de passar més!"
+
+#, fuzzy
+msgid "'.' in formula and no 'data' argument"
+msgstr "'.' a la fórmula i sense argument 'data'"
+
+#, fuzzy
+msgid "n must be at least two"
+msgstr "n ha de ser com a mínim dos"
+
+#, fuzzy
+msgid "Argument m must be numeric"
+msgstr "L'argument m ha de ser numèric"
+
+#, fuzzy
+msgid "length(m) must be at least two"
+msgstr "length(m) ha de ser com a mínim dos"
+
+#, fuzzy
+msgid "Argument Sx must be numeric vector one shorter than m[]"
+msgstr "Argument Sx ha de ser un vector numèric més curt que m[]"
+
+#, fuzzy
+msgid "'control' must be a list"
+msgstr "«control» ha de ser una llista"
+
+#, fuzzy
+msgid "'m' must be a list"
+msgstr "«m» ha de ser una llista"
+
+#, fuzzy, c-format
+msgid "'%s' absent"
+msgstr "«%s» absent"
+
+#, fuzzy
+msgid "singular gradient"
+msgstr "degradat singular"
+
+#, fuzzy, c-format
+msgid "step factor %g reduced below 'minFactor' of %g"
+msgstr "factor de pas %g reduït per sota de «minFactor» de %g"
+
+#, fuzzy, c-format
+msgid "number of iterations exceeded maximum of %d"
+msgstr "el nombre d'iteracions ha superat el màxim de %d"
+
+#, fuzzy
+msgid "converged"
+msgstr "convergeix"
+
+#, fuzzy
+msgid "'theta' should be of type character"
+msgstr "'theta' hauria de ser del tipus de caràcter"
+
+msgid "use of NULL environment is defunct"
+msgstr "l'ús de l'entorn NULL és obsolet"
+
+#, fuzzy
+msgid "'rho' should be an environment"
+msgstr "«rho» hauria de ser un entorn"
+
+#, fuzzy
+msgid "'dir' is not a numeric vector of the correct length"
+msgstr "'dir' no és un vector numèric de la longitud correcta"
+
+#, fuzzy
+msgid "'central' is NA, but must be TRUE or FALSE"
+msgstr "'central' és NA, però ha de ser cert o FALS"
+
+#, fuzzy
+msgid "Missing value or an infinity produced when evaluating the model"
+msgstr "Manca un valor o un infinit produït en avaluar el model"
+
+#, fuzzy, c-format
+msgid "variable '%s' is integer, not numeric"
+msgstr "la variable «%s» és entera, no numèrica"
+
+#, fuzzy, c-format
+msgid "variable '%s' is not numeric"
+msgstr "la variable «%s» no és numèrica"
+
+#, fuzzy
+msgid "non-finite value supplied by optim"
+msgstr "valor no definit proporcionat per l'optimitzador"
+
+#, fuzzy, c-format
+msgid "objective function in optim evaluates to length %d not 1"
+msgstr "la funció objectiu a l'optimització avalua la longitud %d no 1"
+
+#, fuzzy, c-format
+msgid "gradient in optim evaluated to length %d not %d"
+msgstr "gradient en l'òptim avaluat a la longitud %d no %d"
+
+#, fuzzy, c-format
+msgid "non-finite finite-difference value [%d]"
+msgstr "valor de diferència finita no definit [%d]"
+
+#, fuzzy
+msgid "'fn' is not a function"
+msgstr "'fn' no és una funció"
+
+#, fuzzy
+msgid "'parscale' is of the wrong length"
+msgstr "«parscale» té una longitud incorrecta"
+
+#, fuzzy
+msgid "'maxit' is not an integer"
+msgstr "'maxit' no és un enter"
+
+#, fuzzy
+msgid "'tmax' is not a positive integer"
+msgstr "«tmax» no és un enter positiu"
+
+#, fuzzy
+msgid "'gr' is not a function"
+msgstr "'gr' no és una funció"
+
+#, fuzzy
+msgid "'ndeps' is of the wrong length"
+msgstr "«ndeps» té una longitud incorrecta"
+
+#, fuzzy
+msgid "unknown 'method'"
+msgstr "«method» desconegut"
+
+#, fuzzy
+msgid "NA replaced by maximum positive value"
+msgstr "S'ha substituït el SD per un valor màxim positiu"
+
+#, fuzzy
+msgid "-Inf replaced by maximally negative value"
+msgstr "-Inf reemplaçat pel valor màxim negatiu"
+
+#, fuzzy, c-format
+msgid "%s replaced by maximum positive value"
+msgstr "S'ha substituït el SD per un valor màxim positiu"
+
+#, fuzzy
+msgid "invalid function value in 'optimize'"
+msgstr "el valor de la funció a «optimitza» no és vàlid"
+
+#, fuzzy
+msgid "attempt to minimize non-function"
+msgstr "s'ha intentat minimitzar la no-funció"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "el valor «%s» no és vàlid"
+
+#, fuzzy
+msgid "'xmin' not less than 'xmax'"
+msgstr "«xmin» no és inferior a «xmax»"
+
+#, fuzzy
+msgid "invalid function value in 'zeroin'"
+msgstr "el valor de la funció a «zeroin» no és vàlid"
+
+#, fuzzy, c-format
+msgid "NA value for '%s' is not allowed"
+msgstr "No es permet el valor NA per a «%s»"
+
+#, fuzzy
+msgid "'maxiter' must be positive"
+msgstr "«maxiter» ha de ser positiu"
+
+#, fuzzy
+msgid "non-finite value supplied by 'nlm'"
+msgstr "valor no definit proporcionat per «nlm»"
+
+#, fuzzy
+msgid "invalid function value in 'nlm' optimizer"
+msgstr "el valor de la funció a l'optimitzador «nlm» no és vàlid"
+
+#, fuzzy
+msgid "function value caching for optimization is seriously confused"
+msgstr "la memòria cau del valor de la funció per a l'optimització està seriosament confusa"
+
+#, fuzzy
+msgid "numeric parameter expected"
+msgstr "s'esperava un argument numèric"
+
+#, fuzzy
+msgid "conflicting parameter lengths"
+msgstr "longituds d'arguments conflictius"
+
+#, fuzzy
+msgid "invalid parameter length"
+msgstr "la longitud de l'argument no és vàlida"
+
+#, fuzzy
+msgid "missing value in parameter"
+msgstr "falta el valor a l'argument"
+
+#, fuzzy
+msgid "invalid parameter type"
+msgstr "tipus d'argument no vàlid"
+
+#, fuzzy
+msgid "non-positive number of parameters in nlm"
+msgstr "nombre no positiu d'arguments a nlm"
+
+#, fuzzy
+msgid "nlm is inefficient for 1-d problems"
+msgstr "nlm és ineficient per a problemes d'1 d"
+
+#, fuzzy
+msgid "invalid gradient tolerance in nlm"
+msgstr "tolerància de degradat no vàlida a nlm"
+
+#, fuzzy
+msgid "invalid iteration limit in nlm"
+msgstr "límit d'iteració no vàlid a nlm"
+
+#, fuzzy
+msgid "minimization function has no good digits in nlm"
+msgstr "la funció de minimització no té dígits bons a nlm"
+
+#, fuzzy
+msgid "no analytic gradient to check in nlm!"
+msgstr "no hi ha cap degradat analític per a comprovar en nlm!"
+
+#, fuzzy
+msgid "no analytic Hessian to check in nlm!"
+msgstr "no hi ha cap Hessian analític per comprovar en nlm!"
+
+#, fuzzy
+msgid "probable coding error in analytic gradient"
+msgstr "probable error de codificació en el degradat analític"
+
+#, fuzzy
+msgid "probable coding error in analytic Hessian"
+msgstr "probable error de codificació en l'hessian analític"
+
+#, fuzzy, c-format
+msgid ""
+"*** unknown error message (msg = %d) in nlm()\n"
+"*** should not happen!"
+msgstr ""
+"*** missatge d'error desconegut (msg = %d) a nlm()\n"
+"*** no hauria de passar!"
+
+#, fuzzy
+msgid "Relative gradient close to zero.\n"
+msgstr "Degradat relatiu proper a zero.\n"
+
+#, fuzzy
+msgid "Current iterate is probably solution.\n"
+msgstr "La iteració actual és probablement la solució.\n"
+
+#, fuzzy
+msgid "Successive iterates within tolerance.\n"
+msgstr "Iterats successius dins de la tolerància.\n"
+
+#, fuzzy
+msgid "Last global step failed to locate a point lower than x.\n"
+msgstr "L'últim pas global no ha pogut localitzar un punt inferior a x.\n"
+
+#, fuzzy
+msgid ""
+"Either x is an approximate local minimum of the function,\n"
+"the function is too non-linear for this algorithm,\n"
+"or steptol is too large.\n"
+msgstr ""
+"O x és un mínim local aproximat de la funció,\n"
+"la funció és massa no lineal per a aquest algorisme,\n"
+"o el steptol és massa gran.\n"
+
+#, fuzzy
+msgid "Iteration limit exceeded.  Algorithm failed.\n"
+msgstr "S'ha excedit el límit d'iteració.  L'algorisme ha fallat.\n"
+
+#, fuzzy
+msgid ""
+"Maximum step size exceeded 5 consecutive times.\n"
+"Either the function is unbounded below,\n"
+"becomes asymptotic to a finite value\n"
+"from above in some direction,\n"
+"or stepmx is too small.\n"
+msgstr ""
+"La mida màxima del pas ha excedit 5 vegades consecutives.\n"
+"O bé la funció no està fitada a sota,\n"
+"esdevé asimptòtic amb un valor finit\n"
+"des de dalt en alguna direcció,\n"
+"o la stepmx és massa petita.\n"
+
+#, fuzzy
+msgid "invalid NA value in parameter"
+msgstr "el valor NA de l'argument no és vàlid"
+
+#, fuzzy
+msgid "hessian supplied is of the wrong length or mode, so ignored"
+msgstr "el subministrat per hessians té una longitud o mode incorrectes, per tant s'ignora"
+
+#, fuzzy
+msgid "gradient supplied is of the wrong length or mode, so ignored"
+msgstr "el degradat subministrat té una longitud o mode incorrectes, de manera que s'ignora"
+
+#, fuzzy
+msgid "bad Starma struct"
+msgstr "estructura d'estrelles dolenta"
+
+#, fuzzy, c-format
+msgid "starma error code %d"
+msgstr "codi d'error de l'Starma %d"
+
+#, fuzzy, c-format
+msgid "forkal error code %d"
+msgstr "codi d'error forkal %d"
+
+#, fuzzy
+msgid "invalid value of lag.max"
+msgstr "valor no vàlid de lag.max"
+
+#, fuzzy, c-format
+msgid "Rf_divset: alg = %d must be 1, 2, 3, or 4"
+msgstr "Rfdivset: alg = %d ha de ser 1, 2, 3, o 4"
+
+#, fuzzy
+msgid "port algorithms 3 or higher are not supported"
+msgstr "no s'admeten els algorismes de port 3 o superior"
+
+#, fuzzy, c-format
+msgid "gradient function must return a numeric vector of length %d"
+msgstr "la funció gradient ha de retornar un vector numèric de longitud %d"
+
+#, fuzzy, c-format
+msgid "Hessian function must return a square numeric matrix of order %d"
+msgstr "La funció hessiana ha de retornar una matriu numèrica quadrada d'ordre %d"
+
+#, fuzzy
+msgid "'rho' must be an environment"
+msgstr "«rho» ha de ser un entorn"
+
+#, fuzzy
+msgid "'d' must be a nonempty numeric (double) vector"
+msgstr "«d» ha de ser un vector numèric no buit"
+
+#, fuzzy
+msgid "When Hessian defined must also have gradient defined"
+msgstr "Quan definit Hessian també ha de tenir definit un degradat"
+
+#, fuzzy, c-format
+msgid "environment 'rho' must contain a numeric (double) vector '.par' of length %d"
+msgstr "l'entorn «rho» ha de contenir un vector numèric «.par» de longitud %d"
+
+#, fuzzy
+msgid "'lower' and 'upper' must be numeric (double) vectors"
+msgstr "«més baix» i «superior» han de ser vectors numèrics"
+
+#, fuzzy
+msgid "'getElement' applies only to named lists"
+msgstr "«getElement» només s'aplica a les llistes amb nom"
+
+#, fuzzy, c-format
+msgid "%s$%s() not found"
+msgstr "No s'ha trobat %s$%s()"
+
+#, fuzzy, c-format
+msgid "'gradient' must be a numeric matrix of dimension (%d,%d)"
+msgstr "«gradient» ha de ser una matriu numèrica de dimensió (%d,%d)"
+
+#, fuzzy, c-format
+msgid "fcn produced mode %d, length %d - wanted mode %d, length %d"
+msgstr "fcn mode produït %d, longitud %d - mode desitjat %d, longitud %d"
+
+#, fuzzy
+msgid "invalid type for eval_check_store"
+msgstr "tipus no vàlid per evalcheckstore"
+
+#, fuzzy
+msgid "m must be a list"
+msgstr "m ha de ser una llista"
+
+#, fuzzy
+msgid "'lowerb' and 'upperb' must be numeric vectors"
+msgstr "«lowerb» i «upperb» han de ser vectors numèrics"
+
+msgid "invalid sample size 'n' in C routine prho(n,s,*)"
+msgstr ""
+
+#, fuzzy
+msgid "inconsistent degrees of freedom and dimension"
+msgstr "graus de llibertat i dimensió inconsistents"
+
+#, fuzzy
+msgid "'scal' must be a square, real matrix"
+msgstr "«scal» ha de ser una matriu quadrada real"
+
+#, fuzzy
+msgid "'scal' matrix is not positive-definite"
+msgstr "la matriu «scal» no està definida positivament"
+
+#, fuzzy
+msgid "NAs produced"
+msgstr "S'han produït els SNA"
+
+#, fuzzy
+msgid "invalid arguments"
+msgstr "arguments no vàlids"
+
+#, fuzzy
+msgid "NA in probability vector"
+msgstr "NA en vector de probabilitat"
+
+#, fuzzy
+msgid "negative probability"
+msgstr "probabilitat negativa"
+
+#, fuzzy
+msgid "no positive probabilities"
+msgstr "sense probabilitats positives"
+
+#, fuzzy
+msgid "invalid first argument 'n'"
+msgstr "el primer argument «n» no és vàlid"
+
+#, fuzzy
+msgid "invalid second argument 'size'"
+msgstr "el segon argument «size» no és vàlid"
+
+#, fuzzy, c-format
+msgid "rcont2 [%d,%d]: exp underflow to 0; algorithm failure"
+msgstr "rcont2 [%d,%d]: exp underflow a 0; error d'algoritme"
+
+#, fuzzy, c-format
+msgid "invalid end-rule for running median of 3: %d"
+msgstr "regla final no vàlida per a la mediana en execució de 3: %d"
+
+#, fuzzy, c-format
+msgid "missing value in last %d observations"
+msgstr "manca un valor en les últimes %d observacions"
+
+#, fuzzy
+#~ msgid "NA/Inf replaced by maximum positive value"
+#~ msgstr "NA/Inf substituït pel valor màxim positiu"

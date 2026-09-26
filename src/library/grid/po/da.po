@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The R Foundation
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: R 3.0.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-08-01 04:41-0700\n"
+"PO-Revision-Date: 2011-11-28 23:18+0200\n"
+"Last-Translator: Joe <joedalton2@yahoo.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.1.6\n"
+
+msgid "graphical parameter 'fontfamily' has a maximum length of 200 bytes"
+msgstr ""
+
+msgid "updateGContext must only be called after initGContext"
+msgstr ""
+
+msgid "Turning clipping on or off within a (clipping) path is no honoured"
+msgstr ""
+
+#, fuzzy
+msgid "cannot clip to rotated viewport"
+msgstr "Kan ikke klippe til roteret viewport"
+
+msgid "Clipping paths within a (clipping) path are not honoured"
+msgstr ""
+
+msgid "Masks within a (clipping) path are not honoured"
+msgstr ""
+
+#, c-format
+msgid "Viewport '%s' was not found"
+msgstr ""
+
+#, fuzzy
+msgid "cannot pop the top-level viewport ('grid' and 'graphics' output mixed?)"
+msgstr "Kan ikke pop topniveau-viewporten (gitter og grafiks uddata blandet?)"
+
+msgid "attempt to plot on null device"
+msgstr "forsøg på at plotte på null-enhed"
+
+#, fuzzy
+msgid "there is no layout defined"
+msgstr "Der er ingen layout defineret"
+
+#, fuzzy
+msgid "polygon edge not found (zero-width or zero-height?)"
+msgstr "Polygonkant ikke fundet (nulbredde eller nulhøjde?)"
+
+#, fuzzy
+msgid "polygon edge not found"
+msgstr "Polygonkant ikke fundet"
+
+#, fuzzy
+msgid "require at least two points to draw arrow"
+msgstr "Kræver mindst to punkter at tegne pil"
+
+#, fuzzy
+msgid "non-finite control point in Xspline"
+msgstr "Ikkebegrænsende kontrolpunkter i Xspline"
+
+msgid "non-finite x or y in graphics path"
+msgstr "ikkebegrænsende x eller y i grafiksti"
+
+msgid "Empty raster"
+msgstr ""
+
+msgid "Coordinates for text pch not yet supported"
+msgstr ""
+
+#, c-format
+msgid "pch value '%d' is invalid in this locale"
+msgstr ""
+
+#, c-format
+msgid "unimplemented pch value '%d'"
+msgstr ""
+
+msgid "invalid plotting symbol"
+msgstr "ugyldigt plotsymbol"
+
+#, fuzzy
+msgid "unable to clip to rotated rectangle"
+msgstr "Kan ikke klippe til roteret rektangel"
+
+#, fuzzy
+msgid "invalid 'layout.pos.row'"
+msgstr "ugyldig layout.pos.row"
+
+#, fuzzy
+msgid "invalid 'layout.pos.col'"
+msgstr "ugyldig layout.pos.col"
+
+msgid "singular transformation matrix"
+msgstr "entalstransformationsmatrix"
+
+#, fuzzy
+msgid "unable to store 'grid' state.  Too many devices open?"
+msgstr "Kan ikke lagre gittertilstand.  For mange enheder åbne?"
+
+msgid "Cannot create unit scalar from 0-length unit vector"
+msgstr ""
+
+#, fuzzy
+msgid "invalid unit or unit not yet implemented"
+msgstr "Illegal enhed eller enhed er endnu ikke implementeret"
+
+msgid "Viewport has zero dimension(s)"
+msgstr ""
+
+msgid "Unsupported unit conversion"
+msgstr ""
+
+msgid "Invalid unit"
+msgstr "Ugyldig enhed"
+
+#, fuzzy
+msgid "'units' must be character"
+msgstr "Enheder skal være tegn"
+
+#, fuzzy
+msgid "'units' must be of length > 0"
+msgstr "Enheder skal have længde > 0"
+
+msgid "data must be either NULL, have length 1, or match the length of the final unit vector"
+msgstr ""
+
+msgid "no string supplied for 'strwidth/height' unit"
+msgstr ""
+
+msgid "no 'grob' supplied for 'grobwidth/height' unit"
+msgstr ""
+
+msgid "'gPath' must have depth 1 in 'grobwidth/height' units"
+msgstr ""
+
+msgid "non-NULL value supplied for plain unit"
+msgstr ""
+
+msgid "old version of unit class is no longer allowed"
+msgstr ""
+
+msgid "object is not coercible to a unit"
+msgstr ""
+
+msgid "object is not a unit"
+msgstr ""
+
+msgid "units can only be multiplied with numerics and integers"
+msgstr ""
+
+msgid "Unable to calculate text width/height (using zero)"
+msgstr ""
+
+msgid "Mask is not logical value ('none' or 'inherit')"
+msgstr ""
+
+#, fuzzy
+msgid "non-finite location and/or size for viewport"
+msgstr "Ikkebegrænsende placeirng og/eller størrelse for viewport"
+
+#, fuzzy
+#~ msgid "unimplemented unit function"
+#~ msgstr "Ikke implementeret enhedsfunktion"

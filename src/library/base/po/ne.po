@@ -1,0 +1,6155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: R 4.2.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-09-02 17:50-0700\n"
+"PO-Revision-Date: 2023-09-01 09:15+0000\n"
+"Last-Translator: Binod Jung Bogati <m1s1ng@outlook.com>\n"
+"Language-Team: none\n"
+"Language: ne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
+
+msgid "non-finite value supplied by 'optim'"
+msgstr "'optim' द्वारा आपूर्ति गरिएको गैर-परिमित मान"
+
+#, c-format
+msgid "candidate point in 'optim' evaluated to length %d not %d"
+msgstr "'optim' मा उम्मेद्वार बिन्दु मा मूल्याङ्कन गरिएको लम्बाइ %d होइन %d"
+
+msgid "REPORT must be > 0 (method = \"BFGS\")"
+msgstr "REPORT > 0 हुनुपर्दछ (method = \"BFGS\")"
+
+msgid "initial value in 'vmmin' is not finite"
+msgstr "'vmmin' मा प्रारम्भिक मान परिमित छैन"
+
+msgid "function cannot be evaluated at initial parameters"
+msgstr "प्रारम्भिक प्यारामिटरहरूमा फङसन मूल्याङ्कन गर्न सकिँदैन"
+
+msgid "unknown type in \"CG\" method of 'optim'"
+msgstr "\"CG\" को 'optim' विधिमा अज्ञात 'type'"
+
+msgid "REPORT must be > 0 (method = \"L-BFGS-B\")"
+msgstr "रिपोर्ट ० भन्दा बढी हुनुपर्छ (विधि = \"L-BFGS-B\")"
+
+msgid "L-BFGS-B needs finite values of 'fn'"
+msgstr ""
+
+msgid "trace, REPORT must be >= 0 (method = \"SANN\")"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "R_pretty(): infinite range; *ndiv=%d, should have ndiv >= 2"
+msgstr "R_pretty(): अनन्त दायरा; *ndiv=%d, ndiv >= 2 हुनुपर्दछ"
+
+#, c-format
+msgid "R_pretty(): very small range 'cell'=%.3g, increased to %g"
+msgstr ""
+
+#, c-format
+msgid "R_pretty(): very large range 'cell'=%.3g, decreased to %g"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "DLL attempted to change FPU control word from %x to %x"
+msgstr "DLL ले FPU नियन्त्रण शब्द %x देखि %x सम्म परिवर्तन प्रयास गर् यो"
+
+#, fuzzy
+msgid "cannot get working directory"
+msgstr "कार्य डाइरेक्टरी प्राप्त गर्न सकिँदैन"
+
+#, fuzzy
+msgid "R_HOME not set"
+msgstr "R_HOME सेट गरिएको छैन"
+
+#, fuzzy, c-format
+msgid "'%s' not found"
+msgstr "\"%s\" फेला परेन"
+
+#, c-format
+msgid "file association for '%s' not available or invalid"
+msgstr ""
+
+#, c-format
+msgid "access to '%s' denied"
+msgstr ""
+
+#, c-format
+msgid "problem in displaying '%s'"
+msgstr ""
+
+#, c-format
+msgid "'%ls' not found"
+msgstr ""
+
+#, c-format
+msgid "file association for '%ls' not available or invalid"
+msgstr ""
+
+#, c-format
+msgid "access to '%ls' denied"
+msgstr ""
+
+#, c-format
+msgid "problem in displaying '%ls'"
+msgstr ""
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr ""
+
+msgid "unsupported version of Windows"
+msgstr ""
+
+#, c-format
+msgid "cannot resolve current user or domain: '%s'"
+msgstr ""
+
+msgid "'path' must be a character vector"
+msgstr ""
+
+msgid "invalid device"
+msgstr ""
+
+msgid "requires SDI mode"
+msgstr ""
+
+#, fuzzy
+msgid "invalid graphical device number"
+msgstr "अवैध ग्राफिकल यन्त्र नम्बर"
+
+#, fuzzy
+msgid "bad device"
+msgstr "खराब यन्त्र"
+
+#, fuzzy
+msgid "file choice cancelled"
+msgstr "फाइल छनौट रद्द गरियो"
+
+#, c-format
+msgid "'CreateProcess' failed to run '%s'"
+msgstr ""
+
+msgid "Child process not responding.  R will terminate it."
+msgstr ""
+
+#, c-format
+msgid "Exit code was %d"
+msgstr ""
+
+msgid "Insufficient memory (rpipeOpen)"
+msgstr ""
+
+msgid "seek not enabled for this connection"
+msgstr ""
+
+msgid "truncate not enabled for this connection"
+msgstr ""
+
+msgid "printing of extremely long output is truncated"
+msgstr ""
+
+msgid "allocation of pipe connection failed"
+msgstr ""
+
+msgid "'names' is not a character vector"
+msgstr ""
+
+#, c-format
+msgid ""
+"expanded path length %llu would be too long for\n"
+"%s\n"
+msgstr ""
+
+msgid "character string expected as first argument"
+msgstr ""
+
+msgid "character string expected as third argument"
+msgstr ""
+
+#, c-format
+msgid "invalid %s argument"
+msgstr ""
+
+#, c-format
+msgid "command '%s' timed out after %ds"
+msgstr ""
+
+#, c-format
+msgid "running command '%s' had status %d"
+msgstr ""
+
+msgid "reached session elapsed time limit"
+msgstr ""
+
+msgid "reached elapsed time limit"
+msgstr ""
+
+msgid "reached session CPU time limit"
+msgstr ""
+
+msgid "reached CPU time limit"
+msgstr ""
+
+#, c-format
+msgid "Fatal error: %s\n"
+msgstr ""
+
+#, c-format
+msgid "encoding '%s' is not recognised"
+msgstr ""
+
+#, c-format
+msgid "<ERROR: re-encoding failure from encoding '%s'>\n"
+msgstr ""
+
+#, c-format
+msgid "cannot open file '%s': %s"
+msgstr ""
+
+#, c-format
+msgid "file.show(): file '%s' does not exist\n"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "Not enough memory"
+msgstr "पर्याप्त मेमोरी छैन"
+
+#, c-format
+msgid "ARGUMENT '%s' __ignored__\n"
+msgstr ""
+
+#, c-format
+msgid "option '%s' requires an argument"
+msgstr ""
+
+#, c-format
+msgid "option '%s' requires a non-empty argument"
+msgstr ""
+
+#, c-format
+msgid "WARNING: '-e %s' omitted as input is too long\n"
+msgstr ""
+
+#, c-format
+msgid "WARNING: unknown option '%s'\n"
+msgstr ""
+
+msgid "cannot use -e with -f or --file"
+msgstr ""
+
+msgid "creation of tmpfile failed -- set TMPDIR suitably?"
+msgstr ""
+
+msgid "you must specify '--save', '--no-save' or '--vanilla'"
+msgstr ""
+
+msgid "impossible to create 'reader thread'; you must free some system resources"
+msgstr ""
+
+msgid "subscript out of bounds"
+msgstr ""
+
+#, c-format
+msgid "object of type '%s' is not subsettable"
+msgstr ""
+
+msgid "missing subscript"
+msgstr ""
+
+msgid "WARNING: no value given for --encoding"
+msgstr ""
+
+#, c-format
+msgid "WARNING: option '%s' no longer supported"
+msgstr ""
+
+#, c-format
+msgid "WARNING: no value given for '%s'"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "WARNING: '%s' value is invalid: ignored"
+msgstr "चेतावनी: '%s' मान अवैध: उपेक्षा गरियो"
+
+#, fuzzy, c-format
+msgid "WARNING: %s: too large and ignored"
+msgstr "चेतावनी: %s: धेरै ठूलो र उपेक्षा गरिएको"
+
+#, fuzzy
+msgid "WARNING: no value given for '--max-ppsize'"
+msgstr "चेतावनी: '--max-ppsize' का लागि मान दिइएको छैन"
+
+msgid "WARNING: '--max-ppsize' value is negative: ignored"
+msgstr ""
+
+msgid "WARNING: '--max-ppsize' value is too small: ignored"
+msgstr ""
+
+msgid "WARNING: '--max-ppsize' value is too large: ignored"
+msgstr ""
+
+msgid "WARNING: no value given for '--max-connections'"
+msgstr ""
+
+msgid "WARNING: '--max-connections' value is negative: ignored"
+msgstr ""
+
+msgid "WARNING: '--max-connections' value is too small: ignored"
+msgstr ""
+
+msgid "WARNING: '--max-connections' value is too large: ignored"
+msgstr ""
+
+#, c-format
+msgid "unif_rand: unimplemented RNG kind %d"
+msgstr ""
+
+#, c-format
+msgid "FixupSeeds: unimplemented RNG kind %d"
+msgstr ""
+
+msgid "'user_unif_rand' not in load table"
+msgstr ""
+
+msgid "cannot read seeds unless 'user_unif_nseed' is supplied"
+msgstr ""
+
+msgid "seed length must be in 0...625; ignored"
+msgstr ""
+
+#, c-format
+msgid "RNG_Init: unimplemented RNG kind %d"
+msgstr ""
+
+#, c-format
+msgid "'.Random.seed' is not an integer vector but of type '%s', so ignored"
+msgstr ""
+
+msgid "'.Random.seed[1]' is not a valid integer, so ignored"
+msgstr ""
+
+msgid "'.Random.seed[1]' is not a valid Normal | Sample | Binom type, so ignored"
+msgstr ""
+
+#, c-format
+msgid "'.Random.seed[1] %% 100 = 5' but no user-supplied generator, so ignored"
+msgstr ""
+
+#, c-format
+msgid "'.Random.seed[1] %% 100' is not a valid RNG kind so ignored"
+msgstr ""
+
+msgid "'.Random.seed' has wrong length"
+msgstr ""
+
+msgid "RNGkind: Marsaglia-Multicarry has poor statistical properties"
+msgstr ""
+
+#, c-format
+msgid "RNGkind: unimplemented RNG kind %d"
+msgstr ""
+
+msgid "RNGkind: severe deviations from normality for Kinderman-Ramage + Marsaglia-Multicarry"
+msgstr ""
+
+msgid "RNGkind: deviations from normality for Ahrens-Dieter + Marsaglia-Multicarry"
+msgstr ""
+
+msgid "invalid Normal type in 'RNGkind'"
+msgstr ""
+
+msgid "'user_norm_rand' not in load table"
+msgstr ""
+
+msgid "invalid sample type in 'RNGkind'"
+msgstr ""
+
+#, fuzzy
+msgid "invalid binom type in 'RNGkind'"
+msgstr "अवैध रेखा प्रकार"
+
+msgid "supplied seed is not a valid integer"
+msgstr ""
+
+#, c-format
+msgid "R_MAX_NUM_DLLS must be at least %d"
+msgstr ""
+
+#, c-format
+msgid "R_MAX_NUM_DLLS cannot be bigger than %d"
+msgstr ""
+
+#, c-format
+msgid "R_MAX_NUM_DLLS cannot be bigger than %d when fd limit is not known"
+msgstr ""
+
+msgid "the limit on the number of open files is too low"
+msgstr ""
+
+#, c-format
+msgid "R_MAX_NUM_DLLS bigger than %d may exhaust open files limit"
+msgstr ""
+
+msgid "could not allocate space for DLL table"
+msgstr ""
+
+msgid "R_RegisterRoutines called with invalid DllInfo object."
+msgstr ""
+
+msgid "Invalid object."
+msgstr ""
+
+#, c-format
+msgid "Invalid entry '%s' in native symbol object."
+msgstr ""
+
+#, c-format
+msgid "Component '%s' missing in symbol object."
+msgstr ""
+
+msgid "Invalid symbol list."
+msgstr ""
+
+#, c-format
+msgid "Symbol at %d does not have registration information."
+msgstr ""
+
+msgid "Invalid symbol name."
+msgstr ""
+
+#, c-format
+msgid "Cannot register already registered native symbol '%s'."
+msgstr ""
+
+#, c-format
+msgid "Symbol '%s' does not have a valid native address."
+msgstr ""
+
+#, fuzzy, c-format
+msgid "Symbol '%s' does not have a valid DllInfo reference."
+msgstr "'%s' प्रतीकसँग वैध DllInfo सन्दर्भ छैन ।"
+
+#, c-format
+msgid "Symbol '%s' comes from a different shared object."
+msgstr ""
+
+#, fuzzy, c-format
+msgid "Symbol '%s' is missing parameter specification."
+msgstr "प्रतिमा '%s' परिमिति विशिष्टिकरण हराइरहेको छ ।"
+
+#, fuzzy
+msgid "`maximal number of DLLs reached..."
+msgstr "'डीएलएलको अधिकतम संख्या पुग्यो ..."
+
+msgid "could not allocate space for 'path'"
+msgstr ""
+
+#, c-format
+msgid "DLLname '%s' is too long"
+msgstr ""
+
+msgid "could not allocate space for 'name'"
+msgstr ""
+
+msgid "could not allocate space for 'DllInfo'"
+msgstr ""
+
+msgid "path too long"
+msgstr ""
+
+msgid "character argument expected"
+msgstr ""
+
+#, c-format
+msgid ""
+"unable to load shared object '%s':\n"
+"  %s"
+msgstr ""
+
+#, c-format
+msgid "shared object '%s' was not loaded"
+msgstr ""
+
+#, c-format
+msgid "cannot allocate memory for registered native symbol (%d byte)"
+msgid_plural "cannot allocate memory for registered native symbol (%d bytes)"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "NULL value passed for DllInfo"
+msgstr ""
+
+msgid "must pass package name or DllInfo reference"
+msgstr ""
+
+#, c-format
+msgid "unimplemented type %d in 'createRSymbolObject'"
+msgstr ""
+
+msgid "R_getRegisteredRoutines() expects a DllInfo reference"
+msgstr ""
+
+#, c-format
+msgid "function '%s' not provided by package '%s'"
+msgstr ""
+
+msgid "table entry must be an external pointer"
+msgstr ""
+
+#, c-format
+msgid "problem in setting variable '%s' in Renviron"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "argument '%s' must be a character string"
+msgstr "तर्क '%s' क्यारेक्टर स्ट्रिङ"
+
+#, c-format
+msgid "file '%s' cannot be opened for reading"
+msgstr ""
+
+#, c-format
+msgid "use of %s for input is not supported"
+msgstr ""
+
+msgid "invalid multibyte input string"
+msgstr ""
+
+msgid "input string is too long"
+msgstr ""
+
+msgid "invalid multibyte format string"
+msgstr ""
+
+msgid "format string is too long"
+msgstr ""
+
+#, c-format
+msgid "argument '%s' has length > 1 and only the first element will be used"
+msgstr ""
+
+msgid "'pattern' must be a non-empty character string"
+msgstr ""
+
+msgid "regular expression is invalid in this locale"
+msgstr ""
+
+#, c-format
+msgid "regcomp error:  '%s'"
+msgstr ""
+
+#, c-format
+msgid "input string %lld is invalid in this locale"
+msgstr ""
+
+#, c-format
+msgid "argument '%s' will be ignored"
+msgstr ""
+
+#, c-format
+msgid "input string x[%d] is invalid in this locale"
+msgstr ""
+
+#, c-format
+msgid "input string y[%d] is invalid in this locale"
+msgstr ""
+
+#, c-format
+msgid "regcomp error: '%s'"
+msgstr ""
+
+msgid "'FUN.VALUE' must be a vector"
+msgstr ""
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr ""
+
+msgid "invalid length"
+msgstr ""
+
+msgid "long vectors are not supported for matrix/array results"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "type '%s' is not supported"
+msgstr "यसको सट्टा '%s' प्रयोग गर्नुहोस्।"
+
+#, c-format
+msgid ""
+"values must be length %d,\n"
+" but FUN(X[[%lld]]) result is length %d"
+msgstr ""
+
+#, c-format
+msgid ""
+"values must be type '%s',\n"
+" but FUN(X[[%lld]]) result is type '%s'"
+msgstr ""
+
+#, c-format
+msgid "dimnames(<value>) is neither NULL nor list of length %d"
+msgstr ""
+
+#, c-format
+msgid "'%s' must be a list or expression"
+msgstr ""
+
+msgid "NaNs produced"
+msgstr ""
+
+msgid "non-numeric argument to mathematical function"
+msgstr ""
+
+msgid "probable complete loss of accuracy in modulus"
+msgstr ""
+
+msgid "NAs produced by integer overflow"
+msgstr ""
+
+msgid "operator needs one or two arguments"
+msgstr ""
+
+msgid "non-numeric argument to binary operator"
+msgstr ""
+
+msgid ""
+"Recycling array of length 1 in array-vector arithmetic is deprecated.\n"
+"  Use c() or as.vector() instead."
+msgstr ""
+
+msgid ""
+"Recycling array of length 1 in vector-array arithmetic is deprecated.\n"
+"  Use c() or as.vector() instead."
+msgstr ""
+
+msgid "non-conformable arrays"
+msgstr ""
+
+msgid "longer object length is not a multiple of shorter object length"
+msgstr ""
+
+msgid "invalid argument to unary operator"
+msgstr ""
+
+msgid "invalid unary operator"
+msgstr ""
+
+msgid "unimplemented real function of 1 argument"
+msgstr ""
+
+msgid "unimplemented complex function"
+msgstr ""
+
+#, c-format
+msgid "unimplemented real function of %d numeric arguments"
+msgstr ""
+
+msgid "invalid second argument of length 0"
+msgstr ""
+
+msgid "invalid argument 'base' of length 0"
+msgstr ""
+
+#, c-format
+msgid "'data' must be of a vector type, was '%s'"
+msgstr ""
+
+msgid "non-numeric matrix extent"
+msgstr ""
+
+msgid "invalid 'nrow' value (too large or NA)"
+msgstr ""
+
+#, fuzzy
+msgid "invalid 'nrow' value (< 0)"
+msgstr "अवैध 'nrow' मान (< ०)"
+
+#, fuzzy
+msgid "invalid 'ncol' value (too large or NA)"
+msgstr "अवैध 'ncol' मान (धेरै ठूलो वा NA)"
+
+msgid "invalid 'ncol' value (< 0)"
+msgstr ""
+
+#, c-format
+msgid "data length [%lld] is not a sub-multiple or multiple of the number of rows [%d]"
+msgstr ""
+
+#, c-format
+msgid "data length [%lld] is not a sub-multiple or multiple of the number of columns [%d]"
+msgstr ""
+
+#, c-format
+msgid "data length differs from size of matrix: [%lld != %d x %d]"
+msgstr ""
+
+msgid "non-empty data for zero-extent matrix"
+msgstr ""
+
+msgid "too many elements specified"
+msgstr ""
+
+msgid "negative extents to matrix"
+msgstr ""
+
+msgid "allocMatrix: too many elements specified"
+msgstr ""
+
+msgid "negative extents to 3D array"
+msgstr ""
+
+msgid "'alloc3DArray': too many elements specified"
+msgstr ""
+
+msgid "'dim' cannot be of length 0"
+msgstr ""
+
+msgid "the dims contain missing values"
+msgstr ""
+
+msgid "the dims contain negative values"
+msgstr ""
+
+msgid "'allocArray': too many elements specified by 'dims'"
+msgstr ""
+
+#, c-format
+msgid "'%s' must be a list or atomic vector"
+msgstr ""
+
+#, c-format
+msgid "a matrix-like object is required as argument to '%s'"
+msgstr ""
+
+#, c-format
+msgid "%d argument passed to '%s' which requires at least %d"
+msgid_plural "%d arguments passed to '%s' which requires at least %d"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "more than 2 arguments passed to default method of '%s'"
+msgstr ""
+
+msgid "requires numeric/complex matrix/vector arguments"
+msgstr ""
+
+msgid "non-conformable arguments"
+msgstr ""
+
+msgid "argument is not a matrix"
+msgstr ""
+
+#, c-format
+msgid "invalid first argument, must be %s"
+msgstr ""
+
+#, c-format
+msgid "'perm' is of wrong length %d (!= %d)"
+msgstr ""
+
+msgid "'a' does not have named dimnames"
+msgstr ""
+
+#, c-format
+msgid "'perm[%d]' does not match a dimension name"
+msgstr ""
+
+msgid "'resize' must be TRUE or FALSE"
+msgstr ""
+
+msgid "value out of range in 'perm'"
+msgstr ""
+
+#, fuzzy
+msgid "'x' must be numeric or complex"
+msgstr "'La.svd' मा आर्गुमेन्ट numeric वा complex हुनुपर्छ"
+
+msgid "'x' is too short"
+msgstr ""
+
+msgid "'x' must have positive length"
+msgstr ""
+
+#, c-format
+msgid "singular matrix in 'backsolve'. First zero in diagonal [%d]"
+msgstr ""
+
+msgid "attempt to set an attribute on NULL"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "row names must be 'character' or 'integer', not '%s'"
+msgstr "पङ्क्ति नामहरू ' क्यारेक्टर' वा 'पूर्णांक' हुनुपर्दछ, '%s' होइन"
+
+#, fuzzy, c-format
+msgid "getAttrib: invalid type (%s) for TAG"
+msgstr "getAttrib: ट्यागका लागि अवैध प्रकार (%s)"
+
+#, fuzzy
+msgid "'name' is not a symbol or a scalar string"
+msgstr "'नाम' शून्य नभएको क्यारेक्टर स्ट्रिङ हुनुपर्दछ"
+
+#, fuzzy, c-format
+msgid "cannot set an attribute on a '%s'"
+msgstr "'%s' मा विशेषता सेट गर्न सकिँदैन"
+
+#, fuzzy, c-format
+msgid "invalid type (%s) for 'names': must be vector or NULL"
+msgstr "'नामहरू' का लागि अवैध प्रकार (%s) हुनुपर्दछ: भेक्टर वा शून्य हुनुपर्दछ"
+
+#, c-format
+msgid "'names' attribute [%lld] must be the same length as the vector [%lld]"
+msgstr ""
+
+#, fuzzy
+msgid "names() applied to a non-vector"
+msgstr "नाम() एउटा भेक्टर नभएको मा लागू गरियो"
+
+#, c-format
+msgid "invalid time series parameters specified (%d)"
+msgstr ""
+
+#, fuzzy
+msgid "'tsp' attribute must be numeric"
+msgstr "'टीएसपी' विशेषता सङ्ख्यात्मक हुनुपर्दछ"
+
+#, fuzzy
+msgid "'tsp' attribute must be numeric of length three"
+msgstr "'टिएसपी' विशेषता तीन लम्बाइको सङ्ख्यात्मक हुनुपर्दछ"
+
+#, fuzzy
+msgid "cannot assign 'tsp' to zero-length vector"
+msgstr "शून्य-लम्बाइ भेक्टरमा 'tsp' मानाङ्कन गर्न सकिँदैन"
+
+msgid "attempt to set invalid 'comment' attribute"
+msgstr ""
+
+msgid "adding class \"factor\" to an invalid object"
+msgstr ""
+
+msgid "attempt to set invalid 'class' attribute"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "invalid to use names()<- on an S4 object of class '%s'"
+msgstr "अवैध नाम()< प्रयोग गर्न क्लास '%s' को S4 वस्तुमा"
+
+#, fuzzy
+msgid "incompatible 'names' argument"
+msgstr "नमिल्दो 'नाम' तर्क"
+
+#, fuzzy, c-format
+msgid "invalid type (%s) to set 'names' attribute"
+msgstr "अवैध 'नाम' सेट गर्न (%s) टाइप विशेषता"
+
+#, fuzzy
+msgid "'dimnames' applied to non-array"
+msgstr "'डिमनेमहरू' गैर-array मा लागू गरियो"
+
+#, c-format
+msgid "'%s' must be a list"
+msgstr ""
+
+#, c-format
+msgid "length of 'dimnames' [%d] must match that of 'dims' [%d]"
+msgstr ""
+
+#, c-format
+msgid "invalid type (%s) for 'dimnames' (must be a vector)"
+msgstr ""
+
+#, c-format
+msgid "length of 'dimnames' [%d] not equal to array extent"
+msgstr ""
+
+#, c-format
+msgid "invalid second argument, must be %s"
+msgstr ""
+
+#, c-format
+msgid "dims [product %lld] do not match the length of object [%lld]"
+msgstr ""
+
+#, c-format
+msgid "factor level [%lld] is duplicated"
+msgstr ""
+
+msgid "attributes must be a list or NULL"
+msgstr ""
+
+msgid "attributes must be named"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "all attributes must have names [%d does not]"
+msgstr "सबै विशेषताहरूसँग नामहरू हुनुपर्दछ [%d गर्दैन]"
+
+#, fuzzy
+msgid "'which' must be of mode character"
+msgstr "'जो' मोड क्यारेक्टरको हुनुपर्दछ"
+
+#, fuzzy
+msgid "exactly one attribute 'which' must be given"
+msgstr "ठ्याक्कै एउटा विशेषता 'जो' दिनुपर्छ"
+
+msgid "invalid slot name length"
+msgstr ""
+
+#, c-format
+msgid "invalid type '%s' for slot name"
+msgstr ""
+
+#, fuzzy
+msgid "'name' must be non-null character string"
+msgstr "'नाम' शून्य नभएको क्यारेक्टर स्ट्रिङ हुनुपर्दछ"
+
+#, fuzzy
+msgid "'name' must be a scalar string"
+msgstr "'%s' एउटा क्यारेक्टर स्ट्रिङ"
+
+msgid "invalid type or length for slot name"
+msgstr "अवैध नामका लागि प्रकार वा लम्बाइ slot"
+
+#, fuzzy, c-format
+msgid "cannot get a slot (\"%s\") from an object of type \"%s\""
+msgstr "\"%s\" प्रकारको वस्तुबाट slot (\"%s\") प्राप्त गर्न सकिँदैन ।"
+
+#, fuzzy, c-format
+msgid "no slot of name \"%s\" for this object of class \"%s\""
+msgstr "छैन slot क्लास \"%s\" को यस उद्देश् यको नाउँ \"%s\""
+
+#, fuzzy
+msgid "attempt to set slot on NULL object"
+msgstr "शून्य वस्तुमा slot सेट गर्ने प्रयास गर्नुहोस्"
+
+#, fuzzy
+msgid "formal classes cannot be used without the 'methods' package"
+msgstr "औपचारिक कक्षाहरू 'विधिहरू' प्याकेज बिना प्रयोग गर्न सकिँदैन"
+
+#, fuzzy, c-format
+msgid "no applicable method for `@` applied to an object of class \"%s\""
+msgstr "छैन \"%s\" को वस्तुमा लागू गरिएको '@' को लागि क्लास लागू विधि"
+
+#, fuzzy
+msgid "bad attribute tag"
+msgstr "खराब चल नामहरू"
+
+#, fuzzy, c-format
+msgid "resulting vector exceeds vector length limit in '%s'"
+msgstr "परिणाम स्वरुप भेक्टरले '%s' मा भेक्टर लम्बाइ सिमा नाघ्यो"
+
+#, fuzzy, c-format
+msgid "type '%s' is unimplemented in '%s'"
+msgstr "'%s' मा '%s' प्रकार कार्यान्वयन गरिएको छैन ।"
+
+#, fuzzy
+msgid "repeated formal argument 'recursive'"
+msgstr "बारम्बार औपचारिक तर्क 'पुनरावृत्ति'"
+
+#, fuzzy
+msgid "repeated formal argument 'use.names'"
+msgstr "बारम्बार औपचारिक तर्क 'प्रयोग गर्नुहोस्।नाम'"
+
+#, fuzzy
+msgid "argument not a list"
+msgstr "सूची होइन तर्क"
+
+#, fuzzy, c-format
+msgid "class name too long in '%s'"
+msgstr "क्लास नाम '%s' मा धेरै लामो छ"
+
+#, fuzzy, c-format
+msgid "cannot create a matrix from type '%s'"
+msgstr "'%s' प्रकारबाट म्याट्रिक्स सिर्जना गर्न सकिँदैन"
+
+#, fuzzy, c-format
+msgid "number of rows of matrices must match (see arg %d)"
+msgstr "म्याट्रिक्सको पङ्क्तिको सङ्ख्या मिलाउनु पर्दछ (आर्ग %dहेर्नुहोस्)"
+
+#, c-format
+msgid "cannot create a matrix of type '%s'"
+msgstr ""
+
+#, c-format
+msgid "number of columns of matrices must match (see arg %d)"
+msgstr ""
+
+#, fuzzy
+msgid "vector size cannot be NA"
+msgstr "भेक्टर साइज NA हुन सक्दैन"
+
+#, fuzzy
+msgid "vector size cannot be NA/NaN"
+msgstr "भेक्टर साइज NA/NaN हुन सक्दैन"
+
+#, fuzzy
+msgid "vector size cannot be infinite"
+msgstr "भेक्टर साइज असिमित हुन सक्दैन"
+
+#, fuzzy
+msgid "vector size specified is too large"
+msgstr "निर्दिष्ट गरिएको भेक्टर साइज धेरै ठूलो छ"
+
+#, fuzzy
+msgid "invalid first argument"
+msgstr "अवैध पहिलो तर्क"
+
+#, fuzzy
+msgid "use of NULL environment is defunct"
+msgstr "NULL वातावरण को प्रयोग निष्क्रिय छ"
+
+#, fuzzy
+msgid "argument is not a function"
+msgstr "तर्क एउटा प्रकार्य होइन"
+
+msgid "setting environment(<primitive function>) is not possible and trying it is deprecated"
+msgstr ""
+
+#, fuzzy
+msgid "replacement object is not an environment"
+msgstr "प्रतिस्थापन वस्तु वातावरण होइन"
+
+msgid "'enclos' must be an environment"
+msgstr ""
+
+msgid "argument is not an environment"
+msgstr ""
+
+msgid "the empty environment has no parent"
+msgstr ""
+
+msgid "can not set parent of the empty environment"
+msgstr ""
+
+msgid "can not set the parent environment of a namespace"
+msgstr ""
+
+msgid "can not set the parent environment of package imports"
+msgstr ""
+
+msgid "'parent' is not an environment"
+msgstr ""
+
+#, fuzzy
+msgid "cannot write to this connection"
+msgstr "यो जडानमा लेख्न सकिँदैन जडान"
+
+#, c-format
+msgid "invalid '%s' specification"
+msgstr ""
+
+msgid "non-positive 'fill' argument will be ignored"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "argument %d (type '%s') cannot be handled by 'cat'"
+msgstr "तर्क %d (प्रकार '%s') 'बिरालो' द्वारा ह्यान्डल गर्न सकिँदैन"
+
+#, fuzzy, c-format
+msgid "vector: cannot make a vector of mode '%s'."
+msgstr "भेक्टर: '%s' मोडको भेक्टर बनाउन सकिँदैन ।"
+
+#, fuzzy
+msgid "cannot set length of non-(vector or list)"
+msgstr "(भेक्टर वा सूची) को लम्बाइ सेट गर्न सकिँदैन"
+
+#, fuzzy
+msgid "invalid value"
+msgstr "अवैध मान"
+
+msgid "length of NULL cannot be changed"
+msgstr ""
+
+#, c-format
+msgid "wrong length for '%s' argument"
+msgstr ""
+
+msgid "'...' used in an incorrect context"
+msgstr ""
+
+#, c-format
+msgid "duplicate 'switch' defaults: '%s' and '%s'"
+msgstr ""
+
+#, fuzzy
+msgid "'EXPR' is missing"
+msgstr "'EXPR' हराइरहेको छ"
+
+msgid "EXPR must be a length 1 vector"
+msgstr ""
+
+#, c-format
+msgid ""
+"EXPR is a \"factor\", treated as integer.\n"
+" Consider using '%s' instead."
+msgstr ""
+
+msgid "'switch' with no alternatives"
+msgstr ""
+
+#, c-format
+msgid "%d argument passed to '%s' which requires %d to %d"
+msgid_plural "%d arguments passed to '%s' which requires %d to %d"
+msgstr[0] ""
+msgstr[1] ""
+
+#, fuzzy, c-format
+msgid "'%s' requires a character vector"
+msgstr "'%s' क्यारेक्टर भेक्टर आवश्यक पर्दछ"
+
+#, fuzzy, c-format
+msgid "invalid multibyte string, %s"
+msgstr "अवैध मल्टिबाइट स्ट्रिङ, %s"
+
+#, fuzzy, c-format
+msgid "number of characters is not computable in \"bytes\" encoding, %s"
+msgstr "क्यारेक्टरहरूको सङ्ख्या \"बाइट\" मा गणना गर्न एन्कोडिङ, %s"
+
+#, fuzzy, c-format
+msgid "width is not computable for %s in \"bytes\" encoding"
+msgstr "\"बाइट्स\" मा %s लागि चौडाइ गणना योग्य छैन एन्कोडिङ"
+
+#, c-format
+msgid "invalid multibyte string, element %lld"
+msgstr ""
+
+#, c-format
+msgid "number of characters is not computable in \"bytes\" encoding, element %lld"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "width is not computable in \"bytes\" encoding, element %lld"
+msgstr "\"बाइट्स\" मा %s लागि चौडाइ गणना योग्य छैन एन्कोडिङ"
+
+#, fuzzy
+msgid "extracting substrings from a non-character object"
+msgstr "क्यारेक्टर नभएको वस्तुबाट सबस्ट्रिङहरू झिक्दैछ"
+
+msgid "invalid substring arguments"
+msgstr ""
+
+msgid "non-character object(s)"
+msgstr ""
+
+#, fuzzy
+msgid "replacing substrings in a non-character object"
+msgstr "गैर-क्यारेक्टर वस्तुमा सबस्ट्रिङहरू प्रतिस्थापन गर्दै"
+
+#, fuzzy
+msgid "the first argument must be a character vector"
+msgstr "पहिलो तर्क क्यारेक्टर भेक्टर हुनुपर्दछ"
+
+#, fuzzy
+msgid "abbreviate used with non-ASCII chars"
+msgstr "गैर-ASCII क्यारेक्टरहरूसँग प्रयोग गरिएको सङ्क्षिप्त गर्नुहोस्"
+
+#, fuzzy
+msgid "non-character names"
+msgstr "क्यारेक्टर नभएका नामहरू"
+
+#, fuzzy, c-format
+msgid "invalid multibyte string %lld"
+msgstr "अवैध मल्टिबाइट स्ट्रिङ %lld"
+
+#, fuzzy
+msgid "non-character argument"
+msgstr "गैर-क्यारेक्टर तर्क"
+
+#, fuzzy, c-format
+msgid "decreasing range specification ('%lc-%lc')"
+msgstr "दायरा विवरण घटाउँदै ('%lc-%lc')"
+
+#, fuzzy, c-format
+msgid "decreasing range specification ('%c-%c')"
+msgstr "दायरा विवरण घटाउँदै ('%c-%c')"
+
+#, fuzzy
+msgid "invalid UTF-8 string 'old'"
+msgstr "अवैध UTF-8 स्ट्रिङ 'पुरानो'"
+
+msgid "invalid multibyte string 'old'"
+msgstr ""
+
+msgid "invalid UTF-8 string 'new'"
+msgstr ""
+
+msgid "invalid multibyte string 'new'"
+msgstr ""
+
+msgid "'old' is longer than 'new'"
+msgstr ""
+
+#, c-format
+msgid "invalid input multibyte string %lld"
+msgstr ""
+
+msgid "strtrim() requires a character vector"
+msgstr ""
+
+msgid "invalid 'mode' argument"
+msgstr ""
+
+msgid "applies only to lists and vectors"
+msgstr ""
+
+#, fuzzy
+msgid "NAs introduced by coercion"
+msgstr "एनए जबरजस्ती गरेर ल्याइएको छ ।"
+
+#, fuzzy
+msgid "NAs introduced by coercion to integer range"
+msgstr "एनएहरू पूर्णांक दायरामा जबरजस्ती द्वारा प्रस्तुत गरियो"
+
+msgid "imaginary parts discarded in coercion"
+msgstr ""
+
+msgid "out-of-range values treated as 0 in coercion to raw"
+msgstr ""
+
+#, c-format
+msgid "invalid data of mode '%s' (too short)"
+msgstr ""
+
+#, c-format
+msgid "'%s' object cannot be coerced to type '%s'"
+msgstr ""
+
+msgid "no method for coercing this S4 class to a vector"
+msgstr ""
+
+msgid "environments cannot be coerced to other types"
+msgstr ""
+
+msgid "attempting to coerce non-factor"
+msgstr ""
+
+msgid "malformed factor"
+msgstr ""
+
+msgid "list argument expected"
+msgstr ""
+
+msgid "invalid environment"
+msgstr ""
+
+msgid "argument must have length at least 1"
+msgstr ""
+
+msgid "invalid body for function"
+msgstr ""
+
+msgid "argument must be character"
+msgstr ""
+
+msgid "argument must be a character string"
+msgstr ""
+
+#, c-format
+msgid "parsing result not of length one, but %d"
+msgstr ""
+
+msgid "invalid length 0 argument"
+msgstr ""
+
+msgid "as.call(<character>) not feasible; consider str2lang(<char.>)"
+msgstr ""
+
+msgid "invalid argument list"
+msgstr ""
+
+#, c-format
+msgid "'length = %lld' in coercion to '%s'"
+msgstr ""
+
+msgid "NA in coercion to boolean"
+msgstr ""
+
+msgid "type \"single\" unimplemented in R"
+msgstr ""
+
+msgid "unimplemented predicate"
+msgstr ""
+
+#, c-format
+msgid "%s() applied to non-(list or vector) of type '%s'"
+msgstr ""
+
+#, c-format
+msgid "default method not implemented for type '%s'"
+msgstr ""
+
+msgid "'name' is missing"
+msgstr ""
+
+msgid "first argument must be a character string"
+msgstr ""
+
+msgid "'what' must be a function or character string"
+msgstr ""
+
+msgid "'envir' must be an environment"
+msgstr ""
+
+msgid "invalid environment specified"
+msgstr ""
+
+msgid "Setting class(x) to NULL;   result will no longer be an S4 object"
+msgstr ""
+
+#, c-format
+msgid "Setting class(x) to multiple strings (\"%s\", \"%s\", ...); result will no longer be an S4 object"
+msgstr ""
+
+#, c-format
+msgid "Setting class(x) to \"%s\" sets attribute to NULL; result will no longer be an S4 object"
+msgstr ""
+
+msgid "invalid replacement object to be a class string"
+msgstr ""
+
+#, c-format
+msgid "invalid to set the class to matrix unless the dimension attribute is of length 2 (was %d)"
+msgstr ""
+
+#, c-format
+msgid "\"%s\" can only be set as the class if the object has this type; found \"%s\""
+msgstr ""
+
+msgid "cannot set class to \"array\" unless the dimension attribute has length > 0"
+msgstr ""
+
+msgid "'value' must be non-null character string"
+msgstr ""
+
+#, fuzzy
+msgid "invalid to change the storage mode of a factor"
+msgstr "तत्वको भण्डारण मोड परिवर्तन गर्न अवैध"
+
+msgid "invalid complex unary operator"
+msgstr ""
+
+msgid "unimplemented complex operation"
+msgstr ""
+
+msgid "non-numeric argument to function"
+msgstr ""
+
+msgid "invalid polynomial coefficient"
+msgstr ""
+
+msgid "root finding code failed"
+msgstr ""
+
+#, c-format
+msgid "all %d connections are in use"
+msgstr ""
+
+msgid "connection not found"
+msgstr ""
+
+#, fuzzy
+msgid "invalid connection"
+msgstr "अवैध जडान"
+
+#, c-format
+msgid "closing unused connection %d (%s)\n"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "unsupported conversion from '%s' to '%s'"
+msgstr "समर्थन नदिईकन '%s' बाट '%s'"
+
+#, c-format
+msgid "%s not enabled for this connection"
+msgstr ""
+
+msgid "invalid char string in output conversion"
+msgstr ""
+
+#, c-format
+msgid "invalid input found on input connection '%s'"
+msgstr ""
+
+#, c-format
+msgid "cannot open file '%ls': %s"
+msgstr ""
+
+#, c-format
+msgid "cannot open file '%ls': it is a directory"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "cannot open file '%s': it is a directory"
+msgstr "फाइल '%s' खोल्न सकिँदैन: यो एउटा डाइरेक्टरी"
+
+msgid "connection is not open for reading"
+msgstr ""
+
+msgid "connection is not open for writing"
+msgstr ""
+
+msgid "can only truncate connections open for writing"
+msgstr ""
+
+msgid "file truncation failed"
+msgstr ""
+
+msgid "file truncation unavailable on this platform"
+msgstr ""
+
+#, fuzzy
+msgid "allocation of file connection failed"
+msgstr "फाइल जडान असफल बाँडफाँड[सम्पादन गर्ने]"
+
+#, fuzzy, c-format
+msgid "cannot create fifo '%s', reason '%s'"
+msgstr "सिर्जना '%s', कारण '%s'"
+
+#, fuzzy, c-format
+msgid "'%s' exists but is not a fifo"
+msgstr "'%s' अवस्थित छ तर फिफो होइन"
+
+#, fuzzy, c-format
+msgid "fifo '%s' is not ready"
+msgstr "फिफो '%s' तयार छैन"
+
+#, fuzzy, c-format
+msgid "cannot open fifo '%s'"
+msgstr "फिफो ' खोल्न सकिँदैन%s'"
+
+#, fuzzy
+msgid "too large a block specified"
+msgstr "निर्दिष्ट गरिएको खण्ड अति ठूलो छ"
+
+msgid "allocation of fifo name failed"
+msgstr ""
+
+#, c-format
+msgid "cannot open fifo '%s', reason '%s'"
+msgstr ""
+
+msgid "allocation of fifo buffer failed"
+msgstr ""
+
+#, c-format
+msgid "cannot write FIFO '%s'"
+msgstr ""
+
+msgid "allocation of fifo connection failed"
+msgstr ""
+
+#, fuzzy
+msgid "cannot open the connection"
+msgstr "जडान खोल्न सकिँदैन जडान"
+
+#, fuzzy
+msgid "only first element of 'description' argument used"
+msgstr "प्रयोग गरिएको 'वर्णन' तर्कको पहिलो तत्व मात्र"
+
+msgid "fifo(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
+msgstr ""
+
+#, fuzzy
+msgid "fifo connections are not available on this system"
+msgstr "फिफो जडान यो प्रणालीमा उपलब्ध छैन ।"
+
+#, c-format
+msgid "cannot pipe() cmd '%ls': %s"
+msgstr ""
+
+#, c-format
+msgid "cannot open pipe() cmd '%s': %s"
+msgstr ""
+
+#, c-format
+msgid "cannot open compressed file '%s', probable reason '%s'"
+msgstr ""
+
+msgid "whence = \"end\" is not implemented for gzfile connections"
+msgstr ""
+
+msgid "seek on a gzfile connection returned an internal error"
+msgstr ""
+
+msgid "allocation of gzfile connection failed"
+msgstr ""
+
+#, c-format
+msgid "cannot open bzip2-ed file '%s', probable reason '%s'"
+msgstr ""
+
+#, c-format
+msgid "file '%s' appears not to be compressed by bzip2"
+msgstr ""
+
+#, c-format
+msgid "initializing bzip2 compression for file '%s' failed"
+msgstr ""
+
+msgid "allocation of overflow buffer for bzfile failed"
+msgstr ""
+
+#, c-format
+msgid "file '%s' has trailing content that appears not to be compressed by bzip2"
+msgstr ""
+
+msgid "allocation of bzfile connection failed"
+msgstr ""
+
+#, c-format
+msgid "cannot initialize lzma decoder, error %d"
+msgstr ""
+
+#, c-format
+msgid "cannot initialize lzma encoder, error %d"
+msgstr ""
+
+msgid "allocation of xzfile connection failed"
+msgstr ""
+
+msgid "cannot initialize zstd decompressor"
+msgstr ""
+
+#, fuzzy
+msgid "cannot initialize zstd compressor"
+msgstr "ZSTD खुम्च्याउने सुरुआत गर्न सकिँदैन"
+
+msgid "allocation of zstdfile connection failed"
+msgstr ""
+
+#, c-format
+msgid "this is a %s-compressed file which this build of R does not support"
+msgstr ""
+
+msgid "memory allocation to copy clipboard failed"
+msgstr ""
+
+msgid "clipboard cannot be opened or contains no text"
+msgstr ""
+
+#, fuzzy
+msgid "memory allocation to open clipboard failed"
+msgstr "क्लिपबोर्ड खोल्नका लागि स्मृति बाँडपत्र असफल भयो ।"
+
+#, fuzzy
+msgid "unable to open the clipboard"
+msgstr "क्लिपबोर्ड खोल्न सकिएन"
+
+#, fuzzy
+msgid "unable to write to the clipboard"
+msgstr "क्लिपबोर्डमा लेख्न असक्षम"
+
+msgid "attempt to seek outside the range of the clipboard"
+msgstr ""
+
+#, fuzzy
+msgid "clipboard connection is open for reading only"
+msgstr "क्लिपबोर्ड जडान पढ्नका लागि मात्र खुला छ ।"
+
+#, fuzzy
+msgid "clipboard buffer is full and output lost"
+msgstr "क्लिपबोर्ड बफर भरिएको छ र निर्गत हराएको छ"
+
+#, fuzzy
+msgid "'mode' for the clipboard must be 'r' or 'w'"
+msgstr "क्लिपबोर्डका लागि 'मोड' 'r' वा 'w' हुनुपर्दछ"
+
+#, fuzzy
+msgid "'mode' for the clipboard must be 'r' on Unix"
+msgstr "क्लिपबोर्डका लागि 'मोड' युनिक्समा 'आर' हुनुपर्दछ ।"
+
+msgid "allocation of clipboard connection failed"
+msgstr ""
+
+msgid "allocation of terminal connection failed"
+msgstr ""
+
+msgid "attempting to add too many elements to raw vector"
+msgstr ""
+
+msgid "attempt to seek outside the range of the raw connection"
+msgstr ""
+
+msgid "allocation of raw connection failed"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "'%s' is not a %s"
+msgstr "'%s' निष्क्रिय छ।"
+
+#, c-format
+msgid "internal connection is not a %s"
+msgstr ""
+
+msgid "'con' is not an output rawConnection"
+msgstr ""
+
+msgid "too many characters for text connection"
+msgstr ""
+
+msgid "cannot allocate memory for text connection"
+msgstr ""
+
+msgid "seek is not relevant for text connection"
+msgstr ""
+
+msgid "allocation of text connection failed"
+msgstr ""
+
+msgid "text connection: appending to a non-existent char vector"
+msgstr ""
+
+msgid "unsupported mode"
+msgstr ""
+
+msgid "'con' is not an output textConnection"
+msgstr ""
+
+msgid "'con' is not a connection"
+msgstr ""
+
+msgid "cannot open standard connections"
+msgstr ""
+
+msgid "connection is already open"
+msgstr ""
+
+msgid "unknown 'rw' value"
+msgstr ""
+
+#, c-format
+msgid "Problem closing connection:  %s"
+msgstr ""
+
+msgid "Problem closing connection"
+msgstr ""
+
+msgid "cannot close standard connections"
+msgstr ""
+
+msgid "cannot close 'output' sink connection"
+msgstr ""
+
+msgid "cannot close 'message' sink connection"
+msgstr ""
+
+msgid "connection is not open"
+msgstr ""
+
+#, c-format
+msgid "line longer than buffer size %lu"
+msgstr ""
+
+#, c-format
+msgid "Error writing to connection:  %s"
+msgstr ""
+
+msgid "Error writing to connection"
+msgstr ""
+
+#, fuzzy
+msgid "cannot read from this connection"
+msgstr "यो जडानबाट पढ्न सकिँदैन जडान"
+
+msgid "cannot allocate buffer in readLines"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "line %lld appears to contain an embedded nul"
+msgstr "रेखा %llडीले एउटा एम्बेडेड शून्य समावेश गरेको देखिन्छ"
+
+#, c-format
+msgid "incomplete final line found on '%s'"
+msgstr ""
+
+msgid "too few lines read in readLines"
+msgstr ""
+
+msgid "incomplete string at end of file has been discarded"
+msgstr ""
+
+msgid "null terminator not found: breaking string at 10000 bytes"
+msgstr ""
+
+msgid "can only read from a binary connection"
+msgstr ""
+
+msgid "size changing is not supported for complex vectors"
+msgstr ""
+
+#, c-format
+msgid "size %d is unknown on this machine"
+msgstr ""
+
+msgid "raw is always of size 1"
+msgstr ""
+
+msgid "'signed = FALSE' is only valid for integers of sizes 1 and 2"
+msgstr ""
+
+msgid "'x' is not an atomic vector type"
+msgstr ""
+
+msgid "can only write to a binary connection"
+msgstr ""
+
+msgid "only 2^31-1 bytes can be written to a raw vector"
+msgstr ""
+
+msgid "only 2^31-1 bytes can be written in a single writeBin() call"
+msgstr ""
+
+msgid "problem writing to connection"
+msgstr ""
+
+msgid "size changing is not supported for raw vectors"
+msgstr ""
+
+msgid "invalid UTF-8 input in readChar()"
+msgstr ""
+
+#, fuzzy
+msgid "truncating string with embedded nuls"
+msgstr "एम्बेडेड नल्ससँग स्ट्रिङ काट्दै"
+
+#, fuzzy
+msgid "can only read in bytes in a non-UTF-8 MBCS locale"
+msgstr "बाइटमा मात्र पढ्न सकिन्छ एउटा विहिन UTF-8 MBCS लोकेलमा"
+
+#, fuzzy, c-format
+msgid "text connection used with %s(), results may be incorrect"
+msgstr "पाठ %s(जडान) सँग प्रयोग गरिएको छ, परिणाम गलत हुन सक्छ"
+
+#, fuzzy
+msgid "'object' is too short"
+msgstr "'वस्तु' धेरै छोटो छ"
+
+msgid "writeChar: more bytes requested than are in the string - will zero-pad"
+msgstr ""
+
+msgid "writeChar: more characters requested than are in the string - will zero-pad"
+msgstr ""
+
+#, fuzzy
+msgid "maximum number of pushback lines exceeded"
+msgstr "पुशब्याक लाइनको अधिकतम सङ्ख्या नाघ्यो"
+
+#, fuzzy
+msgid "could not allocate space for pushback"
+msgstr "पुसब्याकका लागि खाली स्थान निर्धारण गर्न सकेन"
+
+msgid "can only push back on open readable connections"
+msgstr ""
+
+msgid "can only push back on text-mode connections"
+msgstr ""
+
+msgid "sink stack is full"
+msgstr ""
+
+msgid "cannot switch output to stdin"
+msgstr ""
+
+msgid "no sink to remove"
+msgstr ""
+
+msgid "there is no connection NA"
+msgstr ""
+
+#, c-format
+msgid "there is no connection %d"
+msgstr ""
+
+msgid "method = \"wininet\" is only supported on Windows"
+msgstr ""
+
+msgid "the 'internal' method of url() is defunct for http:// and ftp:// URLs"
+msgstr ""
+
+msgid "file(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
+msgstr ""
+
+#, c-format
+msgid "using 'raw = TRUE' because '%s' is a fifo or pipe"
+msgstr ""
+
+#, c-format
+msgid "'raw = FALSE' but '%s' is not a regular file"
+msgstr ""
+
+#, fuzzy
+msgid "URL scheme unsupported by this method"
+msgstr "यो विधिद्वारा यूआरएल योजना असमर्थित छ"
+
+msgid "file stream does not have gzip magic number"
+msgstr ""
+
+msgid "file stream does not have valid gzip header"
+msgstr ""
+
+msgid "writing error whilst flushing 'gzcon' connection"
+msgstr ""
+
+#, c-format
+msgid "crc error %lx %lx\n"
+msgstr ""
+
+msgid "file stream has trailing content that appears not to be compressed by gzip"
+msgstr ""
+
+msgid "write error on 'gzcon' connection"
+msgstr ""
+
+msgid "'level' must be one of 0 ... 9"
+msgstr ""
+
+msgid "'allowNonCompression' must be TRUE or FALSE"
+msgstr ""
+
+msgid "'text' must be TRUE or FALSE"
+msgstr ""
+
+msgid "this is already a 'gzcon' connection"
+msgstr ""
+
+msgid "can only use read- or write- binary connections"
+msgstr ""
+
+msgid "using a text-mode 'file' connection may not work correctly"
+msgstr ""
+
+msgid "cannot create a 'gzcon' connection from a writable textConnection; maybe use rawConnection"
+msgstr ""
+
+#, fuzzy
+msgid "allocation of 'gzcon' connection failed"
+msgstr "'जिजकोन' को बाँडफाँड जडान असफल"
+
+msgid "not a list of sockets"
+msgstr ""
+
+msgid "bad write indicators"
+msgstr ""
+
+msgid "a server socket connection cannot be writeable"
+msgstr ""
+
+msgid "not a socket connection"
+msgstr ""
+
+msgid "file descriptor is too large for select()"
+msgstr ""
+
+msgid "too many file descriptors for select()"
+msgstr ""
+
+msgid "unknown compression, assuming none"
+msgstr ""
+
+#, c-format
+msgid "allocation of %s connection failed"
+msgstr ""
+
+msgid "no loop for break/next, jumping to top level"
+msgstr ""
+
+msgid "no function to return from, jumping to top level"
+msgstr ""
+
+msgid "target context is not on the stack"
+msgstr ""
+
+msgid "NA argument is invalid"
+msgstr ""
+
+msgid "not that many frames on the stack"
+msgstr ""
+
+msgid "only positive values of 'n' are allowed"
+msgstr ""
+
+msgid "number of contexts must be positive"
+msgstr ""
+
+msgid "no browser context to query"
+msgstr ""
+
+msgid "not that many calls to browser are active"
+msgstr ""
+
+msgid "not that many functions on the call stack"
+msgstr ""
+
+msgid "debug flag in compiled function has no effect"
+msgstr ""
+
+msgid "debug will apply when function leaves compiled code"
+msgstr ""
+
+msgid "internal error in 'do_sys'"
+msgstr ""
+
+msgid "integer overflow in 'cumsum'; use 'cumsum(as.numeric(.))'"
+msgstr ""
+
+msgid "'cummax' not defined for complex numbers"
+msgstr ""
+
+msgid "'cummin' not defined for complex numbers"
+msgstr ""
+
+msgid "'cumvar' not defined for complex numbers"
+msgstr ""
+
+msgid "unknown cumxxx function"
+msgstr ""
+
+msgid "datetimes before 1902 may not be accurate: warns once per session"
+msgstr ""
+
+msgid "problem with unsetting timezone"
+msgstr ""
+
+msgid "problem with setting timezone"
+msgstr ""
+
+msgid "cannot set timezones on this system"
+msgstr ""
+
+msgid "a valid \"POSIXlt\" object is a list of at least 9 elements"
+msgstr ""
+
+msgid "a valid \"POSIXlt\" object has names"
+msgstr ""
+
+#, c-format
+msgid "a valid \"POSIXlt\" object has element %d with name '%s' which should be '%s'"
+msgstr ""
+
+#, c-format
+msgid "a valid \"POSIXlt\" object has a numeric element %s"
+msgstr ""
+
+#, c-format
+msgid "a valid \"POSIXlt\" object has a character element %s"
+msgstr ""
+
+#, c-format
+msgid "invalid '%s'"
+msgstr ""
+
+msgid "attr(x, \"tzone\") should have length 1 or 3"
+msgstr ""
+
+#, c-format
+msgid "zero-length component [[%d]] in non-empty \"POSIXlt\" structure"
+msgstr ""
+
+#, c-format
+msgid "'%s' is not a \"%s\""
+msgstr ""
+
+msgid "could not allocate memory for 'read.dcf'"
+msgstr ""
+
+#, c-format
+msgid "Found continuation line starting '%s ...' at begin of record."
+msgstr ""
+
+#, c-format
+msgid "Line starting '%s ...' is malformed!"
+msgstr ""
+
+msgid "argument must be a function"
+msgstr ""
+
+#, c-format
+msgid "Value for '%s' must be TRUE or FALSE"
+msgstr ""
+
+msgid "argument must not be a function"
+msgstr ""
+
+msgid "cannot trace NULL"
+msgstr ""
+
+msgid "'tracemem' is not useful for promise and environment objects"
+msgstr ""
+
+msgid "'tracemem' is not useful for weak reference or external pointer objects"
+msgstr ""
+
+msgid "R was not compiled with support for memory profiling"
+msgstr ""
+
+msgid "invalid 'cutoff' value for 'deparse', using default"
+msgstr ""
+
+#, fuzzy
+msgid "deparse may be incomplete"
+msgstr "दिपर्स अपूर्ण हुन सक्छ"
+
+#, fuzzy
+msgid "deparse may be not be source()able in R < 2.7.0"
+msgstr "दिपर्स R < 2.7.0 मा स्रोत()सक्षम नहुन सक्छ"
+
+#, fuzzy
+msgid "'file' must be a character string or connection"
+msgstr "'फाइल' एउटा क्यारेक्टर स्ट्रिङ वा जडान हुनुपर्दछ"
+
+msgid "wrote too few characters"
+msgstr ""
+
+msgid "character arguments expected"
+msgstr ""
+
+msgid "zero-length argument"
+msgstr ""
+
+#, fuzzy
+msgid "'opts' should be small non-negative integer"
+msgstr "'अप्ट' सानो ऋणात्मक नभई पूर्णांक हुनुपर्दछ"
+
+#, c-format
+msgid "object '%s' not found"
+msgstr ""
+
+msgid "badly formed function expression"
+msgstr ""
+
+#, fuzzy
+msgid "no active or default device"
+msgstr "सक्रिय वा पूर्वनिर्धारित यन्त्र छैन"
+
+#, fuzzy
+msgid "no active device and default getOption(\"device\") is invalid"
+msgstr "छैन सक्रिय यन्त्र र पूर्वनिर्धारित getOption(\"यन्त्र\") अवैध छ"
+
+msgid "can't shut down a locked device"
+msgstr ""
+
+msgid "too many open devices"
+msgstr ""
+
+msgid "not enough memory to allocate device (in GEcreateDevDesc)"
+msgstr ""
+
+msgid "Hit <Return> to see next plot: "
+msgstr ""
+
+msgid "NULL value passed as symbol address"
+msgstr ""
+
+#, c-format
+msgid "Unimplemented type %d in createRSymbolObject"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "symbol '%s' is too long"
+msgstr "'%s' प्रतीक धेरै लामो छ"
+
+msgid "first argument must be a string (of length 1) or native symbol reference"
+msgstr ""
+
+msgid "too many arguments in foreign function call"
+msgstr ""
+
+#, fuzzy
+msgid "PACKAGE = \"\" is invalid"
+msgstr "प्याकेज = \"\" अवैध छ"
+
+#, c-format
+msgid "\"%s\" not available for %s() for package \"%s\""
+msgstr ""
+
+#, c-format
+msgid "%s symbol name \"%s\" not in DLL for package \"%s\""
+msgstr ""
+
+#, c-format
+msgid "%s symbol name \"%s\" not in load table"
+msgstr ""
+
+#, c-format
+msgid "'%s' used more than once"
+msgstr ""
+
+#, fuzzy
+msgid "DLL name is too long"
+msgstr "DLL नाम अति लामो छ"
+
+msgid "PACKAGE argument must be a single character string"
+msgstr ""
+
+#, fuzzy
+msgid "PACKAGE argument is too long"
+msgstr "प्याकेज तर्क धेरै लामो छ"
+
+#, fuzzy
+msgid "no arguments supplied"
+msgstr "कुनै तर्क छैन"
+
+msgid "too many arguments"
+msgstr ""
+
+msgid "'.NAME' is missing"
+msgstr ""
+
+#, c-format
+msgid "Incorrect number of arguments (%d), expecting %d for '%s'"
+msgstr ""
+
+msgid "too many arguments, sorry"
+msgstr ""
+
+#, fuzzy
+msgid "invalid graphics state"
+msgstr "अवैध ग्राफिक्स स्थिति"
+
+msgid "NULL value for DLLInfoReference when looking for DLL"
+msgstr ""
+
+msgid "DLL requires the use of native symbols"
+msgstr ""
+
+#, c-format
+msgid "wrong type for argument %d in call to %s"
+msgstr ""
+
+#, c-format
+msgid "long vectors (argument %d) are not supported in %s"
+msgstr ""
+
+#, c-format
+msgid "NAs in foreign function call (arg %d)"
+msgstr ""
+
+#, c-format
+msgid "NA/NaN/Inf in foreign function call (arg %d)"
+msgstr ""
+
+#, c-format
+msgid "complex NA/NaN/Inf in foreign function call (arg %d)"
+msgstr ""
+
+#, c-format
+msgid "invalid mode (%s) to pass to Fortran (arg %d)"
+msgstr ""
+
+#, c-format
+msgid "invalid mode (%s) to pass to C or Fortran (arg %d)"
+msgstr ""
+
+#, fuzzy
+msgid "pairlists are passed as SEXP as from R 2.15.0"
+msgstr "जोडीसूचीहरू R 2.15.0 बाट SEXP को रूपमा पारित गरिएको छ"
+
+#, c-format
+msgid "skipped \"../\" path component(s) in '%s'"
+msgstr ""
+
+#, fuzzy, c-format
+msgid " not overwriting file '%s"
+msgstr " फाइल नलेखेको '%s"
+
+#, c-format
+msgid "zip file '%s' cannot be opened"
+msgstr ""
+
+msgid "invalid zip name argument"
+msgstr ""
+
+msgid "zip path is too long"
+msgstr ""
+
+msgid "'exdir' is too long"
+msgstr ""
+
+msgid "'exdir' does not exist"
+msgstr ""
+
+#, fuzzy
+msgid "requested file not found in the zip file"
+msgstr "अनुरोध गरिएको फाइल जिप फाइल फेला परेन"
+
+#, fuzzy
+msgid "zip file is corrupt"
+msgstr "जिप फाइल दूषित छ"
+
+#, fuzzy
+msgid "CRC error in zip file"
+msgstr "जिप फाइल मा CRC त्रुटि"
+
+msgid "write error in extracting from zip file"
+msgstr ""
+
+#, c-format
+msgid "error %d in extracting from zip file"
+msgstr ""
+
+msgid "unz connections can only be opened for reading"
+msgstr ""
+
+msgid "invalid description of 'unz' connection"
+msgstr ""
+
+#, c-format
+msgid "cannot open zip file '%s'"
+msgstr ""
+
+#, c-format
+msgid "cannot locate file '%s' in zip file '%s'"
+msgstr ""
+
+msgid "printing not enabled for this connection"
+msgstr ""
+
+msgid "write not enabled for this connection"
+msgstr ""
+
+msgid "allocation of 'unz' connection failed"
+msgstr ""
+
+msgid "invalid formal arguments for 'function'"
+msgstr ""
+
+msgid "invalid body argument for 'function'"
+msgstr ""
+
+msgid "invalid argument to edit()"
+msgstr ""
+
+msgid "unable to open file"
+msgstr ""
+
+msgid "argument 'editor' type not valid"
+msgstr ""
+
+msgid "argument 'editor' is not set"
+msgstr ""
+
+msgid "'title' must be a string"
+msgstr ""
+
+#, c-format
+msgid "unable to run editor '%s'"
+msgstr ""
+
+msgid "editor ran but returned error status"
+msgstr ""
+
+#, c-format
+msgid "problem with running editor %s"
+msgstr ""
+
+msgid "unable to open file to read"
+msgstr ""
+
+#, c-format
+msgid ""
+"%s occurred on line %d\n"
+" use a command like\n"
+" x <- edit()\n"
+" to recover"
+msgstr ""
+
+#, fuzzy
+msgid "Graphics API version mismatch"
+msgstr "ग्राफिक्स API संस्करण बेमेल"
+
+msgid "unable to allocate memory (in GEregister)"
+msgstr ""
+
+msgid "too many graphics systems registered"
+msgstr ""
+
+#, fuzzy
+msgid "no graphics system to unregister"
+msgstr "दर्ता हटाउनका लागि ग्राफिक्स प्रणाली छैन"
+
+msgid "invalid line end"
+msgstr ""
+
+msgid "invalid line join"
+msgstr ""
+
+msgid "'lwd' must be non-negative and finite"
+msgstr ""
+
+msgid "out of memory while clipping polyline"
+msgstr ""
+
+msgid "Clipping polygon that does not need clipping"
+msgstr ""
+
+msgid "path rendering is not implemented for this device"
+msgstr ""
+
+msgid "Invalid graphics path"
+msgstr ""
+
+msgid "raster rendering is not implemented for this device"
+msgstr ""
+
+msgid "raster capture is not available for this device"
+msgstr ""
+
+#, c-format
+msgid "font face %d not supported for font family '%s'"
+msgstr ""
+
+msgid "no graphics device is active"
+msgstr ""
+
+#, c-format
+msgid "pch value '%d' is invalid in this locale"
+msgstr ""
+
+#, c-format
+msgid "unimplemented pch value '%d'"
+msgstr ""
+
+#, c-format
+msgid "invalid axis extents [GEPretty(.,.,n=%d)"
+msgstr ""
+
+#, c-format
+msgid "non-finite axis extents [GEPretty(%g,%g, n=%d)]"
+msgstr ""
+
+#, c-format
+msgid " new *lo = %g < %g = x1"
+msgstr ""
+
+#, c-format
+msgid " new *up = %g > %g = x2"
+msgstr ""
+
+msgid "display list redraw incomplete"
+msgstr ""
+
+msgid "invalid display list"
+msgstr ""
+
+#, c-format
+msgid "snapshot recorded with different graphics engine version (pre 11 - this is version %d)"
+msgstr ""
+
+#, c-format
+msgid "snapshot recorded with different graphics engine version (%d - this is version %d)"
+msgstr ""
+
+msgid "'expr' argument must be an expression"
+msgstr ""
+
+msgid "'list' argument must be a list"
+msgstr ""
+
+msgid "'env' argument must be an environment"
+msgstr ""
+
+msgid "invalid multibyte char in pch=\"c\""
+msgstr ""
+
+msgid "invalid hex digit in 'color' or 'lty'"
+msgstr ""
+
+#, fuzzy
+msgid "invalid line type: must be length 2, 4, 6 or 8"
+msgstr "अवैध रेखा प्रकार: लम्बाइ २, ४, ६ वा ८ हुनुपर्दछ"
+
+#, fuzzy
+msgid "invalid line type: zeroes are not allowed"
+msgstr "अवैध रेखा प्रकार: शून्यहरूलाई अनुमति छैन"
+
+#, fuzzy
+msgid "invalid line type"
+msgstr "अवैध रेखा प्रकार"
+
+#, fuzzy
+msgid "Stroke ignored (device is appending path)"
+msgstr "स्ट्रोक उपेक्षा गरियो (यन्त्रले बाटो थप्दै छ)"
+
+#, fuzzy
+msgid "Fill ignored (device is appending path)"
+msgstr "उपेक्षा गरिएको भर्नुहोस् (यन्त्रले बाटो थप्दै छ)"
+
+#, fuzzy
+msgid "FillStroke ignored (device is appending path)"
+msgstr "फिलस्ट्रोक उपेक्षा गरियो (यन्त्रले बाटो थप्दै छ)"
+
+msgid "Index out of bounds"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "cannot change value of locked binding for '%s'"
+msgstr "'%s' का लागि ताल्चा लगाइएको बन्धन मान परिवर्तन गर्न सकिँदैन ।"
+
+msgid "cannot add bindings to a locked environment"
+msgstr ""
+
+msgid "cycle detected in promise chain"
+msgstr ""
+
+msgid "not a symbol"
+msgstr ""
+
+msgid "not an environment"
+msgstr ""
+
+#, fuzzy
+msgid "cannot unbind in the base namespace"
+msgstr "आधार नामस्थानमा अनबाइन्ड गर्न सकिँदैन"
+
+#, fuzzy
+msgid "unbind in the base environment is unimplemented"
+msgstr "आधार वातावरण मा अनबाइन्ड कार्यान्वयन गरिएको छैन"
+
+msgid "cannot remove bindings from a locked environment"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "argument to '%s' is not an environment"
+msgstr "'La.svd' मा आर्गुमेन्ट numeric वा complex हुनुपर्छ"
+
+#, c-format
+msgid "indexing '...' with non-positive index %d"
+msgstr ""
+
+#, fuzzy
+msgid "bad ... value"
+msgstr "खराब मान"
+
+#, c-format
+msgid "the ... list contains fewer than %d element"
+msgid_plural "the ... list contains fewer than %d elements"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "..%d used in an incorrect context, no ... to look in"
+msgstr ""
+
+msgid "indexing '...' with an invalid index"
+msgstr ""
+
+msgid "incorrect context: the current call has no '...' to look in"
+msgstr ""
+
+msgid "not a delayed ... element"
+msgstr ""
+
+msgid "not a forced ... element"
+msgstr ""
+
+msgid "cannot assign values in the empty environment"
+msgstr ""
+
+#, fuzzy
+msgid "cannot assign variables to this database"
+msgstr "यो डाटाबेसमा चल मानाङ्कन गर्न सकिँदैन"
+
+#, fuzzy, c-format
+msgid "cannot add binding of '%s' to the base environment"
+msgstr "आधारमा '%s' थप्नुहोस् बन्धन गर्न सकिँदैन वातावरण"
+
+msgid "only the first element is used as variable name"
+msgstr ""
+
+msgid "first argument must be a named list"
+msgstr ""
+
+msgid "names(x) must be a character vector of the same length as x"
+msgstr ""
+
+msgid "'envir' argument must be an environment"
+msgstr ""
+
+msgid "cannot remove variables from base namespace"
+msgstr ""
+
+msgid "cannot remove variables from the base environment"
+msgstr ""
+
+msgid "cannot remove variables from the empty environment"
+msgstr ""
+
+msgid "cannot remove variables from this database"
+msgstr ""
+
+#, c-format
+msgid "invalid '%s' argument '%s'"
+msgstr ""
+
+#, fuzzy
+msgid "first argument has length > 1"
+msgstr "पहिलो तर्क लम्बाइ > 1 छ"
+
+#, fuzzy, c-format
+msgid "invalid name in position %d"
+msgstr "अवैध स्थानमा नाम %d"
+
+#, fuzzy
+msgid "second argument must be an environment"
+msgstr "दोस्रो तर्क एक वातावरण हुनुपर्दछ"
+
+#, fuzzy, c-format
+msgid "first argument to '%s' must be a symbol"
+msgstr "'La.svd' मा आर्गुमेन्ट numeric वा complex हुनुपर्छ"
+
+#, fuzzy, c-format
+msgid "second argument to '%s' must be an environment"
+msgstr "'La.svd' मा आर्गुमेन्ट numeric वा complex हुनुपर्छ"
+
+#, fuzzy, c-format
+msgid "'missing(%s)' did not find an argument"
+msgstr "'मिसिंग(%s)' ले खोज्नु तर्क"
+
+msgid "invalid use of 'missing'"
+msgstr ""
+
+msgid "'pos' must be an integer"
+msgstr ""
+
+msgid "all elements of a list must be named"
+msgstr ""
+
+msgid "'attach' only works for lists, data frames and environments"
+msgstr ""
+
+msgid "detaching \"package:base\" is not allowed"
+msgstr ""
+
+#, fuzzy
+msgid "argument must be an environment"
+msgstr "तर्क एक वातावरण हुनुपर्दछ"
+
+msgid "arguments must be symbolic"
+msgstr ""
+
+#, fuzzy
+msgid "no enclosing environment"
+msgstr "वातावरण घेर्ने छैन"
+
+#, fuzzy, c-format
+msgid "no item called \"%s\" on the search list"
+msgstr "छैन वस्तु खोजी सूचीमा \"%s\" भनिन्छ"
+
+#, fuzzy
+msgid "using 'as.environment(NULL)' is defunct"
+msgstr "'को रूपमा प्रयोग गर्दै। 'वातावरण(NULL) निष्क्रिय छ"
+
+#, fuzzy
+msgid "S4 object does not extend class \"environment\""
+msgstr "S4 वस्तुले क्लास \"वातावरण\" विस्तार गर्दैन"
+
+#, fuzzy
+msgid "invalid object for 'as.environment'"
+msgstr "'को रूपमा अवैध वस्तु । वातावरण'"
+
+#, c-format
+msgid "no binding for \"%s\""
+msgstr ""
+
+msgid "not a function"
+msgstr ""
+
+msgid "symbol already has a regular binding"
+msgstr ""
+
+msgid "cannot change active binding if binding is locked"
+msgstr ""
+
+#, fuzzy
+msgid "unbound variable"
+msgstr "खराब चल नामहरू"
+
+msgid "not a delayed or forced binding"
+msgstr ""
+
+msgid "not a delayed binding"
+msgstr ""
+
+msgid "not a forced binding"
+msgstr ""
+
+#, c-format
+msgid "no active binding for \"%s\""
+msgstr ""
+
+msgid "unknown op"
+msgstr ""
+
+msgid "cannot unbind a locked binding"
+msgstr ""
+
+msgid "cannot unbind an active binding"
+msgstr ""
+
+msgid "bad namespace name"
+msgstr ""
+
+msgid "namespace already registered"
+msgstr ""
+
+msgid "namespace not registered"
+msgstr ""
+
+msgid "bad variable name"
+msgstr ""
+
+msgid "bad namespace"
+msgstr ""
+
+#, c-format
+msgid "'%s' is not an exported object from 'namespace:%s'"
+msgstr ""
+
+msgid "bad import environment argument"
+msgstr ""
+
+msgid "bad export environment argument"
+msgstr ""
+
+msgid "length of import and export names must match"
+msgstr ""
+
+#, c-format
+msgid "exported symbol '%s' has no value"
+msgstr ""
+
+#, c-format
+msgid "unknown encoding: %d"
+msgstr ""
+
+#, c-format
+msgid "embedded nul in string: '%s'"
+msgstr ""
+
+msgid "interrupts suspended; signal ignored"
+msgstr ""
+
+msgid "[... truncated]"
+msgstr ""
+
+msgid "invalid option \"warning.expression\""
+msgstr ""
+
+#, c-format
+msgid "(converted from warning) %s"
+msgstr ""
+
+msgid "Warning:"
+msgstr ""
+
+#, c-format
+msgid "Warning in %s :"
+msgstr ""
+
+msgid "Calls:"
+msgstr ""
+
+msgid "Lost warning messages\n"
+msgstr ""
+
+msgid "Warning message:"
+msgid_plural "Warning messages:"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "In %s :"
+msgstr ""
+
+#, c-format
+msgid "There was %d warning (use warnings() to see it)"
+msgid_plural "There were %d warnings (use warnings() to see them)"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "There were %d or more warnings (use warnings() to see the first %d)"
+msgstr ""
+
+msgid "Error during wrapup: "
+msgstr ""
+
+msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
+msgstr ""
+
+msgid "Error in "
+msgstr ""
+
+#, fuzzy, c-format
+msgid "Error in %s (from %s) : "
+msgstr "%s मा त्रुटि (%sबाट): "
+
+#, fuzzy, c-format
+msgid "Error in %s : "
+msgstr "%s त्रुटि : "
+
+#, fuzzy
+msgid "Error: "
+msgstr "त्रुटि: "
+
+#, fuzzy
+msgid "In addition: "
+msgstr "साथै: "
+
+msgid "invalid option \"error\"\n"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "'%s' must be a character string"
+msgstr "'%s' एउटा क्यारेक्टर स्ट्रिङ"
+
+msgid " [invalid string in stop(.)]"
+msgstr ""
+
+msgid " [invalid string in warning(.)]"
+msgstr ""
+
+#, c-format
+msgid "incorrect number of arguments to \"%s\""
+msgstr ""
+
+#, c-format
+msgid "unimplemented feature in %s"
+msgstr ""
+
+#, fuzzy
+msgid "invalid number of arguments"
+msgstr "तर्कहरूको अवैध सङ्ख्या"
+
+#, fuzzy
+msgid "invalid argument type"
+msgstr "अवैध तर्क प्रकार"
+
+#, fuzzy
+msgid "time-series/vector length mismatch"
+msgstr "समय-श्रृङ्खला/भेक्टर लम्बाइ बेमेल"
+
+msgid "incompatible arguments"
+msgstr ""
+
+msgid "unknown error (report this!)"
+msgstr ""
+
+#, fuzzy
+msgid "inaccurate integer conversion in coercion"
+msgstr "जबरजस्ती गलत पूर्णांक रूपान्तरण"
+
+#, fuzzy
+msgid "unknown warning (report this!)"
+msgstr "अज्ञात चेतावनी (यो प्रतिवेदन गर्नुहोस्!)"
+
+msgid "bad handler data"
+msgstr ""
+
+#, fuzzy
+msgid "error message not a string"
+msgstr "त्रुटि सन्देश स्ट्रिङ होइन"
+
+msgid "handler or restart stack mismatch in old restart"
+msgstr ""
+
+msgid "bad error message"
+msgstr ""
+
+#, fuzzy
+msgid "bad restart"
+msgstr "खराब पुन: सुरु गर्नुहोस्"
+
+#, fuzzy
+msgid "restart not on stack"
+msgstr "थाकमा पुन: सुरु नगर्नुहोस्"
+
+#, fuzzy
+msgid "not in a try context"
+msgstr "प्रयास सन्दर्भमा होइन"
+
+#, fuzzy
+msgid "error message must be a character string"
+msgstr "त्रुटि सन्देश क्यारेक्टर क्यारेक्टर स्ट्रिङ हुनुपर्दछ"
+
+msgid "condition object must be a VECSXP of length at least one"
+msgstr ""
+
+msgid "first element of condition object must be a scalar string"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "argument \"%s\" is missing, with no default"
+msgstr "तर्क \"%s\" छुटेको छ र छैन छैन"
+
+msgid "argument is missing, with no default"
+msgstr ""
+
+#, c-format
+msgid "object '%s' of mode '%s' was not found"
+msgstr ""
+
+#, c-format
+msgid "could not find function \"%s\""
+msgstr ""
+
+#, c-format
+msgid "partial match of '%s' to '%s'"
+msgstr ""
+
+#, c-format
+msgid "partial argument match of '%s' to '%s'"
+msgstr ""
+
+msgid "protect(): protection stack overflow"
+msgstr ""
+
+msgid "evaluation nested too deeply: infinite recursion / options(expressions=)?"
+msgstr ""
+
+msgid "node stack overflow"
+msgstr ""
+
+msgid "samples too large for I/O buffer skipped by Rprof"
+msgstr ""
+
+#, c-format
+msgid "source files skipped by Rprof; please increase '%s'"
+msgstr ""
+
+#, c-format
+msgid "Rprof: cannot open profile file '%s'"
+msgstr ""
+
+#, c-format
+msgid "interval too short for this platform, using '%f'"
+msgstr ""
+
+#, c-format
+msgid "interval too short, using '%f'"
+msgstr ""
+
+msgid "R profiling is not available on this system"
+msgstr ""
+
+msgid "promise already under evaluation: recursive default argument reference or earlier problems?"
+msgstr ""
+
+msgid "restarting interrupted promise evaluation"
+msgstr ""
+
+#, fuzzy
+msgid "attempt to apply non-function"
+msgstr "प्रकार्य नभएको लागू गर्ने प्रयास गर्नुहोस्"
+
+#, c-format
+msgid "%s at %s#%d: "
+msgstr ""
+
+#, fuzzy, c-format
+msgid "argument %d is empty"
+msgstr "तर्क %d खाली छ"
+
+#, c-format
+msgid "could not find symbol \"%s\" in environment of the generic function"
+msgstr ""
+
+#, c-format
+msgid "symbol \"%s\" not in environment of method"
+msgstr ""
+
+msgid "the condition has length > 1"
+msgstr ""
+
+msgid "missing value where TRUE/FALSE needed"
+msgstr ""
+
+msgid "argument is not interpretable as logical"
+msgstr ""
+
+msgid "argument is of length zero"
+msgstr ""
+
+msgid "non-symbol loop variable"
+msgstr ""
+
+msgid "invalid for() loop sequence"
+msgstr ""
+
+msgid "multi-argument returns are not permitted"
+msgstr ""
+
+msgid "\"expr\" must be a call expression"
+msgstr ""
+
+msgid "invalid (NULL) left side of assignment"
+msgstr ""
+
+msgid "target of assignment expands to non-language object"
+msgstr ""
+
+#, c-format
+msgid "overlong name in '%s'"
+msgstr ""
+
+msgid "cannot do complex assignments in base namespace"
+msgstr ""
+
+msgid "cannot do complex assignments in base environment"
+msgstr ""
+
+msgid "existing `*tmp*` binding is locked"
+msgstr ""
+
+msgid "existing `*tmp*` binding is an active binding"
+msgstr ""
+
+msgid "invalid function in complex assignment"
+msgstr ""
+
+msgid "invalid (do_set) left-hand side to assignment"
+msgstr ""
+
+#, c-format
+msgid "'%s' is missing"
+msgstr ""
+
+#, c-format
+msgid "invalid formal argument list for \"%s\""
+msgstr ""
+
+#, c-format
+msgid "invalid '%s' argument of type '%s'"
+msgstr ""
+
+msgid "numeric 'envir' arg not of length one"
+msgstr ""
+
+msgid "'Recall' called from outside a closure"
+msgstr ""
+
+msgid "value in '...' is not a promise"
+msgstr ""
+
+#, c-format
+msgid "Incompatible methods (\"%s\", \"%s\") for \"%s\""
+msgstr ""
+
+msgid "dispatch error in group dispatch"
+msgstr ""
+
+#, c-format
+msgid "\"%s\" is not a %s function"
+msgstr ""
+
+msgid "bad opcode"
+msgstr ""
+
+#, c-format
+msgid "invalid %s type in 'x %s y'"
+msgstr ""
+
+msgid "byte code version mismatch"
+msgstr ""
+
+msgid "invalid sequence argument in for loop"
+msgstr ""
+
+#, c-format
+msgid "there is no .Internal function '%s'"
+msgstr ""
+
+msgid "bad function"
+msgstr ""
+
+msgid "not a BUILTIN function"
+msgstr ""
+
+msgid "bad numeric 'switch' offsets"
+msgstr ""
+
+msgid "numeric EXPR required for 'switch' without named alternatives"
+msgstr ""
+
+msgid "bad character 'switch' offsets"
+msgstr ""
+
+msgid "cannot find index for threaded code address"
+msgstr ""
+
+msgid "invalid body"
+msgstr ""
+
+msgid "invalid symbol"
+msgstr ""
+
+msgid "argument is not a byte code object"
+msgstr ""
+
+msgid "constant buffer must be a generic vector"
+msgstr ""
+
+msgid "bad constant count"
+msgstr ""
+
+msgid "profile timer in use"
+msgstr ""
+
+#, fuzzy
+msgid "already byte code profiling"
+msgstr "पहिले नै बाइट कोड प्रोफाइल"
+
+#, fuzzy
+msgid "setting profile timer failed"
+msgstr "प्रोफाइल टाइमर सेटिङ असफल भयो"
+
+#, fuzzy
+msgid "not byte code profiling"
+msgstr "बाइट कोड प्रोफाइलिङ होइन"
+
+msgid "byte code profiling is not supported in this build"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "'%s' is not of type %s"
+msgstr "'%s' निष्क्रिय छ।"
+
+#, fuzzy, c-format
+msgid "'%s' events not supported in this device"
+msgstr "यो यन्त्रमा '%s' घटना समर्थित छैन"
+
+#, fuzzy
+msgid "internal error"
+msgstr "आन्तरिक त्रुटि"
+
+#, fuzzy
+msgid "this graphics device does not support event handling"
+msgstr "यो ग्राफिक्स यन्त्रले घटना ह्यान्डलिङ समर्थन गर्दैन ।"
+
+#, fuzzy
+msgid "invalid prompt"
+msgstr "अवैध प्रोम्प्ट"
+
+#, fuzzy
+msgid "recursive use of 'getGraphicsEvent' not supported"
+msgstr "'getGraphicsEvent' को पुनरावृतिक प्रयोग समर्थित छैन"
+
+msgid "no graphics event handlers set"
+msgstr ""
+
+#, c-format
+msgid "invalid multibyte character in parser (%s:%d:%d)"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "input buffer overflow (%s:%d:%d)"
+msgstr "input बफर ओभरफ्लो (%s:%d:%d)"
+
+#, c-format
+msgid "function '%s' not supported in RHS call of a pipe (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "pipe placeholder may only appear once (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "The pipe operator requires a function call as RHS (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "RHS variable must be a symbol (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "pipe placeholder cannot be used in the RHS function (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "pipe placeholder can only be used as a named argument (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "'=>' is disabled; set '_R_USE_PIPEBIND_' envvar to a true value to enable it (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "incorrect tag type (%s:%d:%d)"
+msgstr ""
+
+msgid "allocation of source reference state failed"
+msgstr ""
+
+#, c-format
+msgid "invalid use of pipe placeholder (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "invalid use of pipe bind symbol (%s:%d:%d)"
+msgstr ""
+
+msgid "out of memory while parsing"
+msgstr ""
+
+#, c-format
+msgid "contextstack overflow (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "unexpected input"
+msgstr ""
+
+#, c-format
+msgid "unexpected end of input"
+msgstr ""
+
+#, c-format
+msgid "unexpected string constant"
+msgstr ""
+
+#, c-format
+msgid "unexpected numeric constant"
+msgstr ""
+
+#, c-format
+msgid "unexpected symbol"
+msgstr ""
+
+#, c-format
+msgid "unexpected assignment"
+msgstr ""
+
+#, c-format
+msgid "unexpected end of line"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "unexpected %s"
+msgstr "अनपेक्षित %s"
+
+#, c-format
+msgid "repeated formal argument '%s' (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "integer literal %s contains decimal; using numeric value"
+msgstr ""
+
+#, c-format
+msgid "non-integer value %s qualified with L; using numeric value"
+msgstr ""
+
+#, c-format
+msgid "integer literal %s contains unnecessary decimal point"
+msgstr ""
+
+#, c-format
+msgid "invalid multibyte character (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "bidi formatting not allowed, use escapes instead (\\u%04x) (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "nul character not allowed (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "\\%o exceeds maximum allowed octal value \\377 (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "'\\x' used without hex digits in character string (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "\\uxxxx sequences not supported inside backticks (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "'\\u' used without hex digits in character string (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "invalid \\u{xxxx} sequence (line %d)"
+msgstr ""
+
+#, c-format
+msgid "\\Uxxxxxxxx sequences not supported inside backticks (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "'\\U' used without hex digits in character string (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "invalid \\U{xxxxxxxx} sequence (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "invalid \\U{xxxxxxxx} value %6x (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "invalid \\Uxxxxxxxx value %6x (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "'\\%s' is an unrecognized escape in character string (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "mixing Unicode and octal/hex escapes in a string is not allowed (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid ""
+"string containing Unicode escapes not in this locale\n"
+"is too long (max 10000 chars) (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "malformed raw string literal (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "internal parser error (%s:%d:%d)"
+msgstr ""
+
+#, c-format
+msgid "axis(%d, *): range of values (%5.2g) is small wrt |M| = %7.2g --> not pretty()"
+msgstr ""
+
+#, c-format
+msgid "TRE pattern compilation error '%s'"
+msgstr ""
+
+#, c-format
+msgid "invalid regular expression '%s', reason '%s'"
+msgstr ""
+
+#, c-format
+msgid "invalid regular expression, reason '%s'"
+msgstr ""
+
+#, c-format
+msgid ""
+"PCRE error\n"
+"\t'%s'\n"
+"\tfor element %d"
+msgstr ""
+
+#, c-format
+msgid ""
+"PCRE pattern compilation error\n"
+"\t'%s'\n"
+"\tat '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "invalid regular expression '%s'"
+msgstr ""
+
+#, c-format
+msgid ""
+"PCRE JIT compilation error\n"
+"\t'%s'"
+msgstr ""
+
+#, c-format
+msgid ""
+"PCRE pattern study error\n"
+"\t'%s'\n"
+msgstr ""
+
+#, c-format
+msgid "input string %lld is invalid UTF-8"
+msgstr ""
+
+#, c-format
+msgid "'split' string %lld is invalid UTF-8"
+msgstr ""
+
+#, c-format
+msgid "'split' string %lld is invalid in this locale"
+msgstr ""
+
+#, c-format
+msgid "'split' string %lld is invalid"
+msgstr ""
+
+#, c-format
+msgid "input string %lld is invalid"
+msgstr ""
+
+msgid "regular expression is invalid"
+msgstr ""
+
+msgid "regular expression is invalid UTF-8"
+msgstr ""
+
+msgid "pattern matches an empty string infinitely, returning first match only"
+msgstr ""
+
+#, fuzzy
+msgid "result string is too long"
+msgstr "परिणाम स्ट्रिङ धेरै लामो छ"
+
+msgid "'pattern' is invalid"
+msgstr ""
+
+msgid "'replacement' is invalid"
+msgstr ""
+
+msgid "'pattern' is invalid UTF-8"
+msgstr ""
+
+msgid "'replacement' is invalid UTF-8"
+msgstr ""
+
+msgid "'pattern' is invalid in this locale"
+msgstr ""
+
+msgid "'replacement' is invalid in this locale"
+msgstr ""
+
+msgid "zero-length pattern"
+msgstr ""
+
+#, c-format
+msgid "'pcre2_patterninfo' returned '%d' "
+msgstr ""
+
+#, c-format
+msgid "'pcre_fullinfo' returned '%d' "
+msgstr ""
+
+msgid "ignoring non-pairlist attributes"
+msgstr ""
+
+msgid "internet routines cannot be accessed in module"
+msgstr ""
+
+msgid "internet routines cannot be loaded"
+msgstr ""
+
+msgid "socket routines cannot be loaded"
+msgstr ""
+
+msgid "maxlen must be non-negative"
+msgstr ""
+
+msgid "attempt to close invalid socket"
+msgstr ""
+
+msgid "LAPACK routines cannot be accessed in module"
+msgstr ""
+
+msgid "LAPACK routines cannot be loaded"
+msgstr ""
+
+msgid "operations are possible only for numeric, logical or complex types"
+msgstr ""
+
+#, c-format
+msgid "'%s' operator requires 2 arguments"
+msgstr ""
+
+#, c-format
+msgid "invalid 'x' type in 'x %s y'"
+msgstr ""
+
+#, c-format
+msgid "invalid 'y' type in 'x %s y'"
+msgstr ""
+
+msgid "Unary operator `!' called with two arguments"
+msgstr ""
+
+#, c-format
+msgid "coercing argument of type '%s' to logical"
+msgstr ""
+
+msgid "dummy - do not translate"
+msgstr ""
+
+msgid "error during cleanup\n"
+msgstr ""
+
+msgid "Execution halted\n"
+msgstr ""
+
+msgid "Error: segfault from C stack overflow\n"
+msgstr ""
+
+msgid "unable to open the base package\n"
+msgstr ""
+
+#, c-format
+msgid "unable to restore saved data in %s\n"
+msgstr ""
+
+msgid "During startup - "
+msgstr ""
+
+msgid "unable to initialize the JIT\n"
+msgstr ""
+
+msgid "non-interactive browser() -- left over from debugging?"
+msgstr ""
+
+msgid "cannot quit from browser"
+msgstr ""
+
+msgid "one of \"yes\", \"no\", \"ask\" or \"default\" expected."
+msgstr ""
+
+msgid "save=\"ask\" in non-interactive use: command-line default will be used"
+msgstr ""
+
+msgid "unrecognized value of 'save'"
+msgstr ""
+
+#, fuzzy
+msgid "invalid 'status', 0 assumed"
+msgstr "अवैध 'वस्तुस्थिति', ० ले ग्रहण गरेको छ"
+
+#, fuzzy
+msgid "invalid 'runLast', FALSE assumed"
+msgstr "अवैध 'रनलास्ट', गलत मानिएको छ"
+
+#, fuzzy
+msgid "cannot allocate space for toplevel callback element"
+msgstr "माथिल्लो स्तर कलब्याक तत्वका लागि खाली स्थान बाँडफाँड गर्न सकिँदैन"
+
+msgid "negative index passed to R_removeTaskCallbackByIndex"
+msgstr ""
+
+#, c-format
+msgid "warning messages from top-level task callback '%s'\n"
+msgstr ""
+
+msgid "top-level task callback did not return a logical value"
+msgstr ""
+
+msgid "argument 'MoreArgs' of 'mapply' is not a list or pairlist"
+msgstr ""
+
+msgid "longer argument not a multiple of length of shorter"
+msgstr ""
+
+msgid "invalid partial string match"
+msgstr ""
+
+#, c-format
+msgid "formal argument \"%s\" matched by multiple actual arguments"
+msgstr ""
+
+#, c-format
+msgid "argument %d matches multiple formal arguments"
+msgstr ""
+
+#, c-format
+msgid "unused argument %s"
+msgid_plural "unused arguments %s"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "a limit lower than current usage, so ignored"
+msgstr ""
+
+msgid "can only weakly reference/finalize reference objects"
+msgstr ""
+
+msgid "finalizer must be a function or NULL"
+msgstr ""
+
+msgid "not a weak reference"
+msgstr ""
+
+msgid "first argument must be environment or external pointer"
+msgstr ""
+
+msgid "second argument must be a function"
+msgstr ""
+
+msgid "third argument must be 'TRUE' or 'FALSE'"
+msgstr ""
+
+msgid "vector memory exhausted"
+msgstr ""
+
+#, c-format
+msgid "vector memory limit of %0.1f %s reached, see mem.maxVSize()"
+msgstr ""
+
+msgid "cons memory exhausted"
+msgstr ""
+
+#, c-format
+msgid "cons memory limit of %llu nodes reached, see mem.maxNSize()"
+msgstr ""
+
+msgid "memory exhausted"
+msgstr ""
+
+#, c-format
+msgid "cannot allocate memory block of size %0.f %s"
+msgstr ""
+
+#, c-format
+msgid "cannot allocate memory block of size %0.1f %s"
+msgstr ""
+
+#, c-format
+msgid "cannot allocate vector of length %lld"
+msgstr ""
+
+msgid "negative length vectors are not allowed"
+msgstr ""
+
+#, c-format
+msgid "invalid type/length (%s/%lld) in vector allocation"
+msgstr ""
+
+#, c-format
+msgid "cannot allocate vector of size %0.1f %s"
+msgstr ""
+
+#, c-format
+msgid "cannot allocate vector of size %0.f %s"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "unprotect(): only %d protected item"
+msgid_plural "unprotect(): only %d protected items"
+msgstr[0] "अरक्षित(): %d मात्र सुरक्षित वस्तु"
+msgstr[1] "अनप्रोटेक्ट (): वस्तु सुरक्षित %d मात्र"
+
+#, fuzzy
+msgid "unprotect_ptr: pointer not found"
+msgstr "unprotect_ptr: सूचक फेला परेन"
+
+#, c-format
+msgid "R_Reprotect: only %d protected item, can't reprotect index %d"
+msgid_plural "R_Reprotect: only %d protected items, can't reprotect index %d"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "'R_Calloc' could not allocate memory (%llu of %llu bytes)"
+msgstr ""
+
+#, c-format
+msgid "'R_Realloc' could not re-allocate memory (%llu bytes)"
+msgstr ""
+
+#, c-format
+msgid "object is too large (%llu bytes)"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "%s: argument of type %s is not an external pointer"
+msgstr "'La.svd' मा आर्गुमेन्ट numeric वा complex हुनुपर्छ"
+
+#, c-format
+msgid "can't change type from %s to %s"
+msgstr ""
+
+#, c-format
+msgid "can't change the type of an ALTREP object from %s to %s"
+msgstr ""
+
+msgid "can't change the type of a binding cell"
+msgstr ""
+
+#, c-format
+msgid "SETLENGTH() can only be applied to a standard vector, not a '%s'"
+msgstr ""
+
+#, c-format
+msgid "attempt access index %lld/%lld in STRING_ELT"
+msgstr ""
+
+#, c-format
+msgid "attempt access index %lld/%lld in VECTOR_ELT"
+msgstr ""
+
+#, c-format
+msgid "attempt to set index %lld/%lld in SET_STRING_ELT"
+msgstr ""
+
+#, c-format
+msgid "attempt to set index %lld/%lld in SET_VECTOR_ELT"
+msgstr ""
+
+#, fuzzy
+msgid "bad value"
+msgstr "खराब मान"
+
+#, fuzzy, c-format
+msgid "%s: argument of type %s is not a closure"
+msgstr "'La.svd' मा आर्गुमेन्ट numeric वा complex हुनुपर्छ"
+
+#, c-format
+msgid "%s: argument of type %s is not a symbol or NULL"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "%s: argument of type %s is not an environment or NULL"
+msgstr "'La.svd' मा आर्गुमेन्ट numeric वा complex हुनुपर्छ"
+
+msgid "cycles in parent chains are not allowed"
+msgstr ""
+
+msgid "memory profiling is not available on this system"
+msgstr ""
+
+#, c-format
+msgid "Rprofmem: cannot open output file '%s'"
+msgstr ""
+
+#, c-format
+msgid "long vectors not supported yet: %s:%d"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "cannot make a resizable vector of type '%s'"
+msgstr "भेक्टर: '%s' मोडको भेक्टर बनाउन सकिँदैन ।"
+
+msgid "ALTREP objects cannot be made resizable"
+msgstr ""
+
+msgid "cannot make non-vector objects resizable"
+msgstr ""
+
+#, fuzzy
+msgid "invalid negative 'newlen'"
+msgstr "अवैध जडान"
+
+#, fuzzy
+msgid "not a resizable vector"
+msgstr "'एफएमटी' क्यारेक्टर भेक्टर होइन"
+
+msgid "'newlen' is too large"
+msgstr ""
+
+msgid "string argument required"
+msgstr ""
+
+msgid "no such primitive function"
+msgstr ""
+
+msgid "attempt to use zero-length variable name"
+msgstr ""
+
+#, c-format
+msgid "variable names are limited to %d bytes"
+msgstr ""
+
+msgid "invalid .Internal() argument"
+msgstr ""
+
+msgid "generic 'function' is not a function"
+msgstr ""
+
+msgid "bad generic call environment"
+msgstr ""
+
+msgid "bad generic definition environment"
+msgstr ""
+
+msgid "no '.S3MethodsClass' table, cannot use S4 objects with S3 methods ('methods' package not attached?)"
+msgstr ""
+
+msgid "there must be a 'generic' argument"
+msgstr ""
+
+msgid "'generic' argument must be a character string"
+msgstr ""
+
+msgid "'UseMethod' used in an inappropriate fashion"
+msgstr ""
+
+#, c-format
+msgid "illegal class of length 0 when using method for '%s'"
+msgstr ""
+
+#, c-format
+msgid "no applicable method for '%s' applied to an object of class \"%s\""
+msgstr ""
+
+msgid "'NextMethod' called from outside a function"
+msgstr ""
+
+msgid "'NextMethod' called from an anonymous function"
+msgstr ""
+
+msgid "no calling generic was found: was a method called directly?"
+msgstr ""
+
+#, c-format
+msgid "'function' is not a function, but of type %d"
+msgstr ""
+
+msgid "wrong argument ..."
+msgstr ""
+
+msgid "object not specified"
+msgstr ""
+
+msgid "generic function not specified"
+msgstr ""
+
+msgid "invalid generic argument to 'NextMethod'"
+msgstr ""
+
+msgid "invalid 'group' argument found in 'NextMethod'"
+msgstr ""
+
+msgid "wrong value for .Method"
+msgstr ""
+
+msgid "Incompatible methods ignored"
+msgstr ""
+
+msgid "no method to invoke"
+msgstr ""
+
+msgid "cannot unclass an environment"
+msgstr ""
+
+msgid "cannot unclass an external pointer"
+msgstr ""
+
+msgid "'what' must be a character vector or an object with a nameOfClass() method"
+msgstr ""
+
+msgid "'which' must be a length 1 logical vector"
+msgstr ""
+
+msgid "could not find correct environment; please report!"
+msgstr ""
+
+msgid "'onOff' must be TRUE or FALSE"
+msgstr ""
+
+#, c-format
+msgid "unable to find a non-generic version of function \"%s\""
+msgstr ""
+
+msgid "'standardGeneric' called without 'methods' dispatch enabled (will be ignored)"
+msgstr ""
+
+msgid "argument to 'standardGeneric' must be a non-empty character string"
+msgstr ""
+
+#, c-format
+msgid "call to standardGeneric(\"%s\") apparently not from the body of that generic function"
+msgstr ""
+
+#, c-format
+msgid "invalid primitive methods code (\"%s\"): should be \"clear\", \"reset\", \"set\", or \"suppress\""
+msgstr ""
+
+msgid "invalid object: must be a primitive function"
+msgstr ""
+
+#, c-format
+msgid "the formal definition of a primitive generic must be a function object (got type '%s')"
+msgstr ""
+
+#, c-format
+msgid "object returned as generic function \"%s\" does not appear to be one"
+msgstr ""
+
+msgid "invalid primitive operation given for dispatch"
+msgstr ""
+
+msgid "dispatch error"
+msgstr ""
+
+#, c-format
+msgid "primitive function \"%s\" has been set for methods but no generic function supplied"
+msgstr ""
+
+msgid "C level MAKE_CLASS macro called with NULL string pointer"
+msgstr ""
+
+msgid "'methods' package not yet loaded"
+msgstr ""
+
+msgid "R_getClassDef(.) called with NULL string pointer"
+msgstr ""
+
+msgid "C level NEW macro called with null class definition pointer"
+msgstr ""
+
+#, c-format
+msgid "trying to generate an object from a virtual class (\"%s\")"
+msgstr ""
+
+#, c-format
+msgid "object of class \"%s\" does not correspond to a valid S3 object"
+msgstr ""
+
+msgid "corrupted options list"
+msgstr ""
+
+#, c-format
+msgid "invalid printing width %d, used 80"
+msgstr ""
+
+msgid "invalid printing width"
+msgstr ""
+
+#, c-format
+msgid "invalid printing digits %d, used 7"
+msgstr ""
+
+#, c-format
+msgid "invalid printing digits %d"
+msgstr ""
+
+msgid "invalid 'scipen'"
+msgstr ""
+
+#, c-format
+msgid "setting scipen=%g is out of range"
+msgstr ""
+
+#, c-format
+msgid "invalid 'scipen' %d, used %d"
+msgstr ""
+
+#, c-format
+msgid "invalid 'scipen' %d"
+msgstr ""
+
+msgid "invalid 'deparse.cutoff', used 60"
+msgstr ""
+
+msgid "invalid value for \"device.ask.default\", using FALSE"
+msgstr ""
+
+#, c-format
+msgid "invalid value for '%s'"
+msgstr ""
+
+msgid "list argument has no valid names"
+msgstr ""
+
+#, c-format
+msgid "option '%s' cannot be deleted"
+msgstr ""
+
+#, c-format
+msgid "invalid '%s' parameter, allowed %d...%d"
+msgstr ""
+
+#, c-format
+msgid "value for '%s' outside of -1:2 is set to %d\n"
+msgstr ""
+
+msgid "'OutDec' must be a string of one character"
+msgstr ""
+
+msgid "\"par.ask.default\" has been replaced by \"device.ask.default\""
+msgstr ""
+
+msgid "OpenMP SIMD is not supported in this build of R"
+msgstr ""
+
+msgid "'PCRE_study' has no effect with PCRE2"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "'%s' is deprecated and will be disabled"
+msgstr "'%s' लाई बहिष्कार गरिएको छ।"
+
+msgid "cannot set both options 'quiet' and 'verbose' to TRUE"
+msgstr ""
+
+#, fuzzy
+msgid "invalid argument"
+msgstr "अवैध तर्क"
+
+#, c-format
+msgid "%d argument passed to .Internal(%s) which requires %d"
+msgid_plural "%d arguments passed to .Internal(%s) which requires %d"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "invalid separator"
+msgstr ""
+
+#, c-format
+msgid "non-string argument to .Internal(%s)"
+msgstr ""
+
+msgid "result would exceed 2^31-1 bytes"
+msgstr ""
+
+msgid "strings with \"bytes\" encoding are not allowed"
+msgstr ""
+
+msgid "first argument must be atomic or environment"
+msgstr ""
+
+#, c-format
+msgid "invalid value %d for '%s' argument"
+msgstr ""
+
+msgid "'decimal.mark' must be a string of one character"
+msgstr ""
+
+msgid "Impossible mode ( x )"
+msgstr ""
+
+msgid "atomic vector arguments only"
+msgstr ""
+
+msgid "pattern is not a linear gradient"
+msgstr ""
+
+msgid "pattern is not a radial gradient"
+msgstr ""
+
+msgid "pattern is not a tiling pattern"
+msgstr ""
+
+msgid "invalid filename specification"
+msgstr ""
+
+msgid "write error during file append"
+msgstr ""
+
+msgid "nothing to append to"
+msgstr ""
+
+msgid "invalid filename argument"
+msgstr ""
+
+#, c-format
+msgid "cannot create file '%s', reason '%s'"
+msgstr ""
+
+msgid "invalid first filename"
+msgstr ""
+
+#, c-format
+msgid "cannot remove file '%s', reason '%s'"
+msgstr ""
+
+msgid "invalid second filename"
+msgstr ""
+
+msgid "nothing to link"
+msgstr ""
+
+#, c-format
+msgid "cannot symlink '%ls' to '%ls', reason '%s'"
+msgstr ""
+
+#, c-format
+msgid "cannot symlink '%s' to '%s', reason '%s'"
+msgstr ""
+
+msgid "symbolic links are not supported on this platform"
+msgstr ""
+
+#, c-format
+msgid "cannot link '%ls' to '%ls', reason '%s'"
+msgstr ""
+
+#, c-format
+msgid "cannot link '%s' to '%s', reason '%s'"
+msgstr ""
+
+msgid "(hard) links are not supported on this platform"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "'%s' and '%s' are of different lengths"
+msgstr "'%s' र '%s' बेग्लाबेग्लै लम्बाइका हुन्छन्"
+
+#, c-format
+msgid "cannot rename file '%ls' to '%ls', reason '%s'"
+msgstr ""
+
+msgid "expanded 'from' name too long"
+msgstr ""
+
+msgid "expanded 'to' name too long"
+msgstr ""
+
+#, c-format
+msgid "cannot rename file '%s' to '%s', reason '%s'"
+msgstr ""
+
+#, c-format
+msgid "cannot resolve owner of file '%ls': %s"
+msgstr ""
+
+#, c-format
+msgid "error while listing a directory: '%s'"
+msgstr ""
+
+msgid "over-long path"
+msgstr ""
+
+msgid "invalid 'pattern' regular expression"
+msgstr ""
+
+msgid "unable to determine R home location"
+msgstr ""
+
+msgid "file name too long"
+msgstr ""
+
+msgid "internal out-of-memory condition"
+msgstr ""
+
+#, c-format
+msgid "read error on '%s'"
+msgstr ""
+
+msgid "setting 'LC_NUMERIC' may cause R to function strangely"
+msgstr ""
+
+#, c-format
+msgid "%s does not exist on Windows"
+msgstr ""
+
+#, c-format
+msgid "OS reports request to set locale to \"%s\" cannot be honored"
+msgstr ""
+
+#, c-format
+msgid "using locale code page other than %d%s may cause problems"
+msgstr ""
+
+msgid "zero-length 'path' argument"
+msgstr ""
+
+#, c-format
+msgid "'%s' already exists"
+msgstr ""
+
+#, c-format
+msgid "cannot create dir '%s', reason '%s'"
+msgstr ""
+
+#, c-format
+msgid "'%ls' already exists"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "cannot create dir '%ls', reason '%s'"
+msgstr "सिर्जना '%ls', तर्क '%s' गर्न सकिँदैन"
+
+msgid "too deep nesting"
+msgstr ""
+
+#, c-format
+msgid "cannot overwrite non-directory %ls with directory %ls"
+msgstr ""
+
+#, c-format
+msgid "problem creating directory %ls: %s"
+msgstr ""
+
+#, c-format
+msgid "problem reading directory %ls: %s"
+msgstr ""
+
+#, c-format
+msgid "problem copying %ls to %ls: %s"
+msgstr ""
+
+#, c-format
+msgid "cannot overwrite non-directory %s with directory %s"
+msgstr ""
+
+#, c-format
+msgid "problem creating directory %s: %s"
+msgstr ""
+
+#, c-format
+msgid "problem reading directory %s: %s"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "problem copying %s to %s: %s"
+msgstr "%s%s प्रतिलिपि गर्न समस्या : %s"
+
+msgid "'mode' must be of length at least one"
+msgstr ""
+
+msgid "insufficient OS support on this platform"
+msgstr ""
+
+#, c-format
+msgid "'%s' must be of length at least one"
+msgstr ""
+
+#, c-format
+msgid "contour(): circular/long seglist -- set %s > %d?"
+msgstr ""
+
+msgid "all z values are equal"
+msgstr ""
+
+msgid "all z values are NA"
+msgstr ""
+
+msgid "invalid math style encountered"
+msgstr ""
+
+msgid "invalid mathematical annotation"
+msgstr ""
+
+msgid "invalid accent"
+msgstr ""
+
+#, fuzzy
+msgid "invalid group delimiter"
+msgstr "अवैध समूह डेलिमिटर"
+
+msgid "invalid group specification"
+msgstr ""
+
+#, fuzzy
+msgid "group is incomplete"
+msgstr "समूह अपूर्ण छ"
+
+msgid "Metric information not available for this family/device"
+msgstr ""
+
+msgid "invalid 'na.print' specification"
+msgstr ""
+
+msgid "invalid row labels"
+msgstr ""
+
+msgid "invalid column labels"
+msgstr ""
+
+msgid "'gap' must be non-negative integer"
+msgstr ""
+
+#, c-format
+msgid "'print.gap' must be less than %d"
+msgstr ""
+
+msgid "print buffer overflow"
+msgstr ""
+
+msgid "invalid character length in 'dblepr'"
+msgstr ""
+
+msgid "invalid character length in 'intpr'"
+msgstr ""
+
+msgid "invalid character length in 'realpr'"
+msgstr ""
+
+msgid "memory allocation error in 'realpr'"
+msgstr ""
+
+#, c-format
+msgid "BLAS/LAPACK routine '%6s' gave error code %d"
+msgstr ""
+
+msgid "too few row labels"
+msgstr ""
+
+msgid "too few column labels"
+msgstr ""
+
+#, c-format
+msgid " %d row"
+msgid_plural " %d rows"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid " and"
+msgstr ""
+
+#, c-format
+msgid " %d column"
+msgid_plural " %d columns"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid " %d slice"
+msgid_plural " %d slices"
+msgstr[0] ""
+msgstr[1] ""
+
+#, c-format
+msgid "the decimal mark is %s than one character wide; this will become an error"
+msgstr ""
+
+#, c-format
+msgid "too large string (nchar=%d) => 5*nchar + 8 > SIZE_MAX"
+msgstr ""
+
+msgid "it is not known that wchar_t is Unicode on this platform"
+msgstr ""
+
+#, fuzzy
+msgid "argument is not a numeric vector"
+msgstr "'La.svd' मा आर्गुमेन्ट numeric वा complex हुनुपर्छ"
+
+msgid "Character encoding must be UTF-8, Latin-1 or bytes"
+msgstr ""
+
+#, c-format
+msgid "argument %d is not a vector"
+msgstr ""
+
+msgid "argument lengths differ"
+msgstr ""
+
+msgid "length(decreasing) must match the number of order arguments"
+msgstr ""
+
+msgid "'decreasing' elements must be TRUE or FALSE"
+msgstr ""
+
+msgid "long vectors not supported"
+msgstr ""
+
+msgid "invalid arguments"
+msgstr ""
+
+msgid "NAs produced"
+msgstr ""
+
+#, fuzzy
+msgid "NA in probability vector"
+msgstr "संभाव्य भेक्टरमा NA"
+
+msgid "negative probability"
+msgstr ""
+
+msgid "too few positive probabilities"
+msgstr ""
+
+msgid "cannot take a sample larger than the population when 'replace = FALSE'"
+msgstr ""
+
+msgid "incorrect number of probabilities"
+msgstr ""
+
+msgid "n >= 2^31, replace = FALSE is only supported on 64-bit platforms"
+msgstr ""
+
+msgid "argument must be a character vector of length 1"
+msgstr ""
+
+msgid ""
+"argument should be a character vector of length 1\n"
+"all but the first element will be ignored"
+msgstr ""
+
+#, fuzzy
+msgid "argument 'x' must be a raw vector"
+msgstr "'La.svd' मा आर्गुमेन्ट numeric वा complex हुनुपर्छ"
+
+msgid "argument 'multiple' must be TRUE or FALSE"
+msgstr ""
+
+msgid "argument 'n' must be a small integer"
+msgstr ""
+
+#, fuzzy
+msgid "argument 'x' must be an integer vector"
+msgstr "'La.svd' मा आर्गुमेन्ट numeric वा complex हुनुपर्छ"
+
+#, fuzzy
+msgid "argument 'x' must be raw, integer or logical"
+msgstr "'La.svd' मा आर्गुमेन्ट numeric वा complex हुनुपर्छ"
+
+#, c-format
+msgid "argument 'x' must be a multiple of %d long"
+msgstr ""
+
+msgid "argument 'x' must not contain NAs"
+msgstr ""
+
+msgid "invalid UTF-8 string"
+msgstr ""
+
+msgid "argument 'allow_surrogate_pairs' must be TRUE or FALSE"
+msgstr ""
+
+#, c-format
+msgid "comparison (%s) is not possible for language types"
+msgstr ""
+
+msgid "comparing this symbol and string pair is not supported"
+msgstr ""
+
+msgid "comparison of call objects is not supported"
+msgstr ""
+
+msgid "comparison of language objects is not supported"
+msgstr ""
+
+#, c-format
+msgid "comparison (%s) is possible only for atomic and list types"
+msgstr ""
+
+msgid "comparison is not allowed for expressions"
+msgstr ""
+
+msgid "comparison of these types is not implemented"
+msgstr ""
+
+msgid "invalid comparison with complex values"
+msgstr ""
+
+msgid "'a' and 'b' must have the same type"
+msgstr ""
+
+msgid "read error"
+msgstr ""
+
+#, fuzzy
+msgid "a I read error occurred"
+msgstr "a मैले पढेको त्रुटि देखा पर्यो"
+
+#, fuzzy
+msgid "a R read error occurred"
+msgstr "R पढ्ने त्रुटि देखा पर्यो"
+
+#, fuzzy
+msgid "a C read error occurred"
+msgstr "C पढ्ने त्रुटि देखा पर्यो"
+
+#, fuzzy
+msgid "a S read error occurred"
+msgstr "S पढ्ने त्रुटि देखा पर्यो"
+
+msgid "a read error occurred"
+msgstr ""
+
+msgid "unresolved node during restore"
+msgstr ""
+
+#, c-format
+msgid "restore compatibility error - no version %d compatibility"
+msgstr ""
+
+msgid "bad SEXP type in data file"
+msgstr ""
+
+#, fuzzy
+msgid "mismatch on types"
+msgstr "प्रकारहरूमा बेमेल"
+
+#, c-format
+msgid "unrecognized internal function name \"%s\""
+msgstr ""
+
+msgid "cannot save file position while restoring data"
+msgstr ""
+
+msgid "cannot restore file position while restoring data"
+msgstr ""
+
+msgid "base namespace is not preserved in version 1 workspaces"
+msgstr ""
+
+msgid "cannot save namespace in version 1 workspaces"
+msgstr ""
+
+msgid "cannot save environment with locked/active bindings in version 1 workspaces"
+msgstr ""
+
+msgid "cannot save weak references in version 1 workspaces"
+msgstr ""
+
+msgid "NewWriteVec called with non-vector type"
+msgstr ""
+
+msgid "cannot save byte code objects in version 1 workspaces"
+msgstr ""
+
+#, c-format
+msgid "NewWriteItem: unknown type %i"
+msgstr ""
+
+msgid "NewReadVec called with non-vector type"
+msgstr ""
+
+#, fuzzy
+msgid "cannot read byte code objects from version 1 workspaces"
+msgstr "संस्करण १ कार्यस्थानबाट बाइट कोड वस्तुहरू पढ्न सकिँदैन"
+
+#, fuzzy, c-format
+msgid "NewReadItem: unknown type %i"
+msgstr "नयाँ पढ्ने वस्तु: अज्ञात प्रकार %i"
+
+#, fuzzy
+msgid "out of memory reading ascii string"
+msgstr "ASCII स्ट्रिङ पढ्ने स्मृति बाहिर"
+
+msgid "a binary read error occurred"
+msgstr ""
+
+msgid "out of memory reading binary string"
+msgstr ""
+
+msgid "a binary string read error occurred"
+msgstr ""
+
+msgid "an xdr integer data write error occurred"
+msgstr ""
+
+msgid "an xdr integer data read error occurred"
+msgstr ""
+
+msgid "an xdr string data write error occurred"
+msgstr ""
+
+msgid "an xdr real data write error occurred"
+msgstr ""
+
+msgid "an xdr real data read error occurred"
+msgstr ""
+
+msgid "an xdr complex data write error occurred"
+msgstr ""
+
+msgid "an xdr complex data read error occurred"
+msgstr ""
+
+msgid "write failed"
+msgstr ""
+
+msgid "restore file may be empty -- no data loaded"
+msgstr ""
+
+msgid "restore file may be from a newer version of R -- no data loaded"
+msgstr ""
+
+msgid "bad restore file magic number (file may be corrupted) -- no data loaded"
+msgstr ""
+
+msgid "bad file name"
+msgstr ""
+
+msgid "unable to open 'file'"
+msgstr ""
+
+msgid "'file' must be non-empty string"
+msgstr ""
+
+msgid "'ascii' must be logical"
+msgstr ""
+
+msgid "first argument must be a character vector"
+msgstr ""
+
+msgid "not a valid named list"
+msgstr ""
+
+#, c-format
+msgid "'%s' looks like a pre-2.4.0 S4 object: please recreate it"
+msgstr ""
+
+msgid "loaded data is not in pair list form"
+msgstr ""
+
+msgid "first argument must be a file name"
+msgstr ""
+
+msgid "XDR write failed"
+msgstr ""
+
+msgid "XDR read failed"
+msgstr ""
+
+#, c-format
+msgid "cannot save data -- unable to open '%s': %s"
+msgstr ""
+
+#, c-format
+msgid "cannot save to connections in version %d format"
+msgstr ""
+
+msgid "connection not open for writing"
+msgstr ""
+
+msgid "cannot save XDR format to a text-mode connection"
+msgstr ""
+
+msgid "error writing to connection"
+msgstr ""
+
+msgid "connection not open for reading"
+msgstr ""
+
+msgid "can only load() from a binary connection"
+msgstr ""
+
+msgid "no input is available"
+msgstr ""
+
+msgid "the input does not start with a magic number compatible with loading from a connection"
+msgstr ""
+
+msgid "EOF within quoted string"
+msgstr ""
+
+#, c-format
+msgid "scan() expected '%s', got '%s'"
+msgstr ""
+
+msgid "too many items"
+msgstr ""
+
+msgid "empty 'what' specified"
+msgstr ""
+
+#, c-format
+msgid "line %lld did not have %lld elements"
+msgstr ""
+
+msgid "number of items read is not a multiple of the number of columns"
+msgstr ""
+
+msgid "invalid 'strip.white' length"
+msgstr ""
+
+msgid "invalid 'sep' value: must be one byte"
+msgstr ""
+
+msgid "invalid decimal separator: must be one byte"
+msgstr ""
+
+msgid "invalid decimal separator"
+msgstr ""
+
+msgid "invalid quote symbol set"
+msgstr ""
+
+msgid "embedded nul(s) found in input"
+msgstr ""
+
+msgid "unequal factor lengths"
+msgstr ""
+
+msgid "result would be too long a vector"
+msgstr ""
+
+msgid "argument of length 0"
+msgstr ""
+
+msgid "numerical expression has length > 1"
+msgstr ""
+
+#, c-format
+msgid "numerical expression has %d elements: only the first used"
+msgstr ""
+
+msgid "NA/NaN argument"
+msgstr ""
+
+#, c-format
+msgid "invalid type (%s) for '%s' (must be a vector)"
+msgstr ""
+
+#, c-format
+msgid "attempt to replicate an object of type '%s'"
+msgstr ""
+
+msgid "attempt to replicate non-vector"
+msgstr ""
+
+msgid "cannot replicate NULL to a non-zero length"
+msgstr ""
+
+#, c-format
+msgid "first element used of '%s' argument"
+msgstr ""
+
+#, c-format
+msgid "length(x) * '%s' * '%s' is too large"
+msgstr ""
+
+#, c-format
+msgid "invalid '%s' argument, given the value of '%s'"
+msgstr ""
+
+#, c-format
+msgid "'%s' must be a finite number"
+msgstr ""
+
+msgid "'length.out' must be a non-negative number"
+msgstr ""
+
+#, c-format
+msgid "'%s' must be of length 1"
+msgstr ""
+
+msgid "invalid '(to - from)/by'"
+msgstr ""
+
+msgid "'by' argument is much too small"
+msgstr ""
+
+msgid "wrong sign in 'by' argument"
+msgstr ""
+
+#, fuzzy
+msgid "argument must be coercible to non-negative integer"
+msgstr "तर्क गैर-ऋणात्मक पूर्णांक गर्न बलपूर्वक हुनुपर्दछ"
+
+#, fuzzy
+msgid "'nvec' is not of mode integer"
+msgstr "'द्वारा' मोड पूर्णांक होइन"
+
+#, fuzzy
+msgid "'from' is not of mode integer"
+msgstr "'बाट' मोड पूर्णांक होइन"
+
+#, fuzzy
+msgid "'by' is not of mode integer"
+msgstr "'द्वारा' मोड पूर्णांक होइन"
+
+#, c-format
+msgid "'%s' has length 0, but not 'nvec'; 'recycle = TRUE' returns empty here"
+msgstr ""
+
+#, c-format
+msgid "%s -- future R's default 'recycle = TRUE' will recycle 'nvec'"
+msgstr ""
+
+#, fuzzy
+msgid "'nvec' must be a vector of non-negative integers"
+msgstr "तर्क गैर-ऋणात्मक पूर्णांक गर्न बलपूर्वक हुनुपर्दछ"
+
+#, fuzzy
+msgid "'from' contains NAs"
+msgstr "'बाट' मा एनए समावेश हुन्छ"
+
+#, fuzzy
+msgid "'by' contains NAs"
+msgstr "'द्वारा' ले एनए समावेश गर्दछ"
+
+#, fuzzy
+msgid "unknown or inappropriate output format"
+msgstr "अज्ञात वा अनुपयुक्त निर्गत ढाँचा"
+
+msgid "must specify ascii, binary, or xdr format"
+msgstr ""
+
+msgid "unknown output format"
+msgstr ""
+
+#, fuzzy
+msgid "unknown input format"
+msgstr "ढाँचा अज्ञात input"
+
+msgid "input format does not match specified format"
+msgstr ""
+
+#, fuzzy
+msgid "no restore method available"
+msgstr "पूर्वावस्थामा ल्याउने विधि उपलब्ध छैन"
+
+msgid "names in persistent strings are currently ignored"
+msgstr ""
+
+#, c-format
+msgid "'%s' may not be available when loading"
+msgstr ""
+
+msgid "namespaces may not be available when loading"
+msgstr ""
+
+#, c-format
+msgid "WriteItem: unknown type %i"
+msgstr ""
+
+#, c-format
+msgid "version %d not supported"
+msgstr ""
+
+msgid "reference index out of range"
+msgstr ""
+
+msgid "names in persistent strings are not supported yet"
+msgstr ""
+
+#, c-format
+msgid "input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8"
+msgstr ""
+
+#, c-format
+msgid "input string '%s' cannot be translated to UTF-8, is it valid in '%s'?"
+msgstr ""
+
+#, c-format
+msgid "deserializing invalid UTF-8 string '%s'"
+msgstr ""
+
+msgid "strings not representable in native encoding will not be translated"
+msgstr ""
+
+msgid "strings not representable in native encoding will be translated to UTF-8"
+msgstr ""
+
+msgid "negative serialized length for vector"
+msgstr ""
+
+msgid "invalid upper part of serialized vector length"
+msgstr ""
+
+msgid ""
+"negative serialized vector length:\n"
+"perhaps long vector from 64-bit version of R?"
+msgstr ""
+
+#, fuzzy
+msgid "this version of R cannot read class references"
+msgstr "आर को यो संस्करणले क्लास सन्दर्भ पढ्न सक्दैन"
+
+msgid "this version of R cannot read generic function references"
+msgstr ""
+
+#, c-format
+msgid "ReadItem: unknown type %i, perhaps written by later version of R"
+msgstr ""
+
+msgid "invalid length of encoding name"
+msgstr ""
+
+#, c-format
+msgid "cannot read unreleased workspace version %d written by experimental R %d.%d.%d"
+msgstr ""
+
+#, c-format
+msgid "cannot read workspace version %d written by R %d.%d.%d; need R %d.%d.%d or newer"
+msgstr ""
+
+msgid "read failed"
+msgstr ""
+
+msgid "error reading from ascii connection"
+msgstr ""
+
+#, c-format
+msgid "unexpected format in ascii connection '%s'"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "error reading from connection '%s'"
+msgstr "जडानबाट पढ्न जडान"
+
+msgid "only ascii format can be written to text mode connections"
+msgstr ""
+
+#, fuzzy
+msgid "only ascii format can be read from text mode connections"
+msgstr "ASCII ढाँचा मात्र पाठ मोड जडानबाट पढ्न सकिन्छ"
+
+msgid "bad version value"
+msgstr ""
+
+#, fuzzy
+msgid "binary-mode connection required for ascii=false"
+msgstr "ASCII=false का लागि बाइनरी-मोड जडान आवश्यक छ"
+
+msgid "cannot return a promise (PROMSXP) object"
+msgstr ""
+
+msgid "serialization is too large to store in a raw vector"
+msgstr ""
+
+msgid "cannot allocate buffer"
+msgstr ""
+
+msgid "not a proper file name"
+msgstr ""
+
+msgid "not a proper raw vector"
+msgstr ""
+
+#, c-format
+msgid "seek failed on %s"
+msgstr ""
+
+msgid "could not determine file position"
+msgstr ""
+
+msgid "bad offset/length argument"
+msgstr ""
+
+#, c-format
+msgid "read failed on %s"
+msgstr ""
+
+#, fuzzy
+msgid "bad environment"
+msgstr "खराब वातावरण"
+
+#, fuzzy
+msgid "bad variable names"
+msgstr "खराब चल नामहरू"
+
+#, fuzzy
+msgid "only atomic vectors can be tested to be sorted"
+msgstr "atomic Vectors मात्र क्रमबद्ध गर्न परीक्षण गर्न सकिन्छ"
+
+#, fuzzy
+msgid "'decreasing' must be TRUE or FALSE"
+msgstr "'घट्दै' सही वा गलत हुनुपर्दछ"
+
+#, fuzzy
+msgid "only atomic vectors can be sorted"
+msgstr "atomic Vectors मात्र क्रमबद्व गर्न सकिन्छ"
+
+msgid "raw vectors cannot be sorted"
+msgstr ""
+
+#, fuzzy
+msgid "NA or infinite index"
+msgstr "NA वा अनन्त अनुक्रमणिका"
+
+#, fuzzy, c-format
+msgid "'partial' index %lld outside bounds"
+msgstr "'आंशिक' अनुक्रमणिका %llडी बाहिरको दायरा"
+
+msgid "NA index"
+msgstr ""
+
+#, c-format
+msgid "'partial' index %d outside bounds"
+msgstr ""
+
+msgid "invalid ties.method for rank() [should never happen]"
+msgstr ""
+
+#, c-format
+msgid "%s in \"%s\""
+msgstr ""
+
+#, c-format
+msgid ""
+"%s in:\n"
+"\"%s\n"
+"%s\""
+msgstr ""
+
+msgid "coercion of 'text' to character was unsuccessful"
+msgstr ""
+
+msgid "argument encoding=\"latin1\" is ignored in MBCS locales"
+msgstr ""
+
+#, fuzzy
+msgid "argument encoding=\"UTF-8\" is ignored in MBCS locales"
+msgstr "तर्क एन्कोडिङ=\"UTF-8\" लाई MBCS लोकेलहरूमा उपेक्षा गरिएको छ"
+
+#, fuzzy, c-format
+msgid "argument '%s = \"%s\"' will be ignored"
+msgstr "तर्क '%s = \"%s\"' उपेक्षा गरिनेछ"
+
+#, fuzzy
+msgid "factor has bad level"
+msgstr "फ्याक्टरको स्तर खराब छ"
+
+#, fuzzy
+msgid "first argument must be a vector"
+msgstr "पहिलो तर्क भेक्टर हुनुपर्दछ"
+
+#, fuzzy
+msgid "second argument must be a factor"
+msgstr "दोस्रो तर्क एक कारक हुनुपर्दछ"
+
+#, fuzzy
+msgid "group length is 0 but data length > 0"
+msgstr "समूहको लम्बाइ ० छ तर डेटाको लम्बाइ ० > छ"
+
+#, fuzzy
+msgid "data length is not a multiple of split variable"
+msgstr "डेटा लम्बाइ विभाजन चलको गुणन होइन"
+
+#, fuzzy, c-format
+msgid "required resulting string length %d is greater than maximal %d"
+msgstr "आवश्यक परिणाम स्ट्रिङ लम्बाइ %d अधिकतम भन्दा ठूलो %d"
+
+#, fuzzy
+msgid "'fmt' is not a character vector"
+msgstr "'एफएमटी' क्यारेक्टर भेक्टर होइन"
+
+#, fuzzy, c-format
+msgid "only %d arguments are allowed"
+msgstr "%d तर्कहरूलाई मात्र अनुमति दिइन्छ"
+
+#, fuzzy, c-format
+msgid "invalid type of argument[%d]: '%s'"
+msgstr "अवैध प्रकारको तर्क[%d]: '%s'"
+
+msgid "arguments cannot be recycled to the same length"
+msgstr ""
+
+#, c-format
+msgid "'fmt' length exceeds maximal format length %d"
+msgstr ""
+
+#, c-format
+msgid "unrecognised format specification '%s'"
+msgstr ""
+
+#, c-format
+msgid "reference to non-existent argument %d"
+msgstr ""
+
+msgid "too few arguments"
+msgstr ""
+
+msgid "at most one asterisk '*' is supported in each conversion specification"
+msgstr ""
+
+msgid "argument for '*' conversion specification must be a number"
+msgstr ""
+
+msgid "coercion has changed vector length to 0"
+msgstr ""
+
+#, c-format
+msgid "invalid format '%s'; %s"
+msgstr ""
+
+#, c-format
+msgid "use format %d or %i for logical objects"
+msgstr ""
+
+#, c-format
+msgid "use format %d, %i, %o, %x or %X for integer objects"
+msgstr ""
+
+#, c-format
+msgid "use format %f, %e, %g or %a for numeric objects"
+msgstr ""
+
+#, c-format
+msgid "use format %s for character objects"
+msgstr ""
+
+#, c-format
+msgid "likely truncation of character string to %d characters"
+msgstr ""
+
+msgid "unsupported type"
+msgstr ""
+
+#, c-format
+msgid "one argument not used by format '%s'"
+msgstr ""
+
+#, c-format
+msgid "%d arguments not used by format '%s'"
+msgstr ""
+
+msgid "one argument not used by format"
+msgstr ""
+
+#, c-format
+msgid "%d arguments not used by format"
+msgstr ""
+
+msgid "R_LibraryFileName: buffer too small"
+msgstr ""
+
+msgid "attempt to enlarge non-vector"
+msgstr ""
+
+#, c-format
+msgid "assignment outside vector/list limits (extending from %lld to %lld)"
+msgstr ""
+
+msgid "bad names attribute"
+msgstr ""
+
+#, c-format
+msgid "incompatible types (from %s to %s) in subassignment type fix"
+msgstr ""
+
+msgid "NAs are not allowed in subscripted assignments"
+msgstr ""
+
+msgid "replacement has length zero"
+msgstr ""
+
+msgid "number of items to replace is not a multiple of replacement length"
+msgstr ""
+
+msgid "incorrect number of subscripts on matrix"
+msgstr ""
+
+#, c-format
+msgid "incompatible types (from %s to %s) in matrix subset assignment"
+msgstr ""
+
+#, fuzzy
+msgid "incorrect number of subscripts"
+msgstr "सबस्क्रिप्टको गलत सङ्ख्या"
+
+#, fuzzy, c-format
+msgid "incompatible types (from %s to %s) in array subset assignment"
+msgstr "array सबसेट असाइनमेन्टमा अमिल्दो प्रकार (%s देखि %sसम्म)"
+
+msgid "invalid subscript in list assign"
+msgstr ""
+
+msgid "invalid number of subscripts to list assign"
+msgstr ""
+
+msgid "SubAssignArgs: invalid number of arguments"
+msgstr ""
+
+msgid "result is zero-length and so cannot be a language object"
+msgstr ""
+
+msgid "[[<- defined for objects of type \"S4\" only for subclasses of environment"
+msgstr ""
+
+msgid "improper dimensions"
+msgstr ""
+
+msgid "wrong args for environment subassignment"
+msgstr ""
+
+msgid "more elements supplied than there are to replace"
+msgstr ""
+
+msgid "[[ ]] improper number of subscripts"
+msgstr ""
+
+#, c-format
+msgid "incompatible types (from %s to %s) in [[ assignment"
+msgstr ""
+
+msgid "no method for assigning subsets of this S4 class"
+msgstr ""
+
+msgid "Coercing LHS to a list"
+msgstr ""
+
+#, c-format
+msgid "attempt to select less than one element in %s"
+msgstr ""
+
+#, c-format
+msgid "attempt to select more than one element in %s"
+msgstr ""
+
+#, c-format
+msgid "invalid subscript type '%s'"
+msgstr ""
+
+msgid "internal error in use of recursive indexing"
+msgstr ""
+
+#, c-format
+msgid "invalid negative subscript in %s"
+msgstr ""
+
+#, c-format
+msgid "further partial match of '%s' to '%s'"
+msgstr ""
+
+#, c-format
+msgid "recursive indexing failed at level %d\n"
+msgstr ""
+
+#, c-format
+msgid "no such index at level %d\n"
+msgstr ""
+
+msgid "incorrect number of columns in matrix subscript"
+msgstr ""
+
+msgid "negative values are not allowed in a matrix subscript"
+msgstr ""
+
+msgid "no 'dimnames' attribute for array"
+msgstr ""
+
+#, c-format
+msgid "%d x %d character matrix subscript illegal for NULL dimnames"
+msgstr ""
+
+#, c-format
+msgid "subscripting by character matrix of %d columns does not match length(dimnames(x)) == %d"
+msgstr ""
+
+#, fuzzy
+msgid "(subscript) logical subscript too long"
+msgstr "(सबस्क्रिप्ट) लोजिकल सबस्क्रिप्ट अति लामो छ"
+
+msgid "only 0's may be mixed with negative subscripts"
+msgstr ""
+
+msgid "subscript too large for 32-bit R"
+msgstr ""
+
+msgid "subscripting on non-vector"
+msgstr ""
+
+msgid "dimensions would exceed maximum size of array"
+msgstr ""
+
+msgid "matrix subscripting not handled for this type"
+msgstr ""
+
+msgid "array subscripting not handled for this type"
+msgstr ""
+
+msgid "incorrect number of dimensions"
+msgstr ""
+
+#, fuzzy
+msgid "no index specified"
+msgstr "छैन अनुक्रमणिका निर्दिष्ट गरिएको छ"
+
+#, fuzzy, c-format
+msgid "this %s class is not subsettable"
+msgstr "यो %s क्लास सबसेटटेबल होइन"
+
+msgid "wrong arguments for subsetting an environment"
+msgstr ""
+
+msgid "invalid subscript length"
+msgstr ""
+
+#, c-format
+msgid "invalid 'type' (%s) of argument"
+msgstr ""
+
+msgid "integer overflow - use sum(as.numeric(.))"
+msgstr ""
+
+#, c-format
+msgid "internal error ('op = %d' in do_summary).\t Call a Guru"
+msgstr ""
+
+msgid "Integer overflow - use sum(as.numeric(.))"
+msgstr ""
+
+msgid "no non-missing arguments, returning NA"
+msgstr ""
+
+msgid "no non-missing arguments to min; returning Inf"
+msgstr ""
+
+msgid "no non-missing arguments to max; returning -Inf"
+msgstr ""
+
+msgid "argument to 'which' is not logical"
+msgstr ""
+
+msgid "no arguments"
+msgstr ""
+
+msgid "invalid input type"
+msgstr ""
+
+msgid "an argument will be fractionally recycled"
+msgstr ""
+
+#, c-format
+msgid "cannot determine file modification time of '%s'"
+msgstr ""
+
+msgid "encoding of a filename cannot be 'bytes'"
+msgstr ""
+
+#, c-format
+msgid "unsupported conversion from '%s' in codepage %d"
+msgstr ""
+
+#, fuzzy
+msgid "file name conversion problem -- name too long?"
+msgstr "फाइल नाम रूपान्तरण समस्या -- नाम धेरै लामो?"
+
+msgid "file name conversion problem"
+msgstr ""
+
+msgid "invalid filename pattern"
+msgstr ""
+
+msgid "invalid file extension"
+msgstr ""
+
+msgid "no 'pattern'"
+msgstr ""
+
+msgid "no 'tempdir'"
+msgstr ""
+
+msgid "no 'fileext'"
+msgstr ""
+
+#, c-format
+msgid "system call failed: %s"
+msgstr ""
+
+#, fuzzy
+msgid "wrong type for argument"
+msgstr "तर्क गर्नका लागि गलत प्रकार"
+
+#, fuzzy
+msgid "'Sys.setenv' is not available on this system"
+msgstr "यो प्रणालीमा 'Sys.setenv' उपलब्ध छैन"
+
+msgid "this system cannot unset environment variables: setting to \"\""
+msgstr ""
+
+msgid "'Sys.unsetenv' is not available on this system"
+msgstr ""
+
+msgid "'x' must be a character vector"
+msgstr ""
+
+msgid "'x' must be a character vector or a list of NULL or raw vectors"
+msgstr ""
+
+#, c-format
+msgid "unsupported conversion from '%s' to '%s' in codepage %d"
+msgstr ""
+
+#, c-format
+msgid "'%s' must be called on a CHARSXP, but got '%s'"
+msgstr ""
+
+msgid "translating strings with \"bytes\" encoding is not allowed"
+msgstr ""
+
+msgid "internal error: no translation needed"
+msgstr ""
+
+#, c-format
+msgid "unable to translate '%s' to native encoding"
+msgstr ""
+
+#, c-format
+msgid "unable to translate '%s' to UTF-8"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "unsupported conversion to '%s' from codepage %d"
+msgstr "सङ्केत पृष्ठबाट '%s' मा असमर्थित रूपान्तरण %d"
+
+#, fuzzy, c-format
+msgid "unable to translate '%s' to a wide string"
+msgstr "फराकिलो स्ट्रिङमा '%s' अनुवाद गर्न असक्षम"
+
+#, c-format
+msgid "invalid Unicode point %u"
+msgstr ""
+
+msgid "'R_USER' not set"
+msgstr ""
+
+msgid "cannot allocate 'R_TempDir'"
+msgstr ""
+
+msgid "'R_TempDir' contains space"
+msgstr ""
+
+msgid "cannot create 'R_TempDir'"
+msgstr ""
+
+msgid "unable to set R_SESSION_TMPDIR"
+msgstr ""
+
+msgid "temporary name too long"
+msgstr ""
+
+msgid "allocation failed in R_tmpnam2"
+msgstr ""
+
+msgid "cannot find unused tempfile name"
+msgstr ""
+
+msgid "'dirmark = TRUE' is not supported on this platform"
+msgstr ""
+
+#, c-format
+msgid "length %lld is too large for hashing"
+msgstr ""
+
+#, c-format
+msgid "length %d is too large for hashing"
+msgstr ""
+
+msgid "'duplicated' applies only to vectors"
+msgstr ""
+
+msgid "any_duplicated3(., <0-length incomp>)"
+msgstr ""
+
+msgid "'fromLast' must be length 1"
+msgstr ""
+
+msgid "'fromLast' must be TRUE or FALSE"
+msgstr ""
+
+#, c-format
+msgid "%s() applies only to vectors"
+msgstr ""
+
+msgid "'nmax' must be positive"
+msgstr ""
+
+msgid "'match' requires vector arguments"
+msgstr ""
+
+msgid "argument is not of mode character"
+msgstr ""
+
+msgid "... used in a situation where it does not exist"
+msgstr ""
+
+msgid "... is not a pairlist"
+msgstr ""
+
+msgid "non-numeric data frame in rowsum"
+msgstr ""
+
+msgid "this cannot happen"
+msgstr ""
+
+msgid "'names' must be a character vector"
+msgstr ""
+
+msgid "object is not a matrix"
+msgstr ""
+
+#, c-format
+msgid "type %d is unimplemented in '%s'"
+msgstr ""
+
+#, c-format
+msgid "unimplemented type '%s' in '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "unimplemented type (%d) in '%s'\n"
+msgstr ""
+
+msgid "invalid tag in name extraction"
+msgstr ""
+
+#, c-format
+msgid "%d argument passed to '%s' which requires %d"
+msgid_plural "%d arguments passed to '%s' which requires %d"
+msgstr[0] ""
+msgstr[1] ""
+
+#, fuzzy, c-format
+msgid "supplied argument name '%s' does not match '%s'"
+msgstr "'%s' तर्क ' नाम '%s' मेल खाँदैन"
+
+#, c-format
+msgid "'nthcdr' list shorter than %d"
+msgstr ""
+
+msgid "'nthcdr' needs a list to CDR down"
+msgstr ""
+
+msgid "'all.x' must be TRUE or FALSE"
+msgstr ""
+
+msgid "'all.y' must be TRUE or FALSE"
+msgstr ""
+
+msgid "number of rows in the result exceeds maximum vector length"
+msgstr ""
+
+msgid "missing value is invalid"
+msgstr ""
+
+msgid "cannot change working directory"
+msgstr ""
+
+msgid "a character vector argument expected"
+msgstr ""
+
+msgid "only the first character of 'quote' will be used"
+msgstr ""
+
+msgid "a character vector 'value' expected"
+msgstr ""
+
+msgid "'value' must be of positive length"
+msgstr ""
+
+#, c-format
+msgid "invalid input '%s' in 'utf8towcs'"
+msgstr ""
+
+#, c-format
+msgid "invalid input '%s' in 'utf8towcs32'"
+msgstr ""
+
+#, c-format
+msgid "invalid multibyte string at '%s'"
+msgstr ""
+
+msgid "error message truncated to 255 chars"
+msgstr ""
+
+msgid "warning message truncated to 255 chars"
+msgstr ""
+
+msgid "Conversion failed"
+msgstr ""
+
+#, c-format
+msgid "accuracy loss in conversion from \"%s\" to numeric"
+msgstr ""
+
+msgid "all arguments must be named"
+msgstr ""
+
+msgid "ICU is not supported on this build"
+msgstr ""
+
+msgid "'breaks' is not sorted"
+msgstr ""
+
+#, c-format
+msgid "long vector '%s' is not supported"
+msgstr ""
+
+msgid "'eps.correct' must be 0, 1, or 2"
+msgstr ""
+
+msgid "'bounds' must be TRUE or FALSE"
+msgstr ""
+
+msgid "'x' must be a vector"
+msgstr ""
+
+msgid ""
+"R is free software and comes with ABSOLUTELY NO WARRANTY.\n"
+"You are welcome to redistribute it under certain conditions.\n"
+"Type 'license()' or 'licence()' for distribution details.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"R is a collaborative project with many contributors.\n"
+"Type 'contributors()' for more information and\n"
+"'citation()' on how to cite R or R packages in publications.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"Type 'demo()' for some demos, 'help()' for on-line help, or\n"
+"'help.start()' for an HTML browser interface to help.\n"
+"Type 'q()' to quit R.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "add_point - reached MAXNUMPTS (%d)"
+msgstr ""
+
+msgid "insufficient memory to allocate point array"
+msgstr ""
+
+msgid "there must be at least two control points"
+msgstr ""
+
+msgid "there must be at least four control points"
+msgstr ""
+
+msgid "There must be at least three control points"
+msgstr ""
+
+#, c-format
+msgid "X11 protocol error: %s"
+msgstr ""
+
+msgid "cannot set grayscale: reverting to monochrome"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"X11 driver unable to obtain color cube\n"
+"  reverting to monochrome"
+msgstr ""
+"X11 ड्राइभर रङ घन प्राप्त गर्न असक्षम भयो\n"
+"  मोनोक्रोममा फर्काउँदै"
+
+msgid ""
+"Error: X11 cannot allocate additional graphics colors.\n"
+"Consider using X11 with colortype=\"pseudo.cube\" or \"gray\"."
+msgstr ""
+
+msgid ""
+"could not find any X11 fonts\n"
+"Check that the Font Path is correct."
+msgstr ""
+
+#, fuzzy, c-format
+msgid "X11 used font size %d when %d was requested"
+msgstr "अनुरोध गरिएको बेलामा X11 ले फन्ट साइज %d प्रयोग %d"
+
+#, c-format
+msgid "X11 font %s, face %d at size %d could not be loaded"
+msgstr ""
+
+msgid "semi-transparency is not supported on this device: reported only once per page"
+msgstr ""
+
+#, c-format
+msgid "X11 I/O error while opening X11 connection to '%s'"
+msgstr ""
+
+msgid "X11 fatal IO error: please save work and shut down R"
+msgstr ""
+
+msgid "locale not supported by Xlib: some X ops will operate in C locale"
+msgstr ""
+
+msgid "X cannot set locale modifiers"
+msgstr ""
+
+msgid "no png support in this version of R"
+msgstr ""
+
+msgid "filename too long in png() call"
+msgstr ""
+
+#, c-format
+msgid "could not open PNG file '%s'"
+msgstr ""
+
+#, fuzzy
+msgid "no jpeg support in this version of R"
+msgstr "आरको यो संस्करणमा जेपीईजी समर्थन छैन"
+
+msgid "filename too long in jpeg() call"
+msgstr ""
+
+#, c-format
+msgid "could not open JPEG file '%s'"
+msgstr ""
+
+msgid "no tiff support in this version of R"
+msgstr ""
+
+msgid "filename too long in tiff() call"
+msgstr ""
+
+msgid "filename too long in bmp() call"
+msgstr ""
+
+#, c-format
+msgid "could not open BMP file '%s'"
+msgstr ""
+
+#, c-format
+msgid "unable to open connection to X11 display '%s'"
+msgstr ""
+
+msgid "ignoring 'display' argument as an X11 device is already open"
+msgstr ""
+
+msgid "cairo-based types may only work correctly on TrueColor visuals"
+msgstr ""
+
+msgid "jpeg() does not support transparency: using white bg"
+msgstr ""
+
+#, c-format
+msgid "unable to obtain information on display '%s'"
+msgstr ""
+
+msgid "unable to create X11 window"
+msgstr ""
+
+#, c-format
+msgid "'width=%d, height=%d' are unlikely values in pixels"
+msgstr ""
+
+msgid "unable to create pixmap"
+msgstr ""
+
+msgid "invalid font specification"
+msgstr ""
+
+#, fuzzy
+msgid "font family not found in X11 font database"
+msgstr "X11 फन्ट डाटाबेसमा फन्ट परिवार फेला परेन"
+
+#, fuzzy, c-format
+msgid "invalid use of %d < 0 in '%s'"
+msgstr "'%s' मा %d < ० को प्रयोग अवैध"
+
+#, fuzzy, c-format
+msgid "could not open file '%s'"
+msgstr "फाइल '%sखोल्न सकेन"
+
+#, fuzzy, c-format
+msgid "%s not available for this device"
+msgstr "%s यन्त्रका लागि उपलब्ध छैन"
+
+#, fuzzy
+msgid "Unable to create XImage"
+msgstr "XImage सिर्जना गर्न असक्षम"
+
+#, fuzzy
+msgid "attempt to use the locator after dev.hold()"
+msgstr "dev.hold() पछि लोकेटर प्रयोग गर्ने प्रयास गर्नुहोस्"
+
+#, c-format
+msgid "unable to start device %s"
+msgstr ""
+
+#, fuzzy
+msgid "invalid 'width' or 'height'"
+msgstr "अवैध 'चौडाइ' वा 'उचाइ'"
+
+msgid "invalid colortype passed to X11 driver"
+msgstr ""
+
+msgid "unknown X11 color/colour model -- using monochrome"
+msgstr ""
+
+msgid "no plot on device to save"
+msgstr ""
+
+msgid "not an open X11cairo device"
+msgstr ""
+
+#, c-format
+msgid "cannot open file '%s'"
+msgstr ""
+
+msgid "savePlot() is not supported on this build"
+msgstr ""
+
+msgid "unable to contact X11 display"
+msgstr ""
+
+#, c-format
+msgid "clipboard cannot be read (error code %d)"
+msgstr ""
+
+msgid "cannot allocate memory for X11Routines structure"
+msgstr ""
+
+msgid "the 'wininet' method of url() is deprecated for http:// and https:// URLs"
+msgstr ""
+
+#, fuzzy
+msgid "the 'wininet' method of url() is deprecated for ftp:// URLs"
+msgstr "यूआरएल() को 'विनिनेट' विधि ftp:// यूआरएलका लागि छोडियो"
+
+#, c-format
+msgid "scheme not supported in URL '%s'"
+msgstr ""
+
+msgid "allocation of url connection failed"
+msgstr ""
+
+msgid "only first element of 'url' argument used"
+msgstr ""
+
+msgid "only first element of 'destfile' argument used"
+msgstr ""
+
+msgid "Download progress"
+msgstr ""
+
+#, c-format
+msgid "cannot open URL '%s', reason '%s'"
+msgstr ""
+
+#, c-format
+msgid "cannot open destfile '%s', reason '%s'"
+msgstr ""
+
+msgid "the 'internal' method for http:// URLs is defunct"
+msgstr ""
+
+msgid "the 'wininet' method is deprecated for http:// and https:// URLs"
+msgstr ""
+
+#, c-format
+msgid "trying URL '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "downloaded length %0.f != reported length %0.f"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "cannot open URL '%s'"
+msgstr "यूआरएल '%sखोल्न सकिँदैन ।"
+
+msgid "the 'wininet' method for ftp:// URLs is defunct"
+msgstr ""
+
+msgid "the 'internal' method for ftp:// URLs is defunct"
+msgstr ""
+
+#, c-format
+msgid "InternetOpenUrl failed: '%s'"
+msgstr ""
+
+#, c-format
+msgid "cannot open URL '%s': %s status was '%lu %s'"
+msgstr ""
+
+#, c-format
+msgid "cannot open URL '%s': %s status was '%ld %s'"
+msgstr ""
+
+#, c-format
+msgid "URL '%s': Timeout of %d seconds was reached"
+msgstr ""
+
+#, c-format
+msgid "URL '%s': status was '%s'"
+msgstr ""
+
+msgid "curlGetHeaders is not supported on this platform"
+msgstr ""
+
+msgid "could not create curl handle"
+msgstr ""
+
+#, c-format
+msgid ""
+"libcurl error code %d:\n"
+"\t%s\n"
+msgstr ""
+
+#, c-format
+msgid "URL %s: cannot open destfile '%s', reason '%s'"
+msgstr ""
+
+msgid "download.file(method = \"libcurl\") is not supported on this platform"
+msgstr ""
+
+msgid "lengths of 'url' and 'destfile' must match"
+msgstr ""
+
+msgid "out of memory"
+msgstr ""
+
+msgid "cannot download any files"
+msgstr ""
+
+msgid "some files were not downloaded"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "download from '%s' failed"
+msgstr "'%s' बाट डाउनलोड असफल"
+
+#, fuzzy
+msgid "cannot read from connection"
+msgstr "जडानबाट पढ्न जडान"
+
+#, fuzzy, c-format
+msgid "cannot open the connection to '%s'"
+msgstr "'%s' को जडान खोल्न सकिँदैन"
+
+msgid "url(method = \"libcurl\") is not supported on this platform"
+msgstr ""
+
+msgid "allocation of socket connection failed"
+msgstr ""
+
+msgid "allocation of server socket connection failed"
+msgstr ""
+
+#, c-format
+msgid "creation of server socket failed: port %d cannot be opened"
+msgstr ""
+
+#, c-format
+msgid "argument type[1]='%s' must be a character string of string length 1"
+msgstr ""
+
+#, c-format
+msgid "argument type[1]='%s' must be one of 'M','1','O','I','F' or 'E'"
+msgstr ""
+
+#, c-format
+msgid "argument type[1]='%s' must be one of '1','O', or 'I'"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "argument type[1]='%s' must be 'U' or 'L'"
+msgstr "'La.svd' मा आर्गुमेन्ट numeric वा complex हुनुपर्छ"
+
+#, c-format
+msgid "error code %d from Lapack routine '%s'"
+msgstr ""
+
+msgid "'x' must be a square numeric matrix"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "'%s' must be a numeric matrix"
+msgstr "'La.svd' मा आर्गुमेन्ट numeric वा complex हुनुपर्छ"
+
+#, c-format
+msgid "exact singularity: U[%d,%d] = 0 in LU-decomposition {Lapack 'dgetrf()'}"
+msgstr ""
+
+msgid "'A' must be a *square* matrix"
+msgstr ""
+
+#, c-format
+msgid "error [%d] from Lapack 'dtrcon()'"
+msgstr ""
+
+#, c-format
+msgid "'%s' must be a complex matrix"
+msgstr ""
+
+msgid "Fortran complex functions are not available on this platform"
+msgstr ""
+
+#, c-format
+msgid "error [%d] from Lapack 'ztrcon()'"
+msgstr ""
+
+msgid "'a' is 0-diml"
+msgstr ""
+
+#, c-format
+msgid "'a' (%d x %d) must be square"
+msgstr ""
+
+msgid "no right-hand side in 'b'"
+msgstr ""
+
+#, c-format
+msgid "'b' (%d x %d) must be compatible with 'a' (%d x %d)"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "argument %d of Lapack routine %s had invalid value"
+msgstr "ल्याप्याक दिनचर्याको तर्क %d %s अवैध मूल्य थियो"
+
+#, fuzzy, c-format
+msgid "Lapack routine %s: system is exactly singular: U[%d,%d] = 0"
+msgstr "ल्याप्याक दिनचर्या %s: प्रणाली ठ्याक्कै एकवचन हो: U[%d,%d] = 0"
+
+#, c-format
+msgid "system is computationally singular: reciprocal condition number = %g"
+msgstr ""
+
+#, c-format
+msgid "right-hand side should have %d not %d rows"
+msgstr ""
+
+msgid "matrices of 2^31 or more elements are not supported"
+msgstr ""
+
+msgid "'x' must be a square complex matrix"
+msgstr ""
+
+msgid "'a' must be a square matrix"
+msgstr ""
+
+msgid "'a' must have dims > 0"
+msgstr ""
+
+#, c-format
+msgid "the leading minor of order %d is not positive"
+msgstr ""
+
+#, fuzzy
+msgid "the matrix is either rank-deficient or not positive definite"
+msgstr "म्याट्रिक्स या त श्रेणी-कमी छ वा निश्चित धनात्मक छैन"
+
+#, fuzzy
+msgid "'size' argument must be a positive integer"
+msgstr "'साइज' तर्क धनात्मक पूर्णांक हुनुपर्दछ"
+
+#, fuzzy, c-format
+msgid "'size' cannot exceed ncol(x) = %d"
+msgstr "'साइज' ncol(x) = %d भन्दा बढी हुन सक्दैन"
+
+#, fuzzy, c-format
+msgid "'size' cannot exceed nrow(x) = %d"
+msgstr "'साइज' nrow(x) = %d भन्दा बढी हुन सक्दैन"
+
+#, fuzzy, c-format
+msgid "element (%d, %d) is zero, so the inverse cannot be computed"
+msgstr "तत्व (%d, %d) शून्य छ, त्यसैले व्युत्क्रम गणना गर्न सकिँदैन"
+
+msgid "argument 'logarithm' must be logical"
+msgstr ""
+
+msgid "bessel_i allocation error"
+msgstr ""
+
+#, c-format
+msgid "bessel_i(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+msgstr ""
+
+#, c-format
+msgid "bessel_i(%g,nu=%g): precision lost in result\n"
+msgstr ""
+
+#, c-format
+msgid "besselJ(x, nu): nu=%g too large for bessel_j() algorithm"
+msgstr ""
+
+msgid "bessel_j allocation error"
+msgstr ""
+
+#, c-format
+msgid "bessel_j(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+msgstr ""
+
+#, c-format
+msgid "bessel_j(%g,nu=%g): precision lost in result\n"
+msgstr ""
+
+#, c-format
+msgid "besselJ(x, nu): nu=%g > 1e7; too large for bessel_j() algorithm"
+msgstr ""
+
+msgid "bessel_k allocation error"
+msgstr ""
+
+#, c-format
+msgid "bessel_k(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+msgstr ""
+
+#, c-format
+msgid "bessel_k(%g,nu=%g): precision lost in result\n"
+msgstr ""
+
+#, c-format
+msgid "besselY(x, nu): nu=%g too large for bessel_y() algorithm"
+msgstr ""
+
+msgid "bessel_y allocation error"
+msgstr ""
+
+#, c-format
+msgid "bessel_y(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "bessel_y(%g,nu=%g): precision lost in result\n"
+msgstr "bessel_y(%g,nu=%g): परिणाममा शुद्धता हरायो\n"
+
+#, fuzzy, c-format
+msgid "'k' (%.2f) must be integer, rounded to %.0f"
+msgstr "'k' (%.2f) पूर्णांक हुनुपर्छ, %.0f"
+
+#, c-format
+msgid "non-integer x = %f"
+msgstr ""
+
+#, c-format
+msgid "argument out of domain in '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "value out of range in '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "convergence failed in '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "full precision may not have been achieved in '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "underflow occurred in '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() gave error code %d"
+msgstr ""
+
+#, c-format
+msgid "non-integer n = %f"
+msgstr ""
+
+#, c-format
+msgid "pnbinom_mu() -> bratio() gave error code %d"
+msgstr ""
+
+#, c-format
+msgid "pnchisq(x=%g, f=%g, theta=%g, ..): not converged in %d iter."
+msgstr ""
+
+#, c-format
+msgid "deriv = %d > %d (= n_max)\n"
+msgstr ""
+
+#, c-format
+msgid "rbinom: probability sum should be 1, but is %g"
+msgstr ""
+
+msgid "signrank allocation error"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "norm_rand(): invalid N01_kind: %d\n"
+msgstr "norm_rand(): अवैध N01_kind: %d\n"
+
+#, c-format
+msgid "wilcox allocation error %d"
+msgstr ""
+
+msgid "X11 module is not available under this GUI"
+msgstr ""
+
+msgid "X11 routines cannot be accessed in module"
+msgstr ""
+
+msgid "X11 module cannot be loaded"
+msgstr ""
+
+msgid "X11 is not available"
+msgstr ""
+
+msgid "Explicit local dynamic loading not supported on this platform. Using default."
+msgstr ""
+
+msgid "Explicit global dynamic loading not supported on this platform. Using default."
+msgstr ""
+
+msgid "Explicit non-lazy dynamic loading not supported on this platform. Using default."
+msgstr ""
+
+msgid "Explicit lazy dynamic loading not supported on this platform. Using default."
+msgstr ""
+
+msgid "cannot get working directory!"
+msgstr ""
+
+#, c-format
+msgid ""
+"expanded path length %lld would be too long for\n"
+"%s\n"
+msgstr ""
+
+msgid "An unusual circumstance has arisen in the nesting of readline input. Please report using bug.report()"
+msgstr ""
+
+#, c-format
+msgid "problem in saving the history file '%s'"
+msgstr ""
+
+#, c-format
+msgid ""
+"Cannot open file '%s': %s\n"
+"\n"
+msgstr ""
+
+msgid "error in running command"
+msgstr ""
+
+msgid "'file' argument is too long"
+msgstr ""
+
+msgid "no history mechanism available"
+msgstr ""
+
+msgid "problem in truncating the history file"
+msgstr ""
+
+msgid "no history available to save"
+msgstr ""
+
+msgid "invalid timestamp"
+msgstr ""
+
+#, c-format
+msgid "running command '%s' had status %d and error message '%s'"
+msgstr ""
+
+msgid "non-empty character argument expected"
+msgstr ""
+
+msgid "'intern' must be logical and not NA"
+msgstr ""
+
+msgid "'receive.console.signals' must be logical and not NA"
+msgstr ""
+
+#, c-format
+msgid "cannot popen '%s', probable reason '%s'"
+msgstr ""
+
+#, c-format
+msgid "line %d may be truncated in call to system(, intern = TRUE)"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "error in running command: '%s'"
+msgstr "आदेश चलाउँदा त्रुटि: '%s'"
+
+#, fuzzy
+msgid "Sys.info() is not implemented on this system"
+msgstr "Sys.info() यो प्रणालीमा कार्यान्वयन गरिएको छैन"
+
+#, fuzzy, c-format
+msgid "WARNING: --gui or -g without value ignored"
+msgstr "चेतावनी: मान बिनाको --gui वा -g उपेक्षा गरियो"
+
+#, fuzzy, c-format
+msgid "WARNING: unknown gui '%s', using X11\n"
+msgstr "चेतावनी: X11 प्रयोग गरेर, अज्ञात gui '%s'।\n"
+
+#, fuzzy, c-format
+msgid "WARNING: unknown gui '%s', using none\n"
+msgstr "चेतावनी: अज्ञात gui '%s', कुनै पनि प्रयोग गर्दैन\n"
+
+#, fuzzy, c-format
+msgid "path given in -f/--file is too long"
+msgstr "-f/--फाइल मा दिइएको बाटो धेरै लामो छ"
+
+#, fuzzy
+msgid "creating temporary file for '-e' failed"
+msgstr "'-e' का लागि अस्थायी फाइल सिर्जना गर्न असफल भयो ।"
+
+#, fuzzy
+msgid "WARNING: Only editing the first in the list of files"
+msgstr "चेतावनी: फाइलको सूचीमा पहिलो सम्पादन मात्र"
+
+#~ msgid "unknown 'type' in \"CG\" method of 'optim'"
+#~ msgstr "\"CG\" को 'optim' विधिमा अज्ञात 'type'"
+
+#, fuzzy
+#~ msgid "argument 'x' must be a numeric vector"
+#~ msgstr "'La.svd' मा आर्गुमेन्ट numeric वा complex हुनुपर्छ"
+
+#~ msgid "See help(\"Defunct\")"
+#~ msgstr "help(\"Defunct\") हेर्नुहोस्"

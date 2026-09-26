@@ -1,0 +1,766 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: R 3.5.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-09-02 17:50-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
+"Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"na-Revision-Date: 2012-05-29 07:55+0100\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.4\n"
+
+#, c-format
+msgid "'%s' must be numeric of length %d"
+msgstr "'%s' musi być liczbą o długości %d"
+
+msgid "Clipping path ignored (device is appending path)"
+msgstr "Ścieżka przycinająca zignorowana (urządzenie dołącza ścieżkę)"
+
+#, c-format
+msgid "color intensity %s, not in [0,1]"
+msgstr "intensywność %s koloru, nie jest w przedziale [0, 1]"
+
+#, c-format
+msgid "color intensity %g, not in [0,1]"
+msgstr "intensywność %g koloru, nie jest w przedziale [0, 1]"
+
+#, c-format
+msgid "color intensity %s, not in 0:255"
+msgstr "intensywność %s koloru, nie jest w zakresie 0:255"
+
+#, c-format
+msgid "color intensity %d, not in 0:255"
+msgstr "intensywność %d koloru, nie jest w zakresie 0:255"
+
+#, c-format
+msgid "alpha level %s, not in [0,1]"
+msgstr "poziom %s alfa, nie jest w przedziale [0, 1]"
+
+#, c-format
+msgid "alpha level %g, not in [0,1]"
+msgstr "poziom %g alfa, nie jest w przedziale [0, 1]"
+
+#, c-format
+msgid "alpha level %s, not in 0:255"
+msgstr "poziom %s alfa, nie jest w zakresie 0:255"
+
+#, c-format
+msgid "alpha level %d, not in 0:255"
+msgstr "poziom %d alfa, nie jest w zakresie 0:255"
+
+msgid "inputs must be finite"
+msgstr "wejścia muszą być skończone"
+
+msgid "bad hsv to rgb color conversion"
+msgstr "błędna konwersja hsv na rgb"
+
+msgid "invalid hsv color"
+msgstr "niepoprawny kolor hsv"
+
+msgid "invalid hcl color"
+msgstr "niepoprawny kolor hcl"
+
+msgid "invalid value of 'maxColorValue'"
+msgstr "niepoprawna wartość 'maxColorValue'"
+
+msgid "invalid 'names' vector"
+msgstr "niepoprawny wektor 'names'"
+
+msgid "invalid gray level, must be in [0,1]."
+msgstr "niepoprawny poziom szarości, musi być w przedziale [0, 1]."
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "niepoprawna wartość '%s'"
+
+msgid "invalid hex digit in 'color' or 'lty'"
+msgstr "niepoprawna liczba szestnastkowa w 'color' lub 'lty'"
+
+msgid "invalid RGB specification"
+msgstr "niepoprawne określenie RGB"
+
+#, c-format
+msgid "invalid color name '%s'"
+msgstr "niepoprawna nazwa koloru '%s'"
+
+#, c-format
+msgid "invalid color specification \"%s\""
+msgstr "niepoprawne określenie koloru \"%s\""
+
+msgid "supplied color is neither numeric nor character"
+msgstr "dostarczony kolor nie jest ani liczbą ani tekstem"
+
+#, c-format
+msgid "numerical color values must be >= 0, found %d"
+msgstr "liczbowe wartości koloru muszą być >=0, znaleziono %d"
+
+msgid "invalid argument type"
+msgstr "niepoprawny typ argumentu"
+
+msgid "unknown palette (need >= 2 colors)"
+msgstr "nieznana paleta (potrzeba >= 2 kolory)"
+
+#, c-format
+msgid "maximum number of colors is %d"
+msgstr "maksymalna liczba kolorów wynosi %d"
+
+#, c-format
+msgid "afm file '%s' could not be opened"
+msgstr "plik afm '%s' nie mógł zostać otwarty"
+
+msgid "unknown AFM entity encountered"
+msgstr "napotkano nieznany obiekt AFM"
+
+#, c-format
+msgid "invalid string in '%s'"
+msgstr "niepoprawny tekst w '%s'"
+
+#, c-format
+msgid "font width unknown for character 0x%02x in encoding %s"
+msgstr "nieznana szerokość czcionki dla znaku '0x%02x' w kodowaniu %s"
+
+#, c-format
+msgid "font metrics unknown for Unicode character U+%04X"
+msgstr "nieznane metryki czcionki dla znaku Unicode 'U+%04X'"
+
+#, c-format
+msgid "unknown encoding '%s' in 'PostScriptMetricInfo'"
+msgstr "nieznane kodowanie '%s' w 'PostScriptMetricInfo'"
+
+#, c-format
+msgid "Unicode character %lc (U+%04X) cannot be converted"
+msgstr "Znak Unicode %lc (U+%04X) nie może być przekształcony"
+
+#, c-format
+msgid "font metrics unknown for character 0x%02x in encoding %s"
+msgstr "nieznane metryki czcionki dla znaku '0x%02x' w kodowaniu %s"
+
+#, c-format
+msgid "invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
+msgstr "niepoprawny znak (%04X) wysłany do 'PostScriptCIDMetricInfo' w jednobajtowej lokalizacji"
+
+msgid "invalid character sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
+msgstr "niepoprawny znak wysłany do 'PostScriptCIDMetricInfo' w jednobajtowej lokalizacji"
+
+msgid "failed to allocate CID font info"
+msgstr "nie udało się przydzielić informacji o czcionce CID"
+
+msgid "failed to allocate Type 1 font info"
+msgstr "nie udało się przydzielić informacji o czcionce Type 1"
+
+msgid "failed to allocate encoding info"
+msgstr "nie udało się przydzielić informacji o kodowaniu"
+
+msgid "failed to allocate CID font family"
+msgstr "nie udało się przydzielić rodziny czcionek CID"
+
+msgid "failed to allocate Type 1 font family"
+msgstr "nie udało się przydzielić rodziny czcionek Type 1"
+
+msgid "failed to allocate font list"
+msgstr "nie udało się przydzielić listy czcionek"
+
+msgid "failed to allocated encoding list"
+msgstr "nie udało się przydzielić listy kodowań"
+
+msgid "truncated string which was too long for copy"
+msgstr "przycięto tekst, który był zbyt długi do skopiowania"
+
+#, c-format
+msgid "failed to load encoding file '%s'"
+msgstr "nie udało się załadować pliku strony kodowej '%s'"
+
+msgid "invalid font name or more than one font name"
+msgstr "niepoprawna nazwa czcionki lub więcej niż jedna nazwa czcionki"
+
+#, c-format
+msgid "font family '%s' not found in PostScript font database"
+msgstr "rodzina czcionki '%s' nie została znaleziona w bazie danych czcionek PostScript"
+
+#, c-format
+msgid "font encoding for family '%s' not found in font database"
+msgstr "kodowanie czcionki dla rodziny '%s' nie zostało znalezione w bazie danych czcionki"
+
+#, c-format
+msgid "font CMap for family '%s' not found in font database"
+msgstr "czcionka CMap dla rodziny '%s' nie została znaleziona w bazie danych"
+
+#, c-format
+msgid "cannot load afm file '%s'"
+msgstr "nie można załadować pliku afm '%s'"
+
+msgid "corrupt loaded encodings;  encoding not recorded"
+msgstr "załadowane kodowania są uszkodzone; kodowanie nie zostało zarejestrowane"
+
+msgid "failed to record device encoding"
+msgstr "nie udało się zapisać kodowania urządzenia"
+
+msgid "object '.ps.prolog' is not a character vector"
+msgstr "obiekt '.ps.prolog' nie jest wektorem tekstowym"
+
+msgid "invalid line end"
+msgstr "błędny koniec linii"
+
+msgid "invalid line join"
+msgstr "błędny łącznik linii"
+
+msgid "invalid line mitre"
+msgstr "niepoprawny ukośnik linii"
+
+#, c-format
+msgid "attempt to use invalid font %d replaced by font 1"
+msgstr "próba użycia niepoprawnej czcionki %d zastąpionej przez czcionkę 1"
+
+#, c-format
+msgid "filename too long in %s()"
+msgstr "nazwa pliku w '%s()' jest zbyt długa"
+
+#, c-format
+msgid "memory allocation problem in %s()"
+msgstr "problem przydziału pamięci w '%s()'"
+
+#, c-format
+msgid "encoding path is too long in %s()"
+msgstr "ścieżka kodowa w '%s()' jest zbyt długa"
+
+#, c-format
+msgid "failed to load encoding file in %s()"
+msgstr "nie udało się załadować pliku kodowego w %s()"
+
+msgid "invalid font type"
+msgstr "niepoprawny typ czcionki"
+
+msgid "failed to initialise default PostScript font"
+msgstr "nie udało się zainicjalizować domyślnej czcionki PostScript"
+
+msgid "failed to initialise additional PostScript fonts"
+msgstr "nie udało się zainicjalizować dodatkowych czcionek PostScript"
+
+msgid "invalid foreground/background color (postscript)"
+msgstr "niepoprawny kolor pierwszego planu/tła (postscript)"
+
+msgid "'command' is too long"
+msgstr "'command' jest zbyt długie"
+
+msgid "'postscript(print.it=TRUE)' used with an empty 'print' command"
+msgstr "'postscript(print.it=TRUE)' użyte z pustą komendą 'print'"
+
+#, c-format
+msgid "invalid page type '%s' (postscript)"
+msgstr "niepoprawny typ '%s' strony (postscript)"
+
+msgid "semi-transparency is not supported on this device: reported only once per page"
+msgstr "półprzezroczystość nie jest wspierana na tym urządzeniu: zaraportowane tylko raz na stronę"
+
+#, fuzzy, c-format
+msgid "cannot open 'postscript' pipe to '%s' (reason: %s)"
+msgstr "nie można otworzyć kanału 'postscript' w '%s'"
+
+#, c-format
+msgid "cannot open file '%s'"
+msgstr "nie można otworzyć pliku '%s'"
+
+#, c-format
+msgid ""
+"error from postscript() in running:\n"
+"    %s"
+msgstr ""
+"błąd pochodzący z funkcji 'postscript()' w działającym:\n"
+"    %s"
+
+#, c-format
+msgid "CID family '%s' not included in postscript() device"
+msgstr "rodzina CID '%s' nie jest uwzględniona w urządzeniu 'postScript()'"
+
+#, c-format
+msgid "family '%s' not included in postscript() device"
+msgstr "rodzina '%s' nie jest uwzględniona w urządzeniu 'postScript()'"
+
+#, c-format
+msgid "unknown encoding '%s' in 'mbcsToSbcs'"
+msgstr "nieznana strona kodowa '%s' w 'mbcsToSbcs'"
+
+#, c-format
+msgid "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
+msgstr "błąd konwersji na '%s'; w 'mbcsToSbcs': dla <%02x>"
+
+#, c-format
+msgid "conversion failure on '%s' in 'mbcsToSbcs': dot substituted for <%02x>"
+msgstr "niepowodzenie konwersji na '%s' w 'mbcsToSbcs': kropka zastąpiona <%02x>"
+
+#, c-format
+msgid "failed open converter to encoding '%s'"
+msgstr "nie udało się otworzyć konwertera dla kodowania '%s'"
+
+#, c-format
+msgid "failed in text conversion to encoding '%s'"
+msgstr "konwersja tekstu dla kodowania '%s' nie powiodła się"
+
+msgid "Failed to allocate PDF definition string"
+msgstr "Nie udało się przydzielić ciągu definicji PDF"
+
+msgid "failed to increase definition string (shut down PDF device)"
+msgstr "nie udało się zwiększyć ciągu definicji (zamknij urządzenie PDF)"
+
+msgid "failed to increase 'maxDefns'"
+msgstr "nie udało się zwiększyć 'maxDefns'"
+
+msgid "Drawing not appended to path (contains text)"
+msgstr "Rysunek nie jest dołączony do ścieżki (zawiera tekst)"
+
+msgid "Compositing operator has no corresponding blend mode; defaulting to Normal"
+msgstr "Operator tworzenia kompozycji nie ma odpowiadającego mu trybu mieszania; ustawianie domyślnego trybu 'Normal'"
+
+msgid "Failed to write PDF clipping path"
+msgstr "Nie udało się zapisać ścieżki przycinającej PDF"
+
+msgid "Failed to write PDF stroke"
+msgstr "Nie udało się zapisać obrysu PDF"
+
+msgid "Failed to write PDF fill"
+msgstr "Nie udało się zapisać wypełnienia PDF"
+
+msgid "Failed to write PDF fillStroke"
+msgstr "Nie udało się zapisać pliku PDF fillStroke"
+
+msgid "Glyph ID larger than 0xFFFF; output will be incorrect"
+msgstr "Identyfikator glifu większy niż 0xFFFF; dane wyjściowe będą nieprawidłowe"
+
+msgid "invalid 'alpha' value in PDF"
+msgstr "niepoprawna wartość 'alpha' w PDF"
+
+msgid "failed to increase 'maxRaster'"
+msgstr "nie udało się zwiększyć 'maxRaster'"
+
+msgid "unable to allocate raster image"
+msgstr "nie można przydzielić obrazu rastrowego"
+
+msgid "write failed"
+msgstr "zapis nie powiódł się"
+
+msgid "corrupt loaded encodings;  font not added"
+msgstr "załadowane kodowania są uszkodzone; czcionka nie została dodana"
+
+msgid "failed to record device encoding; font not added"
+msgstr "nie udało się zarejestrować kodowania urządzenia; czcionka nie została dodana"
+
+msgid "increasing the PDF version to 1.2"
+msgstr "zwiększanie wersji PDF do 1.2"
+
+msgid "failed to load default encoding"
+msgstr "nie udało się załadować domyślnej strony kodowej"
+
+msgid "failed to initialise default PDF font"
+msgstr "nie udało się zainicjować domyślnej czcionki PDF"
+
+msgid "failed to initialise additional PDF fonts"
+msgstr "nie udało się zainicjować dodatkowych czcionek PDF"
+
+msgid "failed to allocate rasters"
+msgstr "nie udało się przydzielić rastrów"
+
+msgid "failed to allocate masks"
+msgstr "nie udało się przydzielić masek"
+
+msgid "failed to allocate definitions"
+msgstr "nie udało się przydzielić definicji"
+
+#, c-format
+msgid "invalid paper type '%s' (pdf)"
+msgstr "niepoprawny typ '%s' papieru (pdf)"
+
+msgid "invalid foreground/background color (pdf)"
+msgstr "niepoprawny kolor pierwszego planu/tła (pdf)"
+
+msgid "increasing the PDF version to 1.4"
+msgstr "zwiększanie wersji PDF do 1.4"
+
+msgid "unknown 'colormodel', using 'srgb'"
+msgstr "nieznany 'colormodel', używanie 'srgb'"
+
+msgid "failed to load sRGB colorspace file"
+msgstr "nie udało się załadować pliku przestrzeni kolorów sRGB"
+
+msgid "corrupt encodings in PDF device"
+msgstr "uszkodzone kodowania w urządzeniu PDF"
+
+msgid "increasing the PDF version to 1.3"
+msgstr "zwiększanie wersji PDF do 1.3"
+
+#, fuzzy, c-format
+msgid "cannot open 'pdf' pipe to '%s' (reason: %s)"
+msgstr "nie można otworzyć kanału 'pdf' w '%s'"
+
+msgid "file = \"|cmd\" implies 'onefile = TRUE'"
+msgstr "file = \"|cmd\" sugeruje, że 'onefile = TRUE'"
+
+#, c-format
+msgid ""
+"cannot open 'pdf' file argument '%s'\n"
+"  please shut down the PDF device"
+msgstr ""
+"nie można otworzyć argumentu pliku 'pdf' '%s'\n"
+"  proszę wyłączyć urządzenie PDF"
+
+#, c-format
+msgid "Cannot open temporary file '%s' for compression (reason: %s); compression has been turned off for this device"
+msgstr "Nie można otworzyć tymczasowego pliku '%s' do kompresji (powód: %s); kompresja została wyłączone dla tego urządzenia"
+
+msgid "failed to find or load PDF font"
+msgstr "nie udało się znaleźć lub załadować czcionkę PDF"
+
+msgid "Text not added to path containing other drawing"
+msgstr "Tekst nie został dodany do ścieżki zawierającej inny rysunek"
+
+msgid "failed to find or load PDF CID font"
+msgstr "nie udało się znaleźć lub załadować czcionkę CID PDF"
+
+#, c-format
+msgid "invalid 'file' parameter in %s"
+msgstr "nieprawidłowy parametr 'file' w %s"
+
+#, c-format
+msgid "invalid 'family' parameter in %s"
+msgstr "niepoprawny parametr 'family' w %s"
+
+#, c-format
+msgid "invalid 'fonts' parameter in %s"
+msgstr "niepoprawny parametr 'fonts' w %s"
+
+#, c-format
+msgid "invalid value of '%s'"
+msgstr "niepoprawna wartość '%s'"
+
+#, c-format
+msgid "unable to start %s() device"
+msgstr "nie można uruchomić urządzenia '%s()'"
+
+msgid "Quartz gradients exhausted (failed to increase maxPatterns)"
+msgstr "Gradienty Quartz zostały wyczerpane (nie udało się zwiększyć maxPatterns)"
+
+msgid "Quartz patterns exhausted (failed to increase maxPatterns)"
+msgstr "Wzory Quartz zostały wyczerpane (nie udało się zwiększyć maxPatterns)"
+
+msgid "Attempt to release non-existent pattern"
+msgstr "Próba zwolnienia nieistniejącego wzorca"
+
+msgid "Quartz patterns exhausted"
+msgstr "Wzorce Quartz zostały wyczerpane"
+
+msgid "Failed to create gradient"
+msgstr "Nie udało się utworzyć gradientu"
+
+msgid "Unsupported gradient fill extend type; using 'pad'"
+msgstr "Nieobsługiwany typ wydłużenia wypełnienia gradientowego; używanie 'pad'"
+
+msgid "Failed to create pattern"
+msgstr "Nie udało się utworzyć wzorca"
+
+msgid "Unsupported pattern extend mode;  using \"repeat\""
+msgstr "Nieobsługiwany tryb rozszerzania wzorca;  używanie \"repeat\""
+
+msgid "Quartz clipping paths exhausted (failed to increase maxClipPaths)"
+msgstr "Wyczerpano ścieżki przycinania Quartz (nie udało się zwiększyć maxClipPaths)"
+
+msgid "Quartz clipping paths exhausted"
+msgstr "Wyczerpano ścieżki przycinania Quartz"
+
+msgid "Failed to create clipping path"
+msgstr "Nie udało się utworzyć ścieżki przycinającej"
+
+msgid "Quartz masks exhausted (failed to increase maxMasks)"
+msgstr "Wyczerpano maski Quartz (nie udało się zwiększyć maxMasks)"
+
+msgid "Quartz masks exhausted"
+msgstr "Wyczerpano maski Quartz"
+
+msgid "Failed to create Quartz mask"
+msgstr "Nie udało się utworzyć maski Quartz"
+
+msgid "Quartz groups exhausted (failed to increase maxGroups)"
+msgstr "Wyczerpano grupy Quartz (nie udało się zwiększyć maxGroups)"
+
+msgid "Attempt to release non-existent group"
+msgstr "Próba zwolnienia nieistniejącej grupy"
+
+msgid "Quartz groups exhausted"
+msgstr "Wyczerpano grupy Quartz"
+
+msgid "Add compositing operator not supported; falling back to over"
+msgstr "Operator dodawania kompozycji nie jest obsługiwany; ustawianie trybu 'nad'"
+
+msgid "Groups exhausted"
+msgstr "Grupy wyczerpane"
+
+#, c-format
+msgid "font \"%s\" could not be found for family \"%s\""
+msgstr "czcionka '%s' nie została znaleziona dla rodziny '%s'"
+
+msgid "font family name is too long"
+msgstr "nazwa rodziny czcionki jest zbyt długa"
+
+#, c-format
+msgid "no font could be found for family \"%s\""
+msgstr "nie można było znaleźć żadnej czcionki dla rodziny '%s'"
+
+msgid "Attempt to reuse non-existent clipping path"
+msgstr "Próba ponownego użycia nieistniejącej ścieżki przycinającej"
+
+msgid "Attempt to release non-existent clipping path"
+msgstr "Próba zwolnienia nieistniejącej ścieżki przycinającej"
+
+msgid "Attempt to release non-existent mask"
+msgstr "Próba zwolnienia nieistniejącej maski"
+
+#, c-format
+msgid "Invalid font path: \"%s\""
+msgstr "Nieprawidłowa ścieżka czcionki: \"%s\""
+
+msgid "Failed to load font"
+msgstr "nie udało się załadować czcionki"
+
+msgid "invalid 'file' argument"
+msgstr "błędny argument 'file'"
+
+msgid "invalid quartz() device size"
+msgstr "niepoprawny rozmiar urządzenia 'quartz()'"
+
+msgid "unable to create device description"
+msgstr "nie można utworzyć opisu urządzenia"
+
+msgid "unable to create quartz() device target, given type may not be supported"
+msgstr "nie można utworzyć urządzenia 'quartz()', podany typ może nie być wspierany"
+
+msgid "Quartz device is not available on this platform"
+msgstr "urządzenie Quartz nie jest dostępne na tej platformie"
+
+msgid "Not enough memory to copy graphics window"
+msgstr "Zbyt mało pamięci aby skopiować okno grafiki"
+
+msgid "No device available to copy graphics window"
+msgstr "Brak dostępnego urządzenia aby skopiować okno grafiki"
+
+#, c-format
+msgid "'%%' is not allowed in file name"
+msgstr "'%%' nie jest dozwolone w nazwie pliku"
+
+msgid "invalid font specification"
+msgstr "niepoprawne określenie czcionki"
+
+msgid "font family not found in Windows font database"
+msgstr "rodzina czcionek nie została znaleziona w bazie czcionek systemu Windows"
+
+msgid "plot history seems corrupted"
+msgstr "historia wykresu wygląda na uszkodzoną"
+
+msgid "no plot history!"
+msgstr "brak historii wykresu!"
+
+#, c-format
+msgid "filename too long in %s() call"
+msgstr "nazwa pliku jest zbyt długa w wywołaniu '%s()'"
+
+#, c-format
+msgid "'width=%d, height=%d' are unlikely values in pixels"
+msgstr "'width=%d, height=%d' są mało prawdopodobnymi wartościami w pikselach"
+
+msgid "unable to allocate bitmap"
+msgstr "nie można przydzielić bitmapy"
+
+#, c-format
+msgid "unable to open file '%s' for writing"
+msgstr "nie można otworzyć pliku '%s' do zapisu"
+
+msgid "filename too long in jpeg() call"
+msgstr "nazwa pliku w wywołaniu 'jpeg()' jest zbyt długa"
+
+msgid "filename too long in tiff() call"
+msgstr "nazwa pliku w wywołaniu 'tiff()' jest zbyt długa"
+
+msgid "filename too long in win.metafile() call"
+msgstr "nazwa pliku w wywołaniu 'win.metafile()' jest zbyt długa"
+
+#, c-format
+msgid "unable to open metafile '%s' for writing"
+msgstr "nie można otworzyć metapliku '%s' do zapisu"
+
+msgid "unable to open clipboard to write metafile"
+msgstr "nie można otworzyć schowka aby zapisać metaplik"
+
+msgid "Insufficient memory for resize. Killing device"
+msgstr "Niewystarczająca ilość pamięci do zmiany rozmiaru. Zabijanie urządzenia"
+
+msgid "Insufficient memory for resize. Disabling alpha blending"
+msgstr "Niewystarczająca ilość pamięci do zmiany rozmiaru. Wyłączenie mieszania alfa"
+
+msgid "a clipboard metafile can store only one figure."
+msgstr "metaplik schowka może przechowywać tylko jeden obrazek."
+
+#, c-format
+msgid "metafile '%s' could not be created"
+msgstr "metaplik '%s' nie mógł zostać utworzony"
+
+msgid "R Graphics"
+msgstr "R Grafika"
+
+msgid "attempt to use the locator after dev.hold()"
+msgstr "próba użycia 'locator' po 'dev.hold()'"
+
+msgid "graphics device closed during call to locator or identify"
+msgstr "urządzenie graficzne zostało zamknięte podczas wywołania funkcji 'locator()' lub 'idenfify()'"
+
+msgid "option 'windowsTimeouts' should be integer"
+msgstr "opcja 'windowsTimeouts' powinna być liczba całkowitą"
+
+msgid "invalid device number in 'savePlot'"
+msgstr "niepoprawny numer urządzenia w 'savePlot'"
+
+msgid "invalid device in 'savePlot'"
+msgstr "niepoprawne urządzenie w 'savePlot'"
+
+msgid "invalid filename argument in 'savePlot'"
+msgstr "niepoprawny argument nazwy pliku w 'savePlot'"
+
+msgid "invalid type argument in 'savePlot'"
+msgstr "niepoprawny typ argumentu w 'savePlot'"
+
+msgid "unknown type in savePlot"
+msgstr "nieznany typ w 'savePlot'"
+
+msgid "processing of the plot ran out of memory"
+msgstr "zabrakło pamięci podczas przetwarzania wykresu"
+
+msgid "Impossible to open "
+msgstr "Nie można otworzyć "
+
+msgid "invalid 'width' or 'height'"
+msgstr "niepoprawna wartość 'width' lub 'height'"
+
+msgid "argument must have positive length"
+msgstr "argument musi mieć dodatnią długość"
+
+msgid "invalid argument"
+msgstr "niepoprawny argument"
+
+msgid "NA argument is invalid"
+msgstr "argument NA jest niepoprawny"
+
+msgid "Killing locked device"
+msgstr ""
+
+msgid "Group definition ignored (device is appending path)"
+msgstr "Definicja grupy została zignorowana (urządzenie dołącza ścieżkę)"
+
+msgid "Group use ignored (device is appending path)"
+msgstr "Grupowe użycie zostało zignorowane (urządzenie dołącza ścieżkę)"
+
+msgid "Mask ignored (device is appending path)"
+msgstr "Maska została zignorowana (urządzenie dołącza ścieżkę)"
+
+#, fuzzy
+msgid "QuartzBitmap_Output - filename is empty!"
+msgstr "'QuartzBitmap_Output' - nie można otworzyć pliku '%s'"
+
+#, c-format
+msgid "QuartzBitmap_Output - unable to open file '%s'"
+msgstr "'QuartzBitmap_Output' - nie można otworzyć pliku '%s'"
+
+msgid "not a supported scheme, no image data written"
+msgstr "to nie jest wspierany schemat, nie zapisano danych obrazka"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "niepoprawny argument '%s'"
+
+msgid "unimplemented cairo-based device"
+msgstr "niezaimplementowane urządzenie oparte o Cairo"
+
+#, c-format
+msgid "could not open file '%s'"
+msgstr "nie udało się otworzyć pliku '%s'"
+
+#, c-format
+msgid "unable to start device '%s'"
+msgstr "nie można uruchomić urządzenia '%s'"
+
+msgid "Cairo patterns exhausted (failed to increase maxPatterns)"
+msgstr "Wyczerpano wzorce Cairo (nie udało się zwiększyć maxPatterns)"
+
+msgid "Cairo patterns exhausted"
+msgstr "Wyczerpano wzorce Cairo"
+
+msgid "Cairo clipping paths exhausted (failed to increase maxClipPaths)"
+msgstr "Wyczerpano ścieżki przycinania Cairo (nie udało się zwiększyć maxClipPaths)"
+
+msgid "Cairo clipping paths exhausted"
+msgstr "Wyczerpano ścieżki przycinania Cairo"
+
+msgid "Cairo masks exhausted (failed to increase maxMasks)"
+msgstr "Wyczerpano maski Cairo (nie udało się zwiększyć maxMasks)"
+
+msgid "Cairo masks exhausted"
+msgstr "Wyczerpano maski Cairo"
+
+msgid "Ignored luminance mask (not supported on this device)"
+msgstr "maska luminancji została zignorowana (nieobsługiwana na tym urządzeniu)"
+
+msgid "Cairo groups exhausted (failed to increase maxGroups)"
+msgstr "Wyczerpano grupy Cairo (nie udało się zwiększyć maxGroups)"
+
+msgid "Cairo groups exhausted"
+msgstr "Wyczerpano grupy Cairo"
+
+#, fuzzy
+msgid "Font variations too long"
+msgstr "nazwa rodziny czcionki jest zbyt długa"
+
+#, fuzzy
+msgid "Failed to apply font variations"
+msgstr "nie udało się przydzielić definicji"
+
+msgid "Variable fonts not supported (requires Cairo >= 1.16.0)"
+msgstr ""
+
+msgid "Font file not found; matching font family and face"
+msgstr "Nie znaleziono pliku czcionki; Dopasowywanie rodziny czcionek oraz kroju"
+
+#~ msgid "ran out of colors in xfig()"
+#~ msgstr "zabrakło kolorów w 'xfig()'"
+
+#, c-format
+#~ msgid "unimplemented line texture %08x: using Dash-double-dotted"
+#~ msgstr "niezaimplementowana tekstura linii %08x: używanie kreska-dwie-kropki"
+
+#, c-format
+#~ msgid "unknown postscript font family '%s', using Helvetica"
+#~ msgstr "nieznana rodzina czcionki postscript '%s', używanie Helvetica"
+
+#~ msgid "invalid foreground/background color (xfig)"
+#~ msgstr "niepoprawny kolor pierwszego planu/tła (xfig)"
+
+#~ msgid "only Type 1 fonts supported for XFig"
+#~ msgstr "tylko czcionki 'Type 1' są wspierane w XFig"
+
+#~ msgid "failed to initialise default XFig font"
+#~ msgstr "nie udało się zainicjalizować domyślnej czcionki XFig"
+
+#, c-format
+#~ msgid "invalid page type '%s' (xfig)"
+#~ msgstr "niepoprawny typ '%s' strony ('xfig')"
+
+#, c-format
+#~ msgid "xfig(%s, onefile=FALSE) will only return the last plot"
+#~ msgstr "'xfig(%s, onefile=FALSE)' zwróci tylko ostatni wykres"
+
+#~ msgid "empty file name"
+#~ msgstr "pusta nazwa pliku"
+
+#, c-format
+#~ msgid "unable to use encoding '%s'"
+#~ msgstr "nie można użyć strony kodowej '%s'"

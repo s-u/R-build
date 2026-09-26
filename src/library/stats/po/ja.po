@@ -1,0 +1,783 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The R Foundation
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 2.1.1\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-07-08 08:22-0700\n"
+"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"Language-Team: RjpWiki Message Translation Team <mokada@md.tsukuba.ac.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.16.4\n"
+"X-POOTLE-MTIME: 1427436568.000000\n"
+
+msgid "bandwidth/span of running medians is larger than n"
+msgstr "移動中央値のバンド幅・バンド範囲 (span) が n より大きくなっています"
+
+#, c-format
+msgid "runmed(x, .., na.action=\"na.fail\"): have NAs starting at x[%lld]"
+msgstr ""
+
+msgid "runmed(): invalid 'na.action'"
+msgstr ""
+
+#, c-format
+msgid "na_action logic error (%d), please report!"
+msgstr ""
+
+msgid "probabilities outside [0,1] in qansari()"
+msgstr "qansari() 中で確率が [0, 1] の範囲外です"
+
+msgid "approx(): invalid f value"
+msgstr "approx(): 不正な f 値"
+
+msgid "approx(): invalid interpolation method"
+msgstr "approx(): 不正な補間法"
+
+msgid "approx(): attempted to interpolate NA values"
+msgstr "approx(): NA 値を補間しようとしました"
+
+msgid "approx(x,y, .., na.rm=FALSE): NA values in x are not allowed"
+msgstr ""
+
+msgid "invalid argument type"
+msgstr "不正な引数の型です"
+
+msgid "can only transform 100 pars in arima0"
+msgstr "arima0 では 100 個のパラメータまでしか変換出来ません"
+
+msgid "maximum supported lag is 350"
+msgstr "サポートされているラグの最大値は350です"
+
+#, c-format
+msgid "non-finite x[%d] in bandwidth calculation"
+msgstr "バンド幅の計算中に有限でない x[%d]"
+
+#, fuzzy
+msgid "data are constant in bandwidth calculation"
+msgstr "バンド幅の計算中に有限でない x[%d]"
+
+#, c-format
+msgid "invalid 'type' (%s) of argument"
+msgstr "引数 'type' (%s) が不正です"
+
+msgid "no input has determined the number of cases"
+msgstr "ケースの数を決定する入力がありません"
+
+msgid "not all arguments have the same length"
+msgstr "引数の中に異なった長さのものがあります"
+
+msgid "missing observations in cov/cor"
+msgstr "cov/cor 関数に欠損した観測値があります"
+
+msgid "'x' is NULL"
+msgstr "'x' が NULL です"
+
+msgid "incompatible dimensions"
+msgstr "互換性のない次元です"
+
+msgid "no complete element pairs"
+msgstr "完全な要素のペアがありません"
+
+msgid "invalid 'use' (computational method)"
+msgstr "'use' (計算法) が不正です"
+
+msgid "'x' is empty"
+msgstr "'x' が空です"
+
+msgid "the standard deviation is zero"
+msgstr "標準偏差が 0 です"
+
+msgid "invalid form in unary minus check"
+msgstr "単項のマイナスの検査に不正な形式があります"
+
+#, c-format
+msgid "Function '%s' is not in the derivatives table"
+msgstr "関数 '%s' は導関数の表中にありません"
+
+#, c-format
+msgid "expression must not be type '%s'"
+msgstr ""
+
+msgid "variable must be a character string"
+msgstr "変数は文字列でなければいけません"
+
+msgid "only the first element is used as variable name"
+msgstr "最初の要素だけが変数名として使われました"
+
+#, c-format
+msgid "invalid expression in '%s'"
+msgstr "'%s' 中の式が不正です"
+
+#, fuzzy
+msgid "too many variables"
+msgstr "因子がありません"
+
+msgid "invalid variable names"
+msgstr "変数名が不正です"
+
+msgid "invalid tag"
+msgstr "タグが不正です"
+
+msgid "treating non-finite values as NA"
+msgstr "有限でない値を NA として取り扱います"
+
+msgid "distance(): invalid p"
+msgstr "distance(): 不正な p"
+
+msgid "distance(): invalid distance"
+msgstr "distance(): 不正な距離"
+
+msgid "NaNs produced"
+msgstr "計算結果が NaN になりました"
+
+msgid "Non-numeric argument to mathematical function"
+msgstr "数学関数に非数値引数が渡されました"
+
+#, c-format
+msgid "Value %g out of range (0, 1)"
+msgstr "値 %g は範囲 (0, 1) 外です"
+
+#, c-format
+msgid "Argument %s must be a nonempty numeric vector"
+msgstr "引数 %s は空でない数値ベクトルでなければなりません"
+
+#, c-format
+msgid "argument %s must be a numeric vector of length 1 or length %d"
+msgstr "引数 %s は長さが 1 か %d の数値ベクトルでなければなりません"
+
+#, c-format
+msgid "integer overflow would happen in 'mult * ldkey' = %g"
+msgstr ""
+
+#, c-format
+msgid ""
+"FEXACT error 6.  LDKEY=%d is too small for this problem,\n"
+"  (ii := key2[itp=%d] = %d, ldstp=%d)\n"
+"Try increasing the size of the workspace and possibly 'mult'"
+msgstr ""
+
+#, c-format
+msgid ""
+"FEXACT[f3xact()] error: hash key %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
+"Rather set 'simulate.p.value=TRUE'\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"FEXACT error 30.  Stack length exceeded in f3xact,\n"
+"  (ldst=%d, key=%d, ipn=%d, itp=%d, ist[ii=%d]=%d).\n"
+"Increase workspace or consider using 'simulate.p.value=TRUE'"
+msgstr ""
+
+#, c-format
+msgid ""
+"FEXACT error 6 (f5xact).  LDKEY=%d is too small for this problem: kval=%d.\n"
+"Try increasing the size of the workspace."
+msgstr ""
+
+#, c-format
+msgid ""
+"FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
+"  (kval=%d, itop-ldstp=%d).\n"
+"Increase workspace or consider using 'simulate.p.value=TRUE'."
+msgstr ""
+
+#, c-format
+msgid ""
+"FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
+"  (pastp=%g, ipn_0:=ipoin[itp=%d]=%d, stp[ipn_0]=%g).\n"
+"Increase workspace or consider using 'simulate.p.value=TRUE'"
+msgstr ""
+
+msgid "non-numeric argument"
+msgstr "引数が数値でありません"
+
+msgid "fft factorization error"
+msgstr "fft の因数分解エラーです"
+
+msgid "vector-valued (multivariate) series required"
+msgstr "ベクトル値 (多変量) の系列が必要です"
+
+#, c-format
+msgid "nextn() found no solution < %d = INT_MAX (the maximal integer); pass '0+ n' instead of 'n'"
+msgstr ""
+
+#, c-format
+msgid "nextn<64>() found no solution < %llu = UINT64_MAX (the maximal integer)"
+msgstr ""
+
+msgid "no factors"
+msgstr "因子がありません"
+
+#, fuzzy
+msgid "too many factors"
+msgstr "因子がありません"
+
+msgid "invalid factors"
+msgstr "因子 (factor) が不正です"
+
+msgid "'n' must have typeof(.) \"integer\" or \"double\""
+msgstr ""
+
+#, c-format
+msgid "nextn() = %<PRIu64> > 2^53 may not be exactly representable in R (as \"double\")"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "'%s' must be of length one"
+msgstr "'m' はリストでなければなりません"
+
+#, c-format
+msgid "non-finite sum(y) == %g is not allowed"
+msgstr ""
+
+msgid "only 2500 rows are allowed for sm.method=\"spline\""
+msgstr "sm.method=\"spline\" では 2500 行までしか扱えません"
+
+msgid "'x' is not a matrix"
+msgstr "'x' が行列ではありません"
+
+#, fuzzy, c-format
+msgid "dimensions of 'x' (%d,%d) and 'y' (%lld) do not match"
+msgstr "'x' (%d,%d) と 'y' (%lld)の次元が一致しません"
+
+#, c-format
+msgid "NA/NaN/Inf in '%s'"
+msgstr "'%s' の中に NA/NaN/Inf があります"
+
+msgid "span is too small"
+msgstr "範囲 (span) が小さすぎます"
+
+#, c-format
+msgid "workspace required (%.0f) is too large%s."
+msgstr ""
+
+msgid " probably because of setting 'se = TRUE'"
+msgstr ""
+
+msgid "this should not happen"
+msgstr "これは起こるべきではありません"
+
+msgid "algorithm did not converge"
+msgstr "アルゴリズムが収束しませんでした"
+
+msgid "incorrect specification of 'table' or 'start'"
+msgstr "'table' または 'start' の指定が誤っています"
+
+msgid "'f' must be finite and > 0"
+msgstr "'f' は有限かつ正数でなくてはなりません"
+
+msgid "'iter' must be finite and >= 0"
+msgstr "'iter' は有限かつ 0 以上でなくてはなりません"
+
+msgid "'delta' must be finite and > 0"
+msgstr "'delta' は有限かつ正数でなくてはなりません"
+
+msgid "assert failed in src/library/ts/src/carray.c"
+msgstr ""
+
+msgid "Singular matrix in qr_solve"
+msgstr "qr_solve 中の特異行列です"
+
+msgid "Singular matrix in ldet"
+msgstr "ldet 中の特異行列です"
+
+msgid "Invalid vmethod"
+msgstr "不正な vmethod です"
+
+msgid "Burg's algorithm failed to find partial correlation"
+msgstr "Burg のアルゴリズムが偏相関を見つけ損ないました"
+
+msgid "invalid variables"
+msgstr "変数が不正です"
+
+msgid "number of variables != number of variable names"
+msgstr "変数の個数が変数名の個数と一致していません"
+
+msgid "invalid extra variables"
+msgstr "追加変数が不正です"
+
+msgid "invalid extra variable names"
+msgstr "追加変数名が不正です"
+
+#, c-format
+msgid "overlong names in '%s'"
+msgstr "'%s' の名前が長すぎます"
+
+#, c-format
+msgid "invalid type (%s) for variable '%s'"
+msgstr "型 (%s) は変数 '%s' に対しては不正です"
+
+#, c-format
+msgid "variable lengths differ (found for '%s')"
+msgstr "変数 ('%s' に基づく) の長さが異なります"
+
+msgid "invalid result from na.action"
+msgstr "na.action の結果が不正です"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "'%s' 引数が不正です"
+
+msgid "invalid model frame"
+msgstr "モデルフレームが不正です"
+
+msgid "do not know how many cases"
+msgstr "ケースの数が幾つあるか分かりません"
+
+#, c-format
+msgid "variable lengths differ (found for variable %d)"
+msgstr "変数 (%d 変数に基づく) の長さが異なります"
+
+#, c-format
+msgid "variable %d has no levels"
+msgstr "変数 %d は水準を持ちません"
+
+msgid "the response appeared on the right-hand side and was dropped"
+msgstr "目的変数が右辺にあるため、捨て去られました"
+
+#, c-format
+msgid "term %d would require %.0g columns"
+msgstr "項 %d は %.0g 行を必要とするかもしれません"
+
+#, c-format
+msgid "matrix would require %.0g columns"
+msgstr "行列は %.0g 行を必要とするかもしれません"
+
+#, c-format
+msgid "problem with term %d in model.matrix: no columns are assigned"
+msgstr "model.matrix 中の項 %d に問題があります: いかなる列も指定されていません"
+
+msgid "term names will be truncated"
+msgstr "項の名前は切りつめらられるでしょう"
+
+msgid "complex variables are not currently allowed in model matrices"
+msgstr "モデル行列中では複素数は現在許されていません"
+
+#, c-format
+msgid "variables of type '%s' are not allowed in model matrices"
+msgstr "タイプ '%s' の変数はモデル行列中では許されません"
+
+msgid "invalid formula in 'update'"
+msgstr "'update' 中の式が不正です"
+
+msgid "formula expected"
+msgstr "式が期待されています"
+
+msgid "invalid term in model formula"
+msgstr "モデル式に不正な項があります"
+
+msgid "invalid model formula"
+msgstr "モデル式が不正です"
+
+msgid "invalid power in formula"
+msgstr "モデル式中に不正なべき乗があります"
+
+msgid "invalid model formula in ExtractVars"
+msgstr "ExtractVars 中のモデル式が不正です"
+
+#, c-format
+msgid "duplicated name '%s' in data frame using '.'"
+msgstr "データフレーム中の重複した名前 '%s' を '.' を使って複製しました"
+
+msgid "invalid model formula in EncodeVars"
+msgstr "EncodeVars 中のモデル式が不正です"
+
+msgid "argument is not a valid model"
+msgstr "引数は有効なモデルではありません"
+
+msgid "'specials' must be NULL or a character vector"
+msgstr "'specials' は NULL または文字ベクタでなくてはなりません"
+
+msgid "'data' argument is of the wrong type"
+msgstr "'data' 引数が誤った型です"
+
+#, c-format
+msgid "'varlist' has changed (from nvar=%d) to new %d after EncodeVars() -- should no longer happen!"
+msgstr ""
+
+msgid "'.' in formula and no 'data' argument"
+msgstr "'.' が式中にありますが, 'data' 引数がありません"
+
+msgid "n must be at least two"
+msgstr "n は最低でも 2 でなければなりません"
+
+msgid "Argument m must be numeric"
+msgstr "引数 m は数値でなければなりません"
+
+msgid "length(m) must be at least two"
+msgstr "length(m) は少なくとも 2 でなければなりません"
+
+msgid "Argument Sx must be numeric vector one shorter than m[]"
+msgstr "引数 Sx は長さが m[] より 1 だけ短い数値ベクトルでなければなりません"
+
+msgid "'control' must be a list"
+msgstr "'control' はリストでなければなりません"
+
+msgid "'m' must be a list"
+msgstr "'m' はリストでなければなりません"
+
+#, c-format
+msgid "'%s' absent"
+msgstr "'%s' がありません"
+
+msgid "singular gradient"
+msgstr "勾配が特異です"
+
+#, c-format
+msgid "step factor %g reduced below 'minFactor' of %g"
+msgstr "step 因子 %g は %g の 'minFactor' 以下に縮小しました"
+
+#, c-format
+msgid "number of iterations exceeded maximum of %d"
+msgstr "繰り返し数が最大値 %d を超えました"
+
+msgid "converged"
+msgstr "収束しました"
+
+msgid "'theta' should be of type character"
+msgstr "'theta' は文字型でなければなりません"
+
+msgid "use of NULL environment is defunct"
+msgstr "NULL 環境の使用は廃止されました"
+
+msgid "'rho' should be an environment"
+msgstr "'rho' は環境 (environment) でなければなりません"
+
+msgid "'dir' is not a numeric vector of the correct length"
+msgstr "'dir' は正しい長さの数値ベクトルではありません"
+
+msgid "'central' is NA, but must be TRUE or FALSE"
+msgstr ""
+
+msgid "Missing value or an infinity produced when evaluating the model"
+msgstr "モデルを評価する際，欠損値または無限大が生成されました"
+
+#, c-format
+msgid "variable '%s' is integer, not numeric"
+msgstr "変数 '%s' は整数です、数値ではありません"
+
+#, c-format
+msgid "variable '%s' is not numeric"
+msgstr "変数 '%s' は数値ではありません"
+
+msgid "non-finite value supplied by optim"
+msgstr "optim により有限でない値が与えられました"
+
+#, c-format
+msgid "objective function in optim evaluates to length %d not 1"
+msgstr "optim の目的関数が 1 つではなくて %d 個の結果を評価しています"
+
+#, c-format
+msgid "gradient in optim evaluated to length %d not %d"
+msgstr "optim 中で勾配は長さ %d (長さ %d ではなく) で評価されました"
+
+#, c-format
+msgid "non-finite finite-difference value [%d]"
+msgstr ""
+
+msgid "'fn' is not a function"
+msgstr "'fn' が関数ではありません"
+
+msgid "'parscale' is of the wrong length"
+msgstr "'parscale' の長さが不正です"
+
+msgid "'maxit' is not an integer"
+msgstr "'maxit' が整数ではありません"
+
+msgid "'tmax' is not a positive integer"
+msgstr "'tmax' が正の整数ではありません"
+
+msgid "'gr' is not a function"
+msgstr "'gr' は関数ではありません"
+
+msgid "'ndeps' is of the wrong length"
+msgstr "'ndeps' の長さが誤っています"
+
+msgid "unknown 'method'"
+msgstr "未知の 'method' です"
+
+msgid "NA replaced by maximum positive value"
+msgstr "NA は正の最大値で置き換えられました"
+
+msgid "-Inf replaced by maximally negative value"
+msgstr "-Inf は負の最大値で置き換えられました"
+
+#, fuzzy, c-format
+msgid "%s replaced by maximum positive value"
+msgstr "NA は正の最大値で置き換えられました"
+
+msgid "invalid function value in 'optimize'"
+msgstr "'optimize' における関数値が不正です"
+
+msgid "attempt to minimize non-function"
+msgstr "関数でないものを最小化しようとしました"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "'%s' の値が不正です"
+
+msgid "'xmin' not less than 'xmax'"
+msgstr "'xmin' が 'xmax' より大きいか等しいです"
+
+msgid "invalid function value in 'zeroin'"
+msgstr "'zeroin' における関数値が不正です"
+
+#, c-format
+msgid "NA value for '%s' is not allowed"
+msgstr "'%s' に対して NA は認められません"
+
+msgid "'maxiter' must be positive"
+msgstr "'maxiter' は正数でなくてはなりません"
+
+msgid "non-finite value supplied by 'nlm'"
+msgstr "'nlm' により有限でない値が与えられました"
+
+msgid "invalid function value in 'nlm' optimizer"
+msgstr "'nlm' 最適化における関数値が不正です"
+
+msgid "function value caching for optimization is seriously confused"
+msgstr "最適化用にキャッシュされた関数値がひどく混乱しています"
+
+msgid "numeric parameter expected"
+msgstr "数値パラメータが期待されています"
+
+msgid "conflicting parameter lengths"
+msgstr "パラメータの長さが矛盾しています"
+
+msgid "invalid parameter length"
+msgstr "パラメータの長さが不正です"
+
+msgid "missing value in parameter"
+msgstr "パラメータに欠損値があります"
+
+msgid "invalid parameter type"
+msgstr "パラメータのタイプが不正です"
+
+msgid "non-positive number of parameters in nlm"
+msgstr "nlm のパラメータが正の値ではありません"
+
+msgid "nlm is inefficient for 1-d problems"
+msgstr "nlm は一次元問題には効率的ではありません"
+
+msgid "invalid gradient tolerance in nlm"
+msgstr "nlm における勾配の許容値が不正です"
+
+msgid "invalid iteration limit in nlm"
+msgstr "nlm の繰り返し回数の限界値が不正です"
+
+msgid "minimization function has no good digits in nlm"
+msgstr "nlm 中で最小化関数は十分な桁数をもちません"
+
+msgid "no analytic gradient to check in nlm!"
+msgstr "nlm 中でチェックされる勾配の解析的な式がありません！"
+
+msgid "no analytic Hessian to check in nlm!"
+msgstr "nlm 中でチェックすべき解析的なヘッセ行列がありません!"
+
+msgid "probable coding error in analytic gradient"
+msgstr "解析的な勾配式中にコーディングの間違いの可能性"
+
+msgid "probable coding error in analytic Hessian"
+msgstr "解析的なヘッセ行列式中にコーディングの間違いの可能性があります"
+
+#, c-format
+msgid ""
+"*** unknown error message (msg = %d) in nlm()\n"
+"*** should not happen!"
+msgstr ""
+"*** nlm() 関数から未知のエラーメッセージ (msg = %d)\n"
+"*** これはあり得ないことです！"
+
+msgid "Relative gradient close to zero.\n"
+msgstr "相対勾配が 0 に近くなっています \n"
+
+msgid "Current iterate is probably solution.\n"
+msgstr "現在の繰り返しでおそらく解が得られたでしょう \n"
+
+msgid "Successive iterates within tolerance.\n"
+msgstr "連続した繰り返しが許容範囲内です \n"
+
+msgid "Last global step failed to locate a point lower than x.\n"
+msgstr "最終の大局的ステップは x よりも小さな点を見つけることが出来ませんでした \n"
+
+msgid ""
+"Either x is an approximate local minimum of the function,\n"
+"the function is too non-linear for this algorithm,\n"
+"or steptol is too large.\n"
+msgstr ""
+"x は関数の不適当な局所的最小値であるか、\n"
+"関数がこのアルゴリズムには非線形的すぎるか、\n"
+"steptol が大きすぎます\n"
+
+msgid "Iteration limit exceeded.  Algorithm failed.\n"
+msgstr "繰り返し数が上限を超えました。アルゴリズムは破綻しました。 \n"
+
+msgid ""
+"Maximum step size exceeded 5 consecutive times.\n"
+"Either the function is unbounded below,\n"
+"becomes asymptotic to a finite value\n"
+"from above in some direction,\n"
+"or stepmx is too small.\n"
+msgstr ""
+"最大ステップ幅を 5 回連続して超過しました。\n"
+"関数は下に非有界であるか、\n"
+"ある方向で上から漸近的に有限値に近づいているか、\n"
+"または stepmx が小さすぎるか、です\n"
+
+msgid "invalid NA value in parameter"
+msgstr "パラメータ中に不正な NA 値があります"
+
+msgid "hessian supplied is of the wrong length or mode, so ignored"
+msgstr "提供されたヘッセ行列は不正な長さかモードであったため無視されました"
+
+msgid "gradient supplied is of the wrong length or mode, so ignored"
+msgstr "提供された勾配は不正な長さかモードであったので無視されました"
+
+msgid "bad Starma struct"
+msgstr "不適な Starma struct です"
+
+#, c-format
+msgid "starma error code %d"
+msgstr "starma エラーコード %d です"
+
+#, c-format
+msgid "forkal error code %d"
+msgstr "forkal エラーコード %d です"
+
+msgid "invalid value of lag.max"
+msgstr "不正な lag.max 値です"
+
+#, c-format
+msgid "Rf_divset: alg = %d must be 1, 2, 3, or 4"
+msgstr "Rf_divset: alg = %d は 1, 2, 3, または 4 でなければなりません"
+
+msgid "port algorithms 3 or higher are not supported"
+msgstr "3 以上のポートアルゴリズムはサポートされていません"
+
+#, c-format
+msgid "gradient function must return a numeric vector of length %d"
+msgstr "グラディエント関数は長さ %d の数値ベクトルを返さなければなりません"
+
+#, c-format
+msgid "Hessian function must return a square numeric matrix of order %d"
+msgstr "ヘッシアン関数は次数 %d の正方数値行列を返さなければなりません"
+
+msgid "'rho' must be an environment"
+msgstr "'rho' は環境 (environment) でなければなりません"
+
+#, fuzzy
+msgid "'d' must be a nonempty numeric (double) vector"
+msgstr "'d' は空でない数値ベクトルでなければなりません"
+
+msgid "When Hessian defined must also have gradient defined"
+msgstr "ヘッシアンを定義した際は、グラディエントも定義しなければなりません"
+
+#, fuzzy, c-format
+msgid "environment 'rho' must contain a numeric (double) vector '.par' of length %d"
+msgstr "環境 'rho' は長さが %d の数値ベクトル '.par' を含まねばなりません"
+
+#, fuzzy
+msgid "'lower' and 'upper' must be numeric (double) vectors"
+msgstr "'lower' と 'upper' は数値ベクトルでなければなりません"
+
+msgid "'getElement' applies only to named lists"
+msgstr "'getElement' は名前つきリストにだけ適用されます"
+
+#, c-format
+msgid "%s$%s() not found"
+msgstr "%s$%s() が見つかりません"
+
+#, c-format
+msgid "'gradient' must be a numeric matrix of dimension (%d,%d)"
+msgstr "'gradient' は次元 (%d, %d) の数値行列でなければなりません"
+
+#, c-format
+msgid "fcn produced mode %d, length %d - wanted mode %d, length %d"
+msgstr "モード %d, 長さ %d の fcn が作られました - モード %d, 長さ %d が必要でした"
+
+msgid "invalid type for eval_check_store"
+msgstr "eval_check_store に対する不正なタイプです"
+
+msgid "m must be a list"
+msgstr "m はリストでなければなりません"
+
+msgid "'lowerb' and 'upperb' must be numeric vectors"
+msgstr "'lowerb' と 'upperb' は数値ベクトルでなければなりません"
+
+msgid "invalid sample size 'n' in C routine prho(n,s,*)"
+msgstr ""
+
+msgid "inconsistent degrees of freedom and dimension"
+msgstr "自由度と次元が矛盾しています"
+
+msgid "'scal' must be a square, real matrix"
+msgstr "'scal' は正方な実行列である必要があります"
+
+msgid "'scal' matrix is not positive-definite"
+msgstr "行列 'scal' が正定値行列ではありません"
+
+msgid "NAs produced"
+msgstr "NA が生成されました"
+
+msgid "invalid arguments"
+msgstr "引数 (複数) が不正です"
+
+msgid "NA in probability vector"
+msgstr "確率ベクトル中にNAがあります"
+
+msgid "negative probability"
+msgstr "負の確率"
+
+msgid "no positive probabilities"
+msgstr "正の確率がありません"
+
+msgid "invalid first argument 'n'"
+msgstr "一番目の引数 'n' が不正です"
+
+msgid "invalid second argument 'size'"
+msgstr "二番目の引数 'size' が不正です"
+
+#, c-format
+msgid "rcont2 [%d,%d]: exp underflow to 0; algorithm failure"
+msgstr "rcont2 [%d, %d]: exp がアンダーフローして 0 になりました; アルゴリズムが失敗しました"
+
+#, c-format
+msgid "invalid end-rule for running median of 3: %d"
+msgstr "3 点移動中央値計算の終了ルールが不正です: %d"
+
+#, c-format
+msgid "missing value in last %d observations"
+msgstr "直前の %d 個の観測値中に欠損値があります"
+
+#~ msgid "NA/Inf replaced by maximum positive value"
+#~ msgstr "NA/Inf は正の最大値で置き換えられました"
+
+#, fuzzy
+#~ msgid "'x' is a factor"
+#~ msgstr " 'x' が行列ではありません "
+
+#, fuzzy
+#~ msgid "'y' is a factor"
+#~ msgstr " 'fn' が関数ではありません "
+
+#~ msgid "stats"
+#~ msgstr " stats "
+
+#~ msgid "allocation error in smooth(*, '3RSR')."
+#~ msgstr " smooth(*, '3RSR') 中の割り当てエラーです． "
+
+#~ msgid "allocation error in smooth(*, '3RSS')."
+#~ msgstr " smooth(*, '3RSS') 中の割り当てエラーです． "
+
+#~ msgid "allocation error in smooth(*, '3R')."
+#~ msgstr " smooth(*, '3R') 中の割り当てエラーです． "

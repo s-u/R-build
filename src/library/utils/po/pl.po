@@ -1,0 +1,213 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 3.5.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-04-25 10:48-0700\n"
+"PO-Revision-Date: 2018-04-01 14:31+0200\n"
+"Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
+"Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "niepoprawny argument '%s'"
+
+msgid "invalid quote symbol set"
+msgstr "niepoprawnie ustawiony symbol cudzysłowu"
+
+msgid "cannot open the connection"
+msgstr "nie można otworzyć połączenia"
+
+msgid "cannot read from this connection"
+msgstr "nie można czytać z tego połączenia"
+
+#, c-format
+msgid "quoted string on line %d terminated by EOF"
+msgstr "cytowany ciąg znaków w linii %d przerwany przez znak końca pliku (EOF)"
+
+msgid "the first argument must be of mode character"
+msgstr "pierwszy argument musi być trybu tekstowego"
+
+#, c-format
+msgid "invalid 'numerals' string: \"%s\""
+msgstr "niepoprawny ciąg znaków 'numerals': \"%s\""
+
+#, c-format
+msgid "Selection: "
+msgstr "Wybór: "
+
+msgid "cannot allocate buffer in 'readTableHead'"
+msgstr "nie można przydzielić bufora w 'readTableHead'"
+
+msgid "\\ followed by EOF"
+msgstr "\\ po którym następuje EOF"
+
+#, c-format
+msgid "incomplete final line found by readTableHeader on '%s'"
+msgstr "niekompletna końcowa linia znaleziona przez 'readTableHeader' w '%s'"
+
+msgid "index out of range"
+msgstr "indeks poza zakresem"
+
+#, c-format
+msgid "Problem closing connection:  %s"
+msgstr "Problem podczas zamykania połączenia: %s"
+
+msgid "Problem closing connection"
+msgstr "Problem podczas zamykania połączenia"
+
+msgid "'file' is not a connection"
+msgstr "argument 'file' nie jest połączeniem"
+
+msgid "cannot write to this connection"
+msgstr "nie można zapisać do tego połączenia"
+
+msgid "'dec' must be a single character"
+msgstr "argument 'dec' musi być pojedynczym znakiem"
+
+#, c-format
+msgid "corrupt data frame -- length of column %d does not match nrows"
+msgstr "uszkodzona ramka danych -- długość kolumny %d nie zgadza się z liczbą wierszy"
+
+#, c-format
+msgid "column %d claims to be a factor but does not have numeric codes"
+msgstr "kolumna %d twierdzi, że jest czynnikiem, ale nie posiada kodów liczbowych"
+
+msgid "corrupt matrix -- dims do not match length"
+msgstr "macierz jest uszkodzona -- wymiary nie zgadzają się z długością"
+
+msgid "'savehistory' can only be used in Rgui and Rterm"
+msgstr "'savehistory' może zostać użyte jedynie w Rgui oraz Rterm"
+
+msgid "'loadhistory' can only be used in Rgui and Rterm"
+msgstr "'loadhistory' może zostać użyte jedynie w Rgui oraz Rterm"
+
+msgid "invalid timestamp"
+msgstr "niepoprawna sygnatura czasu"
+
+msgid "X11 dataentry cannot be loaded"
+msgstr "moduł X11 nie może zostać załadowany"
+
+msgid "X11 is not available"
+msgstr "X11 nie jest dostępne"
+
+#, c-format
+msgid "invalid '%s' specification"
+msgstr "niepoprawne określenie '%s'"
+
+#, c-format
+msgid "'%s' contains missing values"
+msgstr "'%s' zawiera brakujące wartości"
+
+msgid "argument 'class' must be a character string"
+msgstr "argument 'class' musi być ciągiem znaków"
+
+msgid "argument 'x' must be a length-1 character vector"
+msgstr "argument 'x' musi być wektorem tekstowym o długości 1"
+
+msgid "argument 'x' must be UTF-8 encoded (including ASCII)"
+msgstr "argument 'x' musi być w kodowaniu UTF-8 (wliczając ASCII)"
+
+msgid "'hostname' must be a character vector of length 1"
+msgstr "argument 'hostname' musi być wektorem tekstowym o długości 1"
+
+#, c-format
+msgid "nsl() was unable to resolve host '%s'"
+msgstr "'nsl()' nie był w stanie nawiązać połączenia z hostem '%s'"
+
+msgid "unknown format returned by 'gethostbyname'"
+msgstr "nieznany format zwrócony przez 'gethostbyname()'"
+
+msgid "nsl() is not supported on this platform"
+msgstr "'nsl()' nie jest obsługiwany na tej platformie"
+
+msgid "unknown type"
+msgstr "nieznany typ"
+
+msgid "menu functions can only be used in the GUI"
+msgstr "funkcje menu mogą być używane jedynie w GUI"
+
+#, c-format
+msgid "unable to retrieve items for %s (%s)"
+msgstr "nie można pobrać pozycji dla %s (%s)"
+
+#, c-format
+msgid "unable to add menu (%s)"
+msgstr "nie można dodać menu (%s)"
+
+#, c-format
+msgid "unable to add menu item (%s)"
+msgstr "nie można dodać pozycji menu (%s)"
+
+msgid "menu does not exist"
+msgstr "menu nie istnieje"
+
+#, c-format
+msgid "unable to delete menu item (%s)"
+msgstr "nie można usunąć pozycji menu (%s)"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "niepoprawna wartość '%s'"
+
+#, c-format
+msgid "Registry key '%ls' not found"
+msgstr "Nie znaleziono klucza rejestru '%ls'"
+
+msgid "unsupported version of Windows"
+msgstr "niewspierana wersja systemu Windows"
+
+msgid "argument must be a character vector or a raw vector"
+msgstr "argument 'text' musi być wektorem tekstowym lub pustym wektorem"
+
+msgid "unable to open the clipboard"
+msgstr "nie można otworzyć schowka"
+
+msgid "unable to write to the clipboard"
+msgstr "nie można zapisać do schowka"
+
+msgid "'title' must be a character string"
+msgstr "argument 'title' musi być ciągiem znaków"
+
+msgid "'text' must be a character string"
+msgstr "argument 'text' musi być ciągiem znaków"
+
+#, c-format
+msgid "'%s' must be length 1"
+msgstr "argument '%s' musi mieć długość równą 1"
+
+#, c-format
+msgid "'%s' must be a list"
+msgstr "argument '%s' musi być listą"
+
+#, c-format
+msgid "'%s' element %d is not a window handle"
+msgstr "element %2$d '%1$s' nie jest uchwytem okna"
+
+msgid "Select one or more"
+msgstr "Wybierz jeden lub więcej"
+
+msgid "Select one"
+msgstr "Wybierz jeden"
+
+msgid "'default' must be a character string"
+msgstr "argument 'default' musi być ciągiem znaków"
+
+msgid "'default' is overlong"
+msgstr "argument 'default' jest zbyt długi"
+
+msgid "'caption' must be a character string"
+msgstr "argument 'caption' musi być ciągiem znaków"
+
+msgid "'multi' must be a logical value"
+msgstr "argument 'multi' musi być wartością logiczną"
+
+msgid "'filterindex' must be an integer value"
+msgstr "argument 'filterindex' musi być wartością całkowitą"

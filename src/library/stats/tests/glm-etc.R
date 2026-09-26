@@ -1,0 +1,549 @@
+#### lm, glm, aov, etc --- typically *strict* tests (no *.Rout.save)
+
+options(warn = 2, width = 101, warnPartialMatchArgs = TRUE) # all warnings must be asserted below
+all.equal.0 <- function(x,y, ...) all.equal(x,y, tolerance = 0, ...)
+all.equal15 <- function(x,y, ...) all.equal(x,y, tolerance = 1e-15, ...)
+assertWarnV <- function(...) tools::assertWarning(..., verbose=TRUE)
+## for comparisons, may drop call:
+noC  <- function(L) L[-match("call", names(L))]
+
+data(mtcars)
+mtcar2 <- within(mtcars, {
+    mpg_c <- mpg * (1+am) + 5
+    am <- factor(am)
+})
+fm2 <- glm(disp ~ am * mpg + mpg_c, data = mtcar2)
+c2 <- coef(fm2)
+V2 <- vcov(fm2)
+jj <- !is.na(c2)
+stopifnot(names(which(!jj)) == "am1:mpg"
+	, identical(length(c2), 5L), identical(dim(V2), c(5L,5L))
+	, all.equal(c2[jj],    coef(fm2, complete=FALSE))
+	, all.equal(V2[jj,jj], vcov(fm2, complete=FALSE))
+	, all.equal(c2[jj], c(`(Intercept)`= 626.0915, am1 = -249.4183,
+			      mpg = -33.74701, mpg_c = 10.97014),
+		    tolerance = 7e-7)# 1.01e-7 [F26 Lnx 64b]
+)
+
+
+###-- predict.lm(<rank-deficient>,  newdata = *) -- PR#15072, PR#16158 --------------
+
+## constructed "exactly" rank-deficient
+x1 <- -4:4
+x2 <- c(-2,1,-1,2, 0,
+        2,-1,1,-2)
+x3 <- 3*x1 - 2*x2
+x4 <- x2 - x1 + 4
+y <- 1 + x1 + x2 + x3 + x4 + c(-.5,.5,.5,-.5, 0,
+                               .5,-.5,-.5,.5)
+cbind(x1,x2,x3,x4,y)
+## Fit a model
+mod1234 <- lm(y ~ x1 + x2 + x3 + x4)
+if(requireNamespace("MASS")) {
+    (al <- alias(mod1234)) # x3: 3*x1 - 2*x2  \\  x4 :  4 -x1 +x2
+    stopifnot(all.equal(rbind(x3 = c(0,  3,-2),
+                              x4 = c(4, -1, 1)),
+                        unclass(al$Complete), check.attributes=FALSE))
+}
+## new.x
+new.x <- data.frame(
+    row.names = LETTERS[1:6],
+    x1 = c(3, 6, 6, 0, 0, 1),
+    x2 = c(1, 2, 2, 0, 0, 2),
+    x3 = c(7,14,14, 0, 0, 3),
+    x4 = c(2, 4, 0, 4, 0, 4))
+## where do we have the same aliasing subspace?
+new.ok <- with(new.x, (x4 == 4 - x1 + x2) &
+                      (x3 == 3*x1 - 2*x2))
+which(new.ok) # 1 3 4
+## old (hard-wired) R <= 4.2.x behavior:
+tools::assertWarning(ps <- predict(mod1234, newdata=new.x, rankdeficient = "simple"), verbose=TRUE)
+ps1 <-   predict(mod1234, newdata=data.frame(x1,x2,x3,x4), rankdeficient = "warnif") # *not* warning anymore
+## new
+                    (pN <- predict(mod1234, new.x, rankdeficient = "NA"))
+tools::assertWarning(pN.<- predict(mod1234, new.x, rankdeficient = "NAwarn"))
+## "compromise": old predictions with extra info (no warning):
+(pne <- predict(mod1234, new.x, rankdeficient = "non-estim"))
+stopifnot(exprs = {
+    identical(pN, pN.)
+    all.equal(fitted(mod1234), ps1, tolerance = 2e-15) # seen 3.11e-16
+    identical(i.ne <- attr(pne, "non-estim"),
+              c(B = 2L, E = 5L, F = 6L))
+    which(!new.ok) == i.ne
+    is.na(pN[i.ne])
+    identical(ps[-i.ne], pN[-i.ne])
+    identical(unname(ps), `attributes<-`(pne, NULL))
+})
+
+
+d8 <- data.frame(
+    y = c(747625803, -74936705, -750056726, -299805697,
+          76131520, -225971209, 301836031, 2249594776, 300581863, -2999324198,
+          450274906, -600962167, 1800954652, 900083298, -1498452810),
+    X1 = c(149999999, -225000002, -149999999, 149999998, 225000002,
+           -675000006, -149999998, 449999997, 900000008, -599999996,
+           1350000012, 299999996, -899999988, -449999994, -299999998),
+    X2 = c(300000000.5, -149999999, -300000000.5, 1, 149999999,
+           -449999997, -1, 900000001.5, 599999996, -1200000002,
+           899999994, 2, -6, -3, -600000001),
+    X3 = c(-1, 149999998, 1, -150000002, -149999998,
+           449999994, 150000002, -3, -599999992, 4,
+           -899999988, -300000004, 900000012, 450000006, 2))
+coef(fm8.  <- lm(y ~ . -1, data = d8)) # the one for X3 is NA
+cf8. <- c(X1 = -1.999854802642, X2 = 3.499496934397, X3 = NA)
+          all.equal(cf8., coef(fm8.), tolerance=0)# -> "Mean rel..diff.: ~ 3e-15
+stopifnot(all.equal(cf8., coef(fm8.)))
+coef(fm8.9 <- lm(y ~ . -1, data = d8, tol = 1e-9)) # no NA , but "instable" -- not too precise
+cf8.9 <- c(X1 = 45822.830422, X2 = -22908.915871, X3 = 45824.830295)
+all.equal(cf8.9, coef(fm8.9), tolerance=0)# -> "Mean rel..diff.: 5.3e-9 | 5.15e-12
+## was < 2e-8 in R 4.2.2
+## x86_64 Linux/gcc12 gives ca 5e-12
+## vanilla M1mac gives 6.16e-11, Accelerate on M1 macOS gives 3.99e-10;
+## Debian with "generic" (i.e. not R's) BLAS/Lapack *still* gave 5.2985e-09 (?!)
+stopifnot(all.equal(cf8.9, coef(fm8.9), tolerance = 7e-9))
+
+## predict :
+nd <- d8[,-1] + rep(outer(c(-2:2),10^(1:3)), 3) # 5 * 9 = 45 = 15 * 3 (nrow * ncol)
+row.names(nd) <- LETTERS[1:nrow(nd)]
+assertWarnV(# "... rank-deficient .. consider predict(., rankdeficient="NA")
+    ps <- predict(fm8. , newdata=nd, rankdeficient = "simple") )
+assertWarnV(# "... rank-deficient ..  attr(*, "non-estim") has doubtful cases
+    ps.<- predict(fm8. , newdata=nd) ) # default
+pN  <- predict(fm8. , newdata=nd, rankdeficient = "NA")
+pne <- predict(fm8. , newdata=nd, rankdeficient = "non-estim")
+p.9 <- predict(fm8.9, newdata=nd)
+print(digits=9, cbind(ps, pne, pN, p.9))
+all.equal(p.9, ps, tolerance=0)# 0.035..
+dropAtt <- function(x) `attributes<-`(x, NULL)
+stopifnot(exprs = {
+    ps == ps. # numbers;
+    identical(unname(ps), dropAtt(ps.))
+    identical(ps., pne) # both have "non-estim"
+    identical(i.ne <- attr(pne, "non-estim"),
+              c(K = 11L, L = 12L, N = 14L, O = 15L))
+    is.na(pN[i.ne])
+    identical(ps[-i.ne], pN[-i.ne])
+})
+
+## play with tol
+str(tls <- sort(outer(c(1,2,4), 10^-(9:5)))) # tolerances to try
+nT <- length(tls <- setNames(tls, formatC(tls)))
+pls <- t(sapply(tls, function(TL) predict(fm8. , newdata=nd, tol = TL, rankdeficient = "NA")))
+stopifnot(is.finite(plsLst <- pls[nT,])) # (no NA)
+plsLst
+sweep(pls, 2L, plsLst, `-`)
+## This *is* monotone in tol -- still somewhat amazing how much changes
+## within two factors of 4 (of tol), i.e., between 2e-7 ... 4e-6
+##        A  B  C  D  E  F  G  H  I  J  K  L  M  N  O
+## 1e-09 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA
+## 2e-09 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA
+## 4e-09 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA
+## 1e-08 NA NA  0 NA NA NA NA  0 NA NA NA NA NA NA NA
+## 2e-08 NA NA  0 NA NA NA NA  0 NA NA NA NA  0 NA NA
+## 4e-08 NA NA  0  0 NA NA NA  0 NA NA NA NA  0 NA NA
+## 1e-07  0  0  0  0  0 NA NA  0  0 NA NA NA  0 NA NA
+## 2e-07  0  0  0  0  0 NA NA  0  0  0 NA NA  0 NA NA
+## 4e-07  0  0  0  0  0  0 NA  0  0  0 NA NA  0 NA NA
+## 1e-06  0  0  0  0  0  0  0  0  0  0 NA NA  0 NA NA
+## 2e-06  0  0  0  0  0  0  0  0  0  0  0 NA  0  0 NA
+## 4e-06  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+## 1e-05  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+## 2e-05  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+## 4e-05  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+
+(iFi <- apply(pls, 2, function(.) which.max(is.finite(.))))
+## A  B  C  D  E  F  G  H  I  J  K  L  M  N  O
+## 7  7  4  6  7  9 10  4  7  8 11 12  5 11 12
+stopifnot(exprs = {
+    ## checking monotonicity: each column is  (NA NA ... NA | p_i p_i ... p_i)
+    vapply(seq_along(tls),
+           function(i) length(unique(pls[iFi[i]:nT, i])) == 1L,
+           NA)
+    ## allow 1 off :
+  3 <= iFi
+  iFi <= 13
+})
+
+
+## __FIXME__
+## predict(*, ... type="terms" .. ) does *not* obey   rankdeficient=".."
+
+
+###-------- dummy.coef() -- with "character"-factor ---------------------------------------
+## [Bug 18635] New: dummy.coef could not deal with character variable  // 9 Dec 2023
+##  ---------  https://bugs.r-project.org/show_bug.cgi?id=18635
+
+## for data generating model
+ch2num <- function(ch) vapply(ch, function(.) as.integer(charToRaw(.)),
+                              1L, USE.NAMES=FALSE)
+## test:
+str(print(ch2num(LETTERS)) - ch2num(letters))
+
+set.seed(7)
+mydatC <- data.frame(x = sort(rnorm(49)), ch = c(LETTERS[1:3], letters[1:4]))
+mydatC$y <- with(mydatC, 20*x + 10 - (ch2num(ch) - 68) + rnorm(x))
+str(mydatC)
+if(dev.interactive(TRUE)) ## visualize:
+    plot(y ~ x, data=mydatC, col = factor(ch))
+
+Sys.setlocale("LC_COLLATE", "C") # same with a  factor()
+mydatF <- mydatC; mydatF$ch <- factor(mydatC$ch)
+str(mydatF)
+## $ ch: Factor w/ 7 levels "A","B","C","a",..: 1 2 3 4 5 6 7 1 2 3 ...
+
+(sfmCc <- summary(fmCc <- lm(y ~ ., data=mydatC)))
+ sfmCf <- summary(fmCf <- lm(y ~ ., data=mydatF))
+(ae.cf <- all.equal(sfmCc, sfmCf)) # only the call differs:
+## [1] "Component “call”: target, current do not match when deparsed"
+stopifnot(length(ae.cf) == 1L, grepl("^Component .call.:", ae.cf))
+
+coef(fmCc)
+## (Intercept)           x         chB         chC         cha         chb         chc         chd
+##  12.7781626  19.8494272  -0.8240301  -1.3309157 -31.7032317 -32.8819084 -33.3519985 -34.6249161
+(coef(fmCf) -> cf.f) # the same
+stopifnot(exprs = {
+    identical(coef(fmCc), cf.f)
+})
+
+(dummy.coef(fmCc) -> dc.Cc)  ##-- was all wrong in R <= 4.3.2
+## (Intercept):       12.77816
+## x:                 19.84943
+## ch:                       A           B           C           a           b           c           d
+##                   0.0000000  -0.8240301  -1.3309157 -31.7032317 -32.8819084 -33.3519985 -34.6249161
+
+dummy.coef(fmCf)   -> dc.Cf # the same
+
+# PR #18468 - stats::dummy.coef fails with non-syntactic variable names
+mydatC2 <- mydatC
+colnames(mydatC2)[2] <- "ch A" # --> used as `ch A`
+dc.Cc2 <- dummy.coef(lm(y ~ .       , data=mydatC2))
+dc.Cc3 <- dummy.coef(lm(y ~ x*`ch A`, data=mydatC2))
+dc.Cc3s<- dummy.coef(lm(y ~ .^2,      data=mydatC2)) # as Cc3 (?)
+dc.Cc4 <- dummy.coef(lm(y ~ x*(function(x){x})(`ch A`), data=mydatC2))
+
+stopifnot(exprs = {
+    all.equal15(dc.Cc, dc.Cf) # *not* in R <= 4.3.2
+    ## coef() <--> dummy.coef()  {was always true}
+    length(dcCf <- unlist(dc.Cf)) == 1 + length(cf.f)
+    is.character(names(dcCf) <- sub("[.]", "", names(dcCf)))
+    all.equal15(dcCf[i2 <- 1:2], cf.f[i2], check.attributes = FALSE)
+    all.equal15(dcCf[-i2], c(chA = 0, cf.f[-i2]))
+    ## non-syntactic
+    all.equal15(dc.Cc3, dc.Cc3s)
+    local({cc <- dc.Cc; names(cc)[3] <- names(dc.Cc2)[3]
+        all.equal15(dc.Cc2, cc) })
+    all.equal15(dc.Cc3, `names<-`(dc.Cc4,
+                                  sub("(function(x) {\n    x\n})(`ch A`)", "`ch A`",
+                                      names(dc.Cc4), fixed=TRUE)))
+})
+
+##============= + 2 way interactions ============================================
+fm2c <- lm(y ~ .^2, data=mydatC)
+       cf2c <- coef(fm2c)
+(dc2c <- dummy.coef(fm2c)) # *wrong*  in R <= 4.3.2
+stopifnot(exprs = {
+    length(dc2c <- unlist(dc2c)) == 2 + length(cf2c) # was false
+    all.equal15(dc2c[1:2], cf2c[1:2], check.attributes = FALSE)
+    is.character(names(dc2c) <- sub("[.]", "", names(dc2c)))
+    all.equal15(dc2c[-(1:2)][1:7],
+                c(chA = 0, cf2c[-(1:2)][1:6]))
+    all.equal15(tail(dc2c, 7),
+                c(`x:chA` = 0, tail(cf2c, 6)))
+})
+
+fm2f <- lm(y ~ .^2, data=mydatF) # was always correct
+(dc2f <- dummy.coef(fm2f))
+ cf2f <-       coef(fm2f)
+stopifnot(exprs = {
+    ## were all TRUE before
+    length(dc2f <- unlist(dc2f)) == 2 + length(cf2f)
+    all.equal(dc2f[1:2], cf2f[1:2], check.attributes = FALSE)
+    is.character(names(dc2f) <- sub("[.]", "", names(dc2f)))
+    all.equal15(dc2f[-(1:2)][1:7],
+                c(chA = 0, cf2f[-(1:2)][1:6]))
+    all.equal15(tail(dc2f, 7),
+                c(`x:chA` = 0, tail(cf2f, 6)))
+})
+
+
+###-------- model.frame() empty - NULL row.names ========================
+## [Bug 18977] -- model.frame(~1, list()) constructed invalid data frame with
+##		'row.names' attribute NULL rather than empty integer|character
+chk <- function(x, rn) stopifnot(exprs = {
+    is.data.frame(x)
+    identical(.row_names_info(x, 0L), rn)
+    identical(.row_names_info(x, 1L), 0L)
+    identical(.row_names_info(x, 2L), 0L)
+    identical(attr(x, "row.names"),
+              if (is.character(rn)) character(0L) else integer(0L))
+    identical(row.names(x), character(0L))
+})
+a0 <- .set_row_names(0L) # [a]utomatic
+i0 <- integer(0L)
+c0 <- character(0L)
+stopifnot(identical(a0, i0)) # currently, but not documented
+chk(da <- data.frame(row.names =   ), a0)
+chk(di <- data.frame(row.names = i0), i0)
+chk(dc <- data.frame(row.names = c0), c0)
+ona <- options(na.action = "na.pass") # => testing 'model.frame' proper
+chk(mfa <- model.frame(~1, da), a0)
+chk(mfi <- model.frame(~1, di), i0)
+chk(mfc <- model.frame(~1, dc), c0)
+chk(mfl <- model.frame(~1, list()), a0) # failed
+## Error .... : identical(.row_names_info(x, 0L), rn) is not TRUE
+.row_names_info(mfl, 0L) # was NULL, not a0
+options(ona)
+L <- list(da, di, dc, mfa, mfi, mfc, mfl)
+stopifnot(identical(lapply(L, complete.cases),
+                    rep(list(logical(0L)), length(L)))) # failed for mfl
+## Error .... : no input has determined the number of cases
+## stats:::na.fail.default calls 'complete.cases', hence:
+(mf0 <- model.frame(~1, list(), na.action = na.fail)) # failed similarly
+
+
+## Finally addressing   [Bug 17475] New: lme.wfit issue with small weights -- Date: 20 Sep 2018
+## https://bugs.r-project.org/bugzilla/show_bug.cgi?id=17475
+## a parametrized version of the data:
+mkD <- function(nlog2.w = 111) {
+    stopifnot(length(nlog2.w) == 1, nlog2.w >= 13)
+    data.frame(
+        y = c(29, 24, -10, 35, 8, 13, -23, 2, 18, -48, -22, -32, -68, 19, 42, 32, -9, -73, -13, 0, 12),
+        x = c(71, 35, -8, 64, 22, -8, -56, -7, 24, -83, -48, -35, -125, 65, 81, 76, -40, -148, -25, 13, 16),
+        wts = c(0, 2^-c(rep(nlog2.w, 2), 13:8), rep(1, 12))) # wts is increasing [0 ... 1]
+}
+
+df <- mkD()
+
+if(FALSE) # for manual tinkering
+    df <- mkD(100)
+
+fit    <- lm(y~x, weights = wts,     data = df, wtol = 0)
+fiF100 <- lm(y~x, weights = 100*wts, data = df, wtol = 0) # "not stable" without positive wtol
+fit15  <- lm(y~x, weights = wts,     data = df, wtol = 0, tol = 1e-15)
+(ae15 <- all.equal.0(fit, fit15))
+## [1] "Component “qr”: Component “tol”: Mean relative difference: 1"
+## [2] "Component “call”: target, current do not match when deparsed"
+## ------------- but everything else is numerically identical -----------
+assertWarnV({ # setting very small weights to zero ..
+    fitw30    <- lm(y~x, weights = wts,     data = df, wtol = 1e-30)
+    fiF100w30 <- lm(y~x, weights = wts*100, data = df, wtol = 1e-30)
+})
+(aew30 <- all.equal.0(fitw30, fiF100w30)) # 8 components differ . . . "okay"
+stopifnot(exprs = {
+    length(ae15) == 2
+    all.equal( coef (fit  ),   coef (fit15),     tolerance = 6e-16)# (0 ; Lnx x86_64)
+    all.equal( coef (fit  ),   coef (fitw30),    tolerance = 1e-14)# seen 1.135e-15 [Lnx x86_64]
+    all.equal( coef (fitw30),  coef (fiF100w30), tolerance = 2e-15)# seen 3.43 e-16 [Lnx x86_64]
+    all.equal(resid (fitw30), resid (fiF100w30), tolerance = 2e-13)# .. 3.81e-14
+    all.equal(fitted(fitw30), fitted(fiF100w30), tolerance = 1e-13)# .. 1.38e-14
+})
+
+if(FALSE)
+    all.equal(fit, fiF100)# no!!
+stopifnot(exprs = {
+    all.equal(weights(fit), weights(fiF100)/100, tolerance = 1e-15)
+    all.equal(   coef(fit),    coef(fiF100),     tolerance = 8e-15)# seen 1.6795e-15 [Mac ARM]
+    all.equal(predict(fit), predict(fiF100),     tolerance = 1e-15)
+})
+## However --- very surprisingly to me (MM):
+all.equal15(resid(fit), resid(fiF100))# Mean rel..diff.: 2.24..
+## and it's only at the 2 very small weights locations:
+(iDiff <- which(0 < unname(zapsmall(abs(1 - resid(fiF100)/resid(fit)))))) # 2 3
+stopifnot(identical(iDiff, 2:3))
+
+## *sub models drop the "almost 0 weight" observations entirely:  subset = -(1:3)
+            fsub  <-  lm(y~x, weights = wts, data = df, subset = -(1:3))
+            fsub1 <-  lm(y~x, weights = wts, data = df, subset = -1)
+## small weights with glm()    ---------- FIXME unfinished (??) in ../R/glm.R <<<< logLik(glm(*, wtol=*))
+            gfit  <- glm(y~x, weights = wts, data = df)
+assertWarnV(gfw30 <- glm(y~x, weights = wts, data = df, wtol = 1e-30)) # currently warning on treating small wt as 0
+            gfsub <- glm(y~x, weights = wts, data = df, subset = -(1:3))
+            gfsub1<- glm(y~x, weights = wts, data = df, subset = -1)
+
+assertWarnV(sgfit  <- summary(gfit)) # with a summary.glm() warning about zero weight
+assertWarnV(sgfw30 <- summary(gfw30))
+sfit <- summary(fit)
+stopifnot(exprs = {
+    all.equal.0(coef(fit),          coef(fsub1))
+    all.equal.0(coef(gfit),         coef(gfsub1))
+    all.equal15(coef(fit),          coef(gfit))
+    all.equal15(coef(sfit), coef(sgfit))
+    all.equal.0(coef(sfit), coef(summary(fsub1)))
+    ## dropping the 3 small-weight obs does change 'df' -> std.err, etc:
+    all.equal(coef(fsub),          coef(fit), tolerance = 1e-14) # seen 1.135e-15
+    all.equal(coef(summary(fsub)), coef(sfit), tolerance = 0.10)# seen 0.053
+})
+
+###--- update(<lm.fit>) in  *a*typical cases
+## [Bug  1861]  update() can not find objects    --- 1 Aug 2002
+## [Bug 17463]  update() on lm(data) will fail?  --- 4 Sep 2018
+## [Bug 17476]  eval in update.lm fails
+##--------------------
+## Six "equivalent" models:
+rock.mod0 <- lm(area ~ . , data = rock)
+rock.mod1 <- lm(area ~ peri + shape + perm, data = rock)
+rock.mod2 <- lm(rock)
+form <- formula(rock.mod1); form0 <- area ~ . # as _variable_ (not in call, R <= 4.6.0)
+rock.modf0<- lm(form0, data = rock)
+rock.modf <- lm(form , data = rock)
+rock.modf2<- lm(formula(rock.mod1), data = rock)
+## update() used to fail on the 3rd one
+(umod0 <- update(rock.mod0, . ~ . -perm))
+ umod1 <- update(rock.mod1, . ~ . -perm)
+ umod2 <- update(rock.mod2, . ~ . -perm)# Error in eval(..) : object 'area' not found
+ umodf <- update(rock.modf, . ~ . -perm)
+ umodf0<- update(rock.modf0,. ~ . -perm)
+ umodf2<- update(rock.modf2,. ~ . -perm)
+(c1 <- rock.mod1$call)
+ c2 <- rock.mod2$call
+wls2 <- function(x) {
+  res2 <- residuals(x)^2 # a _local_ variable
+  update(x, weights = 1/res2)
+}
+stopifnot(exprs = { # the fitted models now have identical 'call':
+    identical(umod0, umod1) # TRUE (always) even when rock.mod0 & rock*1 _differ_ in call
+    identical(c1, c2) # TRUE!
+    all.equal.0(rock.mod1, rock.mod2)
+    all.equal.0(rock.modf, rock.mod2)
+    all.equal.0(rock.modf, rock.modf2)
+    all.equal.0( umod1, umod2)
+    all.equal.0( umodf, umod2)
+    all.equal.0( umodf, umodf2)
+    all.equal.0(umod1$call, umod2$call) # non identical environment(.$formula)
+    ##
+    all.equal.0( wls2(rock.mod1), wls2(rock.mod2) -> wu2) # Error in eval(..) : object 'res2' not found
+    all.equal.0( wls2(rock.modf) -> wuf, wu2)
+    all.equal.0(    wuf,      wls2(rock.modf2))
+    all.equal.0(noC(wuf), noC(wls2(rock.modf0)))
+    ## but wls2(umod0) or  wls2(umod*)  all fail [[TODO ?]]
+})
+## A version without data i.e. global variables!
+counts <- c(18,17,15,20,10,20,25,13,12)
+treatment <- gl(3,3)
+form <- counts ~ treatment # formula as object
+flm <- lm(form)
+(u1 <- update(flm)) # calling update.default(flm) -- failed in R-devel 90471
+rm(form)
+(u2 <- update(flm))
+stopifnot(all.equal.0(u1, flm),
+          identical(u1, u2))
+
+
+##----- the same with glm(): ----------
+rock.glm0 <- glm(area ~ . , data = rock)
+rock.glm1 <- glm(area ~ peri + shape + perm, data = rock)
+rock.glm2 <- glm(rock)
+form <- formula(rock.mod1)
+rock.glmf <- glm(form, data = rock)
+rock.glmf0<- glm(form0,data = rock)
+rock.glmf2<- glm(formula(rock.glm1), data = rock)
+## update() used to fail on the second
+(uglm0 <- update(rock.glm0, . ~ . -perm))
+ uglm1 <- update(rock.glm1, . ~ . -perm)
+ uglm2 <- update(rock.glm2, . ~ . -perm)# Error in eval(..) : object 'area' not found
+ uglmf <- update(rock.glmf, . ~ . -perm)
+ uglmf2<- update(rock.glmf2,. ~ . -perm)
+(c1 <- rock.glm1$call)
+ c2 <- rock.glm2$call
+stopifnot(exprs = { # the fitted models now have identical 'call':
+    identical(c1, c2) # TRUE!
+    all.equal.0(uglm1, uglm0)
+    all.equal15(summary(rock.glm1) -> srgl,
+                summary(rock.glm2))
+    all.equal(signif(coef(srgl)[,"t value"], 5), tolerance = 1e-5,
+              c(`(Intercept)` = -0.44252, peri = 11.156, shape = 1.0939, perm = 3.6542))
+    all.equal.0(rock.glm1, rock.glmf)
+    all.equal.0(rock.glmf, rock.glmf2)
+    all.equal.0( uglm1, uglm2)
+    all.equal.0( uglmf, uglm2)
+    all.equal.0( uglmf, uglmf2)
+    all.equal.0(uglm1$call, uglm2$call) # non identical environment(.$formula)
+    ##
+    all.equal.0( wls2(rock.glm1 ), wu2 <- wls2(rock.glm2))
+    all.equal.0( wls2(rock.glmf ), wu2)
+    all.equal.0( wls2(rock.glmf2), wu2)
+    is.call({ wu0 <- wu2; wu0$formula <- form0 })
+    all.equal.0(noC(wu0), noC(wls2(rock.glmf0)))
+})
+form <- counts ~ treatment
+fglm <- glm(form, family = poisson())
+(u1 <- update(fglm))
+rm(form)
+(u2 <- update(fglm))
+stopifnot(all.equal.0(u1, fglm),
+          all.equal.0(u1, u2))
+
+
+## AIC & logLik() --- PR#16008
+dropN <- function(llik) `attr<-`(llik, "nall", NULL)
+x <- 1:10; d10 <- data.frame(x=x, y = sin(x/3), weights = as.numeric(x > 1.5))
+gf10 <- glm(y ~ x, data = d10, weights = weights)
+fi10 <-  lm(y ~ x, data = d10, weights = weights)
+stopifnot({
+    nobs(gf10) == 9
+    all.equal.0(gf10$aic, AIC(gf10))
+    all.equal(logLik(gf10) -> lLg, dropN(logLik(fi10)), tolerance = 5e-15)# 1.1785e-15
+    all.equal15(lLg, #    __________________ was  -Inf
+                structure(-0.471028026733263, nobs = 9L, df = 3, class = "logLik"))
+})
+
+## logLik(glm(*, wtol > 0)) *does* behave differently, than lm(*, wtol > 0)
+prop <- function(FN) { stopifnot(is.function(FN))
+    rbind(
+        fit = c(lm = FN(fit),    glm = FN(gfit))
+      , sub1= c(lm = FN(fsub1) , glm = FN(gfsub1))
+      , w30 = c(lm = FN(fitw30), glm = FN(gfw30))
+      , sub = c(lm = FN(fsub)  , glm = FN(gfsub))
+    )
+}
+## For  logLik, AIC(.), sigma(.)  too:   glm <==> subsetting
+(llik  <- prop(logLik))
+(aics  <- prop(AIC))
+(xAICs  <- prop(\(.) extractAIC(.)[2])) # quite different for the lm()s [as docu.]
+(sigmas<- prop(sigma)) |> print() |> assertWarnV()
+(nObs  <- prop(nobs)) # here, lm & glm  both "keep" nobs=20 {for 'w30': wtol > 0}
+
+stopifnot(nObs["fit",] == 20L,
+          all.equal15(aics [,"glm"],
+                      xAICs[,"glm"]))
+
+
+## lm() and glm() with only __data__ (i.e., no formula) args:
+list(lm =  lm(rock),  lm.d =  lm(data=rock),
+    glm = glm(rock), glm.d = glm(data=rock)) -> mods
+(cfm <- t(vapply(mods, coef, numeric(4))))
+all.equal(cfm["lm",], cfm["glm.d",], tolerance = 0) # see TRUE on Lnx x86_64
+resmat <- sapply(mods, resid)
+resm2 <- t(unique(t(resmat))) # same models [lm() / glm()] should be "unique"
+summary(resRelD <- 1 - resm2[,1]/resm2[,2]) # relative difference
+stopifnot(exprs = {
+    cfm[c(1,3),] == cfm[c(2,4),] ##
+    all.equal15(cfm["lm",], cfm["glm.d",])
+    identical(colnames(resm2), c("lm", "glm"))
+    abs(resRelD) < 1e-12 # Lnx x86_c64 {default qr() tol} has max(.) = 7.26e-14
+})
+
+## R-devel (4.7.0) Sep.2026 introducing extra arguments  {tol, wtol}
+## ------->  Does a previously correct 'control' still work?  [Yes! see below]
+glmCn <- list(epsilon = 1e-08, maxit = 25, trace = FALSE, tol = 1e-8/1000, wtol = 0)
+glmCo <- list(epsilon = 1e-08, maxit = 25, trace = FALSE)
+stopifnot(identical(if(getRversion() >= "4.7") glmCn else glmCo,
+                    glm.control()))
+go <- glm(rock, control=glmCo)
+gn <- glm(rock)
+stopifnot(all.equal15(noC(go), noC(gn))) # still ok in R-devel
+## "harder:"
+gcL <- list(eps = 1e-15)
+(go1 <- glm(rock, control = gcL)) |> tools::assertWarning(verbose=TRUE) # about 'eps'
+          all.equal15(go1, gn) # not just call, also 'qr$tol' and 'control' differ
+stopifnot(all.equal15(summary(coef(go1)), summary(coef((gn))))) # still ok in R-devel
+
+
+
+## NB:  Also consider demos(\"glm.vr\") -->>>>> ../demo/glm.vr.R  <<<<<<<<<
+
+
+### Local variables:
+### mode: R
+### page-delimiter: "^###[#-]"
+### End:

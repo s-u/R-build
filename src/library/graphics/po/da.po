@@ -1,0 +1,444 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The R Foundation
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: R 3.0.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-04-25 10:48-0700\n"
+"PO-Revision-Date: 2011-11-29 21:34+0200\n"
+"Last-Translator: Joe <joedalton2@yahoo.dk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.1.6\n"
+
+msgid "no base graphics system is registered"
+msgstr ""
+
+msgid "Incompatible graphics state"
+msgstr ""
+
+msgid "the base graphics system is not registered"
+msgstr ""
+
+#, c-format
+msgid "bad units specified in '%s'"
+msgstr ""
+
+msgid "attempt to plot on null device"
+msgstr ""
+
+msgid "outer margins too large (figure region too small)"
+msgstr ""
+
+msgid "figure region too large"
+msgstr ""
+
+msgid "figure margins too large"
+msgstr ""
+
+msgid "plot region too large"
+msgstr ""
+
+#, c-format
+msgid "nonfinite axis=%d limits [GScale(%g,%g,..); log=%s] -- corrected now"
+msgstr ""
+
+#, c-format
+msgid "axis style \"%c\" unimplemented"
+msgstr ""
+
+msgid "no graphics device is active"
+msgstr "der er ingen aktiv grafikenhed"
+
+msgid "plot.new has not been called yet"
+msgstr "plot.new er endnu ikke blevet kaldt"
+
+msgid "invalid graphics state"
+msgstr "ugyldig grafiktilstand"
+
+msgid "graphics device closed during call to locator or identify"
+msgstr ""
+
+msgid "No graphics device is active"
+msgstr ""
+
+msgid "zero-length arrow is of indeterminate angle and so skipped"
+msgstr ""
+
+#, c-format
+msgid "invalid par(\"bty\") = '%c'; no box() drawn"
+msgstr ""
+
+msgid "invalid argument to GBox"
+msgstr ""
+
+msgid "metric information not available for this device"
+msgstr ""
+
+msgid "graphical parameter 'family' has a maximum length of 200 bytes"
+msgstr ""
+
+#, c-format
+msgid "invalid value specified for graphical parameter \"%s\""
+msgstr ""
+
+#, c-format
+msgid "graphical parameter \"%s\" has the wrong length"
+msgstr ""
+
+#, c-format
+msgid "graphical parameter \"%s\" cannot be set"
+msgstr ""
+
+msgid "parameter \"mfg\" has the wrong length"
+msgstr ""
+
+msgid "parameter \"i\" in \"mfg\" is out of range"
+msgstr ""
+
+msgid "parameter \"j\" in \"mfg\" is out of range"
+msgstr ""
+
+msgid "value of 'nr' in \"mfg\" is wrong and will be ignored"
+msgstr ""
+
+msgid "value of 'nc' in \"mfg\" is wrong and will be ignored"
+msgstr ""
+
+msgid "calling par(new=TRUE) with no plot"
+msgstr ""
+
+#, c-format
+msgid "graphical parameter \"%s\" is obsolete"
+msgstr ""
+
+#, c-format
+msgid "\"%s\" is not a graphical parameter"
+msgstr ""
+
+#, c-format
+msgid "argument %d does not name a graphical parameter"
+msgstr ""
+
+msgid "invalid argument passed to par()"
+msgstr ""
+
+#, c-format
+msgid "too many rows in layout, limit %d"
+msgstr ""
+
+#, c-format
+msgid "too many columns in layout, limit %d"
+msgstr ""
+
+#, c-format
+msgid "too many cells in layout, limit %d"
+msgstr ""
+
+msgid "invalid color specification"
+msgstr ""
+
+msgid "only NA allowed in logical plotting symbol"
+msgstr ""
+
+msgid "invalid plotting symbol"
+msgstr ""
+
+msgid "invalid font specification"
+msgstr ""
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "ugyldig '%s'-værdi"
+
+#, fuzzy, c-format
+msgid "invalid 'vfont' value [typeface %d]"
+msgstr "ugyldig '%s'-værdi"
+
+#, c-format
+msgid "invalid 'vfont' value [typeface = %d, fontindex = %d]"
+msgstr ""
+
+msgid "invalid graphics parameter"
+msgstr ""
+
+msgid "at least 3 arguments required"
+msgstr ""
+
+msgid "\"log=\" specification must be character"
+msgstr ""
+
+#, c-format
+msgid "invalid \"log=%s\" specification"
+msgstr ""
+
+msgid "NAs not allowed in 'xlim'"
+msgstr ""
+
+msgid "need finite 'xlim' values"
+msgstr ""
+
+msgid "NAs not allowed in 'ylim'"
+msgstr ""
+
+msgid "need finite 'ylim' values"
+msgstr ""
+
+msgid "Logarithmic axis must have positive limits"
+msgstr ""
+
+msgid "invalid type for axis labels"
+msgstr ""
+
+msgid "too few arguments"
+msgstr ""
+
+#, c-format
+msgid "invalid axis number %d"
+msgstr ""
+
+msgid "'hadj' must be of length one"
+msgstr ""
+
+#, c-format
+msgid "zero-length '%s' specified"
+msgstr ""
+
+msgid "'gap.axis' must be of length one"
+msgstr ""
+
+msgid "'gap.axis' must be NA or a finite number"
+msgstr ""
+
+msgid "'labels' is supplied and not 'at'"
+msgstr ""
+
+#, c-format
+msgid "'at' and 'labels' lengths differ, %d != %d"
+msgstr ""
+
+msgid "no locations are finite"
+msgstr ""
+
+msgid "invalid plotting structure"
+msgstr ""
+
+#, c-format
+msgid "'x' and 'y' lengths differ in %s()"
+msgstr ""
+
+#, c-format
+msgid "invalid plot type '%c'"
+msgstr ""
+
+msgid "invalid first argument"
+msgstr "ugyldigt første argument"
+
+msgid "invalid second argument"
+msgstr ""
+
+msgid "invalid third argument"
+msgstr ""
+
+msgid "invalid fourth argument"
+msgstr ""
+
+msgid "cannot mix zero-length and non-zero-length coordinates"
+msgstr ""
+
+msgid "Empty raster"
+msgstr ""
+
+msgid "invalid arrow head length"
+msgstr ""
+
+msgid "invalid arrow head angle"
+msgstr ""
+
+msgid "invalid arrow head specification"
+msgstr ""
+
+msgid "no coordinates were supplied"
+msgstr ""
+
+msgid "invalid a=, b= specification"
+msgstr ""
+
+msgid "'a' and 'b' must be finite"
+msgstr ""
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "ugyldigt '%s'-argument"
+
+#, c-format
+msgid "invalid number of points in %s"
+msgstr ""
+
+msgid "invalid plot type"
+msgstr ""
+
+msgid "incorrect argument type"
+msgstr ""
+
+msgid "different argument lengths"
+msgstr ""
+
+msgid "more 'labels' than points"
+msgstr ""
+
+#, c-format
+msgid "warning: no point within %.2f inches\n"
+msgstr ""
+
+msgid "warning: nearest point already identified\n"
+msgstr ""
+
+msgid "invalid units"
+msgstr ""
+
+msgid "invalid dendrogram input"
+msgstr ""
+
+msgid "invalid symbol parameter vector"
+msgstr ""
+
+msgid "invalid symbol coordinates"
+msgstr ""
+
+msgid "x/y/parameter length mismatch"
+msgstr ""
+
+msgid "invalid circles data"
+msgstr ""
+
+msgid "invalid symbol parameter"
+msgstr ""
+
+msgid "invalid squares data"
+msgstr ""
+
+msgid "invalid rectangles data (need 2 columns)"
+msgstr ""
+
+msgid "invalid stars data"
+msgstr ""
+
+msgid "invalid thermometers data (need 3 or 4 columns)"
+msgstr ""
+
+#, c-format
+msgid "invalid 'thermometers[, %s]'"
+msgstr ""
+
+#, c-format
+msgid "'thermometers[, %s]' not in [0,1] -- may look funny"
+msgstr ""
+
+msgid "invalid 'thermometers[, 1:2]'"
+msgstr ""
+
+msgid "invalid 'boxplots' data (need 5 columns)"
+msgstr ""
+
+msgid "'boxplots[, 5]' outside [0,1] -- may look funny"
+msgstr ""
+
+msgid "invalid 'boxplots[, 1:4]'"
+msgstr ""
+
+msgid "invalid symbol type"
+msgstr ""
+
+#, c-format
+msgid "incorrect length for '%s' argument"
+msgstr ""
+
+msgid "insufficient 'x' or 'y' values"
+msgstr ""
+
+msgid "dimension mismatch"
+msgstr ""
+
+msgid "no contour values"
+msgstr ""
+
+msgid "invalid x / y values or limits"
+msgstr ""
+
+msgid "invalid contour levels: must be strictly increasing"
+msgstr ""
+
+msgid "Axis orientation not calculated"
+msgstr ""
+
+msgid "too few parameters"
+msgstr ""
+
+msgid "invalid 'x' limits"
+msgstr ""
+
+msgid "invalid 'y' limits"
+msgstr ""
+
+msgid "invalid 'z' limits"
+msgstr ""
+
+msgid "'xlab' must be a character vector of length 1"
+msgstr ""
+
+msgid "'ylab' must be a character vector of length 1"
+msgstr ""
+
+msgid "'zlab' must be a character vector of length 1"
+msgstr ""
+
+msgid "invalid viewing parameters"
+msgstr ""
+
+#, c-format
+msgid "invalid '%s' specification"
+msgstr "ugyldig '%s'-specifikation"
+
+#, c-format
+msgid "contour(): circular/long seglist -- set %s > %d?"
+msgstr ""
+
+msgid "no 'levels'"
+msgstr ""
+
+msgid "missing 'x' values"
+msgstr ""
+
+msgid "increasing 'x' values expected"
+msgstr ""
+
+msgid "missing 'y' values"
+msgstr ""
+
+msgid "increasing 'y' values expected"
+msgstr ""
+
+#, c-format
+msgid "non-finite level values: levels[%d] = %g"
+msgstr ""
+
+msgid "all z values are equal"
+msgstr ""
+
+msgid "all z values are NA"
+msgstr ""
+
+#, c-format
+msgid "long vector '%s' is not supported"
+msgstr ""
+
+#, fuzzy
+#~ msgid "unable to allocate memory (in xspline)"
+#~ msgstr "kan ikke slette menupunkt (%s)"

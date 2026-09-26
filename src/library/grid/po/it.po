@@ -1,0 +1,154 @@
+# R Italian translation
+# Copyright (C) The R Foundation
+# This file is distributed under the same license as the R package.
+# Daniele Medri <dmedri@gmail.com>, 2005-2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R-4-3-BRANCH\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-08-01 04:41-0700\n"
+"PO-Revision-Date: 2022-10-14 10:25+0200\n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
+"Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+msgid "graphical parameter 'fontfamily' has a maximum length of 200 bytes"
+msgstr ""
+
+msgid "updateGContext must only be called after initGContext"
+msgstr "updateGContext dev'essere unicamente chiamato dopo initGContext"
+
+msgid "Turning clipping on or off within a (clipping) path is no honoured"
+msgstr "L'attivazione o meno del ritaglio dentro un tracciato (di ritaglio) non viene onorato"
+
+msgid "cannot clip to rotated viewport"
+msgstr "non è possibile tagliare su una viewport ruotata"
+
+msgid "Clipping paths within a (clipping) path are not honoured"
+msgstr "I tracciati di ritaglio dentro un altro tracciato (di ritaglio) non sono onorati"
+
+msgid "Masks within a (clipping) path are not honoured"
+msgstr "Le maschere interne a un tracciato (di ritaglio) non sono onorate"
+
+#, c-format
+msgid "Viewport '%s' was not found"
+msgstr ""
+
+msgid "cannot pop the top-level viewport ('grid' and 'graphics' output mixed?)"
+msgstr "non è possibile mostrare la view-port di livello più alto (output di 'grid' e 'graphics' mischiato?)"
+
+msgid "attempt to plot on null device"
+msgstr "tentativo di scrivere sul dispositivo null"
+
+msgid "there is no layout defined"
+msgstr "non c'è alcun layout definito"
+
+msgid "polygon edge not found (zero-width or zero-height?)"
+msgstr "bordo poligonale non trovato (larghezza o altezza zero?)"
+
+msgid "polygon edge not found"
+msgstr "bordo poligonale non trovato"
+
+msgid "require at least two points to draw arrow"
+msgstr "richiedono almeno due punti per disegnare la freccia"
+
+msgid "non-finite control point in Xspline"
+msgstr "punto di controllo non finito in Xspline"
+
+msgid "non-finite x or y in graphics path"
+msgstr "x o y non finiti nel percorso grafico"
+
+msgid "Empty raster"
+msgstr "Raster vuoto"
+
+msgid "Coordinates for text pch not yet supported"
+msgstr "Cordinate per pch testo non ancora supportate"
+
+#, c-format
+msgid "pch value '%d' is invalid in this locale"
+msgstr "valore pch '%d' non è valido per questa localizzazione"
+
+#, c-format
+msgid "unimplemented pch value '%d'"
+msgstr "valore pch '%d' non implementato"
+
+msgid "invalid plotting symbol"
+msgstr "simbolo di plotting non valido"
+
+msgid "unable to clip to rotated rectangle"
+msgstr "non è possibile tagliare su un rettangolo ruotato"
+
+msgid "invalid 'layout.pos.row'"
+msgstr "'layout.pos.row' non valido"
+
+msgid "invalid 'layout.pos.col'"
+msgstr "'layout.pos.col' non valido"
+
+msgid "singular transformation matrix"
+msgstr "matrice di trasformazione singolare"
+
+msgid "unable to store 'grid' state.  Too many devices open?"
+msgstr "non è possibile memorizzare lo stato di 'grid'. Troppi dispositivi aperti?"
+
+msgid "Cannot create unit scalar from 0-length unit vector"
+msgstr "Non è possibile creare un'unità scalare da un vettore unità di lunghezza zero"
+
+msgid "invalid unit or unit not yet implemented"
+msgstr "unità non valida o non ancora implementata"
+
+msgid "Viewport has zero dimension(s)"
+msgstr "La viewport ha zero dimensioni"
+
+msgid "Unsupported unit conversion"
+msgstr "Conversione unit non supportata"
+
+msgid "Invalid unit"
+msgstr "Unità non valida"
+
+msgid "'units' must be character"
+msgstr "'units' dev'essere di tipo character"
+
+msgid "'units' must be of length > 0"
+msgstr "'units' dev'essere di lunghezza > 0"
+
+msgid "data must be either NULL, have length 1, or match the length of the final unit vector"
+msgstr "i dati devono essere NULL, avere lunghezza 1 o corrispondere alla lunghezza del vettore dell'unità finale"
+
+msgid "no string supplied for 'strwidth/height' unit"
+msgstr "nessuna stringa passata per unità 'strwidth/height'"
+
+msgid "no 'grob' supplied for 'grobwidth/height' unit"
+msgstr "nessun 'grob' passato per unità 'grobwidth/height'"
+
+msgid "'gPath' must have depth 1 in 'grobwidth/height' units"
+msgstr "'gPath' deve avere profondità 1 nelle unità 'grobwidth/height'"
+
+msgid "non-NULL value supplied for plain unit"
+msgstr "valore non-NULL passato per unità normale"
+
+msgid "old version of unit class is no longer allowed"
+msgstr "la vecchia versione della classe unità non è più ammessa"
+
+msgid "object is not coercible to a unit"
+msgstr "l'oggetto non è convertibile in una unità"
+
+msgid "object is not a unit"
+msgstr "l'oggetto non è un'unità"
+
+msgid "units can only be multiplied with numerics and integers"
+msgstr "le unità possono unicamente essere moltiplicate con numerici e interi"
+
+msgid "Unable to calculate text width/height (using zero)"
+msgstr "Non è possibile calcolare la larghezza/altezza del testo (usando zero)"
+
+msgid "Mask is not logical value ('none' or 'inherit')"
+msgstr "Mask non è un valore logico ('none' o 'inherit')"
+
+msgid "non-finite location and/or size for viewport"
+msgstr "posizione e/o dimensione della viewport non finita"

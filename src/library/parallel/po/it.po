@@ -1,0 +1,92 @@
+# R Italian translation
+# Copyright (C) The R Foundation
+# This file is distributed under the same license as the R package.
+# Daniele Medri <dmedri@gmail.com>, 2005-2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R-4-3-BRANCH\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-04-25 10:48-0700\n"
+"PO-Revision-Date: 2022-10-14 10:33+0200\n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
+"Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#, c-format
+msgid "unable to terminate child process: %s"
+msgstr "non è possibile terminare il processo figlio: %s"
+
+#, c-format
+msgid "unable to terminate child: %s"
+msgstr "non è possibile terminare il figlio: %s"
+
+msgid "memory allocation error"
+msgstr "errore di allocazione memoria"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "argomento '%s' non valido"
+
+msgid "Error while shutting down parallel: unable to terminate some child processes\n"
+msgstr "Errore durante la chiusura di parallel: non è possibile terminare alcuni processi figli\n"
+
+msgid "unable to create a pipe"
+msgstr "non è possibile creare un pipe"
+
+#, c-format
+msgid "unable to fork, possible reason: %s"
+msgstr "non è possibile fare un fork, possibile ragione: %s"
+
+msgid "only children can send data to the master process"
+msgstr "solo i figli possono inviare dati al processo master"
+
+msgid "there is no pipe to the master process"
+msgstr "non c'è alcun pipe nel processo master"
+
+msgid "content to send must be RAW, use serialize() if needed"
+msgstr "il contenuto da inviare dev'essere RAW, utilizza serialize() se necessario"
+
+msgid "write error, closing pipe to the master"
+msgstr "errore di scrittura, chiudendo un pipe al master"
+
+msgid "only the master process can send data to a child process"
+msgstr "solo il processo master può inviare dati ad un processo figlio"
+
+#, c-format
+msgid "child %d does not exist"
+msgstr "il figlio %d non esiste"
+
+msgid "write error"
+msgstr "errore di scrittura"
+
+#, c-format
+msgid "cannot wait for child %d as it does not exist"
+msgstr "non aspettiamo il figlio %d perché non esiste"
+
+#, c-format
+msgid "error '%s' in select"
+msgstr "errore '%s' nella selezione"
+
+msgid "'mckill' failed"
+msgstr "'mckill' fallito"
+
+msgid "'mcexit' can only be used in a child process"
+msgstr "'mcexit' può essere unicamente usata in un processo figlio"
+
+msgid "'mcexit' failed"
+msgstr "'mcexit' fallito"
+
+msgid "invalid CPU affinity specification"
+msgstr "specificazione CPU affinity non valida"
+
+msgid "requested CPU set is too large for this system"
+msgstr "l'insieme delle CPU richieste è troppo grande per questo sistema"
+
+msgid "retrieving CPU affinity set failed"
+msgstr "recupero insieme CPU affinity non avvenuto"

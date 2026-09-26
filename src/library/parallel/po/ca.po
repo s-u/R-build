@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The R Core Team
+# This file is distributed under the same license as the R package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 4.4.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-04-25 10:48-0700\n"
+"PO-Revision-Date: 2024-03-18 06:08+0000\n"
+"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"Language-Team: none\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
+
+#, c-format
+msgid "unable to terminate child process: %s"
+msgstr "no s'ha pogut finalitzar el procés fill: %s"
+
+#, c-format
+msgid "unable to terminate child: %s"
+msgstr "no s'ha pogut finalitzar el fill: %s"
+
+msgid "memory allocation error"
+msgstr "error en assignar memòria"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "argument «%s» no vàlid"
+
+msgid "Error while shutting down parallel: unable to terminate some child processes\n"
+msgstr "S'ha produït un error en tancar el parallel: no s'han pogut finalitzar alguns processos fills\n"
+
+msgid "unable to create a pipe"
+msgstr "no s'ha pogut crear un conducte"
+
+#, c-format
+msgid "unable to fork, possible reason: %s"
+msgstr "no s'ha pogut forcar, possible motiu: %s"
+
+msgid "only children can send data to the master process"
+msgstr "només els fills poden enviar dades al procés principal"
+
+msgid "there is no pipe to the master process"
+msgstr "no hi ha cap conducte al procés principal"
+
+msgid "content to send must be RAW, use serialize() if needed"
+msgstr "el contingut a enviar ha de ser RAW, utilitzeu serialize() si cal"
+
+msgid "write error, closing pipe to the master"
+msgstr "error d'escriptura, es tancarà el conducte al procés principal"
+
+msgid "only the master process can send data to a child process"
+msgstr "només el procés principal pot enviar dades a un procés fill"
+
+#, c-format
+msgid "child %d does not exist"
+msgstr "el fill %d no existeix"
+
+msgid "write error"
+msgstr "error d'escriptura"
+
+#, c-format
+msgid "cannot wait for child %d as it does not exist"
+msgstr "no es pot esperar el fill %d perquè no existeix"
+
+#, c-format
+msgid "error '%s' in select"
+msgstr "error «%s» en seleccionar"
+
+msgid "'mckill' failed"
+msgstr "ha fallat «mckill»"
+
+msgid "'mcexit' can only be used in a child process"
+msgstr "«mcexit» només es pot utilitzar en un procés fill"
+
+msgid "'mcexit' failed"
+msgstr "ha fallat «mcexit»"
+
+msgid "invalid CPU affinity specification"
+msgstr "especificació d'afinitat de CPU no vàlida"
+
+msgid "requested CPU set is too large for this system"
+msgstr "el conjunt de CPU sol·licitat és massa gran per a aquest sistema"
+
+msgid "retrieving CPU affinity set failed"
+msgstr "ha fallat la recuperació del conjunt d'afinitats de la CPU"

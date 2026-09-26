@@ -1,0 +1,6048 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: R 4.2.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-09-02 17:50-0700\n"
+"PO-Revision-Date: 2023-09-01 18:31+0000\n"
+"Last-Translator: Abdulrahman Alswaji <alswajiab@gmail.com>\n"
+"Language-Team: none\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 4.16.4\n"
+
+msgid "non-finite value supplied by 'optim'"
+msgstr "القيمة غير المحدودة التي توفرها \"Optim\""
+
+#, c-format
+msgid "candidate point in 'optim' evaluated to length %d not %d"
+msgstr "تم تقييم نقطة المرشح في \"الأمثل\" إلى الطول %d وليس %d"
+
+msgid "REPORT must be > 0 (method = \"BFGS\")"
+msgstr "يجب أن يكون التقرير > 0 (الطريقة = \"BFGS\")"
+
+msgid "initial value in 'vmmin' is not finite"
+msgstr "القيمة الأولية في \"vmmin\" ليست محدودة"
+
+msgid "function cannot be evaluated at initial parameters"
+msgstr "لا يمكن تقييم الدالة في المعلمات الأولية"
+
+msgid "unknown type in \"CG\" method of 'optim'"
+msgstr "\"نوع\" غير معروف في طريقة \"CG\" ل \"optim\""
+
+msgid "REPORT must be > 0 (method = \"L-BFGS-B\")"
+msgstr "يجب أن يكون التقرير > 0 (الطريقة = \"L-BFGS-B\")"
+
+msgid "L-BFGS-B needs finite values of 'fn'"
+msgstr "يحتاج L-BFGS-B إلى قيم محدودة من \"fn\""
+
+msgid "trace, REPORT must be >= 0 (method = \"SANN\")"
+msgstr "trace ، يجب أن يكون REPORT > = 0 (الطريقة = \"SANN\")"
+
+#, c-format
+msgid "R_pretty(): infinite range; *ndiv=%d, should have ndiv >= 2"
+msgstr "R_pretty (): نطاق لا نهائي ؛ * ndiv = %d ، يجب أن يكون ndiv > = 2"
+
+#, c-format
+msgid "R_pretty(): very small range 'cell'=%.3g, increased to %g"
+msgstr "R_pretty(): نطاق صغير جدًا 'cell'=%.3g، تمت زيادته إلى %g"
+
+#, c-format
+msgid "R_pretty(): very large range 'cell'=%.3g, decreased to %g"
+msgstr "R_pretty(): نطاق كبير جدًا 'cell'=%.3g، تم إنقاصه إلى %g"
+
+#, c-format
+msgid "DLL attempted to change FPU control word from %x to %x"
+msgstr "حاولت DLL تغيير كلمة تحكم FPU من %x إلى %x"
+
+msgid "cannot get working directory"
+msgstr "لا يمكن الحصول على دليل العمل"
+
+msgid "R_HOME not set"
+msgstr "R_HOME غير مضبوطة"
+
+#, c-format
+msgid "'%s' not found"
+msgstr "لم يتم العثور على \"%s\""
+
+#, c-format
+msgid "file association for '%s' not available or invalid"
+msgstr "اقتران الملف ل \"%s\" غير متوفر أو غير صالح"
+
+#, c-format
+msgid "access to '%s' denied"
+msgstr "تم رفض الوصول إلى \"%s\""
+
+#, c-format
+msgid "problem in displaying '%s'"
+msgstr "مشكلة في عرض \"%s\""
+
+#, c-format
+msgid "'%ls' not found"
+msgstr "لم يتم العثور على \"%ls\""
+
+#, c-format
+msgid "file association for '%ls' not available or invalid"
+msgstr "اقتران الملف ل \"%ls\" غير متوفر أو غير صالح"
+
+#, c-format
+msgid "access to '%ls' denied"
+msgstr "تم رفض الوصول إلى \"%ls\""
+
+#, c-format
+msgid "problem in displaying '%ls'"
+msgstr "مشكلة في عرض \"%ls\""
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "الوسيطة '%s' غير صالحة"
+
+msgid "unsupported version of Windows"
+msgstr "إصدار غير مدعوم من Windows"
+
+#, c-format
+msgid "cannot resolve current user or domain: '%s'"
+msgstr "لا يمكن حل المستخدم أو المجال الحالي: \"%s\""
+
+msgid "'path' must be a character vector"
+msgstr "يجب أن يكون \"المسار\" متجه حرف"
+
+msgid "invalid device"
+msgstr "جهاز غير صالح"
+
+msgid "requires SDI mode"
+msgstr "يتطلب وضع SDI"
+
+msgid "invalid graphical device number"
+msgstr "رقم الجهاز الرسومي غير صالح"
+
+msgid "bad device"
+msgstr "جهاز سيئ"
+
+msgid "file choice cancelled"
+msgstr "تم إلغاء اختيار الملف"
+
+#, c-format
+msgid "'CreateProcess' failed to run '%s'"
+msgstr "فشل تشغيل 'CreateProcess' في '%s'"
+
+msgid "Child process not responding.  R will terminate it."
+msgstr "عملية الطفل لا تستجيب.  R سوف ينهيها."
+
+#, c-format
+msgid "Exit code was %d"
+msgstr "كان رمز الخروج %d"
+
+msgid "Insufficient memory (rpipeOpen)"
+msgstr "ذاكرة غير كافية (rpipeOpen)"
+
+msgid "seek not enabled for this connection"
+msgstr "البحث غير ممكن لهذا الاتصال"
+
+msgid "truncate not enabled for this connection"
+msgstr "لم يتم تمكين الاقتطاع لهذا الاتصال"
+
+msgid "printing of extremely long output is truncated"
+msgstr "يتم اقتطاع طباعة الإخراج الطويل للغاية"
+
+msgid "allocation of pipe connection failed"
+msgstr "فشل تخصيص توصيل الأنابيب"
+
+msgid "'names' is not a character vector"
+msgstr "\"الأسماء\" ليست متجه أحرف"
+
+#, c-format
+msgid ""
+"expanded path length %llu would be too long for\n"
+"%s\n"
+msgstr ""
+
+msgid "character string expected as first argument"
+msgstr "سلسلة الأحرف المتوقعة كوسيطة أولى"
+
+msgid "character string expected as third argument"
+msgstr "سلسلة الأحرف المتوقعة كوسيطة ثالثة"
+
+#, c-format
+msgid "invalid %s argument"
+msgstr "الوسيطة %s غير صالحة"
+
+#, c-format
+msgid "command '%s' timed out after %ds"
+msgstr "انتهت مهلة الأمر \"%s\" بعد %ds"
+
+#, c-format
+msgid "running command '%s' had status %d"
+msgstr "كان الأمر قيد التشغيل '%s' بالحالة %d"
+
+msgid "reached session elapsed time limit"
+msgstr "الوصول إلى الحد الزمني المنقضي للجلسة"
+
+msgid "reached elapsed time limit"
+msgstr "الوصول إلى الحد الزمني المنقضي"
+
+msgid "reached session CPU time limit"
+msgstr "الوصول إلى الحد الزمني لوحدة المعالجة المركزية للجلسة"
+
+msgid "reached CPU time limit"
+msgstr "الوصول إلى الحد الزمني لوحدة المعالجة المركزية"
+
+#, c-format
+msgid "Fatal error: %s\n"
+msgstr "خطأ فادح: %s\n"
+
+#, c-format
+msgid "encoding '%s' is not recognised"
+msgstr "لا يتم التعرف على الترميز \"%s\""
+
+#, c-format
+msgid "<ERROR: re-encoding failure from encoding '%s'>\n"
+msgstr "<خطأ: فشل إعادة الترميز من الترميز \"%s\">\n"
+
+#, c-format
+msgid "cannot open file '%s': %s"
+msgstr "لا يمكن فتح الملف \"%s\": %s"
+
+#, c-format
+msgid "file.show(): file '%s' does not exist\n"
+msgstr "file.show(): الملف '%s' غير موجود\n"
+
+#, c-format
+msgid "Not enough memory"
+msgstr "ذاكرة غير كافية"
+
+#, c-format
+msgid "ARGUMENT '%s' __ignored__\n"
+msgstr "الوسيطة \"%s\" __ignored__\n"
+
+#, c-format
+msgid "option '%s' requires an argument"
+msgstr "يتطلب الخيار \"%s\" وسيطة"
+
+#, c-format
+msgid "option '%s' requires a non-empty argument"
+msgstr "يتطلب الخيار \"%s\" وسيطة غير فارغة"
+
+#, c-format
+msgid "WARNING: '-e %s' omitted as input is too long\n"
+msgstr "تحذير: تم حذف \"-e %s\" لأن الإدخال طويل جدا\n"
+
+#, c-format
+msgid "WARNING: unknown option '%s'\n"
+msgstr "تحذير: خيار غير معروف \"%s\"\n"
+
+msgid "cannot use -e with -f or --file"
+msgstr "لا يمكن استخدام -e مع -f أو --file"
+
+msgid "creation of tmpfile failed -- set TMPDIR suitably?"
+msgstr "فشل إنشاء tmpfile - تعيين TMPDIR بشكل مناسب؟"
+
+msgid "you must specify '--save', '--no-save' or '--vanilla'"
+msgstr "يجب تحديد \"--حفظ\" أو \"--no-save\" أو \"--vanilla\""
+
+msgid "impossible to create 'reader thread'; you must free some system resources"
+msgstr "من المستحيل إنشاء \"خيط قارئ\" ؛ يجب تحرير بعض موارد النظام"
+
+msgid "subscript out of bounds"
+msgstr "الكتابة السفلية خارج الحدود"
+
+#, c-format
+msgid "object of type '%s' is not subsettable"
+msgstr "كائن من النوع '%s' غير قابل للتجميع الفرعي"
+
+msgid "missing subscript"
+msgstr "الرمز السفلي المفقود"
+
+msgid "WARNING: no value given for --encoding"
+msgstr "تحذير: لا توجد قيمة معطاة ل --encoding"
+
+#, c-format
+msgid "WARNING: option '%s' no longer supported"
+msgstr "تحذير: الخيار \"%s\" لم يعد مدعوما"
+
+#, c-format
+msgid "WARNING: no value given for '%s'"
+msgstr "تحذير: لا توجد قيمة معطاة ل \"%s\""
+
+#, c-format
+msgid "WARNING: '%s' value is invalid: ignored"
+msgstr "تحذير: قيمة \"%s\" غير صالحة: تم تجاهلها"
+
+#, c-format
+msgid "WARNING: %s: too large and ignored"
+msgstr "تحذير: %s: كبير جدا ويتم تجاهله"
+
+msgid "WARNING: no value given for '--max-ppsize'"
+msgstr "تحذير: لا توجد قيمة معطاة ل \"--max-ppsize\""
+
+msgid "WARNING: '--max-ppsize' value is negative: ignored"
+msgstr "تحذير: قيمة \"--max-ppsize\" سالبة: تم تجاهلها"
+
+msgid "WARNING: '--max-ppsize' value is too small: ignored"
+msgstr "تحذير: قيمة \"--max-ppsize\" صغيرة جدا: تم تجاهلها"
+
+msgid "WARNING: '--max-ppsize' value is too large: ignored"
+msgstr "تحذير: قيمة \"--max-ppsize\" كبيرة جدا: تم تجاهلها"
+
+msgid "WARNING: no value given for '--max-connections'"
+msgstr "تحذير: لا توجد قيمة معطاة ل \"--max-connections\""
+
+msgid "WARNING: '--max-connections' value is negative: ignored"
+msgstr "تحذير: قيمة \"--max-connections\" سالبة: تم تجاهلها"
+
+msgid "WARNING: '--max-connections' value is too small: ignored"
+msgstr "تحذير: قيمة \"--max-connections\" صغيرة جدا: تجاهل"
+
+msgid "WARNING: '--max-connections' value is too large: ignored"
+msgstr "تحذير: قيمة \"--max-connections\" صغيرة جدا: تجاهل"
+
+#, c-format
+msgid "unif_rand: unimplemented RNG kind %d"
+msgstr "unif_rand: نوع RNG غير المنفذة %d"
+
+#, c-format
+msgid "FixupSeeds: unimplemented RNG kind %d"
+msgstr "FixupSeeds: نوع RNG غير المنفذة %d"
+
+msgid "'user_unif_rand' not in load table"
+msgstr "\"user_unif_rand\" ليس في جدول التحميل"
+
+msgid "cannot read seeds unless 'user_unif_nseed' is supplied"
+msgstr "لا يمكن قراءة البذور ما لم يتم توفير \"user_unif_nseed\""
+
+msgid "seed length must be in 0...625; ignored"
+msgstr "يجب أن يكون طول البذرة في 0...625 ؛ تجاهل"
+
+#, c-format
+msgid "RNG_Init: unimplemented RNG kind %d"
+msgstr "RNG_Init: نوع RNG غير المنفذة %d"
+
+#, c-format
+msgid "'.Random.seed' is not an integer vector but of type '%s', so ignored"
+msgstr "'. Random.seed ليس متجه صحيحا ولكنه من النوع \"%s\" ، لذلك تم تجاهله"
+
+msgid "'.Random.seed[1]' is not a valid integer, so ignored"
+msgstr "'. Random.seed[1]' ليس عددا صحيحا صالحا، لذا تم تجاهله"
+
+#, fuzzy
+msgid "'.Random.seed[1]' is not a valid Normal | Sample | Binom type, so ignored"
+msgstr "'. Random.seed[1]' ليس من النوع العادي الصالح ، لذا تم تجاهله"
+
+#, fuzzy, c-format
+msgid "'.Random.seed[1] %% 100 = 5' but no user-supplied generator, so ignored"
+msgstr "'. Random.seed [1] = 5 'ولكن لا يوجد مولد يوفره المستخدم ، لذلك تم تجاهله"
+
+#, fuzzy, c-format
+msgid "'.Random.seed[1] %% 100' is not a valid RNG kind so ignored"
+msgstr "'. Random.seed[1]' ليس نوعا صالحا من RNG لذا يتم تجاهله"
+
+msgid "'.Random.seed' has wrong length"
+msgstr "'. Random.seed' له طول خاطئ"
+
+msgid "RNGkind: Marsaglia-Multicarry has poor statistical properties"
+msgstr "RNGkind: Marsaglia-Multicarry له خصائص إحصائية ضعيفة"
+
+#, c-format
+msgid "RNGkind: unimplemented RNG kind %d"
+msgstr "RNGkind: نوع RNG غير المنفذة %d"
+
+msgid "RNGkind: severe deviations from normality for Kinderman-Ramage + Marsaglia-Multicarry"
+msgstr "RNGkind: انحرافات شديدة عن الوضع الطبيعي ل Kinderman-Ramage + Marsaglia-Multicarry"
+
+msgid "RNGkind: deviations from normality for Ahrens-Dieter + Marsaglia-Multicarry"
+msgstr "RNGkind: انحرافات شديدة عن الوضع الطبيعي ل Kinderman-Ramage + Marsaglia-Multicarry"
+
+msgid "invalid Normal type in 'RNGkind'"
+msgstr "نوع عادي غير صالح في \"RNGkind\""
+
+msgid "'user_norm_rand' not in load table"
+msgstr "'user_norm_rand' غير موجود في جدول التحميل"
+
+msgid "invalid sample type in 'RNGkind'"
+msgstr "نوع sample غير صالح في 'RNGkind'"
+
+#, fuzzy
+msgid "invalid binom type in 'RNGkind'"
+msgstr "نوع عادي غير صالح في \"RNGkind\""
+
+msgid "supplied seed is not a valid integer"
+msgstr "seed المقدّم ليس عدد صحيح صالحًا"
+
+#, c-format
+msgid "R_MAX_NUM_DLLS must be at least %d"
+msgstr "يجب أن يكون R_MAX_NUM_DLLS على الأقل %d"
+
+#, c-format
+msgid "R_MAX_NUM_DLLS cannot be bigger than %d"
+msgstr "لا يمكن أن يكون R_MAX_NUM_DLLS أكبر من %d"
+
+#, c-format
+msgid "R_MAX_NUM_DLLS cannot be bigger than %d when fd limit is not known"
+msgstr "لا يمكن أن يكون R_MAX_NUM_DLLS أكبر من %d عندما لا يكون fd limit معروفًا"
+
+msgid "the limit on the number of open files is too low"
+msgstr "حد عدد الملفات المفتوحة منخفض جدًا"
+
+#, c-format
+msgid "R_MAX_NUM_DLLS bigger than %d may exhaust open files limit"
+msgstr "قد يؤدي كون R_MAX_NUM_DLLS أكبر من %d إلى استنفاد حد الملفات المفتوحة"
+
+msgid "could not allocate space for DLL table"
+msgstr "تعذّر تخصيص مساحة لـ DLL جدول"
+
+msgid "R_RegisterRoutines called with invalid DllInfo object."
+msgstr "استُدعي R_RegisterRoutines مع DllInfo كائن غير صالح."
+
+msgid "Invalid object."
+msgstr "الكائن غير صالح."
+
+#, c-format
+msgid "Invalid entry '%s' in native symbol object."
+msgstr "مدخل '%s' في رمز أصلي كائن غير صالح."
+
+#, c-format
+msgid "Component '%s' missing in symbol object."
+msgstr "المكوّن '%s' مفقود في رمز كائن."
+
+msgid "Invalid symbol list."
+msgstr "قائمة الرموز غير صالحة."
+
+#, c-format
+msgid "Symbol at %d does not have registration information."
+msgstr "الرمز عند %d لا يحتوي على معلومات التسجيل."
+
+msgid "Invalid symbol name."
+msgstr "اسم الرمز غير صالح."
+
+#, c-format
+msgid "Cannot register already registered native symbol '%s'."
+msgstr "لا يمكن تسجيل الرمز الأصلي المسجل مسبقًا '%s'."
+
+#, c-format
+msgid "Symbol '%s' does not have a valid native address."
+msgstr "الرمز '%s' لا يحتوي على native عنوان صالح."
+
+#, c-format
+msgid "Symbol '%s' does not have a valid DllInfo reference."
+msgstr "الرمز '%s' لا يحتوي على DllInfo مرجع صالح."
+
+#, c-format
+msgid "Symbol '%s' comes from a different shared object."
+msgstr "الرمز '%s' يأتي من كائن مشترك مختلف."
+
+#, c-format
+msgid "Symbol '%s' is missing parameter specification."
+msgstr "الرمز '%s' يفتقد إلى مواصفة المعامل."
+
+msgid "`maximal number of DLLs reached..."
+msgstr "تم الوصول إلى العدد الأقصى من DLLs..."
+
+msgid "could not allocate space for 'path'"
+msgstr "تعذّر تخصيص مساحة لـ 'path'"
+
+#, c-format
+msgid "DLLname '%s' is too long"
+msgstr "اسم DLL '%s' طويل جدًا"
+
+msgid "could not allocate space for 'name'"
+msgstr "تعذّر تخصيص مساحة لـ 'name'"
+
+msgid "could not allocate space for 'DllInfo'"
+msgstr "تعذّر تخصيص مساحة لـ 'DllInfo'"
+
+msgid "path too long"
+msgstr "مسار طويل جدا"
+
+msgid "character argument expected"
+msgstr "كان متوقعًا وسيط نصي"
+
+#, c-format
+msgid ""
+"unable to load shared object '%s':\n"
+"  %s"
+msgstr ""
+"تعذّر تحميل كائن مشترك '%s':\n"
+"    %s"
+
+#, c-format
+msgid "shared object '%s' was not loaded"
+msgstr "لم يتم تحميل كائن مشترك '%s'"
+
+#, c-format
+msgid "cannot allocate memory for registered native symbol (%d byte)"
+msgid_plural "cannot allocate memory for registered native symbol (%d bytes)"
+msgstr[0] "لا يمكن تخصيص ذاكرة لـ رمز أصلي مسجل (%d بايت)"
+msgstr[1] "لا يمكن تخصيص ذاكرة لـ رمز أصلي مسجل (%d بايت)"
+msgstr[2] "لا يمكن تخصيص ذاكرة لـ رمز أصلي مسجل (%d بايت)"
+msgstr[3] "لا يمكن تخصيص ذاكرة لـ رمز أصلي مسجل (%d بايت)"
+msgstr[4] "لا يمكن تخصيص ذاكرة لـ رمز أصلي مسجل (%d بايت)"
+msgstr[5] "لا يمكن تخصيص ذاكرة لـ رمز أصلي مسجل (%d بايت)"
+
+msgid "NULL value passed for DllInfo"
+msgstr "تم تمرير قيمة NULL لـ DllInfo"
+
+msgid "must pass package name or DllInfo reference"
+msgstr "يجب تمرير حزمة اسم أو DllInfo مرجع"
+
+#, c-format
+msgid "unimplemented type %d in 'createRSymbolObject'"
+msgstr "غير منفّذ نوع %d في 'createRSymbolObject'"
+
+msgid "R_getRegisteredRoutines() expects a DllInfo reference"
+msgstr "R_getRegisteredRoutines() يتوقع DllInfo مرجع"
+
+#, c-format
+msgid "function '%s' not provided by package '%s'"
+msgstr "الدالة '%s' غير مقدّمة من الحزمة '%s'"
+
+msgid "table entry must be an external pointer"
+msgstr "يجب أن يكون جدول مدخل مؤشر خارجي"
+
+#, c-format
+msgid "problem in setting variable '%s' in Renviron"
+msgstr "مشكلة في تعيين المتغير '%s' في Renviron"
+
+#, c-format
+msgid "argument '%s' must be a character string"
+msgstr "يجب أن تكون الوسيطة \"%s\" سلسلة أحرف"
+
+#, c-format
+msgid "file '%s' cannot be opened for reading"
+msgstr "لا يمكن فتح الملف '%s' للقراءة"
+
+#, c-format
+msgid "use of %s for input is not supported"
+msgstr "استخدام %s للإدخال غير مدعوم"
+
+msgid "invalid multibyte input string"
+msgstr "سلسلة إدخال متعددة البايت غير صالح"
+
+msgid "input string is too long"
+msgstr "سلسلة الإدخال طويل جدًا"
+
+msgid "invalid multibyte format string"
+msgstr "سلسلة تنسيق متعددة البايت غير صالح"
+
+msgid "format string is too long"
+msgstr "سلسلة التنسيق طويل جدًا"
+
+#, c-format
+msgid "argument '%s' has length > 1 and only the first element will be used"
+msgstr "الوسيط '%s' طوله أكبر من 1 وسيتم استخدام العنصر الأول فقط"
+
+msgid "'pattern' must be a non-empty character string"
+msgstr "يجب أن يكون 'pattern' سلسلة نصية غير فارغة"
+
+msgid "regular expression is invalid in this locale"
+msgstr "تعبير نظامي غير صالح في هذه البيئة المحلية"
+
+#, c-format
+msgid "regcomp error:  '%s'"
+msgstr "regcomp خطأ:   '%s'"
+
+#, c-format
+msgid "input string %lld is invalid in this locale"
+msgstr "سلسلة الإدخال %lld غير صالح في هذه البيئة المحلية"
+
+#, c-format
+msgid "argument '%s' will be ignored"
+msgstr "تم تجاهل وسيط '%s' will be"
+
+#, c-format
+msgid "input string x[%d] is invalid in this locale"
+msgstr "سلسلة الإدخال x[%d] غير صالح في هذه البيئة المحلية"
+
+#, c-format
+msgid "input string y[%d] is invalid in this locale"
+msgstr "سلسلة الإدخال y[%d] غير صالح في هذه البيئة المحلية"
+
+#, c-format
+msgid "regcomp error: '%s'"
+msgstr "regcomp خطأ: '%s'"
+
+msgid "'FUN.VALUE' must be a vector"
+msgstr "يجب أن يكون 'FUN.VALUE' متجه"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "قيمة \"%s\" غير صالحة"
+
+msgid "invalid length"
+msgstr "الطول غير صالح"
+
+msgid "long vectors are not supported for matrix/array results"
+msgstr "المتجهات الطويلة غير مدعومة لنتائج المصفوفات/المصفوفات متعددة الأبعاد"
+
+#, c-format
+msgid "type '%s' is not supported"
+msgstr "النوع '%s' غير مدعوم"
+
+#, c-format
+msgid ""
+"values must be length %d,\n"
+" but FUN(X[[%lld]]) result is length %d"
+msgstr ""
+"يجب أن يكون طول القيم %d،\n"
+" لكن نتيجة FUN(X[[%lld]]) طولها %d"
+
+#, c-format
+msgid ""
+"values must be type '%s',\n"
+" but FUN(X[[%lld]]) result is type '%s'"
+msgstr ""
+"يجب أن يكون نوع القيم '%s'،\n"
+" لكن نتيجة FUN(X[[%lld]]) نوعها '%s'"
+
+#, c-format
+msgid "dimnames(<value>) is neither NULL nor list of length %d"
+msgstr "أسماء الأبعاد(<قيمة>) هو neither NULL nor قائمة من طول %d"
+
+#, c-format
+msgid "'%s' must be a list or expression"
+msgstr "يجب أن يكون '%s' قائمة أو تعبير"
+
+msgid "NaNs produced"
+msgstr "تم إنتاج قيم NaN"
+
+msgid "non-numeric argument to mathematical function"
+msgstr "وسيط غير رقمي لدالة رياضية"
+
+msgid "probable complete loss of accuracy in modulus"
+msgstr "من المحتمل فقدان الدقة بالكامل في عملية باقي القسمة"
+
+msgid "NAs produced by integer overflow"
+msgstr "تم إنتاج قيم NA بسبب تجاوز عدد صحيح"
+
+msgid "operator needs one or two arguments"
+msgstr "يحتاج العامل إلى وسيط واحد أو وسيطين"
+
+msgid "non-numeric argument to binary operator"
+msgstr "وسيط غير رقمي لعامل ثنائي"
+
+msgid ""
+"Recycling array of length 1 in array-vector arithmetic is deprecated.\n"
+"  Use c() or as.vector() instead."
+msgstr "Recycling مصفوفة متعددة الأبعاد من طول 1 في مصفوفة متعددة الأبعاد-متجه arithmetic هو مهمل. Use c() أو as.متجه() instead."
+
+msgid ""
+"Recycling array of length 1 in vector-array arithmetic is deprecated.\n"
+"  Use c() or as.vector() instead."
+msgstr "Recycling مصفوفة متعددة الأبعاد من طول 1 في متجه-مصفوفة متعددة الأبعاد arithmetic هو مهمل. Use c() أو as.متجه() instead."
+
+msgid "non-conformable arrays"
+msgstr "المصفوفات متعددة الأبعاد غير متوافقة"
+
+msgid "longer object length is not a multiple of shorter object length"
+msgstr "طول الكائن الأطول ليس مضاعفًا لطول الكائن الأقصر"
+
+msgid "invalid argument to unary operator"
+msgstr "وسيط غير صالح لعامل أحادي"
+
+msgid "invalid unary operator"
+msgstr "عامل أحادي غير صالح"
+
+msgid "unimplemented real function of 1 argument"
+msgstr "دالة حقيقية غير منفّذة لوسيط واحد"
+
+msgid "unimplemented complex function"
+msgstr "دالة مركبة غير منفّذة"
+
+#, c-format
+msgid "unimplemented real function of %d numeric arguments"
+msgstr "دالة حقيقية غير منفّذة لعدد %d من الوسائط الرقمية"
+
+msgid "invalid second argument of length 0"
+msgstr "الثاني وسيط من طول 0 غير صالح"
+
+msgid "invalid argument 'base' of length 0"
+msgstr "وسيط 'base' من طول 0 غير صالح"
+
+#, c-format
+msgid "'data' must be of a vector type, was '%s'"
+msgstr "يجب أن يكون 'data' من a متجه نوع, was '%s'"
+
+msgid "non-numeric matrix extent"
+msgstr "non-رقمي مصفوفة extent"
+
+msgid "invalid 'nrow' value (too large or NA)"
+msgstr "'nrow' قيمة (too large أو NA) غير صالح"
+
+msgid "invalid 'nrow' value (< 0)"
+msgstr "قيمة 'nrow' غير صالحة (< 0)"
+
+msgid "invalid 'ncol' value (too large or NA)"
+msgstr "'ncol' قيمة (too large أو NA) غير صالح"
+
+msgid "invalid 'ncol' value (< 0)"
+msgstr "قيمة 'ncol' غير صالحة (< 0)"
+
+#, c-format
+msgid "data length [%lld] is not a sub-multiple or multiple of the number of rows [%d]"
+msgstr "بيانات طول [%lld] ليس sub-multiple أو multiple من the number من صفوف [%d]"
+
+#, c-format
+msgid "data length [%lld] is not a sub-multiple or multiple of the number of columns [%d]"
+msgstr "بيانات طول [%lld] ليس sub-multiple أو multiple من the number من أعمدة [%d]"
+
+#, c-format
+msgid "data length differs from size of matrix: [%lld != %d x %d]"
+msgstr "بيانات طول differs من size من مصفوفة: [%lld != %d x %d]"
+
+msgid "non-empty data for zero-extent matrix"
+msgstr "غير فارغ بيانات لـ zero-extent مصفوفة"
+
+msgid "too many elements specified"
+msgstr "تم تحديد عدد كبير جدًا من العناصر"
+
+msgid "negative extents to matrix"
+msgstr "سالب extents إلى مصفوفة"
+
+msgid "allocMatrix: too many elements specified"
+msgstr "allocMatrix: تم تحديد عدد كبير جدًا من العناصر"
+
+msgid "negative extents to 3D array"
+msgstr "سالب extents إلى 3D مصفوفة متعددة الأبعاد"
+
+msgid "'alloc3DArray': too many elements specified"
+msgstr "'alloc3DArray': تم تحديد عدد كبير جدًا من العناصر"
+
+msgid "'dim' cannot be of length 0"
+msgstr "لا يمكن أن يكون 'dim' من طول 0"
+
+msgid "the dims contain missing values"
+msgstr "dims يحتوي على قيم مفقودة"
+
+msgid "the dims contain negative values"
+msgstr "dims يحتوي على سالب قيم"
+
+msgid "'allocArray': too many elements specified by 'dims'"
+msgstr "'allocArray': too many elements specified بواسطة 'dims'"
+
+#, c-format
+msgid "'%s' must be a list or atomic vector"
+msgstr "يجب أن يكون '%s' قائمة أو atomic متجه"
+
+#, c-format
+msgid "a matrix-like object is required as argument to '%s'"
+msgstr "مصفوفة-like كائن هو مطلوب as وسيط إلى '%s'"
+
+#, c-format
+msgid "%d argument passed to '%s' which requires at least %d"
+msgid_plural "%d arguments passed to '%s' which requires at least %d"
+msgstr[0] "تم تمرير %d وسائط إلى '%s' الذي يتطلب %d على الأقل"
+msgstr[1] "تم تمرير %d وسيط إلى '%s' الذي يتطلب %d على الأقل"
+msgstr[2] "تم تمرير %d وسائط إلى '%s' الذي يتطلب %d على الأقل"
+msgstr[3] "تم تمرير %d وسائط إلى '%s' الذي يتطلب %d على الأقل"
+msgstr[4] "تم تمرير %d وسائط إلى '%s' الذي يتطلب %d على الأقل"
+msgstr[5] "تم تمرير %d وسائط إلى '%s' الذي يتطلب %d على الأقل"
+
+#, c-format
+msgid "more than 2 arguments passed to default method of '%s'"
+msgstr "أكثر من 2 وسائط تم تمريره إلى افتراضي طريقة من '%s'"
+
+msgid "requires numeric/complex matrix/vector arguments"
+msgstr "يتطلب رقمي/مركب مصفوفة/متجه وسائط"
+
+msgid "non-conformable arguments"
+msgstr "الوسائط غير متوافقة"
+
+msgid "argument is not a matrix"
+msgstr "وسيط ليس مصفوفة"
+
+#, c-format
+msgid "invalid first argument, must be %s"
+msgstr "الوسيطة الأولى غير صالحة، يجب أن تكون %s"
+
+#, c-format
+msgid "'perm' is of wrong length %d (!= %d)"
+msgstr "'perm' هو من wrong طول %d (!= %d)"
+
+msgid "'a' does not have named dimnames"
+msgstr "'a' لا يحتوي على named أسماء الأبعاد"
+
+#, c-format
+msgid "'perm[%d]' does not match a dimension name"
+msgstr "'perm[%d]' لا match بُعد اسم"
+
+msgid "'resize' must be TRUE or FALSE"
+msgstr "يجب أن يكون 'resize' صحيح أو خطأ"
+
+msgid "value out of range in 'perm'"
+msgstr "قيمة out من نطاق في 'perm'"
+
+msgid "'x' must be numeric or complex"
+msgstr "يجب أن يكون 'x' رقميًا أو مركبًا"
+
+msgid "'x' is too short"
+msgstr "'x' هو too short"
+
+msgid "'x' must have positive length"
+msgstr "يجب أن يكون طول 'x' موجبًا"
+
+#, c-format
+msgid "singular matrix in 'backsolve'. First zero in diagonal [%d]"
+msgstr "singular مصفوفة في 'backsolve'. الأول zero في diagonal [%d]"
+
+msgid "attempt to set an attribute on NULL"
+msgstr "محاولة إلى set سمة على NULL"
+
+#, c-format
+msgid "row names must be 'character' or 'integer', not '%s'"
+msgstr "يجب أن تكون أسماء الصفوف 'character' أو 'integer'، وليس '%s'"
+
+#, c-format
+msgid "getAttrib: invalid type (%s) for TAG"
+msgstr "getAttrib: نوع غير صالح (%s) لـ TAG"
+
+msgid "'name' is not a symbol or a scalar string"
+msgstr "'name' ليس رمزًا ولا سلسلة نصية مفردة"
+
+#, c-format
+msgid "cannot set an attribute on a '%s'"
+msgstr "لا يمكن تعيين سمة على '%s'"
+
+#, c-format
+msgid "invalid type (%s) for 'names': must be vector or NULL"
+msgstr "يجب أن يكون نوع غير صالح (%s) لـ 'names': متجه أو NULL"
+
+#, c-format
+msgid "'names' attribute [%lld] must be the same length as the vector [%lld]"
+msgstr "يجب أن يكون 'names' سمة [%lld] same طول as the متجه [%lld]"
+
+msgid "names() applied to a non-vector"
+msgstr "أسماء() applied إلى non-متجه"
+
+#, c-format
+msgid "invalid time series parameters specified (%d)"
+msgstr "وقت series معاملات specified (%d) غير صالح"
+
+msgid "'tsp' attribute must be numeric"
+msgstr "يجب أن يكون 'tsp' سمة رقمي"
+
+msgid "'tsp' attribute must be numeric of length three"
+msgstr "يجب أن يكون 'tsp' سمة رقمي من طول three"
+
+msgid "cannot assign 'tsp' to zero-length vector"
+msgstr "لا يمكن assign 'tsp' إلى zero-طول متجه"
+
+msgid "attempt to set invalid 'comment' attribute"
+msgstr "محاولة إلى set غير صالح 'comment' سمة"
+
+msgid "adding class \"factor\" to an invalid object"
+msgstr "adding صنف \"factor\" إلى غير صالح كائن"
+
+msgid "attempt to set invalid 'class' attribute"
+msgstr "محاولة إلى set غير صالح 'class' سمة"
+
+#, c-format
+msgid "invalid to use names()<- on an S4 object of class '%s'"
+msgstr "استخدام أسماء()<- على S4 كائن من صنف '%s' غير صالح"
+
+msgid "incompatible 'names' argument"
+msgstr "incompatible 'names' وسيط"
+
+#, c-format
+msgid "invalid type (%s) to set 'names' attribute"
+msgstr "نوع (%s) إلى set 'names' سمة غير صالح"
+
+msgid "'dimnames' applied to non-array"
+msgstr "'dimnames' applied إلى non-مصفوفة متعددة الأبعاد"
+
+#, c-format
+msgid "'%s' must be a list"
+msgstr "يجب أن تكون \"%s\" قائمة"
+
+#, c-format
+msgid "length of 'dimnames' [%d] must match that of 'dims' [%d]"
+msgstr "يجب أن يطابق طول 'dimnames' [%d] طول 'dims' [%d]"
+
+#, c-format
+msgid "invalid type (%s) for 'dimnames' (must be a vector)"
+msgstr "نوع (%s) لـ 'dimnames' (must be a متجه) غير صالح"
+
+#, c-format
+msgid "length of 'dimnames' [%d] not equal to array extent"
+msgstr "طول من 'dimnames' [%d] ليس equal إلى مصفوفة متعددة الأبعاد extent"
+
+#, c-format
+msgid "invalid second argument, must be %s"
+msgstr "الوسيطة الثانية غير صالحة، يجب أن تكون %s"
+
+#, c-format
+msgid "dims [product %lld] do not match the length of object [%lld]"
+msgstr "dims [product %lld] لا match طول من كائن [%lld]"
+
+#, c-format
+msgid "factor level [%lld] is duplicated"
+msgstr "عامل مستوى [%lld] هو duplicated"
+
+msgid "attributes must be a list or NULL"
+msgstr "يجب أن يكون سمات قائمة أو NULL"
+
+msgid "attributes must be named"
+msgstr "يجب أن يكون سمات named"
+
+#, c-format
+msgid "all attributes must have names [%d does not]"
+msgstr "يجب أن تكون لجميع السمات أسماء [%d لا يحتوي]"
+
+msgid "'which' must be of mode character"
+msgstr "يجب أن يكون 'which' من نمط نصي"
+
+msgid "exactly one attribute 'which' must be given"
+msgstr "يجب أن يكون exactly one سمة 'which' given"
+
+msgid "invalid slot name length"
+msgstr "slot اسم طول غير صالح"
+
+#, c-format
+msgid "invalid type '%s' for slot name"
+msgstr "نوع '%s' لـ slot اسم غير صالح"
+
+msgid "'name' must be non-null character string"
+msgstr "يجب أن يكون 'name' non-null سلسلة نصية"
+
+msgid "'name' must be a scalar string"
+msgstr "يجب أن يكون 'name' قيمة مفردة سلسلة"
+
+msgid "invalid type or length for slot name"
+msgstr "نوع أو طول لـ slot اسم غير صالح"
+
+#, c-format
+msgid "cannot get a slot (\"%s\") from an object of type \"%s\""
+msgstr "لا يمكن الحصول على slot (\"%s\") من an كائن من نوع \"%s\""
+
+#, c-format
+msgid "no slot of name \"%s\" for this object of class \"%s\""
+msgstr "لا يوجد slot من اسم \"%s\" لـ this كائن من صنف \"%s\""
+
+msgid "attempt to set slot on NULL object"
+msgstr "محاولة إلى set slot على NULL كائن"
+
+msgid "formal classes cannot be used without the 'methods' package"
+msgstr "لا يمكن أن يكون formal أصناف used without the 'methods' حزمة"
+
+#, c-format
+msgid "no applicable method for `@` applied to an object of class \"%s\""
+msgstr "لا يوجد applicable طريقة لـ `@` applied إلى an كائن من صنف \"%s\""
+
+msgid "bad attribute tag"
+msgstr "bad سمة tag"
+
+#, c-format
+msgid "resulting vector exceeds vector length limit in '%s'"
+msgstr "resulting متجه exceeds متجه طول limit في '%s'"
+
+#, c-format
+msgid "type '%s' is unimplemented in '%s'"
+msgstr "نوع '%s' هو غير منفّذ في '%s'"
+
+msgid "repeated formal argument 'recursive'"
+msgstr "repeated formal وسيط 'recursive'"
+
+msgid "repeated formal argument 'use.names'"
+msgstr "repeated formal وسيط 'use.names'"
+
+msgid "argument not a list"
+msgstr "وسيط ليس قائمة"
+
+#, c-format
+msgid "class name too long in '%s'"
+msgstr "صنف اسم طويل جدًا في '%s'"
+
+#, c-format
+msgid "cannot create a matrix from type '%s'"
+msgstr "لا يمكن إنشاء مصفوفة من نوع '%s'"
+
+#, c-format
+msgid "number of rows of matrices must match (see arg %d)"
+msgstr "number من صفوف من مصفوفات must match (see arg %d)"
+
+#, c-format
+msgid "cannot create a matrix of type '%s'"
+msgstr "لا يمكن إنشاء مصفوفة من نوع '%s'"
+
+#, c-format
+msgid "number of columns of matrices must match (see arg %d)"
+msgstr "number من أعمدة من مصفوفات must match (see arg %d)"
+
+msgid "vector size cannot be NA"
+msgstr "لا يمكن أن يكون متجه size NA"
+
+msgid "vector size cannot be NA/NaN"
+msgstr "لا يمكن أن يكون متجه size NA/NaN"
+
+msgid "vector size cannot be infinite"
+msgstr "لا يمكن أن يكون متجه size لا نهائي"
+
+msgid "vector size specified is too large"
+msgstr "متجه size specified كبير جدًا"
+
+msgid "invalid first argument"
+msgstr "الوسيط الأول غير صالح"
+
+msgid "use of NULL environment is defunct"
+msgstr "استخدام بيئة NULL غير موجودة"
+
+msgid "argument is not a function"
+msgstr "وسيط ليس دالة"
+
+msgid "setting environment(<primitive function>) is not possible and trying it is deprecated"
+msgstr "تعيين بيئة(<primitive دالة>) غير ممكن، ومحاولة ذلك مهملة"
+
+msgid "replacement object is not an environment"
+msgstr "replacement كائن ليس بيئة"
+
+msgid "'enclos' must be an environment"
+msgstr "يجب أن يكون 'enclos' بيئة"
+
+msgid "argument is not an environment"
+msgstr "وسيط ليس بيئة"
+
+msgid "the empty environment has no parent"
+msgstr "فارغ بيئة has no parent"
+
+msgid "can not set parent of the empty environment"
+msgstr "can ليس set parent من فارغ بيئة"
+
+msgid "can not set the parent environment of a namespace"
+msgstr "can ليس set parent بيئة من نطاق أسماء"
+
+msgid "can not set the parent environment of package imports"
+msgstr "can ليس set parent بيئة من حزمة imports"
+
+msgid "'parent' is not an environment"
+msgstr "'parent' ليس بيئة"
+
+msgid "cannot write to this connection"
+msgstr "لا يمكن الكتابة إلى هذا الاتصال"
+
+#, c-format
+msgid "invalid '%s' specification"
+msgstr "مواصفات \"%s\" غير صالحة"
+
+msgid "non-positive 'fill' argument will be ignored"
+msgstr "تم تجاهل non-موجب 'fill' وسيط will be"
+
+#, c-format
+msgid "argument %d (type '%s') cannot be handled by 'cat'"
+msgstr "لا يمكن أن يكون وسيط %d (نوع '%s') handled by 'cat'"
+
+#, c-format
+msgid "vector: cannot make a vector of mode '%s'."
+msgstr "متجه: لا يمكن make متجه من نمط '%s'."
+
+msgid "cannot set length of non-(vector or list)"
+msgstr "لا يمكن تعيين طول من non-(متجه أو قائمة)"
+
+msgid "invalid value"
+msgstr "القيمة غير صالحة"
+
+msgid "length of NULL cannot be changed"
+msgstr "لا يمكن أن يكون طول من NULL changed"
+
+#, c-format
+msgid "wrong length for '%s' argument"
+msgstr "wrong طول لـ '%s' وسيط"
+
+msgid "'...' used in an incorrect context"
+msgstr "'...' used في incorrect context"
+
+#, c-format
+msgid "duplicate 'switch' defaults: '%s' and '%s'"
+msgstr "duplicate 'switch' defaults: '%s' و '%s'"
+
+msgid "'EXPR' is missing"
+msgstr "'EXPR' هو مفقود"
+
+msgid "EXPR must be a length 1 vector"
+msgstr "يجب أن يكون EXPR طول 1 متجه"
+
+#, fuzzy, c-format
+msgid ""
+"EXPR is a \"factor\", treated as integer.\n"
+" Consider using '%s' instead."
+msgstr "EXPR هو \"factor\", treated as عدد صحيح. Consider using '%s' instead."
+
+msgid "'switch' with no alternatives"
+msgstr "\"التبديل\" بدون بدائل"
+
+#, c-format
+msgid "%d argument passed to '%s' which requires %d to %d"
+msgid_plural "%d arguments passed to '%s' which requires %d to %d"
+msgstr[0] "%d وسائط تم تمريره إلى '%s' which يتطلب %d إلى %d"
+msgstr[1] "%d وسيط تم تمريره إلى '%s' which يتطلب %d إلى %d"
+msgstr[2] "%d وسائط تم تمريره إلى '%s' which يتطلب %d إلى %d"
+msgstr[3] "%d وسائط تم تمريره إلى '%s' which يتطلب %d إلى %d"
+msgstr[4] "%d وسائط تم تمريره إلى '%s' which يتطلب %d إلى %d"
+msgstr[5] "%d وسائط تم تمريره إلى '%s' which يتطلب %d إلى %d"
+
+#, c-format
+msgid "'%s' requires a character vector"
+msgstr "'%s' يتطلب متجه نصي"
+
+#, c-format
+msgid "invalid multibyte string, %s"
+msgstr "multibyte سلسلة, %s غير صالح"
+
+#, c-format
+msgid "number of characters is not computable in \"bytes\" encoding, %s"
+msgstr "number من characters ليس computable في \"bytes\" ترميز, %s"
+
+#, c-format
+msgid "width is not computable for %s in \"bytes\" encoding"
+msgstr "width ليس computable لـ %s في \"bytes\" ترميز"
+
+#, c-format
+msgid "invalid multibyte string, element %lld"
+msgstr "multibyte سلسلة, element %lld غير صالح"
+
+#, c-format
+msgid "number of characters is not computable in \"bytes\" encoding, element %lld"
+msgstr "number من characters ليس computable في \"bytes\" ترميز, element %lld"
+
+#, c-format
+msgid "width is not computable in \"bytes\" encoding, element %lld"
+msgstr "width ليس computable في \"bytes\" ترميز, element %lld"
+
+msgid "extracting substrings from a non-character object"
+msgstr "extracting substrings من non-نصي كائن"
+
+msgid "invalid substring arguments"
+msgstr "substring وسائط غير صالح"
+
+msgid "non-character object(s)"
+msgstr "non-نصي كائن(s)"
+
+msgid "replacing substrings in a non-character object"
+msgstr "replacing substrings في non-نصي كائن"
+
+msgid "the first argument must be a character vector"
+msgstr "يجب أن يكون الأول وسيط متجه نصي"
+
+msgid "abbreviate used with non-ASCII chars"
+msgstr "abbreviate used مع non-ASCII chars"
+
+msgid "non-character names"
+msgstr "non-نصي أسماء"
+
+#, c-format
+msgid "invalid multibyte string %lld"
+msgstr "multibyte سلسلة %lld غير صالح"
+
+msgid "non-character argument"
+msgstr "حجة غير شخصية"
+
+#, c-format
+msgid "decreasing range specification ('%lc-%lc')"
+msgstr "decreasing نطاق specification ('%lc-%lc')"
+
+#, c-format
+msgid "decreasing range specification ('%c-%c')"
+msgstr "decreasing نطاق specification ('%c-%c')"
+
+msgid "invalid UTF-8 string 'old'"
+msgstr "UTF-8 سلسلة 'old' غير صالح"
+
+msgid "invalid multibyte string 'old'"
+msgstr "multibyte سلسلة 'old' غير صالح"
+
+msgid "invalid UTF-8 string 'new'"
+msgstr "UTF-8 سلسلة 'new' غير صالح"
+
+msgid "invalid multibyte string 'new'"
+msgstr "multibyte سلسلة 'new' غير صالح"
+
+msgid "'old' is longer than 'new'"
+msgstr "'old' هو longer than 'new'"
+
+#, c-format
+msgid "invalid input multibyte string %lld"
+msgstr "إدخال multibyte سلسلة %lld غير صالح"
+
+msgid "strtrim() requires a character vector"
+msgstr "strtrim() يتطلب متجه نصي"
+
+msgid "invalid 'mode' argument"
+msgstr "'mode' وسيط غير صالح"
+
+msgid "applies only to lists and vectors"
+msgstr "applies فقط إلى قوائم و متجهات"
+
+msgid "NAs introduced by coercion"
+msgstr "NAs introduced بواسطة coercion"
+
+msgid "NAs introduced by coercion to integer range"
+msgstr "NAs introduced بواسطة coercion إلى عدد صحيح نطاق"
+
+msgid "imaginary parts discarded in coercion"
+msgstr "imaginary parts discarded في coercion"
+
+msgid "out-of-range values treated as 0 in coercion to raw"
+msgstr "out-من-نطاق قيم treated as 0 في coercion إلى خام"
+
+#, c-format
+msgid "invalid data of mode '%s' (too short)"
+msgstr "بيانات من نمط '%s' (too short) غير صالح"
+
+#, c-format
+msgid "'%s' object cannot be coerced to type '%s'"
+msgstr "لا يمكن أن يكون '%s' كائن coerced إلى نوع '%s'"
+
+msgid "no method for coercing this S4 class to a vector"
+msgstr "لا يوجد طريقة لـ coercing this S4 صنف إلى a متجه"
+
+msgid "environments cannot be coerced to other types"
+msgstr "لا يمكن أن يكون بيئات coerced إلى other أنواع"
+
+msgid "attempting to coerce non-factor"
+msgstr "attempting إلى coerce non-عامل"
+
+msgid "malformed factor"
+msgstr "malformed عامل"
+
+msgid "list argument expected"
+msgstr "كان متوقعًا قائمة وسيط"
+
+msgid "invalid environment"
+msgstr "البيئة غير صالحة"
+
+msgid "argument must have length at least 1"
+msgstr "وسيط must have طول على الأقل 1"
+
+msgid "invalid body for function"
+msgstr "body لـ دالة غير صالح"
+
+msgid "argument must be character"
+msgstr "يجب أن يكون وسيط نصي"
+
+msgid "argument must be a character string"
+msgstr "يجب أن يكون وسيط سلسلة نصية"
+
+#, c-format
+msgid "parsing result not of length one, but %d"
+msgstr "parsing result ليس من طول one, but %d"
+
+msgid "invalid length 0 argument"
+msgstr "طول 0 وسيط غير صالح"
+
+msgid "as.call(<character>) not feasible; consider str2lang(<char.>)"
+msgstr "as.استدعاء(<نصي>) ليس feasible; consider str2lang(<char.>)"
+
+msgid "invalid argument list"
+msgstr "وسيط قائمة غير صالح"
+
+#, c-format
+msgid "'length = %lld' in coercion to '%s'"
+msgstr "'length = %lld' في coercion إلى '%s'"
+
+msgid "NA in coercion to boolean"
+msgstr "NA في coercion إلى boolean"
+
+msgid "type \"single\" unimplemented in R"
+msgstr "نوع \"single\" غير منفّذ في R"
+
+msgid "unimplemented predicate"
+msgstr "غير منفّذ predicate"
+
+#, c-format
+msgid "%s() applied to non-(list or vector) of type '%s'"
+msgstr "%s() applied إلى non-(قائمة أو متجه) من نوع '%s'"
+
+#, c-format
+msgid "default method not implemented for type '%s'"
+msgstr "افتراضي طريقة ليس منفّذ لـ نوع '%s'"
+
+msgid "'name' is missing"
+msgstr "'name' هو مفقود"
+
+msgid "first argument must be a character string"
+msgstr "يجب أن يكون الأول وسيط سلسلة نصية"
+
+msgid "'what' must be a function or character string"
+msgstr "يجب أن يكون 'what' دالة أو سلسلة نصية"
+
+msgid "'envir' must be an environment"
+msgstr "يجب أن يكون 'envir' بيئة"
+
+msgid "invalid environment specified"
+msgstr "بيئة specified غير صالح"
+
+msgid "Setting class(x) to NULL;   result will no longer be an S4 object"
+msgstr "Setting صنف(x) إلى NULL; result سوف no longer be S4 كائن"
+
+#, c-format
+msgid "Setting class(x) to multiple strings (\"%s\", \"%s\", ...); result will no longer be an S4 object"
+msgstr "Setting صنف(x) إلى multiple سلاسل (\"%s\", \"%s\",...); result سوف no longer be S4 كائن"
+
+#, c-format
+msgid "Setting class(x) to \"%s\" sets attribute to NULL; result will no longer be an S4 object"
+msgstr "Setting صنف(x) إلى \"%s\" sets سمة إلى NULL; result سوف no longer be S4 كائن"
+
+msgid "invalid replacement object to be a class string"
+msgstr "replacement كائن إلى be a صنف سلسلة غير صالح"
+
+#, c-format
+msgid "invalid to set the class to matrix unless the dimension attribute is of length 2 (was %d)"
+msgstr "لا يصح تعيين الصنف إلى مصفوفة إلا إذا كانت سمة البُعد بطول 2 (كانت %d)"
+
+#, c-format
+msgid "\"%s\" can only be set as the class if the object has this type; found \"%s\""
+msgstr "\"%s\" can فقط be set as صنف if كائن has this نوع; found \"%s\""
+
+msgid "cannot set class to \"array\" unless the dimension attribute has length > 0"
+msgstr "cannot set صنف إلى \"array\" unless the بُعد سمة طوله > 0"
+
+msgid "'value' must be non-null character string"
+msgstr "يجب أن يكون 'value' non-null سلسلة نصية"
+
+msgid "invalid to change the storage mode of a factor"
+msgstr "إلى change the storage نمط من a عامل غير صالح"
+
+msgid "invalid complex unary operator"
+msgstr "مركب عامل أحادي غير صالح"
+
+msgid "unimplemented complex operation"
+msgstr "غير منفّذ مركب operation"
+
+msgid "non-numeric argument to function"
+msgstr "non-رقمي وسيط إلى دالة"
+
+msgid "invalid polynomial coefficient"
+msgstr "polynomial coefficient غير صالح"
+
+msgid "root finding code failed"
+msgstr "فشل root finding code"
+
+#, c-format
+msgid "all %d connections are in use"
+msgstr "all %d اتصالات هي في use"
+
+msgid "connection not found"
+msgstr "لم يتم العثور على اتصال"
+
+msgid "invalid connection"
+msgstr "الاتصال غير صالح"
+
+#, c-format
+msgid "closing unused connection %d (%s)\n"
+msgstr "closing unused اتصال %d (%s)\n"
+
+#, c-format
+msgid "unsupported conversion from '%s' to '%s'"
+msgstr "unsupported conversion من '%s' إلى '%s'"
+
+#, c-format
+msgid "%s not enabled for this connection"
+msgstr "%s ليس enabled لـ this اتصال"
+
+msgid "invalid char string in output conversion"
+msgstr "char سلسلة في إخراج conversion غير صالح"
+
+#, c-format
+msgid "invalid input found on input connection '%s'"
+msgstr "إدخال found على إدخال اتصال '%s' غير صالح"
+
+#, c-format
+msgid "cannot open file '%ls': %s"
+msgstr "لا يمكن فتح ملف '%ls': %s"
+
+#, c-format
+msgid "cannot open file '%ls': it is a directory"
+msgstr "لا يمكن فتح الملف '%ls': إنه دليل"
+
+#, c-format
+msgid "cannot open file '%s': it is a directory"
+msgstr "لا يمكن فتح ملف '%s': it is a دليل"
+
+msgid "connection is not open for reading"
+msgstr "اتصال ليس فتح لـ reading"
+
+msgid "connection is not open for writing"
+msgstr "اتصال ليس فتح لـ writing"
+
+msgid "can only truncate connections open for writing"
+msgstr "can فقط truncate اتصالات فتح للكتابة"
+
+msgid "file truncation failed"
+msgstr "فشل ملف truncation"
+
+msgid "file truncation unavailable on this platform"
+msgstr "ملف truncation unavailable على this المنصة"
+
+msgid "allocation of file connection failed"
+msgstr "فشل تخصيص من ملف اتصال"
+
+#, c-format
+msgid "cannot create fifo '%s', reason '%s'"
+msgstr "لا يمكن إنشاء fifo '%s', reason '%s'"
+
+#, c-format
+msgid "'%s' exists but is not a fifo"
+msgstr "'%s' exists but ليس fifo"
+
+#, c-format
+msgid "fifo '%s' is not ready"
+msgstr "fifo '%s' ليس ready"
+
+#, c-format
+msgid "cannot open fifo '%s'"
+msgstr "لا يمكن فتح fifo '%s'"
+
+msgid "too large a block specified"
+msgstr "كبير جدًا block specified"
+
+msgid "allocation of fifo name failed"
+msgstr "فشل تخصيص من fifo اسم"
+
+#, c-format
+msgid "cannot open fifo '%s', reason '%s'"
+msgstr "لا يمكن فتح fifo '%s', reason '%s'"
+
+msgid "allocation of fifo buffer failed"
+msgstr "فشل تخصيص من fifo buffer"
+
+#, c-format
+msgid "cannot write FIFO '%s'"
+msgstr "لا يمكن كتابة FIFO '%s'"
+
+msgid "allocation of fifo connection failed"
+msgstr "فشل تخصيص من fifo اتصال"
+
+msgid "cannot open the connection"
+msgstr "لا يمكن فتح الاتصال"
+
+msgid "only first element of 'description' argument used"
+msgstr "فقط الأول element من 'description' وسيط used"
+
+msgid "fifo(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
+msgstr "fifo(\"\") فقط supports فتح = \"w+\" و فتح = \"w+b\": using former"
+
+msgid "fifo connections are not available on this system"
+msgstr "fifo اتصالات ليست متاح على this system"
+
+#, c-format
+msgid "cannot pipe() cmd '%ls': %s"
+msgstr "لا يمكن pipe() cmd '%ls': %s"
+
+#, c-format
+msgid "cannot open pipe() cmd '%s': %s"
+msgstr "لا يمكن فتح pipe() cmd '%s': %s"
+
+#, c-format
+msgid "cannot open compressed file '%s', probable reason '%s'"
+msgstr "لا يمكن فتح compressed ملف '%s', probable reason '%s'"
+
+msgid "whence = \"end\" is not implemented for gzfile connections"
+msgstr "whence = \"end\" ليس منفّذ لـ gzfile اتصالات"
+
+msgid "seek on a gzfile connection returned an internal error"
+msgstr "seek على gzfile اتصال returned داخلي خطأ"
+
+msgid "allocation of gzfile connection failed"
+msgstr "فشل تخصيص من gzfile اتصال"
+
+#, c-format
+msgid "cannot open bzip2-ed file '%s', probable reason '%s'"
+msgstr "لا يمكن فتح bzip2-ed ملف '%s', probable reason '%s'"
+
+#, c-format
+msgid "file '%s' appears not to be compressed by bzip2"
+msgstr "ملف '%s' appears ليس إلى be compressed بواسطة bzip2"
+
+#, c-format
+msgid "initializing bzip2 compression for file '%s' failed"
+msgstr "فشل initializing bzip2 compression لـ ملف '%s'"
+
+msgid "allocation of overflow buffer for bzfile failed"
+msgstr "فشل تخصيص من overflow buffer لـ bzfile"
+
+#, c-format
+msgid "file '%s' has trailing content that appears not to be compressed by bzip2"
+msgstr "ملف '%s' has trailing content that appears ليس إلى be compressed بواسطة bzip2"
+
+msgid "allocation of bzfile connection failed"
+msgstr "فشل تخصيص من bzfile اتصال"
+
+#, c-format
+msgid "cannot initialize lzma decoder, error %d"
+msgstr "لا يمكن initialize lzma decoder, خطأ %d"
+
+#, c-format
+msgid "cannot initialize lzma encoder, error %d"
+msgstr "لا يمكن initialize lzma encoder, خطأ %d"
+
+msgid "allocation of xzfile connection failed"
+msgstr "فشل تخصيص من xzfile اتصال"
+
+msgid "cannot initialize zstd decompressor"
+msgstr "لا يمكن initialize zstd decompressor"
+
+msgid "cannot initialize zstd compressor"
+msgstr "لا يمكن initialize zstd compressor"
+
+msgid "allocation of zstdfile connection failed"
+msgstr "فشل تخصيص من zstdfile اتصال"
+
+#, c-format
+msgid "this is a %s-compressed file which this build of R does not support"
+msgstr "this هو %s-compressed ملف which this build من R لا support"
+
+msgid "memory allocation to copy clipboard failed"
+msgstr "فشل تخصيص الذاكرة إلى copy الحافظة"
+
+msgid "clipboard cannot be opened or contains no text"
+msgstr "لا يمكن فتح الحافظة أو أنها لا تحتوي على نص"
+
+msgid "memory allocation to open clipboard failed"
+msgstr "فشل تخصيص الذاكرة إلى فتح الحافظة"
+
+msgid "unable to open the clipboard"
+msgstr "تعذر فتح الحافظة"
+
+msgid "unable to write to the clipboard"
+msgstr "تعذر فتح الحافظة"
+
+msgid "attempt to seek outside the range of the clipboard"
+msgstr "محاولة إلى seek outside نطاق من الحافظة"
+
+msgid "clipboard connection is open for reading only"
+msgstr "الحافظة اتصال هو فتح للقراءة فقط"
+
+msgid "clipboard buffer is full and output lost"
+msgstr "الحافظة buffer هو full و إخراج lost"
+
+msgid "'mode' for the clipboard must be 'r' or 'w'"
+msgstr "يجب أن يكون 'mode' لـ the الحافظة 'r' أو 'w'"
+
+msgid "'mode' for the clipboard must be 'r' on Unix"
+msgstr "يجب أن يكون 'mode' لـ the الحافظة 'r' على Unix"
+
+msgid "allocation of clipboard connection failed"
+msgstr "فشل تخصيص من الحافظة اتصال"
+
+msgid "allocation of terminal connection failed"
+msgstr "فشل تخصيص من terminal اتصال"
+
+msgid "attempting to add too many elements to raw vector"
+msgstr "attempting إلى add too many elements إلى متجه خام"
+
+msgid "attempt to seek outside the range of the raw connection"
+msgstr "محاولة إلى seek outside نطاق من خام اتصال"
+
+msgid "allocation of raw connection failed"
+msgstr "فشل تخصيص من خام اتصال"
+
+#, c-format
+msgid "'%s' is not a %s"
+msgstr "\"%s\" ليس %s"
+
+#, c-format
+msgid "internal connection is not a %s"
+msgstr "داخلي اتصال ليس %s"
+
+msgid "'con' is not an output rawConnection"
+msgstr "'con' ليس إخراج rawConnection"
+
+msgid "too many characters for text connection"
+msgstr "too many characters لـ نص اتصال"
+
+msgid "cannot allocate memory for text connection"
+msgstr "لا يمكن تخصيص ذاكرة لـ نص اتصال"
+
+msgid "seek is not relevant for text connection"
+msgstr "seek ليس relevant لـ نص اتصال"
+
+msgid "allocation of text connection failed"
+msgstr "فشل تخصيص من نص اتصال"
+
+msgid "text connection: appending to a non-existent char vector"
+msgstr "نص اتصال: appending إلى non-existent char متجه"
+
+msgid "unsupported mode"
+msgstr "unsupported نمط"
+
+msgid "'con' is not an output textConnection"
+msgstr "'con' ليس إخراج textConnection"
+
+msgid "'con' is not a connection"
+msgstr "'con' ليس اتصال"
+
+msgid "cannot open standard connections"
+msgstr "لا يمكن فتح standard اتصالات"
+
+msgid "connection is already open"
+msgstr "اتصال هو بالفعل فتح"
+
+msgid "unknown 'rw' value"
+msgstr "غير معروف 'rw' قيمة"
+
+#, c-format
+msgid "Problem closing connection:  %s"
+msgstr "مشكلة إغلاق الاتصال:%s"
+
+msgid "Problem closing connection"
+msgstr "مشكلة إغلاق الاتصال"
+
+msgid "cannot close standard connections"
+msgstr "لا يمكن إغلاق standard اتصالات"
+
+msgid "cannot close 'output' sink connection"
+msgstr "لا يمكن إغلاق 'output' sink اتصال"
+
+msgid "cannot close 'message' sink connection"
+msgstr "لا يمكن إغلاق 'message' sink اتصال"
+
+msgid "connection is not open"
+msgstr "اتصال ليس فتح"
+
+#, c-format
+msgid "line longer than buffer size %lu"
+msgstr "السطر أطول من حجم المخزن المؤقت %lu"
+
+#, c-format
+msgid "Error writing to connection:  %s"
+msgstr "خطأ writing إلى اتصال: %s"
+
+msgid "Error writing to connection"
+msgstr "خطأ writing إلى اتصال"
+
+msgid "cannot read from this connection"
+msgstr "لا يمكن القراءة من هذا الاتصال"
+
+msgid "cannot allocate buffer in readLines"
+msgstr "لا يمكن allocate buffer في readLines"
+
+#, c-format
+msgid "line %lld appears to contain an embedded nul"
+msgstr "line %lld appears إلى يحتوي على embedded nul"
+
+#, c-format
+msgid "incomplete final line found on '%s'"
+msgstr "incomplete final line found على '%s'"
+
+msgid "too few lines read in readLines"
+msgstr "too few lines قراءة في readLines"
+
+msgid "incomplete string at end of file has been discarded"
+msgstr "incomplete سلسلة at end من ملف has been discarded"
+
+msgid "null terminator not found: breaking string at 10000 bytes"
+msgstr "null terminator ليس found: breaking سلسلة at 10000 بايت"
+
+msgid "can only read from a binary connection"
+msgstr "can فقط قراءة من binary اتصال"
+
+msgid "size changing is not supported for complex vectors"
+msgstr "size changing ليس مدعوم لـ مركب متجهات"
+
+#, c-format
+msgid "size %d is unknown on this machine"
+msgstr "size %d هو غير معروف على this machine"
+
+msgid "raw is always of size 1"
+msgstr "خام هو always من size 1"
+
+msgid "'signed = FALSE' is only valid for integers of sizes 1 and 2"
+msgstr "'signed = FALSE' هو فقط صالح لـ integers من sizes 1 و 2"
+
+msgid "'x' is not an atomic vector type"
+msgstr "'x' ليس atomic متجه نوع"
+
+msgid "can only write to a binary connection"
+msgstr "can فقط كتابة إلى binary اتصال"
+
+msgid "only 2^31-1 bytes can be written to a raw vector"
+msgstr "فقط 2^31-1 بايت can be written إلى متجه خام"
+
+msgid "only 2^31-1 bytes can be written in a single writeBin() call"
+msgstr "فقط 2^31-1 بايت can be written في single writeBin() استدعاء"
+
+msgid "problem writing to connection"
+msgstr "مشكلة writing إلى اتصال"
+
+msgid "size changing is not supported for raw vectors"
+msgstr "size changing ليس مدعوم لـ خام متجهات"
+
+msgid "invalid UTF-8 input in readChar()"
+msgstr "UTF-8 إدخال في readChar() غير صالح"
+
+msgid "truncating string with embedded nuls"
+msgstr "truncating سلسلة مع embedded nuls"
+
+msgid "can only read in bytes in a non-UTF-8 MBCS locale"
+msgstr "can فقط قراءة في بايت في non-UTF-8 MBCS بيئة محلية"
+
+#, c-format
+msgid "text connection used with %s(), results may be incorrect"
+msgstr "نص اتصال used مع %s(), results قد يكون incorrect"
+
+msgid "'object' is too short"
+msgstr "'object' هو too short"
+
+msgid "writeChar: more bytes requested than are in the string - will zero-pad"
+msgstr "writeChar: more بايت requested than هي في سلسلة - سوف zero-pad"
+
+msgid "writeChar: more characters requested than are in the string - will zero-pad"
+msgstr "writeChar: more characters requested than هي في سلسلة - سوف zero-pad"
+
+msgid "maximum number of pushback lines exceeded"
+msgstr "maximum number من pushback lines exceeded"
+
+msgid "could not allocate space for pushback"
+msgstr "تعذّر تخصيص مساحة لـ pushback"
+
+msgid "can only push back on open readable connections"
+msgstr "can فقط push back على فتح readable اتصالات"
+
+msgid "can only push back on text-mode connections"
+msgstr "can فقط push back على نص-نمط اتصالات"
+
+msgid "sink stack is full"
+msgstr "sink stack هو full"
+
+msgid "cannot switch output to stdin"
+msgstr "لا يمكن switch إخراج إلى stdin"
+
+msgid "no sink to remove"
+msgstr "لا يوجد sink إلى remove"
+
+msgid "there is no connection NA"
+msgstr "there هو no اتصال NA"
+
+#, c-format
+msgid "there is no connection %d"
+msgstr "there هو no اتصال %d"
+
+msgid "method = \"wininet\" is only supported on Windows"
+msgstr "طريقة = \"wininet\" هو فقط مدعوم على Windows"
+
+msgid "the 'internal' method of url() is defunct for http:// and ftp:// URLs"
+msgstr "'internal' طريقة من url() هو defunct لـ http:// و ftp:// URLs"
+
+msgid "file(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
+msgstr "ملف(\"\") فقط supports فتح = \"w+\" و فتح = \"w+b\": using former"
+
+#, c-format
+msgid "using 'raw = TRUE' because '%s' is a fifo or pipe"
+msgstr "using 'raw = TRUE' because '%s' هو fifo أو pipe"
+
+#, c-format
+msgid "'raw = FALSE' but '%s' is not a regular file"
+msgstr "'raw = FALSE' but '%s' ليس regular ملف"
+
+msgid "URL scheme unsupported by this method"
+msgstr "URL scheme unsupported بواسطة this طريقة"
+
+msgid "file stream does not have gzip magic number"
+msgstr "ملف stream لا يحتوي على gzip magic number"
+
+msgid "file stream does not have valid gzip header"
+msgstr "ملف stream لا يحتوي على صالح gzip header"
+
+msgid "writing error whilst flushing 'gzcon' connection"
+msgstr "writing خطأ whilst flushing 'gzcon' اتصال"
+
+#, c-format
+msgid "crc error %lx %lx\n"
+msgstr "crc خطأ %lx %lx\n"
+
+msgid "file stream has trailing content that appears not to be compressed by gzip"
+msgstr "ملف stream has trailing content that appears ليس إلى be compressed بواسطة gzip"
+
+msgid "write error on 'gzcon' connection"
+msgstr "كتابة خطأ على 'gzcon' اتصال"
+
+msgid "'level' must be one of 0 ... 9"
+msgstr "يجب أن يكون 'level' one من 0 ... 9"
+
+msgid "'allowNonCompression' must be TRUE or FALSE"
+msgstr "يجب أن يكون 'allowNonCompression' صحيح أو خطأ"
+
+msgid "'text' must be TRUE or FALSE"
+msgstr "يجب أن يكون 'text' صحيح أو خطأ"
+
+msgid "this is already a 'gzcon' connection"
+msgstr "this هو بالفعل 'gzcon' اتصال"
+
+msgid "can only use read- or write- binary connections"
+msgstr "يمكن استخدام اتصالات ثنائية للقراءة أو الكتابة فقط"
+
+msgid "using a text-mode 'file' connection may not work correctly"
+msgstr "using نص-نمط 'file' اتصال may ليس work correctly"
+
+msgid "cannot create a 'gzcon' connection from a writable textConnection; maybe use rawConnection"
+msgstr "لا يمكن إنشاء اتصال 'gzcon' من textConnection قابل للكتابة؛ ربما استخدم rawConnection"
+
+msgid "allocation of 'gzcon' connection failed"
+msgstr "فشل تخصيص من 'gzcon' اتصال"
+
+msgid "not a list of sockets"
+msgstr "ليس قائمة من sockets"
+
+msgid "bad write indicators"
+msgstr "bad كتابة indicators"
+
+msgid "a server socket connection cannot be writeable"
+msgstr "لا يمكن أن يكون server socket اتصال writeable"
+
+msgid "not a socket connection"
+msgstr "ليس socket اتصال"
+
+msgid "file descriptor is too large for select()"
+msgstr "ملف descriptor هو كبير جدًا لـ select()"
+
+msgid "too many file descriptors for select()"
+msgstr "too many ملف descriptors لـ select()"
+
+msgid "unknown compression, assuming none"
+msgstr "غير معروف compression, assuming none"
+
+#, c-format
+msgid "allocation of %s connection failed"
+msgstr "فشل تخصيص من %s اتصال"
+
+msgid "no loop for break/next, jumping to top level"
+msgstr "لا يوجد loop لـ break/التالي, jumping إلى top مستوى"
+
+msgid "no function to return from, jumping to top level"
+msgstr "لا يوجد دالة إلى return من, jumping إلى top مستوى"
+
+msgid "target context is not on the stack"
+msgstr "target context ليس على the stack"
+
+msgid "NA argument is invalid"
+msgstr "NA وسيط هو غير صالح"
+
+msgid "not that many frames on the stack"
+msgstr "ليس that many frames على stack"
+
+msgid "only positive values of 'n' are allowed"
+msgstr "فقط موجب قيم من 'n' هي allowed"
+
+msgid "number of contexts must be positive"
+msgstr "يجب أن يكون number من contexts موجب"
+
+msgid "no browser context to query"
+msgstr "لا يوجد browser context إلى query"
+
+msgid "not that many calls to browser are active"
+msgstr "ليس that many استدعاءات إلى browser هي active"
+
+msgid "not that many functions on the call stack"
+msgstr "ليس that many دوال على استدعاء stack"
+
+msgid "debug flag in compiled function has no effect"
+msgstr "debug flag في compiled دالة has no effect"
+
+msgid "debug will apply when function leaves compiled code"
+msgstr "debug سوف apply when دالة leaves compiled code"
+
+msgid "internal error in 'do_sys'"
+msgstr "داخلي خطأ في 'do_sys'"
+
+msgid "integer overflow in 'cumsum'; use 'cumsum(as.numeric(.))'"
+msgstr "عدد صحيح overflow في 'cumsum'; use 'cumsum(as.numeric(.))'"
+
+msgid "'cummax' not defined for complex numbers"
+msgstr "'cummax' ليس defined لـ مركب numbers"
+
+msgid "'cummin' not defined for complex numbers"
+msgstr "'cummin' ليس defined لـ مركب numbers"
+
+msgid "'cumvar' not defined for complex numbers"
+msgstr "'cumvar' ليس defined لـ مركب numbers"
+
+msgid "unknown cumxxx function"
+msgstr "غير معروف cumxxx دالة"
+
+msgid "datetimes before 1902 may not be accurate: warns once per session"
+msgstr "datetimes before 1902 may ليس be accurate: warns once per session"
+
+msgid "problem with unsetting timezone"
+msgstr "مشكلة مع unsetting timezone"
+
+msgid "problem with setting timezone"
+msgstr "مشكلة مع setting timezone"
+
+msgid "cannot set timezones on this system"
+msgstr "لا يمكن تعيين timezones على this system"
+
+msgid "a valid \"POSIXlt\" object is a list of at least 9 elements"
+msgstr "صالح \"POSIXlt\" كائن هو قائمة من على الأقل 9 elements"
+
+msgid "a valid \"POSIXlt\" object has names"
+msgstr "صالح \"POSIXlt\" كائن has أسماء"
+
+#, c-format
+msgid "a valid \"POSIXlt\" object has element %d with name '%s' which should be '%s'"
+msgstr "ينبغي أن يكون صالح \"POSIXlt\" كائن has element %d مع اسم '%s' which '%s'"
+
+#, c-format
+msgid "a valid \"POSIXlt\" object has a numeric element %s"
+msgstr "صالح \"POSIXlt\" كائن has رقمي element %s"
+
+#, c-format
+msgid "a valid \"POSIXlt\" object has a character element %s"
+msgstr "صالح \"POSIXlt\" كائن has نصي element %s"
+
+#, c-format
+msgid "invalid '%s'"
+msgstr "'%s' غير صالح"
+
+msgid "attr(x, \"tzone\") should have length 1 or 3"
+msgstr "ينبغي أن يكون طول attr(x, \"tzone\") 1 أو 3"
+
+#, c-format
+msgid "zero-length component [[%d]] in non-empty \"POSIXlt\" structure"
+msgstr "zero-طول مكوّن [[%d]] في غير فارغ \"POSIXlt\" structure"
+
+#, c-format
+msgid "'%s' is not a \"%s\""
+msgstr "'%s' ليس \"%s\""
+
+msgid "could not allocate memory for 'read.dcf'"
+msgstr "تعذّر تخصيص ذاكرة لـ 'read.dcf'"
+
+#, c-format
+msgid "Found continuation line starting '%s ...' at begin of record."
+msgstr "Found continuation line starting '%s...' at begin من record."
+
+#, c-format
+msgid "Line starting '%s ...' is malformed!"
+msgstr "Line starting '%s...' هو malformed!"
+
+msgid "argument must be a function"
+msgstr "يجب أن يكون وسيط دالة"
+
+#, c-format
+msgid "Value for '%s' must be TRUE or FALSE"
+msgstr "يجب أن يكون قيمة لـ '%s' صحيح أو خطأ"
+
+msgid "argument must not be a function"
+msgstr "يجب ألا يكون وسيط دالة"
+
+msgid "cannot trace NULL"
+msgstr "لا يمكن trace NULL"
+
+msgid "'tracemem' is not useful for promise and environment objects"
+msgstr "'tracemem' ليس useful لـ promise و بيئة كائنات"
+
+msgid "'tracemem' is not useful for weak reference or external pointer objects"
+msgstr "'tracemem' ليس useful لـ weak مرجع أو مؤشر خارجي كائنات"
+
+msgid "R was not compiled with support for memory profiling"
+msgstr "R لم يكن compiled مع support لـ ذاكرة profiling"
+
+msgid "invalid 'cutoff' value for 'deparse', using default"
+msgstr "'cutoff' قيمة لـ 'deparse', using افتراضي غير صالح"
+
+msgid "deparse may be incomplete"
+msgstr "deparse قد يكون incomplete"
+
+msgid "deparse may be not be source()able in R < 2.7.0"
+msgstr "deparse قد يكون ليس be source()able في R < 2.7.0"
+
+msgid "'file' must be a character string or connection"
+msgstr "يجب أن يكون 'file' سلسلة نصية أو اتصال"
+
+msgid "wrote too few characters"
+msgstr "كتبت عدداً قليلاً جداً من الأحرف"
+
+msgid "character arguments expected"
+msgstr "كان متوقعًا نصي وسائط"
+
+msgid "zero-length argument"
+msgstr "zero-طول وسيط"
+
+msgid "'opts' should be small non-negative integer"
+msgstr "ينبغي أن يكون 'opts' small غير سالب عدد صحيح"
+
+#, c-format
+msgid "object '%s' not found"
+msgstr "لم يتم العثور على كائن '%s'"
+
+msgid "badly formed function expression"
+msgstr "badly formed دالة تعبير"
+
+msgid "no active or default device"
+msgstr "لا يوجد active أو افتراضي device"
+
+msgid "no active device and default getOption(\"device\") is invalid"
+msgstr "لا يوجد active device و افتراضي getOption(\"device\") is غير صالح"
+
+msgid "can't shut down a locked device"
+msgstr "can't shut down locked device"
+
+msgid "too many open devices"
+msgstr "too many فتح devices"
+
+msgid "not enough memory to allocate device (in GEcreateDevDesc)"
+msgstr "ليس enough ذاكرة إلى allocate device (في GEcreateDevDesc)"
+
+msgid "Hit <Return> to see next plot: "
+msgstr "Hit <Return> إلى see التالي plot: "
+
+msgid "NULL value passed as symbol address"
+msgstr "قيمة NULL تم تمريره as رمز عنوان"
+
+#, c-format
+msgid "Unimplemented type %d in createRSymbolObject"
+msgstr "غير منفّذ نوع %d في createRSymbolObject"
+
+#, c-format
+msgid "symbol '%s' is too long"
+msgstr "رمز '%s' طويل جدًا"
+
+msgid "first argument must be a string (of length 1) or native symbol reference"
+msgstr "يجب أن يكون الأول وسيط سلسلة (من طول 1) أو رمز أصلي مرجع"
+
+msgid "too many arguments in foreign function call"
+msgstr "too many وسائط في foreign دالة استدعاء"
+
+msgid "PACKAGE = \"\" is invalid"
+msgstr "حزمة = \"\" هو غير صالح"
+
+#, c-format
+msgid "\"%s\" not available for %s() for package \"%s\""
+msgstr "\"%s\" ليس متاح لـ %s() لـ حزمة \"%s\""
+
+#, c-format
+msgid "%s symbol name \"%s\" not in DLL for package \"%s\""
+msgstr "%s رمز اسم \"%s\" غير موجود في DLL لـ حزمة \"%s\""
+
+#, c-format
+msgid "%s symbol name \"%s\" not in load table"
+msgstr "%s رمز اسم \"%s\" غير موجود في جدول التحميل"
+
+#, c-format
+msgid "'%s' used more than once"
+msgstr "'%s' used أكثر من once"
+
+msgid "DLL name is too long"
+msgstr "DLL اسم طويل جدًا"
+
+msgid "PACKAGE argument must be a single character string"
+msgstr "يجب أن يكون حزمة وسيط single سلسلة نصية"
+
+msgid "PACKAGE argument is too long"
+msgstr "حزمة وسيط طويل جدًا"
+
+msgid "no arguments supplied"
+msgstr "لا يوجد وسائط المقدّمة"
+
+msgid "too many arguments"
+msgstr "too many وسائط"
+
+msgid "'.NAME' is missing"
+msgstr "'.NAME' هو مفقود"
+
+#, c-format
+msgid "Incorrect number of arguments (%d), expecting %d for '%s'"
+msgstr "Incorrect number من وسائط (%d), expecting %d لـ '%s'"
+
+msgid "too many arguments, sorry"
+msgstr "too many وسائط, sorry"
+
+msgid "invalid graphics state"
+msgstr "graphics state غير صالح"
+
+msgid "NULL value for DLLInfoReference when looking for DLL"
+msgstr "قيمة NULL لـ DLLInfoReference when looking لـ DLL"
+
+msgid "DLL requires the use of native symbols"
+msgstr "DLL يتطلب use من native رموز"
+
+#, c-format
+msgid "wrong type for argument %d in call to %s"
+msgstr "wrong نوع لـ وسيط %d في استدعاء إلى %s"
+
+#, c-format
+msgid "long vectors (argument %d) are not supported in %s"
+msgstr "المتجهات الطويلة (وسيط %d) ليست مدعوم في %s"
+
+#, c-format
+msgid "NAs in foreign function call (arg %d)"
+msgstr "NAs في foreign دالة استدعاء (arg %d)"
+
+#, c-format
+msgid "NA/NaN/Inf in foreign function call (arg %d)"
+msgstr "NA/NaN/Inf في foreign دالة استدعاء (arg %d)"
+
+#, c-format
+msgid "complex NA/NaN/Inf in foreign function call (arg %d)"
+msgstr "مركب NA/NaN/Inf في foreign دالة استدعاء (arg %d)"
+
+#, c-format
+msgid "invalid mode (%s) to pass to Fortran (arg %d)"
+msgstr "نمط (%s) إلى pass إلى Fortran (arg %d) غير صالح"
+
+#, c-format
+msgid "invalid mode (%s) to pass to C or Fortran (arg %d)"
+msgstr "نمط (%s) إلى pass إلى C أو Fortran (arg %d) غير صالح"
+
+msgid "pairlists are passed as SEXP as from R 2.15.0"
+msgstr "pairlists هي تم تمريره as SEXP as من R 2.15.0"
+
+#, c-format
+msgid "skipped \"../\" path component(s) in '%s'"
+msgstr "skipped \"../\" مسار مكوّن(s) في '%s'"
+
+#, c-format
+msgid " not overwriting file '%s"
+msgstr " ليس overwriting ملف '%s"
+
+#, c-format
+msgid "zip file '%s' cannot be opened"
+msgstr "لا يمكن أن يكون zip ملف '%s' مفتوح"
+
+msgid "invalid zip name argument"
+msgstr "zip اسم وسيط غير صالح"
+
+msgid "zip path is too long"
+msgstr "zip مسار طويل جدًا"
+
+msgid "'exdir' is too long"
+msgstr "'exdir' طويل جدًا"
+
+msgid "'exdir' does not exist"
+msgstr "'exdir' لا exist"
+
+msgid "requested file not found in the zip file"
+msgstr "requested ملف ليس found في zip ملف"
+
+msgid "zip file is corrupt"
+msgstr "zip ملف هو corrupt"
+
+msgid "CRC error in zip file"
+msgstr "CRC خطأ في zip ملف"
+
+msgid "write error in extracting from zip file"
+msgstr "كتابة خطأ في extracting من zip ملف"
+
+#, c-format
+msgid "error %d in extracting from zip file"
+msgstr "خطأ %d في extracting من zip ملف"
+
+msgid "unz connections can only be opened for reading"
+msgstr "unz اتصالات can فقط be مفتوح للقراءة"
+
+msgid "invalid description of 'unz' connection"
+msgstr "description من 'unz' اتصال غير صالح"
+
+#, c-format
+msgid "cannot open zip file '%s'"
+msgstr "لا يمكن فتح zip ملف '%s'"
+
+#, c-format
+msgid "cannot locate file '%s' in zip file '%s'"
+msgstr "لا يمكن locate ملف '%s' في zip ملف '%s'"
+
+msgid "printing not enabled for this connection"
+msgstr "printing ليس enabled لـ this اتصال"
+
+msgid "write not enabled for this connection"
+msgstr "كتابة ليس enabled لـ this اتصال"
+
+msgid "allocation of 'unz' connection failed"
+msgstr "فشل تخصيص من 'unz' اتصال"
+
+msgid "invalid formal arguments for 'function'"
+msgstr "formal وسائط لـ 'function' غير صالح"
+
+msgid "invalid body argument for 'function'"
+msgstr "body وسيط لـ 'function' غير صالح"
+
+msgid "invalid argument to edit()"
+msgstr "وسيط إلى edit() غير صالح"
+
+msgid "unable to open file"
+msgstr "تعذّر فتح ملف"
+
+msgid "argument 'editor' type not valid"
+msgstr "وسيط 'editor' نوع ليس صالح"
+
+msgid "argument 'editor' is not set"
+msgstr "وسيط 'editor' ليس set"
+
+msgid "'title' must be a string"
+msgstr "يجب أن يكون 'title' سلسلة"
+
+#, c-format
+msgid "unable to run editor '%s'"
+msgstr "تعذّر run editor '%s'"
+
+msgid "editor ran but returned error status"
+msgstr "editor ran but returned خطأ status"
+
+#, c-format
+msgid "problem with running editor %s"
+msgstr "مشكلة مع running editor %s"
+
+msgid "unable to open file to read"
+msgstr "تعذّر فتح ملف إلى قراءة"
+
+#, fuzzy, c-format
+msgid ""
+"%s occurred on line %d\n"
+" use a command like\n"
+" x <- edit()\n"
+" to recover"
+msgstr "%s occurred على line %d use command like x <- edit() إلى recover"
+
+msgid "Graphics API version mismatch"
+msgstr "Graphics API إصدار mismatch"
+
+msgid "unable to allocate memory (in GEregister)"
+msgstr "تعذّر allocate ذاكرة (في GEregister)"
+
+msgid "too many graphics systems registered"
+msgstr "تم تسجيل عدد كبير جدًا من أنظمة الرسومات"
+
+msgid "no graphics system to unregister"
+msgstr "لا يوجد graphics system إلى unregister"
+
+msgid "invalid line end"
+msgstr "line end غير صالح"
+
+msgid "invalid line join"
+msgstr "line join غير صالح"
+
+msgid "'lwd' must be non-negative and finite"
+msgstr "يجب أن يكون 'lwd' غير سالب و منتهٍ"
+
+msgid "out of memory while clipping polyline"
+msgstr "out من ذاكرة while clipping polyline"
+
+msgid "Clipping polygon that does not need clipping"
+msgstr "Clipping polygon that لا need clipping"
+
+msgid "path rendering is not implemented for this device"
+msgstr "مسار rendering ليس منفّذ لـ this device"
+
+msgid "Invalid graphics path"
+msgstr "graphics مسار غير صالح"
+
+msgid "raster rendering is not implemented for this device"
+msgstr "raster rendering ليس منفّذ لـ this device"
+
+msgid "raster capture is not available for this device"
+msgstr "raster capture ليس متاح لـ this device"
+
+#, c-format
+msgid "font face %d not supported for font family '%s'"
+msgstr "font face %d ليس مدعوم لـ font family '%s'"
+
+msgid "no graphics device is active"
+msgstr "لا يوجد graphics device is active"
+
+#, c-format
+msgid "pch value '%d' is invalid in this locale"
+msgstr "pch قيمة '%d' غير صالح في هذه البيئة المحلية"
+
+#, c-format
+msgid "unimplemented pch value '%d'"
+msgstr "غير منفّذ pch قيمة '%d'"
+
+#, c-format
+msgid "invalid axis extents [GEPretty(.,.,n=%d)"
+msgstr "axis extents [GEPretty(.,.,n=%d) غير صالح"
+
+#, c-format
+msgid "non-finite axis extents [GEPretty(%g,%g, n=%d)]"
+msgstr "غير منتهٍ axis extents [GEPretty(%g,%g, n=%d)]"
+
+#, c-format
+msgid " new *lo = %g < %g = x1"
+msgstr " new *lo = %g < %g = x1"
+
+#, c-format
+msgid " new *up = %g > %g = x2"
+msgstr " new *up = %g > %g = x2"
+
+msgid "display list redraw incomplete"
+msgstr "قائمة العرض redraw incomplete"
+
+msgid "invalid display list"
+msgstr "قائمة العرض غير صالح"
+
+#, c-format
+msgid "snapshot recorded with different graphics engine version (pre 11 - this is version %d)"
+msgstr "snapshot recorded مع مختلف graphics engine إصدار (pre 11 - this هو إصدار %d)"
+
+#, c-format
+msgid "snapshot recorded with different graphics engine version (%d - this is version %d)"
+msgstr "snapshot recorded مع مختلف graphics engine إصدار (%d - this هو إصدار %d)"
+
+msgid "'expr' argument must be an expression"
+msgstr "يجب أن يكون 'expr' وسيط تعبير"
+
+msgid "'list' argument must be a list"
+msgstr "يجب أن يكون 'list' وسيط قائمة"
+
+msgid "'env' argument must be an environment"
+msgstr "يجب أن يكون 'env' وسيط بيئة"
+
+msgid "invalid multibyte char in pch=\"c\""
+msgstr "multibyte char في pch=\"c\" غير صالح"
+
+msgid "invalid hex digit in 'color' or 'lty'"
+msgstr "hex digit في 'color' أو 'lty' غير صالح"
+
+msgid "invalid line type: must be length 2, 4, 6 or 8"
+msgstr "يجب أن يكون غير صالح line نوع: طول 2, 4, 6 أو 8"
+
+msgid "invalid line type: zeroes are not allowed"
+msgstr "غير صالح line نوع: zeroes ليست allowed"
+
+msgid "invalid line type"
+msgstr "line نوع غير صالح"
+
+msgid "Stroke ignored (device is appending path)"
+msgstr "Stroke متجاهل (device هو appending مسار)"
+
+msgid "Fill ignored (device is appending path)"
+msgstr "Fill متجاهل (device هو appending مسار)"
+
+msgid "FillStroke ignored (device is appending path)"
+msgstr "FillStroke متجاهل (device هو appending مسار)"
+
+msgid "Index out of bounds"
+msgstr "فهرس out من bounds"
+
+#, c-format
+msgid "cannot change value of locked binding for '%s'"
+msgstr "لا يمكن تغيير قيمة من locked binding لـ '%s'"
+
+msgid "cannot add bindings to a locked environment"
+msgstr "لا يمكن add bindings إلى a locked بيئة"
+
+msgid "cycle detected in promise chain"
+msgstr "cycle detected في promise chain"
+
+msgid "not a symbol"
+msgstr "ليس رمز"
+
+msgid "not an environment"
+msgstr "ليس بيئة"
+
+msgid "cannot unbind in the base namespace"
+msgstr "لا يمكن unbind في the base نطاق أسماء"
+
+msgid "unbind in the base environment is unimplemented"
+msgstr "unbind في base بيئة هو غير منفّذ"
+
+msgid "cannot remove bindings from a locked environment"
+msgstr "لا يمكن إزالة bindings من a locked بيئة"
+
+#, c-format
+msgid "argument to '%s' is not an environment"
+msgstr "وسيطة \"%s\" ليست بيئة"
+
+#, c-format
+msgid "indexing '...' with non-positive index %d"
+msgstr "indexing '...' مع non-موجب فهرس %d"
+
+msgid "bad ... value"
+msgstr "bad... قيمة"
+
+#, c-format
+msgid "the ... list contains fewer than %d element"
+msgid_plural "the ... list contains fewer than %d elements"
+msgstr[0] "... قائمة يحتوي على fewer than %d elements"
+msgstr[1] "... قائمة يحتوي على fewer than %d element"
+msgstr[2] "... قائمة يحتوي على fewer than %d elements"
+msgstr[3] "... قائمة يحتوي على fewer than %d elements"
+msgstr[4] "... قائمة يحتوي على fewer than %d elements"
+msgstr[5] "... قائمة يحتوي على fewer than %d elements"
+
+#, c-format
+msgid "..%d used in an incorrect context, no ... to look in"
+msgstr "..%d used في incorrect context, no... إلى look في"
+
+msgid "indexing '...' with an invalid index"
+msgstr "indexing '...' مع غير صالح فهرس"
+
+msgid "incorrect context: the current call has no '...' to look in"
+msgstr "incorrect context: حالي استدعاء has no '...' إلى look في"
+
+msgid "not a delayed ... element"
+msgstr "ليس delayed... element"
+
+msgid "not a forced ... element"
+msgstr "ليس forced... element"
+
+msgid "cannot assign values in the empty environment"
+msgstr "لا يمكن assign قيم في the فارغ بيئة"
+
+msgid "cannot assign variables to this database"
+msgstr "لا يمكن assign variables إلى this database"
+
+#, c-format
+msgid "cannot add binding of '%s' to the base environment"
+msgstr "لا يمكن add binding من '%s' إلى the base بيئة"
+
+msgid "only the first element is used as variable name"
+msgstr "فقط الأول element هو used as variable اسم"
+
+msgid "first argument must be a named list"
+msgstr "يجب أن يكون الأول وسيط named قائمة"
+
+msgid "names(x) must be a character vector of the same length as x"
+msgstr "يجب أن يكون أسماء(x) متجه نصي من the same طول as x"
+
+msgid "'envir' argument must be an environment"
+msgstr "يجب أن يكون 'envir' وسيط بيئة"
+
+msgid "cannot remove variables from base namespace"
+msgstr "لا يمكن إزالة variables من base نطاق أسماء"
+
+msgid "cannot remove variables from the base environment"
+msgstr "لا يمكن إزالة variables من the base بيئة"
+
+msgid "cannot remove variables from the empty environment"
+msgstr "لا يمكن إزالة variables من the فارغ بيئة"
+
+msgid "cannot remove variables from this database"
+msgstr "لا يمكن إزالة variables من this database"
+
+#, c-format
+msgid "invalid '%s' argument '%s'"
+msgstr "الوسيطة '%s' غير صالحة: '%s'"
+
+msgid "first argument has length > 1"
+msgstr "الأول وسيط طوله > 1"
+
+#, c-format
+msgid "invalid name in position %d"
+msgstr "اسم غير صالح في الموضع %d"
+
+msgid "second argument must be an environment"
+msgstr "يجب أن يكون الثاني وسيط بيئة"
+
+#, c-format
+msgid "first argument to '%s' must be a symbol"
+msgstr "يجب أن تكون الوسيطة الأولى ل \"%s\" رمزا"
+
+#, c-format
+msgid "second argument to '%s' must be an environment"
+msgstr "يجب أن تكون الوسيطة الثانية ل \"%s\" بيئة"
+
+#, c-format
+msgid "'missing(%s)' did not find an argument"
+msgstr "'missing(%s)' did ليس find وسيط"
+
+msgid "invalid use of 'missing'"
+msgstr "use من 'missing' غير صالح"
+
+msgid "'pos' must be an integer"
+msgstr "يجب أن يكون 'pos' عدد صحيح"
+
+msgid "all elements of a list must be named"
+msgstr "يجب أن يكون all elements من a قائمة named"
+
+msgid "'attach' only works for lists, data frames and environments"
+msgstr "'attach' فقط works لـ قوائم, بيانات frames و بيئات"
+
+msgid "detaching \"package:base\" is not allowed"
+msgstr "detaching \"package:base\" ليس allowed"
+
+msgid "argument must be an environment"
+msgstr "يجب أن يكون وسيط بيئة"
+
+msgid "arguments must be symbolic"
+msgstr "يجب أن يكون وسائط symbolic"
+
+msgid "no enclosing environment"
+msgstr "لا يوجد enclosing بيئة"
+
+#, c-format
+msgid "no item called \"%s\" on the search list"
+msgstr "لا يوجد عنصر باسم \"%s\" في قائمة البحث"
+
+msgid "using 'as.environment(NULL)' is defunct"
+msgstr "using 'as.environment(NULL)' هو defunct"
+
+msgid "S4 object does not extend class \"environment\""
+msgstr "S4 كائن لا extend صنف \"environment\""
+
+msgid "invalid object for 'as.environment'"
+msgstr "كائن لـ 'as.environment' غير صالح"
+
+#, c-format
+msgid "no binding for \"%s\""
+msgstr "لا يوجد binding لـ \"%s\""
+
+msgid "not a function"
+msgstr "ليس دالة"
+
+msgid "symbol already has a regular binding"
+msgstr "رمز بالفعل has regular binding"
+
+msgid "cannot change active binding if binding is locked"
+msgstr "لا يمكن تغيير active binding if binding is locked"
+
+msgid "unbound variable"
+msgstr "متغير غير مرتبط"
+
+msgid "not a delayed or forced binding"
+msgstr "ليس delayed أو forced binding"
+
+msgid "not a delayed binding"
+msgstr "ليس delayed binding"
+
+msgid "not a forced binding"
+msgstr "ليس forced binding"
+
+#, c-format
+msgid "no active binding for \"%s\""
+msgstr "لا يوجد active binding لـ \"%s\""
+
+msgid "unknown op"
+msgstr "غير معروف op"
+
+msgid "cannot unbind a locked binding"
+msgstr "لا يمكن unbind a locked binding"
+
+msgid "cannot unbind an active binding"
+msgstr "لا يمكن unbind an active binding"
+
+msgid "bad namespace name"
+msgstr "bad نطاق أسماء اسم"
+
+msgid "namespace already registered"
+msgstr "نطاق أسماء بالفعل registered"
+
+msgid "namespace not registered"
+msgstr "نطاق أسماء ليس registered"
+
+msgid "bad variable name"
+msgstr "bad variable اسم"
+
+msgid "bad namespace"
+msgstr "bad نطاق أسماء"
+
+#, c-format
+msgid "'%s' is not an exported object from 'namespace:%s'"
+msgstr "'%s' ليس exported كائن من 'namespace:%s'"
+
+msgid "bad import environment argument"
+msgstr "bad import بيئة وسيط"
+
+msgid "bad export environment argument"
+msgstr "bad export بيئة وسيط"
+
+msgid "length of import and export names must match"
+msgstr "طول من import و export أسماء must match"
+
+#, c-format
+msgid "exported symbol '%s' has no value"
+msgstr "exported رمز '%s' has no قيمة"
+
+#, c-format
+msgid "unknown encoding: %d"
+msgstr "غير معروف ترميز: %d"
+
+#, c-format
+msgid "embedded nul in string: '%s'"
+msgstr "embedded nul في سلسلة: '%s'"
+
+msgid "interrupts suspended; signal ignored"
+msgstr "تم تجاهل interrupts suspended; signal"
+
+msgid "[... truncated]"
+msgstr "[... مقتطع]"
+
+msgid "invalid option \"warning.expression\""
+msgstr "option \"warning.expression\" غير صالح"
+
+#, c-format
+msgid "(converted from warning) %s"
+msgstr "(converted من تحذير) %s"
+
+msgid "Warning:"
+msgstr "تحذير:"
+
+#, c-format
+msgid "Warning in %s :"
+msgstr "تحذير في %s:"
+
+msgid "Calls:"
+msgstr "استدعاءات:"
+
+msgid "Lost warning messages\n"
+msgstr "Lost تحذير messages\n"
+
+msgid "Warning message:"
+msgid_plural "Warning messages:"
+msgstr[0] "تحذير messages:"
+msgstr[1] "رسالة التحذير:"
+msgstr[2] "تحذير messages:"
+msgstr[3] "تحذير messages:"
+msgstr[4] "تحذير messages:"
+msgstr[5] "تحذير messages:"
+
+#, c-format
+msgid "In %s :"
+msgstr "في %s:"
+
+#, c-format
+msgid "There was %d warning (use warnings() to see it)"
+msgid_plural "There were %d warnings (use warnings() to see them)"
+msgstr[0] "There were %d warnings (use warnings() إلى see them)"
+msgstr[1] "There was %d تحذير (use warnings() إلى see it)"
+msgstr[2] "There were %d warnings (use warnings() إلى see them)"
+msgstr[3] "There were %d warnings (use warnings() إلى see them)"
+msgstr[4] "There were %d warnings (use warnings() إلى see them)"
+msgstr[5] "There were %d warnings (use warnings() إلى see them)"
+
+#, c-format
+msgid "There were %d or more warnings (use warnings() to see the first %d)"
+msgstr "There were %d أو more warnings (use warnings() إلى see الأول %d)"
+
+msgid "Error during wrapup: "
+msgstr "خطأ during wrapup: "
+
+msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
+msgstr "خطأ: no more خطأ handlers متاح (تكراري errors?); invoking 'abort' restart\n"
+
+msgid "Error in "
+msgstr "خطأ في "
+
+#, c-format
+msgid "Error in %s (from %s) : "
+msgstr "خطأ في %s (من %s): "
+
+#, c-format
+msgid "Error in %s : "
+msgstr "خطأ في %s: "
+
+msgid "Error: "
+msgstr "خطأ: "
+
+msgid "In addition: "
+msgstr "في addition: "
+
+msgid "invalid option \"error\"\n"
+msgstr "option \"error\" غير صالح\n"
+
+#, c-format
+msgid "'%s' must be a character string"
+msgstr "يجب أن تكون \"%s\" سلسلة أحرف"
+
+msgid " [invalid string in stop(.)]"
+msgstr " [غير صالح سلسلة في stop(.)]"
+
+msgid " [invalid string in warning(.)]"
+msgstr " [غير صالح سلسلة في تحذير(.)]"
+
+#, c-format
+msgid "incorrect number of arguments to \"%s\""
+msgstr "incorrect number من وسائط إلى \"%s\""
+
+#, c-format
+msgid "unimplemented feature in %s"
+msgstr "غير منفّذ feature في %s"
+
+msgid "invalid number of arguments"
+msgstr "number من وسائط غير صالح"
+
+msgid "invalid argument type"
+msgstr "نوع الوسيطة غير صالح"
+
+msgid "time-series/vector length mismatch"
+msgstr "وقت-series/متجه طول mismatch"
+
+msgid "incompatible arguments"
+msgstr "incompatible وسائط"
+
+msgid "unknown error (report this!)"
+msgstr "غير معروف خطأ (report this!)"
+
+msgid "inaccurate integer conversion in coercion"
+msgstr "inaccurate عدد صحيح conversion في coercion"
+
+msgid "unknown warning (report this!)"
+msgstr "غير معروف تحذير (report this!)"
+
+msgid "bad handler data"
+msgstr "bad handler بيانات"
+
+msgid "error message not a string"
+msgstr "رسالة الخطأ ليس سلسلة"
+
+msgid "handler or restart stack mismatch in old restart"
+msgstr "handler أو restart stack mismatch في old restart"
+
+msgid "bad error message"
+msgstr "bad رسالة الخطأ"
+
+msgid "bad restart"
+msgstr "إعادة تشغيل خاطئة"
+
+msgid "restart not on stack"
+msgstr "restart ليس على stack"
+
+msgid "not in a try context"
+msgstr "ليس في try context"
+
+msgid "error message must be a character string"
+msgstr "يجب أن يكون رسالة الخطأ سلسلة نصية"
+
+msgid "condition object must be a VECSXP of length at least one"
+msgstr "يجب أن يكون condition كائن VECSXP من طول at least one"
+
+msgid "first element of condition object must be a scalar string"
+msgstr "يجب أن يكون الأول element من condition كائن قيمة مفردة سلسلة"
+
+#, c-format
+msgid "argument \"%s\" is missing, with no default"
+msgstr "وسيط \"%s\" هو مفقود, مع no افتراضي"
+
+msgid "argument is missing, with no default"
+msgstr "وسيط هو مفقود, مع no افتراضي"
+
+#, c-format
+msgid "object '%s' of mode '%s' was not found"
+msgstr "لم يتم العثور على كائن '%s' من نمط '%s' was"
+
+#, c-format
+msgid "could not find function \"%s\""
+msgstr "تعذّر العثور على دالة \"%s\""
+
+#, c-format
+msgid "partial match of '%s' to '%s'"
+msgstr "جزئي match من '%s' إلى '%s'"
+
+#, c-format
+msgid "partial argument match of '%s' to '%s'"
+msgstr "جزئي وسيط match من '%s' إلى '%s'"
+
+#, fuzzy
+msgid "protect(): protection stack overflow"
+msgstr "protect(): protection stack overflow"
+
+msgid "evaluation nested too deeply: infinite recursion / options(expressions=)?"
+msgstr "evaluation nested too deeply: لا نهائي recursion / options(تعابير=)?"
+
+msgid "node stack overflow"
+msgstr "node stack overflow"
+
+msgid "samples too large for I/O buffer skipped by Rprof"
+msgstr "samples كبير جدًا لـ I/O buffer skipped بواسطة Rprof"
+
+#, c-format
+msgid "source files skipped by Rprof; please increase '%s'"
+msgstr "source ملفات skipped بواسطة Rprof; please increase '%s'"
+
+#, c-format
+msgid "Rprof: cannot open profile file '%s'"
+msgstr "Rprof: لا يمكن فتح profile ملف '%s'"
+
+#, c-format
+msgid "interval too short for this platform, using '%f'"
+msgstr "interval too short لـ this المنصة, using '%f'"
+
+#, c-format
+msgid "interval too short, using '%f'"
+msgstr "interval too short, using '%f'"
+
+msgid "R profiling is not available on this system"
+msgstr "R profiling ليس متاح على this system"
+
+msgid "promise already under evaluation: recursive default argument reference or earlier problems?"
+msgstr "promise بالفعل under evaluation: تكراري افتراضي وسيط مرجع أو earlier problems?"
+
+msgid "restarting interrupted promise evaluation"
+msgstr "restarting interrupted promise evaluation"
+
+msgid "attempt to apply non-function"
+msgstr "محاولة إلى apply non-دالة"
+
+#, c-format
+msgid "%s at %s#%d: "
+msgstr "%s at %s#%d: "
+
+#, c-format
+msgid "argument %d is empty"
+msgstr "وسيط %d هو فارغ"
+
+#, c-format
+msgid "could not find symbol \"%s\" in environment of the generic function"
+msgstr "تعذّر العثور على رمز \"%s\" في بيئة من the generic دالة"
+
+#, c-format
+msgid "symbol \"%s\" not in environment of method"
+msgstr "رمز \"%s\" غير موجود في بيئة من طريقة"
+
+msgid "the condition has length > 1"
+msgstr "condition طوله > 1"
+
+msgid "missing value where TRUE/FALSE needed"
+msgstr "قيمة مفقودة حيث يلزم TRUE/FALSE"
+
+msgid "argument is not interpretable as logical"
+msgstr "وسيط ليس interpretable as منطقي"
+
+msgid "argument is of length zero"
+msgstr "الوسيط طوله صفر"
+
+msgid "non-symbol loop variable"
+msgstr "non-رمز loop variable"
+
+msgid "invalid for() loop sequence"
+msgstr "لـ() loop sequence غير صالح"
+
+msgid "multi-argument returns are not permitted"
+msgstr "multi-وسيط returns ليست permitted"
+
+msgid "\"expr\" must be a call expression"
+msgstr "يجب أن يكون \"expr\" استدعاء تعبير"
+
+msgid "invalid (NULL) left side of assignment"
+msgstr "(NULL) left side من assignment غير صالح"
+
+msgid "target of assignment expands to non-language object"
+msgstr "target من assignment expands إلى non-كائن لغة"
+
+#, c-format
+msgid "overlong name in '%s'"
+msgstr "overlong اسم في '%s'"
+
+msgid "cannot do complex assignments in base namespace"
+msgstr "لا يمكن do مركب assignments في base نطاق أسماء"
+
+msgid "cannot do complex assignments in base environment"
+msgstr "لا يمكن do مركب assignments في base بيئة"
+
+msgid "existing `*tmp*` binding is locked"
+msgstr "existing `*tmp*` binding هو locked"
+
+msgid "existing `*tmp*` binding is an active binding"
+msgstr "existing `*tmp*` binding هو active binding"
+
+msgid "invalid function in complex assignment"
+msgstr "وظيفة غير صالحة في التعيين المعقد"
+
+msgid "invalid (do_set) left-hand side to assignment"
+msgstr "(do_set) left-hand side إلى assignment غير صالح"
+
+#, c-format
+msgid "'%s' is missing"
+msgstr "'%s' هو مفقود"
+
+#, c-format
+msgid "invalid formal argument list for \"%s\""
+msgstr "formal وسيط قائمة لـ \"%s\" غير صالح"
+
+#, c-format
+msgid "invalid '%s' argument of type '%s'"
+msgstr "وسيطة \"%s\" غير صالحة من النوع \"%s\""
+
+msgid "numeric 'envir' arg not of length one"
+msgstr "رقمي 'envir' arg ليس من طول one"
+
+msgid "'Recall' called from outside a closure"
+msgstr "'Recall' مسمّى من outside closure"
+
+msgid "value in '...' is not a promise"
+msgstr "قيمة في '...' ليس promise"
+
+#, c-format
+msgid "Incompatible methods (\"%s\", \"%s\") for \"%s\""
+msgstr "Incompatible methods (\"%s\", \"%s\") لـ \"%s\""
+
+msgid "dispatch error in group dispatch"
+msgstr "dispatch خطأ في group dispatch"
+
+#, c-format
+msgid "\"%s\" is not a %s function"
+msgstr "\"%s\" ليس %s دالة"
+
+msgid "bad opcode"
+msgstr "bad opcode"
+
+#, c-format
+msgid "invalid %s type in 'x %s y'"
+msgstr "نوع %s غير صالح في 'x %s y'"
+
+msgid "byte code version mismatch"
+msgstr "بايت code إصدار mismatch"
+
+msgid "invalid sequence argument in for loop"
+msgstr "sequence وسيط في لـ loop غير صالح"
+
+#, c-format
+msgid "there is no .Internal function '%s'"
+msgstr "there هو no.داخلي دالة '%s'"
+
+msgid "bad function"
+msgstr "bad دالة"
+
+msgid "not a BUILTIN function"
+msgstr "ليس BUILTIN دالة"
+
+msgid "bad numeric 'switch' offsets"
+msgstr "bad رقمي 'switch' offsets"
+
+msgid "numeric EXPR required for 'switch' without named alternatives"
+msgstr "رقمي EXPR مطلوب لـ 'switch' without named alternatives"
+
+msgid "bad character 'switch' offsets"
+msgstr "bad نصي 'switch' offsets"
+
+msgid "cannot find index for threaded code address"
+msgstr "لا يمكن العثور على فهرس لـ threaded code عنوان"
+
+msgid "invalid body"
+msgstr "body غير صالح"
+
+msgid "invalid symbol"
+msgstr "رمز غير صالح"
+
+msgid "argument is not a byte code object"
+msgstr "وسيط ليس بايت code كائن"
+
+msgid "constant buffer must be a generic vector"
+msgstr "يجب أن يكون constant buffer generic متجه"
+
+msgid "bad constant count"
+msgstr "bad constant count"
+
+msgid "profile timer in use"
+msgstr "profile timer في use"
+
+msgid "already byte code profiling"
+msgstr "بالفعل بايت code profiling"
+
+msgid "setting profile timer failed"
+msgstr "فشل setting profile timer"
+
+msgid "not byte code profiling"
+msgstr "ليس بايت code profiling"
+
+msgid "byte code profiling is not supported in this build"
+msgstr "بايت code profiling ليس مدعوم في this build"
+
+#, c-format
+msgid "'%s' is not of type %s"
+msgstr "'%s' ليس من نوع %s"
+
+#, c-format
+msgid "'%s' events not supported in this device"
+msgstr "'%s' events ليس مدعوم في this device"
+
+msgid "internal error"
+msgstr "داخلي خطأ"
+
+msgid "this graphics device does not support event handling"
+msgstr "this graphics device لا support event handling"
+
+msgid "invalid prompt"
+msgstr "prompt غير صالح"
+
+msgid "recursive use of 'getGraphicsEvent' not supported"
+msgstr "تكراري use من 'getGraphicsEvent' غير مدعوم"
+
+msgid "no graphics event handlers set"
+msgstr "لا يوجد graphics event handlers set"
+
+#, c-format
+msgid "invalid multibyte character in parser (%s:%d:%d)"
+msgstr "multibyte نصي في parser (%s:%d:%d) غير صالح"
+
+#, c-format
+msgid "input buffer overflow (%s:%d:%d)"
+msgstr "إدخال buffer overflow (%s:%d:%d)"
+
+#, c-format
+msgid "function '%s' not supported in RHS call of a pipe (%s:%d:%d)"
+msgstr "دالة '%s' ليس مدعوم في RHS استدعاء من pipe (%s:%d:%d)"
+
+#, c-format
+msgid "pipe placeholder may only appear once (%s:%d:%d)"
+msgstr "pipe placeholder may فقط appear once (%s:%d:%d)"
+
+#, c-format
+msgid "The pipe operator requires a function call as RHS (%s:%d:%d)"
+msgstr "pipe عامل يتطلب دالة استدعاء as RHS (%s:%d:%d)"
+
+#, c-format
+msgid "RHS variable must be a symbol (%s:%d:%d)"
+msgstr "يجب أن يكون RHS variable رمز (%s:%d:%d)"
+
+#, c-format
+msgid "pipe placeholder cannot be used in the RHS function (%s:%d:%d)"
+msgstr "لا يمكن أن يكون pipe placeholder used في the RHS دالة (%s:%d:%d)"
+
+#, c-format
+msgid "pipe placeholder can only be used as a named argument (%s:%d:%d)"
+msgstr "pipe placeholder can فقط be used as named وسيط (%s:%d:%d)"
+
+#, c-format
+msgid "'=>' is disabled; set '_R_USE_PIPEBIND_' envvar to a true value to enable it (%s:%d:%d)"
+msgstr "'=>' هو disabled; set '_R_USE_PIPEBIND_' envvar إلى صحيح قيمة إلى enable it (%s:%d:%d)"
+
+#, c-format
+msgid "incorrect tag type (%s:%d:%d)"
+msgstr "incorrect tag نوع (%s:%d:%d)"
+
+msgid "allocation of source reference state failed"
+msgstr "فشل تخصيص من source مرجع state"
+
+#, c-format
+msgid "invalid use of pipe placeholder (%s:%d:%d)"
+msgstr "use من pipe placeholder (%s:%d:%d) غير صالح"
+
+#, c-format
+msgid "invalid use of pipe bind symbol (%s:%d:%d)"
+msgstr "use من pipe bind رمز (%s:%d:%d) غير صالح"
+
+msgid "out of memory while parsing"
+msgstr "out من ذاكرة while parsing"
+
+#, c-format
+msgid "contextstack overflow (%s:%d:%d)"
+msgstr "contextstack overflow (%s:%d:%d)"
+
+#, c-format
+msgid "unexpected input"
+msgstr "unexpected إدخال"
+
+#, c-format
+msgid "unexpected end of input"
+msgstr "unexpected end من إدخال"
+
+#, c-format
+msgid "unexpected string constant"
+msgstr "unexpected سلسلة constant"
+
+#, c-format
+msgid "unexpected numeric constant"
+msgstr "unexpected رقمي constant"
+
+#, c-format
+msgid "unexpected symbol"
+msgstr "unexpected رمز"
+
+#, c-format
+msgid "unexpected assignment"
+msgstr "unexpected assignment"
+
+#, c-format
+msgid "unexpected end of line"
+msgstr "unexpected end من line"
+
+#, c-format
+msgid "unexpected %s"
+msgstr "unexpected %s"
+
+#, c-format
+msgid "repeated formal argument '%s' (%s:%d:%d)"
+msgstr "repeated formal وسيط '%s' (%s:%d:%d)"
+
+#, c-format
+msgid "integer literal %s contains decimal; using numeric value"
+msgstr "عدد صحيح literal %s يحتوي على decimal; using رقمي قيمة"
+
+#, c-format
+msgid "non-integer value %s qualified with L; using numeric value"
+msgstr "non-عدد صحيح قيمة %s qualified مع L; using رقمي قيمة"
+
+#, c-format
+msgid "integer literal %s contains unnecessary decimal point"
+msgstr "عدد صحيح literal %s يحتوي على unnecessary decimal point"
+
+#, c-format
+msgid "invalid multibyte character (%s:%d:%d)"
+msgstr "multibyte نصي (%s:%d:%d) غير صالح"
+
+#, c-format
+msgid "bidi formatting not allowed, use escapes instead (\\u%04x) (%s:%d:%d)"
+msgstr "bidi formatting ليس allowed, use escapes instead (\\u%04x) (%s:%d:%d)"
+
+#, c-format
+msgid "nul character not allowed (%s:%d:%d)"
+msgstr "nul نصي ليس allowed (%s:%d:%d)"
+
+#, c-format
+msgid "\\%o exceeds maximum allowed octal value \\377 (%s:%d:%d)"
+msgstr "\\%o exceeds maximum allowed octal قيمة \\377 (%s:%d:%d)"
+
+#, c-format
+msgid "'\\x' used without hex digits in character string (%s:%d:%d)"
+msgstr "'\\x' used without hex digits في سلسلة نصية (%s:%d:%d)"
+
+#, c-format
+msgid "\\uxxxx sequences not supported inside backticks (%s:%d:%d)"
+msgstr "\\uxxxx sequences ليس مدعوم inside backticks (%s:%d:%d)"
+
+#, c-format
+msgid "'\\u' used without hex digits in character string (%s:%d:%d)"
+msgstr "'\\u' used without hex digits في سلسلة نصية (%s:%d:%d)"
+
+#, c-format
+msgid "invalid \\u{xxxx} sequence (line %d)"
+msgstr "\\u{xxxx} sequence (line %d) غير صالح"
+
+#, c-format
+msgid "\\Uxxxxxxxx sequences not supported inside backticks (%s:%d:%d)"
+msgstr "\\Uxxxxxxxx sequences ليس مدعوم inside backticks (%s:%d:%d)"
+
+#, c-format
+msgid "'\\U' used without hex digits in character string (%s:%d:%d)"
+msgstr "'\\U' used without hex digits في سلسلة نصية (%s:%d:%d)"
+
+#, c-format
+msgid "invalid \\U{xxxxxxxx} sequence (%s:%d:%d)"
+msgstr "\\U{xxxxxxxx} sequence (%s:%d:%d) غير صالح"
+
+#, c-format
+msgid "invalid \\U{xxxxxxxx} value %6x (%s:%d:%d)"
+msgstr "\\U{xxxxxxxx} قيمة %6x (%s:%d:%d) غير صالح"
+
+#, c-format
+msgid "invalid \\Uxxxxxxxx value %6x (%s:%d:%d)"
+msgstr "\\Uxxxxxxxx قيمة %6x (%s:%d:%d) غير صالح"
+
+#, c-format
+msgid "'\\%s' is an unrecognized escape in character string (%s:%d:%d)"
+msgstr "'\\%s' هو unrecognized escape في سلسلة نصية (%s:%d:%d)"
+
+#, c-format
+msgid "mixing Unicode and octal/hex escapes in a string is not allowed (%s:%d:%d)"
+msgstr "mixing Unicode و octal/hex escapes في a سلسلة ليس allowed (%s:%d:%d)"
+
+#, c-format
+msgid ""
+"string containing Unicode escapes not in this locale\n"
+"is too long (max 10000 chars) (%s:%d:%d)"
+msgstr "سلسلة containing Unicode escapes غير موجود في this بيئة محلية is too long (max 10000 chars) (%s:%d:%d)"
+
+#, c-format
+msgid "malformed raw string literal (%s:%d:%d)"
+msgstr "malformed خام سلسلة literal (%s:%d:%d)"
+
+#, c-format
+msgid "internal parser error (%s:%d:%d)"
+msgstr "داخلي parser خطأ (%s:%d:%d)"
+
+#, c-format
+msgid "axis(%d, *): range of values (%5.2g) is small wrt |M| = %7.2g --> not pretty()"
+msgstr "axis(%d, *): نطاق من قيم (%5.2g) هو small wrt |M| = %7.2g --> ليس pretty()"
+
+#, c-format
+msgid "TRE pattern compilation error '%s'"
+msgstr "TRE pattern compilation خطأ '%s'"
+
+#, c-format
+msgid "invalid regular expression '%s', reason '%s'"
+msgstr "تعبير نظامي '%s', reason '%s' غير صالح"
+
+#, c-format
+msgid "invalid regular expression, reason '%s'"
+msgstr "تعبير نظامي, reason '%s' غير صالح"
+
+#, c-format
+msgid ""
+"PCRE error\n"
+"\t'%s'\n"
+"\tfor element %d"
+msgstr "PCRE خطأ '%s' لـ element %d"
+
+#, c-format
+msgid ""
+"PCRE pattern compilation error\n"
+"\t'%s'\n"
+"\tat '%s'\n"
+msgstr "PCRE pattern compilation خطأ '%s' at '%s'\n"
+
+#, c-format
+msgid "invalid regular expression '%s'"
+msgstr "تعبير نظامي '%s' غير صالح"
+
+#, c-format
+msgid ""
+"PCRE JIT compilation error\n"
+"\t'%s'"
+msgstr "PCRE JIT compilation خطأ '%s'"
+
+#, c-format
+msgid ""
+"PCRE pattern study error\n"
+"\t'%s'\n"
+msgstr "PCRE pattern study خطأ '%s'\n"
+
+#, c-format
+msgid "input string %lld is invalid UTF-8"
+msgstr "سلسلة الإدخال %lld هو غير صالح UTF-8"
+
+#, c-format
+msgid "'split' string %lld is invalid UTF-8"
+msgstr "'split' سلسلة %lld هو غير صالح UTF-8"
+
+#, c-format
+msgid "'split' string %lld is invalid in this locale"
+msgstr "'split' سلسلة %lld غير صالح في هذه البيئة المحلية"
+
+#, c-format
+msgid "'split' string %lld is invalid"
+msgstr "'split' سلسلة %lld هو غير صالح"
+
+#, c-format
+msgid "input string %lld is invalid"
+msgstr "سلسلة الإدخال %lld هو غير صالح"
+
+msgid "regular expression is invalid"
+msgstr "تعبير نظامي هو غير صالح"
+
+msgid "regular expression is invalid UTF-8"
+msgstr "تعبير نظامي هو غير صالح UTF-8"
+
+msgid "pattern matches an empty string infinitely, returning first match only"
+msgstr "pattern matches فارغ سلسلة infinitely, returning الأول match فقط"
+
+msgid "result string is too long"
+msgstr "result سلسلة طويل جدًا"
+
+msgid "'pattern' is invalid"
+msgstr "'pattern' هو غير صالح"
+
+msgid "'replacement' is invalid"
+msgstr "'replacement' هو غير صالح"
+
+msgid "'pattern' is invalid UTF-8"
+msgstr "'pattern' هو غير صالح UTF-8"
+
+msgid "'replacement' is invalid UTF-8"
+msgstr "'replacement' هو غير صالح UTF-8"
+
+msgid "'pattern' is invalid in this locale"
+msgstr "'pattern' غير صالح في هذه البيئة المحلية"
+
+msgid "'replacement' is invalid in this locale"
+msgstr "'replacement' غير صالح في هذه البيئة المحلية"
+
+msgid "zero-length pattern"
+msgstr "zero-طول pattern"
+
+#, c-format
+msgid "'pcre2_patterninfo' returned '%d' "
+msgstr "'pcre2_patterninfo' returned '%d' "
+
+#, c-format
+msgid "'pcre_fullinfo' returned '%d' "
+msgstr "'pcre_fullinfo' returned '%d' "
+
+msgid "ignoring non-pairlist attributes"
+msgstr "ignoring non-pairlist سمات"
+
+msgid "internet routines cannot be accessed in module"
+msgstr "لا يمكن أن يكون إجراءات الإنترنت accessed في module"
+
+msgid "internet routines cannot be loaded"
+msgstr "لا يمكن تحميل إجراءات الإنترنت"
+
+msgid "socket routines cannot be loaded"
+msgstr "لا يمكن أن يكون socket إجراءات تم تحميله"
+
+msgid "maxlen must be non-negative"
+msgstr "يجب أن يكون maxlen غير سالب"
+
+msgid "attempt to close invalid socket"
+msgstr "محاولة إلى إغلاق غير صالح socket"
+
+msgid "LAPACK routines cannot be accessed in module"
+msgstr "لا يمكن أن يكون LAPACK إجراءات accessed في module"
+
+msgid "LAPACK routines cannot be loaded"
+msgstr "لا يمكن أن يكون LAPACK إجراءات تم تحميله"
+
+msgid "operations are possible only for numeric, logical or complex types"
+msgstr "operations هي ممكن فقط لـ رقمي, منطقي أو مركب أنواع"
+
+#, c-format
+msgid "'%s' operator requires 2 arguments"
+msgstr "'%s' عامل يتطلب 2 وسائط"
+
+#, c-format
+msgid "invalid 'x' type in 'x %s y'"
+msgstr "نوع 'x' غير صالح في 'x %s y'"
+
+#, c-format
+msgid "invalid 'y' type in 'x %s y'"
+msgstr "نوع 'y' غير صالح في 'x %s y'"
+
+msgid "Unary operator `!' called with two arguments"
+msgstr "عامل أحادي `!' مسمّى مع two وسائط"
+
+#, c-format
+msgid "coercing argument of type '%s' to logical"
+msgstr "coercing وسيط من نوع '%s' إلى منطقي"
+
+msgid "dummy - do not translate"
+msgstr "dummy - لا translate"
+
+msgid "error during cleanup\n"
+msgstr "خطأ during cleanup\n"
+
+msgid "Execution halted\n"
+msgstr "Execution halted\n"
+
+msgid "Error: segfault from C stack overflow\n"
+msgstr "خطأ: segfault من C stack overflow\n"
+
+msgid "unable to open the base package\n"
+msgstr "تعذّر فتح base حزمة\n"
+
+#, c-format
+msgid "unable to restore saved data in %s\n"
+msgstr "تعذّر restore saved بيانات في %s\n"
+
+msgid "During startup - "
+msgstr "During startup - "
+
+msgid "unable to initialize the JIT\n"
+msgstr "تعذّر initialize the JIT\n"
+
+msgid "non-interactive browser() -- left over from debugging?"
+msgstr "non-interactive browser() -- left over من debugging?"
+
+msgid "cannot quit from browser"
+msgstr "لا يمكن quit من browser"
+
+msgid "one of \"yes\", \"no\", \"ask\" or \"default\" expected."
+msgstr "one من \"yes\", \"no\", \"ask\" أو \"default\" متوقّع."
+
+msgid "save=\"ask\" in non-interactive use: command-line default will be used"
+msgstr "حفظ=\"ask\" في non-interactive use: command-line افتراضي سيكون used"
+
+msgid "unrecognized value of 'save'"
+msgstr "unrecognized قيمة من 'save'"
+
+msgid "invalid 'status', 0 assumed"
+msgstr "'status', 0 assumed غير صالح"
+
+msgid "invalid 'runLast', FALSE assumed"
+msgstr "'runLast', خطأ assumed غير صالح"
+
+msgid "cannot allocate space for toplevel callback element"
+msgstr "لا يمكن تخصيص مساحة لـ toplevel callback element"
+
+msgid "negative index passed to R_removeTaskCallbackByIndex"
+msgstr "سالب فهرس تم تمريره إلى R_removeTaskCallbackByIndex"
+
+#, c-format
+msgid "warning messages from top-level task callback '%s'\n"
+msgstr "تحذير messages من top-مستوى task callback '%s'\n"
+
+msgid "top-level task callback did not return a logical value"
+msgstr "top-مستوى task callback did ليس return منطقي قيمة"
+
+msgid "argument 'MoreArgs' of 'mapply' is not a list or pairlist"
+msgstr "وسيط 'MoreArgs' من 'mapply' ليس قائمة أو pairlist"
+
+msgid "longer argument not a multiple of length of shorter"
+msgstr "longer وسيط ليس multiple من طول من shorter"
+
+msgid "invalid partial string match"
+msgstr "جزئي سلسلة match غير صالح"
+
+#, c-format
+msgid "formal argument \"%s\" matched by multiple actual arguments"
+msgstr "formal وسيط \"%s\" matched بواسطة multiple actual وسائط"
+
+#, c-format
+msgid "argument %d matches multiple formal arguments"
+msgstr "وسيط %d matches multiple formal وسائط"
+
+#, c-format
+msgid "unused argument %s"
+msgid_plural "unused arguments %s"
+msgstr[0] "وسائط غير مستخدمة %s"
+msgstr[1] "وسيط غير مستخدم %s"
+msgstr[2] "وسائط غير مستخدمة %s"
+msgstr[3] "وسائط غير مستخدمة %s"
+msgstr[4] "وسائط غير مستخدمة %s"
+msgstr[5] "وسائط غير مستخدمة %s"
+
+msgid "a limit lower than current usage, so ignored"
+msgstr "تم تجاهل limit lower than حالي usage, so"
+
+msgid "can only weakly reference/finalize reference objects"
+msgstr "can فقط weakly مرجع/finalize مرجع كائنات"
+
+msgid "finalizer must be a function or NULL"
+msgstr "يجب أن يكون finalizer دالة أو NULL"
+
+msgid "not a weak reference"
+msgstr "ليس weak مرجع"
+
+msgid "first argument must be environment or external pointer"
+msgstr "يجب أن يكون الأول وسيط بيئة أو مؤشر خارجي"
+
+msgid "second argument must be a function"
+msgstr "يجب أن يكون الثاني وسيط دالة"
+
+msgid "third argument must be 'TRUE' or 'FALSE'"
+msgstr "يجب أن يكون third وسيط 'TRUE' أو 'FALSE'"
+
+msgid "vector memory exhausted"
+msgstr "متجه ذاكرة exhausted"
+
+#, c-format
+msgid "vector memory limit of %0.1f %s reached, see mem.maxVSize()"
+msgstr "متجه ذاكرة limit من %0.1f %s reached, see mem.maxVSize()"
+
+msgid "cons memory exhausted"
+msgstr "cons ذاكرة exhausted"
+
+#, c-format
+msgid "cons memory limit of %llu nodes reached, see mem.maxNSize()"
+msgstr "cons ذاكرة limit من %llu nodes reached, see mem.maxNSize()"
+
+msgid "memory exhausted"
+msgstr "ذاكرة exhausted"
+
+#, c-format
+msgid "cannot allocate memory block of size %0.f %s"
+msgstr "لا يمكن allocate ذاكرة block من size %0.f %s"
+
+#, c-format
+msgid "cannot allocate memory block of size %0.1f %s"
+msgstr "لا يمكن allocate ذاكرة block من size %0.1f %s"
+
+#, c-format
+msgid "cannot allocate vector of length %lld"
+msgstr "لا يمكن تخصيص متجه بطول %lld"
+
+msgid "negative length vectors are not allowed"
+msgstr "لا يُسمح بالمتجهات ذات الطول السالب"
+
+#, c-format
+msgid "invalid type/length (%s/%lld) in vector allocation"
+msgstr "نوع/طول (%s/%lld) في متجه تخصيص غير صالح"
+
+#, c-format
+msgid "cannot allocate vector of size %0.1f %s"
+msgstr "لا يمكن تخصيص متجه بحجم %0.1f %s"
+
+#, c-format
+msgid "cannot allocate vector of size %0.f %s"
+msgstr "لا يمكن allocate متجه من size %0.f %s"
+
+#, c-format
+msgid "unprotect(): only %d protected item"
+msgid_plural "unprotect(): only %d protected items"
+msgstr[0] "unprotect(): فقط %d protected items"
+msgstr[1] "unprotect(): فقط %d protected عنصر"
+msgstr[2] "unprotect(): فقط %d protected items"
+msgstr[3] "unprotect(): فقط %d protected items"
+msgstr[4] "unprotect(): فقط %d protected items"
+msgstr[5] "unprotect(): فقط %d protected items"
+
+msgid "unprotect_ptr: pointer not found"
+msgstr "لم يتم العثور على unprotect_ptr: pointer"
+
+#, c-format
+msgid "R_Reprotect: only %d protected item, can't reprotect index %d"
+msgid_plural "R_Reprotect: only %d protected items, can't reprotect index %d"
+msgstr[0] "R_Reprotect: فقط %d protected items, can't reprotect فهرس %d"
+msgstr[1] "R_Reprotect: فقط %d protected عنصر, can't reprotect فهرس %d"
+msgstr[2] "R_Reprotect: فقط %d protected items, can't reprotect فهرس %d"
+msgstr[3] "R_Reprotect: فقط %d protected items, can't reprotect فهرس %d"
+msgstr[4] "R_Reprotect: فقط %d protected items, can't reprotect فهرس %d"
+msgstr[5] "R_Reprotect: فقط %d protected items, can't reprotect فهرس %d"
+
+#, c-format
+msgid "'R_Calloc' could not allocate memory (%llu of %llu bytes)"
+msgstr "تعذّر على 'R_Calloc' تخصيص الذاكرة (%llu من %llu بايت)"
+
+#, c-format
+msgid "'R_Realloc' could not re-allocate memory (%llu bytes)"
+msgstr "تعذّر على 'R_Realloc' إعادة تخصيص الذاكرة (%llu بايت)"
+
+#, c-format
+msgid "object is too large (%llu bytes)"
+msgstr "كائن هو كبير جدًا (%llu بايت)"
+
+#, c-format
+msgid "%s: argument of type %s is not an external pointer"
+msgstr "%s: وسيطة من النوع %s ليست مؤشرا خارجيا"
+
+#, c-format
+msgid "can't change type from %s to %s"
+msgstr "can't change نوع من %s إلى %s"
+
+#, c-format
+msgid "can't change the type of an ALTREP object from %s to %s"
+msgstr "can't change نوع من ALTREP كائن من %s إلى %s"
+
+msgid "can't change the type of a binding cell"
+msgstr "can't change نوع من binding cell"
+
+#, c-format
+msgid "SETLENGTH() can only be applied to a standard vector, not a '%s'"
+msgstr "SETLENGTH() can فقط be applied إلى standard متجه, ليس '%s'"
+
+#, c-format
+msgid "attempt access index %lld/%lld in STRING_ELT"
+msgstr "محاولة access فهرس %lld/%lld في سلسلة_ELT"
+
+#, c-format
+msgid "attempt access index %lld/%lld in VECTOR_ELT"
+msgstr "محاولة access فهرس %lld/%lld في متجه_ELT"
+
+#, c-format
+msgid "attempt to set index %lld/%lld in SET_STRING_ELT"
+msgstr "محاولة إلى set فهرس %lld/%lld في SET_سلسلة_ELT"
+
+#, c-format
+msgid "attempt to set index %lld/%lld in SET_VECTOR_ELT"
+msgstr "محاولة إلى set فهرس %lld/%lld في SET_متجه_ELT"
+
+msgid "bad value"
+msgstr "bad قيمة"
+
+#, c-format
+msgid "%s: argument of type %s is not a closure"
+msgstr "%s: وسيطة من النوع %s ليست إغلاقا"
+
+#, c-format
+msgid "%s: argument of type %s is not a symbol or NULL"
+msgstr "%s: وسيط من نوع %s ليس رمز أو NULL"
+
+#, c-format
+msgid "%s: argument of type %s is not an environment or NULL"
+msgstr "%s: وسيطة من النوع %s ليست بيئة أو NULL"
+
+msgid "cycles in parent chains are not allowed"
+msgstr "cycles في parent chains ليست allowed"
+
+msgid "memory profiling is not available on this system"
+msgstr "ذاكرة profiling ليس متاح على this system"
+
+#, c-format
+msgid "Rprofmem: cannot open output file '%s'"
+msgstr "Rprofmem: لا يمكن فتح إخراج ملف '%s'"
+
+#, c-format
+msgid "long vectors not supported yet: %s:%d"
+msgstr "المتجهات الطويلة ليس مدعوم yet: %s:%d"
+
+#, c-format
+msgid "cannot make a resizable vector of type '%s'"
+msgstr "لا يمكن make a resizable متجه من نوع '%s'"
+
+msgid "ALTREP objects cannot be made resizable"
+msgstr "لا يمكن أن يكون ALTREP كائنات made resizable"
+
+msgid "cannot make non-vector objects resizable"
+msgstr "لا يمكن make non-متجه كائنات resizable"
+
+msgid "invalid negative 'newlen'"
+msgstr "سالب 'newlen' غير صالح"
+
+msgid "not a resizable vector"
+msgstr "ليس resizable متجه"
+
+msgid "'newlen' is too large"
+msgstr "'newlen' كبير جدًا"
+
+msgid "string argument required"
+msgstr "سلسلة وسيط مطلوب"
+
+msgid "no such primitive function"
+msgstr "لا يوجد such primitive دالة"
+
+msgid "attempt to use zero-length variable name"
+msgstr "محاولة إلى use zero-طول variable اسم"
+
+#, c-format
+msgid "variable names are limited to %d bytes"
+msgstr "variable أسماء هي limited إلى %d بايت"
+
+msgid "invalid .Internal() argument"
+msgstr ".داخلي() وسيط غير صالح"
+
+msgid "generic 'function' is not a function"
+msgstr "generic 'function' ليس دالة"
+
+msgid "bad generic call environment"
+msgstr "bad generic استدعاء بيئة"
+
+msgid "bad generic definition environment"
+msgstr "bad generic definition بيئة"
+
+msgid "no '.S3MethodsClass' table, cannot use S4 objects with S3 methods ('methods' package not attached?)"
+msgstr "لا يوجد جدول '.S3MethodsClass'، لا يمكن استخدام كائنات S4 مع طرق S3 (هل حزمة 'methods' غير مرفقة؟)"
+
+msgid "there must be a 'generic' argument"
+msgstr "يجب أن يكون there 'generic' وسيط"
+
+msgid "'generic' argument must be a character string"
+msgstr "يجب أن يكون 'generic' وسيط سلسلة نصية"
+
+msgid "'UseMethod' used in an inappropriate fashion"
+msgstr "'UseMethod' used في inappropriate fashion"
+
+#, c-format
+msgid "illegal class of length 0 when using method for '%s'"
+msgstr "illegal صنف من طول 0 when using طريقة لـ '%s'"
+
+#, c-format
+msgid "no applicable method for '%s' applied to an object of class \"%s\""
+msgstr "لا يوجد applicable طريقة لـ '%s' applied إلى an كائن من صنف \"%s\""
+
+msgid "'NextMethod' called from outside a function"
+msgstr "'NextMethod' مسمّى من outside دالة"
+
+msgid "'NextMethod' called from an anonymous function"
+msgstr "'NextMethod' مسمّى من anonymous دالة"
+
+msgid "no calling generic was found: was a method called directly?"
+msgstr "لا يوجد calling generic was found: was a طريقة مسمّى directly?"
+
+#, c-format
+msgid "'function' is not a function, but of type %d"
+msgstr "'function' ليس دالة, but من نوع %d"
+
+msgid "wrong argument ..."
+msgstr "wrong وسيط..."
+
+msgid "object not specified"
+msgstr "كائن ليس specified"
+
+msgid "generic function not specified"
+msgstr "generic دالة ليس specified"
+
+msgid "invalid generic argument to 'NextMethod'"
+msgstr "generic وسيط إلى 'NextMethod' غير صالح"
+
+msgid "invalid 'group' argument found in 'NextMethod'"
+msgstr "'group' وسيط found في 'NextMethod' غير صالح"
+
+msgid "wrong value for .Method"
+msgstr "wrong قيمة لـ.طريقة"
+
+msgid "Incompatible methods ignored"
+msgstr "تم تجاهل Incompatible methods"
+
+msgid "no method to invoke"
+msgstr "لا يوجد طريقة إلى invoke"
+
+msgid "cannot unclass an environment"
+msgstr "لا يمكن unclass an بيئة"
+
+msgid "cannot unclass an external pointer"
+msgstr "لا يمكن unclass an مؤشر خارجي"
+
+msgid "'what' must be a character vector or an object with a nameOfClass() method"
+msgstr "يجب أن يكون 'what' متجه نصي أو an كائن مع a nameOfClass() طريقة"
+
+msgid "'which' must be a length 1 logical vector"
+msgstr "يجب أن يكون 'which' طول 1 متجه منطقي"
+
+msgid "could not find correct environment; please report!"
+msgstr "تعذّر العثور على correct بيئة; please report!"
+
+msgid "'onOff' must be TRUE or FALSE"
+msgstr "يجب أن يكون 'onOff' صحيح أو خطأ"
+
+#, c-format
+msgid "unable to find a non-generic version of function \"%s\""
+msgstr "تعذّر العثور على non-generic إصدار من دالة \"%s\""
+
+msgid "'standardGeneric' called without 'methods' dispatch enabled (will be ignored)"
+msgstr "'standardGeneric' مسمّى without 'methods' dispatch enabled (سيكون متجاهل)"
+
+msgid "argument to 'standardGeneric' must be a non-empty character string"
+msgstr "يجب أن يكون وسيط إلى 'standardGeneric' سلسلة نصية غير فارغة"
+
+#, c-format
+msgid "call to standardGeneric(\"%s\") apparently not from the body of that generic function"
+msgstr "استدعاء إلى standardGeneric(\"%s\") apparently ليس من body من that generic دالة"
+
+#, c-format
+msgid "invalid primitive methods code (\"%s\"): should be \"clear\", \"reset\", \"set\", or \"suppress\""
+msgstr "ينبغي أن يكون غير صالح primitive methods code (\"%s\"): \"clear\", \"reset\", \"set\", أو \"suppress\""
+
+msgid "invalid object: must be a primitive function"
+msgstr "يجب أن يكون غير صالح كائن: primitive دالة"
+
+#, c-format
+msgid "the formal definition of a primitive generic must be a function object (got type '%s')"
+msgstr "يجب أن يكون formal definition من a primitive generic دالة كائن (got نوع '%s')"
+
+#, c-format
+msgid "object returned as generic function \"%s\" does not appear to be one"
+msgstr "كائن returned as generic دالة \"%s\" لا appear إلى be one"
+
+msgid "invalid primitive operation given for dispatch"
+msgstr "primitive operation given لـ dispatch غير صالح"
+
+msgid "dispatch error"
+msgstr "dispatch خطأ"
+
+#, c-format
+msgid "primitive function \"%s\" has been set for methods but no generic function supplied"
+msgstr "primitive دالة \"%s\" has been set لـ methods but no generic دالة المقدّمة"
+
+msgid "C level MAKE_CLASS macro called with NULL string pointer"
+msgstr "C مستوى MAKE_صنف macro مسمّى مع NULL سلسلة pointer"
+
+msgid "'methods' package not yet loaded"
+msgstr "'methods' حزمة ليس yet تم تحميله"
+
+msgid "R_getClassDef(.) called with NULL string pointer"
+msgstr "R_getClassDef(.) مسمّى مع NULL سلسلة pointer"
+
+msgid "C level NEW macro called with null class definition pointer"
+msgstr "C مستوى NEW macro مسمّى مع null صنف definition pointer"
+
+#, c-format
+msgid "trying to generate an object from a virtual class (\"%s\")"
+msgstr "المحاولة إلى generate كائن من virtual صنف (\"%s\")"
+
+#, c-format
+msgid "object of class \"%s\" does not correspond to a valid S3 object"
+msgstr "كائن من صنف \"%s\" لا correspond إلى صالح S3 كائن"
+
+msgid "corrupted options list"
+msgstr "corrupted options قائمة"
+
+#, c-format
+msgid "invalid printing width %d, used 80"
+msgstr "printing width %d, used 80 غير صالح"
+
+msgid "invalid printing width"
+msgstr "printing width غير صالح"
+
+#, c-format
+msgid "invalid printing digits %d, used 7"
+msgstr "printing digits %d, used 7 غير صالح"
+
+#, c-format
+msgid "invalid printing digits %d"
+msgstr "printing digits %d غير صالح"
+
+msgid "invalid 'scipen'"
+msgstr "'scipen' غير صالح"
+
+#, c-format
+msgid "setting scipen=%g is out of range"
+msgstr "setting scipen=%g is خارج النطاق"
+
+#, c-format
+msgid "invalid 'scipen' %d, used %d"
+msgstr "قيمة 'scipen' %d غير صالحة، تم استخدام %d"
+
+#, c-format
+msgid "invalid 'scipen' %d"
+msgstr "قيمة غير صالحة %dس"
+
+msgid "invalid 'deparse.cutoff', used 60"
+msgstr "'deparse.cutoff', used 60 غير صالح"
+
+msgid "invalid value for \"device.ask.default\", using FALSE"
+msgstr "قيمة لـ \"device.ask.default\", using خطأ غير صالح"
+
+#, c-format
+msgid "invalid value for '%s'"
+msgstr "قيمة لـ '%s' غير صالح"
+
+msgid "list argument has no valid names"
+msgstr "قائمة وسيط has no صالح أسماء"
+
+#, c-format
+msgid "option '%s' cannot be deleted"
+msgstr "لا يمكن أن يكون option '%s' deleted"
+
+#, c-format
+msgid "invalid '%s' parameter, allowed %d...%d"
+msgstr "'%s' معامل, allowed %d...%d غير صالح"
+
+#, c-format
+msgid "value for '%s' outside of -1:2 is set to %d\n"
+msgstr "قيمة لـ '%s' outside من -1:2 هو set إلى %d\n"
+
+msgid "'OutDec' must be a string of one character"
+msgstr "يجب أن يكون 'OutDec' سلسلة من one نصي"
+
+msgid "\"par.ask.default\" has been replaced by \"device.ask.default\""
+msgstr "\"par.ask.default\" has been replaced بواسطة \"device.ask.default\""
+
+msgid "OpenMP SIMD is not supported in this build of R"
+msgstr "OpenMP SIMD ليس مدعوم في this build من R"
+
+msgid "'PCRE_study' has no effect with PCRE2"
+msgstr "'PCRE_study' has no effect مع PCRE2"
+
+#, c-format
+msgid "'%s' is deprecated and will be disabled"
+msgstr "'%s' هو مهمل و سيكون disabled"
+
+msgid "cannot set both options 'quiet' and 'verbose' to TRUE"
+msgstr "لا يمكن تعيين both options 'quiet' و 'verbose' إلى صحيح"
+
+msgid "invalid argument"
+msgstr "وسيط غير صالح"
+
+#, c-format
+msgid "%d argument passed to .Internal(%s) which requires %d"
+msgid_plural "%d arguments passed to .Internal(%s) which requires %d"
+msgstr[0] "%d وسائط تم تمريره إلى.داخلي(%s) which يتطلب %d"
+msgstr[1] "%d وسيط تم تمريره إلى.داخلي(%s) which يتطلب %d"
+msgstr[2] "%d وسائط تم تمريره إلى.داخلي(%s) which يتطلب %d"
+msgstr[3] "%d وسائط تم تمريره إلى.داخلي(%s) which يتطلب %d"
+msgstr[4] "%d وسائط تم تمريره إلى.داخلي(%s) which يتطلب %d"
+msgstr[5] "%d وسائط تم تمريره إلى.داخلي(%s) which يتطلب %d"
+
+msgid "invalid separator"
+msgstr "separator غير صالح"
+
+#, c-format
+msgid "non-string argument to .Internal(%s)"
+msgstr "non-سلسلة وسيط إلى.داخلي(%s)"
+
+msgid "result would exceed 2^31-1 bytes"
+msgstr "result would exceed 2^31-1 بايت"
+
+msgid "strings with \"bytes\" encoding are not allowed"
+msgstr "سلاسل مع \"bytes\" ترميز ليست allowed"
+
+msgid "first argument must be atomic or environment"
+msgstr "يجب أن يكون الأول وسيط atomic أو بيئة"
+
+#, c-format
+msgid "invalid value %d for '%s' argument"
+msgstr "قيمة %d غير صالحة للوسيطة '%s'"
+
+msgid "'decimal.mark' must be a string of one character"
+msgstr "يجب أن يكون 'decimal.mark' سلسلة من one نصي"
+
+msgid "Impossible mode ( x )"
+msgstr "Impossible نمط ( x )"
+
+msgid "atomic vector arguments only"
+msgstr "atomic متجه وسائط فقط"
+
+msgid "pattern is not a linear gradient"
+msgstr "pattern ليس linear gradient"
+
+msgid "pattern is not a radial gradient"
+msgstr "pattern ليس radial gradient"
+
+msgid "pattern is not a tiling pattern"
+msgstr "pattern ليس tiling pattern"
+
+msgid "invalid filename specification"
+msgstr "filename specification غير صالح"
+
+msgid "write error during file append"
+msgstr "خطأ في الكتابة أثناء إلحاق الملف"
+
+msgid "nothing to append to"
+msgstr "nothing إلى append إلى"
+
+msgid "invalid filename argument"
+msgstr "filename وسيط غير صالح"
+
+#, c-format
+msgid "cannot create file '%s', reason '%s'"
+msgstr "لا يمكن إنشاء ملف '%s', reason '%s'"
+
+msgid "invalid first filename"
+msgstr "الأول filename غير صالح"
+
+#, c-format
+msgid "cannot remove file '%s', reason '%s'"
+msgstr "لا يمكن إزالة ملف '%s', reason '%s'"
+
+msgid "invalid second filename"
+msgstr "الثاني filename غير صالح"
+
+msgid "nothing to link"
+msgstr "nothing إلى link"
+
+#, c-format
+msgid "cannot symlink '%ls' to '%ls', reason '%s'"
+msgstr "لا يمكن symlink '%ls' إلى '%ls', reason '%s'"
+
+#, c-format
+msgid "cannot symlink '%s' to '%s', reason '%s'"
+msgstr "لا يمكن symlink '%s' إلى '%s', reason '%s'"
+
+msgid "symbolic links are not supported on this platform"
+msgstr "symbolic links ليست مدعوم على this المنصة"
+
+#, c-format
+msgid "cannot link '%ls' to '%ls', reason '%s'"
+msgstr "لا يمكن link '%ls' إلى '%ls', reason '%s'"
+
+#, c-format
+msgid "cannot link '%s' to '%s', reason '%s'"
+msgstr "لا يمكن link '%s' إلى '%s', reason '%s'"
+
+msgid "(hard) links are not supported on this platform"
+msgstr "(hard) links ليست مدعوم على this المنصة"
+
+#, c-format
+msgid "'%s' and '%s' are of different lengths"
+msgstr "'%s' و '%s' هي من مختلف lengths"
+
+#, c-format
+msgid "cannot rename file '%ls' to '%ls', reason '%s'"
+msgstr "لا يمكن rename ملف '%ls' إلى '%ls', reason '%s'"
+
+msgid "expanded 'from' name too long"
+msgstr "expanded 'من' اسم طويل جدًا"
+
+msgid "expanded 'to' name too long"
+msgstr "expanded 'إلى' اسم طويل جدًا"
+
+#, c-format
+msgid "cannot rename file '%s' to '%s', reason '%s'"
+msgstr "لا يمكن rename ملف '%s' إلى '%s', reason '%s'"
+
+#, c-format
+msgid "cannot resolve owner of file '%ls': %s"
+msgstr "لا يمكن resolve owner من ملف '%ls': %s"
+
+#, c-format
+msgid "error while listing a directory: '%s'"
+msgstr "خطأ while listing دليل: '%s'"
+
+msgid "over-long path"
+msgstr "over-long مسار"
+
+msgid "invalid 'pattern' regular expression"
+msgstr "'pattern' تعبير نظامي غير صالح"
+
+msgid "unable to determine R home location"
+msgstr "تعذّر determine R home location"
+
+msgid "file name too long"
+msgstr "ملف اسم طويل جدًا"
+
+msgid "internal out-of-memory condition"
+msgstr "داخلي out-من-ذاكرة condition"
+
+#, c-format
+msgid "read error on '%s'"
+msgstr "قراءة خطأ على '%s'"
+
+msgid "setting 'LC_NUMERIC' may cause R to function strangely"
+msgstr "setting 'LC_NUMERIC' may cause R إلى دالة strangely"
+
+#, c-format
+msgid "%s does not exist on Windows"
+msgstr "%s لا exist على Windows"
+
+#, c-format
+msgid "OS reports request to set locale to \"%s\" cannot be honored"
+msgstr "لا يمكن أن يكون OS reports request إلى set بيئة محلية إلى \"%s\" honored"
+
+#, c-format
+msgid "using locale code page other than %d%s may cause problems"
+msgstr "using بيئة محلية code page other than %d%s may cause problems"
+
+msgid "zero-length 'path' argument"
+msgstr "zero-طول 'path' وسيط"
+
+#, c-format
+msgid "'%s' already exists"
+msgstr "'%s' بالفعل exists"
+
+#, c-format
+msgid "cannot create dir '%s', reason '%s'"
+msgstr "لا يمكن إنشاء dir '%s', reason '%s'"
+
+#, c-format
+msgid "'%ls' already exists"
+msgstr "'%ls' بالفعل exists"
+
+#, c-format
+msgid "cannot create dir '%ls', reason '%s'"
+msgstr "لا يمكن إنشاء dir '%ls', reason '%s'"
+
+msgid "too deep nesting"
+msgstr "too deep nesting"
+
+#, c-format
+msgid "cannot overwrite non-directory %ls with directory %ls"
+msgstr "لا يمكن overwrite non-دليل %ls مع دليل %ls"
+
+#, c-format
+msgid "problem creating directory %ls: %s"
+msgstr "مشكلة creating دليل %ls: %s"
+
+#, c-format
+msgid "problem reading directory %ls: %s"
+msgstr "مشكلة reading دليل %ls: %s"
+
+#, c-format
+msgid "problem copying %ls to %ls: %s"
+msgstr "مشكلة copying %ls إلى %ls: %s"
+
+#, c-format
+msgid "cannot overwrite non-directory %s with directory %s"
+msgstr "لا يمكن overwrite non-دليل %s مع دليل %s"
+
+#, c-format
+msgid "problem creating directory %s: %s"
+msgstr "مشكلة creating دليل %s: %s"
+
+#, c-format
+msgid "problem reading directory %s: %s"
+msgstr "مشكلة reading دليل %s: %s"
+
+#, c-format
+msgid "problem copying %s to %s: %s"
+msgstr "مشكلة copying %s إلى %s: %s"
+
+msgid "'mode' must be of length at least one"
+msgstr "يجب أن يكون 'mode' من طول at least one"
+
+msgid "insufficient OS support on this platform"
+msgstr "insufficient OS support على this المنصة"
+
+#, c-format
+msgid "'%s' must be of length at least one"
+msgstr "يجب أن يكون '%s' من طول at least one"
+
+#, c-format
+msgid "contour(): circular/long seglist -- set %s > %d?"
+msgstr "contour(): circular/long seglist -- set %s > %d?"
+
+msgid "all z values are equal"
+msgstr "all z قيم هي equal"
+
+msgid "all z values are NA"
+msgstr "all z قيم هي NA"
+
+msgid "invalid math style encountered"
+msgstr "math style encountered غير صالح"
+
+msgid "invalid mathematical annotation"
+msgstr "mathematical annotation غير صالح"
+
+msgid "invalid accent"
+msgstr "accent غير صالح"
+
+msgid "invalid group delimiter"
+msgstr "group delimiter غير صالح"
+
+msgid "invalid group specification"
+msgstr "group specification غير صالح"
+
+msgid "group is incomplete"
+msgstr "group هو incomplete"
+
+msgid "Metric information not available for this family/device"
+msgstr "Metric information ليس متاح لـ this family/device"
+
+msgid "invalid 'na.print' specification"
+msgstr "'na.print' specification غير صالح"
+
+msgid "invalid row labels"
+msgstr "صف labels غير صالح"
+
+msgid "invalid column labels"
+msgstr "عمود labels غير صالح"
+
+msgid "'gap' must be non-negative integer"
+msgstr "يجب أن يكون 'gap' غير سالب عدد صحيح"
+
+#, c-format
+msgid "'print.gap' must be less than %d"
+msgstr "يجب أن يكون 'print.gap' أقل من %d"
+
+msgid "print buffer overflow"
+msgstr "print buffer overflow"
+
+msgid "invalid character length in 'dblepr'"
+msgstr "نصي طول في 'dblepr' غير صالح"
+
+msgid "invalid character length in 'intpr'"
+msgstr "نصي طول في 'intpr' غير صالح"
+
+msgid "invalid character length in 'realpr'"
+msgstr "نصي طول في 'realpr' غير صالح"
+
+msgid "memory allocation error in 'realpr'"
+msgstr "تخصيص الذاكرة خطأ في 'realpr'"
+
+#, c-format
+msgid "BLAS/LAPACK routine '%6s' gave error code %d"
+msgstr "BLAS/LAPACK routine '%6s' gave خطأ code %d"
+
+msgid "too few row labels"
+msgstr "too few صف labels"
+
+msgid "too few column labels"
+msgstr "too few عمود labels"
+
+#, c-format
+msgid " %d row"
+msgid_plural " %d rows"
+msgstr[0] " %d صفوف"
+msgstr[1] " %d صف"
+msgstr[2] " %d صفوف"
+msgstr[3] " %d صفوف"
+msgstr[4] " %d صفوف"
+msgstr[5] " %d صفوف"
+
+msgid " and"
+msgstr " و"
+
+#, c-format
+msgid " %d column"
+msgid_plural " %d columns"
+msgstr[0] " %d أعمدة"
+msgstr[1] " %d عمود"
+msgstr[2] " %d أعمدة"
+msgstr[3] " %d أعمدة"
+msgstr[4] " %d أعمدة"
+msgstr[5] " %d أعمدة"
+
+#, c-format
+msgid " %d slice"
+msgid_plural " %d slices"
+msgstr[0] " %d slices"
+msgstr[1] " %d slice"
+msgstr[2] " %d slices"
+msgstr[3] " %d slices"
+msgstr[4] " %d slices"
+msgstr[5] " %d slices"
+
+#, c-format
+msgid "the decimal mark is %s than one character wide; this will become an error"
+msgstr "decimal mark هو %s than one نصي wide; this سوف become خطأ"
+
+#, c-format
+msgid "too large string (nchar=%d) => 5*nchar + 8 > SIZE_MAX"
+msgstr "كبير جدًا سلسلة (nchar=%d) => 5*nchar + 8 > SIZE_MAX"
+
+msgid "it is not known that wchar_t is Unicode on this platform"
+msgstr "ليس معروفًا أن wchar_t هو Unicode على هذه المنصة"
+
+msgid "argument is not a numeric vector"
+msgstr "وسيط ليس متجه رقمي"
+
+msgid "Character encoding must be UTF-8, Latin-1 or bytes"
+msgstr "يجب أن يكون نصي ترميز UTF-8, Latin-1 أو بايت"
+
+#, c-format
+msgid "argument %d is not a vector"
+msgstr "وسيط %d ليس متجه"
+
+msgid "argument lengths differ"
+msgstr "وسيط lengths differ"
+
+msgid "length(decreasing) must match the number of order arguments"
+msgstr "طول(decreasing) must match number من order وسائط"
+
+msgid "'decreasing' elements must be TRUE or FALSE"
+msgstr "يجب أن يكون 'decreasing' elements صحيح أو خطأ"
+
+msgid "long vectors not supported"
+msgstr "المتجهات الطويلة غير مدعوم"
+
+msgid "invalid arguments"
+msgstr "وسائط غير صالح"
+
+msgid "NAs produced"
+msgstr "تم إنتاج قيم NA"
+
+msgid "NA in probability vector"
+msgstr "NA في probability متجه"
+
+msgid "negative probability"
+msgstr "سالب probability"
+
+msgid "too few positive probabilities"
+msgstr "too few موجب probabilities"
+
+msgid "cannot take a sample larger than the population when 'replace = FALSE'"
+msgstr "لا يمكن take a sample larger than the population when 'replace = FALSE'"
+
+msgid "incorrect number of probabilities"
+msgstr "incorrect number من probabilities"
+
+msgid "n >= 2^31, replace = FALSE is only supported on 64-bit platforms"
+msgstr "n >= 2^31, replace = خطأ هو فقط مدعوم على 64-bit platforms"
+
+msgid "argument must be a character vector of length 1"
+msgstr "يجب أن يكون وسيط متجه نصي من طول 1"
+
+msgid ""
+"argument should be a character vector of length 1\n"
+"all but the first element will be ignored"
+msgstr "ينبغي أن يكون وسيط متجه نصي من طول 1 all but the الأول element will be متجاهل"
+
+msgid "argument 'x' must be a raw vector"
+msgstr "يجب أن يكون وسيط 'x' متجه خام"
+
+msgid "argument 'multiple' must be TRUE or FALSE"
+msgstr "يجب أن يكون وسيط 'multiple' صحيح أو خطأ"
+
+msgid "argument 'n' must be a small integer"
+msgstr "يجب أن يكون وسيط 'n' small عدد صحيح"
+
+msgid "argument 'x' must be an integer vector"
+msgstr "يجب أن يكون وسيط 'x' متجه أعداد صحيحة"
+
+msgid "argument 'x' must be raw, integer or logical"
+msgstr "يجب أن يكون وسيط 'x' خام, عدد صحيح أو منطقي"
+
+#, c-format
+msgid "argument 'x' must be a multiple of %d long"
+msgstr "يجب أن يكون وسيط 'x' multiple من %d long"
+
+msgid "argument 'x' must not contain NAs"
+msgstr "وسيط 'x' must ليس يحتوي على NAs"
+
+msgid "invalid UTF-8 string"
+msgstr "UTF-8 سلسلة غير صالح"
+
+msgid "argument 'allow_surrogate_pairs' must be TRUE or FALSE"
+msgstr "يجب أن يكون وسيط 'allow_surrogate_pairs' صحيح أو خطأ"
+
+#, c-format
+msgid "comparison (%s) is not possible for language types"
+msgstr "comparison (%s) ليس ممكن لـ language أنواع"
+
+msgid "comparing this symbol and string pair is not supported"
+msgstr "comparing this رمز و سلسلة pair is غير مدعوم"
+
+msgid "comparison of call objects is not supported"
+msgstr "comparison من استدعاء كائنات is غير مدعوم"
+
+msgid "comparison of language objects is not supported"
+msgstr "comparison من language كائنات is غير مدعوم"
+
+#, c-format
+msgid "comparison (%s) is possible only for atomic and list types"
+msgstr "comparison (%s) هو ممكن فقط لـ atomic و قائمة أنواع"
+
+msgid "comparison is not allowed for expressions"
+msgstr "comparison ليس allowed لـ تعابير"
+
+msgid "comparison of these types is not implemented"
+msgstr "comparison من these أنواع is غير منفّذ"
+
+msgid "invalid comparison with complex values"
+msgstr "comparison مع مركب قيم غير صالح"
+
+msgid "'a' and 'b' must have the same type"
+msgstr "'a' و 'b' must have same نوع"
+
+msgid "read error"
+msgstr "قراءة خطأ"
+
+msgid "a I read error occurred"
+msgstr "I قراءة خطأ occurred"
+
+msgid "a R read error occurred"
+msgstr "R قراءة خطأ occurred"
+
+msgid "a C read error occurred"
+msgstr "C قراءة خطأ occurred"
+
+msgid "a S read error occurred"
+msgstr "S قراءة خطأ occurred"
+
+msgid "a read error occurred"
+msgstr "قراءة خطأ occurred"
+
+msgid "unresolved node during restore"
+msgstr "unresolved node during restore"
+
+#, c-format
+msgid "restore compatibility error - no version %d compatibility"
+msgstr "restore compatibility خطأ - no إصدار %d compatibility"
+
+msgid "bad SEXP type in data file"
+msgstr "bad SEXP نوع في بيانات ملف"
+
+msgid "mismatch on types"
+msgstr "mismatch على أنواع"
+
+#, c-format
+msgid "unrecognized internal function name \"%s\""
+msgstr "unrecognized داخلي دالة اسم \"%s\""
+
+msgid "cannot save file position while restoring data"
+msgstr "لا يمكن حفظ ملف position while restoring بيانات"
+
+msgid "cannot restore file position while restoring data"
+msgstr "لا يمكن restore ملف position while restoring بيانات"
+
+msgid "base namespace is not preserved in version 1 workspaces"
+msgstr "base نطاق أسماء ليس preserved في إصدار 1 workspaces"
+
+msgid "cannot save namespace in version 1 workspaces"
+msgstr "لا يمكن حفظ نطاق أسماء في إصدار 1 workspaces"
+
+msgid "cannot save environment with locked/active bindings in version 1 workspaces"
+msgstr "لا يمكن حفظ بيئة مع locked/active bindings في إصدار 1 workspaces"
+
+msgid "cannot save weak references in version 1 workspaces"
+msgstr "لا يمكن حفظ weak references في إصدار 1 workspaces"
+
+msgid "NewWriteVec called with non-vector type"
+msgstr "NewWriteVec مسمّى مع non-متجه نوع"
+
+msgid "cannot save byte code objects in version 1 workspaces"
+msgstr "لا يمكن حفظ بايت code كائنات في إصدار 1 workspaces"
+
+#, c-format
+msgid "NewWriteItem: unknown type %i"
+msgstr "NewWriteItem: نوع غير معروف %i"
+
+msgid "NewReadVec called with non-vector type"
+msgstr "NewReadVec مسمّى مع non-متجه نوع"
+
+msgid "cannot read byte code objects from version 1 workspaces"
+msgstr "لا يمكن قراءة بايت code كائنات من إصدار 1 workspaces"
+
+#, c-format
+msgid "NewReadItem: unknown type %i"
+msgstr "NewReadItem: نوع غير معروف %i"
+
+msgid "out of memory reading ascii string"
+msgstr "out من ذاكرة reading ascii سلسلة"
+
+msgid "a binary read error occurred"
+msgstr "binary قراءة خطأ occurred"
+
+msgid "out of memory reading binary string"
+msgstr "out من ذاكرة reading binary سلسلة"
+
+msgid "a binary string read error occurred"
+msgstr "binary سلسلة قراءة خطأ occurred"
+
+msgid "an xdr integer data write error occurred"
+msgstr "xdr عدد صحيح بيانات كتابة خطأ occurred"
+
+msgid "an xdr integer data read error occurred"
+msgstr "xdr عدد صحيح بيانات قراءة خطأ occurred"
+
+msgid "an xdr string data write error occurred"
+msgstr "xdr سلسلة بيانات كتابة خطأ occurred"
+
+msgid "an xdr real data write error occurred"
+msgstr "xdr real بيانات كتابة خطأ occurred"
+
+msgid "an xdr real data read error occurred"
+msgstr "xdr real بيانات قراءة خطأ occurred"
+
+msgid "an xdr complex data write error occurred"
+msgstr "xdr مركب بيانات كتابة خطأ occurred"
+
+msgid "an xdr complex data read error occurred"
+msgstr "xdr مركب بيانات قراءة خطأ occurred"
+
+msgid "write failed"
+msgstr "فشل كتابة"
+
+msgid "restore file may be empty -- no data loaded"
+msgstr "restore ملف قد يكون فارغ -- no بيانات تم تحميله"
+
+msgid "restore file may be from a newer version of R -- no data loaded"
+msgstr "restore ملف قد يكون من newer إصدار من R -- no بيانات تم تحميله"
+
+msgid "bad restore file magic number (file may be corrupted) -- no data loaded"
+msgstr "bad restore ملف magic number (ملف قد يكون corrupted) -- no بيانات تم تحميله"
+
+msgid "bad file name"
+msgstr "bad ملف اسم"
+
+msgid "unable to open 'file'"
+msgstr "تعذّر فتح 'file'"
+
+msgid "'file' must be non-empty string"
+msgstr "يجب أن يكون 'file' غير فارغ سلسلة"
+
+msgid "'ascii' must be logical"
+msgstr "يجب أن يكون 'ascii' منطقي"
+
+msgid "first argument must be a character vector"
+msgstr "يجب أن يكون الأول وسيط متجه نصي"
+
+msgid "not a valid named list"
+msgstr "ليس صالح named قائمة"
+
+#, c-format
+msgid "'%s' looks like a pre-2.4.0 S4 object: please recreate it"
+msgstr "'%s' looks like pre-2.4.0 S4 كائن: please recreate it"
+
+msgid "loaded data is not in pair list form"
+msgstr "تم تحميله بيانات is غير موجود في pair قائمة form"
+
+msgid "first argument must be a file name"
+msgstr "يجب أن يكون الأول وسيط ملف اسم"
+
+msgid "XDR write failed"
+msgstr "فشل XDR كتابة"
+
+msgid "XDR read failed"
+msgstr "فشل XDR قراءة"
+
+#, c-format
+msgid "cannot save data -- unable to open '%s': %s"
+msgstr "لا يمكن حفظ البيانات -- تعذّر فتح '%s': %s"
+
+#, c-format
+msgid "cannot save to connections in version %d format"
+msgstr "لا يمكن حفظ إلى اتصالات في إصدار %d format"
+
+msgid "connection not open for writing"
+msgstr "اتصال ليس فتح للكتابة"
+
+msgid "cannot save XDR format to a text-mode connection"
+msgstr "لا يمكن حفظ XDR format إلى a نص-نمط اتصال"
+
+msgid "error writing to connection"
+msgstr "خطأ writing إلى اتصال"
+
+msgid "connection not open for reading"
+msgstr "اتصال ليس فتح للقراءة"
+
+msgid "can only load() from a binary connection"
+msgstr "can فقط تحميل() من binary اتصال"
+
+msgid "no input is available"
+msgstr "لا يوجد إدخال is متاح"
+
+msgid "the input does not start with a magic number compatible with loading from a connection"
+msgstr "إدخال لا start مع magic number compatible مع loading من اتصال"
+
+msgid "EOF within quoted string"
+msgstr "EOF within quoted سلسلة"
+
+#, c-format
+msgid "scan() expected '%s', got '%s'"
+msgstr "scan() متوقّع '%s', got '%s'"
+
+msgid "too many items"
+msgstr "الكثير من العناصر"
+
+msgid "empty 'what' specified"
+msgstr "فارغ 'what' specified"
+
+#, c-format
+msgid "line %lld did not have %lld elements"
+msgstr "line %lld did ليس have %lld elements"
+
+msgid "number of items read is not a multiple of the number of columns"
+msgstr "number من items قراءة ليس multiple من the number من أعمدة"
+
+msgid "invalid 'strip.white' length"
+msgstr "'strip.white' طول غير صالح"
+
+msgid "invalid 'sep' value: must be one byte"
+msgstr "يجب أن يكون غير صالح 'sep' قيمة: one بايت"
+
+msgid "invalid decimal separator: must be one byte"
+msgstr "يجب أن يكون غير صالح decimal separator: one بايت"
+
+msgid "invalid decimal separator"
+msgstr "decimal separator غير صالح"
+
+msgid "invalid quote symbol set"
+msgstr "مجموعة رموز اقتباس غير صالحة"
+
+msgid "embedded nul(s) found in input"
+msgstr "embedded nul(s) found في إدخال"
+
+msgid "unequal factor lengths"
+msgstr "unequal عامل lengths"
+
+msgid "result would be too long a vector"
+msgstr "result would be طويل جدًا متجه"
+
+msgid "argument of length 0"
+msgstr "وسيط من طول 0"
+
+msgid "numerical expression has length > 1"
+msgstr "numerical تعبير طوله > 1"
+
+#, c-format
+msgid "numerical expression has %d elements: only the first used"
+msgstr "numerical تعبير has %d elements: فقط الأول used"
+
+msgid "NA/NaN argument"
+msgstr "NA/NaN وسيط"
+
+#, c-format
+msgid "invalid type (%s) for '%s' (must be a vector)"
+msgstr "نوع (%s) لـ '%s' (must be a متجه) غير صالح"
+
+#, c-format
+msgid "attempt to replicate an object of type '%s'"
+msgstr "محاولة إلى replicate كائن من نوع '%s'"
+
+msgid "attempt to replicate non-vector"
+msgstr "محاولة إلى replicate non-متجه"
+
+msgid "cannot replicate NULL to a non-zero length"
+msgstr "لا يمكن replicate NULL إلى a non-zero طول"
+
+#, c-format
+msgid "first element used of '%s' argument"
+msgstr "الأول element used من '%s' وسيط"
+
+#, c-format
+msgid "length(x) * '%s' * '%s' is too large"
+msgstr "طول(x) * '%s' * '%s' كبير جدًا"
+
+#, c-format
+msgid "invalid '%s' argument, given the value of '%s'"
+msgstr "'%s' وسيط, given the قيمة من '%s' غير صالح"
+
+#, c-format
+msgid "'%s' must be a finite number"
+msgstr "يجب أن يكون '%s' منتهٍ number"
+
+msgid "'length.out' must be a non-negative number"
+msgstr "يجب أن يكون 'length.out' غير سالب number"
+
+#, c-format
+msgid "'%s' must be of length 1"
+msgstr "يجب أن يكون '%s' من طول 1"
+
+msgid "invalid '(to - from)/by'"
+msgstr "'(إلى - من)/by' غير صالح"
+
+msgid "'by' argument is much too small"
+msgstr "'by' وسيط is much صغير جدًا"
+
+msgid "wrong sign in 'by' argument"
+msgstr "wrong sign في 'by' وسيط"
+
+msgid "argument must be coercible to non-negative integer"
+msgstr "يجب أن يكون وسيط coercible إلى غير سالب عدد صحيح"
+
+msgid "'nvec' is not of mode integer"
+msgstr "'nvec' ليس من النمط عدد صحيح"
+
+msgid "'from' is not of mode integer"
+msgstr "'من' ليس من النمط عدد صحيح"
+
+msgid "'by' is not of mode integer"
+msgstr "'by' ليس من النمط عدد صحيح"
+
+#, c-format
+msgid "'%s' has length 0, but not 'nvec'; 'recycle = TRUE' returns empty here"
+msgstr "'%s' طوله 0, but not 'nvec'; 'recycle = TRUE' returns فارغ here"
+
+#, fuzzy, c-format
+msgid "%s -- future R's default 'recycle = TRUE' will recycle 'nvec'"
+msgstr "%s -- future R`s افتراضي 'recycle = TRUE' سوف recycle 'nvec'"
+
+msgid "'nvec' must be a vector of non-negative integers"
+msgstr "يجب أن يكون 'nvec' متجه من غير سالب integers"
+
+msgid "'from' contains NAs"
+msgstr "'from' يحتوي على NAs"
+
+msgid "'by' contains NAs"
+msgstr "'by' يحتوي على NAs"
+
+msgid "unknown or inappropriate output format"
+msgstr "غير معروف أو inappropriate إخراج format"
+
+msgid "must specify ascii, binary, or xdr format"
+msgstr "must specify ascii, binary, أو xdr format"
+
+msgid "unknown output format"
+msgstr "غير معروف إخراج format"
+
+msgid "unknown input format"
+msgstr "غير معروف إدخال format"
+
+msgid "input format does not match specified format"
+msgstr "إدخال format لا match specified format"
+
+msgid "no restore method available"
+msgstr "لا يوجد restore طريقة متاح"
+
+msgid "names in persistent strings are currently ignored"
+msgstr "يتم حاليًا تجاهل الأسماء في السلاسل الدائمة"
+
+#, c-format
+msgid "'%s' may not be available when loading"
+msgstr "'%s' may ليس be متاح when loading"
+
+msgid "namespaces may not be available when loading"
+msgstr "namespaces may ليس be متاح when loading"
+
+#, c-format
+msgid "WriteItem: unknown type %i"
+msgstr "WriteItem: نوع غير معروف %i"
+
+#, c-format
+msgid "version %d not supported"
+msgstr "إصدار %d غير مدعوم"
+
+msgid "reference index out of range"
+msgstr "مرجع فهرس خارج النطاق"
+
+msgid "names in persistent strings are not supported yet"
+msgstr "أسماء في السلاسل الدائمة ليست مدعوم yet"
+
+#, c-format
+msgid "input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8"
+msgstr "لا يمكن أن يكون سلسلة الإدخال '%s' translated من '%s' إلى UTF-8, but is صالح UTF-8"
+
+#, c-format
+msgid "input string '%s' cannot be translated to UTF-8, is it valid in '%s'?"
+msgstr "لا يمكن أن يكون سلسلة الإدخال '%s' translated إلى UTF-8, is it صالح في '%s'?"
+
+#, c-format
+msgid "deserializing invalid UTF-8 string '%s'"
+msgstr "deserializing غير صالح UTF-8 سلسلة '%s'"
+
+msgid "strings not representable in native encoding will not be translated"
+msgstr "سلاسل ليس representable في native ترميز سوف ليس be translated"
+
+msgid "strings not representable in native encoding will be translated to UTF-8"
+msgstr "سلاسل ليس representable في native ترميز سيكون translated إلى UTF-8"
+
+msgid "negative serialized length for vector"
+msgstr "سالب serialized طول لـ متجه"
+
+msgid "invalid upper part of serialized vector length"
+msgstr "upper part من serialized متجه طول غير صالح"
+
+msgid ""
+"negative serialized vector length:\n"
+"perhaps long vector from 64-bit version of R?"
+msgstr "سالب serialized متجه طول: perhaps متجه طويل من 64-bit إصدار من R?"
+
+msgid "this version of R cannot read class references"
+msgstr "this إصدار من R لا يمكن قراءة صنف references"
+
+msgid "this version of R cannot read generic function references"
+msgstr "this إصدار من R لا يمكن قراءة generic دالة references"
+
+#, c-format
+msgid "ReadItem: unknown type %i, perhaps written by later version of R"
+msgstr "ReadItem: نوع غير معروف %i, perhaps written بواسطة later إصدار من R"
+
+msgid "invalid length of encoding name"
+msgstr "طول من ترميز اسم غير صالح"
+
+#, c-format
+msgid "cannot read unreleased workspace version %d written by experimental R %d.%d.%d"
+msgstr "لا يمكن قراءة unreleased workspace إصدار %d written by experimental R %d.%d.%d"
+
+#, c-format
+msgid "cannot read workspace version %d written by R %d.%d.%d; need R %d.%d.%d or newer"
+msgstr "لا يمكن قراءة workspace إصدار %d written by R %d.%d.%d; need R %d.%d.%d أو newer"
+
+msgid "read failed"
+msgstr "فشل قراءة"
+
+msgid "error reading from ascii connection"
+msgstr "خطأ reading من ascii اتصال"
+
+#, fuzzy, c-format
+msgid "unexpected format in ascii connection '%s'"
+msgstr "unexpected format في ascii اتصال"
+
+#, fuzzy, c-format
+msgid "error reading from connection '%s'"
+msgstr "خطأ reading من اتصال"
+
+msgid "only ascii format can be written to text mode connections"
+msgstr "فقط ascii format can be written إلى نص نمط اتصالات"
+
+msgid "only ascii format can be read from text mode connections"
+msgstr "فقط ascii format can be قراءة من نص نمط اتصالات"
+
+msgid "bad version value"
+msgstr "bad إصدار قيمة"
+
+msgid "binary-mode connection required for ascii=false"
+msgstr "binary-نمط اتصال مطلوب لـ ascii=خطأ"
+
+msgid "cannot return a promise (PROMSXP) object"
+msgstr "لا يمكن return a promise (PROMSXP) كائن"
+
+msgid "serialization is too large to store in a raw vector"
+msgstr "serialization هو كبير جدًا إلى store في متجه خام"
+
+msgid "cannot allocate buffer"
+msgstr "لا يمكن allocate buffer"
+
+msgid "not a proper file name"
+msgstr "ليس proper ملف اسم"
+
+msgid "not a proper raw vector"
+msgstr "ليس proper متجه خام"
+
+#, c-format
+msgid "seek failed on %s"
+msgstr "seek فشل على %s"
+
+msgid "could not determine file position"
+msgstr "تعذّر determine ملف position"
+
+msgid "bad offset/length argument"
+msgstr "bad offset/طول وسيط"
+
+#, c-format
+msgid "read failed on %s"
+msgstr "قراءة فشل على %s"
+
+msgid "bad environment"
+msgstr "bad بيئة"
+
+msgid "bad variable names"
+msgstr "bad variable أسماء"
+
+msgid "only atomic vectors can be tested to be sorted"
+msgstr "فقط atomic متجهات can be tested إلى be sorted"
+
+msgid "'decreasing' must be TRUE or FALSE"
+msgstr "يجب أن يكون 'decreasing' صحيح أو خطأ"
+
+msgid "only atomic vectors can be sorted"
+msgstr "فقط atomic متجهات can be sorted"
+
+msgid "raw vectors cannot be sorted"
+msgstr "لا يمكن أن يكون خام متجهات sorted"
+
+msgid "NA or infinite index"
+msgstr "NA أو لا نهائي فهرس"
+
+#, c-format
+msgid "'partial' index %lld outside bounds"
+msgstr "'partial' فهرس %lld outside bounds"
+
+msgid "NA index"
+msgstr "NA فهرس"
+
+#, c-format
+msgid "'partial' index %d outside bounds"
+msgstr "'partial' فهرس %d outside bounds"
+
+msgid "invalid ties.method for rank() [should never happen]"
+msgstr "ties.طريقة لـ rank() [should never happen] غير صالح"
+
+#, c-format
+msgid "%s in \"%s\""
+msgstr "%s في \"%s\""
+
+#, c-format
+msgid ""
+"%s in:\n"
+"\"%s\n"
+"%s\""
+msgstr "%s في: \"%s %s\""
+
+msgid "coercion of 'text' to character was unsuccessful"
+msgstr "coercion من 'text' إلى نصي was unsuccessful"
+
+msgid "argument encoding=\"latin1\" is ignored in MBCS locales"
+msgstr "وسيط ترميز=\"latin1\" هو متجاهل في MBCS locales"
+
+msgid "argument encoding=\"UTF-8\" is ignored in MBCS locales"
+msgstr "وسيط ترميز=\"UTF-8\" هو متجاهل في MBCS locales"
+
+#, c-format
+msgid "argument '%s = \"%s\"' will be ignored"
+msgstr "تم تجاهل وسيط '%s = \"%s\"' will be"
+
+msgid "factor has bad level"
+msgstr "عامل has bad مستوى"
+
+msgid "first argument must be a vector"
+msgstr "يجب أن يكون الأول وسيط متجه"
+
+msgid "second argument must be a factor"
+msgstr "يجب أن يكون الثاني وسيط عامل"
+
+msgid "group length is 0 but data length > 0"
+msgstr "group طول هو 0 but بيانات طول > 0"
+
+msgid "data length is not a multiple of split variable"
+msgstr "بيانات طول ليس multiple من split variable"
+
+#, c-format
+msgid "required resulting string length %d is greater than maximal %d"
+msgstr "مطلوب resulting سلسلة طول %d هو greater than maximal %d"
+
+msgid "'fmt' is not a character vector"
+msgstr "\"FMT\" ليس متجه أحرف"
+
+#, c-format
+msgid "only %d arguments are allowed"
+msgstr "يسمح فقط بوسيطات %d"
+
+#, c-format
+msgid "invalid type of argument[%d]: '%s'"
+msgstr "نوع من وسيط[%d]: '%s' غير صالح"
+
+msgid "arguments cannot be recycled to the same length"
+msgstr "لا يمكن أن يكون وسائط recycled إلى the same طول"
+
+#, c-format
+msgid "'fmt' length exceeds maximal format length %d"
+msgstr "يتجاوز طول \"FMT\" الحد الأقصى لطول التنسيق %d"
+
+#, c-format
+msgid "unrecognised format specification '%s'"
+msgstr "مواصفات التنسيق غير المعترف بها \"%s\""
+
+#, c-format
+msgid "reference to non-existent argument %d"
+msgstr "مرجع إلى non-existent وسيط %d"
+
+msgid "too few arguments"
+msgstr "too few وسائط"
+
+msgid "at most one asterisk '*' is supported in each conversion specification"
+msgstr "يتم دعم علامة نجمة واحدة \"*\" على الأكثر في كل مواصفات تحويل"
+
+msgid "argument for '*' conversion specification must be a number"
+msgstr "يجب أن يكون وسيط لـ '*' conversion specification number"
+
+msgid "coercion has changed vector length to 0"
+msgstr "coercion has changed متجه طول إلى 0"
+
+#, c-format
+msgid "invalid format '%s'; %s"
+msgstr "تنسيق '%s' غير صالح؛ %s"
+
+#, c-format
+msgid "use format %d or %i for logical objects"
+msgstr "use format %d أو %i لـ منطقي كائنات"
+
+#, c-format
+msgid "use format %d, %i, %o, %x or %X for integer objects"
+msgstr "use format %d, %i, %o, %x أو %X لـ عدد صحيح كائنات"
+
+#, c-format
+msgid "use format %f, %e, %g or %a for numeric objects"
+msgstr "use format %f, %e, %g أو %a لـ رقمي كائنات"
+
+#, c-format
+msgid "use format %s for character objects"
+msgstr "use format %s لـ نصي كائنات"
+
+#, c-format
+msgid "likely truncation of character string to %d characters"
+msgstr "likely truncation من سلسلة نصية إلى %d characters"
+
+msgid "unsupported type"
+msgstr "unsupported نوع"
+
+#, c-format
+msgid "one argument not used by format '%s'"
+msgstr "لم يتم استخدام وسيطة واحدة في التنسيق '%s'"
+
+#, c-format
+msgid "%d arguments not used by format '%s'"
+msgstr "%d وسائط ليس used بواسطة format '%s'"
+
+msgid "one argument not used by format"
+msgstr "one وسيط ليس used بواسطة format"
+
+#, c-format
+msgid "%d arguments not used by format"
+msgstr "%d وسائط ليس used بواسطة format"
+
+msgid "R_LibraryFileName: buffer too small"
+msgstr "R_LibraryFileName: buffer صغير جدًا"
+
+msgid "attempt to enlarge non-vector"
+msgstr "محاولة إلى enlarge non-متجه"
+
+#, c-format
+msgid "assignment outside vector/list limits (extending from %lld to %lld)"
+msgstr "assignment outside متجه/قائمة limits (extending من %lld إلى %lld)"
+
+msgid "bad names attribute"
+msgstr "bad أسماء سمة"
+
+#, c-format
+msgid "incompatible types (from %s to %s) in subassignment type fix"
+msgstr "incompatible أنواع (من %s إلى %s) في subassignment نوع fix"
+
+msgid "NAs are not allowed in subscripted assignments"
+msgstr "NAs ليست allowed في subscripted assignments"
+
+msgid "replacement has length zero"
+msgstr "replacement طوله zero"
+
+msgid "number of items to replace is not a multiple of replacement length"
+msgstr "number من items إلى replace ليس multiple من replacement طول"
+
+msgid "incorrect number of subscripts on matrix"
+msgstr "incorrect number من subscripts على مصفوفة"
+
+#, c-format
+msgid "incompatible types (from %s to %s) in matrix subset assignment"
+msgstr "incompatible أنواع (من %s إلى %s) في مصفوفة subset assignment"
+
+msgid "incorrect number of subscripts"
+msgstr "incorrect number من subscripts"
+
+#, c-format
+msgid "incompatible types (from %s to %s) in array subset assignment"
+msgstr "incompatible أنواع (من %s إلى %s) في مصفوفة متعددة الأبعاد subset assignment"
+
+msgid "invalid subscript in list assign"
+msgstr "subscript في قائمة assign غير صالح"
+
+msgid "invalid number of subscripts to list assign"
+msgstr "number من subscripts إلى قائمة assign غير صالح"
+
+msgid "SubAssignArgs: invalid number of arguments"
+msgstr "SubAssignArgs: غير صالح number من وسائط"
+
+msgid "result is zero-length and so cannot be a language object"
+msgstr "لا يمكن أن يكون result is zero-طول و so كائن لغة"
+
+msgid "[[<- defined for objects of type \"S4\" only for subclasses of environment"
+msgstr "[[<- defined لـ كائنات من نوع \"S4\" فقط لـ subclasses من بيئة"
+
+msgid "improper dimensions"
+msgstr "improper أبعاد"
+
+msgid "wrong args for environment subassignment"
+msgstr "wrong args لـ بيئة subassignment"
+
+msgid "more elements supplied than there are to replace"
+msgstr "more elements المقدّمة than there هي إلى replace"
+
+msgid "[[ ]] improper number of subscripts"
+msgstr "[[ ]] improper number من subscripts"
+
+#, c-format
+msgid "incompatible types (from %s to %s) in [[ assignment"
+msgstr "incompatible أنواع (من %s إلى %s) في [[ assignment"
+
+msgid "no method for assigning subsets of this S4 class"
+msgstr "لا يوجد طريقة لـ assigning subsets من this S4 صنف"
+
+msgid "Coercing LHS to a list"
+msgstr "Coercing LHS إلى قائمة"
+
+#, c-format
+msgid "attempt to select less than one element in %s"
+msgstr "محاولة إلى select أقل من one element في %s"
+
+#, c-format
+msgid "attempt to select more than one element in %s"
+msgstr "محاولة إلى select أكثر من one element في %s"
+
+#, c-format
+msgid "invalid subscript type '%s'"
+msgstr "subscript نوع '%s' غير صالح"
+
+msgid "internal error in use of recursive indexing"
+msgstr "داخلي خطأ في use من تكراري indexing"
+
+#, c-format
+msgid "invalid negative subscript in %s"
+msgstr "سالب subscript في %s غير صالح"
+
+#, c-format
+msgid "further partial match of '%s' to '%s'"
+msgstr "further جزئي match من '%s' إلى '%s'"
+
+#, c-format
+msgid "recursive indexing failed at level %d\n"
+msgstr "تكراري indexing فشل at مستوى %d\n"
+
+#, c-format
+msgid "no such index at level %d\n"
+msgstr "لا يوجد such فهرس at مستوى %d\n"
+
+msgid "incorrect number of columns in matrix subscript"
+msgstr "incorrect number من أعمدة في مصفوفة subscript"
+
+msgid "negative values are not allowed in a matrix subscript"
+msgstr "سالب قيم ليست allowed في a مصفوفة subscript"
+
+msgid "no 'dimnames' attribute for array"
+msgstr "لا يوجد 'dimnames' سمة لـ مصفوفة متعددة الأبعاد"
+
+#, c-format
+msgid "%d x %d character matrix subscript illegal for NULL dimnames"
+msgstr "%d x %d نصي مصفوفة subscript illegal لـ NULL أسماء الأبعاد"
+
+#, c-format
+msgid "subscripting by character matrix of %d columns does not match length(dimnames(x)) == %d"
+msgstr "subscripting بواسطة نصي مصفوفة من %d أعمدة لا match طول(أسماء الأبعاد(x)) == %d"
+
+msgid "(subscript) logical subscript too long"
+msgstr "(subscript) منطقي subscript طويل جدًا"
+
+msgid "only 0's may be mixed with negative subscripts"
+msgstr "فقط 0's قد يكون mixed مع سالب subscripts"
+
+msgid "subscript too large for 32-bit R"
+msgstr "subscript كبير جدًا لـ 32-bit R"
+
+msgid "subscripting on non-vector"
+msgstr "subscripting على non-متجه"
+
+msgid "dimensions would exceed maximum size of array"
+msgstr "أبعاد would exceed maximum size من مصفوفة متعددة الأبعاد"
+
+msgid "matrix subscripting not handled for this type"
+msgstr "مصفوفة subscripting ليس handled لـ this نوع"
+
+msgid "array subscripting not handled for this type"
+msgstr "مصفوفة متعددة الأبعاد subscripting ليس handled لـ this نوع"
+
+msgid "incorrect number of dimensions"
+msgstr "incorrect number من أبعاد"
+
+msgid "no index specified"
+msgstr "لا يوجد فهرس specified"
+
+#, c-format
+msgid "this %s class is not subsettable"
+msgstr "this %s صنف ليس subsettable"
+
+msgid "wrong arguments for subsetting an environment"
+msgstr "wrong وسائط لـ subsetting بيئة"
+
+msgid "invalid subscript length"
+msgstr "subscript طول غير صالح"
+
+#, c-format
+msgid "invalid 'type' (%s) of argument"
+msgstr "'type' (%s) من وسيط غير صالح"
+
+msgid "integer overflow - use sum(as.numeric(.))"
+msgstr "عدد صحيح overflow - use sum(as.رقمي(.))"
+
+#, c-format
+msgid "internal error ('op = %d' in do_summary).\t Call a Guru"
+msgstr "داخلي خطأ ('op = %d' في do_summary). استدعاء Guru"
+
+msgid "Integer overflow - use sum(as.numeric(.))"
+msgstr "عدد صحيح overflow - use sum(as.رقمي(.))"
+
+msgid "no non-missing arguments, returning NA"
+msgstr "لا يوجد non-مفقود وسائط, returning NA"
+
+msgid "no non-missing arguments to min; returning Inf"
+msgstr "لا يوجد non-مفقود وسائط إلى min; returning Inf"
+
+msgid "no non-missing arguments to max; returning -Inf"
+msgstr "لا يوجد non-مفقود وسائط إلى max; returning -Inf"
+
+msgid "argument to 'which' is not logical"
+msgstr "وسيط إلى 'which' ليس منطقي"
+
+msgid "no arguments"
+msgstr "لا يوجد وسائط"
+
+msgid "invalid input type"
+msgstr "إدخال نوع غير صالح"
+
+msgid "an argument will be fractionally recycled"
+msgstr "وسيط سيكون fractionally recycled"
+
+#, c-format
+msgid "cannot determine file modification time of '%s'"
+msgstr "لا يمكن determine ملف modification وقت من '%s'"
+
+msgid "encoding of a filename cannot be 'bytes'"
+msgstr "لا يمكن أن يكون ترميز من a filename 'bytes'"
+
+#, c-format
+msgid "unsupported conversion from '%s' in codepage %d"
+msgstr "unsupported conversion من '%s' في codepage %d"
+
+msgid "file name conversion problem -- name too long?"
+msgstr "ملف اسم conversion مشكلة -- اسم طويل جدًا?"
+
+msgid "file name conversion problem"
+msgstr "ملف اسم conversion مشكلة"
+
+msgid "invalid filename pattern"
+msgstr "filename pattern غير صالح"
+
+msgid "invalid file extension"
+msgstr "ملف extension غير صالح"
+
+msgid "no 'pattern'"
+msgstr "لا يوجد 'pattern'"
+
+msgid "no 'tempdir'"
+msgstr "لا يوجد 'tempdir'"
+
+msgid "no 'fileext'"
+msgstr "لا يوجد 'fileext'"
+
+#, c-format
+msgid "system call failed: %s"
+msgstr "استدعاء النظام فشل: %s"
+
+msgid "wrong type for argument"
+msgstr "wrong نوع لـ وسيط"
+
+msgid "'Sys.setenv' is not available on this system"
+msgstr "'Sys.setenv' ليس متاح على this system"
+
+msgid "this system cannot unset environment variables: setting to \"\""
+msgstr "this system لا يمكن unset بيئة variables: setting إلى \"\""
+
+msgid "'Sys.unsetenv' is not available on this system"
+msgstr "'Sys.unsetenv' ليس متاح على this system"
+
+msgid "'x' must be a character vector"
+msgstr "يجب أن يكون 'x' متجه نصي"
+
+msgid "'x' must be a character vector or a list of NULL or raw vectors"
+msgstr "يجب أن يكون 'x' متجه نصي أو a قائمة من NULL أو خام متجهات"
+
+#, c-format
+msgid "unsupported conversion from '%s' to '%s' in codepage %d"
+msgstr "unsupported conversion من '%s' إلى '%s' في codepage %d"
+
+#, c-format
+msgid "'%s' must be called on a CHARSXP, but got '%s'"
+msgstr "يجب أن يكون '%s' مسمّى على a CHARSXP, but got '%s'"
+
+msgid "translating strings with \"bytes\" encoding is not allowed"
+msgstr "translating سلاسل مع \"bytes\" ترميز ليس allowed"
+
+msgid "internal error: no translation needed"
+msgstr "داخلي خطأ: no translation needed"
+
+#, c-format
+msgid "unable to translate '%s' to native encoding"
+msgstr "تعذّر translate '%s' إلى native ترميز"
+
+#, c-format
+msgid "unable to translate '%s' to UTF-8"
+msgstr "تعذّر translate '%s' إلى UTF-8"
+
+#, c-format
+msgid "unsupported conversion to '%s' from codepage %d"
+msgstr "unsupported conversion إلى '%s' من codepage %d"
+
+#, c-format
+msgid "unable to translate '%s' to a wide string"
+msgstr "تعذّر translate '%s' إلى a wide سلسلة"
+
+#, c-format
+msgid "invalid Unicode point %u"
+msgstr "قيمة غير صالحة %uس"
+
+msgid "'R_USER' not set"
+msgstr "'R_USER' ليس set"
+
+msgid "cannot allocate 'R_TempDir'"
+msgstr "لا يمكن allocate 'R_TempDir'"
+
+msgid "'R_TempDir' contains space"
+msgstr "'R_TempDir' يحتوي على space"
+
+msgid "cannot create 'R_TempDir'"
+msgstr "لا يمكن إنشاء 'R_TempDir'"
+
+msgid "unable to set R_SESSION_TMPDIR"
+msgstr "تعذّر تعيين R_SESSION_TMPDIR"
+
+msgid "temporary name too long"
+msgstr "temporary اسم طويل جدًا"
+
+msgid "allocation failed in R_tmpnam2"
+msgstr "تخصيص فشل في R_tmpnam2"
+
+msgid "cannot find unused tempfile name"
+msgstr "لا يمكن العثور على unused tempfile اسم"
+
+msgid "'dirmark = TRUE' is not supported on this platform"
+msgstr "'dirmark = TRUE' ليس مدعوم على this المنصة"
+
+#, c-format
+msgid "length %lld is too large for hashing"
+msgstr "طول %lld هو كبير جدًا لـ hashing"
+
+#, c-format
+msgid "length %d is too large for hashing"
+msgstr "طول %d هو كبير جدًا لـ hashing"
+
+msgid "'duplicated' applies only to vectors"
+msgstr "'duplicated' applies فقط إلى متجهات"
+
+msgid "any_duplicated3(., <0-length incomp>)"
+msgstr "any_duplicated3(., <0-طول incomp>)"
+
+msgid "'fromLast' must be length 1"
+msgstr "يجب أن يكون 'fromLast' طول 1"
+
+msgid "'fromLast' must be TRUE or FALSE"
+msgstr "يجب أن يكون 'fromLast' صحيح أو خطأ"
+
+#, c-format
+msgid "%s() applies only to vectors"
+msgstr "%s() applies فقط إلى متجهات"
+
+msgid "'nmax' must be positive"
+msgstr "يجب أن يكون 'nmax' موجب"
+
+msgid "'match' requires vector arguments"
+msgstr "'match' يتطلب متجه وسائط"
+
+msgid "argument is not of mode character"
+msgstr "وسيط ليس من النمط نصي"
+
+msgid "... used in a situation where it does not exist"
+msgstr "... used في situation where it لا exist"
+
+msgid "... is not a pairlist"
+msgstr "... ليس pairlist"
+
+msgid "non-numeric data frame in rowsum"
+msgstr "non-رقمي بيانات إطار في rowsum"
+
+msgid "this cannot happen"
+msgstr "this لا يمكن happen"
+
+msgid "'names' must be a character vector"
+msgstr "يجب أن يكون 'names' متجه نصي"
+
+msgid "object is not a matrix"
+msgstr "كائن ليس مصفوفة"
+
+#, c-format
+msgid "type %d is unimplemented in '%s'"
+msgstr "نوع %d هو غير منفّذ في '%s'"
+
+#, c-format
+msgid "unimplemented type '%s' in '%s'\n"
+msgstr "غير منفّذ نوع '%s' في '%s'\n"
+
+#, c-format
+msgid "unimplemented type (%d) in '%s'\n"
+msgstr "غير منفّذ نوع (%d) في '%s'\n"
+
+msgid "invalid tag in name extraction"
+msgstr "tag في اسم extraction غير صالح"
+
+#, c-format
+msgid "%d argument passed to '%s' which requires %d"
+msgid_plural "%d arguments passed to '%s' which requires %d"
+msgstr[0] "%d وسائط تم تمريره إلى '%s' which يتطلب %d"
+msgstr[1] "%d وسيط تم تمريره إلى '%s' which يتطلب %d"
+msgstr[2] "%d وسائط تم تمريره إلى '%s' which يتطلب %d"
+msgstr[3] "%d وسائط تم تمريره إلى '%s' which يتطلب %d"
+msgstr[4] "%d وسائط تم تمريره إلى '%s' which يتطلب %d"
+msgstr[5] "%d وسائط تم تمريره إلى '%s' which يتطلب %d"
+
+#, c-format
+msgid "supplied argument name '%s' does not match '%s'"
+msgstr "المقدّمة وسيط اسم '%s' لا match '%s'"
+
+#, c-format
+msgid "'nthcdr' list shorter than %d"
+msgstr "'nthcdr' قائمة shorter than %d"
+
+msgid "'nthcdr' needs a list to CDR down"
+msgstr "'nthcdr' needs قائمة إلى CDR down"
+
+msgid "'all.x' must be TRUE or FALSE"
+msgstr "يجب أن يكون 'all.x' صحيح أو خطأ"
+
+msgid "'all.y' must be TRUE or FALSE"
+msgstr "يجب أن يكون 'all.y' صحيح أو خطأ"
+
+msgid "number of rows in the result exceeds maximum vector length"
+msgstr "number من صفوف في result exceeds maximum متجه طول"
+
+msgid "missing value is invalid"
+msgstr "قيمة مفقودة هو غير صالح"
+
+msgid "cannot change working directory"
+msgstr "لا يمكن تغيير دليل العمل"
+
+msgid "a character vector argument expected"
+msgstr "كان متوقعًا متجه نصي وسيط"
+
+msgid "only the first character of 'quote' will be used"
+msgstr "فقط الأول نصي من 'quote' سيكون used"
+
+msgid "a character vector 'value' expected"
+msgstr "كان متوقعًا متجه نصي 'value'"
+
+msgid "'value' must be of positive length"
+msgstr "يجب أن يكون 'value' من موجب طول"
+
+#, c-format
+msgid "invalid input '%s' in 'utf8towcs'"
+msgstr "إدخال '%s' في 'utf8towcs' غير صالح"
+
+#, c-format
+msgid "invalid input '%s' in 'utf8towcs32'"
+msgstr "إدخال '%s' في 'utf8towcs32' غير صالح"
+
+#, c-format
+msgid "invalid multibyte string at '%s'"
+msgstr "multibyte سلسلة at '%s' غير صالح"
+
+msgid "error message truncated to 255 chars"
+msgstr "رسالة الخطأ مقتطع إلى 255 chars"
+
+msgid "warning message truncated to 255 chars"
+msgstr "رسالة التحذير مقتطع إلى 255 chars"
+
+msgid "Conversion failed"
+msgstr "فشل Conversion"
+
+#, c-format
+msgid "accuracy loss in conversion from \"%s\" to numeric"
+msgstr "accuracy loss في conversion من \"%s\" إلى رقمي"
+
+msgid "all arguments must be named"
+msgstr "يجب أن يكون all وسائط named"
+
+msgid "ICU is not supported on this build"
+msgstr "ICU ليس مدعوم على this build"
+
+msgid "'breaks' is not sorted"
+msgstr "'breaks' ليس sorted"
+
+#, c-format
+msgid "long vector '%s' is not supported"
+msgstr "متجه طويل '%s' is غير مدعوم"
+
+msgid "'eps.correct' must be 0, 1, or 2"
+msgstr "يجب أن يكون 'eps.correct' 0, 1, أو 2"
+
+msgid "'bounds' must be TRUE or FALSE"
+msgstr "يجب أن يكون 'bounds' صحيح أو خطأ"
+
+msgid "'x' must be a vector"
+msgstr "يجب أن يكون 'x' متجه"
+
+msgid ""
+"R is free software and comes with ABSOLUTELY NO WARRANTY.\n"
+"You are welcome to redistribute it under certain conditions.\n"
+"Type 'license()' or 'licence()' for distribution details.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"R is a collaborative project with many contributors.\n"
+"Type 'contributors()' for more information and\n"
+"'citation()' on how to cite R or R packages in publications.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"Type 'demo()' for some demos, 'help()' for on-line help, or\n"
+"'help.start()' for an HTML browser interface to help.\n"
+"Type 'q()' to quit R.\n"
+"\n"
+msgstr ""
+
+#, c-format
+msgid "add_point - reached MAXNUMPTS (%d)"
+msgstr "add_point - reached MAXNUMPTS (%d)"
+
+msgid "insufficient memory to allocate point array"
+msgstr "insufficient ذاكرة إلى allocate point مصفوفة متعددة الأبعاد"
+
+msgid "there must be at least two control points"
+msgstr "يجب أن يكون there على الأقل two control points"
+
+msgid "there must be at least four control points"
+msgstr "يجب أن يكون there على الأقل four control points"
+
+msgid "There must be at least three control points"
+msgstr "يجب أن يكون There على الأقل three control points"
+
+#, c-format
+msgid "X11 protocol error: %s"
+msgstr "X11 protocol خطأ: %s"
+
+msgid "cannot set grayscale: reverting to monochrome"
+msgstr "لا يمكن تعيين grayscale: reverting إلى monochrome"
+
+msgid ""
+"X11 driver unable to obtain color cube\n"
+"  reverting to monochrome"
+msgstr ""
+"تعذّر على مشغّل X11 الحصول على مكعب الألوان\n"
+"  الرجوع إلى أحادي اللون"
+
+msgid ""
+"Error: X11 cannot allocate additional graphics colors.\n"
+"Consider using X11 with colortype=\"pseudo.cube\" or \"gray\"."
+msgstr "خطأ: X11 لا يمكن allocate additional graphics colors. Consider using X11 مع colortype=\"pseudo.cube\" أو \"gray\"."
+
+msgid ""
+"could not find any X11 fonts\n"
+"Check that the Font Path is correct."
+msgstr "تعذّر العثور على any X11 fonts Check that the Font مسار is correct."
+
+#, c-format
+msgid "X11 used font size %d when %d was requested"
+msgstr "X11 used font size %d when %d was requested"
+
+#, c-format
+msgid "X11 font %s, face %d at size %d could not be loaded"
+msgstr "تعذّر تحميل خط X11 %s، الوجه %d بالحجم %d"
+
+msgid "semi-transparency is not supported on this device: reported only once per page"
+msgstr "semi-transparency ليس مدعوم على this device: reported only once per page"
+
+#, c-format
+msgid "X11 I/O error while opening X11 connection to '%s'"
+msgstr "X11 I/O خطأ while opening X11 اتصال إلى '%s'"
+
+msgid "X11 fatal IO error: please save work and shut down R"
+msgstr "X11 fatal IO خطأ: please حفظ work و shut down R"
+
+msgid "locale not supported by Xlib: some X ops will operate in C locale"
+msgstr "بيئة محلية ليس مدعوم بواسطة Xlib: some X ops سوف operate في C بيئة محلية"
+
+msgid "X cannot set locale modifiers"
+msgstr "X لا يمكن set بيئة محلية modifiers"
+
+msgid "no png support in this version of R"
+msgstr "لا يوجد png support في this إصدار من R"
+
+msgid "filename too long in png() call"
+msgstr "filename طويل جدًا في png() استدعاء"
+
+#, c-format
+msgid "could not open PNG file '%s'"
+msgstr "تعذّر فتح PNG ملف '%s'"
+
+msgid "no jpeg support in this version of R"
+msgstr "لا يوجد jpeg support في this إصدار من R"
+
+msgid "filename too long in jpeg() call"
+msgstr "filename طويل جدًا في jpeg() استدعاء"
+
+#, c-format
+msgid "could not open JPEG file '%s'"
+msgstr "تعذّر فتح JPEG ملف '%s'"
+
+msgid "no tiff support in this version of R"
+msgstr "لا يوجد tiff support في this إصدار من R"
+
+msgid "filename too long in tiff() call"
+msgstr "filename طويل جدًا في tiff() استدعاء"
+
+msgid "filename too long in bmp() call"
+msgstr "filename طويل جدًا في bmp() استدعاء"
+
+#, c-format
+msgid "could not open BMP file '%s'"
+msgstr "تعذّر فتح BMP ملف '%s'"
+
+#, c-format
+msgid "unable to open connection to X11 display '%s'"
+msgstr "تعذّر فتح اتصال إلى X11 display '%s'"
+
+msgid "ignoring 'display' argument as an X11 device is already open"
+msgstr "ignoring 'display' وسيط as X11 device هو بالفعل فتح"
+
+msgid "cairo-based types may only work correctly on TrueColor visuals"
+msgstr "cairo-based أنواع may فقط work correctly على TrueColor visuals"
+
+msgid "jpeg() does not support transparency: using white bg"
+msgstr "jpeg() لا support transparency: using white bg"
+
+#, c-format
+msgid "unable to obtain information on display '%s'"
+msgstr "تعذّر obtain information على display '%s'"
+
+msgid "unable to create X11 window"
+msgstr "تعذّر إنشاء X11 window"
+
+#, c-format
+msgid "'width=%d, height=%d' are unlikely values in pixels"
+msgstr "'width=%d, height=%d' هي unlikely قيم في pixels"
+
+msgid "unable to create pixmap"
+msgstr "تعذّر إنشاء pixmap"
+
+msgid "invalid font specification"
+msgstr "font specification غير صالح"
+
+msgid "font family not found in X11 font database"
+msgstr "font family ليس found في X11 font database"
+
+#, c-format
+msgid "invalid use of %d < 0 in '%s'"
+msgstr "استخدام غير صالح للقيمة %d < 0 في '%s'"
+
+#, c-format
+msgid "could not open file '%s'"
+msgstr "تعذّر فتح ملف '%s'"
+
+#, c-format
+msgid "%s not available for this device"
+msgstr "%s غير متوفر على هذا الجهاز"
+
+msgid "Unable to create XImage"
+msgstr "Unable إلى create XImage"
+
+msgid "attempt to use the locator after dev.hold()"
+msgstr "محاولة إلى use locator after dev.hold()"
+
+#, c-format
+msgid "unable to start device %s"
+msgstr "تعذّر start device %s"
+
+msgid "invalid 'width' or 'height'"
+msgstr "'width' أو 'height' غير صالح"
+
+msgid "invalid colortype passed to X11 driver"
+msgstr "colortype تم تمريره إلى X11 driver غير صالح"
+
+msgid "unknown X11 color/colour model -- using monochrome"
+msgstr "غير معروف X11 color/colour نموذج -- using monochrome"
+
+msgid "no plot on device to save"
+msgstr "لا يوجد plot على device إلى حفظ"
+
+msgid "not an open X11cairo device"
+msgstr "ليس فتح X11cairo device"
+
+#, c-format
+msgid "cannot open file '%s'"
+msgstr "لا يمكن فتح ملف '%s'"
+
+msgid "savePlot() is not supported on this build"
+msgstr "savePlot() ليس مدعوم على this build"
+
+msgid "unable to contact X11 display"
+msgstr "تعذّر contact X11 display"
+
+#, c-format
+msgid "clipboard cannot be read (error code %d)"
+msgstr "لا يمكن أن يكون الحافظة قراءة (خطأ code %d)"
+
+msgid "cannot allocate memory for X11Routines structure"
+msgstr "لا يمكن تخصيص ذاكرة لـ X11إجراءات structure"
+
+msgid "the 'wininet' method of url() is deprecated for http:// and https:// URLs"
+msgstr "'wininet' طريقة من url() هو مهمل لـ http:// و https:// URLs"
+
+msgid "the 'wininet' method of url() is deprecated for ftp:// URLs"
+msgstr "'wininet' طريقة من url() هو مهمل لـ ftp:// URLs"
+
+#, c-format
+msgid "scheme not supported in URL '%s'"
+msgstr "scheme ليس مدعوم في URL '%s'"
+
+msgid "allocation of url connection failed"
+msgstr "فشل تخصيص من url اتصال"
+
+msgid "only first element of 'url' argument used"
+msgstr "فقط الأول element من 'url' وسيط used"
+
+msgid "only first element of 'destfile' argument used"
+msgstr "فقط الأول element من 'destfile' وسيط used"
+
+msgid "Download progress"
+msgstr "Download progress"
+
+#, c-format
+msgid "cannot open URL '%s', reason '%s'"
+msgstr "لا يمكن فتح URL '%s', reason '%s'"
+
+#, c-format
+msgid "cannot open destfile '%s', reason '%s'"
+msgstr "لا يمكن فتح destfile '%s', reason '%s'"
+
+msgid "the 'internal' method for http:// URLs is defunct"
+msgstr "'internal' طريقة لـ http:// URLs هو defunct"
+
+msgid "the 'wininet' method is deprecated for http:// and https:// URLs"
+msgstr "'wininet' طريقة هو مهمل لـ http:// و https:// URLs"
+
+#, c-format
+msgid "trying URL '%s'\n"
+msgstr "المحاولة URL '%s'\n"
+
+#, c-format
+msgid "downloaded length %0.f != reported length %0.f"
+msgstr "downloaded طول %0.f != reported طول %0.f"
+
+#, c-format
+msgid "cannot open URL '%s'"
+msgstr "لا يمكن فتح URL '%s'"
+
+msgid "the 'wininet' method for ftp:// URLs is defunct"
+msgstr "'wininet' طريقة لـ ftp:// URLs هو defunct"
+
+msgid "the 'internal' method for ftp:// URLs is defunct"
+msgstr "'internal' طريقة لـ ftp:// URLs هو defunct"
+
+#, c-format
+msgid "InternetOpenUrl failed: '%s'"
+msgstr "InternetOpenUrl فشل: '%s'"
+
+#, c-format
+msgid "cannot open URL '%s': %s status was '%lu %s'"
+msgstr "لا يمكن فتح URL '%s': %s status was '%lu %s'"
+
+#, c-format
+msgid "cannot open URL '%s': %s status was '%ld %s'"
+msgstr "لا يمكن فتح URL '%s': %s status was '%ld %s'"
+
+#, c-format
+msgid "URL '%s': Timeout of %d seconds was reached"
+msgstr "URL '%s': Timeout من %d seconds was reached"
+
+#, c-format
+msgid "URL '%s': status was '%s'"
+msgstr "URL '%s': status was '%s'"
+
+msgid "curlGetHeaders is not supported on this platform"
+msgstr "curlGetHeaders ليس مدعوم على this المنصة"
+
+msgid "could not create curl handle"
+msgstr "تعذّر إنشاء curl handle"
+
+#, c-format
+msgid ""
+"libcurl error code %d:\n"
+"\t%s\n"
+msgstr "libcurl خطأ code %d: %s\n"
+
+#, c-format
+msgid "URL %s: cannot open destfile '%s', reason '%s'"
+msgstr "URL %s: لا يمكن فتح destfile '%s', reason '%s'"
+
+msgid "download.file(method = \"libcurl\") is not supported on this platform"
+msgstr "download.ملف(طريقة = \"libcurl\") ليس مدعوم على this المنصة"
+
+msgid "lengths of 'url' and 'destfile' must match"
+msgstr "lengths من 'url' و 'destfile' must match"
+
+msgid "out of memory"
+msgstr "نفاد الذاكرة"
+
+msgid "cannot download any files"
+msgstr "لا يمكن download any ملفات"
+
+msgid "some files were not downloaded"
+msgstr "some ملفات لم تكن downloaded"
+
+#, c-format
+msgid "download from '%s' failed"
+msgstr "فشل download من '%s'"
+
+msgid "cannot read from connection"
+msgstr "لا يمكن قراءة من اتصال"
+
+#, c-format
+msgid "cannot open the connection to '%s'"
+msgstr "لا يمكن فتح اتصال إلى '%s'"
+
+msgid "url(method = \"libcurl\") is not supported on this platform"
+msgstr "url(طريقة = \"libcurl\") ليس مدعوم على this المنصة"
+
+msgid "allocation of socket connection failed"
+msgstr "فشل تخصيص من socket اتصال"
+
+msgid "allocation of server socket connection failed"
+msgstr "فشل تخصيص من server socket اتصال"
+
+#, c-format
+msgid "creation of server socket failed: port %d cannot be opened"
+msgstr "لا يمكن أن يكون creation من server socket فشل: port %d مفتوح"
+
+#, c-format
+msgid "argument type[1]='%s' must be a character string of string length 1"
+msgstr "الوسيطة من النوع[1]='%s' يجب أن تكون سلسلة حرفية بطول 1"
+
+#, c-format
+msgid "argument type[1]='%s' must be one of 'M','1','O','I','F' or 'E'"
+msgstr "يجب أن يكون وسيط نوع[1]='%s' one من 'M','1','O','I','F' أو 'E'"
+
+#, c-format
+msgid "argument type[1]='%s' must be one of '1','O', or 'I'"
+msgstr "يجب أن يكون وسيط نوع[1]='%s' one من '1','O', أو 'I'"
+
+#, c-format
+msgid "argument type[1]='%s' must be 'U' or 'L'"
+msgstr "يجب أن يكون وسيط نوع[1]='%s' 'U' أو 'L'"
+
+#, c-format
+msgid "error code %d from Lapack routine '%s'"
+msgstr "خطأ code %d من Lapack routine '%s'"
+
+msgid "'x' must be a square numeric matrix"
+msgstr "يجب أن يكون 'x' square رقمي مصفوفة"
+
+#, c-format
+msgid "'%s' must be a numeric matrix"
+msgstr "يجب أن يكون '%s' رقمي مصفوفة"
+
+#, c-format
+msgid "exact singularity: U[%d,%d] = 0 in LU-decomposition {Lapack 'dgetrf()'}"
+msgstr "exact singularity: U[%d,%d] = 0 في LU-decomposition {Lapack 'dgetrf()'}"
+
+msgid "'A' must be a *square* matrix"
+msgstr "يجب أن يكون 'A' *square* مصفوفة"
+
+#, c-format
+msgid "error [%d] from Lapack 'dtrcon()'"
+msgstr "خطأ [%d] من Lapack 'dtrcon()'"
+
+#, c-format
+msgid "'%s' must be a complex matrix"
+msgstr "يجب أن يكون '%s' مركب مصفوفة"
+
+msgid "Fortran complex functions are not available on this platform"
+msgstr "Fortran مركب دوال ليست متاح على this المنصة"
+
+#, c-format
+msgid "error [%d] from Lapack 'ztrcon()'"
+msgstr "خطأ [%d] من Lapack 'ztrcon()'"
+
+msgid "'a' is 0-diml"
+msgstr "'a' هو 0-diml"
+
+#, c-format
+msgid "'a' (%d x %d) must be square"
+msgstr "يجب أن يكون 'a' (%d x %d) square"
+
+msgid "no right-hand side in 'b'"
+msgstr "لا يوجد right-hand side في 'b'"
+
+#, c-format
+msgid "'b' (%d x %d) must be compatible with 'a' (%d x %d)"
+msgstr "يجب أن يكون 'b' (%d x %d) compatible مع 'a' (%d x %d)"
+
+#, c-format
+msgid "argument %d of Lapack routine %s had invalid value"
+msgstr "وسيط %d من Lapack routine %s had قيمة غير صالحة"
+
+#, c-format
+msgid "Lapack routine %s: system is exactly singular: U[%d,%d] = 0"
+msgstr "Lapack routine %s: system هو exactly singular: U[%d,%d] = 0"
+
+#, c-format
+msgid "system is computationally singular: reciprocal condition number = %g"
+msgstr "system هو computationally singular: reciprocal condition number = %g"
+
+#, c-format
+msgid "right-hand side should have %d not %d rows"
+msgstr "ينبغي أن يحتوي الطرف الأيمن على %d صفوف وليس %d"
+
+msgid "matrices of 2^31 or more elements are not supported"
+msgstr "المصفوفات التي تحتوي على 2^31 عنصرًا أو أكثر غير مدعومة"
+
+msgid "'x' must be a square complex matrix"
+msgstr "يجب أن يكون 'x' square مركب مصفوفة"
+
+msgid "'a' must be a square matrix"
+msgstr "يجب أن يكون 'a' square مصفوفة"
+
+msgid "'a' must have dims > 0"
+msgstr "'a' must have dims > 0"
+
+#, c-format
+msgid "the leading minor of order %d is not positive"
+msgstr "leading minor من order %d ليس موجب"
+
+msgid "the matrix is either rank-deficient or not positive definite"
+msgstr "مصفوفة هو either rank-deficient أو ليس موجب definite"
+
+msgid "'size' argument must be a positive integer"
+msgstr "يجب أن يكون 'size' وسيط موجب عدد صحيح"
+
+#, c-format
+msgid "'size' cannot exceed ncol(x) = %d"
+msgstr "'size' لا يمكن exceed ncol(x) = %d"
+
+#, c-format
+msgid "'size' cannot exceed nrow(x) = %d"
+msgstr "'size' لا يمكن exceed nrow(x) = %d"
+
+#, c-format
+msgid "element (%d, %d) is zero, so the inverse cannot be computed"
+msgstr "لا يمكن أن يكون element (%d, %d) is zero, so the inverse computed"
+
+msgid "argument 'logarithm' must be logical"
+msgstr "يجب أن يكون وسيط 'logarithm' منطقي"
+
+msgid "bessel_i allocation error"
+msgstr "bessel_i تخصيص خطأ"
+
+#, c-format
+msgid "bessel_i(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+msgstr "bessel_i(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out من نطاق?\n"
+
+#, c-format
+msgid "bessel_i(%g,nu=%g): precision lost in result\n"
+msgstr "bessel_i(%g,nu=%g): precision lost في result\n"
+
+#, c-format
+msgid "besselJ(x, nu): nu=%g too large for bessel_j() algorithm"
+msgstr "besselJ(x, nu): nu=%g كبير جدًا لـ bessel_j() algorithm"
+
+msgid "bessel_j allocation error"
+msgstr "bessel_j تخصيص خطأ"
+
+#, c-format
+msgid "bessel_j(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+msgstr "bessel_j(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out من نطاق?\n"
+
+#, c-format
+msgid "bessel_j(%g,nu=%g): precision lost in result\n"
+msgstr "bessel_j(%g,nu=%g): precision lost في result\n"
+
+#, c-format
+msgid "besselJ(x, nu): nu=%g > 1e7; too large for bessel_j() algorithm"
+msgstr "besselJ(x, nu): nu=%g > 1e7; كبير جدًا لـ bessel_j() algorithm"
+
+msgid "bessel_k allocation error"
+msgstr "bessel_k تخصيص خطأ"
+
+#, c-format
+msgid "bessel_k(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+msgstr "bessel_k(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out من نطاق?\n"
+
+#, c-format
+msgid "bessel_k(%g,nu=%g): precision lost in result\n"
+msgstr "bessel_k(%g,nu=%g): precision lost في result\n"
+
+#, c-format
+msgid "besselY(x, nu): nu=%g too large for bessel_y() algorithm"
+msgstr "besselY(x, nu): nu=%g كبير جدًا لـ bessel_y() algorithm"
+
+msgid "bessel_y allocation error"
+msgstr "bessel_y تخصيص خطأ"
+
+#, c-format
+msgid "bessel_y(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
+msgstr "bessel_y(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out من نطاق?\n"
+
+#, c-format
+msgid "bessel_y(%g,nu=%g): precision lost in result\n"
+msgstr "bessel_y(%g,nu=%g): precision lost في result\n"
+
+#, c-format
+msgid "'k' (%.2f) must be integer, rounded to %.0f"
+msgstr "يجب أن يكون 'k' (%.2f) عدد صحيح, rounded إلى %.0f"
+
+#, c-format
+msgid "non-integer x = %f"
+msgstr "non-عدد صحيح x = %f"
+
+#, c-format
+msgid "argument out of domain in '%s'\n"
+msgstr "وسيط out من domain في '%s'\n"
+
+#, c-format
+msgid "value out of range in '%s'\n"
+msgstr "قيمة out من نطاق في '%s'\n"
+
+#, c-format
+msgid "convergence failed in '%s'\n"
+msgstr "convergence فشل في '%s'\n"
+
+#, c-format
+msgid "full precision may not have been achieved in '%s'\n"
+msgstr "full precision may ليس have been achieved في '%s'\n"
+
+#, c-format
+msgid "underflow occurred in '%s'\n"
+msgstr "underflow occurred في '%s'\n"
+
+#, c-format
+msgid "pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() gave error code %d"
+msgstr "pbeta_خام(%g, =%g, b=%g, lower=%d, log=%d) -> bratio() gave خطأ code %d"
+
+#, c-format
+msgid "non-integer n = %f"
+msgstr "non-عدد صحيح n = %f"
+
+#, c-format
+msgid "pnbinom_mu() -> bratio() gave error code %d"
+msgstr "pnbinom_mu() -> bratio() gave خطأ code %d"
+
+#, c-format
+msgid "pnchisq(x=%g, f=%g, theta=%g, ..): not converged in %d iter."
+msgstr "pnchisq(x=%g, f=%g, theta=%g,..): ليس converged في %d iter."
+
+#, c-format
+msgid "deriv = %d > %d (= n_max)\n"
+msgstr "deriv = %d > %d (= n_max)\n"
+
+#, c-format
+msgid "rbinom: probability sum should be 1, but is %g"
+msgstr "ينبغي أن يكون rbinom: probability sum 1, but is %g"
+
+msgid "signrank allocation error"
+msgstr "signrank تخصيص خطأ"
+
+#, c-format
+msgid "norm_rand(): invalid N01_kind: %d\n"
+msgstr "norm_rand(): غير صالح N01_kind: %d\n"
+
+#, c-format
+msgid "wilcox allocation error %d"
+msgstr "wilcox تخصيص خطأ %d"
+
+msgid "X11 module is not available under this GUI"
+msgstr "X11 module ليس متاح under this GUI"
+
+msgid "X11 routines cannot be accessed in module"
+msgstr "لا يمكن أن يكون X11 إجراءات accessed في module"
+
+msgid "X11 module cannot be loaded"
+msgstr "لا يمكن أن يكون X11 module تم تحميله"
+
+msgid "X11 is not available"
+msgstr "X11 غير متوفر"
+
+msgid "Explicit local dynamic loading not supported on this platform. Using default."
+msgstr "Explicit local dynamic loading ليس مدعوم على this المنصة. Using افتراضي."
+
+msgid "Explicit global dynamic loading not supported on this platform. Using default."
+msgstr "Explicit global dynamic loading ليس مدعوم على this المنصة. Using افتراضي."
+
+msgid "Explicit non-lazy dynamic loading not supported on this platform. Using default."
+msgstr "Explicit non-lazy dynamic loading ليس مدعوم على this المنصة. Using افتراضي."
+
+msgid "Explicit lazy dynamic loading not supported on this platform. Using default."
+msgstr "Explicit lazy dynamic loading ليس مدعوم على this المنصة. Using افتراضي."
+
+msgid "cannot get working directory!"
+msgstr "لا يمكن الحصول على دليل العمل!"
+
+#, c-format
+msgid ""
+"expanded path length %lld would be too long for\n"
+"%s\n"
+msgstr "expanded مسار طول %lld would be طويل جدًا لـ %s\n"
+
+msgid "An unusual circumstance has arisen in the nesting of readline input. Please report using bug.report()"
+msgstr "unusual circumstance has arisen في nesting من readline إدخال. Please report using bug.report()"
+
+#, c-format
+msgid "problem in saving the history file '%s'"
+msgstr "مشكلة في saving history ملف '%s'"
+
+#, c-format
+msgid ""
+"Cannot open file '%s': %s\n"
+"\n"
+msgstr ""
+"لا يمكن فتح ملف '%s': %s\n"
+"\n"
+
+msgid "error in running command"
+msgstr "خطأ في running command"
+
+msgid "'file' argument is too long"
+msgstr "'file' وسيط طويل جدًا"
+
+msgid "no history mechanism available"
+msgstr "لا توجد آلية تاريخ متاحة"
+
+msgid "problem in truncating the history file"
+msgstr "حدثت مشكلة في اقتطاع ملف التاريخ"
+
+msgid "no history available to save"
+msgstr "لا يوجد تاريخ متاح للحفظ"
+
+msgid "invalid timestamp"
+msgstr "طابع زمني غير صالح"
+
+#, c-format
+msgid "running command '%s' had status %d and error message '%s'"
+msgstr "running command '%s' had status %d و رسالة الخطأ '%s'"
+
+msgid "non-empty character argument expected"
+msgstr "كان متوقعًا وسيط نصي غير فارغ"
+
+msgid "'intern' must be logical and not NA"
+msgstr "يجب أن يكون 'intern' منطقي و not NA"
+
+msgid "'receive.console.signals' must be logical and not NA"
+msgstr "يجب أن يكون 'receive.console.signals' منطقي و not NA"
+
+#, c-format
+msgid "cannot popen '%s', probable reason '%s'"
+msgstr "لا يمكن popen '%s', probable reason '%s'"
+
+#, c-format
+msgid "line %d may be truncated in call to system(, intern = TRUE)"
+msgstr "line %d قد يكون مقتطع في استدعاء إلى system(, intern = صحيح)"
+
+#, c-format
+msgid "error in running command: '%s'"
+msgstr "خطأ في running command: '%s'"
+
+msgid "Sys.info() is not implemented on this system"
+msgstr "Sys.info() غير منفّذة على هذا النظام"
+
+#, c-format
+msgid "WARNING: --gui or -g without value ignored"
+msgstr "تحذير: تم تجاهل --gui أو -g بدون قيمة"
+
+#, c-format
+msgid "WARNING: unknown gui '%s', using X11\n"
+msgstr "تحذير: غير معروف gui '%s', using X11\n"
+
+#, c-format
+msgid "WARNING: unknown gui '%s', using none\n"
+msgstr "تحذير: غير معروف gui '%s', using none\n"
+
+#, c-format
+msgid "path given in -f/--file is too long"
+msgstr "المسار المعطى في -f/--file طويل جدًا"
+
+msgid "creating temporary file for '-e' failed"
+msgstr "فشل إنشاء ملف مؤقت لـ '-e'"
+
+msgid "WARNING: Only editing the first in the list of files"
+msgstr "تحذير: سيتم تحرير الملف الأول فقط في قائمة الملفات"
+
+#~ msgid "length-0 dimension vector is invalid"
+#~ msgstr "طول-0 بُعد متجه هو غير صالح"
+
+#~ msgid "See help(\"Defunct\") and help(\"%s-defunct\")."
+#~ msgstr "انظر help(\"Defunct\") وhelp(\"%s-defunct\") ."
+
+#~ msgid "See help(\"Defunct\")"
+#~ msgstr "انظر help(\"Defunct\")"
+
+#~ msgid "See help(\"Deprecated\") and help(\"%s-deprecated\")."
+#~ msgstr "انظر help(\"Deprecated\") وhelp(\"%s-deprecated\") ."
+
+#~ msgid "See help(\"Deprecated\")"
+#~ msgstr "انظرhelp(\"Deprecated\")"
+
+#~ msgid "infinite or missing values in 'x'"
+#~ msgstr "القيم لانهائية أو مفقودة في 'x'"
+
+#, fuzzy
+#~ msgid "a dimension is zero"
+#~ msgstr "البعد يساوي صفرا"
+
+#~ msgid "\"all\" and \"exact\" are mutually exclusive"
+#~ msgstr "\"all\" و \"exact\" يستبعد أحدهما الآخر"
+
+#~ msgid "\"hexNumeric\" and \"digits17\" are mutually exclusive"
+#~ msgstr "\"hexNumeric\" و \"digits17\" يستبعد أحدهما الآخر"
+
+#~ msgid "'%s' is not a valid abbreviation of an RNG"
+#~ msgstr "\"‎%s\" ليس اختصارا صالحا ل RNG"
