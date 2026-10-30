@@ -1,0 +1,218 @@
+# Lithuanian translations for utils package.
+# Copyright (C) 2020 THE utils'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the utils package.
+# <r.zakauskas@gmail.com;gabriele.dauksaite@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: utils 4.1.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-04-25 10:48-0700\n"
+"PO-Revision-Date: 2020-12-08 12:22+0200\n"
+"Last-Translator: r.zakauskas@gmail.com;gabriele.dauksaite@gmail.com\n"
+"Language-Team: Lithuanian\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "netinkamas argumentas '%s'"
+
+msgid "invalid quote symbol set"
+msgstr "netinkamas kabučių simbolių rinkinys"
+
+msgid "cannot open the connection"
+msgstr "negalima atidaryti ryšio"
+
+msgid "cannot read from this connection"
+msgstr "negalima skaityti iš šio ryšio"
+
+#, c-format
+msgid "quoted string on line %d terminated by EOF"
+msgstr "cituojamą eilutę, esančią %d, nutraukė EOF"
+
+msgid "the first argument must be of mode character"
+msgstr "pirmasis argumentas turi būti rėžimo simbolis"
+
+#, c-format
+msgid "invalid 'numerals' string: \"%s\""
+msgstr "netinkama 'numerals' eilutė: \"%s\""
+
+#, c-format
+msgid "Selection: "
+msgstr "Pasirinkimas: "
+
+msgid "cannot allocate buffer in 'readTableHead'"
+msgstr "negalima priskirti buferio, esančio 'readTableHead'"
+
+msgid "\\ followed by EOF"
+msgstr "\\ sekė EOF"
+
+#, c-format
+msgid "incomplete final line found by readTableHeader on '%s'"
+msgstr "neišsami galutinė eilutė, kurią rado readTableHeader '%s'"
+
+msgid "index out of range"
+msgstr "indeksas nepatenka į sritį"
+
+#, c-format
+msgid "Problem closing connection:  %s"
+msgstr "Problema uždarant ryšį: %s"
+
+msgid "Problem closing connection"
+msgstr "Problema uždarant ryšį"
+
+msgid "'file' is not a connection"
+msgstr "'file' nėra ryšys"
+
+msgid "cannot write to this connection"
+msgstr "negalima rašyti į šį ryšį"
+
+msgid "'dec' must be a single character"
+msgstr "'dec' turi būti vienas simbolis"
+
+#, c-format
+msgid "corrupt data frame -- length of column %d does not match nrows"
+msgstr "sugadinta duomenų sistema – stulpelio %d ilgis neatitinka nrows"
+
+#, fuzzy, c-format
+msgid "column %d claims to be a factor but does not have numeric codes"
+msgstr "stulpelis %d gali būti faktorius, bet neturi skaitinių kodų"
+
+msgid "corrupt matrix -- dims do not match length"
+msgstr "sugadinta matrica - nesutampa dims ilgis"
+
+msgid "'savehistory' can only be used in Rgui and Rterm"
+msgstr "'savehistory' galima naudoti tik Rgui ir Rterm"
+
+msgid "'loadhistory' can only be used in Rgui and Rterm"
+msgstr "'loadhistory' galima naudoti tik Rgui ir Rterm"
+
+msgid "invalid timestamp"
+msgstr "netinkama laiko žyma"
+
+msgid "X11 dataentry cannot be loaded"
+msgstr "X11 dataentry negalima įkelti"
+
+msgid "X11 is not available"
+msgstr "X11 nėra"
+
+#, c-format
+msgid "invalid '%s' specification"
+msgstr "netinkama '%s' specifikacija"
+
+#, c-format
+msgid "'%s' contains missing values"
+msgstr "'%s' yra trūkstamų reikšmių"
+
+#, fuzzy
+msgid "argument 'class' must be a character string"
+msgstr "'text' turi būti simbolių eilutė"
+
+#, fuzzy
+msgid "argument 'x' must be a length-1 character vector"
+msgstr "argumentas turi būti simbolių vektorius arba neapdorotas vektorius"
+
+msgid "argument 'x' must be UTF-8 encoded (including ASCII)"
+msgstr ""
+
+msgid "'hostname' must be a character vector of length 1"
+msgstr "'hostname' turi būti 1 ilgio simbolių vektorius"
+
+#, c-format
+msgid "nsl() was unable to resolve host '%s'"
+msgstr "nsl() nepavyko išspręsti pagrindinio kompiuterio '%s'"
+
+msgid "unknown format returned by 'gethostbyname'"
+msgstr "nežinomas formatas, kurį grąžino 'gethostbyname'"
+
+msgid "nsl() is not supported on this platform"
+msgstr "nsl() šioje platformoje nepalaikomas"
+
+msgid "unknown type"
+msgstr "nežinomas tipas"
+
+msgid "menu functions can only be used in the GUI"
+msgstr "meniu funkcijas galima naudoti tik GUI"
+
+#, c-format
+msgid "unable to retrieve items for %s (%s)"
+msgstr "nepavyko nuskaityti %s (%s) elementų"
+
+#, c-format
+msgid "unable to add menu (%s)"
+msgstr "neįmanoma pridėti meniu (%s)"
+
+#, c-format
+msgid "unable to add menu item (%s)"
+msgstr "neįmanoma pridėti meniu elemento (%s)"
+
+msgid "menu does not exist"
+msgstr "meniu nėra"
+
+#, c-format
+msgid "unable to delete menu item (%s)"
+msgstr "neįmanoma panaikinti meniu elemento (%s)"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "netinkama '%s' reikšmė"
+
+#, c-format
+msgid "Registry key '%ls' not found"
+msgstr "Registro raktas '%ls' nerastas"
+
+msgid "unsupported version of Windows"
+msgstr "nepalaikoma \"Windows\" versija"
+
+msgid "argument must be a character vector or a raw vector"
+msgstr "argumentas turi būti simbolių vektorius arba neapdorotas vektorius"
+
+msgid "unable to open the clipboard"
+msgstr "neįmanoma atidaryti mainų srities"
+
+msgid "unable to write to the clipboard"
+msgstr "neįmanoma rašyti į mainų sritį"
+
+msgid "'title' must be a character string"
+msgstr "'title' turi būti simbolių eilutė"
+
+msgid "'text' must be a character string"
+msgstr "'text' turi būti simbolių eilutė"
+
+#, c-format
+msgid "'%s' must be length 1"
+msgstr "'%s' ilgis turi būti 1"
+
+#, c-format
+msgid "'%s' must be a list"
+msgstr "'%s' turi būti sąrašas"
+
+#, c-format
+msgid "'%s' element %d is not a window handle"
+msgstr "'%s' elementas %d nėra lango rankenėlė"
+
+msgid "Select one or more"
+msgstr "Pasirinkite vieną ar daugiau"
+
+msgid "Select one"
+msgstr "Pasirinkite vieną"
+
+msgid "'default' must be a character string"
+msgstr "'default' turi būti simbolių eilutė"
+
+msgid "'default' is overlong"
+msgstr "'default' yra per ilgas"
+
+msgid "'caption' must be a character string"
+msgstr "'caption' turi būti simbolių eilutė"
+
+msgid "'multi' must be a logical value"
+msgstr "'multi' turi būti loginė reikšmė"
+
+msgid "'filterindex' must be an integer value"
+msgstr "'filterindex' turi būti sveikojo skaičiaus reikšmė"

@@ -1,0 +1,161 @@
+# Portuguese translations for R package.
+# Copyright (C) 2005 The R Foundation
+# This file is distributed under the same license as the R package.
+# Fernando Henrique Ferraz P. da Rosa <feferraz@ime.usp.br>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: R 2.2.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-08-01 04:41-0700\n"
+"PO-Revision-Date: 2011-03-26 08:54-0300\n"
+"Last-Translator: Fernando Henrique <pessoal@fernandohrosa.com.br>\n"
+"Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+msgid "graphical parameter 'fontfamily' has a maximum length of 200 bytes"
+msgstr ""
+
+msgid "updateGContext must only be called after initGContext"
+msgstr "updateGContext só deve ser chamado após initGContext"
+
+msgid "Turning clipping on or off within a (clipping) path is no honoured"
+msgstr "Ativar ou desativar o recorte em um caminho (recorte) não está sendo respeitado"
+
+msgid "cannot clip to rotated viewport"
+msgstr "Não é possível cortar sobre uma viewport rotacionada"
+
+msgid "Clipping paths within a (clipping) path are not honoured"
+msgstr "O recorte dos caminhos dentro de um caminho (de recorte) não está sendo respeitado"
+
+msgid "Masks within a (clipping) path are not honoured"
+msgstr "Máscaras dentro de um caminho (recorte) não estão sendo respeitadas"
+
+#, c-format
+msgid "Viewport '%s' was not found"
+msgstr "A janela de visualização gráfica '%s' não foi encontrada"
+
+#, fuzzy
+msgid "cannot pop the top-level viewport ('grid' and 'graphics' output mixed?)"
+msgstr "Não é possível mostrar a viewport de nível máximo (saidas gráficas e grid misturadas?)"
+
+msgid "attempt to plot on null device"
+msgstr "tentativa de fazer um gráfico no dispositivo nulo"
+
+msgid "there is no layout defined"
+msgstr "Não há layout definido"
+
+msgid "polygon edge not found (zero-width or zero-height?)"
+msgstr "Limite do polígono não encontrado (largura ou altura zero?)"
+
+msgid "polygon edge not found"
+msgstr "Limite do polígono não encontrado"
+
+msgid "require at least two points to draw arrow"
+msgstr "Pelo menos dois pontos são necessários para desenhar uma seta"
+
+msgid "non-finite control point in Xspline"
+msgstr "Ponto de controle não-finito em Xspline"
+
+msgid "non-finite x or y in graphics path"
+msgstr "valores não-finitos de x ou y no caminho do gráfico"
+
+msgid "Empty raster"
+msgstr "Raster vazio"
+
+msgid "Coordinates for text pch not yet supported"
+msgstr "Coordenadas para 'pch' de texto ainda não suportadas"
+
+#, c-format
+msgid "pch value '%d' is invalid in this locale"
+msgstr "O valor pch '%d' é inválido nesta configuração de localidade"
+
+#, c-format
+msgid "unimplemented pch value '%d'"
+msgstr "O valor '%d' de pch não está implementado"
+
+msgid "invalid plotting symbol"
+msgstr "simbolo para gráfico inválido"
+
+msgid "unable to clip to rotated rectangle"
+msgstr "Não é possível cortar sobre um retângulo rotacionado"
+
+msgid "invalid 'layout.pos.row'"
+msgstr "'layout.pos.row' inválido"
+
+msgid "invalid 'layout.pos.col'"
+msgstr "'layout.pos.col' inválido"
+
+msgid "singular transformation matrix"
+msgstr "matriz de transformação singular"
+
+msgid "unable to store 'grid' state.  Too many devices open?"
+msgstr "Não foi possível guardar o estado do 'grid'. Muitos dispositivos abertos?"
+
+msgid "Cannot create unit scalar from 0-length unit vector"
+msgstr "Não é possível criar escalares de unidades a partir do vetor de unidades de comprimento 0"
+
+msgid "invalid unit or unit not yet implemented"
+msgstr "Unidade inválida ou unidade ainda não implementada"
+
+msgid "Viewport has zero dimension(s)"
+msgstr "A janela de visualização gráfica tem dimensão zero"
+
+msgid "Unsupported unit conversion"
+msgstr "Conversão de unidade não suportada"
+
+msgid "Invalid unit"
+msgstr "Unidade inválida"
+
+msgid "'units' must be character"
+msgstr "'units' deve ser do tipo caractere"
+
+msgid "'units' must be of length > 0"
+msgstr "'units' devem ter comprimento > 0"
+
+msgid "data must be either NULL, have length 1, or match the length of the final unit vector"
+msgstr ""
+
+msgid "no string supplied for 'strwidth/height' unit"
+msgstr "Nenhuma string de caracteres fornecida para a unidade 'strwidth/height'"
+
+msgid "no 'grob' supplied for 'grobwidth/height' unit"
+msgstr "Nenhum 'grob' fornecido para a unidade 'grobwidth/height'"
+
+msgid "'gPath' must have depth 1 in 'grobwidth/height' units"
+msgstr "'gPath' deve ter profundidade 1 em unidades 'grobwidth/height'"
+
+msgid "non-NULL value supplied for plain unit"
+msgstr "valor não NULL fornecido para unidade simples"
+
+msgid "old version of unit class is no longer allowed"
+msgstr "A versão antiga da classe unit não é mais permitida"
+
+msgid "object is not coercible to a unit"
+msgstr "objeto não é coercível a uma unidade"
+
+msgid "object is not a unit"
+msgstr "objeto não é uma unidade"
+
+msgid "units can only be multiplied with numerics and integers"
+msgstr "as unidades só podem ser multiplicadas por números numéricos ou inteiros"
+
+msgid "Unable to calculate text width/height (using zero)"
+msgstr "Não foi possível calcular a largura/altura do texto (usando zero)"
+
+msgid "Mask is not logical value ('none' or 'inherit')"
+msgstr "Mask não é um valor lógico ('none' ou 'inherit')"
+
+msgid "non-finite location and/or size for viewport"
+msgstr "Localização e/ou tamanhos não finitos para viewport"
+
+#, fuzzy
+#~ msgid "unimplemented unit function"
+#~ msgstr "Função unidade não implementada"
+
+#~ msgid "Invalid circle radius (must be non-negative)"
+#~ msgstr "Raio de círculo inválido (deve ser não negativo)"

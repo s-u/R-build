@@ -1,0 +1,81 @@
+% File src/library/datasets/man/Theoph.Rd
+% Part of the R package, https://www.R-project.org
+% Copyright 1995-2025 R Core Team
+% Distributed under GPL 2 or later
+
+\name{Theoph}
+\docType{data}
+\alias{Theoph}
+\title{Pharmacokinetics of Theophylline}
+\description{
+  The \code{Theoph} data frame has 132 rows and 5 columns of data from
+  an experiment on the pharmacokinetics of theophylline.
+}
+\usage{Theoph}
+\format{
+  An object of class
+  \code{c("nfnGroupedData", "nfGroupedData", "groupedData", "data.frame")}
+  containing the following columns:
+  \describe{
+    \item{\code{Subject}}{
+      an ordered factor with levels \samp{1}, \dots, \samp{12}
+      identifying the subject on whom the observation was made.  The
+      ordering is by increasing maximum concentration of theophylline
+      observed.
+    }
+    \item{\code{Wt}}{
+      weight of the subject (kg).
+    }
+    \item{\code{Dose}}{
+      dose of theophylline administered orally to the subject (mg/kg).
+    }
+    \item{\code{Time}}{
+      time since drug administration when the sample was drawn (hr).
+    }
+    \item{\code{conc}}{
+      theophylline concentration in the sample (mg/L).
+    }
+  }
+}
+\details{
+  \bibcitet{R:Boeckmann+Sheiner+Beal:1994} report data from a study by
+  Dr. Robert Upton of the kinetics of the anti-asthmatic drug
+  theophylline.  Twelve subjects were given oral doses of theophylline
+  then serum concentrations were measured at 11 time points over the
+  next 25 hours.
+
+  These data are analyzed in
+  \bibcitet{|R:Davidian+Giltinan:1995|page 145 in section 5.5 and page
+  176 in section 6.6}
+  and
+  \bibcitet{R:Pinheiro+Bates:2000} using a two-compartment open pharmacokinetic model,
+  for which a self-starting model function, \code{SSfol}, is available.
+
+  This dataset was originally part of package \CRANpkg{nlme}
+  \bibcitep{|R:Pinheiro+Bates:2000|Appendix A.29}, and that has
+  methods (including for \code{[}, \code{as.data.frame}, \code{plot} and
+  \code{print}) for its grouped-data classes.
+}
+\references{
+  \bibshow{*}
+}
+\seealso{\code{\link{SSfol}}}
+\examples{
+require(stats); require(graphics)
+\dontshow{options(show.nls.convergence=FALSE)}
+coplot(conc ~ Time | Subject, data = Theoph, show.given = FALSE)
+Theoph.4 <- subset(Theoph, Subject == 4)
+fm1 <- nls(conc ~ SSfol(Dose, Time, lKe, lKa, lCl),
+           data = Theoph.4)
+summary(fm1)
+plot(conc ~ Time, data = Theoph.4,
+     xlab = "Time since drug administration (hr)",
+     ylab = "Theophylline concentration (mg/L)",
+     main = "Observed concentrations and fitted model",
+     sub  = "Theophylline data - Subject 4 only",
+     las = 1, col = 4)
+xvals <- seq(0, par("usr")[2], length.out = 55)
+lines(xvals, predict(fm1, newdata = list(Time = xvals)),
+      col = 4)
+}
+\keyword{datasets}

@@ -1,0 +1,162 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 2.1.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-09-02 17:50-0700\n"
+"PO-Revision-Date: 2026-04-14 15:41+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: RjpWiki Message Translation Team <mokada@md.tsukuba.ac.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+msgid "argument 'files' must be character"
+msgstr "引数 'files' は文字型でなければなりません"
+
+#, fuzzy, c-format
+msgid "md5 failed on file '%ls'"
+msgstr "md5 はファイル '%s' で失敗しました"
+
+#, c-format
+msgid "md5 failed on file '%s'"
+msgstr "md5 はファイル '%s' で失敗しました"
+
+#, fuzzy, c-format
+msgid "sha256 failed on file '%ls'"
+msgstr "md5 はファイル '%s' で失敗しました"
+
+#, fuzzy, c-format
+msgid "sha256 failed on file '%s'"
+msgstr "md5 はファイル '%s' で失敗しました"
+
+#, c-format
+msgid "only %d arguments are allowed"
+msgstr "引数は %d 個までです"
+
+msgid "'fmt' is not a character vector"
+msgstr "'fmt' は文字ベクトルではありません"
+
+msgid "'fmt' must be length 1"
+msgstr "'fmt' の長さは 1 でなければなりません"
+
+#, c-format
+msgid "'fmt' length exceeds maximal format length %d"
+msgstr "'fmt' の長さがフォーマットの最大長 %d を越えています"
+
+#, c-format
+msgid "unrecognised format specification '%s'"
+msgstr "識別不能なフォーマット指定 '%s' です"
+
+msgid "at most one asterisk '*' is supported in each conversion specification"
+msgstr "各変換指定に許されるアステリスク '*' は多くても一つです"
+
+#, c-format
+msgid "unable to allocate buffer for long string at line %d"
+msgstr "%d 行にある長い文字列のためのバッファを確保できませんでした"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "不正な '%s' 値です"
+
+#, c-format
+msgid "bad markup (extra space?) at %s:%d:%d"
+msgstr "%s:%d:%d に誤ったマークアップがあります (スペースが余計?)"
+
+#, c-format
+msgid "Macro '%s' previously defined."
+msgstr "マクロ '%s' は既に定義されています。"
+
+#, c-format
+msgid "At most 4 arguments are allowed for user defined macros."
+msgstr "ユーザー定義のマクロに許されている引数の数は最大 4 つです"
+
+#, c-format
+msgid "No macro definition for '%s'."
+msgstr "'%s' に対するマクロが定義されていません。"
+
+#, fuzzy, c-format
+msgid "Not enough arguments passed to user macro '%s'"
+msgstr "ユーザー定義のマクロに許されている引数の数は最大 4 つです"
+
+#, c-format
+msgid "newline within quoted string at %s:%d"
+msgstr "引用文字列の %s に改行:%d"
+
+#, c-format
+msgid "unable to allocate buffer for long macro at line %d"
+msgstr "行 %d にある長いマクロに対するバッファを確保できません"
+
+msgid "macros nested too deeply: infinite recursion?"
+msgstr "マクロが過剰に入れ子になっています: 無限な再帰？"
+
+#, c-format
+msgid "Unable to find macro %s"
+msgstr "マクロ %s を見つけることができません"
+
+#, c-format
+msgid "Unexpected end of input (in %c quoted string opened at %s:%d:%d)"
+msgstr "予想外の入力の停止 (%c 引用文字列中の %s:%d:%d で開かれた)"
+
+msgid "'parse_Rd' is not re-entrant"
+msgstr ""
+
+msgid "cannot open the connection"
+msgstr "コネクションを開くことができません"
+
+msgid "cannot read from this connection"
+msgstr "このコネクションからは読み取りができません"
+
+msgid "invalid Rd file"
+msgstr "不正な Rd ファイルです"
+
+msgid "'deparseRd' only supports deparsing character elements"
+msgstr "'deparseRd' は文字要素のディパースだけをサポートしています"
+
+msgid "bad state"
+msgstr "不都合な状態"
+
+#, c-format
+msgid "bad text mode %d in 'deparseRd'"
+msgstr "'deparseRd' 中に不都合なテキストモード %d"
+
+msgid "invalid bind address specification"
+msgstr "不正な空白アドレス指定"
+
+#, c-format
+msgid "Invalid port number %d: should be in 0:65535, typically above 1024"
+msgstr ""
+
+msgid "allocation error in remove_dot_segments"
+msgstr ""
+
+msgid "non-character argument"
+msgstr ""
+
+msgid "path too long"
+msgstr ""
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "不正な引数 '%s' です"
+
+msgid "write error during file append"
+msgstr "ファイルの付加中に書き込みエラー"
+
+msgid "too many items"
+msgstr ""
+
+msgid "pskill() is not supported on this platform"
+msgstr "pskill() はこのプラットホームではサポートされていません"
+
+msgid "psnice() is not supported on this platform"
+msgstr "psnice() はこのプラットホームではサポートされていません"
+
+msgid "invalid argument type"
+msgstr "不正な引数の型です"
+
+msgid "out of memory"
+msgstr "メモリが足りません"

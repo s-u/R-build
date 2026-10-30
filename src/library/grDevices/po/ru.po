@@ -1,0 +1,882 @@
+# Russian translations for R
+# Русский перевод для R
+#
+# Copyright (C) 2008 The R Foundation
+# This file is distributed under the same license as the R package.
+# Alexey Shipunov <dactylorhiza at gmail dot com> 2010
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 4.4.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-09-02 17:50-0700\n"
+"PO-Revision-Date: 2024-03-25 14:40+0300\n"
+"Last-Translator: Ivan Krylov <ikrylov@disroot.org>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=KOI8-R\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#, c-format
+msgid "'%s' must be numeric of length %d"
+msgstr "'%s' должен быть числовым длины %d"
+
+msgid "Clipping path ignored (device is appending path)"
+msgstr "Игнорирую контур усечения (устройство дописывает контур)"
+
+#, c-format
+msgid "color intensity %s, not in [0,1]"
+msgstr "цветовая интенсивность %s, не в [0,1]"
+
+#, c-format
+msgid "color intensity %g, not in [0,1]"
+msgstr "цветовая интенсивность %g, не в [0,1]"
+
+#, c-format
+msgid "color intensity %s, not in 0:255"
+msgstr "цветовая интенсивность %s, не в 0:255"
+
+#, c-format
+msgid "color intensity %d, not in 0:255"
+msgstr "цветовая интенсивность %d, не в 0:255"
+
+#, c-format
+msgid "alpha level %s, not in [0,1]"
+msgstr "уровень альфа %s, не в [0,1]"
+
+#, c-format
+msgid "alpha level %g, not in [0,1]"
+msgstr "уровень альфа %g, не в [0,1]"
+
+#, c-format
+msgid "alpha level %s, not in 0:255"
+msgstr "уровень альфа %s не в 0:255"
+
+#, c-format
+msgid "alpha level %d, not in 0:255"
+msgstr "уровень альфа %d, не в 0:255"
+
+msgid "inputs must be finite"
+msgstr "ввод должен быть конечным"
+
+msgid "bad hsv to rgb color conversion"
+msgstr "неправильное преобразование hsv в rgb"
+
+msgid "invalid hsv color"
+msgstr "неправильный цвет hsv"
+
+msgid "invalid hcl color"
+msgstr "неправильный цвет hcl"
+
+msgid "invalid value of 'maxColorValue'"
+msgstr "неправильное значение 'maxColorValue'"
+
+msgid "invalid 'names' vector"
+msgstr "неправильный вектор 'names'"
+
+msgid "invalid gray level, must be in [0,1]."
+msgstr "неправильный уровень серого, должен быть в [0,1]."
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "неправильное значение '%s'"
+
+msgid "invalid hex digit in 'color' or 'lty'"
+msgstr "неправильная шестнадцатеричная цифра в 'color' или 'lty'"
+
+msgid "invalid RGB specification"
+msgstr "неправильное указание RGB"
+
+#, c-format
+msgid "invalid color name '%s'"
+msgstr "неправильное название цвета '%s'"
+
+#, c-format
+msgid "invalid color specification \"%s\""
+msgstr "неправильное указание цвета \"%s\""
+
+msgid "supplied color is neither numeric nor character"
+msgstr "заданный цвет не число и не текст"
+
+#, c-format
+msgid "numerical color values must be >= 0, found %d"
+msgstr "числовые значения цветов должны быть >= 0, а они %d"
+
+msgid "invalid argument type"
+msgstr "неправильный тип аргумента"
+
+msgid "unknown palette (need >= 2 colors)"
+msgstr "неправильная палитра (надо >= 2 цветов)"
+
+#, c-format
+msgid "maximum number of colors is %d"
+msgstr "максимальное количество цветов %d"
+
+#, c-format
+msgid "afm file '%s' could not be opened"
+msgstr "afm-файл '%s' не открывается"
+
+msgid "unknown AFM entity encountered"
+msgstr "встречен неизвестный раздел AFM"
+
+#, c-format
+msgid "invalid string in '%s'"
+msgstr "неправильная строка в '%s'"
+
+#, c-format
+msgid "font width unknown for character 0x%02x in encoding %s"
+msgstr "неизвестна ширина символа 0x%02x в кодировке %s"
+
+#, c-format
+msgid "font metrics unknown for Unicode character U+%04X"
+msgstr "неизвестны шрифтовые метрики для символа Юникода U+%04X"
+
+#, c-format
+msgid "unknown encoding '%s' in 'PostScriptMetricInfo'"
+msgstr "неизвестная кодировка '%s' в 'PostScriptMetricInfo'"
+
+#, c-format
+msgid "Unicode character %lc (U+%04X) cannot be converted"
+msgstr "Не могу перевести символ Юникода %lc (U+%04X)"
+
+#, c-format
+msgid "font metrics unknown for character 0x%02x in encoding %s"
+msgstr "неизвестны шрифтовые метрики для символа 0x%02x в кодировке %s"
+
+#, c-format
+msgid "invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
+msgstr "неправильный символ (%04X) передан в 'PostScriptCIDMetricInfo' на однобайтной локали"
+
+msgid "invalid character sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
+msgstr "неправильный символ послан в 'PostScriptCIDMetricInfo' на однобайтной локали"
+
+msgid "failed to allocate CID font info"
+msgstr "не могу разместить информацию CID-шрифта"
+
+msgid "failed to allocate Type 1 font info"
+msgstr "не могу разместить информацию шрифта Type 1"
+
+msgid "failed to allocate encoding info"
+msgstr "не могу разместить информацию о кодировке"
+
+msgid "failed to allocate CID font family"
+msgstr "не могу разместить семейство CID-шрифтов"
+
+msgid "failed to allocate Type 1 font family"
+msgstr "не могу разместить семейство шрифтов Type 1"
+
+msgid "failed to allocate font list"
+msgstr "не могу разместить список шрифтов"
+
+msgid "failed to allocated encoding list"
+msgstr "не могу разместить список кодировок"
+
+msgid "truncated string which was too long for copy"
+msgstr "обрезана строка, слишком длинная для копирования"
+
+#, c-format
+msgid "failed to load encoding file '%s'"
+msgstr "не могу загрузить файл кодировки '%s'"
+
+msgid "invalid font name or more than one font name"
+msgstr "неправильное имя шрифта или больше одного имени шрифта"
+
+#, c-format
+msgid "font family '%s' not found in PostScript font database"
+msgstr "семейство шрифтов '%s' не найдено в базе данных шрифтов PostScript"
+
+#, c-format
+msgid "font encoding for family '%s' not found in font database"
+msgstr "кодировка шрифта семейства '%s' не найдена в базе данных"
+
+#, c-format
+msgid "font CMap for family '%s' not found in font database"
+msgstr "шрифтовая CMap семейства '%s' не найдена в базе данных шрифтов"
+
+#, c-format
+msgid "cannot load afm file '%s'"
+msgstr "не могу загрузить afm-файл '%s'"
+
+msgid "corrupt loaded encodings;  encoding not recorded"
+msgstr "повреждены загруженные кодировки; кодировка не записана"
+
+msgid "failed to record device encoding"
+msgstr "не вышло записать кодировку устройства"
+
+msgid "object '.ps.prolog' is not a character vector"
+msgstr "объект '.ps.prolog' не является текстовым вектором"
+
+msgid "invalid line end"
+msgstr "неправильный конец строки"
+
+msgid "invalid line join"
+msgstr "неправильное соединение линий"
+
+msgid "invalid line mitre"
+msgstr "неправильный конец линии"
+
+#, c-format
+msgid "attempt to use invalid font %d replaced by font 1"
+msgstr "попытка использования неправильного шрифта %d; заменил шрифтом 1"
+
+#, c-format
+msgid "filename too long in %s()"
+msgstr "слишком длинное имя файла в вызове %s()"
+
+#, c-format
+msgid "memory allocation problem in %s()"
+msgstr "проблема с выделением памяти в %s()"
+
+#, c-format
+msgid "encoding path is too long in %s()"
+msgstr "путь к кодировке слишком длинный в %s()"
+
+#, c-format
+msgid "failed to load encoding file in %s()"
+msgstr "не могу загрузить файл кодировки в %s()"
+
+msgid "invalid font type"
+msgstr "неправильный тип шрифта"
+
+msgid "failed to initialise default PostScript font"
+msgstr "не удалось инициализировать шрифт PostScript по умолчанию"
+
+msgid "failed to initialise additional PostScript fonts"
+msgstr "не удалось инициализировать дополнительные шрифты PostScript"
+
+msgid "invalid foreground/background color (postscript)"
+msgstr "неправильный цвет переднего/заднего плана (postscript)"
+
+msgid "'command' is too long"
+msgstr "'command' слишком длинная"
+
+msgid "'postscript(print.it=TRUE)' used with an empty 'print' command"
+msgstr "'postscript(print.it=TRUE)' использован с пустой командой печати"
+
+#, c-format
+msgid "invalid page type '%s' (postscript)"
+msgstr "неправильный тип страницы '%s' (postscript)"
+
+msgid "semi-transparency is not supported on this device: reported only once per page"
+msgstr "полупрозрачность не поддерживается этим устройством: сообщается раз на страницу"
+
+#, fuzzy, c-format
+msgid "cannot open 'postscript' pipe to '%s' (reason: %s)"
+msgstr "не могу открыть канал 'postscript' в '%s'"
+
+#, c-format
+msgid "cannot open file '%s'"
+msgstr "не могу открыть файл '%s'"
+
+#, c-format
+msgid ""
+"error from postscript() in running:\n"
+"    %s"
+msgstr ""
+"ошибка postscript(), выполняющего:\n"
+"    %s"
+
+#, c-format
+msgid "CID family '%s' not included in postscript() device"
+msgstr "CID-семейство '%s' не включено в postscript() устройство"
+
+#, c-format
+msgid "family '%s' not included in postscript() device"
+msgstr "семейство '%s' не включено в postscript() устройство"
+
+#, c-format
+msgid "unknown encoding '%s' in 'mbcsToSbcs'"
+msgstr "неизвестная кодировка '%s' в 'mbcsToSbcs'"
+
+#, c-format
+msgid "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
+msgstr "ошибка конвертации '%s' в 'mbcsToSbcs': для <%02x>"
+
+#, c-format
+msgid "conversion failure on '%s' in 'mbcsToSbcs': dot substituted for <%02x>"
+msgstr "ошибка конвертации '%s' в 'mbcsToSbcs': <%02x> заменено на точку"
+
+#, c-format
+msgid "failed open converter to encoding '%s'"
+msgstr "не удалась конверсия в кодировку '%s'"
+
+#, c-format
+msgid "failed in text conversion to encoding '%s'"
+msgstr "не удалась конверсия текста в кодировку '%s'"
+
+msgid "Failed to allocate PDF definition string"
+msgstr "Не могу выделить строку определения PDF"
+
+msgid "failed to increase definition string (shut down PDF device)"
+msgstr "не могу увеличить строку определений: пожалуйста, выключите устройство PDF"
+
+msgid "failed to increase 'maxDefns'"
+msgstr "не могу увеличить 'maxDefns'"
+
+msgid "Drawing not appended to path (contains text)"
+msgstr "Не добавляю объект к контуру (текущий контур содержит текст)"
+
+msgid "Compositing operator has no corresponding blend mode; defaulting to Normal"
+msgstr "Не задан режим смешения для оператора композиции; выбираю Normal"
+
+msgid "Failed to write PDF clipping path"
+msgstr "Не удалось записать контур усечения PDF"
+
+msgid "Failed to write PDF stroke"
+msgstr "Не удалось записать штрих PDF"
+
+msgid "Failed to write PDF fill"
+msgstr "Не удалось записать заливку PDF"
+
+msgid "Failed to write PDF fillStroke"
+msgstr "Не удалось записать PDF fillStroke"
+
+msgid "Glyph ID larger than 0xFFFF; output will be incorrect"
+msgstr "Номер глифа превышает 0xFFFF; результат будет некорректен"
+
+msgid "invalid 'alpha' value in PDF"
+msgstr "неправильное значение 'alpha' в PDF"
+
+msgid "failed to increase 'maxRaster'"
+msgstr "не могу увеличить 'maxRaster'"
+
+msgid "unable to allocate raster image"
+msgstr "не могу разместить растровое изображение"
+
+msgid "write failed"
+msgstr "запись не удалась"
+
+msgid "corrupt loaded encodings;  font not added"
+msgstr "повреждены загруженные кодировки; шрифт не добавлен"
+
+msgid "failed to record device encoding; font not added"
+msgstr "не могу записать кодировку устройства; шрифт не добавлен"
+
+msgid "increasing the PDF version to 1.2"
+msgstr "увеличиваю версию PDF до 1.2"
+
+msgid "failed to load default encoding"
+msgstr "не могу загрузить кодировку по умолчанию"
+
+msgid "failed to initialise default PDF font"
+msgstr "не удалось инициализировать шрифт PDF по умолчанию"
+
+msgid "failed to initialise additional PDF fonts"
+msgstr "не удалось инициализировать дополнительные шрифты PDF"
+
+msgid "failed to allocate rasters"
+msgstr "не могу разместить растры"
+
+msgid "failed to allocate masks"
+msgstr "не могу разместить маски"
+
+msgid "failed to allocate definitions"
+msgstr "не могу разместить определения"
+
+#, c-format
+msgid "invalid paper type '%s' (pdf)"
+msgstr "неправильный тип бумаги '%s' (pdf)"
+
+msgid "invalid foreground/background color (pdf)"
+msgstr "неправильный цвет переднего/заднего плана (pdf)"
+
+msgid "increasing the PDF version to 1.4"
+msgstr "увеличиваю версию PDF до 1.4"
+
+msgid "unknown 'colormodel', using 'srgb'"
+msgstr "неизвестная 'colormodel', использую 'srgb'"
+
+msgid "failed to load sRGB colorspace file"
+msgstr "не удалось загрузить файл цветового пространства sRGB"
+
+msgid "corrupt encodings in PDF device"
+msgstr "поврежденные кодировки в устройстве PDF"
+
+msgid "increasing the PDF version to 1.3"
+msgstr "увеличиваю версию PDF до 1.3"
+
+#, fuzzy, c-format
+msgid "cannot open 'pdf' pipe to '%s' (reason: %s)"
+msgstr "не могу открыть канал 'pdf' в '%s'"
+
+msgid "file = \"|cmd\" implies 'onefile = TRUE'"
+msgstr "file = \"|cmd\" предполагает 'onefile = TRUE'"
+
+#, c-format
+msgid ""
+"cannot open 'pdf' file argument '%s'\n"
+"  please shut down the PDF device"
+msgstr ""
+"не могу открыть 'pdf'-файл аргумента '%s'\n"
+"  пожалуйста, выключите PDFdevice"
+
+#, c-format
+msgid "Cannot open temporary file '%s' for compression (reason: %s); compression has been turned off for this device"
+msgstr "Не могу открыть временный файл '%s' для сжатия (причина: %s); сжатие для этого устройства выключено"
+
+msgid "failed to find or load PDF font"
+msgstr "не удалось найти или загрузить шрифт PDF"
+
+msgid "Text not added to path containing other drawing"
+msgstr "Не добавляю текст к контуру, содержащему другие объекты"
+
+msgid "failed to find or load PDF CID font"
+msgstr "не удалось найти или загрузить CID-шрифт PDF"
+
+#, c-format
+msgid "invalid 'file' parameter in %s"
+msgstr "неправильный параметр 'file' в %s"
+
+#, c-format
+msgid "invalid 'family' parameter in %s"
+msgstr "неправильный параметр 'family' в %s"
+
+#, c-format
+msgid "invalid 'fonts' parameter in %s"
+msgstr "неправильный параметр 'fonts' в %s"
+
+#, c-format
+msgid "invalid value of '%s'"
+msgstr "неправильное значение '%s'"
+
+#, c-format
+msgid "unable to start %s() device"
+msgstr "не могу запустить устройство %s()"
+
+msgid "Quartz gradients exhausted (failed to increase maxPatterns)"
+msgstr "Закончились градиенты Quartz (не удалось нарастить maxPatterns)"
+
+msgid "Quartz patterns exhausted (failed to increase maxPatterns)"
+msgstr "Закончились паттерны Quartz (не удалось нарастить maxPatterns)"
+
+msgid "Attempt to release non-existent pattern"
+msgstr "Попытка закрыть несуществующий паттерн"
+
+msgid "Quartz patterns exhausted"
+msgstr "Закончились паттерны Quartz"
+
+msgid "Failed to create gradient"
+msgstr "Не могу создать градиент"
+
+msgid "Unsupported gradient fill extend type; using 'pad'"
+msgstr "Неподдерживаемый тип расширения заливки; использую 'pad'"
+
+msgid "Failed to create pattern"
+msgstr "Не могу создать паттерн"
+
+msgid "Unsupported pattern extend mode;  using \"repeat\""
+msgstr "Неподдерживаемый режим расширения паттерна; использую \"repeat\""
+
+msgid "Quartz clipping paths exhausted (failed to increase maxClipPaths)"
+msgstr "Закончились контуры усечения Quartz (не удалось нарастить maxClipPaths)"
+
+msgid "Quartz clipping paths exhausted"
+msgstr "Закончились контуры усечения Quartz"
+
+msgid "Failed to create clipping path"
+msgstr "Не могу создать путь усечения"
+
+msgid "Quartz masks exhausted (failed to increase maxMasks)"
+msgstr "Закончились маски Quartz (не удалось нарастить maxMasks)"
+
+msgid "Quartz masks exhausted"
+msgstr "Закончились маски Quartz"
+
+msgid "Failed to create Quartz mask"
+msgstr "Не могу создать маску Quartz"
+
+msgid "Quartz groups exhausted (failed to increase maxGroups)"
+msgstr "Закончились группы Quartz (не удалось нарастить maxGroups)"
+
+msgid "Attempt to release non-existent group"
+msgstr "Попытка закрыть несуществующую группу"
+
+msgid "Quartz groups exhausted"
+msgstr "Закончились группы Quartz"
+
+msgid "Add compositing operator not supported; falling back to over"
+msgstr "Композиция сложением не поддерживается; использую перезапись"
+
+msgid "Groups exhausted"
+msgstr "Закончились группы"
+
+#, c-format
+msgid "font \"%s\" could not be found for family \"%s\""
+msgstr "шрифт \"%s\" нельзя найти в семействе \"%s\""
+
+msgid "font family name is too long"
+msgstr "слишком длинное имя семейства шрифтов"
+
+#, c-format
+msgid "no font could be found for family \"%s\""
+msgstr "нельзя найти шрифт семейства \"%s\""
+
+msgid "Attempt to reuse non-existent clipping path"
+msgstr "Попытка повторно использовать несуществующий контур усечения"
+
+msgid "Attempt to release non-existent clipping path"
+msgstr "Попытка закрыть несуществующий контур усечения"
+
+msgid "Attempt to release non-existent mask"
+msgstr "Попытка закрыть несуществующую маску"
+
+#, c-format
+msgid "Invalid font path: \"%s\""
+msgstr "неправильный путь к шрифту: \"%s\""
+
+msgid "Failed to load font"
+msgstr "Не могу загрузить шрифт"
+
+msgid "invalid 'file' argument"
+msgstr "неправильный аргумент 'file'"
+
+msgid "invalid quartz() device size"
+msgstr "неправильный размер устройства quartz()"
+
+msgid "unable to create device description"
+msgstr "не могу создать описание устройства"
+
+msgid "unable to create quartz() device target, given type may not be supported"
+msgstr "не могу создать целевое устройство quartz(), указанный тип не может быть поддержан"
+
+msgid "Quartz device is not available on this platform"
+msgstr "Устройство Quartz на этой платформе недоступно"
+
+msgid "Not enough memory to copy graphics window"
+msgstr "Не хватает памяти, чтобы скопировать окно графики"
+
+msgid "No device available to copy graphics window"
+msgstr "Нет устройства, чтобы скопировать окно графики"
+
+#, c-format
+msgid "'%%' is not allowed in file name"
+msgstr "'%%' в имени файла не разрешается"
+
+msgid "invalid font specification"
+msgstr "неправильное указание шрифта"
+
+msgid "font family not found in Windows font database"
+msgstr "семейство шрифтов не найдено в базе данных шрифтов Windows"
+
+msgid "plot history seems corrupted"
+msgstr "история графиков, похоже, повреждена"
+
+msgid "no plot history!"
+msgstr "нет истории графиков!"
+
+#, c-format
+msgid "filename too long in %s() call"
+msgstr "слишком длинное имя файла в вызове %s()"
+
+#, c-format
+msgid "'width=%d, height=%d' are unlikely values in pixels"
+msgstr "не похоже, что 'width=%d, height=%d' в пикселях"
+
+msgid "unable to allocate bitmap"
+msgstr "не могу разместить bitmap"
+
+#, c-format
+msgid "unable to open file '%s' for writing"
+msgstr "не могу открыть файл '%s' для записи"
+
+msgid "filename too long in jpeg() call"
+msgstr "слишком длинное имя файла в вызове jpeg()"
+
+msgid "filename too long in tiff() call"
+msgstr "слишком длинное имя файла в вызове tiff()"
+
+msgid "filename too long in win.metafile() call"
+msgstr "слишком длинное имя файла в вызове win.metafile()"
+
+#, c-format
+msgid "unable to open metafile '%s' for writing"
+msgstr "не могу открыть метафайл '%s' для записи"
+
+msgid "unable to open clipboard to write metafile"
+msgstr "не могу открыть буфер обмена для записи метафайла"
+
+msgid "Insufficient memory for resize. Killing device"
+msgstr "Не хватает памяти для масштабирования. Убиваю устройство"
+
+msgid "Insufficient memory for resize. Disabling alpha blending"
+msgstr "Не хватает памяти для масштабирования. Отключаю alpha-blending"
+
+msgid "a clipboard metafile can store only one figure."
+msgstr "метафайл в буфере обмена может хранить только одну фигуру."
+
+#, c-format
+msgid "metafile '%s' could not be created"
+msgstr "метафайл '%s' не получается создать"
+
+msgid "R Graphics"
+msgstr "R-графика"
+
+msgid "attempt to use the locator after dev.hold()"
+msgstr "попытка использовать locator после dev.hold()"
+
+msgid "graphics device closed during call to locator or identify"
+msgstr "графическое устройство закрыто во время вызова locator или identify"
+
+msgid "option 'windowsTimeouts' should be integer"
+msgstr "опция 'windowsTimeouts' должна быть целым числом"
+
+msgid "invalid device number in 'savePlot'"
+msgstr "неправильный номер устройства в 'savePlot'"
+
+msgid "invalid device in 'savePlot'"
+msgstr "неправильное устройство в 'savePlot'"
+
+msgid "invalid filename argument in 'savePlot'"
+msgstr "неправильный аргумент имени файла в 'savePlot'"
+
+msgid "invalid type argument in 'savePlot'"
+msgstr "неправильный тип аргумента в 'savePlot'"
+
+msgid "unknown type in savePlot"
+msgstr "неизвестный тип в savePlot"
+
+msgid "processing of the plot ran out of memory"
+msgstr "обработка графика исчерпала память"
+
+msgid "Impossible to open "
+msgstr "Нельзя открыть "
+
+msgid "invalid 'width' or 'height'"
+msgstr "неправильная 'width' или 'height'"
+
+msgid "argument must have positive length"
+msgstr "аргумент должен иметь положительную длину"
+
+msgid "invalid argument"
+msgstr "неправильный аргумент"
+
+msgid "NA argument is invalid"
+msgstr "аргумент NA неправильный"
+
+msgid "Killing locked device"
+msgstr ""
+
+msgid "Group definition ignored (device is appending path)"
+msgstr "Игнорирую определение группы (устройство дописывает контур)"
+
+msgid "Group use ignored (device is appending path)"
+msgstr "Игнорирую применение группы (устройство дописывает контур)"
+
+msgid "Mask ignored (device is appending path)"
+msgstr "Игнорирую маску (устройство дописывает контур)"
+
+#, fuzzy
+msgid "QuartzBitmap_Output - filename is empty!"
+msgstr "QuartzBitmap_Output - не могу открыть файл '%s'"
+
+#, c-format
+msgid "QuartzBitmap_Output - unable to open file '%s'"
+msgstr "QuartzBitmap_Output - не могу открыть файл '%s'"
+
+msgid "not a supported scheme, no image data written"
+msgstr "схема не поддерживается, данные изображения не записаны"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "неправильный аргумент %s"
+
+msgid "unimplemented cairo-based device"
+msgstr "не реализованное устройство на базе Cairo"
+
+#, c-format
+msgid "could not open file '%s'"
+msgstr "не могу открыть файл '%s'"
+
+#, c-format
+msgid "unable to start device '%s'"
+msgstr "не могу запустить устройство '%s'"
+
+msgid "Cairo patterns exhausted (failed to increase maxPatterns)"
+msgstr "Закончились паттерны Cairo (не удалось нарастить maxPatterns)"
+
+msgid "Cairo patterns exhausted"
+msgstr "Закончились паттерны Cairo"
+
+msgid "Cairo clipping paths exhausted (failed to increase maxClipPaths)"
+msgstr "Закончились контуры усечения Cairo (не удалось нарастить maxClipPaths)"
+
+msgid "Cairo clipping paths exhausted"
+msgstr "Закончились контуры усечения Cairo"
+
+msgid "Cairo masks exhausted (failed to increase maxMasks)"
+msgstr "Закончились маски Cairo (не удалось нарастить maxMasks)"
+
+msgid "Cairo masks exhausted"
+msgstr "Закончились маски Cairo"
+
+msgid "Ignored luminance mask (not supported on this device)"
+msgstr "Игнорирую маску светимости (не поддерживается этим устройством)"
+
+msgid "Cairo groups exhausted (failed to increase maxGroups)"
+msgstr "Закончились группы Cairo (не удалось нарастить maxGroups)"
+
+msgid "Cairo groups exhausted"
+msgstr "Закончились группы Cairo"
+
+#, fuzzy
+msgid "Font variations too long"
+msgstr "слишком длинное имя семейства шрифтов"
+
+#, fuzzy
+msgid "Failed to apply font variations"
+msgstr "не могу разместить определения"
+
+msgid "Variable fonts not supported (requires Cairo >= 1.16.0)"
+msgstr ""
+
+msgid "Font file not found; matching font family and face"
+msgstr "Файл шрифта не найден; ищу по семейству и названию шрифта"
+
+#~ msgid "ran out of colors in xfig()"
+#~ msgstr "не хватило цветов в xfig()"
+
+#, c-format
+#~ msgid "unimplemented line texture %08x: using Dash-double-dotted"
+#~ msgstr "не разработанная текстура линии %08x: использую Dash-double-dotted"
+
+#, c-format
+#~ msgid "unknown postscript font family '%s', using Helvetica"
+#~ msgstr "неизвестное семейство postscript-шрифтов '%s', использую Helvetica"
+
+#~ msgid "invalid foreground/background color (xfig)"
+#~ msgstr "неправильный цвет переднего/заднего плана (xfig)"
+
+#~ msgid "only Type 1 fonts supported for XFig"
+#~ msgstr "только шрифты Type 1 поддерживаются в XFig"
+
+#~ msgid "failed to initialise default XFig font"
+#~ msgstr "не удалось инициализировать шрифт XFig по умолчанию"
+
+#, c-format
+#~ msgid "invalid page type '%s' (xfig)"
+#~ msgstr "неправильный тип страницы '%s' (xfig)"
+
+#, c-format
+#~ msgid "xfig(%s, onefile=FALSE) will only return the last plot"
+#~ msgstr "xfig(%s, onefile=FALSE) вернет только последний график"
+
+#~ msgid "empty file name"
+#~ msgstr "пустое имя файла"
+
+#, c-format
+#~ msgid "unable to use encoding '%s'"
+#~ msgstr "не могу использовать кодировку '%s'"
+
+#~ msgid "Ignored alpha mask (not supported on this device)"
+#~ msgstr "Игнорирую маску прозрачности (не поддерживается этим устройством)"
+
+#~ msgid "Impossible to load Rbitmap.dll"
+#~ msgstr "Невозможно загрузить Rbitmap.dll"
+
+#~ msgid "Invalid line end"
+#~ msgstr "Неправильный конец строки"
+
+#~ msgid "Invalid line join"
+#~ msgstr "Неправильное соединение линий"
+
+#~ msgid "Unable to load Rbitmap.dll"
+#~ msgstr "Не могу загрузить Rbitmap.dll"
+
+#~ msgid "Unable to load winCairo.dll: was it built?"
+#~ msgstr "Не могу загрузить winCairo.dll: его действительно собрали?"
+
+#~ msgid "FontBBox could not be parsed"
+#~ msgstr "FontBBox не разбирается"
+
+#~ msgid "CharInfo could not be parsed"
+#~ msgstr "CharInfo не разбирается"
+
+#~ msgid "unable to start NULL device"
+#~ msgstr "не могу запустить NULL-устройство"
+
+#~ msgid "printing via file = \"\" is not implemented in this version"
+#~ msgstr "печать через file = \"\" недоступна в этой версии"
+
+#~ msgid "file = \"|cmd\" is not implemented in this version"
+#~ msgstr "file = \"|cmd\" недоступен в этой версии"
+
+#~ msgid "%s not available for this device"
+#~ msgstr "%s недоступен для этого устройства"
+
+#~ msgid "Too many raster images"
+#~ msgstr "Слишком много растровых картинок"
+
+#~ msgid "cannot allocate pd->pos"
+#~ msgstr "не могу разместить pd->pos"
+
+#~ msgid "cannot allocate pd->pageobj"
+#~ msgstr "не могу разместить pd->pageobj"
+
+#~ msgid "invalid 'maxRasters' parameter in %s"
+#~ msgstr "неправильный параметр 'maxRasters' в %s"
+
+#~ msgid "only gray colors are allowed in this color model"
+#~ msgstr "в этой цветовой модели разрешены только оттенки серого"
+
+#~ msgid "cannot open 'postscript' file argument '%s'"
+#~ msgstr "не могу открыть 'postscript'-файл аргумента '%s'"
+
+#~ msgid "cannot open 'pdf' file argument '%s'"
+#~ msgstr "не могу открыть 'pdf'-файл в аргументе '%s'"
+
+#~ msgid "filename too long in postscript"
+#~ msgstr "имя файла слишком длинно для postscript"
+
+#~ msgid "filename too long in xfig"
+#~ msgstr "имя файла слишком длинное для xfig"
+
+#~ msgid "filename too long in pdf"
+#~ msgstr "слишком длинное имя файла для pdf"
+
+#~ msgid "unable to start device PostScript"
+#~ msgstr "не могу запустить устройство PostScript"
+
+#~ msgid "unable to start device xfig"
+#~ msgstr "не могу запустить устройство xfig"
+
+#~ msgid "unable to start device PicTeX"
+#~ msgstr "не могу запустить устройство PicTeX"
+
+#~ msgid "recursive use of getGraphicsEvent not supported"
+#~ msgstr "рекурсивное использование getGraphicsEvent не поддерживается"
+
+#~ msgid "CID fonts are not supported on this platform"
+#~ msgstr "шрифты CID не поддерживаются на этой платформе"
+
+#~ msgid "re-encoding is not possible on this system"
+#~ msgstr "в этой системе перекодировка невозможна"
+
+#~ msgid "invalid value of 'record' in devWindows"
+#~ msgstr "неправильное значение 'record' в devWindows"
+
+#~ msgid "invalid value of 'rescale' in devWindows"
+#~ msgstr "неправильное значение 'rescale' в devWindows"
+
+#~ msgid "invalid value of 'canvas' in devWindows"
+#~ msgstr "неправильное значение 'canvas' в devWindows"
+
+#~ msgid "invalid value of 'buffered' in devWindows"
+#~ msgstr "неправильное значение 'buffered' в devWindows"
+
+#~ msgid "invalid value of 'title' in devWindows"
+#~ msgstr "неправильное значение 'title' в devWindows"
+
+#~ msgid "unable to start device devWindows"
+#~ msgstr "не могу запустить устройство devWindows"
+
+#~ msgid "can't find any fonts"
+#~ msgstr "не могу найти никаких шрифтов"
+
+#~ msgid "invalid width or height in quartz"
+#~ msgstr "неправильная ширина или высота в quartz"
+
+#~ msgid "unable to start device Quartz"
+#~ msgstr "не могу запустить устройство Quartz"

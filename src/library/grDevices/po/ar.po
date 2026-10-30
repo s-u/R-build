@@ -1,0 +1,727 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The R Core Team
+# This file is distributed under the same license as the R package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 4.2.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-09-02 17:50-0700\n"
+"PO-Revision-Date: 2024-03-23 12:08+0000\n"
+"Last-Translator: Worood Alswaji <woroodalswaji@gmail.com>\n"
+"Language-Team: none\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 4.16.4\n"
+
+#, c-format
+msgid "'%s' must be numeric of length %d"
+msgstr ""
+
+msgid "Clipping path ignored (device is appending path)"
+msgstr ""
+
+#, c-format
+msgid "color intensity %s, not in [0,1]"
+msgstr ""
+
+#, c-format
+msgid "color intensity %g, not in [0,1]"
+msgstr ""
+
+#, c-format
+msgid "color intensity %s, not in 0:255"
+msgstr ""
+
+#, c-format
+msgid "color intensity %d, not in 0:255"
+msgstr ""
+
+#, c-format
+msgid "alpha level %s, not in [0,1]"
+msgstr ""
+
+#, c-format
+msgid "alpha level %g, not in [0,1]"
+msgstr ""
+
+#, c-format
+msgid "alpha level %s, not in 0:255"
+msgstr ""
+
+#, c-format
+msgid "alpha level %d, not in 0:255"
+msgstr ""
+
+msgid "inputs must be finite"
+msgstr ""
+
+msgid "bad hsv to rgb color conversion"
+msgstr ""
+
+msgid "invalid hsv color"
+msgstr ""
+
+msgid "invalid hcl color"
+msgstr ""
+
+msgid "invalid value of 'maxColorValue'"
+msgstr ""
+
+msgid "invalid 'names' vector"
+msgstr ""
+
+msgid "invalid gray level, must be in [0,1]."
+msgstr ""
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "قيمة \"%s\" غير صالحة"
+
+msgid "invalid hex digit in 'color' or 'lty'"
+msgstr "hex digit في 'color' أو 'lty' غير صالح"
+
+msgid "invalid RGB specification"
+msgstr ""
+
+#, c-format
+msgid "invalid color name '%s'"
+msgstr ""
+
+#, c-format
+msgid "invalid color specification \"%s\""
+msgstr ""
+
+msgid "supplied color is neither numeric nor character"
+msgstr ""
+
+#, c-format
+msgid "numerical color values must be >= 0, found %d"
+msgstr ""
+
+msgid "invalid argument type"
+msgstr "نوع الوسيطة غير صالح"
+
+msgid "unknown palette (need >= 2 colors)"
+msgstr ""
+
+#, c-format
+msgid "maximum number of colors is %d"
+msgstr ""
+
+#, c-format
+msgid "afm file '%s' could not be opened"
+msgstr ""
+
+msgid "unknown AFM entity encountered"
+msgstr ""
+
+#, c-format
+msgid "invalid string in '%s'"
+msgstr ""
+
+#, c-format
+msgid "font width unknown for character 0x%02x in encoding %s"
+msgstr ""
+
+#, c-format
+msgid "font metrics unknown for Unicode character U+%04X"
+msgstr ""
+
+#, c-format
+msgid "unknown encoding '%s' in 'PostScriptMetricInfo'"
+msgstr ""
+
+#, c-format
+msgid "Unicode character %lc (U+%04X) cannot be converted"
+msgstr ""
+
+#, c-format
+msgid "font metrics unknown for character 0x%02x in encoding %s"
+msgstr ""
+
+#, c-format
+msgid "invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
+msgstr ""
+
+msgid "invalid character sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
+msgstr ""
+
+msgid "failed to allocate CID font info"
+msgstr ""
+
+msgid "failed to allocate Type 1 font info"
+msgstr ""
+
+msgid "failed to allocate encoding info"
+msgstr ""
+
+msgid "failed to allocate CID font family"
+msgstr ""
+
+msgid "failed to allocate Type 1 font family"
+msgstr ""
+
+msgid "failed to allocate font list"
+msgstr ""
+
+msgid "failed to allocated encoding list"
+msgstr ""
+
+msgid "truncated string which was too long for copy"
+msgstr ""
+
+#, c-format
+msgid "failed to load encoding file '%s'"
+msgstr ""
+
+msgid "invalid font name or more than one font name"
+msgstr ""
+
+#, c-format
+msgid "font family '%s' not found in PostScript font database"
+msgstr ""
+
+#, c-format
+msgid "font encoding for family '%s' not found in font database"
+msgstr ""
+
+#, c-format
+msgid "font CMap for family '%s' not found in font database"
+msgstr ""
+
+#, c-format
+msgid "cannot load afm file '%s'"
+msgstr ""
+
+msgid "corrupt loaded encodings;  encoding not recorded"
+msgstr ""
+
+msgid "failed to record device encoding"
+msgstr ""
+
+msgid "object '.ps.prolog' is not a character vector"
+msgstr ""
+
+msgid "invalid line end"
+msgstr "line end غير صالح"
+
+msgid "invalid line join"
+msgstr "line join غير صالح"
+
+msgid "invalid line mitre"
+msgstr ""
+
+#, c-format
+msgid "attempt to use invalid font %d replaced by font 1"
+msgstr ""
+
+#, c-format
+msgid "filename too long in %s()"
+msgstr ""
+
+#, c-format
+msgid "memory allocation problem in %s()"
+msgstr ""
+
+#, c-format
+msgid "encoding path is too long in %s()"
+msgstr ""
+
+#, c-format
+msgid "failed to load encoding file in %s()"
+msgstr ""
+
+msgid "invalid font type"
+msgstr ""
+
+msgid "failed to initialise default PostScript font"
+msgstr ""
+
+msgid "failed to initialise additional PostScript fonts"
+msgstr ""
+
+msgid "invalid foreground/background color (postscript)"
+msgstr ""
+
+msgid "'command' is too long"
+msgstr ""
+
+msgid "'postscript(print.it=TRUE)' used with an empty 'print' command"
+msgstr ""
+
+#, c-format
+msgid "invalid page type '%s' (postscript)"
+msgstr ""
+
+msgid "semi-transparency is not supported on this device: reported only once per page"
+msgstr "semi-transparency ليس مدعوم على this device: reported only once per page"
+
+#, c-format
+msgid "cannot open 'postscript' pipe to '%s' (reason: %s)"
+msgstr ""
+
+#, c-format
+msgid "cannot open file '%s'"
+msgstr "لا يمكن فتح ملف '%s'"
+
+#, c-format
+msgid ""
+"error from postscript() in running:\n"
+"    %s"
+msgstr ""
+
+#, c-format
+msgid "CID family '%s' not included in postscript() device"
+msgstr ""
+
+#, c-format
+msgid "family '%s' not included in postscript() device"
+msgstr ""
+
+#, c-format
+msgid "unknown encoding '%s' in 'mbcsToSbcs'"
+msgstr ""
+
+#, c-format
+msgid "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
+msgstr ""
+
+#, c-format
+msgid "conversion failure on '%s' in 'mbcsToSbcs': dot substituted for <%02x>"
+msgstr ""
+
+#, c-format
+msgid "failed open converter to encoding '%s'"
+msgstr ""
+
+#, c-format
+msgid "failed in text conversion to encoding '%s'"
+msgstr ""
+
+msgid "Failed to allocate PDF definition string"
+msgstr ""
+
+msgid "failed to increase definition string (shut down PDF device)"
+msgstr ""
+
+msgid "failed to increase 'maxDefns'"
+msgstr ""
+
+msgid "Drawing not appended to path (contains text)"
+msgstr ""
+
+msgid "Compositing operator has no corresponding blend mode; defaulting to Normal"
+msgstr ""
+
+msgid "Failed to write PDF clipping path"
+msgstr ""
+
+msgid "Failed to write PDF stroke"
+msgstr ""
+
+msgid "Failed to write PDF fill"
+msgstr ""
+
+msgid "Failed to write PDF fillStroke"
+msgstr ""
+
+msgid "Glyph ID larger than 0xFFFF; output will be incorrect"
+msgstr ""
+
+msgid "invalid 'alpha' value in PDF"
+msgstr ""
+
+msgid "failed to increase 'maxRaster'"
+msgstr ""
+
+msgid "unable to allocate raster image"
+msgstr ""
+
+msgid "write failed"
+msgstr "فشل كتابة"
+
+msgid "corrupt loaded encodings;  font not added"
+msgstr ""
+
+msgid "failed to record device encoding; font not added"
+msgstr ""
+
+msgid "increasing the PDF version to 1.2"
+msgstr ""
+
+msgid "failed to load default encoding"
+msgstr ""
+
+msgid "failed to initialise default PDF font"
+msgstr ""
+
+msgid "failed to initialise additional PDF fonts"
+msgstr ""
+
+msgid "failed to allocate rasters"
+msgstr ""
+
+msgid "failed to allocate masks"
+msgstr ""
+
+msgid "failed to allocate definitions"
+msgstr ""
+
+#, c-format
+msgid "invalid paper type '%s' (pdf)"
+msgstr ""
+
+msgid "invalid foreground/background color (pdf)"
+msgstr ""
+
+msgid "increasing the PDF version to 1.4"
+msgstr ""
+
+msgid "unknown 'colormodel', using 'srgb'"
+msgstr ""
+
+msgid "failed to load sRGB colorspace file"
+msgstr ""
+
+msgid "corrupt encodings in PDF device"
+msgstr ""
+
+msgid "increasing the PDF version to 1.3"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "cannot open 'pdf' pipe to '%s' (reason: %s)"
+msgstr "لا يمكن فتح ملف '%s'"
+
+msgid "file = \"|cmd\" implies 'onefile = TRUE'"
+msgstr ""
+
+#, c-format
+msgid ""
+"cannot open 'pdf' file argument '%s'\n"
+"  please shut down the PDF device"
+msgstr ""
+
+#, c-format
+msgid "Cannot open temporary file '%s' for compression (reason: %s); compression has been turned off for this device"
+msgstr ""
+
+msgid "failed to find or load PDF font"
+msgstr ""
+
+msgid "Text not added to path containing other drawing"
+msgstr ""
+
+msgid "failed to find or load PDF CID font"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "invalid 'file' parameter in %s"
+msgstr "الوسيطة '%s' غير صالحة"
+
+#, c-format
+msgid "invalid 'family' parameter in %s"
+msgstr ""
+
+#, c-format
+msgid "invalid 'fonts' parameter in %s"
+msgstr ""
+
+#, c-format
+msgid "invalid value of '%s'"
+msgstr ""
+
+#, c-format
+msgid "unable to start %s() device"
+msgstr ""
+
+msgid "Quartz gradients exhausted (failed to increase maxPatterns)"
+msgstr ""
+
+msgid "Quartz patterns exhausted (failed to increase maxPatterns)"
+msgstr ""
+
+msgid "Attempt to release non-existent pattern"
+msgstr ""
+
+msgid "Quartz patterns exhausted"
+msgstr ""
+
+msgid "Failed to create gradient"
+msgstr ""
+
+msgid "Unsupported gradient fill extend type; using 'pad'"
+msgstr ""
+
+msgid "Failed to create pattern"
+msgstr ""
+
+msgid "Unsupported pattern extend mode;  using \"repeat\""
+msgstr ""
+
+msgid "Quartz clipping paths exhausted (failed to increase maxClipPaths)"
+msgstr ""
+
+msgid "Quartz clipping paths exhausted"
+msgstr ""
+
+msgid "Failed to create clipping path"
+msgstr ""
+
+msgid "Quartz masks exhausted (failed to increase maxMasks)"
+msgstr ""
+
+msgid "Quartz masks exhausted"
+msgstr ""
+
+msgid "Failed to create Quartz mask"
+msgstr ""
+
+msgid "Quartz groups exhausted (failed to increase maxGroups)"
+msgstr ""
+
+msgid "Attempt to release non-existent group"
+msgstr ""
+
+msgid "Quartz groups exhausted"
+msgstr ""
+
+msgid "Add compositing operator not supported; falling back to over"
+msgstr ""
+
+msgid "Groups exhausted"
+msgstr ""
+
+#, c-format
+msgid "font \"%s\" could not be found for family \"%s\""
+msgstr ""
+
+msgid "font family name is too long"
+msgstr ""
+
+#, c-format
+msgid "no font could be found for family \"%s\""
+msgstr ""
+
+msgid "Attempt to reuse non-existent clipping path"
+msgstr ""
+
+msgid "Attempt to release non-existent clipping path"
+msgstr ""
+
+msgid "Attempt to release non-existent mask"
+msgstr ""
+
+#, c-format
+msgid "Invalid font path: \"%s\""
+msgstr ""
+
+msgid "Failed to load font"
+msgstr ""
+
+msgid "invalid 'file' argument"
+msgstr ""
+
+msgid "invalid quartz() device size"
+msgstr ""
+
+msgid "unable to create device description"
+msgstr ""
+
+msgid "unable to create quartz() device target, given type may not be supported"
+msgstr ""
+
+msgid "Quartz device is not available on this platform"
+msgstr ""
+
+msgid "Not enough memory to copy graphics window"
+msgstr ""
+
+msgid "No device available to copy graphics window"
+msgstr ""
+
+#, c-format
+msgid "'%%' is not allowed in file name"
+msgstr ""
+
+msgid "invalid font specification"
+msgstr "font specification غير صالح"
+
+msgid "font family not found in Windows font database"
+msgstr ""
+
+msgid "plot history seems corrupted"
+msgstr ""
+
+msgid "no plot history!"
+msgstr ""
+
+#, c-format
+msgid "filename too long in %s() call"
+msgstr ""
+
+#, c-format
+msgid "'width=%d, height=%d' are unlikely values in pixels"
+msgstr "'width=%d, height=%d' هي unlikely قيم في pixels"
+
+msgid "unable to allocate bitmap"
+msgstr ""
+
+#, c-format
+msgid "unable to open file '%s' for writing"
+msgstr ""
+
+msgid "filename too long in jpeg() call"
+msgstr "filename طويل جدًا في jpeg() استدعاء"
+
+msgid "filename too long in tiff() call"
+msgstr "filename طويل جدًا في tiff() استدعاء"
+
+msgid "filename too long in win.metafile() call"
+msgstr ""
+
+#, c-format
+msgid "unable to open metafile '%s' for writing"
+msgstr ""
+
+msgid "unable to open clipboard to write metafile"
+msgstr ""
+
+msgid "Insufficient memory for resize. Killing device"
+msgstr ""
+
+msgid "Insufficient memory for resize. Disabling alpha blending"
+msgstr ""
+
+msgid "a clipboard metafile can store only one figure."
+msgstr ""
+
+#, c-format
+msgid "metafile '%s' could not be created"
+msgstr ""
+
+msgid "R Graphics"
+msgstr ""
+
+msgid "attempt to use the locator after dev.hold()"
+msgstr "محاولة إلى use locator after dev.hold()"
+
+msgid "graphics device closed during call to locator or identify"
+msgstr ""
+
+msgid "option 'windowsTimeouts' should be integer"
+msgstr ""
+
+msgid "invalid device number in 'savePlot'"
+msgstr ""
+
+msgid "invalid device in 'savePlot'"
+msgstr ""
+
+msgid "invalid filename argument in 'savePlot'"
+msgstr ""
+
+msgid "invalid type argument in 'savePlot'"
+msgstr ""
+
+msgid "unknown type in savePlot"
+msgstr ""
+
+msgid "processing of the plot ran out of memory"
+msgstr ""
+
+msgid "Impossible to open "
+msgstr ""
+
+msgid "invalid 'width' or 'height'"
+msgstr "'width' أو 'height' غير صالح"
+
+msgid "argument must have positive length"
+msgstr ""
+
+msgid "invalid argument"
+msgstr "وسيط غير صالح"
+
+msgid "NA argument is invalid"
+msgstr "NA وسيط هو غير صالح"
+
+msgid "Killing locked device"
+msgstr ""
+
+msgid "Group definition ignored (device is appending path)"
+msgstr ""
+
+msgid "Group use ignored (device is appending path)"
+msgstr ""
+
+msgid "Mask ignored (device is appending path)"
+msgstr ""
+
+msgid "QuartzBitmap_Output - filename is empty!"
+msgstr ""
+
+#, c-format
+msgid "QuartzBitmap_Output - unable to open file '%s'"
+msgstr ""
+
+msgid "not a supported scheme, no image data written"
+msgstr ""
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "الوسيطة '%s' غير صالحة"
+
+msgid "unimplemented cairo-based device"
+msgstr ""
+
+#, c-format
+msgid "could not open file '%s'"
+msgstr "تعذّر فتح ملف '%s'"
+
+#, c-format
+msgid "unable to start device '%s'"
+msgstr ""
+
+msgid "Cairo patterns exhausted (failed to increase maxPatterns)"
+msgstr ""
+
+msgid "Cairo patterns exhausted"
+msgstr ""
+
+msgid "Cairo clipping paths exhausted (failed to increase maxClipPaths)"
+msgstr ""
+
+msgid "Cairo clipping paths exhausted"
+msgstr ""
+
+msgid "Cairo masks exhausted (failed to increase maxMasks)"
+msgstr ""
+
+msgid "Cairo masks exhausted"
+msgstr ""
+
+msgid "Ignored luminance mask (not supported on this device)"
+msgstr ""
+
+msgid "Cairo groups exhausted (failed to increase maxGroups)"
+msgstr ""
+
+msgid "Cairo groups exhausted"
+msgstr ""
+
+msgid "Font variations too long"
+msgstr ""
+
+msgid "Failed to apply font variations"
+msgstr ""
+
+msgid "Variable fonts not supported (requires Cairo >= 1.16.0)"
+msgstr ""
+
+msgid "Font file not found; matching font family and face"
+msgstr ""

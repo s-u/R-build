@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: R 3.5.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-08-01 04:41-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
+"Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"na-Revision-Date: 2012-05-29 07:55+0100\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.4\n"
+
+msgid "graphical parameter 'fontfamily' has a maximum length of 200 bytes"
+msgstr ""
+
+msgid "updateGContext must only be called after initGContext"
+msgstr "updateGContext() musi być wywołany tylko po initGContext()"
+
+msgid "Turning clipping on or off within a (clipping) path is no honoured"
+msgstr "Włączanie i wyłączanie przycinania w obrębie ścieżki (przycinania) nie jest honorowane"
+
+msgid "cannot clip to rotated viewport"
+msgstr "nie można przyciąć do obróconego okienka ekranu"
+
+msgid "Clipping paths within a (clipping) path are not honoured"
+msgstr "Ścieżki przycinające w ścieżce (przycinającej) nie są honorowane"
+
+msgid "Masks within a (clipping) path are not honoured"
+msgstr "Maski znajdujące się w ścieżce (przycinającej) nie są honorowane"
+
+#, c-format
+msgid "Viewport '%s' was not found"
+msgstr "Okno widoku '%s' nie zostało znalezione"
+
+msgid "cannot pop the top-level viewport ('grid' and 'graphics' output mixed?)"
+msgstr "nie można wyświetlić okienka ekranu na wierzchu (wyjścia 'grid' oraz 'graphics' pomieszały się?)"
+
+msgid "attempt to plot on null device"
+msgstr "próba rysowania na pustym urządzeniu"
+
+msgid "there is no layout defined"
+msgstr "nie określono układu"
+
+msgid "polygon edge not found (zero-width or zero-height?)"
+msgstr "nie znaleziono krawędzi wielokąta (zerowa szerokość lub zerowa wysokość?)"
+
+msgid "polygon edge not found"
+msgstr "nie znaleziono krawędzi wielokąta"
+
+msgid "require at least two points to draw arrow"
+msgstr "wymaga co najmniej dwu punktów, aby narysować strzałkę"
+
+msgid "non-finite control point in Xspline"
+msgstr "nieskończony punkt kontrolny w 'Xspline'"
+
+msgid "non-finite x or y in graphics path"
+msgstr "nieskończony 'x' lub 'y' w ścieżce grafiki"
+
+msgid "Empty raster"
+msgstr "Pusty raster"
+
+msgid "Coordinates for text pch not yet supported"
+msgstr "Współrzędne dla tekstowych pch nie są jeszcze obsługiwane"
+
+#, c-format
+msgid "pch value '%d' is invalid in this locale"
+msgstr "wartość pch '%d' nie jest poprawna dla tej lokalizacji"
+
+#, c-format
+msgid "unimplemented pch value '%d'"
+msgstr "niezaimplementowana wartość 'pch' '%d'"
+
+msgid "invalid plotting symbol"
+msgstr "nieprawidłowy symbol kreślenia"
+
+msgid "unable to clip to rotated rectangle"
+msgstr "nie można przyciąć do obróconego prostokąta"
+
+msgid "invalid 'layout.pos.row'"
+msgstr "niepoprawny 'layout.pos.row'"
+
+msgid "invalid 'layout.pos.col'"
+msgstr "niepoprawny 'layout.pos.col'"
+
+msgid "singular transformation matrix"
+msgstr "osobliwa macierz transformacyjna"
+
+msgid "unable to store 'grid' state.  Too many devices open?"
+msgstr "nie można zachować stanu siatki. Zbyt duża liczba otwartych urządzeń?"
+
+msgid "Cannot create unit scalar from 0-length unit vector"
+msgstr "Nie można utworzyć jednostkowego skalara z jednostkowego wektora o długości 0"
+
+msgid "invalid unit or unit not yet implemented"
+msgstr "niedozwolona jednostka lub jednostka nie została jeszcze zaimplementowana"
+
+msgid "Viewport has zero dimension(s)"
+msgstr "Okno ekranu ma zerowe wymiary"
+
+msgid "Unsupported unit conversion"
+msgstr "Niewspierana jednostka konwersji"
+
+msgid "Invalid unit"
+msgstr "Niepoprawna jednostka"
+
+msgid "'units' must be character"
+msgstr "argument 'units' musi być tekstem"
+
+msgid "'units' must be of length > 0"
+msgstr "argument 'units' musi mieć długość > 0"
+
+msgid "data must be either NULL, have length 1, or match the length of the final unit vector"
+msgstr "dane muszą mieć wartość NULL, mieć długość 1 lub odpowiadać długości końcowego wektora jednostkowego"
+
+msgid "no string supplied for 'strwidth/height' unit"
+msgstr "nie podano ciągu znaków dla jednostki 'strwidth/height'"
+
+msgid "no 'grob' supplied for 'grobwidth/height' unit"
+msgstr "nie podano 'grob' dla jednostki 'grobwidth/height'"
+
+msgid "'gPath' must have depth 1 in 'grobwidth/height' units"
+msgstr "'gPath' musi mieć głębokość 1 w jednostkach 'grobwidth/height'"
+
+msgid "non-NULL value supplied for plain unit"
+msgstr "wartość różna od NULL podana dla zwykłej jednostki"
+
+msgid "old version of unit class is no longer allowed"
+msgstr "stara wersja klasy jednostek nie jest już dozwolona"
+
+msgid "object is not coercible to a unit"
+msgstr "obiekt nie jest przekształcalny do jednostki"
+
+msgid "object is not a unit"
+msgstr "obiekt nie jest jednostką"
+
+msgid "units can only be multiplied with numerics and integers"
+msgstr "jednostki można mnożyć tylko przez liczby i liczby całkowite"
+
+msgid "Unable to calculate text width/height (using zero)"
+msgstr "Nie można obliczyć szerokości/wysokości tekstu (używanie zera)"
+
+msgid "Mask is not logical value ('none' or 'inherit')"
+msgstr "Maska nie jest wartością logiczną ('none' lub 'inherit')"
+
+msgid "non-finite location and/or size for viewport"
+msgstr "nieskończone położenie oraz/lub rozmiar okna ekranu"
+
+#~ msgid "unimplemented unit function"
+#~ msgstr "niezaimplementowana jednostkowa funkcja"

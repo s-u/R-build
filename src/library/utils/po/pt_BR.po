@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The R Core Team
+# This file is distributed under the same license as the R package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 4.2.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-04-25 10:48-0700\n"
+"PO-Revision-Date: 2023-01-20 19:04+0000\n"
+"Last-Translator: Caio Lente <lente@ime.usp.br>\n"
+"Language-Team: none\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "argumento '%s' inválido"
+
+msgid "invalid quote symbol set"
+msgstr "símbolo de citação inválido"
+
+msgid "cannot open the connection"
+msgstr "não é possível abrir a conexão"
+
+msgid "cannot read from this connection"
+msgstr "não é possível ler a partir desta conexão"
+
+#, c-format
+msgid "quoted string on line %d terminated by EOF"
+msgstr "sequência de caracteres entre aspas na linha %d terminada por EOF"
+
+msgid "the first argument must be of mode character"
+msgstr ""
+
+#, c-format
+msgid "invalid 'numerals' string: \"%s\""
+msgstr "string 'numerals' inválida: \"%s\""
+
+#, c-format
+msgid "Selection: "
+msgstr "Seleção: "
+
+msgid "cannot allocate buffer in 'readTableHead'"
+msgstr "não é possível alocar buffer em 'readTableHead'"
+
+msgid "\\ followed by EOF"
+msgstr "\\ seguido de EOF"
+
+#, c-format
+msgid "incomplete final line found by readTableHeader on '%s'"
+msgstr "linha final incompleta encontrada por readTableHeader em '%s'"
+
+msgid "index out of range"
+msgstr "índice fora do limite"
+
+#, c-format
+msgid "Problem closing connection:  %s"
+msgstr "Problema ao fechar a conexão:  %s"
+
+msgid "Problem closing connection"
+msgstr "Problema ao fechar a conexão"
+
+msgid "'file' is not a connection"
+msgstr "'file' não é uma conexão"
+
+msgid "cannot write to this connection"
+msgstr "não é possível escrever nesta conexão"
+
+msgid "'dec' must be a single character"
+msgstr "'dec' deve ser um único caractere"
+
+#, c-format
+msgid "corrupt data frame -- length of column %d does not match nrows"
+msgstr "data frame corrompida -- comprimento da coluna %d não corresponde a nrows"
+
+#, fuzzy, c-format
+msgid "column %d claims to be a factor but does not have numeric codes"
+msgstr "coluna %d parece ser um fator, mas não tem códigos numéricos"
+
+msgid "corrupt matrix -- dims do not match length"
+msgstr "matriz corrompida -- dims não correspondem ao comprimento"
+
+msgid "'savehistory' can only be used in Rgui and Rterm"
+msgstr "'savehistory' só pode ser utilizado em Rgui e Rterm"
+
+msgid "'loadhistory' can only be used in Rgui and Rterm"
+msgstr "'loadhistory' só pode ser utilizado em Rgui e Rterm"
+
+msgid "invalid timestamp"
+msgstr "timestamp inválida"
+
+msgid "X11 dataentry cannot be loaded"
+msgstr "X11 dataentry não pode ser carregado"
+
+msgid "X11 is not available"
+msgstr "X11 não está disponível"
+
+#, c-format
+msgid "invalid '%s' specification"
+msgstr "especificação '%s' inválida"
+
+#, c-format
+msgid "'%s' contains missing values"
+msgstr "'%s' contém valores ausentes"
+
+msgid "argument 'class' must be a character string"
+msgstr "argumento 'class' deve ser uma string"
+
+msgid "argument 'x' must be a length-1 character vector"
+msgstr "argumento 'x' deve ser um vetor de caracteres de comprimento 1"
+
+msgid "argument 'x' must be UTF-8 encoded (including ASCII)"
+msgstr "argumento 'x' deve ser codificado em UTF-8 (incluindo ASCII)"
+
+msgid "'hostname' must be a character vector of length 1"
+msgstr "'hostname' deve ser um vetor de caracteres de comprimento 1"
+
+#, c-format
+msgid "nsl() was unable to resolve host '%s'"
+msgstr "nsl() não conseguiu resolver o host '%s'"
+
+msgid "unknown format returned by 'gethostbyname'"
+msgstr "formato desconhecido retornado por 'gethostbyname'"
+
+msgid "nsl() is not supported on this platform"
+msgstr "nsl() não é suportado nesta plataforma"
+
+msgid "unknown type"
+msgstr "tipo desconhecido"
+
+msgid "menu functions can only be used in the GUI"
+msgstr "funções do menu só podem ser utilizadas na GUI"
+
+#, c-format
+msgid "unable to retrieve items for %s (%s)"
+msgstr "não é possível recuperar itens para %s (%s)"
+
+#, c-format
+msgid "unable to add menu (%s)"
+msgstr "não é possível adicionar menu (%s)"
+
+#, c-format
+msgid "unable to add menu item (%s)"
+msgstr "não é possível adicionar item de menu (%s)"
+
+msgid "menu does not exist"
+msgstr "menu não existe"
+
+#, c-format
+msgid "unable to delete menu item (%s)"
+msgstr "não é possível deletar item de menu (%s)"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "valor '%s' inválido"
+
+#, c-format
+msgid "Registry key '%ls' not found"
+msgstr "Chave de registro '%ls' não encontrada"
+
+msgid "unsupported version of Windows"
+msgstr "versão do Windows não suportada"
+
+msgid "argument must be a character vector or a raw vector"
+msgstr "argumento deve ser um vetor de caracteres ou um vetor raw"
+
+msgid "unable to open the clipboard"
+msgstr "não é possível abrir a área de transferência"
+
+msgid "unable to write to the clipboard"
+msgstr "não é possível escrever na área de transferência"
+
+msgid "'title' must be a character string"
+msgstr "'title' deve ser uma string"
+
+msgid "'text' must be a character string"
+msgstr "'text' deve ser uma string"
+
+#, c-format
+msgid "'%s' must be length 1"
+msgstr "'%s' deve ter comprimento 1"
+
+#, c-format
+msgid "'%s' must be a list"
+msgstr "'%s' deve ser uma lista"
+
+#, c-format
+msgid "'%s' element %d is not a window handle"
+msgstr "Em '%s' o elemento %d não é um identificador de janela"
+
+msgid "Select one or more"
+msgstr "Selecione um ou mais"
+
+msgid "Select one"
+msgstr "Selecione um"
+
+msgid "'default' must be a character string"
+msgstr "'default' deve ser uma string"
+
+msgid "'default' is overlong"
+msgstr "'default' é longo demais"
+
+msgid "'caption' must be a character string"
+msgstr "'caption' deve ser uma string"
+
+msgid "'multi' must be a logical value"
+msgstr "'multi' deve ser um valor lógico"
+
+msgid "'filterindex' must be an integer value"
+msgstr "'filterindex' deve ser um valor inteiro"

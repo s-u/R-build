@@ -1,0 +1,165 @@
+# Lithuanian translations for tools package.
+# # Copyright (C) 2020-2021 The R Foundation
+# This file is distributed under the same license as the tools package.
+# <r.zakauskas@gmail.com;gabriele.dauksaite@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: tools 4.1.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-09-02 17:50-0700\n"
+"PO-Revision-Date: 2021-11-06 22:43+0100\n"
+"Last-Translator: r.zakauskas@gmail.com;gabriele.dauksaite@gmail.com\n"
+"Language-Team: Lithuanian\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.1\n"
+
+msgid "argument 'files' must be character"
+msgstr "argumentas 'files' turi būti simbolis"
+
+#, c-format
+msgid "md5 failed on file '%ls'"
+msgstr "md5 nepavyko faile '%ls'"
+
+#, c-format
+msgid "md5 failed on file '%s'"
+msgstr "md5 nepavyko faile '%s'"
+
+#, fuzzy, c-format
+msgid "sha256 failed on file '%ls'"
+msgstr "md5 nepavyko faile '%ls'"
+
+#, fuzzy, c-format
+msgid "sha256 failed on file '%s'"
+msgstr "md5 nepavyko faile '%s'"
+
+#, c-format
+msgid "only %d arguments are allowed"
+msgstr "leidžiami tik %d argumentai"
+
+msgid "'fmt' is not a character vector"
+msgstr "'fmt' nėra tekstinis vektorius"
+
+msgid "'fmt' must be length 1"
+msgstr "'fmt' turi būti 1 ilgis"
+
+#, c-format
+msgid "'fmt' length exceeds maximal format length %d"
+msgstr "'fmt' ilgis viršija maksimalų formato ilgį %d"
+
+#, c-format
+msgid "unrecognised format specification '%s'"
+msgstr "neatpažinto formato specifikacija '%s'"
+
+msgid "at most one asterisk '*' is supported in each conversion specification"
+msgstr "ne daugiau kaip viena žvaigždutė '*' yra palaikoma kiekvienoje konvertavimo specifikacijoje"
+
+#, c-format
+msgid "unable to allocate buffer for long string at line %d"
+msgstr "nepavyko priskirti buferio ilgoms eilutėms eilutėje %d"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "neteisinga '%s' reikšmė"
+
+#, c-format
+msgid "bad markup (extra space?) at %s:%d:%d"
+msgstr "blogas žymėjimas (papildoma vieta?) %s:%d:%d"
+
+#, c-format
+msgid "Macro '%s' previously defined."
+msgstr "Anksčiau apibrėžta makrokomanda '%s'."
+
+#, c-format
+msgid "At most 4 arguments are allowed for user defined macros."
+msgstr "Vartotojo apibrėžtoms makrokomandoms leidžiami ne daugiau kaip 4 argumentai."
+
+#, c-format
+msgid "No macro definition for '%s'."
+msgstr "Nėra '%s' makrokomandos apibrėžimo."
+
+#, c-format
+msgid "Not enough arguments passed to user macro '%s'"
+msgstr "Nepakanka argumentų, perduotų vartotojo makrokomandai '%s'"
+
+#, c-format
+msgid "newline within quoted string at %s:%d"
+msgstr "nauja eilutė cituojamoje eilutėje ties %s:%d"
+
+#, c-format
+msgid "unable to allocate buffer for long macro at line %d"
+msgstr "nepavyko priskirti buferio ilgoms makrokomandoms eilutėje %d"
+
+msgid "macros nested too deeply: infinite recursion?"
+msgstr "makrokomandos įdėtos per giliai: begalinė rekursija?"
+
+#, c-format
+msgid "Unable to find macro %s"
+msgstr "Nepavyko rasti makrokomandos %s"
+
+#, c-format
+msgid "Unexpected end of input (in %c quoted string opened at %s:%d:%d)"
+msgstr "Netikėta įvesties pabaiga (%c cituojama eilutė atidaryta ties %s:%d:%d)"
+
+msgid "'parse_Rd' is not re-entrant"
+msgstr ""
+
+msgid "cannot open the connection"
+msgstr "negalima atidaryti ryšio"
+
+msgid "cannot read from this connection"
+msgstr "negalima skaityti iš šio ryšio"
+
+msgid "invalid Rd file"
+msgstr "neleistinas Rd failas"
+
+msgid "'deparseRd' only supports deparsing character elements"
+msgstr "‘deparseRd’ palaiko tik pašalinančio pobūdžio elementus"
+
+msgid "bad state"
+msgstr "bloga būsena"
+
+#, c-format
+msgid "bad text mode %d in 'deparseRd'"
+msgstr "netinkamas teksto režimas %d, esantis 'deparseRd'"
+
+msgid "invalid bind address specification"
+msgstr "netinkama susiejimo adreso specifikacija"
+
+#, c-format
+msgid "Invalid port number %d: should be in 0:65535, typically above 1024"
+msgstr ""
+
+msgid "allocation error in remove_dot_segments"
+msgstr ""
+
+msgid "non-character argument"
+msgstr "ne simbolių argumentas"
+
+msgid "path too long"
+msgstr ""
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "neteisingas argumentas '%s'"
+
+msgid "write error during file append"
+msgstr "rašymo klaida failo pridėjimo metu"
+
+msgid "too many items"
+msgstr "per daug elementų"
+
+msgid "pskill() is not supported on this platform"
+msgstr "pskill() nepalaikomas šioje platformoje"
+
+msgid "psnice() is not supported on this platform"
+msgstr "psnice() nepalaikomas šioje platformoje"
+
+msgid "invalid argument type"
+msgstr "neleistinas argumento tipas"
+
+msgid "out of memory"
+msgstr "trūksta atminties"

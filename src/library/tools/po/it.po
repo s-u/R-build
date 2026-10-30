@@ -1,0 +1,166 @@
+# R Italian translation
+# Copyright (C) The R Foundation
+# This file is distributed under the same license as the R package.
+# Daniele Medri <dmedri@gmail.com>, 2005-2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R-4-3-BRANCH\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-09-02 17:50-0700\n"
+"PO-Revision-Date: 2022-10-14 10:45+0200\n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
+"Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+msgid "argument 'files' must be character"
+msgstr "l'argomento 'files' dev'essere di tipo character"
+
+#, c-format
+msgid "md5 failed on file '%ls'"
+msgstr "md5 fallito sul file '%ls'"
+
+#, c-format
+msgid "md5 failed on file '%s'"
+msgstr "md5 fallito sul file '%s'"
+
+#, fuzzy, c-format
+msgid "sha256 failed on file '%ls'"
+msgstr "md5 fallito sul file '%ls'"
+
+#, fuzzy, c-format
+msgid "sha256 failed on file '%s'"
+msgstr "md5 fallito sul file '%s'"
+
+#, c-format
+msgid "only %d arguments are allowed"
+msgstr "sono ammessi solo %d argomenti"
+
+msgid "'fmt' is not a character vector"
+msgstr "'fmt' non è un vettore di caratteri"
+
+msgid "'fmt' must be length 1"
+msgstr "'fmt' dev'essere di lunghezza 1"
+
+#, c-format
+msgid "'fmt' length exceeds maximal format length %d"
+msgstr "La lunghezza di 'fmt' supera la lunghezza massima del formato %d"
+
+#, c-format
+msgid "unrecognised format specification '%s'"
+msgstr "specificazione formato '%s' non riconosciuto"
+
+msgid "at most one asterisk '*' is supported in each conversion specification"
+msgstr "almeno un asterisco '*' è supportato in ogni specificazione di conversione"
+
+#, c-format
+msgid "unable to allocate buffer for long string at line %d"
+msgstr "non è possibile allocare un buffer stringhe long alla linea %d"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "valore '%s' non valido"
+
+#, c-format
+msgid "bad markup (extra space?) at %s:%d:%d"
+msgstr "markup errato (troppi spazi?) in %s:%d:%d"
+
+#, c-format
+msgid "Macro '%s' previously defined."
+msgstr "Macro '%s' precedentemente definita."
+
+#, c-format
+msgid "At most 4 arguments are allowed for user defined macros."
+msgstr "Almeno 4 argomenti sono ammessi per le macro definite dall'utente."
+
+#, c-format
+msgid "No macro definition for '%s'."
+msgstr "Nessuna definizione macro per '%s'."
+
+#, c-format
+msgid "Not enough arguments passed to user macro '%s'"
+msgstr "Gli argomenti passati alla macro utente '%s' non sono abbastanza"
+
+#, c-format
+msgid "newline within quoted string at %s:%d"
+msgstr "newline dentro una stringa virgolettata in %s: %d"
+
+#, c-format
+msgid "unable to allocate buffer for long macro at line %d"
+msgstr "non è possibile allocare il buffer per macro long in %d"
+
+msgid "macros nested too deeply: infinite recursion?"
+msgstr "macro annidate troppo profondamente: ricorsione infinita?"
+
+#, c-format
+msgid "Unable to find macro %s"
+msgstr "Non è possibile trovare la macro %s"
+
+#, c-format
+msgid "Unexpected end of input (in %c quoted string opened at %s:%d:%d)"
+msgstr "Fine inattesa dell'input (nella %c stringa virgolettata aperta in %s:%d:%d)"
+
+msgid "'parse_Rd' is not re-entrant"
+msgstr ""
+
+msgid "cannot open the connection"
+msgstr "non è possibile aprire la connessione"
+
+msgid "cannot read from this connection"
+msgstr "non è possibile leggere da questa connessione"
+
+msgid "invalid Rd file"
+msgstr "file Rd non valido"
+
+msgid "'deparseRd' only supports deparsing character elements"
+msgstr "'deparseRd' supporta unicamente il deparsing di elementi carattere"
+
+msgid "bad state"
+msgstr "stato errato"
+
+#, c-format
+msgid "bad text mode %d in 'deparseRd'"
+msgstr "modalità testo errata %d in 'deparseRd'"
+
+msgid "invalid bind address specification"
+msgstr "specificazione indirizzo bind non valida"
+
+#, c-format
+msgid "Invalid port number %d: should be in 0:65535, typically above 1024"
+msgstr ""
+
+msgid "allocation error in remove_dot_segments"
+msgstr ""
+
+msgid "non-character argument"
+msgstr "argomento non-character"
+
+msgid "path too long"
+msgstr "percorso troppo lungo"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "argomento '%s' non valido"
+
+msgid "write error during file append"
+msgstr "errore di scrittura durante file append"
+
+msgid "too many items"
+msgstr "troppi elementi"
+
+msgid "pskill() is not supported on this platform"
+msgstr "pskill() non è supportata su questa piattaforma"
+
+msgid "psnice() is not supported on this platform"
+msgstr "psnice() non è supportata su questa piattaforma"
+
+msgid "invalid argument type"
+msgstr "tipo argomento non valido"
+
+msgid "out of memory"
+msgstr "memoria esausta"

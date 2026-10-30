@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The R Core Team
+# This file is distributed under the same license as the R package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 4.4.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-04-25 10:48-0700\n"
+"PO-Revision-Date: 2023-10-20 14:35+0000\n"
+"Last-Translator: Jan Strappa <jansf@disroot.org>\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "argumento '%s' no válido"
+
+msgid "invalid quote symbol set"
+msgstr "conjunto no válido de símbolos de entrecomillado ('quote')"
+
+msgid "cannot open the connection"
+msgstr "no se puede abrir la conexión"
+
+msgid "cannot read from this connection"
+msgstr "no se puede leer desde esta conexión"
+
+#, c-format
+msgid "quoted string on line %d terminated by EOF"
+msgstr "cadena entrecomillada en línea %d terminada por EOF"
+
+msgid "the first argument must be of mode character"
+msgstr "el primer argumento debe ser de modo carácter"
+
+#, c-format
+msgid "invalid 'numerals' string: \"%s\""
+msgstr "cadena 'numerals' no válida: \"%s\""
+
+#, c-format
+msgid "Selection: "
+msgstr "Selección: "
+
+msgid "cannot allocate buffer in 'readTableHead'"
+msgstr "no se puede asignar búfer en 'readTableHead'"
+
+msgid "\\ followed by EOF"
+msgstr "\\ seguido de EOF"
+
+#, c-format
+msgid "incomplete final line found by readTableHeader on '%s'"
+msgstr ""
+
+msgid "index out of range"
+msgstr "Índice fuera de rango"
+
+#, c-format
+msgid "Problem closing connection:  %s"
+msgstr "Problema cerrando la conexión: %s"
+
+msgid "Problem closing connection"
+msgstr "Problema al cerrar la conexión"
+
+msgid "'file' is not a connection"
+msgstr "'file' no es una conexión"
+
+msgid "cannot write to this connection"
+msgstr "no es posible escribir en esa conexión"
+
+msgid "'dec' must be a single character"
+msgstr "'dec' debe ser un solo carácter"
+
+#, c-format
+msgid "corrupt data frame -- length of column %d does not match nrows"
+msgstr ""
+
+#, c-format
+msgid "column %d claims to be a factor but does not have numeric codes"
+msgstr ""
+
+msgid "corrupt matrix -- dims do not match length"
+msgstr "Matriz corrupta -- los dims no coinciden con la longitud"
+
+msgid "'savehistory' can only be used in Rgui and Rterm"
+msgstr ""
+
+msgid "'loadhistory' can only be used in Rgui and Rterm"
+msgstr ""
+
+msgid "invalid timestamp"
+msgstr "marca de tiempo no válida"
+
+msgid "X11 dataentry cannot be loaded"
+msgstr "no se puede cargar la entrada de datos X11"
+
+msgid "X11 is not available"
+msgstr "X11 no está disponible"
+
+#, c-format
+msgid "invalid '%s' specification"
+msgstr "especificación '%s' no válida"
+
+#, c-format
+msgid "'%s' contains missing values"
+msgstr "'%s' contiene valores faltantes"
+
+msgid "argument 'class' must be a character string"
+msgstr "El argumento 'class' debe ser una cadena de caracteres"
+
+msgid "argument 'x' must be a length-1 character vector"
+msgstr ""
+
+msgid "argument 'x' must be UTF-8 encoded (including ASCII)"
+msgstr ""
+
+msgid "'hostname' must be a character vector of length 1"
+msgstr ""
+
+#, c-format
+msgid "nsl() was unable to resolve host '%s'"
+msgstr "nsl() no pudo resolver el host '%s'"
+
+msgid "unknown format returned by 'gethostbyname'"
+msgstr "formato desconocido devuelto por 'gethostbyname'"
+
+msgid "nsl() is not supported on this platform"
+msgstr "nsl() no es soportado en esta plataforma"
+
+msgid "unknown type"
+msgstr "tipo desconocido"
+
+msgid "menu functions can only be used in the GUI"
+msgstr "las funciones de menú solo se pueden utilizar en la interfaz gráfica de usuario"
+
+#, c-format
+msgid "unable to retrieve items for %s (%s)"
+msgstr "no se pueden recuperar elementos para %s (%s)"
+
+#, c-format
+msgid "unable to add menu (%s)"
+msgstr "no se puede agregar el menú (%s)"
+
+#, c-format
+msgid "unable to add menu item (%s)"
+msgstr "no se puede agregar un elemento de menú (%s)"
+
+msgid "menu does not exist"
+msgstr "el menú no existe"
+
+#, c-format
+msgid "unable to delete menu item (%s)"
+msgstr "no se puede eliminar el elemento de menú (%s)"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "valor '%s' no válido"
+
+#, c-format
+msgid "Registry key '%ls' not found"
+msgstr "no se encontró la clave de registro '%ls'"
+
+msgid "unsupported version of Windows"
+msgstr "versión no soportada de Windows"
+
+msgid "argument must be a character vector or a raw vector"
+msgstr ""
+
+msgid "unable to open the clipboard"
+msgstr "no se puede abrir el portapapeles"
+
+msgid "unable to write to the clipboard"
+msgstr "no se puede escribir en el portapapeles"
+
+msgid "'title' must be a character string"
+msgstr "'title' debe ser una cadena de caracteres"
+
+msgid "'text' must be a character string"
+msgstr "'text' debe ser una cadena de caracteres"
+
+#, c-format
+msgid "'%s' must be length 1"
+msgstr "'%s' debe tener longitud 1"
+
+#, c-format
+msgid "'%s' must be a list"
+msgstr "'%s' debe ser una lista"
+
+#, c-format
+msgid "'%s' element %d is not a window handle"
+msgstr "el elemento '%s' %d no es un identificador de ventana"
+
+msgid "Select one or more"
+msgstr "Seleccione uno o varios"
+
+msgid "Select one"
+msgstr "Seleccione uno"
+
+msgid "'default' must be a character string"
+msgstr "'default' debe ser una cadena de caracteres"
+
+msgid "'default' is overlong"
+msgstr "'default' es demasiado largo"
+
+msgid "'caption' must be a character string"
+msgstr "'caption' debe ser una cadena de caracteres"
+
+msgid "'multi' must be a logical value"
+msgstr "'multi' debe ser un valor lógico"
+
+msgid "'filterindex' must be an integer value"
+msgstr "'filterindex' debe ser un valor entero"

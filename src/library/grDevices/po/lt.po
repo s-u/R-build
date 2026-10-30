@@ -1,0 +1,776 @@
+# Lithuanian translations for grDevices package.
+# Copyright (C) 2020 THE grDevices'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the grDevices package.
+# <r.zakauskas@gmail.com;gabriele.dauksaite@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: grDevices 4.1.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-09-02 17:50-0700\n"
+"PO-Revision-Date: 2020-12-09 13:16+0200\n"
+"Last-Translator: r.zakauskas@gmail.com;gabriele.dauksaite@gmail.com\n"
+"Language-Team: Lithuanian\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#, c-format
+msgid "'%s' must be numeric of length %d"
+msgstr "'%s' turi būti skaitinė ilgio %d reikšmė"
+
+msgid "Clipping path ignored (device is appending path)"
+msgstr ""
+
+#, c-format
+msgid "color intensity %s, not in [0,1]"
+msgstr "spalvos intensyvumas %s ne iš intervalo [0,1]"
+
+#, c-format
+msgid "color intensity %g, not in [0,1]"
+msgstr "spalvos intensyvumas %g ne iš intervalo [0,1]"
+
+#, c-format
+msgid "color intensity %s, not in 0:255"
+msgstr "spalvos intensyvumas %s ne iš intervalo 0:255"
+
+#, c-format
+msgid "color intensity %d, not in 0:255"
+msgstr "spalvos intensyvumas %d ne iš intervalo 0:255"
+
+#, c-format
+msgid "alpha level %s, not in [0,1]"
+msgstr "alfa lygis %s ne iš intervalo [0,1]"
+
+#, c-format
+msgid "alpha level %g, not in [0,1]"
+msgstr "alfa lygis %g ne iš intervalo [0,1]"
+
+#, c-format
+msgid "alpha level %s, not in 0:255"
+msgstr "alfa lygis %s ne iš intervalo 0:255"
+
+#, c-format
+msgid "alpha level %d, not in 0:255"
+msgstr "alfa lygis %d ne iš intervalo 0:255"
+
+msgid "inputs must be finite"
+msgstr "įvestys turi būti baigtinės"
+
+msgid "bad hsv to rgb color conversion"
+msgstr "netinkamas spalvų keitimas iš hsv į rgb"
+
+msgid "invalid hsv color"
+msgstr "netinkama hsv spalva"
+
+msgid "invalid hcl color"
+msgstr "netinkamas hcl spalva"
+
+msgid "invalid value of 'maxColorValue'"
+msgstr "neteisinga 'maxColorValue' reikšmė"
+
+msgid "invalid 'names' vector"
+msgstr "neteisingas 'names' vektorius"
+
+msgid "invalid gray level, must be in [0,1]."
+msgstr "netinkamas pilkumo lygis, turi būti iš intervalo [0,1]."
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "neteisinga '%s' reikšmė"
+
+msgid "invalid hex digit in 'color' or 'lty'"
+msgstr "neteisingas šešioliktainis skaitmuo 'color' ar 'lty'"
+
+msgid "invalid RGB specification"
+msgstr "neteisinga RGB specifikacija"
+
+#, c-format
+msgid "invalid color name '%s'"
+msgstr "neteisingas spalvos vardas '%s'"
+
+#, c-format
+msgid "invalid color specification \"%s\""
+msgstr "neteisinga spalvos specifikacija \"%s\""
+
+msgid "supplied color is neither numeric nor character"
+msgstr "pateikta spalva nėra nei skaitinė, nei simbolinė"
+
+#, c-format
+msgid "numerical color values must be >= 0, found %d"
+msgstr "spalvos skaitinė reikšmė turi būti > = 0, rasta %d"
+
+msgid "invalid argument type"
+msgstr "neteisingas argumento tipas"
+
+msgid "unknown palette (need >= 2 colors)"
+msgstr "nežinoma paletė (reikia >= 2 spalvų)"
+
+#, c-format
+msgid "maximum number of colors is %d"
+msgstr "didžiausias spalvų skaičius yra %d"
+
+#, c-format
+msgid "afm file '%s' could not be opened"
+msgstr "afm failas '%s' negali būti atvertas"
+
+msgid "unknown AFM entity encountered"
+msgstr "nežinoma AFM objekto klaida"
+
+#, c-format
+msgid "invalid string in '%s'"
+msgstr "neteisinga eilutė, esanti '%s'"
+
+#, fuzzy, c-format
+msgid "font width unknown for character 0x%02x in encoding %s"
+msgstr "nežinomas šrifto plotis ženklui 0x%x"
+
+#, fuzzy, c-format
+msgid "font metrics unknown for Unicode character U+%04X"
+msgstr "nežinoma šrifto metrika unikodo ženklui U+%04x"
+
+#, c-format
+msgid "unknown encoding '%s' in 'PostScriptMetricInfo'"
+msgstr "nežinoma koduotė '%s', esanti 'PostScriptMetricInfo'"
+
+#, c-format
+msgid "Unicode character %lc (U+%04X) cannot be converted"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "font metrics unknown for character 0x%02x in encoding %s"
+msgstr "nežinoma šrifto metrika ženklui 0x%x"
+
+#, fuzzy, c-format
+msgid "invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
+msgstr "neteisingas ženklas (%04x) perduotas į 'PostScriptCIDMetricInfo' vienbaitėje koduotės lokalėje"
+
+msgid "invalid character sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
+msgstr "neteisingas ženklas perduotas į 'PostScriptCIDMetricInfo' vienbaitėje koduotės lokalėje"
+
+msgid "failed to allocate CID font info"
+msgstr "nepavyko paskirti CID šriftų informacijos"
+
+msgid "failed to allocate Type 1 font info"
+msgstr "nepavyko paskirti Tipas 1 šriftų informacijos"
+
+msgid "failed to allocate encoding info"
+msgstr "nepavyko paskirti koduotės informacijos"
+
+msgid "failed to allocate CID font family"
+msgstr "nepavyko paskirti CID šriftų šeimos"
+
+msgid "failed to allocate Type 1 font family"
+msgstr "nepavyko paskirti Tipas 1 šriftų šeimos"
+
+msgid "failed to allocate font list"
+msgstr "nepavyko paskirti šriftų sąrašo"
+
+msgid "failed to allocated encoding list"
+msgstr "nepavyko paskirti koduočių sąrašo"
+
+msgid "truncated string which was too long for copy"
+msgstr "eilutė, kuri buvo per ilga kopijuoti, yra sutrumpinta"
+
+#, c-format
+msgid "failed to load encoding file '%s'"
+msgstr "nepavyko įkelti koduotės failo '%s'"
+
+msgid "invalid font name or more than one font name"
+msgstr "neteisingas vienas ar keli šrifto vardai"
+
+#, c-format
+msgid "font family '%s' not found in PostScript font database"
+msgstr "šrifto šeimos '%s' nepavyko rasti PostScript šriftų duomenų bazėje"
+
+#, c-format
+msgid "font encoding for family '%s' not found in font database"
+msgstr "šriftų duomenų bazėje nepavyko rasti šrifto koduotės šeimai '%s'"
+
+#, c-format
+msgid "font CMap for family '%s' not found in font database"
+msgstr "šriftų duomenų bazėje nepavyko rasti šrifto CMap šeimai '%s'"
+
+#, c-format
+msgid "cannot load afm file '%s'"
+msgstr "nepavyksta įkelti afm failo '%s'"
+
+msgid "corrupt loaded encodings;  encoding not recorded"
+msgstr "sugadinta įkeliama koduotė;  koduotė neįrašyta"
+
+msgid "failed to record device encoding"
+msgstr "nepavyko įrašyti įrenginio koduotės"
+
+msgid "object '.ps.prolog' is not a character vector"
+msgstr "objektas '.ps.prolog' nėra ženklo vektorius"
+
+msgid "invalid line end"
+msgstr "neteisinga eilutės pabaiga"
+
+msgid "invalid line join"
+msgstr "neteisingas eilutės sujungimas"
+
+msgid "invalid line mitre"
+msgstr "neteisingas linijos jungimas 45° nuožambiu kampu"
+
+#, c-format
+msgid "attempt to use invalid font %d replaced by font 1"
+msgstr "bandymas naudoti negaliojantį šriftą %d pakeistas šriftu 1"
+
+#, c-format
+msgid "filename too long in %s()"
+msgstr "failo vardas yra per ilgas %s()"
+
+#, c-format
+msgid "memory allocation problem in %s()"
+msgstr "atminties paskirstymo problema, esanti %s()"
+
+#, c-format
+msgid "encoding path is too long in %s()"
+msgstr "koduojamas kelias per ilgas %s()"
+
+#, c-format
+msgid "failed to load encoding file in %s()"
+msgstr "nepavyko įkelti koduotės failo, esančio %s()"
+
+msgid "invalid font type"
+msgstr "neteisingas šrifto tipas"
+
+msgid "failed to initialise default PostScript font"
+msgstr "nepavyko nustatyti numatytojo PostScript šrifto"
+
+msgid "failed to initialise additional PostScript fonts"
+msgstr "nepavyko nustatyti papildomų PostScript šriftų"
+
+msgid "invalid foreground/background color (postscript)"
+msgstr "netinkama priekinio plano/fono spalva (postScript)"
+
+msgid "'command' is too long"
+msgstr "'command' yra per ilga"
+
+msgid "'postscript(print.it=TRUE)' used with an empty 'print' command"
+msgstr "'postscript(print.it=TRUE)' naudojama su tuščia 'print' komanda"
+
+#, c-format
+msgid "invalid page type '%s' (postscript)"
+msgstr "netinkamas puslapio tipas '%s' (postscript)"
+
+msgid "semi-transparency is not supported on this device: reported only once per page"
+msgstr "pusiau skaidrumas šiame įrenginyje nėra palaikomas: pranešama tik kartą puslapyje"
+
+#, fuzzy, c-format
+msgid "cannot open 'postscript' pipe to '%s' (reason: %s)"
+msgstr "nepavyksta atverti 'postscript' kanalo '%s'"
+
+#, c-format
+msgid "cannot open file '%s'"
+msgstr "nepavyko atverti failo '%s'"
+
+#, c-format
+msgid ""
+"error from postscript() in running:\n"
+"    %s"
+msgstr ""
+"klaida iš postscript() vykdant:\n"
+"    %s"
+
+#, c-format
+msgid "CID family '%s' not included in postscript() device"
+msgstr "CID šeima '%s' nėra įtraukta į postscript() įrenginį"
+
+#, c-format
+msgid "family '%s' not included in postscript() device"
+msgstr "šeima '%s' nėra įtraukta į postscript() įrenginį"
+
+#, c-format
+msgid "unknown encoding '%s' in 'mbcsToSbcs'"
+msgstr "nežinoma koduotė '%s', esanti 'mbcsToSbcs'"
+
+#, fuzzy, c-format
+msgid "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
+msgstr "'mbcsToSbcs' konvertavimo klaida '%s': taškas pakeistas į <%02x>"
+
+#, c-format
+msgid "conversion failure on '%s' in 'mbcsToSbcs': dot substituted for <%02x>"
+msgstr "'mbcsToSbcs' konvertavimo klaida '%s': taškas pakeistas į <%02x>"
+
+#, c-format
+msgid "failed open converter to encoding '%s'"
+msgstr "nepavyko atverti keitiklio į kodavimą '%s'"
+
+#, c-format
+msgid "failed in text conversion to encoding '%s'"
+msgstr "nepavyko konvertuoti teksto į kodavimą '%s'"
+
+#, fuzzy
+msgid "Failed to allocate PDF definition string"
+msgstr "nepavyko priskirti apibrėžimų"
+
+msgid "failed to increase definition string (shut down PDF device)"
+msgstr "nepavyko padidinti apibrėžimo eilutės (išjungti PDF įrenginį)"
+
+msgid "failed to increase 'maxDefns'"
+msgstr "nepavyko padidinti 'maxDefns'"
+
+msgid "Drawing not appended to path (contains text)"
+msgstr ""
+
+msgid "Compositing operator has no corresponding blend mode; defaulting to Normal"
+msgstr ""
+
+msgid "Failed to write PDF clipping path"
+msgstr ""
+
+msgid "Failed to write PDF stroke"
+msgstr ""
+
+msgid "Failed to write PDF fill"
+msgstr ""
+
+msgid "Failed to write PDF fillStroke"
+msgstr ""
+
+msgid "Glyph ID larger than 0xFFFF; output will be incorrect"
+msgstr ""
+
+msgid "invalid 'alpha' value in PDF"
+msgstr "neteisinga 'alpha' reikšmė PDF faile"
+
+msgid "failed to increase 'maxRaster'"
+msgstr "nepavyko padidinti 'maxRaster'"
+
+msgid "unable to allocate raster image"
+msgstr "nepavyko priskirti rastrinio vaizdo"
+
+msgid "write failed"
+msgstr "įrašyti nepavyko"
+
+msgid "corrupt loaded encodings;  font not added"
+msgstr "sugadinta įkeliama koduotė;  šriftai nepridėti"
+
+msgid "failed to record device encoding; font not added"
+msgstr "nepavyko įrašyti įrenginio koduotės, šriftai nepridėti"
+
+msgid "increasing the PDF version to 1.2"
+msgstr "atnaujinti PDF versiją į 1.2"
+
+msgid "failed to load default encoding"
+msgstr "nepavyko įkelti numatytosios koduotės"
+
+msgid "failed to initialise default PDF font"
+msgstr "nepavyko nustatyti numatytojo PDF šrifto"
+
+msgid "failed to initialise additional PDF fonts"
+msgstr "nepavyko nustatyti papildomų PDF šriftų"
+
+msgid "failed to allocate rasters"
+msgstr "nepavyko paskirti rastrų"
+
+msgid "failed to allocate masks"
+msgstr "nepavyko paskirti šablonų"
+
+msgid "failed to allocate definitions"
+msgstr "nepavyko priskirti apibrėžimų"
+
+#, c-format
+msgid "invalid paper type '%s' (pdf)"
+msgstr "netinkamas popieriaus tipas '%s' (pdf)"
+
+msgid "invalid foreground/background color (pdf)"
+msgstr "netinkama priekinio plano/fono spalva (PDF)"
+
+msgid "increasing the PDF version to 1.4"
+msgstr "atnaujinti PDF versiją į 1.4"
+
+msgid "unknown 'colormodel', using 'srgb'"
+msgstr "nežinomas 'colormodel' naudojant 'srgb'"
+
+msgid "failed to load sRGB colorspace file"
+msgstr "nepavyko įkelti sRGB spalvų erdvės failo"
+
+msgid "corrupt encodings in PDF device"
+msgstr "sugadinta koduotė PDF įrenginyje"
+
+msgid "increasing the PDF version to 1.3"
+msgstr "atnaujinti PDF versiją į 1.3"
+
+#, fuzzy, c-format
+msgid "cannot open 'pdf' pipe to '%s' (reason: %s)"
+msgstr "nepavyksta atverti 'pdf' kanalo '%s'"
+
+msgid "file = \"|cmd\" implies 'onefile = TRUE'"
+msgstr "file = \"|cmd\" reiškia 'onefile = TRUE'"
+
+#, c-format
+msgid ""
+"cannot open 'pdf' file argument '%s'\n"
+"  please shut down the PDF device"
+msgstr ""
+"nepavyksta atverti 'pdf' failo argumento '%s'\n"
+"  išjunkite PDF įrenginį"
+
+#, c-format
+msgid "Cannot open temporary file '%s' for compression (reason: %s); compression has been turned off for this device"
+msgstr "Negalima atidaryti laikinojo failo '%s' glaudinimui (priežastis: %s); glaudinimas šiam įrenginiui išjungtas"
+
+msgid "failed to find or load PDF font"
+msgstr "nepavyko rasti ir įkelti PDF šrifto"
+
+msgid "Text not added to path containing other drawing"
+msgstr ""
+
+msgid "failed to find or load PDF CID font"
+msgstr "nepavyko rasti ir įkelti PDF CID šrifto"
+
+#, fuzzy, c-format
+msgid "invalid 'file' parameter in %s"
+msgstr "neteisingas 'family' parametras, esantis %s"
+
+#, c-format
+msgid "invalid 'family' parameter in %s"
+msgstr "neteisingas 'family' parametras, esantis %s"
+
+#, c-format
+msgid "invalid 'fonts' parameter in %s"
+msgstr "neteisingas 'fonts' parametras, esantis %s"
+
+#, c-format
+msgid "invalid value of '%s'"
+msgstr "neteisinga '%s' reikšmė"
+
+#, c-format
+msgid "unable to start %s() device"
+msgstr "nepavyko paleisti %s() įrenginio"
+
+msgid "Quartz gradients exhausted (failed to increase maxPatterns)"
+msgstr ""
+
+msgid "Quartz patterns exhausted (failed to increase maxPatterns)"
+msgstr ""
+
+msgid "Attempt to release non-existent pattern"
+msgstr ""
+
+msgid "Quartz patterns exhausted"
+msgstr ""
+
+#, fuzzy
+msgid "Failed to create gradient"
+msgstr "nepavyko padidinti 'maxDefns'"
+
+msgid "Unsupported gradient fill extend type; using 'pad'"
+msgstr ""
+
+#, fuzzy
+msgid "Failed to create pattern"
+msgstr "nepavyko paskirti rastrų"
+
+msgid "Unsupported pattern extend mode;  using \"repeat\""
+msgstr ""
+
+msgid "Quartz clipping paths exhausted (failed to increase maxClipPaths)"
+msgstr ""
+
+msgid "Quartz clipping paths exhausted"
+msgstr ""
+
+#, fuzzy
+msgid "Failed to create clipping path"
+msgstr "nepavyko paskirti koduočių sąrašo"
+
+msgid "Quartz masks exhausted (failed to increase maxMasks)"
+msgstr ""
+
+msgid "Quartz masks exhausted"
+msgstr ""
+
+#, fuzzy
+msgid "Failed to create Quartz mask"
+msgstr "nepavyko paskirti šablonų"
+
+msgid "Quartz groups exhausted (failed to increase maxGroups)"
+msgstr ""
+
+msgid "Attempt to release non-existent group"
+msgstr ""
+
+msgid "Quartz groups exhausted"
+msgstr ""
+
+msgid "Add compositing operator not supported; falling back to over"
+msgstr ""
+
+msgid "Groups exhausted"
+msgstr ""
+
+#, c-format
+msgid "font \"%s\" could not be found for family \"%s\""
+msgstr "nepavyko rasti \"%s\" šrifto šeimos \"%s\""
+
+msgid "font family name is too long"
+msgstr "šriftų šeimos vardas per ilgas"
+
+#, c-format
+msgid "no font could be found for family \"%s\""
+msgstr "\"%s\" šeimai nerastas joks šriftas"
+
+msgid "Attempt to reuse non-existent clipping path"
+msgstr ""
+
+msgid "Attempt to release non-existent clipping path"
+msgstr ""
+
+msgid "Attempt to release non-existent mask"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "Invalid font path: \"%s\""
+msgstr "neteisingas 'fonts' parametras, esantis %s"
+
+#, fuzzy
+msgid "Failed to load font"
+msgstr "nepavyko paskirti šriftų sąrašo"
+
+msgid "invalid 'file' argument"
+msgstr "neteisingas 'file' argumentas"
+
+msgid "invalid quartz() device size"
+msgstr "netinkamas quartz() įrenginio dydis"
+
+msgid "unable to create device description"
+msgstr "nepavyko sukurti įrenginio aprašo"
+
+msgid "unable to create quartz() device target, given type may not be supported"
+msgstr "nepavyko sukurti quartz() paskirties įrenginio, nurodytas tipas gali būti nepalaikomas"
+
+msgid "Quartz device is not available on this platform"
+msgstr "Šioje platformoje nėra Quartz įrenginio"
+
+msgid "Not enough memory to copy graphics window"
+msgstr "Nepakanka atminties kopijuoti grafinį langą"
+
+msgid "No device available to copy graphics window"
+msgstr "Nėra įrenginio, kuris kopijuotų grafinį langą"
+
+#, c-format
+msgid "'%%' is not allowed in file name"
+msgstr "'%%' failo varde nėra leidžiamas"
+
+msgid "invalid font specification"
+msgstr "neteisinga šrifto specifikacija"
+
+msgid "font family not found in Windows font database"
+msgstr "šrifto šeima nerasta Windows šriftų duomenų bazėje"
+
+msgid "plot history seems corrupted"
+msgstr "sugadinta grafiko istorija"
+
+msgid "no plot history!"
+msgstr "nėra grafiko istorijos!"
+
+#, c-format
+msgid "filename too long in %s() call"
+msgstr "failo vardas yra per ilgas %s() kreipinyje"
+
+#, c-format
+msgid "'width=%d, height=%d' are unlikely values in pixels"
+msgstr "'width=%d, height=%d' negalimos pikselių reikšmės"
+
+msgid "unable to allocate bitmap"
+msgstr "nepavyko priskirti rastrų"
+
+#, c-format
+msgid "unable to open file '%s' for writing"
+msgstr "nepavyko atverti failo '%s' įrašymui"
+
+msgid "filename too long in jpeg() call"
+msgstr "failo vardas per ilgas jpeg() kreipinyje"
+
+msgid "filename too long in tiff() call"
+msgstr "failo vardas per ilgas tiff() kreipinyje"
+
+msgid "filename too long in win.metafile() call"
+msgstr "failo vardas yra per ilgas win.metafile() kreipinyje"
+
+#, c-format
+msgid "unable to open metafile '%s' for writing"
+msgstr "nepavyko atverti metafailo '%s' įrašymui"
+
+msgid "unable to open clipboard to write metafile"
+msgstr "nepavyko atverti iškarpinės ir įrašyti metafailą"
+
+msgid "Insufficient memory for resize. Killing device"
+msgstr "Nepakanka atminties pakeisti dydį. Įrenginio naikinimas"
+
+msgid "Insufficient memory for resize. Disabling alpha blending"
+msgstr "Nepakanka atminties pakeisti dydį. Alfa suliejimo išjungimas"
+
+msgid "a clipboard metafile can store only one figure."
+msgstr "iškarpinės metafaile gali būti saugomas tik vienas paveikslas."
+
+#, c-format
+msgid "metafile '%s' could not be created"
+msgstr "metafailas '%s' negali būti sukurtas"
+
+msgid "R Graphics"
+msgstr "R grafika"
+
+msgid "attempt to use the locator after dev.hold()"
+msgstr "bandymas naudoti ieškiklį po dev.hold()"
+
+msgid "graphics device closed during call to locator or identify"
+msgstr "grafinis įrenginys uždarytas iškvietimo į ieškiklį arba identifikavimą metu"
+
+msgid "option 'windowsTimeouts' should be integer"
+msgstr "parametras 'windowsTimeouts' turi būti sveikasis skaičius"
+
+msgid "invalid device number in 'savePlot'"
+msgstr "neteisingas įrenginio numeris 'savePlot'"
+
+msgid "invalid device in 'savePlot'"
+msgstr "neteisingas įrenginys 'savePlot'"
+
+msgid "invalid filename argument in 'savePlot'"
+msgstr "neteisingas failo vardo argumentas 'savePlot'"
+
+msgid "invalid type argument in 'savePlot'"
+msgstr "neteisingo tipo argumentas, esantis 'savePlot'"
+
+msgid "unknown type in savePlot"
+msgstr "nežinomas tipas, esantis savePlot"
+
+msgid "processing of the plot ran out of memory"
+msgstr "grafiko apdorojimui trūksta atminties"
+
+msgid "Impossible to open "
+msgstr "Neįmanoma atverti "
+
+msgid "invalid 'width' or 'height'"
+msgstr "neteisingas 'width' arba 'height'"
+
+msgid "argument must have positive length"
+msgstr "argumento ilgis turi būti teigiamas"
+
+msgid "invalid argument"
+msgstr "neteisingas argumentas"
+
+msgid "NA argument is invalid"
+msgstr "NA argumentas neleistinas"
+
+msgid "Killing locked device"
+msgstr ""
+
+msgid "Group definition ignored (device is appending path)"
+msgstr ""
+
+msgid "Group use ignored (device is appending path)"
+msgstr ""
+
+msgid "Mask ignored (device is appending path)"
+msgstr ""
+
+#, fuzzy
+msgid "QuartzBitmap_Output - filename is empty!"
+msgstr "QuartzBitmap_Output - nepavyko atverti failo '%s'"
+
+#, c-format
+msgid "QuartzBitmap_Output - unable to open file '%s'"
+msgstr "QuartzBitmap_Output - nepavyko atverti failo '%s'"
+
+msgid "not a supported scheme, no image data written"
+msgstr "schema nepalaikoma, nėra įrašytų vaizdo duomenų"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "neteisingas '%s' argumentas"
+
+msgid "unimplemented cairo-based device"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "could not open file '%s'"
+msgstr "nepavyko atverti failo '%s'"
+
+#, fuzzy, c-format
+msgid "unable to start device '%s'"
+msgstr "nepavyko paleisti %s() įrenginio"
+
+msgid "Cairo patterns exhausted (failed to increase maxPatterns)"
+msgstr ""
+
+msgid "Cairo patterns exhausted"
+msgstr ""
+
+msgid "Cairo clipping paths exhausted (failed to increase maxClipPaths)"
+msgstr ""
+
+msgid "Cairo clipping paths exhausted"
+msgstr ""
+
+msgid "Cairo masks exhausted (failed to increase maxMasks)"
+msgstr ""
+
+msgid "Cairo masks exhausted"
+msgstr ""
+
+msgid "Ignored luminance mask (not supported on this device)"
+msgstr ""
+
+msgid "Cairo groups exhausted (failed to increase maxGroups)"
+msgstr ""
+
+msgid "Cairo groups exhausted"
+msgstr ""
+
+#, fuzzy
+msgid "Font variations too long"
+msgstr "šriftų šeimos vardas per ilgas"
+
+#, fuzzy
+msgid "Failed to apply font variations"
+msgstr "nepavyko priskirti apibrėžimų"
+
+msgid "Variable fonts not supported (requires Cairo >= 1.16.0)"
+msgstr ""
+
+#, fuzzy
+msgid "Font file not found; matching font family and face"
+msgstr "šrifto šeima nerasta Windows šriftų duomenų bazėje"
+
+#~ msgid "ran out of colors in xfig()"
+#~ msgstr "xfig() trūksta spalvų"
+
+#, c-format
+#~ msgid "unimplemented line texture %08x: using Dash-double-dotted"
+#~ msgstr "negalima linijos tekstūra %08x naudojant punktyrus dvigubus brūkšnius"
+
+#, c-format
+#~ msgid "unknown postscript font family '%s', using Helvetica"
+#~ msgstr "nežinoma postscript šriftų šeima '%s', naudojant Helvetica"
+
+#~ msgid "invalid foreground/background color (xfig)"
+#~ msgstr "netinkama priekinio plano/fono spalva (xfig)"
+
+#~ msgid "only Type 1 fonts supported for XFig"
+#~ msgstr "tik Tipas 1 šriftai palaikomi XFig"
+
+#~ msgid "failed to initialise default XFig font"
+#~ msgstr "nepavyko nustatyti numatytojo XFig šrifto"
+
+#, c-format
+#~ msgid "invalid page type '%s' (xfig)"
+#~ msgstr "netinkamas puslapio tipas '%s' (xfig)"
+
+#, c-format
+#~ msgid "xfig(%s, onefile=FALSE) will only return the last plot"
+#~ msgstr "xfig(%s, onefile=FALSE) grąžins tik paskutinį grafiką"
+
+#~ msgid "empty file name"
+#~ msgstr "tuščias failo vardas"
+
+#, c-format
+#~ msgid "unable to use encoding '%s'"
+#~ msgstr "negalima naudoti koduotės '%s'"

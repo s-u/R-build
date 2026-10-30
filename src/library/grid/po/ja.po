@@ -1,0 +1,156 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R 2.1.1\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-08-01 04:41-0700\n"
+"PO-Revision-Date: 2026-04-14 15:39+0000\n"
+"Last-Translator: Reiko Okamoto <reiko.okamoto17@gmail.com>\n"
+"Language-Team: RjpWiki Message Translation Team <mokada@md.tsukuba.ac.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11.4\n"
+
+msgid "graphical parameter 'fontfamily' has a maximum length of 200 bytes"
+msgstr ""
+
+msgid "updateGContext must only be called after initGContext"
+msgstr ""
+
+msgid "Turning clipping on or off within a (clipping) path is no honoured"
+msgstr ""
+
+msgid "cannot clip to rotated viewport"
+msgstr "rotated viewport のクリップは出来ません"
+
+msgid "Clipping paths within a (clipping) path are not honoured"
+msgstr ""
+
+msgid "Masks within a (clipping) path are not honoured"
+msgstr ""
+
+#, c-format
+msgid "Viewport '%s' was not found"
+msgstr ""
+
+msgid "cannot pop the top-level viewport ('grid' and 'graphics' output mixed?)"
+msgstr "トップレベルの viewport は pop することが出来ません ('grid' と 'graphics' の出力を混同していませんか?)"
+
+msgid "attempt to plot on null device"
+msgstr "ナルデバイスにプロットしようとしています"
+
+msgid "there is no layout defined"
+msgstr "レイアウトが定義されていません"
+
+msgid "polygon edge not found (zero-width or zero-height?)"
+msgstr "多角形の頂点が見付かりません (幅もしくは高さがゼロ？)"
+
+msgid "polygon edge not found"
+msgstr "多角形の頂点が見付かりません"
+
+msgid "require at least two points to draw arrow"
+msgstr "矢印を書くためには少なくとも二つの点が必要です"
+
+msgid "non-finite control point in Xspline"
+msgstr "Xspline 中に有限でない制御点"
+
+msgid "non-finite x or y in graphics path"
+msgstr "グラフィックパスに有限でない x か y があります"
+
+msgid "Empty raster"
+msgstr "ラスターが空です"
+
+msgid "Coordinates for text pch not yet supported"
+msgstr ""
+
+#, c-format
+msgid "pch value '%d' is invalid in this locale"
+msgstr ""
+
+#, c-format
+msgid "unimplemented pch value '%d'"
+msgstr "pch の値 '%d' は未実装です"
+
+msgid "invalid plotting symbol"
+msgstr "不正なプロット記号です"
+
+msgid "unable to clip to rotated rectangle"
+msgstr "回転された矩形へクリップ出来ません"
+
+msgid "invalid 'layout.pos.row'"
+msgstr "不正な 'layout.pos.row' です"
+
+msgid "invalid 'layout.pos.col'"
+msgstr "不正な 'layout.pos.col' です"
+
+msgid "singular transformation matrix"
+msgstr "特異な変換行列です"
+
+msgid "unable to store 'grid' state.  Too many devices open?"
+msgstr "現在の 'grid' の状態を保持することが出来ません。デバイスを開きすぎていませんか?"
+
+msgid "Cannot create unit scalar from 0-length unit vector"
+msgstr ""
+
+msgid "invalid unit or unit not yet implemented"
+msgstr "不正な単位 (unit) か、まだ実装されていない単位 (unit) です"
+
+msgid "Viewport has zero dimension(s)"
+msgstr "ビューポートの次元数がゼロです"
+
+msgid "Unsupported unit conversion"
+msgstr "対応していない単位変換です"
+
+msgid "Invalid unit"
+msgstr "不正な単位 (unit) です"
+
+msgid "'units' must be character"
+msgstr "単位 ('units') は文字型でなければなりません"
+
+msgid "'units' must be of length > 0"
+msgstr "単位 ('units') の長さは 0 より大きくなければなりません"
+
+msgid "data must be either NULL, have length 1, or match the length of the final unit vector"
+msgstr ""
+
+msgid "no string supplied for 'strwidth/height' unit"
+msgstr ""
+
+msgid "no 'grob' supplied for 'grobwidth/height' unit"
+msgstr ""
+
+msgid "'gPath' must have depth 1 in 'grobwidth/height' units"
+msgstr ""
+
+msgid "non-NULL value supplied for plain unit"
+msgstr ""
+
+msgid "old version of unit class is no longer allowed"
+msgstr ""
+
+msgid "object is not coercible to a unit"
+msgstr ""
+
+msgid "object is not a unit"
+msgstr ""
+
+msgid "units can only be multiplied with numerics and integers"
+msgstr ""
+
+msgid "Unable to calculate text width/height (using zero)"
+msgstr ""
+
+msgid "Mask is not logical value ('none' or 'inherit')"
+msgstr ""
+
+msgid "non-finite location and/or size for viewport"
+msgstr "有限でない location かつ/または 有限でない viewport に対するサイズです"
+
+#~ msgid "unimplemented unit function"
+#~ msgstr " 未実装の単位 (unit) 関数です "
+
+#~ msgid "Invalid circle radius (must be non-negative)"
+#~ msgstr " 不正な円の半径です（非負でなければなりません） "

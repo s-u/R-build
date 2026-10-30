@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: R 3.5.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-09-02 17:50-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
+"Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"na-Revision-Date: 2012-05-29 07:55+0100\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.4\n"
+
+msgid "argument 'files' must be character"
+msgstr "argument 'files' musi być tekstem"
+
+#, c-format
+msgid "md5 failed on file '%ls'"
+msgstr "md5 nie powiodło się na pliku '%ls'"
+
+#, c-format
+msgid "md5 failed on file '%s'"
+msgstr "md5 nie powiodło się na pliku '%s'"
+
+#, c-format
+msgid "sha256 failed on file '%ls'"
+msgstr "sha256 nie powiodło się na pliku '%ls'"
+
+#, c-format
+msgid "sha256 failed on file '%s'"
+msgstr "sha256 nie powiodło się na pliku '%s'"
+
+#, c-format
+msgid "only %d arguments are allowed"
+msgstr "tylko %d argumentów jest dozwolonych"
+
+msgid "'fmt' is not a character vector"
+msgstr "'fmt' nie jest wektorem tekstowym"
+
+msgid "'fmt' must be length 1"
+msgstr "'fmt' musi mieć długość 1"
+
+#, c-format
+msgid "'fmt' length exceeds maximal format length %d"
+msgstr "długość 'fmt' przekracza maksymalną długość %d formatu"
+
+#, c-format
+msgid "unrecognised format specification '%s'"
+msgstr "nierozpoznane określenie '%s' formatu"
+
+msgid "at most one asterisk '*' is supported in each conversion specification"
+msgstr "co najwyżej jedna gwiazdka '*' jest wspierana w każdym określeniu zamiany"
+
+#, c-format
+msgid "unable to allocate buffer for long string at line %d"
+msgstr "nie można przydzielić bufora dla długiego tekstu w linii %d"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "niepoprawna wartość '%s'"
+
+#, c-format
+msgid "bad markup (extra space?) at %s:%d:%d"
+msgstr "błędne oznakowanie (dodatkowa spacja?) w %s:%d:%d"
+
+#, c-format
+msgid "Macro '%s' previously defined."
+msgstr "Makro '%s' zostało już poprzednio zdefiniowane."
+
+#, c-format
+msgid "At most 4 arguments are allowed for user defined macros."
+msgstr "Co najwyżej 4 argumenty są dozwolone dla makr zdefiniowanych przez użytkownika."
+
+#, c-format
+msgid "No macro definition for '%s'."
+msgstr "Brak makra zdefiniowanego dla '%s'."
+
+#, c-format
+msgid "Not enough arguments passed to user macro '%s'"
+msgstr "Zbyt mało argumentów przekazanych do makra '%s' użytkownika"
+
+#, c-format
+msgid "newline within quoted string at %s:%d"
+msgstr "nowa linia wewnątrz cytowanego ciągu znaków w %s:%d"
+
+#, c-format
+msgid "unable to allocate buffer for long macro at line %d"
+msgstr "nie można przydzielić bufora dla długiego makra w linii %d"
+
+msgid "macros nested too deeply: infinite recursion?"
+msgstr "makra są zagnieżdżone zbyt głęboko: nieskończona rekurencja?"
+
+#, c-format
+msgid "Unable to find macro %s"
+msgstr "Nie można znaleźć makra %s"
+
+#, c-format
+msgid "Unexpected end of input (in %c quoted string opened at %s:%d:%d)"
+msgstr "Nieoczekiwane zakończenie wejścia (w %c cytowanym ciągu znaków otwartym w %s:%d:%d)"
+
+msgid "'parse_Rd' is not re-entrant"
+msgstr ""
+
+msgid "cannot open the connection"
+msgstr "nie można otworzyć połączenia"
+
+msgid "cannot read from this connection"
+msgstr "nie można czytać z tego połączenia"
+
+msgid "invalid Rd file"
+msgstr "niepoprawny plik Rd"
+
+msgid "'deparseRd' only supports deparsing character elements"
+msgstr "'deparseRd' wspiera tylko konwertowanie wyrażenia na ciąg znaków dla elementów znakowych"
+
+msgid "bad state"
+msgstr "błędny stan"
+
+#, c-format
+msgid "bad text mode %d in 'deparseRd'"
+msgstr "błędny tryb %d tekstu w 'deparseRd'"
+
+msgid "invalid bind address specification"
+msgstr "niepoprawne określenie adresu wiążącego"
+
+#, c-format
+msgid "Invalid port number %d: should be in 0:65535, typically above 1024"
+msgstr "Niepoprawny numer portu %d: powinien być w zakresie 0:65535, zazwyczaj powyżej 1024"
+
+msgid "allocation error in remove_dot_segments"
+msgstr ""
+
+msgid "non-character argument"
+msgstr ""
+
+msgid "path too long"
+msgstr "ścieżka jest zbyt długa"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "niepoprawny argument '%s'"
+
+msgid "write error during file append"
+msgstr "błąd zapisu podczas dołączania pliku"
+
+msgid "too many items"
+msgstr "zbyt wiele pozycji"
+
+msgid "pskill() is not supported on this platform"
+msgstr "'pskill()' nie jest wspierany na tej platformie"
+
+msgid "psnice() is not supported on this platform"
+msgstr "'psnice()' nie jest wspierany na tej platformie"
+
+msgid "invalid argument type"
+msgstr "niepoprawny typ argumentu"
+
+msgid "out of memory"
+msgstr "Zabrakło pamięci"

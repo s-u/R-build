@@ -1,0 +1,216 @@
+# R Italian translation
+# Copyright (C) The R Foundation
+# This file is distributed under the same license as the R package.
+# Daniele Medri <dmedri@gmail.com>, 2005-2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: R-4-3-BRANCH\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2026-04-25 10:48-0700\n"
+"PO-Revision-Date: 2023-01-19 18:36+0100\n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
+"Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#, c-format
+msgid "invalid '%s' argument"
+msgstr "argomento '%s' non valido"
+
+msgid "invalid quote symbol set"
+msgstr "simbolo di citazione non valido"
+
+msgid "cannot open the connection"
+msgstr "non è possibile aprire la connessione"
+
+msgid "cannot read from this connection"
+msgstr "non posso leggere da questa connessione"
+
+#, c-format
+msgid "quoted string on line %d terminated by EOF"
+msgstr "la stringa tra apici alla linea %d termina con EOF"
+
+msgid "the first argument must be of mode character"
+msgstr "il primo argomento dev'essere in modalità caratteri"
+
+#, c-format
+msgid "invalid 'numerals' string: \"%s\""
+msgstr "stringa 'numerals' non valida: \"%s\""
+
+#, c-format
+msgid "Selection: "
+msgstr "Selezione: "
+
+msgid "cannot allocate buffer in 'readTableHead'"
+msgstr "non posso allocare il buffer in 'readTableHead'"
+
+msgid "\\ followed by EOF"
+msgstr "\\ seguito da EOF"
+
+#, c-format
+msgid "incomplete final line found by readTableHeader on '%s'"
+msgstr "trovata linea finale incompleta da readTableHeader su '%s'"
+
+msgid "index out of range"
+msgstr "indice fuori campo di variazione"
+
+#, c-format
+msgid "Problem closing connection:  %s"
+msgstr "Problema riscontrato durante la chiusura della connessione: %s"
+
+msgid "Problem closing connection"
+msgstr "Problema riscontrato durante la chiusura della connessione"
+
+msgid "'file' is not a connection"
+msgstr "'file' non è una connessione"
+
+msgid "cannot write to this connection"
+msgstr "non è possibile scrivere su questa connessione"
+
+msgid "'dec' must be a single character"
+msgstr "'dec' dev'essere un singolo carattere"
+
+#, c-format
+msgid "corrupt data frame -- length of column %d does not match nrows"
+msgstr "data frame corrotto -- la lunghezza della colonna %d non corrisponde con nrows"
+
+#, fuzzy, c-format
+msgid "column %d claims to be a factor but does not have numeric codes"
+msgstr "la colonna %d si presenta come un factor ma non ha codici numerici"
+
+msgid "corrupt matrix -- dims do not match length"
+msgstr "matrice corrotta -- le dimensioni non corrispondono con la lunghezza"
+
+msgid "'savehistory' can only be used in Rgui and Rterm"
+msgstr "'savehistory' può essere utilizzata in Rgui e Rterm"
+
+msgid "'loadhistory' can only be used in Rgui and Rterm"
+msgstr "'loadhistory' può essere utilizzata in Rgui e Rterm"
+
+msgid "invalid timestamp"
+msgstr "timestamp non valido"
+
+msgid "X11 dataentry cannot be loaded"
+msgstr "La dataentry X11 non può essere caricata"
+
+msgid "X11 is not available"
+msgstr "X11 non è disponibile"
+
+#, c-format
+msgid "invalid '%s' specification"
+msgstr "specificazione '%s' non valida"
+
+#, c-format
+msgid "'%s' contains missing values"
+msgstr "'%s' contiene valori mancanti"
+
+msgid "argument 'class' must be a character string"
+msgstr "l'argomento 'class' dev'essere una stringa character"
+
+msgid "argument 'x' must be a length-1 character vector"
+msgstr "l'argomento 'x' dev'essere un vettore carattere di lunghezza 1"
+
+msgid "argument 'x' must be UTF-8 encoded (including ASCII)"
+msgstr "l'argomento 'x' dev'essere codificato UTF-8 (incluso ASCII)"
+
+msgid "'hostname' must be a character vector of length 1"
+msgstr "'hostname' dev'essere un vettore di caratteri di lunghezza 1"
+
+#, c-format
+msgid "nsl() was unable to resolve host '%s'"
+msgstr "nls() non è stato in grado di risolvere il nome host '%s'"
+
+msgid "unknown format returned by 'gethostbyname'"
+msgstr "'gethostbyname' ha restituito un formato sconosciuto"
+
+msgid "nsl() is not supported on this platform"
+msgstr "nls() non è supportata su questa piattaforma"
+
+msgid "unknown type"
+msgstr "tipo sconosciuto"
+
+msgid "menu functions can only be used in the GUI"
+msgstr "le funzioni menu possono solo essere usate nella GUI"
+
+#, c-format
+msgid "unable to retrieve items for %s (%s)"
+msgstr "non è possibile recuperare le voci per %s (%s)"
+
+#, c-format
+msgid "unable to add menu (%s)"
+msgstr "non è possibile aggiungere il menu (%s)"
+
+#, c-format
+msgid "unable to add menu item (%s)"
+msgstr "non è possibile aggiungere la voce di menu (%s)"
+
+msgid "menu does not exist"
+msgstr "il menu non esiste"
+
+#, c-format
+msgid "unable to delete menu item (%s)"
+msgstr "non è possibile eliminare la voce di menu (%s)"
+
+#, c-format
+msgid "invalid '%s' value"
+msgstr "valore '%s' non valido"
+
+#, c-format
+msgid "Registry key '%ls' not found"
+msgstr "Chiave registro '%ls' non trovata"
+
+msgid "unsupported version of Windows"
+msgstr "versione non supportata di Windows"
+
+msgid "argument must be a character vector or a raw vector"
+msgstr "l'argomento dev'essere un vettore di caratteri o un vettore raw"
+
+msgid "unable to open the clipboard"
+msgstr "non è possibile aprire gli appunti"
+
+msgid "unable to write to the clipboard"
+msgstr "non è possibile scrivere negli appunti"
+
+msgid "'title' must be a character string"
+msgstr "'title' dev'essere una stringa di caratteri"
+
+msgid "'text' must be a character string"
+msgstr "'text' dev'essere una stringa di caratteri"
+
+#, c-format
+msgid "'%s' must be length 1"
+msgstr "'%s' dev'essere di lunghezza 1"
+
+#, c-format
+msgid "'%s' must be a list"
+msgstr "'%s' dev'essere una lista"
+
+#, c-format
+msgid "'%s' element %d is not a window handle"
+msgstr "'%s' elemento %d non è un gestore di finestra"
+
+msgid "Select one or more"
+msgstr "Selezionane uno o più"
+
+msgid "Select one"
+msgstr "Selezionane uno"
+
+msgid "'default' must be a character string"
+msgstr "'default' dev'essere una stringa di caratteri"
+
+msgid "'default' is overlong"
+msgstr "'default' è troppo lungo"
+
+msgid "'caption' must be a character string"
+msgstr "'caption' dev'essere una stringa di caratteri"
+
+msgid "'multi' must be a logical value"
+msgstr "'multi' dev'essere una valore logico"
+
+msgid "'filterindex' must be an integer value"
+msgstr "'filterindex' dev'essere un valore integer"
